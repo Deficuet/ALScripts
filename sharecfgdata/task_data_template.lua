@@ -157321,7 +157321,7 @@ _G.pg.base.task_data_template[23078] = {
 	guild_coin_award = 0,
 	award = 0,
 	type = 17,
-	desc = "可通过<color=#e7b000>「主界面」</color>-<color=#e7b000>「商店」</color>-<color=#e7b000>「补给商店」</color>-<color=#e7b000>「月度商店」</color>，左侧的<color=#e7b000>「原型」</color>选项进入特装原型兑换商店；\n·可通过<color=#e7b000>「主界面」</color>-<color=#e7b000>「活动汇总」</color>，左侧的<color=#e7b000>「特装原型」</color>选项确认本月已获取的特装原型数量；\n·也可通过<color=#e7b000>「主界面」</color>左侧三角按钮，在展开的侧拉弹窗中快速确认本月的特装原型获取情况；\n·每月可获得特装原型上限为5000，每月1日0时重置获取上限；\n·可通过活动<color=#e7b000>「布里支援计划」</color>获取一定数量的特装原型，此处获取的特装原型数量不计入每月上限；\n·在<color=#e7b000>「勋章商店」</color>中可消耗<color=#e7b000>「荣誉勋章」</color>兑换特装原型，每月可兑换10次，此处获取的特装原型数量不计入每月上限。",
+	desc = "可通过<color=#e7b000>「主界面」</color>-<color=#e7b000>「商店」</color>-<color=#e7b000>「补给商店」</color>-<color=#e7b000>「月度商店」</color>，左侧的<color=#e7b000>「原型」</color>选项进入特装原型兑换商店；\n·可通过<color=#e7b000>「主界面」</color>-<color=#e7b000>「活动汇总」</color>，左侧的<color=#e7b000>「特装原型」</color>选项确认本月已获取的特装原型数量；\n·也可通过<color=#e7b000>「主界面」</color>左侧三角按钮，在展开的侧拉弹窗中快速确认本月的特装原型获取情况；\n·每月可获得特装原型上限为5000，每月1日0时重置获取上限；\n·可通过活动<color=#e7b000>「布里支援计划」</color>获取一定数量的特装原型，此处获取的特装原型数量不计入每月上限；\n·在<color=#e7b000>「勋章商店」</color>中可消耗<color=#e7b000>「荣誉勋章」</color>兑换特装原型，每月至多可兑换30次，此处获取的特装原型数量不计入每月上限。",
 	count_inherit = 0,
 	sub_type = 130,
 	target_id_2 = "0",

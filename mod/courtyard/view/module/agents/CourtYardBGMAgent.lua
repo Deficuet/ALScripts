@@ -109,6 +109,8 @@ function var_0_0.Clear(arg_12_0)
 end
 
 function var_0_0.Dispose(arg_13_0)
+	arg_13_0:Clear()
+
 	arg_13_0.recoders = nil
 
 	arg_13_0:RemoveTimer()

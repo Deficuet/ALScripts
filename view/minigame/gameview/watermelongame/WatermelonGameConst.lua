@@ -103,7 +103,7 @@ var_0_0.drop_ball_ids = {
 		weight = 20
 	}
 }
-var_0_0.enter_top_over_time = 2
+var_0_0.enter_top_over_time = 3
 var_0_0.tpl_ball = "ball"
 var_0_0.ball_count_id = 0
 

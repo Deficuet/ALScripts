@@ -91,7 +91,7 @@ function var_0_0.AddPaintingNameBySkinID(arg_8_0, arg_8_1)
 		}
 
 		if ShipSkin.IsChangeSkin(arg_8_1) then
-			local var_8_1 = ShipGroup.GetAllChangeSkinIds(arg_8_1)
+			local var_8_1 = ShipSkin.GetAllChangeSkinIds(arg_8_1)
 
 			for iter_8_0, iter_8_1 in ipairs(var_8_1) do
 				if not table.contains(var_8_0, iter_8_1) then

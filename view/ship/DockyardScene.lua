@@ -266,7 +266,7 @@ function var_0_0.SwitchContainerDisplay(arg_27_0)
 	setActive(arg_27_0.helpPhantom, arg_27_0.contextData.mode == var_0_0.MODE_SHIP_PHANTOM)
 
 	if PlayerPrefs.GetInt("PHANTOM_HELP_FIRST", 0) == 0 then
-		PlayerPrefs.GetInt("PHANTOM_HELP_FIRST", 1)
+		PlayerPrefs.SetInt("PHANTOM_HELP_FIRST", 1)
 		triggerButton(arg_27_0.helpPhantom)
 	end
 
@@ -678,7 +678,7 @@ function var_0_0.updatePhantomGroup(arg_60_0, arg_60_1, arg_60_2)
 				if var_63_0 then
 					arg_60_0:OnClickPhantom(var_63_0)
 				else
-					pg.TipsMgr.GetInstance():ShowTips("shadow_unlock_tip")
+					pg.TipsMgr.GetInstance():ShowTips(i18n("shadow_unlock_tip"))
 				end
 			end, SFX_UI_CLICK)
 		end
@@ -1185,7 +1185,9 @@ function var_0_0.GetConfirmSelect(arg_107_0)
 end
 
 function var_0_0.didEnter(arg_108_0)
-	pg.UIMgr.GetInstance():OverlayPanel(arg_108_0.blurPanel)
+	pg.UIMgr.GetInstance():OverlayPanel(arg_108_0.blurPanel, {
+		weight = arg_108_0:getWeightFromData()
+	})
 	arg_108_0:PlayUIAnimation(arg_108_0.blurPanel, "enter")
 	setActive(arg_108_0.stampBtn, getProxy(TaskProxy):mingshiTouchFlagEnabled() and arg_108_0.contextData.mode ~= var_0_0.MODE_GUILD_BOSS)
 	arg_108_0:UpdateGuildViewEquipmentsBtn()

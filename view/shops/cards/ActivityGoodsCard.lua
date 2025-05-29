@@ -51,9 +51,10 @@ function var_0_0.updateSingle(arg_3_0, arg_3_1, arg_3_2, arg_3_3, arg_3_4)
 
 	local var_3_0 = arg_3_0.goodsVO:CheckCntLimit()
 	local var_3_1 = var_3_0 and not arg_3_0.goodsVO:CheckArgLimit()
+	local var_3_2 = false
 
 	setActive(arg_3_0.mask, not var_3_0 or var_3_1)
-	setActive(arg_3_0.selloutTag, not var_3_0)
+	setActive(arg_3_0.selloutTag, false)
 
 	if arg_3_0.limitPassTag then
 		setActive(arg_3_0.limitPassTag, false)
@@ -62,46 +63,53 @@ function var_0_0.updateSingle(arg_3_0, arg_3_1, arg_3_2, arg_3_3, arg_3_4)
 	removeOnButton(arg_3_0.mask)
 
 	if var_3_1 then
-		local var_3_2, var_3_3, var_3_4 = arg_3_0.goodsVO:CheckArgLimit()
+		local var_3_3, var_3_4, var_3_5 = arg_3_0.goodsVO:CheckArgLimit()
 
-		if var_3_3 == "pass" then
+		if var_3_4 == "pass" then
 			setActive(arg_3_0.limitPassTag, true)
-			setText(findTF(arg_3_0.limitPassTag, "Text"), i18n("eventshop_unlock_info", var_3_4))
+			setText(findTF(arg_3_0.limitPassTag, "Text"), i18n("eventshop_unlock_info", var_3_5))
 			onButton(arg_3_0, arg_3_0.mask, function()
-				pg.TipsMgr.GetInstance():ShowTips(i18n("eventshop_unlock_hint", var_3_4))
+				pg.TipsMgr.GetInstance():ShowTips(i18n("eventshop_unlock_hint", var_3_5))
 			end, SFX_PANEL)
 		else
-			setText(arg_3_0.unexchangeTag, var_3_4)
+			setText(arg_3_0.unexchangeTag, var_3_5)
 
-			local var_3_5 = ""
-			local var_3_6 = var_3_3 == ShopArgs.LIMIT_ARGS_SALE_START_TIME and "LOCK" or "LIMIT"
+			local var_3_6 = ""
+			local var_3_7 = var_3_4 == ShopArgs.LIMIT_ARGS_SALE_START_TIME and "LOCK" or "LIMIT"
 
-			setText(arg_3_0.unexchangeTag:Find("sellout_tag_en"), var_3_6)
-			setActive(arg_3_0.unexchangeTag, true)
+			setText(arg_3_0.unexchangeTag:Find("sellout_tag_en"), var_3_7)
+
+			var_3_2 = true
 		end
 	end
 
-	local var_3_7 = Drop.New({
+	if not var_3_0 then
+		setActive(arg_3_0.selloutTag, true)
+	elseif var_3_2 then
+		setActive(arg_3_0.unexchangeTag, true)
+	end
+
+	local var_3_8 = Drop.New({
 		type = arg_3_1:getConfig("commodity_type"),
 		id = arg_3_1:getConfig("commodity_id"),
 		count = arg_3_1:getConfig("num")
 	})
 
-	updateDrop(arg_3_0.itemTF, var_3_7)
+	updateDrop(arg_3_0.itemTF, var_3_8)
 	setActive(arg_3_0.limitTimeSellTF, false)
 
 	if var_3_0 then
-		local var_3_8, var_3_9, var_3_10 = arg_3_0.goodsVO:CheckTimeLimit()
+		local var_3_9, var_3_10, var_3_11 = arg_3_0.goodsVO:CheckTimeLimit()
 
-		setActive(arg_3_0.limitTimeSellTF, var_3_8 and var_3_9)
+		setActive(arg_3_0.limitTimeSellTF, var_3_9 and var_3_10)
 
-		if var_3_8 and not var_3_9 then
+		if var_3_9 and not var_3_10 then
 			setActive(arg_3_0.mask, true)
 			setActive(arg_3_0.sellEndTag, true)
 			removeOnButton(arg_3_0.mask)
 			onButton(arg_3_0, arg_3_0.mask, function()
-				if var_3_10 then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("tip_build_ticket_exchange_expired", var_3_7:getName()))
+				if var_3_11 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("tip_build_ticket_exchange_expired", var_3_8:getName()))
 				end
 			end, SFX_PANEL)
 		end
@@ -116,24 +124,24 @@ function var_0_0.updateSingle(arg_3_0, arg_3_1, arg_3_2, arg_3_3, arg_3_4)
 
 	arg_3_0.countTF.text = arg_3_1:getConfig("resource_num")
 
-	local var_3_11 = var_3_7:getName() or "??"
+	local var_3_12 = var_3_8:getName() or "??"
 
-	setText(arg_3_0.nameTxt, shortenString(var_3_11, 6, 1))
+	setText(arg_3_0.nameTxt, shortenString(var_3_12, 6, 1))
 
-	local var_3_12 = arg_3_1:getConfig("num_limit")
+	local var_3_13 = arg_3_1:getConfig("num_limit")
 
-	if var_3_12 == 0 then
+	if var_3_13 == 0 then
 		arg_3_0.limitCountTF.text = i18n("common_no_limit")
 	else
-		local var_3_13 = arg_3_1:GetPurchasableCnt()
+		local var_3_14 = arg_3_1:GetPurchasableCnt()
 
-		arg_3_0.limitCountTF.text = math.max(var_3_13, 0) .. "/" .. var_3_12
+		arg_3_0.limitCountTF.text = math.max(var_3_14, 0) .. "/" .. var_3_13
 	end
 
-	local var_3_14 = var_0_0.Color[arg_3_2] or var_0_0.DefaultColor
+	local var_3_15 = var_0_0.Color[arg_3_2] or var_0_0.DefaultColor
 
-	arg_3_0.limitCountTF.color = arg_3_3 or Color.New(unpack(var_3_14))
-	arg_3_0.limitCountLabelTF.color = arg_3_3 or Color.New(unpack(var_3_14))
+	arg_3_0.limitCountTF.color = arg_3_3 or Color.New(unpack(var_3_15))
+	arg_3_0.limitCountLabelTF.color = arg_3_3 or Color.New(unpack(var_3_15))
 	arg_3_4 = arg_3_4 or Color.New(0, 0, 0, 1)
 
 	if GetComponent(arg_3_0.limitCountTF, typeof(Outline)) then

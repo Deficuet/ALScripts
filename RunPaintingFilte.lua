@@ -264,7 +264,7 @@ function var_0_0.GetNormalShopSkinIDList()
 			end
 
 			if ShipSkin.IsChangeSkin(var_21_1) then
-				local var_21_2 = ShipGroup.GetAllChangeSkinIds(var_21_1)
+				local var_21_2 = ShipSkin.GetAllChangeSkinIds(var_21_1)
 
 				for iter_21_2, iter_21_3 in ipairs(var_21_2) do
 					if not table.contains(var_21_0, iter_21_3) then
@@ -296,7 +296,7 @@ function var_0_0.GetActShopSkinIDList()
 			end
 
 			if ShipSkin.IsChangeSkin(var_23_1) then
-				local var_23_2 = ShipGroup.GetAllChangeSkinIds(var_23_1)
+				local var_23_2 = ShipSkin.GetAllChangeSkinIds(var_23_1)
 
 				for iter_23_2, iter_23_3 in ipairs(var_23_2) do
 					if not table.contains(var_23_0, iter_23_3) then

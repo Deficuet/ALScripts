@@ -91,195 +91,189 @@ function var_0_0.Play(arg_8_0, arg_8_1, arg_8_2, arg_8_3, arg_8_4, arg_8_5)
 	arg_8_0:PlayScript(var_8_0, arg_8_2, arg_8_3, arg_8_4, arg_8_5)
 end
 
-function var_0_0._Play(arg_9_0, arg_9_1, arg_9_2, arg_9_3, arg_9_4)
-	local var_9_0 = Guide.New(arg_9_1)
-
-	arg_9_0:PlayScript(var_9_0, arg_9_2, arg_9_3, arg_9_4, onStep)
-end
-
-function var_0_0.PlayScript(arg_10_0, arg_10_1, arg_10_2, arg_10_3, arg_10_4, arg_10_5)
-	if not arg_10_1 then
+function var_0_0.PlayScript(arg_9_0, arg_9_1, arg_9_2, arg_9_3, arg_9_4, arg_9_5)
+	if not arg_9_1 then
 		var_0_8("should exist guide file ")
-		arg_10_3()
+		arg_9_3()
 
 		return
 	end
 
-	arg_10_0.OnFailed = arg_10_4
+	arg_9_0.OnFailed = arg_9_4
 
-	arg_10_0:OnStart()
+	arg_9_0:OnStart()
 
-	local var_10_0 = {}
+	local var_9_0 = {}
 
-	for iter_10_0, iter_10_1 in ipairs(arg_10_1:GetStepsWithCode(arg_10_2)) do
-		local var_10_1 = iter_10_0
+	for iter_9_0, iter_9_1 in ipairs(arg_9_1:GetStepsWithCode(arg_9_2)) do
+		local var_9_1 = iter_9_0
 
-		table.insert(var_10_0, function(arg_11_0)
-			if arg_10_0:IsStop() then
+		table.insert(var_9_0, function(arg_10_0)
+			if arg_9_0:IsStop() then
 				return
 			end
 
-			local var_11_0 = arg_10_0.players[iter_10_1:GetType()]
-			local var_11_1 = pg.TimeMgr.GetInstance():GetServerTime()
+			local var_10_0 = arg_9_0.players[iter_9_1:GetType()]
+			local var_10_1 = pg.TimeMgr.GetInstance():GetServerTime()
 
-			var_11_0:Execute(iter_10_1, function()
-				if arg_10_5 then
-					arg_10_5(var_10_1, var_11_1)
+			var_10_0:Execute(iter_9_1, function()
+				if arg_9_5 then
+					arg_9_5(var_9_1, var_10_1)
 				end
 
-				arg_11_0()
+				arg_10_0()
 			end)
 
-			arg_10_0.player = var_11_0
+			arg_9_0.player = var_10_0
 		end)
 	end
 
-	seriesAsync(var_10_0, function()
-		arg_10_0:OnEnd(arg_10_3)
+	seriesAsync(var_9_0, function()
+		arg_9_0:OnEnd(arg_9_3)
 	end)
 end
 
-function var_0_0.CanPlay(arg_14_0)
-	if pg.MsgboxMgr.GetInstance()._go.activeSelf or pg.NewStoryMgr.GetInstance():IsRunning() or not var_0_0.ENABLE_GUIDE or not arg_14_0:IsLoaded() or arg_14_0:IsPause() or arg_14_0:IsBusy() then
+function var_0_0.CanPlay(arg_13_0)
+	if pg.MsgboxMgr.GetInstance()._go.activeSelf or pg.NewStoryMgr.GetInstance():IsRunning() or not var_0_0.ENABLE_GUIDE or not arg_13_0:IsLoaded() or arg_13_0:IsPause() or arg_13_0:IsBusy() then
 		return false
 	end
 
 	return true
 end
 
-function var_0_0.OnStart(arg_15_0)
-	pg.DelegateInfo.New(arg_15_0)
+function var_0_0.OnStart(arg_14_0)
+	pg.DelegateInfo.New(arg_14_0)
 
-	arg_15_0.state = var_0_4
+	arg_14_0.state = var_0_4
 
 	pg.m02:sendNotification(GAME.START_GUIDE)
-	arg_15_0._go.transform:SetAsLastSibling()
-	arg_15_0._go:SetActive(true)
-	arg_15_0.uiLongPress.onLongPressed:AddListener(function()
-		arg_15_0:Stop()
+	arg_14_0._go.transform:SetAsLastSibling()
+	arg_14_0._go:SetActive(true)
+	arg_14_0.uiLongPress.onLongPressed:AddListener(function()
+		arg_14_0:Stop()
 	end)
 end
 
-function var_0_0.OnEnd(arg_17_0, arg_17_1)
-	arg_17_0.uiLongPress.onLongPressed:RemoveAllListeners()
-	pg.DelegateInfo.Dispose(arg_17_0)
+function var_0_0.OnEnd(arg_16_0, arg_16_1)
+	arg_16_0.uiLongPress.onLongPressed:RemoveAllListeners()
+	pg.DelegateInfo.Dispose(arg_16_0)
 
-	arg_17_0.state = var_0_3
+	arg_16_0.state = var_0_3
 
-	arg_17_0:Clear()
+	arg_16_0:Clear()
 
-	if arg_17_1 then
-		arg_17_1()
+	if arg_16_1 then
+		arg_16_1()
 	end
 end
 
-function var_0_0.Pause(arg_18_0)
-	if arg_18_0:IsBusy() then
-		arg_18_0.state = var_0_6
+function var_0_0.Pause(arg_17_0)
+	if arg_17_0:IsBusy() then
+		arg_17_0.state = var_0_6
 
-		SetActive(arg_18_0._go, false)
+		SetActive(arg_17_0._go, false)
 	end
 end
 
-function var_0_0.Resume(arg_19_0)
-	if arg_19_0:IsPause() then
-		arg_19_0.state = var_0_4
+function var_0_0.Resume(arg_18_0)
+	if arg_18_0:IsPause() then
+		arg_18_0.state = var_0_4
 
-		SetActive(arg_19_0._go, true)
+		SetActive(arg_18_0._go, true)
 	end
 end
 
-function var_0_0.Stop(arg_20_0)
-	if arg_20_0.state ~= var_0_5 then
-		if arg_20_0.OnFailed then
-			arg_20_0.OnFailed()
+function var_0_0.Stop(arg_19_0)
+	if arg_19_0.state ~= var_0_5 then
+		if arg_19_0.OnFailed then
+			arg_19_0.OnFailed()
 		end
 
-		arg_20_0.state = var_0_5
+		arg_19_0.state = var_0_5
 
-		arg_20_0.uiFinder:Clear()
-		arg_20_0.uiDuplicator:Clear()
-		arg_20_0.uiLoader:Clear()
-		arg_20_0:Clear()
+		arg_19_0.uiFinder:Clear()
+		arg_19_0.uiDuplicator:Clear()
+		arg_19_0.uiLoader:Clear()
+		arg_19_0:Clear()
 	end
 end
 
-function var_0_0.NextStep(arg_21_0)
+function var_0_0.NextStep(arg_20_0)
 	if not IsUnityEditor then
 		return
 	end
 
-	if arg_21_0.state == var_0_4 and arg_21_0.player then
-		arg_21_0.player:NextOne()
+	if arg_20_0.state == var_0_4 and arg_20_0.player then
+		arg_20_0.player:NextOne()
 	end
 end
 
-function var_0_0.Clear(arg_22_0)
-	arg_22_0.OnFailed = nil
-	arg_22_0.sceneRecords = {}
+function var_0_0.Clear(arg_21_0)
+	arg_21_0.OnFailed = nil
+	arg_21_0.sceneRecords = {}
 
-	arg_22_0._go:SetActive(false)
+	arg_21_0._go:SetActive(false)
 
-	for iter_22_0, iter_22_1 in ipairs(arg_22_0.players) do
-		iter_22_1:Clear()
+	for iter_21_0, iter_21_1 in ipairs(arg_21_0.players) do
+		iter_21_1:Clear()
 	end
 
-	if arg_22_0.player then
-		arg_22_0.player = nil
+	if arg_21_0.player then
+		arg_21_0.player = nil
 	end
 
 	pg.m02:sendNotification(GAME.END_GUIDE)
 end
 
-function var_0_0.IsPause(arg_23_0)
-	return arg_23_0.state and arg_23_0.state == var_0_6
+function var_0_0.IsPause(arg_22_0)
+	return arg_22_0.state and arg_22_0.state == var_0_6
 end
 
-function var_0_0.IsBusy(arg_24_0)
-	return arg_24_0.state and arg_24_0.state == var_0_4
+function var_0_0.IsBusy(arg_23_0)
+	return arg_23_0.state and arg_23_0.state == var_0_4
 end
 
-function var_0_0.IsLoaded(arg_25_0)
-	return arg_25_0.state and arg_25_0.state > var_0_2
+function var_0_0.IsLoaded(arg_24_0)
+	return arg_24_0.state and arg_24_0.state > var_0_2
 end
 
-function var_0_0.IsStop(arg_26_0)
-	return arg_26_0.state and arg_26_0.state == var_0_5
+function var_0_0.IsStop(arg_25_0)
+	return arg_25_0.state and arg_25_0.state == var_0_5
 end
 
-function var_0_0.OnSceneEnter(arg_27_0, arg_27_1)
+function var_0_0.OnSceneEnter(arg_26_0, arg_26_1)
+	if not arg_26_0:IsLoaded() then
+		return
+	end
+
+	if not table.contains(arg_26_0.sceneRecords, arg_26_1.view) then
+		table.insert(arg_26_0.sceneRecords, arg_26_1.view)
+	end
+
+	if arg_26_0.player then
+		arg_26_0.player:OnSceneEnter()
+	end
+end
+
+function var_0_0.OnSceneExit(arg_27_0, arg_27_1)
 	if not arg_27_0:IsLoaded() then
 		return
 	end
 
-	if not table.contains(arg_27_0.sceneRecords, arg_27_1.view) then
-		table.insert(arg_27_0.sceneRecords, arg_27_1.view)
-	end
-
-	if arg_27_0.player then
-		arg_27_0.player:OnSceneEnter()
+	if table.contains(arg_27_0.sceneRecords, arg_27_1.view) then
+		table.removebyvalue(arg_27_0.sceneRecords, arg_27_1.view)
 	end
 end
 
-function var_0_0.OnSceneExit(arg_28_0, arg_28_1)
-	if not arg_28_0:IsLoaded() then
-		return
-	end
-
-	if table.contains(arg_28_0.sceneRecords, arg_28_1.view) then
-		table.removebyvalue(arg_28_0.sceneRecords, arg_28_1.view)
-	end
+function var_0_0.ExistScene(arg_28_0, arg_28_1)
+	return table.contains(arg_28_0.sceneRecords, arg_28_1)
 end
 
-function var_0_0.ExistScene(arg_29_0, arg_29_1)
-	return table.contains(arg_29_0.sceneRecords, arg_29_1)
-end
+function var_0_0.Exit(arg_29_0)
+	arg_29_0:Clear()
+	arg_29_0.uiFinder:Clear()
+	arg_29_0.uiDuplicator:Clear()
+	arg_29_0.uiLoader:Clear()
 
-function var_0_0.Exit(arg_30_0)
-	arg_30_0:Clear()
-	arg_30_0.uiFinder:Clear()
-	arg_30_0.uiDuplicator:Clear()
-	arg_30_0.uiLoader:Clear()
-
-	arg_30_0.state = var_0_7
+	arg_29_0.state = var_0_7
 end

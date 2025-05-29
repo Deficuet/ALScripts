@@ -590,7 +590,8 @@ function var_0_0.listNotificationInterests(arg_55_0)
 		EquipmentProxy.EQUIPMENT_UPDATED,
 		GAME.WILL_LOGOUT,
 		PaintingGroupConst.NotifyPaintingDownloadFinish,
-		GAME.CHANGE_RANDOM_SHIPS_DONE
+		GAME.CHANGE_RANDOM_SHIPS_DONE,
+		DockyardMediator.QUIT_DOCKYARD_SCENE
 	}
 end
 
@@ -706,6 +707,8 @@ function var_0_0.handleNotification(arg_56_0, arg_56_1)
 		arg_56_0.viewComponent:OnWillLogout()
 	elseif var_56_0 == PaintingGroupConst.NotifyPaintingDownloadFinish then
 		arg_56_0.viewComponent:updateFashionTag()
+	elseif var_56_0 == DockyardMediator.QUIT_DOCKYARD_SCENE then
+		arg_56_0.viewComponent:changePaintingSortLayer(true)
 	end
 end
 

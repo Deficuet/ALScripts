@@ -1195,6 +1195,26 @@ function var_0_0.changePaintingSortLayer(arg_97_0, arg_97_1)
 	for iter_97_0, iter_97_1 in ipairs(arg_97_0.tablePainting) do
 		GetComponent(iter_97_1, typeof(Canvas)).sortingOrder = var_97_1
 	end
+
+	if arg_97_1 then
+		local var_97_2 = arg_97_0.shipVO:getRarity()
+
+		if arg_97_0.isDesign and arg_97_0.designBg then
+			setActive(arg_97_0.designBg, true)
+		elseif arg_97_0.bgEffect and var_97_2 and arg_97_0.bgEffect[var_97_2] then
+			setActive(arg_97_0.bgEffect[var_97_2], true)
+		end
+	else
+		if arg_97_0.designBg then
+			setActive(arg_97_0.designBg, false)
+		end
+
+		if arg_97_0.bgEffect then
+			for iter_97_2, iter_97_3 in pairs(arg_97_0.bgEffect) do
+				setActive(iter_97_3, false)
+			end
+		end
+	end
 end
 
 function var_0_0.getInitmacyWords(arg_98_0)

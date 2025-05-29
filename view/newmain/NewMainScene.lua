@@ -263,7 +263,7 @@ function var_0_0.SwitchToNextShip(arg_36_0)
 
 	local var_36_0 = getProxy(PlayerProxy):getRawData():GetNextFlagShip()
 
-	if arg_36_0.bgView.ship.skinId ~= var_36_0.skinId or arg_36_0.bgView.ship.id ~= var_36_0.id then
+	if arg_36_0.bgView.ship:getSkinId() ~= var_36_0:getSkinId() or arg_36_0.bgView.ship.id ~= var_36_0.id then
 		arg_36_0.bgView:Refresh(var_36_0)
 		arg_36_0:PlayBgm(var_36_0)
 		arg_36_0.paintingView:Refresh(var_36_0, arg_36_0.theme:GetPaintingOffset(var_36_0))
@@ -395,7 +395,7 @@ function var_0_0.ExitCalibrationView(arg_50_0)
 end
 
 function var_0_0.ExitSilentView(arg_51_0)
-	if arg_51_0.silentView and arg_51_0.silentView:GetLoaded() and arg_51_0.silentView:isShowing() then
+	if arg_51_0.silentView and arg_51_0.silentView:isShowing() then
 		arg_51_0:FoldPanels(false)
 		arg_51_0.silentView:Destroy()
 		arg_51_0.silentView:Reset()

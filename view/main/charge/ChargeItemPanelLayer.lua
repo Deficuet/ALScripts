@@ -75,6 +75,7 @@ function var_0_0.findUI(arg_7_0)
 	end
 
 	arg_7_0.detailNormalTip = arg_7_0:findTF("NormalTips", arg_7_0.detailWindow)
+	arg_7_0.infoBtn = arg_7_0:findTF("prince_bg/info", arg_7_0.detailWindow)
 end
 
 function var_0_0.addListener(arg_8_0)
@@ -134,6 +135,7 @@ function var_0_0.updatePanel(arg_14_0)
 	local var_14_11 = arg_14_0.panelConfig.normalTip
 	local var_14_12 = arg_14_0.panelConfig.extraDrop
 	local var_14_13 = arg_14_0.panelConfig.isForceGold
+	local var_14_14 = arg_14_0.panelConfig.infoTip and arg_14_0.panelConfig.infoTip or ""
 
 	if arg_14_0.detailNormalTip then
 		setActive(arg_14_0.detailNormalTip, var_14_11)
@@ -186,10 +188,10 @@ function var_0_0.updatePanel(arg_14_0)
 	setText(arg_14_0.detailPrice, var_14_6)
 
 	if arg_14_0.extraDesc ~= nil then
-		local var_14_14 = arg_14_0.panelConfig.descExtra or ""
+		local var_14_15 = arg_14_0.panelConfig.descExtra or ""
 
-		setActive(arg_14_0.extraDesc, #var_14_14 > 0)
-		setText(arg_14_0.extraDesc, var_14_14)
+		setActive(arg_14_0.extraDesc, #var_14_15 > 0)
+		setText(arg_14_0.extraDesc, var_14_15)
 	end
 
 	if arg_14_0.detailContain then
@@ -201,13 +203,13 @@ function var_0_0.updatePanel(arg_14_0)
 				return
 			end, SFX_PANEL)
 
-			local var_14_15, var_14_16 = contentWrap(var_14_3:getConfig("name"), 10, 2)
+			local var_14_16, var_14_17 = contentWrap(var_14_3:getConfig("name"), 10, 2)
 
-			if var_14_15 then
-				var_14_16 = var_14_16 .. "..."
+			if var_14_16 then
+				var_14_17 = var_14_17 .. "..."
 			end
 
-			setText(arg_14_0:findTF("name", arg_14_0.detailItem), var_14_16)
+			setText(arg_14_0:findTF("name", arg_14_0.detailItem), var_14_17)
 			setText(arg_14_0.detailTip, var_14_2)
 		end
 
@@ -219,104 +221,119 @@ function var_0_0.updatePanel(arg_14_0)
 			arg_14_0:UpdateItems(var_14_5)
 		end
 	end
+
+	local var_14_18 = var_14_14 ~= ""
+
+	setActive(arg_14_0.infoBtn, var_14_18)
+
+	if var_14_18 then
+		onButton(arg_14_0, arg_14_0.infoBtn, function()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
+				helps = pg.gametip[var_14_14].tip
+			})
+		end, SFX_PANEL)
+	else
+		removeOnButton(arg_14_0.infoBtn)
+	end
 end
 
-function var_0_0.UpdateItems(arg_16_0, arg_16_1)
-	for iter_16_0 = #arg_16_1, arg_16_0.detailItemList.childCount - 1 do
-		Destroy(arg_16_0.detailItemList:GetChild(iter_16_0))
+function var_0_0.UpdateItems(arg_17_0, arg_17_1)
+	for iter_17_0 = #arg_17_1, arg_17_0.detailItemList.childCount - 1 do
+		Destroy(arg_17_0.detailItemList:GetChild(iter_17_0))
 	end
 
-	for iter_16_1 = arg_16_0.detailItemList.childCount, #arg_16_1 - 1 do
-		cloneTplTo(arg_16_0.detailItem, arg_16_0.detailItemList)
+	for iter_17_1 = arg_17_0.detailItemList.childCount, #arg_17_1 - 1 do
+		cloneTplTo(arg_17_0.detailItem, arg_17_0.detailItemList)
 	end
 
-	for iter_16_2 = 1, #arg_16_1 do
-		local var_16_0 = arg_16_0.detailItemList:GetChild(iter_16_2 - 1)
+	for iter_17_2 = 1, #arg_17_1 do
+		local var_17_0 = arg_17_0.detailItemList:GetChild(iter_17_2 - 1)
 
-		updateDrop(var_16_0, arg_16_1[iter_16_2])
+		updateDrop(var_17_0, arg_17_1[iter_17_2])
 
-		local var_16_1, var_16_2 = contentWrap(arg_16_1[iter_16_2]:getConfig("name"), 8, 2)
+		local var_17_1, var_17_2 = contentWrap(arg_17_1[iter_17_2]:getConfig("name"), 8, 2)
 
-		if var_16_1 then
-			var_16_2 = var_16_2 .. "..."
+		if var_17_1 then
+			var_17_2 = var_17_2 .. "..."
 		end
 
-		setText(arg_16_0:findTF("name", var_16_0), var_16_2)
-		onButton(arg_16_0, var_16_0, function()
+		setText(arg_17_0:findTF("name", var_17_0), var_17_2)
+		onButton(arg_17_0, var_17_0, function()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				hideNo = true,
 				type = MSGBOX_TYPE_SINGLE_ITEM,
-				drop = arg_16_1[iter_16_2]
+				drop = arg_17_1[iter_17_2]
 			})
 		end, SFX_PANEL)
 	end
 end
 
-function var_0_0.UpdateSkinDiscountItemItems(arg_18_0, arg_18_1)
-	local var_18_0, var_18_1 = arg_18_0:SplitItemAndSkinExperienceItem(arg_18_1)
+function var_0_0.UpdateSkinDiscountItemItems(arg_19_0, arg_19_1)
+	local var_19_0, var_19_1 = arg_19_0:SplitItemAndSkinExperienceItem(arg_19_1)
 
-	arg_18_0:UpdateItems(var_18_0)
+	arg_19_0:UpdateItems(var_19_0)
 
-	local var_18_2 = UIItemList.New(arg_18_0:findTF("window/container/bonus_gift/bg/scrollview/list"), arg_18_0:findTF("window/container/normal_items/item_tpl"))
+	local var_19_2 = UIItemList.New(arg_19_0:findTF("window/container/bonus_gift/bg/scrollview/list"), arg_19_0:findTF("window/container/normal_items/item_tpl"))
 
-	var_18_2:make(function(arg_19_0, arg_19_1, arg_19_2)
-		if arg_19_0 == UIItemList.EventUpdate then
-			arg_18_0:UpdateItem(var_18_1[arg_19_1 + 1], arg_19_2)
+	var_19_2:make(function(arg_20_0, arg_20_1, arg_20_2)
+		if arg_20_0 == UIItemList.EventUpdate then
+			arg_19_0:UpdateItem(var_19_1[arg_20_1 + 1], arg_20_2)
 		end
 	end)
-	var_18_2:align(#var_18_1)
-	setText(arg_18_0:findTF("window/container/bonus_gift/bg/Text"), i18n("skin_discount_item_return_tip"))
-	setText(arg_18_0:findTF("window/container/bonus_gift/bg/label"), i18n("skin_discount_item_extra_bounds"))
+	var_19_2:align(#var_19_1)
+	setText(arg_19_0:findTF("window/container/bonus_gift/bg/Text"), i18n("skin_discount_item_return_tip"))
+	setText(arg_19_0:findTF("window/container/bonus_gift/bg/label"), i18n("skin_discount_item_extra_bounds"))
 end
 
-function var_0_0.UpdateItem(arg_20_0, arg_20_1, arg_20_2)
-	local var_20_0 = Drop.Create({
+function var_0_0.UpdateItem(arg_21_0, arg_21_1, arg_21_2)
+	local var_21_0 = Drop.Create({
 		DROP_TYPE_ITEM,
-		arg_20_1.id,
-		arg_20_1.count
+		arg_21_1.id,
+		arg_21_1.count
 	})
 
-	updateDrop(arg_20_2, var_20_0)
-	setText(arg_20_0:findTF("name", arg_20_2), shortenString(var_20_0:getName(), 4))
-	onButton(arg_20_0, arg_20_2, function()
+	updateDrop(arg_21_2, var_21_0)
+	setText(arg_21_0:findTF("name", arg_21_2), shortenString(var_21_0:getName(), 4))
+	onButton(arg_21_0, arg_21_2, function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideNo = true,
 			type = MSGBOX_TYPE_SINGLE_ITEM,
-			drop = var_20_0
+			drop = var_21_0
 		})
 	end, SFX_PANEL)
 end
 
-function var_0_0.SplitItemAndSkinExperienceItem(arg_22_0, arg_22_1)
-	local var_22_0 = {}
-	local var_22_1 = {}
+function var_0_0.SplitItemAndSkinExperienceItem(arg_23_0, arg_23_1)
+	local var_23_0 = {}
+	local var_23_1 = {}
 
-	for iter_22_0, iter_22_1 in ipairs(arg_22_1) do
-		if var_0_0.IsSkinExperienceItem(iter_22_1) then
-			table.insert(var_22_1, iter_22_1)
+	for iter_23_0, iter_23_1 in ipairs(arg_23_1) do
+		if var_0_0.IsSkinExperienceItem(iter_23_1) then
+			table.insert(var_23_1, iter_23_1)
 		else
-			table.insert(var_22_0, iter_22_1)
+			table.insert(var_23_0, iter_23_1)
 		end
 	end
 
-	return var_22_0, var_22_1
+	return var_23_0, var_23_1
 end
 
-function var_0_0.IsSkinExperienceItem(arg_23_0)
-	local var_23_0
+function var_0_0.IsSkinExperienceItem(arg_24_0)
+	local var_24_0
 
-	if not isa(arg_23_0, Drop) then
-		arg_23_0 = Drop.New(arg_23_0)
+	if not isa(arg_24_0, Drop) then
+		arg_24_0 = Drop.New(arg_24_0)
 	end
 
-	local var_23_1 = arg_23_0:getConfigTable()
+	local var_24_1 = arg_24_0:getConfigTable()
 
-	return var_23_1 and var_23_1.usage == ItemUsage.USAGE_SKIN_EXP
+	return var_24_1 and var_24_1.usage == ItemUsage.USAGE_SKIN_EXP
 end
 
-function var_0_0.ExistSkinExperienceItem(arg_24_0, arg_24_1)
-	return _.any(arg_24_1, function(arg_25_0)
-		return var_0_0.IsSkinExperienceItem(arg_25_0)
+function var_0_0.ExistSkinExperienceItem(arg_25_0, arg_25_1)
+	return _.any(arg_25_1, function(arg_26_0)
+		return var_0_0.IsSkinExperienceItem(arg_26_0)
 	end)
 end
 

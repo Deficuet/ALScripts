@@ -297,7 +297,7 @@ end
 
 function var_0_0.OnDisplayWorld(arg_29_0, arg_29_1)
 	local var_29_0 = arg_29_0.ship:getCVIntimacy()
-	local var_29_1, var_29_2 = ShipExpressionHelper.SetExpression(findTF(arg_29_0.container, "fitter"):GetChild(0), arg_29_0.paintingName, arg_29_1, var_29_0, arg_29_0.ship.skinId)
+	local var_29_1, var_29_2 = ShipExpressionHelper.SetExpression(findTF(arg_29_0.container, "fitter"):GetChild(0), arg_29_0.paintingName, arg_29_1, var_29_0, arg_29_0.ship:getSkinId())
 
 	arg_29_0.expression = var_29_2
 end
@@ -384,7 +384,7 @@ function var_0_0.GetPaintingTransform(arg_38_0)
 end
 
 function var_0_0.GetPartScaleData(arg_39_0)
-	return pg.ship_skin_template[arg_39_0.ship.skinId].part_scale.paint
+	return pg.ship_skin_template[arg_39_0.ship:getSkinId()].part_scale.paint
 end
 
 function var_0_0.GetPartStateType(arg_40_0)

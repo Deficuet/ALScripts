@@ -99,43 +99,4 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	end)
 end
 
-function var_0_0.CheckShareSkin(arg_3_0, arg_3_1)
-	if not arg_3_1.propose then
-		return
-	end
-
-	local var_3_0 = arg_3_1:getProposeSkin()
-
-	if not var_3_0 then
-		return
-	end
-
-	local var_3_1 = {}
-	local var_3_2 = {}
-
-	for iter_3_0, iter_3_1 in pairs(getProxy(BayProxy):getRawData()) do
-		if iter_3_1.skinId == var_3_0.id then
-			if iter_3_1.groupId == arg_3_1.groupId then
-				table.insert(var_3_1, iter_3_1)
-			else
-				table.insert(var_3_2, iter_3_1)
-			end
-		end
-	end
-
-	if #var_3_1 <= 0 then
-		for iter_3_2, iter_3_3 in ipairs(var_3_2) do
-			iter_3_3.skinId = iter_3_3:getConfig("skin_id")
-		end
-	end
-
-	if #var_3_2 > 0 then
-		local var_3_3 = table.concat(_.map(var_3_2, function(arg_4_0)
-			return arg_4_0:getName()
-		end), ", ")
-
-		pg.TipsMgr.GetInstance():ShowTips(i18n("retire_marry_skin", var_3_3))
-	end
-end
-
 return var_0_0

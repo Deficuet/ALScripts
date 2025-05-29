@@ -177,7 +177,7 @@ function var_0_0.SavePostion(arg_19_0)
 	if arg_19_0.stateType == var_0_3 then
 		local var_19_0 = arg_19_0.paintingTF.anchoredPosition
 		local var_19_1 = arg_19_0.paintingTF.localScale.x
-		local var_19_2 = arg_19_0.flagShip.skinId
+		local var_19_2 = arg_19_0.flagShip:getSkinId()
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("secretary_pos_save"),
@@ -238,7 +238,7 @@ function var_0_0.ShowOrHide(arg_23_0, arg_23_1, arg_23_2, arg_23_3, arg_23_4)
 
 	arg_23_0.hideScaleSet = true
 
-	local var_23_1 = pg.ship_skin_template[arg_23_0.flagShip.skinId].part_scale
+	local var_23_1 = pg.ship_skin_template[arg_23_0.flagShip:getSkinId()].part_scale
 
 	if var_23_0 == MainPaintingView.STATE_PAINTING and var_23_1.paint and #var_23_1.paint > 0 then
 		arg_23_0.hideScaleSet = false

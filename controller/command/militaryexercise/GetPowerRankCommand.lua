@@ -37,7 +37,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			end
 
 			local var_3_2 = getProxy(PlayerProxy):getData()
-			local var_3_3 = getProxy(BayProxy):getShipById(var_3_2.character)
+			local var_3_3 = getProxy(BayProxy):GetShipPhantom(var_3_2:GetFlagShipPhantomMark())
 			local var_3_4 = {
 				id = var_3_2.id,
 				level = var_3_2.level,
@@ -45,7 +45,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				score = var_3_2.score,
 				arena_rank = SeasonInfo.getEmblem(var_3_2.score, var_3_2.rank),
 				icon = var_3_3:getConfig("id"),
-				skin_id = var_3_3.skinId,
+				skin_id = var_3_3:getSkinId(),
 				propose = var_3_3.propose and 1 or 0,
 				remoulded = var_3_3:isRemoulded() and 1 or 0
 			}
@@ -87,7 +87,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				act_id = var_1_2 or 0
 			}, 18204, function(arg_7_0)
 				local var_7_0 = getProxy(PlayerProxy):getData()
-				local var_7_1 = getProxy(BayProxy):getShipById(var_7_0.character)
+				local var_7_1 = getProxy(BayProxy):GetShipPhantom(var_7_0:GetFlagShipPhantomMark())
 				local var_7_2
 
 				if var_1_1 == PowerRank.TYPE_POWER then
@@ -129,7 +129,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 					lv = var_7_0.level,
 					arena_rank = var_7_0.maxRank,
 					icon = var_7_1:getConfig("id"),
-					skin_id = var_7_1.skinId,
+					skin_id = var_7_1:getSkinId(),
 					propose = var_7_1.propose and 1 or 0,
 					remoulded = var_7_1:isRemoulded() and 1 or 0
 				}

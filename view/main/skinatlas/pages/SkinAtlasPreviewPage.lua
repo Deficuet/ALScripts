@@ -89,9 +89,9 @@ function var_0_0.OnInit(arg_3_0)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox(var_8_2)
 	end, SFX_PANEL)
 	onButton(arg_3_0, arg_3_0.changeSkinUI, function()
-		if ShipGroup.GetChangeSkinData(arg_3_0.skin.id) then
+		if ShipSkin.GetChangeSkinData(arg_3_0.skin.id) then
 			local var_9_0 = ShipSkin.New({
-				id = ShipGroup.GetChangeSkinNextId(arg_3_0.skin.id)
+				id = ShipSkin.GetChangeSkinNextId(arg_3_0.skin.id)
 			})
 
 			arg_3_0:Flush(var_9_0, arg_3_0.index)
@@ -151,7 +151,7 @@ function var_0_0.Show(arg_16_0, arg_16_1, arg_16_2)
 	setActive(arg_16_0.changeBtnDis, var_16_1)
 	setActive(arg_16_0.changeBtnEn, not var_16_1)
 
-	local var_16_2 = ShipGroup.GetChangeSkinData(arg_16_0.skin.id)
+	local var_16_2 = ShipSkin.GetChangeSkinData(arg_16_0.skin.id)
 
 	setActive(arg_16_0.changeSkinUI, var_16_2 and true or false)
 	arg_16_0.changeSkinToggle:setSkinData(arg_16_0.skin.id)

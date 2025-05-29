@@ -464,7 +464,7 @@ function var_0_0.filterByExtra(arg_29_0, arg_29_1)
 	elseif arg_29_1 == var_0_0.ExtraUniqueSpWeapon then
 		return arg_29_0:HasUniqueSpWeapon()
 	elseif arg_29_1 == var_0_0.DRESSED then
-		return not arg_29_0:IsDefaultSkin() and arg_29_0:getRemouldSkinId() ~= arg_29_0.skinId
+		return not arg_29_0:IsDefaultSkin() and arg_29_0:getRemouldSkinId() ~= arg_29_0:getSkinId()
 	elseif arg_29_1 == var_0_0.ExtraMarry then
 		return arg_29_0.propose
 	end

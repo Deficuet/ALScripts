@@ -11,6 +11,7 @@ function var_0_0.onRegister(arg_1_0)
 	arg_1_0._nextTipAutoBattleTime = PlayerPrefs.GetInt("AutoBattleTip", 0)
 	arg_1_0._setFlagShip = PlayerPrefs.GetInt("setFlagShip", 0) > 0
 	arg_1_0._setFlagShipForSkinAtlas = PlayerPrefs.GetInt("setFlagShipforskinatlas", 0) > 0
+	arg_1_0._setFlagRandom = PlayerPrefs.GetInt("setFlagRandom", 0) > 0
 	arg_1_0._screenRatio = PlayerPrefs.GetFloat("SetScreenRatio", ADAPT_TARGET)
 	arg_1_0.storyAutoPlayCode = PlayerPrefs.GetInt("story_autoplay_flag", 0)
 	NotchAdapt.CheckNotchRatio = arg_1_0._screenRatio
@@ -269,7 +270,20 @@ function var_0_0.GetSetFlagShipForSkinAtlas(arg_30_0)
 	return arg_30_0._setFlagShipForSkinAtlas
 end
 
-function var_0_0.CheckNeedUserAgreement(arg_31_0)
+function var_0_0.SetFlagRandom(arg_31_0, arg_31_1)
+	if arg_31_0._setFlagRandom ~= arg_31_1 then
+		arg_31_0._setFlagRandom = arg_31_1
+
+		PlayerPrefs.SetInt("setFlagRandom", arg_31_1 and 1 or 0)
+		PlayerPrefs.Save()
+	end
+end
+
+function var_0_0.GetFlagRandom(arg_32_0)
+	return arg_32_0._setFlagRandom
+end
+
+function var_0_0.CheckNeedUserAgreement(arg_33_0)
 	if PLATFORM_CODE == PLATFORM_KR then
 		return false
 	elseif PLATFORM_CODE == PLATFORM_CH then
@@ -277,138 +291,138 @@ function var_0_0.CheckNeedUserAgreement(arg_31_0)
 	elseif PLATFORM_CODE == PLATFORM_JP then
 		return false
 	else
-		return arg_31_0:GetUserAgreementFlag() > arg_31_0._userAgreement
+		return arg_33_0:GetUserAgreementFlag() > arg_33_0._userAgreement
 	end
 end
 
-function var_0_0.GetUserAgreementFlag(arg_32_0)
-	local var_32_0 = USER_AGREEMENT_FLAG_DEFAULT
+function var_0_0.GetUserAgreementFlag(arg_34_0)
+	local var_34_0 = USER_AGREEMENT_FLAG_DEFAULT
 
 	if PLATFORM_CODE == PLATFORM_CHT then
-		var_32_0 = USER_AGREEMENT_FLAG_TW
+		var_34_0 = USER_AGREEMENT_FLAG_TW
 	end
 
-	return var_32_0
+	return var_34_0
 end
 
-function var_0_0.SetUserAgreement(arg_33_0)
-	if arg_33_0:CheckNeedUserAgreement() then
-		local var_33_0 = arg_33_0:GetUserAgreementFlag()
+function var_0_0.SetUserAgreement(arg_35_0)
+	if arg_35_0:CheckNeedUserAgreement() then
+		local var_35_0 = arg_35_0:GetUserAgreementFlag()
 
-		PlayerPrefs.SetInt("userAgreement", var_33_0)
+		PlayerPrefs.SetInt("userAgreement", var_35_0)
 		PlayerPrefs.Save()
 
-		arg_33_0._userAgreement = var_33_0
+		arg_35_0._userAgreement = var_35_0
 	end
 end
 
-function var_0_0.IsLive2dEnable(arg_34_0)
-	return arg_34_0._ShowLive2d
+function var_0_0.IsLive2dEnable(arg_36_0)
+	return arg_36_0._ShowLive2d
 end
 
-function var_0_0.IsBGEnable(arg_35_0)
-	return arg_35_0._ShowBg
+function var_0_0.IsBGEnable(arg_37_0)
+	return arg_37_0._ShowBg
 end
 
-function var_0_0.SetSelectedShipId(arg_36_0, arg_36_1)
-	if arg_36_0._selectedShipId ~= arg_36_1 then
-		arg_36_0._selectedShipId = arg_36_1
+function var_0_0.SetSelectedShipId(arg_38_0, arg_38_1)
+	if arg_38_0._selectedShipId ~= arg_38_1 then
+		arg_38_0._selectedShipId = arg_38_1
 
-		PlayerPrefs.SetInt("playerShipId", arg_36_1)
+		PlayerPrefs.SetInt("playerShipId", arg_38_1)
 		PlayerPrefs.Save()
 	end
 end
 
-function var_0_0.GetSelectedShipId(arg_37_0)
-	return arg_37_0._selectedShipId
+function var_0_0.GetSelectedShipId(arg_39_0)
+	return arg_39_0._selectedShipId
 end
 
-function var_0_0.setEquipSceneIndex(arg_38_0, arg_38_1)
-	arg_38_0._equipSceneIndex = arg_38_1
+function var_0_0.setEquipSceneIndex(arg_40_0, arg_40_1)
+	arg_40_0._equipSceneIndex = arg_40_1
 end
 
-function var_0_0.getEquipSceneIndex(arg_39_0)
-	return arg_39_0._equipSceneIndex
+function var_0_0.getEquipSceneIndex(arg_41_0)
+	return arg_41_0._equipSceneIndex
 end
 
-function var_0_0.resetEquipSceneIndex(arg_40_0)
-	arg_40_0._equipSceneIndex = StoreHouseConst.WARP_TO_MATERIAL
+function var_0_0.resetEquipSceneIndex(arg_42_0)
+	arg_42_0._equipSceneIndex = StoreHouseConst.WARP_TO_MATERIAL
 end
 
-function var_0_0.setActivityLayerIndex(arg_41_0, arg_41_1)
-	arg_41_0._activityLayerIndex = arg_41_1
+function var_0_0.setActivityLayerIndex(arg_43_0, arg_43_1)
+	arg_43_0._activityLayerIndex = arg_43_1
 end
 
-function var_0_0.getActivityLayerIndex(arg_42_0)
-	return arg_42_0._activityLayerIndex
+function var_0_0.getActivityLayerIndex(arg_44_0)
+	return arg_44_0._activityLayerIndex
 end
 
-function var_0_0.resetActivityLayerIndex(arg_43_0)
-	arg_43_0._activityLayerIndex = 1
+function var_0_0.resetActivityLayerIndex(arg_45_0)
+	arg_45_0._activityLayerIndex = 1
 end
 
-function var_0_0.setBackyardRemind(arg_44_0)
-	local var_44_0 = GetZeroTime()
+function var_0_0.setBackyardRemind(arg_46_0)
+	local var_46_0 = GetZeroTime()
 
-	if arg_44_0._backyardFoodRemind ~= tostring(var_44_0) then
-		PlayerPrefs.SetString("backyardRemind", var_44_0)
+	if arg_46_0._backyardFoodRemind ~= tostring(var_46_0) then
+		PlayerPrefs.SetString("backyardRemind", var_46_0)
 		PlayerPrefs.Save()
 
-		arg_44_0._backyardFoodRemind = var_44_0
+		arg_46_0._backyardFoodRemind = var_46_0
 	end
 end
 
-function var_0_0.getBackyardRemind(arg_45_0)
-	if not arg_45_0._backyardFoodRemind or arg_45_0._backyardFoodRemind == "" then
+function var_0_0.getBackyardRemind(arg_47_0)
+	if not arg_47_0._backyardFoodRemind or arg_47_0._backyardFoodRemind == "" then
 		return 0
 	else
-		return tonumber(arg_45_0._backyardFoodRemind)
+		return tonumber(arg_47_0._backyardFoodRemind)
 	end
 end
 
-function var_0_0.getMaxLevelHelp(arg_46_0)
-	return arg_46_0._showMaxLevelHelp
+function var_0_0.getMaxLevelHelp(arg_48_0)
+	return arg_48_0._showMaxLevelHelp
 end
 
-function var_0_0.setMaxLevelHelp(arg_47_0, arg_47_1)
-	if arg_47_0._showMaxLevelHelp ~= arg_47_1 then
-		arg_47_0._showMaxLevelHelp = arg_47_1
+function var_0_0.setMaxLevelHelp(arg_49_0, arg_49_1)
+	if arg_49_0._showMaxLevelHelp ~= arg_49_1 then
+		arg_49_0._showMaxLevelHelp = arg_49_1
 
-		PlayerPrefs.SetInt("maxLevelHelp", arg_47_1 and 1 or 0)
+		PlayerPrefs.SetInt("maxLevelHelp", arg_49_1 and 1 or 0)
 		PlayerPrefs.Save()
 	end
 end
 
-function var_0_0.setStopBuildSpeedupRemind(arg_48_0)
-	arg_48_0.isStopBuildSpeedupReamind = true
+function var_0_0.setStopBuildSpeedupRemind(arg_50_0)
+	arg_50_0.isStopBuildSpeedupReamind = true
 end
 
-function var_0_0.getStopBuildSpeedupRemind(arg_49_0)
-	return arg_49_0.isStopBuildSpeedupReamind
+function var_0_0.getStopBuildSpeedupRemind(arg_51_0)
+	return arg_51_0.isStopBuildSpeedupReamind
 end
 
-function var_0_0.checkReadHelp(arg_50_0, arg_50_1)
+function var_0_0.checkReadHelp(arg_52_0, arg_52_1)
 	if not getProxy(PlayerProxy):getData() then
 		return true
 	end
 
-	if arg_50_1 == "help_backyard" then
+	if arg_52_1 == "help_backyard" then
 		return true
 	elseif pg.SeriesGuideMgr.GetInstance():isEnd() then
-		local var_50_0 = PlayerPrefs.GetInt(arg_50_1, 0)
+		local var_52_0 = PlayerPrefs.GetInt(arg_52_1, 0)
 
-		return PlayerPrefs.GetInt(arg_50_1, 0) > 0
+		return PlayerPrefs.GetInt(arg_52_1, 0) > 0
 	end
 
 	return true
 end
 
-function var_0_0.recordReadHelp(arg_51_0, arg_51_1)
-	PlayerPrefs.SetInt(arg_51_1, 1)
+function var_0_0.recordReadHelp(arg_53_0, arg_53_1)
+	PlayerPrefs.SetInt(arg_53_1, 1)
 	PlayerPrefs.Save()
 end
 
-function var_0_0.clearAllReadHelp(arg_52_0)
+function var_0_0.clearAllReadHelp(arg_54_0)
 	PlayerPrefs.DeleteKey("tactics_lesson_system_introduce")
 	PlayerPrefs.DeleteKey("help_shipinfo_equip")
 	PlayerPrefs.DeleteKey("help_shipinfo_detail")
@@ -421,455 +435,466 @@ function var_0_0.clearAllReadHelp(arg_52_0)
 	PlayerPrefs.DeleteKey("help_commander_ability")
 end
 
-function var_0_0.setAutoBattleTip(arg_53_0)
-	local var_53_0 = GetZeroTime()
+function var_0_0.setAutoBattleTip(arg_55_0)
+	local var_55_0 = GetZeroTime()
 
-	arg_53_0._nextTipAutoBattleTime = var_53_0
+	arg_55_0._nextTipAutoBattleTime = var_55_0
 
-	PlayerPrefs.SetInt("AutoBattleTip", var_53_0)
+	PlayerPrefs.SetInt("AutoBattleTip", var_55_0)
 	PlayerPrefs.Save()
 end
 
-function var_0_0.isTipAutoBattle(arg_54_0)
-	return pg.TimeMgr.GetInstance():GetServerTime() > arg_54_0._nextTipAutoBattleTime
+function var_0_0.isTipAutoBattle(arg_56_0)
+	return pg.TimeMgr.GetInstance():GetServerTime() > arg_56_0._nextTipAutoBattleTime
 end
 
-function var_0_0.setActBossExchangeTicketTip(arg_55_0, arg_55_1)
-	if arg_55_0.nextTipActBossExchangeTicket == arg_55_1 then
+function var_0_0.setActBossExchangeTicketTip(arg_57_0, arg_57_1)
+	if arg_57_0.nextTipActBossExchangeTicket == arg_57_1 then
 		return
 	end
 
-	arg_55_0.nextTipActBossExchangeTicket = arg_55_1
+	arg_57_0.nextTipActBossExchangeTicket = arg_57_1
 
-	local var_55_0 = GetZeroTime()
+	local var_57_0 = GetZeroTime()
 
-	if var_55_0 > arg_55_0._nextTipActBossTime then
-		arg_55_0._nextTipActBossTime = var_55_0
+	if var_57_0 > arg_57_0._nextTipActBossTime then
+		arg_57_0._nextTipActBossTime = var_57_0
 
-		PlayerPrefs.SetInt("ActBossTipLastTime", var_55_0)
+		PlayerPrefs.SetInt("ActBossTipLastTime", var_57_0)
 	end
 
-	PlayerPrefs.SetInt("ActBossTip", arg_55_1)
+	PlayerPrefs.SetInt("ActBossTip", arg_57_1)
 	PlayerPrefs.Save()
 end
 
-function var_0_0.isTipActBossExchangeTicket(arg_56_0)
-	if pg.TimeMgr.GetInstance():GetServerTime() > arg_56_0._nextTipActBossTime then
+function var_0_0.isTipActBossExchangeTicket(arg_58_0)
+	if pg.TimeMgr.GetInstance():GetServerTime() > arg_58_0._nextTipActBossTime then
 		return nil
 	end
 
-	return arg_56_0.nextTipActBossExchangeTicket
+	return arg_58_0.nextTipActBossExchangeTicket
 end
 
-function var_0_0.SetScreenRatio(arg_57_0, arg_57_1)
-	if arg_57_0._screenRatio ~= arg_57_1 then
-		arg_57_0._screenRatio = arg_57_1
+function var_0_0.SetScreenRatio(arg_59_0, arg_59_1)
+	if arg_59_0._screenRatio ~= arg_59_1 then
+		arg_59_0._screenRatio = arg_59_1
 
-		PlayerPrefs.SetFloat("SetScreenRatio", arg_57_1)
+		PlayerPrefs.SetFloat("SetScreenRatio", arg_59_1)
 		PlayerPrefs.Save()
 	end
 end
 
-function var_0_0.GetScreenRatio(arg_58_0)
-	return arg_58_0._screenRatio
+function var_0_0.GetScreenRatio(arg_60_0)
+	return arg_60_0._screenRatio
 end
 
-function var_0_0.CheckLargeScreen(arg_59_0)
+function var_0_0.CheckLargeScreen(arg_61_0)
 	return Screen.width / Screen.height > 2
 end
 
-function var_0_0.IsShowBeatMonseterNianCurtain(arg_60_0)
-	local var_60_0 = getProxy(PlayerProxy):getRawData()
+function var_0_0.IsShowBeatMonseterNianCurtain(arg_62_0)
+	local var_62_0 = getProxy(PlayerProxy):getRawData()
 
-	return pg.TimeMgr.GetInstance():GetServerTime() > tonumber(PlayerPrefs.GetString("HitMonsterNianLayer2020" .. var_60_0.id, "0"))
+	return pg.TimeMgr.GetInstance():GetServerTime() > tonumber(PlayerPrefs.GetString("HitMonsterNianLayer2020" .. var_62_0.id, "0"))
 end
 
-function var_0_0.SetBeatMonseterNianFlag(arg_61_0)
-	local var_61_0 = getProxy(PlayerProxy):getRawData()
+function var_0_0.SetBeatMonseterNianFlag(arg_63_0)
+	local var_63_0 = getProxy(PlayerProxy):getRawData()
 
-	PlayerPrefs.SetString("HitMonsterNianLayer2020" .. var_61_0.id, GetZeroTime())
+	PlayerPrefs.SetString("HitMonsterNianLayer2020" .. var_63_0.id, GetZeroTime())
 	PlayerPrefs.Save()
 end
 
-function var_0_0.ShouldShowEventActHelp(arg_62_0)
-	if not arg_62_0.actEventFlag then
-		local var_62_0 = getProxy(PlayerProxy):getRawData().id
+function var_0_0.ShouldShowEventActHelp(arg_64_0)
+	if not arg_64_0.actEventFlag then
+		local var_64_0 = getProxy(PlayerProxy):getRawData().id
 
-		arg_62_0.actEventFlag = PlayerPrefs.GetInt("event_act_help1" .. var_62_0, 0) > 0
+		arg_64_0.actEventFlag = PlayerPrefs.GetInt("event_act_help1" .. var_64_0, 0) > 0
 	end
 
-	return not arg_62_0.actEventFlag
+	return not arg_64_0.actEventFlag
 end
 
-function var_0_0.MarkEventActHelpFlag(arg_63_0)
-	if not arg_63_0.actEventFlag then
-		arg_63_0.actEventFlag = true
+function var_0_0.MarkEventActHelpFlag(arg_65_0)
+	if not arg_65_0.actEventFlag then
+		arg_65_0.actEventFlag = true
 
-		local var_63_0 = getProxy(PlayerProxy):getRawData().id
+		local var_65_0 = getProxy(PlayerProxy):getRawData().id
 
-		PlayerPrefs.SetInt("event_act_help1" .. var_63_0, 1)
+		PlayerPrefs.SetInt("event_act_help1" .. var_65_0, 1)
 		PlayerPrefs.Save()
 	end
 end
 
-function var_0_0.SetStorySpeed(arg_64_0, arg_64_1)
-	arg_64_0.storySpeed = arg_64_1
+function var_0_0.SetStorySpeed(arg_66_0, arg_66_1)
+	arg_66_0.storySpeed = arg_66_1
 
-	local var_64_0
+	local var_66_0
 
 	if getProxy(PlayerProxy) then
-		var_64_0 = getProxy(PlayerProxy):getRawData().id
+		var_66_0 = getProxy(PlayerProxy):getRawData().id
 	else
-		var_64_0 = 1
+		var_66_0 = 1
 	end
 
-	PlayerPrefs.SetInt("story_speed_flag" .. var_64_0, arg_64_1)
+	PlayerPrefs.SetInt("story_speed_flag" .. var_66_0, arg_66_1)
 	PlayerPrefs.Save()
 end
 
-function var_0_0.GetStorySpeed(arg_65_0)
-	if not arg_65_0.storySpeed then
-		local var_65_0
+function var_0_0.GetStorySpeed(arg_67_0)
+	if not arg_67_0.storySpeed then
+		local var_67_0
 
 		if getProxy(PlayerProxy) then
-			var_65_0 = getProxy(PlayerProxy):getRawData().id
+			var_67_0 = getProxy(PlayerProxy):getRawData().id
 		else
-			var_65_0 = 1
+			var_67_0 = 1
 		end
 
-		arg_65_0.storySpeed = PlayerPrefs.GetInt("story_speed_flag" .. var_65_0, 0)
+		arg_67_0.storySpeed = PlayerPrefs.GetInt("story_speed_flag" .. var_67_0, 0)
 	end
 
-	return arg_65_0.storySpeed
+	return arg_67_0.storySpeed
 end
 
-function var_0_0.GetStoryAutoPlayFlag(arg_66_0)
-	return arg_66_0.storyAutoPlayCode > 0
+function var_0_0.GetStoryAutoPlayFlag(arg_68_0)
+	return arg_68_0.storyAutoPlayCode > 0
 end
 
-function var_0_0.SetStoryAutoPlayFlag(arg_67_0, arg_67_1)
-	if arg_67_0.storyAutoPlayCode ~= arg_67_1 then
-		PlayerPrefs.SetInt("story_autoplay_flag", arg_67_1)
+function var_0_0.SetStoryAutoPlayFlag(arg_69_0, arg_69_1)
+	if arg_69_0.storyAutoPlayCode ~= arg_69_1 then
+		PlayerPrefs.SetInt("story_autoplay_flag", arg_69_1)
 		PlayerPrefs.Save()
 
-		arg_67_0.storyAutoPlayCode = arg_67_1
+		arg_69_0.storyAutoPlayCode = arg_69_1
 	end
 end
 
-function var_0_0.GetPaintingDownloadPrefs(arg_68_0)
+function var_0_0.GetPaintingDownloadPrefs(arg_70_0)
 	return PlayerPrefs.GetInt("Painting_Download_Prefs", 0)
 end
 
-function var_0_0.SetPaintingDownloadPrefs(arg_69_0, arg_69_1)
-	PlayerPrefs.SetInt("Painting_Download_Prefs", arg_69_1)
+function var_0_0.SetPaintingDownloadPrefs(arg_71_0, arg_71_1)
+	PlayerPrefs.SetInt("Painting_Download_Prefs", arg_71_1)
 end
 
-function var_0_0.ShouldShipMainSceneWord(arg_70_0)
-	return arg_70_0.showMainSceneWordTip
+function var_0_0.ShouldShipMainSceneWord(arg_72_0)
+	return arg_72_0.showMainSceneWordTip
 end
 
-function var_0_0.SaveMainSceneWordFlag(arg_71_0, arg_71_1)
-	if arg_71_0.showMainSceneWordTip ~= arg_71_1 then
-		arg_71_0.showMainSceneWordTip = arg_71_1
+function var_0_0.SaveMainSceneWordFlag(arg_73_0, arg_73_1)
+	if arg_73_0.showMainSceneWordTip ~= arg_73_1 then
+		arg_73_0.showMainSceneWordTip = arg_73_1
 
-		PlayerPrefs.SetInt("main_scene_word_toggle", arg_71_1 and 1 or 0)
+		PlayerPrefs.SetInt("main_scene_word_toggle", arg_73_1 and 1 or 0)
 		PlayerPrefs.Save()
 	end
 end
 
-function var_0_0.RecordFrameRate(arg_72_0)
-	if not arg_72_0.originalFrameRate then
-		arg_72_0.originalFrameRate = Application.targetFrameRate
+function var_0_0.RecordFrameRate(arg_74_0)
+	if not arg_74_0.originalFrameRate then
+		arg_74_0.originalFrameRate = Application.targetFrameRate
 	end
 end
 
-function var_0_0.RestoreFrameRate(arg_73_0)
-	if arg_73_0.originalFrameRate then
-		Application.targetFrameRate = arg_73_0.originalFrameRate
-		arg_73_0.originalFrameRate = nil
+function var_0_0.RestoreFrameRate(arg_75_0)
+	if arg_75_0.originalFrameRate then
+		Application.targetFrameRate = arg_75_0.originalFrameRate
+		arg_75_0.originalFrameRate = nil
 	end
 end
 
-function var_0_0.ResetTimeLimitSkinShopTip(arg_74_0)
-	arg_74_0.isTipLimitSkinShop = PlayerPrefs.GetInt("tipLimitSkinShopTime_", 0) <= pg.TimeMgr.GetInstance():GetServerTime()
+function var_0_0.ResetTimeLimitSkinShopTip(arg_76_0)
+	arg_76_0.isTipLimitSkinShop = PlayerPrefs.GetInt("tipLimitSkinShopTime_", 0) <= pg.TimeMgr.GetInstance():GetServerTime()
 
-	if arg_74_0.isTipLimitSkinShop then
-		arg_74_0.nextTipLimitSkinShopTime = GetZeroTime()
+	if arg_76_0.isTipLimitSkinShop then
+		arg_76_0.nextTipLimitSkinShopTime = GetZeroTime()
 	end
 end
 
-function var_0_0.ShouldTipTimeLimitSkinShop(arg_75_0)
-	return arg_75_0.isTipLimitSkinShop
+function var_0_0.ShouldTipTimeLimitSkinShop(arg_77_0)
+	return arg_77_0.isTipLimitSkinShop
 end
 
-function var_0_0.SetNextTipTimeLimitSkinShop(arg_76_0)
-	if arg_76_0.isTipLimitSkinShop and arg_76_0.nextTipLimitSkinShopTime then
-		PlayerPrefs.SetInt("tipLimitSkinShopTime_", arg_76_0.nextTipLimitSkinShopTime)
+function var_0_0.SetNextTipTimeLimitSkinShop(arg_78_0)
+	if arg_78_0.isTipLimitSkinShop and arg_78_0.nextTipLimitSkinShopTime then
+		PlayerPrefs.SetInt("tipLimitSkinShopTime_", arg_78_0.nextTipLimitSkinShopTime)
 		PlayerPrefs.Save()
 
-		arg_76_0.nextTipLimitSkinShopTime = nil
-		arg_76_0.isTipLimitSkinShop = false
+		arg_78_0.nextTipLimitSkinShopTime = nil
+		arg_78_0.isTipLimitSkinShop = false
 	end
 end
 
-function var_0_0.WorldBossProgressTipFlag(arg_77_0, arg_77_1)
-	if arg_77_0.WorldBossProgressTipValue ~= arg_77_1 then
-		arg_77_0.WorldBossProgressTipValue = arg_77_1
+function var_0_0.WorldBossProgressTipFlag(arg_79_0, arg_79_1)
+	if arg_79_0.WorldBossProgressTipValue ~= arg_79_1 then
+		arg_79_0.WorldBossProgressTipValue = arg_79_1
 
-		PlayerPrefs.SetString("_WorldBossProgressTipFlag_", arg_77_1)
+		PlayerPrefs.SetString("_WorldBossProgressTipFlag_", arg_79_1)
 		PlayerPrefs.Save()
 	end
 end
 
-function var_0_0.GetWorldBossProgressTipFlag(arg_78_0)
-	if not arg_78_0.WorldBossProgressTipValue then
-		local var_78_0 = pg.gameset.joint_boss_ticket.description
-		local var_78_1 = var_78_0[1] + var_78_0[2]
-		local var_78_2 = var_78_0[1] .. "&" .. var_78_1
-		local var_78_3 = PlayerPrefs.GetString("_WorldBossProgressTipFlag_", var_78_2)
+function var_0_0.GetWorldBossProgressTipFlag(arg_80_0)
+	if not arg_80_0.WorldBossProgressTipValue then
+		local var_80_0 = pg.gameset.joint_boss_ticket.description
+		local var_80_1 = var_80_0[1] + var_80_0[2]
+		local var_80_2 = var_80_0[1] .. "&" .. var_80_1
+		local var_80_3 = PlayerPrefs.GetString("_WorldBossProgressTipFlag_", var_80_2)
 
-		arg_78_0.WorldBossProgressTipValue = var_78_3
+		arg_80_0.WorldBossProgressTipValue = var_80_3
 
-		return var_78_3
+		return var_80_3
 	else
-		return arg_78_0.WorldBossProgressTipValue
+		return arg_80_0.WorldBossProgressTipValue
 	end
 end
 
-function var_0_0.GetWorldBossProgressTipTable(arg_79_0)
-	local var_79_0 = arg_79_0:GetWorldBossProgressTipFlag()
+function var_0_0.GetWorldBossProgressTipTable(arg_81_0)
+	local var_81_0 = arg_81_0:GetWorldBossProgressTipFlag()
 
-	if not var_79_0 or var_79_0 == "" then
+	if not var_81_0 or var_81_0 == "" then
 		return {}
 	end
 
-	return string.split(var_79_0, "&")
+	return string.split(var_81_0, "&")
 end
 
-function var_0_0.GetChatFlag(arg_80_0)
-	if not arg_80_0.chatFlag then
-		local var_80_0 = {
+function var_0_0.GetChatFlag(arg_82_0)
+	if not arg_82_0.chatFlag then
+		local var_82_0 = {
 			ChatConst.ChannelWorld,
 			ChatConst.ChannelPublic,
 			ChatConst.ChannelFriend
 		}
 
 		if getProxy(GuildProxy):getRawData() then
-			table.insert(var_80_0, ChatConst.ChannelGuild)
+			table.insert(var_82_0, ChatConst.ChannelGuild)
 		end
 
-		arg_80_0.chatFlag = PlayerPrefs.GetInt("chat__setting", IndexConst.Flags2Bits(var_80_0))
+		arg_82_0.chatFlag = PlayerPrefs.GetInt("chat__setting", IndexConst.Flags2Bits(var_82_0))
 	end
 
-	return arg_80_0.chatFlag
+	return arg_82_0.chatFlag
 end
 
-function var_0_0.SetChatFlag(arg_81_0, arg_81_1)
-	if arg_81_0.chatFlag ~= arg_81_1 then
-		arg_81_0.chatFlag = arg_81_1
+function var_0_0.SetChatFlag(arg_83_0, arg_83_1)
+	if arg_83_0.chatFlag ~= arg_83_1 then
+		arg_83_0.chatFlag = arg_83_1
 
-		PlayerPrefs.SetInt("chat__setting", arg_81_1)
+		PlayerPrefs.SetInt("chat__setting", arg_83_1)
 		PlayerPrefs.Save()
 	end
 end
 
 function var_0_0.IsShowActivityMapSPTip()
-	local var_82_0 = getProxy(PlayerProxy):getRawData()
+	local var_84_0 = getProxy(PlayerProxy):getRawData()
 
-	return pg.TimeMgr.GetInstance():GetServerTime() > PlayerPrefs.GetInt("ActivityMapSPTip" .. var_82_0.id, 0)
+	return pg.TimeMgr.GetInstance():GetServerTime() > PlayerPrefs.GetInt("ActivityMapSPTip" .. var_84_0.id, 0)
 end
 
 function var_0_0.SetActivityMapSPTip()
-	local var_83_0 = getProxy(PlayerProxy):getRawData()
+	local var_85_0 = getProxy(PlayerProxy):getRawData()
 
-	PlayerPrefs.SetInt("ActivityMapSPTip" .. var_83_0.id, GetZeroTime())
+	PlayerPrefs.SetInt("ActivityMapSPTip" .. var_85_0.id, GetZeroTime())
 	PlayerPrefs.Save()
 end
 
-function var_0_0.IsTipNewTheme(arg_84_0)
-	local var_84_0 = pg.backyard_theme_template
-	local var_84_1 = var_84_0.all[#var_84_0.all]
-	local var_84_2 = var_84_0[var_84_1].ids[1]
-	local var_84_3 = pg.furniture_shop_template[var_84_2]
-	local var_84_4 = getProxy(PlayerProxy):getRawData().id
-	local var_84_5 = PlayerPrefs.GetInt(var_84_4 .. "IsTipNewTheme" .. var_84_1, 0) == 0
+function var_0_0.IsTipNewTheme(arg_86_0)
+	local var_86_0 = pg.backyard_theme_template
+	local var_86_1 = var_86_0.all[#var_86_0.all]
+	local var_86_2 = var_86_0[var_86_1].ids[1]
+	local var_86_3 = pg.furniture_shop_template[var_86_2]
+	local var_86_4 = getProxy(PlayerProxy):getRawData().id
+	local var_86_5 = PlayerPrefs.GetInt(var_86_4 .. "IsTipNewTheme" .. var_86_1, 0) == 0
 
-	if var_84_3 and var_84_3.new == 1 and pg.TimeMgr.GetInstance():inTime(var_84_3.time) and var_84_5 then
-		arg_84_0.lastThemeId = var_84_1
+	if var_86_3 and var_86_3.new == 1 and pg.TimeMgr.GetInstance():inTime(var_86_3.time) and var_86_5 then
+		arg_86_0.lastThemeId = var_86_1
 	else
-		arg_84_0.lastThemeId = nil
+		arg_86_0.lastThemeId = nil
 	end
 
-	return arg_84_0.lastThemeId ~= nil
+	return arg_86_0.lastThemeId ~= nil
 end
 
-function var_0_0.UpdateNewThemeValue(arg_85_0)
-	if arg_85_0.lastThemeId then
-		local var_85_0 = arg_85_0.lastThemeId
-		local var_85_1 = getProxy(PlayerProxy):getRawData().id
+function var_0_0.UpdateNewThemeValue(arg_87_0)
+	if arg_87_0.lastThemeId then
+		local var_87_0 = arg_87_0.lastThemeId
+		local var_87_1 = getProxy(PlayerProxy):getRawData().id
 
-		PlayerPrefs.SetInt(var_85_1 .. "IsTipNewTheme" .. var_85_0, 1)
+		PlayerPrefs.SetInt(var_87_1 .. "IsTipNewTheme" .. var_87_0, 1)
 		PlayerPrefs.Save()
 	end
 end
 
-function var_0_0.GetNewGemFurnitureLocalCache(arg_86_0)
-	if not arg_86_0.cacheGemFuruitures then
-		arg_86_0.cacheGemFuruitures = {}
+function var_0_0.GetNewGemFurnitureLocalCache(arg_88_0)
+	if not arg_88_0.cacheGemFuruitures then
+		arg_88_0.cacheGemFuruitures = {}
 
-		local var_86_0 = getProxy(PlayerProxy):getRawData().id
-		local var_86_1 = PlayerPrefs.GetString(var_86_0 .. "IsTipNewGenFurniture")
+		local var_88_0 = getProxy(PlayerProxy):getRawData().id
+		local var_88_1 = PlayerPrefs.GetString(var_88_0 .. "IsTipNewGenFurniture")
 
-		if var_86_1 ~= "" then
-			local var_86_2 = string.split(var_86_1, "#")
+		if var_88_1 ~= "" then
+			local var_88_2 = string.split(var_88_1, "#")
 
-			for iter_86_0, iter_86_1 in ipairs(var_86_2) do
-				arg_86_0.cacheGemFuruitures[tonumber(iter_86_1)] = true
+			for iter_88_0, iter_88_1 in ipairs(var_88_2) do
+				arg_88_0.cacheGemFuruitures[tonumber(iter_88_1)] = true
 			end
 		end
 	end
 
-	return arg_86_0.cacheGemFuruitures
+	return arg_88_0.cacheGemFuruitures
 end
 
-function var_0_0.IsTipNewGemFurniture(arg_87_0)
-	local var_87_0 = arg_87_0:GetNewGemFurnitureLocalCache()
-	local var_87_1 = getProxy(DormProxy):GetTag7Furnitures()
+function var_0_0.IsTipNewGemFurniture(arg_89_0)
+	local var_89_0 = arg_89_0:GetNewGemFurnitureLocalCache()
+	local var_89_1 = getProxy(DormProxy):GetTag7Furnitures()
 
-	if _.any(var_87_1, function(arg_88_0)
-		return pg.furniture_shop_template[arg_88_0].new == 1 and not var_87_0[arg_88_0]
+	if _.any(var_89_1, function(arg_90_0)
+		return pg.furniture_shop_template[arg_90_0].new == 1 and not var_89_0[arg_90_0]
 	end) then
-		arg_87_0.newGemFurniture = var_87_1
+		arg_89_0.newGemFurniture = var_89_1
 	else
-		arg_87_0.newGemFurniture = nil
+		arg_89_0.newGemFurniture = nil
 	end
 
-	return arg_87_0.newGemFurniture ~= nil
+	return arg_89_0.newGemFurniture ~= nil
 end
 
-function var_0_0.UpdateNewGemFurnitureValue(arg_89_0)
-	if arg_89_0.newGemFurniture then
-		for iter_89_0, iter_89_1 in pairs(arg_89_0.newGemFurniture) do
-			arg_89_0.cacheGemFuruitures[iter_89_1] = true
+function var_0_0.UpdateNewGemFurnitureValue(arg_91_0)
+	if arg_91_0.newGemFurniture then
+		for iter_91_0, iter_91_1 in pairs(arg_91_0.newGemFurniture) do
+			arg_91_0.cacheGemFuruitures[iter_91_1] = true
 		end
 
-		local var_89_0 = table.concat(arg_89_0.newGemFurniture, "#")
-		local var_89_1 = getProxy(PlayerProxy):getRawData().id
+		local var_91_0 = table.concat(arg_91_0.newGemFurniture, "#")
+		local var_91_1 = getProxy(PlayerProxy):getRawData().id
 
-		PlayerPrefs.SetString(var_89_1 .. "IsTipNewGenFurniture", var_89_0)
+		PlayerPrefs.SetString(var_91_1 .. "IsTipNewGenFurniture", var_91_0)
 		PlayerPrefs.Save()
 	end
 end
 
-function var_0_0.GetRandomFlagShipList(arg_90_0)
-	if arg_90_0.randomFlagShipList then
-		return arg_90_0.randomFlagShipList
+function var_0_0.GetRandomFlagShipList(arg_92_0)
+	if arg_92_0.randomFlagShipList then
+		return arg_92_0.randomFlagShipList
 	end
 
-	local var_90_0 = getProxy(PlayerProxy):getRawData().id
-	local var_90_1 = PlayerPrefs.GetString("RandomFlagShipList" .. var_90_0, "")
-	local var_90_2 = string.split(var_90_1, "#")
+	local var_92_0 = getProxy(PlayerProxy):getRawData().id
+	local var_92_1 = PlayerPrefs.GetString("RandomFlagShipList" .. var_92_0, "")
 
-	arg_90_0.randomFlagShipList = _.map(var_90_2, function(arg_91_0)
-		return tonumber(arg_91_0)
-	end)
+	if var_92_1 == "" then
+		arg_92_0.randomFlagShipList = {}
+	else
+		arg_92_0.randomFlagShipList = string.split(var_92_1, "#")
+	end
 
-	return arg_90_0.randomFlagShipList
+	return arg_92_0.randomFlagShipList
 end
 
-function var_0_0.IsRandomFlagShip(arg_92_0, arg_92_1)
-	if not arg_92_0.randomFlagShipMap then
-		arg_92_0.randomFlagShipMap = {}
+function var_0_0.IsRandomFlagShip(arg_93_0, arg_93_1)
+	if not arg_93_0.randomFlagShipMap then
+		arg_93_0.randomFlagShipMap = {}
 
-		for iter_92_0, iter_92_1 in ipairs(arg_92_0:GetRandomFlagShipList()) do
-			arg_92_0.randomFlagShipMap[iter_92_1] = true
+		for iter_93_0, iter_93_1 in ipairs(arg_93_0:GetRandomFlagShipList()) do
+			arg_93_0.randomFlagShipMap[iter_93_1] = true
 		end
 	end
 
-	return arg_92_0.randomFlagShipMap[arg_92_1] == true
+	return arg_93_0.randomFlagShipMap[arg_93_1] == true
 end
 
-function var_0_0.IsOpenRandomFlagShip(arg_93_0)
-	local var_93_0 = arg_93_0:GetRandomFlagShipList()
-	local var_93_1 = getProxy(BayProxy)
+function var_0_0.IsOpenRandomFlagShip(arg_94_0)
+	local var_94_0 = arg_94_0:GetRandomFlagShipList()
+	local var_94_1 = getProxy(BayProxy)
 
-	return #var_93_0 > 0 and _.any(var_93_0, function(arg_94_0)
-		return var_93_1:RawGetShipById(arg_94_0) ~= nil
+	return #var_94_0 > 0 and _.any(var_94_0, function(arg_95_0)
+		local var_95_0, var_95_1 = ShipPhantom.UnpackMark(arg_95_0)
+
+		return var_94_1:RawGetShipById(var_95_0) ~= nil
 	end)
 end
 
-function var_0_0.UpdateRandomFlagShipList(arg_95_0, arg_95_1)
-	arg_95_0.randomFlagShipMap = nil
-	arg_95_0.randomFlagShipList = arg_95_1
+function var_0_0.UpdateRandomFlagShipList(arg_96_0, arg_96_1)
+	arg_96_0.randomFlagShipMap = nil
+	arg_96_0.randomFlagShipList = arg_96_1
 
-	local var_95_0 = table.concat(arg_95_1, "#")
-	local var_95_1 = getProxy(PlayerProxy):getRawData().id
+	for iter_96_0, iter_96_1 in ipairs(arg_96_1) do
+		local var_96_0 = getProxy(BayProxy):GetShipPhantom(iter_96_1)
 
-	PlayerPrefs.SetString("RandomFlagShipList" .. var_95_1, var_95_0)
+		if var_96_0 and var_96_0.phantomId > 0 then
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildPhantom(var_96_0:getSkinId()))
+		end
+	end
+
+	local var_96_1 = table.concat(arg_96_1, "#")
+	local var_96_2 = getProxy(PlayerProxy):getRawData().id
+
+	PlayerPrefs.SetString("RandomFlagShipList" .. var_96_2, var_96_1)
 	PlayerPrefs.Save()
 end
 
-function var_0_0.GetPrevRandomFlagShipTime(arg_96_0)
-	if arg_96_0.prevRandomFlagShipTime then
-		return arg_96_0.prevRandomFlagShipTime
+function var_0_0.GetPrevRandomFlagShipTime(arg_97_0)
+	if arg_97_0.prevRandomFlagShipTime then
+		return arg_97_0.prevRandomFlagShipTime
 	end
-
-	local var_96_0 = getProxy(PlayerProxy):getRawData().id
-
-	arg_96_0.prevRandomFlagShipTime = PlayerPrefs.GetInt("RandomFlagShipTime" .. var_96_0, 0)
-
-	return arg_96_0.prevRandomFlagShipTime
-end
-
-function var_0_0.SetPrevRandomFlagShipTime(arg_97_0, arg_97_1)
-	if arg_97_0.prevRandomFlagShipTime == arg_97_1 then
-		return
-	end
-
-	arg_97_0.prevRandomFlagShipTime = arg_97_1
 
 	local var_97_0 = getProxy(PlayerProxy):getRawData().id
 
-	PlayerPrefs.SetInt("RandomFlagShipTime" .. var_97_0, arg_97_1)
+	arg_97_0.prevRandomFlagShipTime = PlayerPrefs.GetInt("RandomFlagShipTime" .. var_97_0, 0)
+
+	return arg_97_0.prevRandomFlagShipTime
+end
+
+function var_0_0.SetPrevRandomFlagShipTime(arg_98_0, arg_98_1)
+	if arg_98_0.prevRandomFlagShipTime == arg_98_1 then
+		return
+	end
+
+	arg_98_0.prevRandomFlagShipTime = arg_98_1
+
+	local var_98_0 = getProxy(PlayerProxy):getRawData().id
+
+	PlayerPrefs.SetInt("RandomFlagShipTime" .. var_98_0, arg_98_1)
 	PlayerPrefs.Save()
 end
 
-function var_0_0.GetFlagShipDisplayMode(arg_98_0)
-	if not arg_98_0.flagShipDisplayMode then
-		local var_98_0 = getProxy(PlayerProxy):getRawData().id
-
-		arg_98_0.flagShipDisplayMode = PlayerPrefs.GetInt("flag-ship-display-mode" .. var_98_0, FlAG_SHIP_DISPLAY_ALL)
-	end
-
-	return arg_98_0.flagShipDisplayMode
-end
-
-function var_0_0.SetFlagShipDisplayMode(arg_99_0, arg_99_1)
-	if arg_99_0.flagShipDisplayMode ~= arg_99_1 then
-		arg_99_0.flagShipDisplayMode = arg_99_1
-
+function var_0_0.GetFlagShipDisplayMode(arg_99_0)
+	if not arg_99_0.flagShipDisplayMode then
 		local var_99_0 = getProxy(PlayerProxy):getRawData().id
 
-		PlayerPrefs.SetInt("flag-ship-display-mode" .. var_99_0, arg_99_1)
+		arg_99_0.flagShipDisplayMode = PlayerPrefs.GetInt("flag-ship-display-mode" .. var_99_0, FlAG_SHIP_DISPLAY_ALL)
+	end
+
+	return arg_99_0.flagShipDisplayMode
+end
+
+function var_0_0.SetFlagShipDisplayMode(arg_100_0, arg_100_1)
+	if arg_100_0.flagShipDisplayMode ~= arg_100_1 then
+		arg_100_0.flagShipDisplayMode = arg_100_1
+
+		local var_100_0 = getProxy(PlayerProxy):getRawData().id
+
+		PlayerPrefs.SetInt("flag-ship-display-mode" .. var_100_0, arg_100_1)
 		PlayerPrefs.Save()
 	end
 end
 
-function var_0_0.RecordContinuousOperationAutoSubStatus(arg_100_0, arg_100_1)
-	if arg_100_1 then
+function var_0_0.RecordContinuousOperationAutoSubStatus(arg_101_0, arg_101_1)
+	if arg_101_1 then
 		return
 	end
 
-	local var_100_0 = getProxy(PlayerProxy):getRawData().id
+	local var_101_0 = getProxy(PlayerProxy):getRawData().id
 
-	PlayerPrefs.SetInt("AutoBotCOFlag" .. var_100_0, 1)
+	PlayerPrefs.SetInt("AutoBotCOFlag" .. var_101_0, 1)
 	PlayerPrefs.Save()
 end
 
-function var_0_0.ResetContinuousOperationAutoSub(arg_101_0)
-	local var_101_0 = getProxy(PlayerProxy):getRawData().id
+function var_0_0.ResetContinuousOperationAutoSub(arg_102_0)
+	local var_102_0 = getProxy(PlayerProxy):getRawData().id
 
-	if PlayerPrefs.GetInt("AutoBotCOFlag" .. var_101_0, 0) == 0 then
+	if PlayerPrefs.GetInt("AutoBotCOFlag" .. var_102_0, 0) == 0 then
 		return
 	end
 
@@ -877,311 +902,311 @@ function var_0_0.ResetContinuousOperationAutoSub(arg_101_0)
 		isActiveSub = true,
 		system = SYSTEM_ACT_BOSS
 	})
-	PlayerPrefs.SetInt("AutoBotCOFlag" .. var_101_0, 0)
+	PlayerPrefs.SetInt("AutoBotCOFlag" .. var_102_0, 0)
 	PlayerPrefs.Save()
 end
 
-function var_0_0.SetWorkbenchDailyTip(arg_102_0)
-	local var_102_0 = getProxy(PlayerProxy):getRawData().id
-	local var_102_1 = GetZeroTime()
-
-	PlayerPrefs.SetInt("WorkbenchDailyTip" .. var_102_0, var_102_1)
-	PlayerPrefs.Save()
-end
-
-function var_0_0.IsTipWorkbenchDaily(arg_103_0)
+function var_0_0.SetWorkbenchDailyTip(arg_103_0)
 	local var_103_0 = getProxy(PlayerProxy):getRawData().id
+	local var_103_1 = GetZeroTime()
 
-	return pg.TimeMgr.GetInstance():GetServerTime() > PlayerPrefs.GetInt("WorkbenchDailyTip" .. var_103_0, 0)
+	PlayerPrefs.SetInt("WorkbenchDailyTip" .. var_103_0, var_103_1)
+	PlayerPrefs.Save()
 end
 
-function var_0_0.IsDisplayResultPainting(arg_104_0)
-	local var_104_0 = PlayerPrefs.HasKey(BATTLERESULT_SKIP_DISPAY_PAINTING)
-	local var_104_1 = false
+function var_0_0.IsTipWorkbenchDaily(arg_104_0)
+	local var_104_0 = getProxy(PlayerProxy):getRawData().id
 
-	if var_104_0 then
-		var_104_1 = PlayerPrefs.GetInt(BATTLERESULT_SKIP_DISPAY_PAINTING) <= 0
+	return pg.TimeMgr.GetInstance():GetServerTime() > PlayerPrefs.GetInt("WorkbenchDailyTip" .. var_104_0, 0)
+end
+
+function var_0_0.IsDisplayResultPainting(arg_105_0)
+	local var_105_0 = PlayerPrefs.HasKey(BATTLERESULT_SKIP_DISPAY_PAINTING)
+	local var_105_1 = false
+
+	if var_105_0 then
+		var_105_1 = PlayerPrefs.GetInt(BATTLERESULT_SKIP_DISPAY_PAINTING) <= 0
 
 		PlayerPrefs.DeleteKey(BATTLERESULT_SKIP_DISPAY_PAINTING)
-		PlayerPrefs.SetInt(BATTLERESULT_DISPAY_PAINTING, var_104_1 and 1 or 0)
+		PlayerPrefs.SetInt(BATTLERESULT_DISPAY_PAINTING, var_105_1 and 1 or 0)
 		PlayerPrefs.Save()
 	else
-		var_104_1 = PlayerPrefs.GetInt(BATTLERESULT_DISPAY_PAINTING, 0) >= 1
+		var_105_1 = PlayerPrefs.GetInt(BATTLERESULT_DISPAY_PAINTING, 0) >= 1
 	end
 
-	return var_104_1
+	return var_105_1
 end
 
-function var_0_0.IsDisplayCommanderCatCustomName(arg_105_0)
-	if not arg_105_0.customFlag then
-		local var_105_0 = getProxy(PlayerProxy):getRawData().id
+function var_0_0.IsDisplayCommanderCatCustomName(arg_106_0)
+	if not arg_106_0.customFlag then
+		local var_106_0 = getProxy(PlayerProxy):getRawData().id
 
-		arg_105_0.customFlag = PlayerPrefs.GetInt("DisplayCommanderCatCustomName" .. var_105_0, 0) == 0
+		arg_106_0.customFlag = PlayerPrefs.GetInt("DisplayCommanderCatCustomName" .. var_106_0, 0) == 0
 	end
 
-	return arg_105_0.customFlag
+	return arg_106_0.customFlag
 end
 
-function var_0_0.SetDisplayCommanderCatCustomName(arg_106_0, arg_106_1)
-	if arg_106_1 == arg_106_0.customFlag then
+function var_0_0.SetDisplayCommanderCatCustomName(arg_107_0, arg_107_1)
+	if arg_107_1 == arg_107_0.customFlag then
 		return
 	end
 
-	arg_106_0.customFlag = arg_106_1
+	arg_107_0.customFlag = arg_107_1
 
-	local var_106_0 = arg_106_0.customFlag and 0 or 1
-	local var_106_1 = getProxy(PlayerProxy):getRawData().id
+	local var_107_0 = arg_107_0.customFlag and 0 or 1
+	local var_107_1 = getProxy(PlayerProxy):getRawData().id
 
-	PlayerPrefs.SetInt("DisplayCommanderCatCustomName" .. var_106_1, var_106_0)
+	PlayerPrefs.SetInt("DisplayCommanderCatCustomName" .. var_107_1, var_107_0)
 	PlayerPrefs.Save()
 end
 
-function var_0_0.GetCommanderQuicklyToolRarityConfig(arg_107_0)
-	if not arg_107_0.quicklyToolRarityConfig then
-		local var_107_0 = getProxy(PlayerProxy):getRawData().id
-		local var_107_1 = PlayerPrefs.GetString("CommanderQuicklyToolRarityConfig" .. var_107_0, "1#1#1")
-		local var_107_2 = string.split(var_107_1, "#")
+function var_0_0.GetCommanderQuicklyToolRarityConfig(arg_108_0)
+	if not arg_108_0.quicklyToolRarityConfig then
+		local var_108_0 = getProxy(PlayerProxy):getRawData().id
+		local var_108_1 = PlayerPrefs.GetString("CommanderQuicklyToolRarityConfig" .. var_108_0, "1#1#1")
+		local var_108_2 = string.split(var_108_1, "#")
 
-		arg_107_0.quicklyToolRarityConfig = _.map(var_107_2, function(arg_108_0)
-			return tonumber(arg_108_0) == 1
+		arg_108_0.quicklyToolRarityConfig = _.map(var_108_2, function(arg_109_0)
+			return tonumber(arg_109_0) == 1
 		end)
 	end
 
-	return arg_107_0.quicklyToolRarityConfig
+	return arg_108_0.quicklyToolRarityConfig
 end
 
-function var_0_0.SaveCommanderQuicklyToolRarityConfig(arg_109_0, arg_109_1)
-	local var_109_0 = false
+function var_0_0.SaveCommanderQuicklyToolRarityConfig(arg_110_0, arg_110_1)
+	local var_110_0 = false
 
-	for iter_109_0, iter_109_1 in ipairs(arg_109_0.quicklyToolRarityConfig) do
-		if arg_109_1[iter_109_0] ~= iter_109_1 then
-			var_109_0 = true
+	for iter_110_0, iter_110_1 in ipairs(arg_110_0.quicklyToolRarityConfig) do
+		if arg_110_1[iter_110_0] ~= iter_110_1 then
+			var_110_0 = true
 
 			break
 		end
 	end
 
-	if var_109_0 then
-		arg_109_0.quicklyToolRarityConfig = arg_109_1
+	if var_110_0 then
+		arg_110_0.quicklyToolRarityConfig = arg_110_1
 
-		local var_109_1 = _.map(arg_109_0.quicklyToolRarityConfig, function(arg_110_0)
-			return arg_110_0 and "1" or "0"
+		local var_110_1 = _.map(arg_110_0.quicklyToolRarityConfig, function(arg_111_0)
+			return arg_111_0 and "1" or "0"
 		end)
-		local var_109_2 = table.concat(var_109_1, "#")
-		local var_109_3 = getProxy(PlayerProxy):getRawData().id
+		local var_110_2 = table.concat(var_110_1, "#")
+		local var_110_3 = getProxy(PlayerProxy):getRawData().id
 
-		PlayerPrefs.SetString("CommanderQuicklyToolRarityConfig" .. var_109_3, var_109_2)
+		PlayerPrefs.SetString("CommanderQuicklyToolRarityConfig" .. var_110_3, var_110_2)
 		PlayerPrefs.Save()
 	end
 end
 
-function var_0_0.GetCommanderLockFlagRarityConfig(arg_111_0)
-	if not arg_111_0.lockFlagRarityConfig then
-		local var_111_0 = getProxy(PlayerProxy):getRawData().id
-		local var_111_1 = PlayerPrefs.GetString("CommanderLockFlagRarityConfig_" .. var_111_0, "1#0#0")
-		local var_111_2 = string.split(var_111_1, "#")
+function var_0_0.GetCommanderLockFlagRarityConfig(arg_112_0)
+	if not arg_112_0.lockFlagRarityConfig then
+		local var_112_0 = getProxy(PlayerProxy):getRawData().id
+		local var_112_1 = PlayerPrefs.GetString("CommanderLockFlagRarityConfig_" .. var_112_0, "1#0#0")
+		local var_112_2 = string.split(var_112_1, "#")
 
-		arg_111_0.lockFlagRarityConfig = _.map(var_111_2, function(arg_112_0)
-			return tonumber(arg_112_0) == 1
+		arg_112_0.lockFlagRarityConfig = _.map(var_112_2, function(arg_113_0)
+			return tonumber(arg_113_0) == 1
 		end)
 	end
 
-	return arg_111_0.lockFlagRarityConfig
+	return arg_112_0.lockFlagRarityConfig
 end
 
-function var_0_0.SaveCommanderLockFlagRarityConfig(arg_113_0, arg_113_1)
-	local var_113_0 = false
+function var_0_0.SaveCommanderLockFlagRarityConfig(arg_114_0, arg_114_1)
+	local var_114_0 = false
 
-	for iter_113_0, iter_113_1 in ipairs(arg_113_0.lockFlagRarityConfig) do
-		if arg_113_1[iter_113_0] ~= iter_113_1 then
-			var_113_0 = true
+	for iter_114_0, iter_114_1 in ipairs(arg_114_0.lockFlagRarityConfig) do
+		if arg_114_1[iter_114_0] ~= iter_114_1 then
+			var_114_0 = true
 
 			break
 		end
 	end
 
-	if var_113_0 then
-		arg_113_0.lockFlagRarityConfig = arg_113_1
+	if var_114_0 then
+		arg_114_0.lockFlagRarityConfig = arg_114_1
 
-		local var_113_1 = _.map(arg_113_0.lockFlagRarityConfig, function(arg_114_0)
-			return arg_114_0 and "1" or "0"
+		local var_114_1 = _.map(arg_114_0.lockFlagRarityConfig, function(arg_115_0)
+			return arg_115_0 and "1" or "0"
 		end)
-		local var_113_2 = table.concat(var_113_1, "#")
-		local var_113_3 = getProxy(PlayerProxy):getRawData().id
+		local var_114_2 = table.concat(var_114_1, "#")
+		local var_114_3 = getProxy(PlayerProxy):getRawData().id
 
-		PlayerPrefs.SetString("CommanderLockFlagRarityConfig_" .. var_113_3, var_113_2)
+		PlayerPrefs.SetString("CommanderLockFlagRarityConfig_" .. var_114_3, var_114_2)
 		PlayerPrefs.Save()
 	end
 end
 
-function var_0_0.GetCommanderLockFlagTalentConfig(arg_115_0)
-	if not arg_115_0.lockFlagTalentConfig then
-		local var_115_0 = getProxy(PlayerProxy):getRawData().id
-		local var_115_1 = PlayerPrefs.GetString("CommanderLockFlagTalentConfig" .. var_115_0, "")
-		local var_115_2 = {}
+function var_0_0.GetCommanderLockFlagTalentConfig(arg_116_0)
+	if not arg_116_0.lockFlagTalentConfig then
+		local var_116_0 = getProxy(PlayerProxy):getRawData().id
+		local var_116_1 = PlayerPrefs.GetString("CommanderLockFlagTalentConfig" .. var_116_0, "")
+		local var_116_2 = {}
 
-		if var_115_1 == "" then
-			for iter_115_0, iter_115_1 in ipairs(CommanderCatUtil.GetAllTalentNames()) do
-				var_115_2[iter_115_1.id] = true
+		if var_116_1 == "" then
+			for iter_116_0, iter_116_1 in ipairs(CommanderCatUtil.GetAllTalentNames()) do
+				var_116_2[iter_116_1.id] = true
 			end
 		else
-			for iter_115_2, iter_115_3 in ipairs(string.split(var_115_1, "#")) do
-				local var_115_3 = string.split(iter_115_3, "*")
+			for iter_116_2, iter_116_3 in ipairs(string.split(var_116_1, "#")) do
+				local var_116_3 = string.split(iter_116_3, "*")
 
-				if #var_115_3 == 2 then
-					var_115_2[tonumber(var_115_3[1])] = tonumber(var_115_3[2]) == 1
+				if #var_116_3 == 2 then
+					var_116_2[tonumber(var_116_3[1])] = tonumber(var_116_3[2]) == 1
 				end
 			end
 		end
 
-		arg_115_0.lockFlagTalentConfig = var_115_2
+		arg_116_0.lockFlagTalentConfig = var_116_2
 	end
 
-	return arg_115_0.lockFlagTalentConfig
+	return arg_116_0.lockFlagTalentConfig
 end
 
-function var_0_0.SaveCommanderLockFlagTalentConfig(arg_116_0, arg_116_1)
-	arg_116_0.lockFlagTalentConfig = arg_116_1
+function var_0_0.SaveCommanderLockFlagTalentConfig(arg_117_0, arg_117_1)
+	arg_117_0.lockFlagTalentConfig = arg_117_1
 
-	local var_116_0 = {}
+	local var_117_0 = {}
 
-	for iter_116_0, iter_116_1 in pairs(arg_116_1) do
-		table.insert(var_116_0, iter_116_0 .. "*" .. (iter_116_1 and "1" or "0"))
+	for iter_117_0, iter_117_1 in pairs(arg_117_1) do
+		table.insert(var_117_0, iter_117_0 .. "*" .. (iter_117_1 and "1" or "0"))
 	end
 
-	local var_116_1 = table.concat(var_116_0, "#")
-	local var_116_2 = getProxy(PlayerProxy):getRawData().id
+	local var_117_1 = table.concat(var_117_0, "#")
+	local var_117_2 = getProxy(PlayerProxy):getRawData().id
 
-	PlayerPrefs.SetString("CommanderLockFlagTalentConfig" .. var_116_2, var_116_1)
+	PlayerPrefs.SetString("CommanderLockFlagTalentConfig" .. var_117_2, var_117_1)
 	PlayerPrefs.Save()
 end
 
-function var_0_0.GetMainPaintingVariantFlag(arg_117_0, arg_117_1)
-	if not arg_117_0.mainPaintingVariantFlag then
-		arg_117_0.mainPaintingVariantFlag = {}
+function var_0_0.GetMainPaintingVariantFlag(arg_118_0, arg_118_1)
+	if not arg_118_0.mainPaintingVariantFlag then
+		arg_118_0.mainPaintingVariantFlag = {}
 	end
 
-	if not arg_117_0.mainPaintingVariantFlag[arg_117_1] then
-		local var_117_0 = getProxy(PlayerProxy):getRawData().id
-		local var_117_1 = PlayerPrefs.GetInt(arg_117_1 .. "_mainMeshImagePainting_ex_" .. var_117_0, 0)
+	if not arg_118_0.mainPaintingVariantFlag[arg_118_1] then
+		local var_118_0 = getProxy(PlayerProxy):getRawData().id
+		local var_118_1 = PlayerPrefs.GetInt(arg_118_1 .. "_mainMeshImagePainting_ex_" .. var_118_0, 0)
 
-		arg_117_0.mainPaintingVariantFlag[arg_117_1] = var_117_1
+		arg_118_0.mainPaintingVariantFlag[arg_118_1] = var_118_1
 	end
 
-	return arg_117_0.mainPaintingVariantFlag[arg_117_1]
+	return arg_118_0.mainPaintingVariantFlag[arg_118_1]
 end
 
-function var_0_0.SwitchMainPaintingVariantFlag(arg_118_0, arg_118_1)
-	local var_118_0 = 1 - arg_118_0:GetMainPaintingVariantFlag(arg_118_1)
+function var_0_0.SwitchMainPaintingVariantFlag(arg_119_0, arg_119_1)
+	local var_119_0 = 1 - arg_119_0:GetMainPaintingVariantFlag(arg_119_1)
 
-	arg_118_0.mainPaintingVariantFlag[arg_118_1] = var_118_0
+	arg_119_0.mainPaintingVariantFlag[arg_119_1] = var_119_0
 
-	local var_118_1 = getProxy(PlayerProxy):getRawData().id
+	local var_119_1 = getProxy(PlayerProxy):getRawData().id
 
-	PlayerPrefs.SetInt(arg_118_1 .. "_mainMeshImagePainting_ex_" .. var_118_1, var_118_0)
+	PlayerPrefs.SetInt(arg_119_1 .. "_mainMeshImagePainting_ex_" .. var_119_1, var_119_0)
 	PlayerPrefs.Save()
 end
 
-function var_0_0.IsTipDay(arg_119_0, arg_119_1, arg_119_2, arg_119_3)
-	local var_119_0 = getProxy(PlayerProxy):getRawData().id
-
-	return PlayerPrefs.GetInt(var_119_0 .. "educate_char_" .. arg_119_1 .. arg_119_2 .. arg_119_3, 0) == 1
-end
-
-function var_0_0.RecordTipDay(arg_120_0, arg_120_1, arg_120_2, arg_120_3)
+function var_0_0.IsTipDay(arg_120_0, arg_120_1, arg_120_2, arg_120_3)
 	local var_120_0 = getProxy(PlayerProxy):getRawData().id
 
-	PlayerPrefs.SetInt(var_120_0 .. "educate_char_" .. arg_120_1 .. arg_120_2 .. arg_120_3, 1)
+	return PlayerPrefs.GetInt(var_120_0 .. "educate_char_" .. arg_120_1 .. arg_120_2 .. arg_120_3, 0) == 1
+end
+
+function var_0_0.RecordTipDay(arg_121_0, arg_121_1, arg_121_2, arg_121_3)
+	local var_121_0 = getProxy(PlayerProxy):getRawData().id
+
+	PlayerPrefs.SetInt(var_121_0 .. "educate_char_" .. arg_121_1 .. arg_121_2 .. arg_121_3, 1)
 	PlayerPrefs.Save()
 end
 
-function var_0_0.UpdateEducateCharTip(arg_121_0, arg_121_1)
-	local var_121_0 = getProxy(PlayerProxy):getRawData().id
-	local var_121_1 = NewEducateHelper.GetAllUnlockSecretaryIds()
-	local var_121_2 = {}
+function var_0_0.UpdateEducateCharTip(arg_122_0, arg_122_1)
+	local var_122_0 = getProxy(PlayerProxy):getRawData().id
+	local var_122_1 = NewEducateHelper.GetAllUnlockSecretaryIds()
+	local var_122_2 = {}
 
-	for iter_121_0, iter_121_1 in ipairs(arg_121_1 or {}) do
-		var_121_2[iter_121_1] = true
+	for iter_122_0, iter_122_1 in ipairs(arg_122_1 or {}) do
+		var_122_2[iter_122_1] = true
 	end
 
-	for iter_121_2, iter_121_3 in ipairs(var_121_1 or {}) do
-		local var_121_3 = var_121_0 .. "educate_char_tip" .. iter_121_3
+	for iter_122_2, iter_122_3 in ipairs(var_122_1 or {}) do
+		local var_122_3 = var_122_0 .. "educate_char_tip" .. iter_122_3
 
-		if var_121_2[iter_121_3] ~= true then
-			PlayerPrefs.SetInt(var_121_3, 1)
+		if var_122_2[iter_122_3] ~= true then
+			PlayerPrefs.SetInt(var_122_3, 1)
 			PlayerPrefs.Save()
 		end
 	end
 
-	arg_121_0:RefillEducateCharTipList()
+	arg_122_0:RefillEducateCharTipList()
 end
 
-function var_0_0.RefillEducateCharTipList(arg_122_0)
-	local var_122_0 = getProxy(PlayerProxy):getRawData().id
+function var_0_0.RefillEducateCharTipList(arg_123_0)
+	local var_123_0 = getProxy(PlayerProxy):getRawData().id
 
-	arg_122_0.educateCharTipList = {}
+	arg_123_0.educateCharTipList = {}
 
 	if LOCK_EDUCATE_SYSTEM then
 		return
 	end
 
-	local var_122_1 = NewEducateHelper.GetAllUnlockSecretaryIds()
+	local var_123_1 = NewEducateHelper.GetAllUnlockSecretaryIds()
 
-	for iter_122_0, iter_122_1 in ipairs(var_122_1 or {}) do
-		if PlayerPrefs.GetInt(var_122_0 .. "educate_char_tip" .. iter_122_1, 0) == 1 then
-			table.insert(arg_122_0.educateCharTipList, iter_122_1)
+	for iter_123_0, iter_123_1 in ipairs(var_123_1 or {}) do
+		if PlayerPrefs.GetInt(var_123_0 .. "educate_char_tip" .. iter_123_1, 0) == 1 then
+			table.insert(arg_123_0.educateCharTipList, iter_123_1)
 		end
 	end
 end
 
-function var_0_0.ShouldEducateCharTip(arg_123_0)
+function var_0_0.ShouldEducateCharTip(arg_124_0)
 	if NewEducateHelper.GetEducateCharSlotMaxCnt() == 0 then
 		return false
 	end
 
-	if not arg_123_0.educateCharTipList or #arg_123_0.educateCharTipList == 0 then
-		arg_123_0:RefillEducateCharTipList()
+	if not arg_124_0.educateCharTipList or #arg_124_0.educateCharTipList == 0 then
+		arg_124_0:RefillEducateCharTipList()
 	end
 
-	return _.any(arg_123_0.educateCharTipList, function(arg_124_0)
-		return NewEducateHelper.IsUnlockDefaultShip(arg_124_0)
+	return _.any(arg_124_0.educateCharTipList, function(arg_125_0)
+		return NewEducateHelper.IsUnlockDefaultShip(arg_125_0)
 	end)
 end
 
-function var_0_0._ShouldEducateCharTip(arg_125_0, arg_125_1)
-	if not arg_125_0.educateCharTipList or #arg_125_0.educateCharTipList == 0 then
-		arg_125_0:RefillEducateCharTipList()
+function var_0_0._ShouldEducateCharTip(arg_126_0, arg_126_1)
+	if not arg_126_0.educateCharTipList or #arg_126_0.educateCharTipList == 0 then
+		arg_126_0:RefillEducateCharTipList()
 	end
 
-	if table.contains(arg_125_0.educateCharTipList, arg_125_1) and NewEducateHelper.IsUnlockDefaultShip(arg_125_1) then
+	if table.contains(arg_126_0.educateCharTipList, arg_126_1) and NewEducateHelper.IsUnlockDefaultShip(arg_126_1) then
 		return true
 	end
 
 	return false
 end
 
-function var_0_0.ClearEducateCharTip(arg_126_0, arg_126_1)
-	if not arg_126_0:_ShouldEducateCharTip(arg_126_1) then
+function var_0_0.ClearEducateCharTip(arg_127_0, arg_127_1)
+	if not arg_127_0:_ShouldEducateCharTip(arg_127_1) then
 		return false
 	end
 
-	table.removebyvalue(arg_126_0.educateCharTipList, arg_126_1)
+	table.removebyvalue(arg_127_0.educateCharTipList, arg_127_1)
 
-	local var_126_0 = getProxy(PlayerProxy):getRawData().id .. "educate_char_tip" .. arg_126_1
+	local var_127_0 = getProxy(PlayerProxy):getRawData().id .. "educate_char_tip" .. arg_127_1
 
-	if PlayerPrefs.HasKey(var_126_0) then
-		PlayerPrefs.DeleteKey(var_126_0)
+	if PlayerPrefs.HasKey(var_127_0) then
+		PlayerPrefs.DeleteKey(var_127_0)
 		PlayerPrefs.Save()
 	end
 
 	pg.m02:sendNotification(GAME.CLEAR_EDUCATE_TIP, {
-		id = arg_126_1
+		id = arg_127_1
 	})
 
 	return true
 end
 
-function var_0_0.GetMainSceneThemeStyle(arg_127_0)
+function var_0_0.GetMainSceneThemeStyle(arg_128_0)
 	if PlayerPrefs.GetInt(USAGE_NEW_MAINUI, 1) == 1 then
 		return NewMainScene.THEME_MELLOW
 	else
@@ -1189,44 +1214,44 @@ function var_0_0.GetMainSceneThemeStyle(arg_127_0)
 	end
 end
 
-function var_0_0.IsMellowStyle(arg_128_0)
-	local var_128_0 = arg_128_0:GetMainSceneThemeStyle()
+function var_0_0.IsMellowStyle(arg_129_0)
+	local var_129_0 = arg_129_0:GetMainSceneThemeStyle()
 
-	return NewMainScene.THEME_MELLOW == var_128_0
+	return NewMainScene.THEME_MELLOW == var_129_0
 end
 
-function var_0_0.GetMainSceneScreenSleepTime(arg_129_0)
+function var_0_0.GetMainSceneScreenSleepTime(arg_130_0)
 	if pg.NewGuideMgr.GetInstance():IsBusy() then
 		return SleepTimeout.SystemSetting
 	end
 
-	local var_129_0 = pg.settings_other_template[20].name
+	local var_130_0 = pg.settings_other_template[20].name
 
-	if PlayerPrefs.GetInt(var_129_0, 1) == 1 then
+	if PlayerPrefs.GetInt(var_130_0, 1) == 1 then
 		return SleepTimeout.NeverSleep
 	else
 		return SleepTimeout.SystemSetting
 	end
 end
 
-function var_0_0.ShowL2dResetInMainScene(arg_130_0)
-	local var_130_0 = pg.settings_other_template[21].name
+function var_0_0.ShowL2dResetInMainScene(arg_131_0)
+	local var_131_0 = pg.settings_other_template[21].name
 
-	return PlayerPrefs.GetInt(var_130_0, 0) == 1
+	return PlayerPrefs.GetInt(var_131_0, 0) == 1
 end
 
-function var_0_0.Reset(arg_131_0)
-	arg_131_0:resetEquipSceneIndex()
-	arg_131_0:resetActivityLayerIndex()
+function var_0_0.Reset(arg_132_0)
+	arg_132_0:resetEquipSceneIndex()
+	arg_132_0:resetActivityLayerIndex()
 
-	arg_131_0.isStopBuildSpeedupReamind = false
+	arg_132_0.isStopBuildSpeedupReamind = false
 
-	arg_131_0:RestoreFrameRate()
+	arg_132_0:RestoreFrameRate()
 
-	arg_131_0.randomFlagShipList = nil
-	arg_131_0.prevRandomFlagShipTime = nil
-	arg_131_0.randomFlagShipMap = nil
-	arg_131_0.educateCharTipList = {}
+	arg_132_0.randomFlagShipList = nil
+	arg_132_0.prevRandomFlagShipTime = nil
+	arg_132_0.randomFlagShipMap = nil
+	arg_132_0.educateCharTipList = {}
 end
 
 return var_0_0

@@ -29,8 +29,8 @@ end
 function var_0_0.OnShipSkinChanged(arg_4_0, arg_4_1)
 	arg_4_0:UpdatePainting()
 
-	if arg_4_0.shipsPage and arg_4_0.shipsPage:GetLoaded() and arg_4_0.shipsPage:isShowing() then
-		arg_4_0.shipsPage:UpdateCard(arg_4_1.id)
+	if arg_4_0.shipsPage and arg_4_0.shipsPage:isShowing() then
+		arg_4_0.shipsPage:UpdateCard(arg_4_1)
 	end
 end
 
@@ -245,7 +245,7 @@ function var_0_0.UpdatePainting(arg_23_0, arg_23_1)
 		end
 	end
 
-	if not arg_23_0.displaySkinID or arg_23_0.displaySkinID ~= var_23_0.skinId or arg_23_1 then
+	if not arg_23_0.displaySkinID or arg_23_0.displaySkinID ~= var_23_0:getSkinId() or arg_23_1 then
 		arg_23_0:ReturnPainting()
 
 		local var_23_4 = var_23_0:getPainting()
@@ -258,7 +258,7 @@ function var_0_0.UpdatePainting(arg_23_0, arg_23_1)
 
 		setActive(arg_23_0.switchSkinBtn, var_23_5 and not isa(var_23_0, VirtualEducateCharShip))
 
-		arg_23_0.displaySkinID = var_23_0.skinId
+		arg_23_0.displaySkinID = var_23_0:getSkinId()
 	end
 
 	local var_23_6 = var_23_0:getGroupId()
@@ -321,7 +321,7 @@ function var_0_0.checkShowResetL2dBtn(arg_27_0)
 		if arg_27_0:GetFlagShip() then
 			local var_28_0 = arg_27_0:GetFlagShip()
 
-			Live2dConst.ClearLive2dSave(var_28_0.skinId, var_28_0.id)
+			Live2dConst.ClearLive2dSave(var_28_0:getSkinId(), var_28_0.id)
 		end
 	end, SFX_CONFIRM)
 end

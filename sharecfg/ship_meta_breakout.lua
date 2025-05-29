@@ -26,6 +26,10 @@ pg.ship_meta_breakout = setmetatable({
 		9701062,
 		9701063,
 		9701064,
+		9701071,
+		9701072,
+		9701073,
+		9701074,
 		9702011,
 		9702012,
 		9702013,
@@ -570,6 +574,69 @@ pg.base.ship_meta_breakout = {
 		id = 9701064,
 		item1 = 21036,
 		pre_id = 9701063,
+		weapon_ids = {}
+	},
+	[9701071] = {
+		breakout_view = "习得技能【逐光之焰·格伦维尔】I/主炮效率提高5%",
+		gold = 500,
+		breakout_id = 9701072,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9701071,
+		item1 = 21047,
+		pre_id = 0,
+		weapon_ids = {
+			170761
+		}
+	},
+	[9701072] = {
+		breakout_view = "鱼雷底座+1/鱼雷预装填+1/主炮效率提高10%",
+		gold = 1500,
+		breakout_id = 9701073,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9701072,
+		item1 = 21047,
+		pre_id = 9701071,
+		weapon_ids = {
+			108,
+			108
+		}
+	},
+	[9701073] = {
+		breakout_view = "【逐光之焰·格伦维尔】升级/全武器效率提高5%",
+		gold = 2500,
+		breakout_id = 9701074,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9701073,
+		item1 = 21047,
+		pre_id = 9701072,
+		weapon_ids = {
+			170762
+		}
+	},
+	[9701074] = {
+		breakout_view = "无",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9701074,
+		item1 = 21047,
+		pre_id = 9701073,
 		weapon_ids = {}
 	},
 	[9702011] = {

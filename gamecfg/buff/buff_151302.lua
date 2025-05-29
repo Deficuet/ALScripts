@@ -6,11 +6,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				quota = 9,
-				initialCD = true,
-				time = 0.2,
-				target = "TargetSelf",
-				skill_id = 151302
+				skill_id = 151302,
+				target = "TargetSelf"
 			}
 		},
 		{

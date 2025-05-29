@@ -238,156 +238,146 @@ function var_0_0.getBuildingBluePrint(arg_33_0)
 	end
 end
 
-function var_0_0.GetBlueprint4Item(arg_34_0, arg_34_1)
-	return arg_34_0.item2blueprint[arg_34_1]
-end
+function var_0_0.getAllBluePrintShipIds(arg_34_0)
+	local var_34_0 = {}
 
-function var_0_0.getCatchupData(arg_35_0, arg_35_1)
-	if not arg_35_0.catchupData[arg_35_1] then
-		local var_35_0 = TechnologyCatchup.New({
-			version = arg_35_1
-		})
-
-		arg_35_0.catchupData[arg_35_1] = var_35_0
+	for iter_34_0, iter_34_1 in pairs(arg_34_0.bluePrintData) do
+		if iter_34_1:isFetched() then
+			table.insert(var_34_0, iter_34_1.shipId)
+		end
 	end
 
-	return arg_35_0.catchupData[arg_35_1]
+	return var_34_0
 end
 
-function var_0_0.updateCatchupData(arg_36_0, arg_36_1, arg_36_2, arg_36_3)
-	arg_36_0.catchupData[arg_36_1]:addTargetNum(arg_36_2, arg_36_3)
+function var_0_0.GetBlueprint4Item(arg_35_0, arg_35_1)
+	return arg_35_0.item2blueprint[arg_35_1]
 end
 
-function var_0_0.getCurCatchNum(arg_37_0)
-	if arg_37_0.curCatchupTecID ~= 0 and arg_37_0.curCatchupGroupID ~= 0 then
-		return arg_37_0.catchupData[arg_37_0.curCatchupTecID]:getTargetNum(arg_37_0.curCatchupGroupID)
+function var_0_0.updatePhantomQuestProgress(arg_36_0, arg_36_1, arg_36_2)
+	for iter_36_0, iter_36_1 in pairs(arg_36_0.bluePrintData) do
+		if iter_36_1:isFetched() and arg_36_2[iter_36_1.shipId] then
+			iter_36_1:setPhantomQuestProgress(arg_36_1, arg_36_2[iter_36_1.shipId])
+		end
+	end
+end
+
+function var_0_0.getCatchupData(arg_37_0, arg_37_1)
+	if not arg_37_0.catchupData[arg_37_1] then
+		local var_37_0 = TechnologyCatchup.New({
+			version = arg_37_1
+		})
+
+		arg_37_0.catchupData[arg_37_1] = var_37_0
+	end
+
+	return arg_37_0.catchupData[arg_37_1]
+end
+
+function var_0_0.updateCatchupData(arg_38_0, arg_38_1, arg_38_2, arg_38_3)
+	arg_38_0.catchupData[arg_38_1]:addTargetNum(arg_38_2, arg_38_3)
+end
+
+function var_0_0.getCurCatchNum(arg_39_0)
+	if arg_39_0.curCatchupTecID ~= 0 and arg_39_0.curCatchupGroupID ~= 0 then
+		return arg_39_0.catchupData[arg_39_0.curCatchupTecID]:getTargetNum(arg_39_0.curCatchupGroupID)
 	else
 		return 0
 	end
 end
 
-function var_0_0.getCatchupState(arg_38_0, arg_38_1)
-	if not arg_38_0.catchupData[arg_38_1] then
+function var_0_0.getCatchupState(arg_40_0, arg_40_1)
+	if not arg_40_0.catchupData[arg_40_1] then
 		return TechnologyCatchup.STATE_UNSELECT
 	end
 
-	return arg_38_0.catchupData[arg_38_1]:getState()
+	return arg_40_0.catchupData[arg_40_1]:getState()
 end
 
-function var_0_0.updateCatchupStates(arg_39_0)
-	for iter_39_0, iter_39_1 in pairs(arg_39_0.catchupData) do
-		iter_39_1:updateState()
+function var_0_0.updateCatchupStates(arg_41_0)
+	for iter_41_0, iter_41_1 in pairs(arg_41_0.catchupData) do
+		iter_41_1:updateState()
 	end
 end
 
-function var_0_0.isOpenTargetCatchup(arg_40_0)
+function var_0_0.isOpenTargetCatchup(arg_42_0)
 	return pg.technology_catchup_template ~= nil and #pg.technology_catchup_template.all > 0
 end
 
-function var_0_0.getNewestCatchupTecID(arg_41_0)
+function var_0_0.getNewestCatchupTecID(arg_43_0)
 	return math.max(unpack(pg.technology_catchup_template.all))
 end
 
-function var_0_0.isOnCatchup(arg_42_0)
-	return arg_42_0.curCatchupTecID ~= 0 and arg_42_0.curCatchupGroupID ~= 0
+function var_0_0.isOnCatchup(arg_44_0)
+	return arg_44_0.curCatchupTecID ~= 0 and arg_44_0.curCatchupGroupID ~= 0
 end
 
-function var_0_0.getBluePrintVOByGroupID(arg_43_0, arg_43_1)
-	return arg_43_0.bluePrintData[arg_43_1]
+function var_0_0.getBluePrintVOByGroupID(arg_45_0, arg_45_1)
+	return arg_45_0.bluePrintData[arg_45_1]
 end
 
-function var_0_0.getCurCatchupTecInfo(arg_44_0)
+function var_0_0.getCurCatchupTecInfo(arg_46_0)
 	return {
-		tecID = arg_44_0.curCatchupTecID,
-		groupID = arg_44_0.curCatchupGroupID,
-		printNum = arg_44_0.curCatchupPrintsNum
+		tecID = arg_46_0.curCatchupTecID,
+		groupID = arg_46_0.curCatchupGroupID,
+		printNum = arg_46_0.curCatchupPrintsNum
 	}
 end
 
-function var_0_0.setCurCatchupTecInfo(arg_45_0, arg_45_1, arg_45_2)
-	arg_45_0.curCatchupTecID = arg_45_1
-	arg_45_0.curCatchupGroupID = arg_45_2
-	arg_45_0.curCatchupPrintsNum = arg_45_0:getCurCatchNum()
+function var_0_0.setCurCatchupTecInfo(arg_47_0, arg_47_1, arg_47_2)
+	arg_47_0.curCatchupTecID = arg_47_1
+	arg_47_0.curCatchupGroupID = arg_47_2
+	arg_47_0.curCatchupPrintsNum = arg_47_0:getCurCatchNum()
 
-	arg_45_0:updateCatchupStates()
-	print("设置后的科研追赶信息", arg_45_0.curCatchupTecID, arg_45_0.curCatchupGroupID, arg_45_0.curCatchupPrintsNum)
+	arg_47_0:updateCatchupStates()
+	print("设置后的科研追赶信息", arg_47_0.curCatchupTecID, arg_47_0.curCatchupGroupID, arg_47_0.curCatchupPrintsNum)
 end
 
-function var_0_0.addCatupPrintsNum(arg_46_0, arg_46_1)
-	arg_46_0:updateCatchupData(arg_46_0.curCatchupTecID, arg_46_0.curCatchupGroupID, arg_46_1)
+function var_0_0.addCatupPrintsNum(arg_48_0, arg_48_1)
+	arg_48_0:updateCatchupData(arg_48_0.curCatchupTecID, arg_48_0.curCatchupGroupID, arg_48_1)
 
-	arg_46_0.curCatchupPrintsNum = arg_46_0:getCurCatchNum()
+	arg_48_0.curCatchupPrintsNum = arg_48_0:getCurCatchNum()
 
-	print("增加科研图纸", arg_46_1, arg_46_0.curCatchupPrintsNum)
+	print("增加科研图纸", arg_48_1, arg_48_0.curCatchupPrintsNum)
 end
 
-function var_0_0.IsShowTip(arg_47_0)
-	local var_47_0 = SelectTechnologyMediator.onTechnologyNotify()
-	local var_47_1 = SelectTechnologyMediator.onBlueprintNotify()
-	local var_47_2, var_47_3 = pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "TechnologyMediator")
+function var_0_0.IsShowTip(arg_49_0)
+	local var_49_0 = SelectTechnologyMediator.onTechnologyNotify()
+	local var_49_1 = SelectTechnologyMediator.onBlueprintNotify()
+	local var_49_2, var_49_3 = pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "TechnologyMediator")
 
-	return OPEN_TEC_TREE_SYSTEM and getProxy(TechnologyNationProxy):getShowRedPointTag() or (var_47_1 or var_47_0) and var_47_2
+	return OPEN_TEC_TREE_SYSTEM and getProxy(TechnologyNationProxy):getShowRedPointTag() or (var_49_1 or var_49_0) and var_49_2
 end
 
-function var_0_0.addPursuingTimes(arg_48_0, arg_48_1, arg_48_2)
-	if arg_48_2 then
-		arg_48_0.pursuingTimesUR = arg_48_0.pursuingTimesUR + arg_48_1
+function var_0_0.addPursuingTimes(arg_50_0, arg_50_1, arg_50_2)
+	if arg_50_2 then
+		arg_50_0.pursuingTimesUR = arg_50_0.pursuingTimesUR + arg_50_1
 	else
-		arg_48_0.pursuingTimes = arg_48_0.pursuingTimes + arg_48_1
+		arg_50_0.pursuingTimes = arg_50_0.pursuingTimes + arg_50_1
 	end
 end
 
-function var_0_0.resetPursuingTimes(arg_49_0)
-	arg_49_0.pursuingTimes = 0
-	arg_49_0.pursuingTimesUR = 0
+function var_0_0.resetPursuingTimes(arg_51_0)
+	arg_51_0.pursuingTimes = 0
+	arg_51_0.pursuingTimesUR = 0
 
-	arg_49_0:sendNotification(GAME.PURSUING_RESET_DONE)
+	arg_51_0:sendNotification(GAME.PURSUING_RESET_DONE)
 end
 
-function var_0_0.getPursuingTimes(arg_50_0, arg_50_1)
-	if arg_50_1 then
-		return arg_50_0.pursuingTimesUR
+function var_0_0.getPursuingTimes(arg_52_0, arg_52_1)
+	if arg_52_1 then
+		return arg_52_0.pursuingTimesUR
 	else
-		return arg_50_0.pursuingTimes
+		return arg_52_0.pursuingTimes
 	end
 end
 
-function var_0_0.calcMaxPursuingCount(arg_51_0, arg_51_1)
-	local var_51_0 = pg.gameset[arg_51_1:isRarityUR() and "blueprint_pursue_discount_ur" or "blueprint_pursue_discount_ssr"].description
-	local var_51_1 = getProxy(PlayerProxy):getRawData():getResource(PlayerConst.ResGold)
-	local var_51_2 = 0
-
-	local function var_51_3(arg_52_0)
-		local var_52_0 = #var_51_0
-
-		while arg_52_0 < var_51_0[var_52_0][1] do
-			var_52_0 = var_52_0 - 1
-		end
-
-		return var_51_0[var_52_0][2]
-	end
-
-	local var_51_4
-
-	for iter_51_0 = arg_51_0:getPursuingTimes(arg_51_1:isRarityUR()) + 1, var_51_0[#var_51_0][1] - 1 do
-		local var_51_5 = arg_51_1:getPursuingPrice(var_51_3(iter_51_0))
-
-		if var_51_1 < var_51_5 then
-			return var_51_2
-		else
-			var_51_1 = var_51_1 - var_51_5
-			var_51_2 = var_51_2 + 1
-		end
-	end
-
-	return var_51_2 + math.floor(var_51_1 / arg_51_1:getPursuingPrice())
-end
-
-function var_0_0.calcPursuingCost(arg_53_0, arg_53_1, arg_53_2)
+function var_0_0.calcMaxPursuingCount(arg_53_0, arg_53_1)
 	local var_53_0 = pg.gameset[arg_53_1:isRarityUR() and "blueprint_pursue_discount_ur" or "blueprint_pursue_discount_ssr"].description
-	local var_53_1 = 0
+	local var_53_1 = getProxy(PlayerProxy):getRawData():getResource(PlayerConst.ResGold)
+	local var_53_2 = 0
 
-	local function var_53_2(arg_54_0)
+	local function var_53_3(arg_54_0)
 		local var_54_0 = #var_53_0
 
 		while arg_54_0 < var_53_0[var_54_0][1] do
@@ -397,70 +387,100 @@ function var_0_0.calcPursuingCost(arg_53_0, arg_53_1, arg_53_2)
 		return var_53_0[var_54_0][2]
 	end
 
-	local var_53_3
+	local var_53_4
 
 	for iter_53_0 = arg_53_0:getPursuingTimes(arg_53_1:isRarityUR()) + 1, var_53_0[#var_53_0][1] - 1 do
-		local var_53_4 = arg_53_1:getPursuingPrice(var_53_2(iter_53_0))
+		local var_53_5 = arg_53_1:getPursuingPrice(var_53_3(iter_53_0))
 
-		if arg_53_2 == 0 then
-			return var_53_1
+		if var_53_1 < var_53_5 then
+			return var_53_2
 		else
-			var_53_1 = var_53_1 + var_53_4
-			arg_53_2 = arg_53_2 - 1
+			var_53_1 = var_53_1 - var_53_5
+			var_53_2 = var_53_2 + 1
 		end
 	end
 
-	return var_53_1 + arg_53_2 * arg_53_1:getPursuingPrice()
+	return var_53_2 + math.floor(var_53_1 / arg_53_1:getPursuingPrice())
 end
 
-function var_0_0.getPursuingDiscount(arg_55_0, arg_55_1)
-	local var_55_0 = getGameset(arg_55_1 and "blueprint_pursue_discount_ur" or "blueprint_pursue_discount_ssr")[2]
-	local var_55_1 = #var_55_0
+function var_0_0.calcPursuingCost(arg_55_0, arg_55_1, arg_55_2)
+	local var_55_0 = pg.gameset[arg_55_1:isRarityUR() and "blueprint_pursue_discount_ur" or "blueprint_pursue_discount_ssr"].description
+	local var_55_1 = 0
 
-	while arg_55_0 < var_55_0[var_55_1][1] do
-		var_55_1 = var_55_1 - 1
+	local function var_55_2(arg_56_0)
+		local var_56_0 = #var_55_0
+
+		while arg_56_0 < var_55_0[var_56_0][1] do
+			var_56_0 = var_56_0 - 1
+		end
+
+		return var_55_0[var_56_0][2]
 	end
 
-	return var_55_0[var_55_1][2]
+	local var_55_3
+
+	for iter_55_0 = arg_55_0:getPursuingTimes(arg_55_1:isRarityUR()) + 1, var_55_0[#var_55_0][1] - 1 do
+		local var_55_4 = arg_55_1:getPursuingPrice(var_55_2(iter_55_0))
+
+		if arg_55_2 == 0 then
+			return var_55_1
+		else
+			var_55_1 = var_55_1 + var_55_4
+			arg_55_2 = arg_55_2 - 1
+		end
+	end
+
+	return var_55_1 + arg_55_2 * arg_55_1:getPursuingPrice()
 end
 
-function var_0_0.getItemCanUnlockBluePrint(arg_56_0, arg_56_1)
-	if not arg_56_0.unlockItemDic then
-		arg_56_0.unlockItemDic = {}
+function var_0_0.getPursuingDiscount(arg_57_0, arg_57_1)
+	local var_57_0 = getGameset(arg_57_1 and "blueprint_pursue_discount_ur" or "blueprint_pursue_discount_ssr")[2]
+	local var_57_1 = #var_57_0
 
-		for iter_56_0, iter_56_1 in ipairs(pg.ship_data_blueprint.all) do
-			local var_56_0 = arg_56_0.bluePrintData[iter_56_1]
+	while arg_57_0 < var_57_0[var_57_1][1] do
+		var_57_1 = var_57_1 - 1
+	end
 
-			for iter_56_2, iter_56_3 in ipairs(var_56_0:getConfig("gain_item_id")) do
-				arg_56_0.unlockItemDic[iter_56_3] = arg_56_0.unlockItemDic[iter_56_3] or {}
+	return var_57_0[var_57_1][2]
+end
 
-				table.insert(arg_56_0.unlockItemDic[iter_56_3], iter_56_1)
+function var_0_0.getItemCanUnlockBluePrint(arg_58_0, arg_58_1)
+	if not arg_58_0.unlockItemDic then
+		arg_58_0.unlockItemDic = {}
+
+		for iter_58_0, iter_58_1 in ipairs(pg.ship_data_blueprint.all) do
+			local var_58_0 = arg_58_0.bluePrintData[iter_58_1]
+
+			for iter_58_2, iter_58_3 in ipairs(var_58_0:getConfig("gain_item_id")) do
+				arg_58_0.unlockItemDic[iter_58_3] = arg_58_0.unlockItemDic[iter_58_3] or {}
+
+				table.insert(arg_58_0.unlockItemDic[iter_58_3], iter_58_1)
 			end
 		end
 	end
 
-	return arg_56_0.unlockItemDic[arg_56_1]
+	return arg_58_0.unlockItemDic[arg_58_1]
 end
 
-function var_0_0.CheckPursuingCostTip(arg_57_0, arg_57_1)
-	if var_0_0.getPursuingDiscount(arg_57_0.pursuingTimes + 1, false) > 0 and var_0_0.getPursuingDiscount(arg_57_0.pursuingTimesUR + 1, true) > 0 then
+function var_0_0.CheckPursuingCostTip(arg_59_0, arg_59_1)
+	if var_0_0.getPursuingDiscount(arg_59_0.pursuingTimes + 1, false) > 0 and var_0_0.getPursuingDiscount(arg_59_0.pursuingTimesUR + 1, true) > 0 then
 		return false
 	end
 
-	local var_57_0 = {}
+	local var_59_0 = {}
 
-	if arg_57_1 then
-		for iter_57_0, iter_57_1 in ipairs(arg_57_1) do
-			var_57_0[iter_57_1] = true
+	if arg_59_1 then
+		for iter_59_0, iter_59_1 in ipairs(arg_59_1) do
+			var_59_0[iter_59_1] = true
 		end
 	else
-		for iter_57_2 = 1, arg_57_0.maxConfigVersion do
-			var_57_0[iter_57_2] = true
+		for iter_59_2 = 1, arg_59_0.maxConfigVersion do
+			var_59_0[iter_59_2] = true
 		end
 	end
 
-	for iter_57_3, iter_57_4 in pairs(arg_57_0.bluePrintData) do
-		if var_57_0[iter_57_4:getConfig("blueprint_version")] and iter_57_4:isPursuingCostTip() then
+	for iter_59_3, iter_59_4 in pairs(arg_59_0.bluePrintData) do
+		if var_59_0[iter_59_4:getConfig("blueprint_version")] and iter_59_4:isPursuingCostTip() then
 			return true
 		end
 	end

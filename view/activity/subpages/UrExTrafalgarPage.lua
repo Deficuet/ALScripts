@@ -12,9 +12,9 @@ function var_0_0.OnInit(arg_1_0)
 			local function var_2_2()
 				local var_3_0 = getProxy(TaskProxy)
 				local var_3_1 = getProxy(ActivityProxy):getActivityById(ActivityConst.HOLIDAY_ACT_ID):getConfig("config_client").function_id
-				local var_3_2 = var_0_1[var_3_1[3]].task_id
+				local var_3_2 = var_0_1[var_3_1[1]].task_id
 
-				if var_3_0:getTaskVO(var_3_2):getTaskStatus() == 2 then
+				if var_3_0:getFinishTaskById(var_3_2) then
 					arg_2_0:emit(ActivityMediator.GO_MINI_GAME, var_2_0)
 				else
 					pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_minigame_unlock"))

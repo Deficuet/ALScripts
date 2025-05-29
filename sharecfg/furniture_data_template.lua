@@ -273,6 +273,7 @@ pg.furniture_data_template = setmetatable({
 			100071,
 			100072,
 			100073,
+			100074,
 			200001,
 			200002,
 			200003,
@@ -3812,6 +3813,7 @@ pg.furniture_data_template = setmetatable({
 			100071,
 			100072,
 			100073,
+			100074,
 			31101,
 			54101,
 			54102,
@@ -7228,7 +7230,8 @@ pg.furniture_data_template = setmetatable({
 			100067,
 			100068,
 			100069,
-			100072
+			100072,
+			100074
 		},
 		[2] = {
 			120,
@@ -10690,6 +10693,7 @@ pg.furniture_data_template = setmetatable({
 		100071,
 		100072,
 		100073,
+		100074,
 		200001,
 		200002,
 		200003,
@@ -28712,6 +28716,99 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100074] = {
+		spine_extra = "",
+		describe = "我是一个小幽灵~看不见的小幽灵~",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "幽灵隐身衣",
+		themeId = 0,
+		icon = "yinshendoupengicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100074,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yinshendoupengB",
+				"normal"
+			},
+			{
+				"yinshendoupengT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit",
+						nil,
+						"sit"
+					}
+				},
+				{
+					[3] = {
+						"dance",
+						"dance",
+						1
+					},
+					[4] = dance
+				},
+				{
+					1
+				}
+			},
+			{
+				{
+					0.8,
+					65.5
+				},
+				{
+					100,
+					85
+				},
+				"chuanmo/yinshendoupeng_mask"
+			},
+			{
+				-7.59,
+				-60
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},

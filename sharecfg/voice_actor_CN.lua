@@ -1815,5 +1815,21 @@ pg.voice_actor_CN = {
 	{
 		code = 454,
 		actor_name = "樱木tsugumi"
+	},
+	{
+		code = 455,
+		actor_name = "徐慧"
+	},
+	{
+		code = 456,
+		actor_name = "阿妄"
+	},
+	{
+		code = 457,
+		actor_name = "一口井"
+	},
+	{
+		code = 458,
+		actor_name = "葛子瑞"
 	}
 }

@@ -68,9 +68,13 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2, arg_1_3)
 	arg_1_0.palyerId = getProxy(PlayerProxy):getRawData().id
 
 	ClearTweenItemAlphaAndWhite(arg_1_0.go)
+
+	arg_1_0.isClear = true
 end
 
 function var_0_0.update(arg_2_0, arg_2_1)
+	arg_2_0.isClear = false
+
 	TweenItemAlphaAndWhite(arg_2_0.go)
 
 	if arg_2_0.proposeModel then
@@ -192,7 +196,7 @@ function var_0_0.flush(arg_6_0)
 				arg_6_0.heartLoading = true
 
 				pg.PoolMgr.GetInstance():GetUI("heartShipCard", false, function(arg_8_0)
-					if arg_6_0.proposeModel then
+					if arg_6_0.isClear or arg_6_0.proposeModel then
 						pg.PoolMgr.GetInstance():ReturnUI("heartShipCard", arg_8_0)
 					else
 						arg_6_0.proposeModel = arg_8_0
@@ -527,6 +531,8 @@ function var_0_0.clear(arg_20_0)
 
 		arg_20_0.selectedTwId = nil
 	end
+
+	arg_20_0.isClear = true
 end
 
 function var_0_0.updateIntimacy(arg_21_0, arg_21_1)

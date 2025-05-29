@@ -828,4 +828,68 @@ function var_0_0.isPursuingCostTip(arg_67_0)
 	return arg_67_0:isPursuing() and arg_67_0:isUnlock() and not arg_67_0:isMaxIntensifyLevel() and not arg_67_0:isShipModMaxIntensifyLevel(getProxy(BayProxy):getShipById(arg_67_0.shipId)) and getProxy(TechnologyProxy):calcPursuingCost(arg_67_0, 1) == 0
 end
 
+function var_0_0.setPhantomQuestProgress(arg_68_0, arg_68_1, arg_68_2)
+	arg_68_0.phantomQuestProgress = arg_68_0.phantomQuestProgress or {}
+	arg_68_0.phantomQuestProgress[arg_68_1] = arg_68_2
+end
+
+function var_0_0.getPhantomQuestCostDrop(arg_69_0)
+	if arg_69_0.config.type == 5 then
+		return Drop.New({
+			type = DROP_TYPE_RESOURCE,
+			id = PlayerConst.ResDiamond,
+			count = arg_69_0.config.target_num
+		})
+	else
+		return nil
+	end
+end
+
+function var_0_0.getPhantomQuestProgress(arg_70_0, arg_70_1)
+	assert(arg_70_0.shipId)
+
+	return switch(arg_70_1, {
+		function()
+			return getProxy(BayProxy):getShipById(arg_70_0.shipId).level
+		end,
+		function()
+			return arg_70_0.level + (arg_70_0.level < arg_70_0:getMaxLevel() and 0 or arg_70_0.fateLevel)
+		end,
+		function()
+			return arg_70_0.phantomQuestProgress[3] or 0
+		end,
+		function()
+			return getProxy(BayProxy):getShipById(arg_70_0.shipId).propose and 1 or 0
+		end,
+		function()
+			return Drop.New({
+				type = DROP_TYPE_RESOURCE,
+				id = PlayerConst.ResDiamond
+			}):getOwnedCount()
+		end
+	})
+end
+
+function var_0_0.getPhantomQuestInfo(arg_76_0, arg_76_1)
+	local var_76_0 = pg.technology_shadow_unlock[arg_76_1]
+
+	return {
+		config = var_76_0,
+		progress = arg_76_0:getPhantomQuestProgress(var_76_0.type),
+		unlocked = tobool(getProxy(BayProxy):getShipById(arg_76_0.shipId).phantomDic[arg_76_1])
+	}
+end
+
+function var_0_0.getAllPhantomQuestInfo(arg_77_0)
+	return underscore.map(pg.technology_shadow_unlock.all, function(arg_78_0)
+		return arg_77_0:getPhantomQuestInfo(arg_78_0)
+	end)
+end
+
+function var_0_0.isUnlockShipPhantom(arg_79_0)
+	local var_79_0 = getGameset("technology_shadow_unlock_lv")[1]
+
+	return arg_79_0:isFetched() and var_79_0 <= getProxy(BayProxy):getShipById(arg_79_0.shipId).level
+end
+
 return var_0_0

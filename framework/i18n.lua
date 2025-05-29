@@ -9,15 +9,7 @@ function i18n(arg_2_0, ...)
 	local var_2_0 = pg.gametip[arg_2_0]
 
 	if var_2_0 then
-		local var_2_1 = var_2_0.tip
-
-		for iter_2_0, iter_2_1 in ipairs({
-			...
-		}) do
-			var_2_1 = string.gsub(var_2_1, "$" .. iter_2_0, iter_2_1)
-		end
-
-		return var_2_1
+		return stringInset(var_2_0.tip, ...)
 	else
 		return i18n_not_find(arg_2_0)
 	end

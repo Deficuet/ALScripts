@@ -19,8 +19,8 @@ function var_0_0.register(arg_1_0)
 
 	arg_1_0.viewComponent:setPlayer(var_1_0)
 	arg_1_0.viewComponent:checkFreeGiftTag()
-	arg_1_0:bind(var_0_0.VIEW_SKIN_PROBABILITY, function(arg_2_0, arg_2_1)
-		arg_1_0.contextData.wrap = ChargeScene.TYPE_GIFT
+	arg_1_0:bind(var_0_0.VIEW_SKIN_PROBABILITY, function(arg_2_0, arg_2_1, arg_2_2)
+		arg_1_0.contextData.wrap = arg_2_2
 
 		arg_1_0:sendNotification(GAME.GO_SCENE, SCENE.PROBABILITY_SKINSHOP, {
 			commodityId = arg_2_1

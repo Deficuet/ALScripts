@@ -641,13 +641,12 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 702010,
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actor = 702010,
 			say = "嗯，人多力量大，我和水星纪念也来帮忙。",
 			painting = {
 				alpha = 0.3,

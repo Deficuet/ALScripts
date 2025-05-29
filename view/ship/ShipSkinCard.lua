@@ -94,7 +94,7 @@ function var_0_0.updateData(arg_6_0, arg_6_1, arg_6_2, arg_6_3)
 		arg_6_0.own = arg_6_3
 		arg_6_0.skinId = arg_6_0.skin.id
 
-		local var_6_0 = ShipGroup.GetChangeSkinData(arg_6_0.skin.id)
+		local var_6_0 = ShipSkin.GetChangeSkinData(arg_6_0.skin.id)
 
 		if arg_6_3 and var_6_0 then
 			setActive(arg_6_0.changeSkinTF, true)

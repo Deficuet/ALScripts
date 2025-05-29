@@ -232,7 +232,18 @@ function temp()
 		伦 = {
 			维 = {
 				尔 = {
-					this = true
+					this = true,
+					· = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		},
@@ -2049,6 +2060,20 @@ function temp()
 			贝 = {
 				塔 = {
 					this = true
+				}
+			}
+		},
+		埃 = {
+			吉 = {
+				尔 = {
+					this = true
+				}
+			},
+			格 = {
+				妮 = {
+					丝 = {
+						this = true
+					}
 				}
 			}
 		},

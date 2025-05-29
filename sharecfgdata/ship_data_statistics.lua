@@ -240435,6 +240435,522 @@ _G.pg.base.ship_data_statistics[403154] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[403161] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "小埃吉尔",
+	type = 18,
+	oxy_cost = 0,
+	skin_id = 403160,
+	english_name = "KMS Ägir",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 403161,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1147,
+		39,
+		31,
+		39,
+		0,
+		51,
+		0,
+		38,
+		11,
+		26.8,
+		0,
+		0
+	},
+	attrs_growth = {
+		27980,
+		711,
+		426,
+		852,
+		0,
+		356,
+		0,
+		543,
+		264,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		331
+	},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.9,
+		1,
+		1,
+		0.45
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"special",
+		"O-Class",
+		"Little-series"
+	}
+}
+
+_G.pg.base.ship_data_statistics[403162] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "小埃吉尔",
+	type = 18,
+	oxy_cost = 0,
+	skin_id = 403160,
+	english_name = "KMS Ägir",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 403162,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1427,
+		49,
+		39,
+		49,
+		0,
+		51,
+		0,
+		38,
+		11,
+		26.8,
+		0,
+		0
+	},
+	attrs_growth = {
+		27980,
+		711,
+		426,
+		852,
+		0,
+		356,
+		0,
+		543,
+		264,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		180001
+	},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1,
+		1,
+		0.45
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"special",
+		"O-Class",
+		"Little-series"
+	}
+}
+
+_G.pg.base.ship_data_statistics[403163] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "小埃吉尔",
+	type = 18,
+	oxy_cost = 0,
+	skin_id = 403160,
+	english_name = "KMS Ägir",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 403163,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1986,
+		68,
+		54,
+		68,
+		0,
+		51,
+		0,
+		38,
+		11,
+		26.8,
+		0,
+		0
+	},
+	attrs_growth = {
+		27980,
+		711,
+		426,
+		852,
+		0,
+		356,
+		0,
+		543,
+		264,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		180001
+	},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1.1,
+		1.1,
+		0.45
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"special",
+		"O-Class",
+		"Little-series"
+	}
+}
+
+_G.pg.base.ship_data_statistics[403164] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "小埃吉尔",
+	type = 18,
+	oxy_cost = 0,
+	skin_id = 403160,
+	english_name = "KMS Ägir",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 403164,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2826,
+		97,
+		77,
+		96,
+		0,
+		51,
+		0,
+		38,
+		11,
+		26.8,
+		0,
+		0
+	},
+	attrs_growth = {
+		27980,
+		711,
+		426,
+		852,
+		0,
+		356,
+		0,
+		543,
+		264,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		180001
+	},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.1,
+		1.1,
+		0.45
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"special",
+		"O-Class",
+		"Little-series"
+	}
+}
+
 _G.pg.base.ship_data_statistics[404011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -399525,6 +400041,506 @@ _G.pg.base.ship_data_statistics[9701064] = {
 		"KasumiMETA",
 		"KasumiHA",
 		"TOC"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9701071] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "格伦维尔·META",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 9701070,
+	english_name = "Grenville.META",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9701071,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		264,
+		22,
+		72,
+		31,
+		0,
+		77,
+		0,
+		53,
+		68,
+		43,
+		32,
+		51
+	},
+	attrs_growth = {
+		5036,
+		277,
+		913,
+		426,
+		0,
+		534,
+		0,
+		781,
+		1043,
+		0,
+		0,
+		681
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.25,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"GrenvilleMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9701072] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "格伦维尔·META",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 9701070,
+	english_name = "Grenville.META",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9701072,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		328,
+		27,
+		90,
+		39,
+		0,
+		77,
+		0,
+		53,
+		68,
+		43,
+		32,
+		64
+	},
+	attrs_growth = {
+		5036,
+		277,
+		913,
+		426,
+		0,
+		534,
+		0,
+		781,
+		1043,
+		0,
+		0,
+		681
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.25,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"GrenvilleMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9701073] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "格伦维尔·META",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 9701070,
+	english_name = "Grenville.META",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9701073,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		457,
+		38,
+		125,
+		54,
+		0,
+		77,
+		0,
+		53,
+		68,
+		43,
+		32,
+		89
+	},
+	attrs_growth = {
+		5036,
+		277,
+		913,
+		426,
+		0,
+		534,
+		0,
+		781,
+		1043,
+		0,
+		0,
+		681
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.25,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"GrenvilleMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9701074] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "格伦维尔·META",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 9701070,
+	english_name = "Grenville.META",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9701074,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		651,
+		55,
+		179,
+		77,
+		0,
+		77,
+		0,
+		53,
+		68,
+		43,
+		32,
+		127
+	},
+	attrs_growth = {
+		5036,
+		277,
+		913,
+		426,
+		0,
+		534,
+		0,
+		781,
+		1043,
+		0,
+		0,
+		681
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.3,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"GrenvilleMETA"
 	}
 }
 

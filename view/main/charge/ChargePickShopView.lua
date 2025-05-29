@@ -1,0 +1,44 @@
+local var_0_0 = class("ChargePickShopView", import(".ChargeGiftShopView"))
+
+function var_0_0.getUIName(arg_1_0)
+	return "ChargePickShopUI"
+end
+
+function var_0_0.GetViewSkinWrap(arg_2_0)
+	return ChargeScene.TYPE_PICK
+end
+
+function var_0_0.updateGiftGoodsVOList(arg_3_0)
+	arg_3_0.giftGoodsVOList = {}
+
+	local var_3_0 = RefluxShopView.getAllRefluxPackID()
+	local var_3_1 = pg.pay_data_display
+
+	for iter_3_0, iter_3_1 in pairs(var_3_1.all) do
+		if not table.contains(var_3_0, iter_3_1) then
+			local var_3_2 = var_3_1[iter_3_1]
+
+			if var_3_2.extra_service == Goods.ITEM_BOX and var_3_2.akashi_pick == 1 then
+				local var_3_3 = Goods.Create({
+					shop_id = iter_3_1
+				}, Goods.TYPE_CHARGE)
+
+				if arg_3_0:filterLimitTypeGoods(var_3_3) then
+					table.insert(arg_3_0.giftGoodsVOList, var_3_3)
+				end
+			end
+		end
+	end
+
+	for iter_3_2, iter_3_3 in pairs(pg.shop_template.get_id_list_by_genre.gift_package) do
+		if pg.shop_template[iter_3_3].akashi_pick == 1 and not table.contains(var_3_0, iter_3_3) then
+			local var_3_4 = Goods.Create({
+				shop_id = iter_3_3
+			}, Goods.TYPE_GIFT_PACKAGE)
+
+			table.insert(arg_3_0.giftGoodsVOList, var_3_4)
+		end
+	end
+end
+
+return var_0_0

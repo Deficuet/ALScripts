@@ -151134,6 +151134,584 @@ _G.pg.base.task_data_template[21753] = {
 	}
 }
 
+_G.pg.base.task_data_template[21755] = {
+	name = "『国服周年第二弹』送长风皮肤任务1",
+	guild_coin_award = 0,
+	award = 906152,
+	type = 26,
+	desc = "舰队出征，以S评价通关10次",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 21755,
+	target_num = 10,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[21756] = {
+	name = "『国服周年第二弹』送长风皮肤任务2",
+	guild_coin_award = 0,
+	award = 906153,
+	type = 26,
+	desc = "登录游戏",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21756,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21757] = {
+	name = "『国服周年第二弹』送长风皮肤任务3",
+	guild_coin_award = 0,
+	award = 906154,
+	type = 26,
+	desc = "进行2次演习",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21757,
+	target_num = 2,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21758] = {
+	name = "『国服周年第二弹』送长风皮肤任务4",
+	guild_coin_award = 0,
+	award = 906155,
+	type = 26,
+	desc = "完成军事委托2次",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21758,
+	target_num = 2,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21759] = {
+	name = "『国服周年第二弹』送长风皮肤任务5",
+	guild_coin_award = 0,
+	award = 906156,
+	type = 26,
+	desc = "舰船退役2次",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21759,
+	target_num = 2,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21760] = {
+	name = "『国服周年第二弹』送长风皮肤任务6",
+	guild_coin_award = 0,
+	award = 906157,
+	type = 26,
+	desc = "完成3次每日挑战",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21760,
+	target_num = 3,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21761] = {
+	name = "『国服周年第二弹』送长风皮肤任务7",
+	guild_coin_award = 0,
+	award = 906158,
+	type = 26,
+	desc = "舰船强化5次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21761,
+	target_num = 5,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21762] = {
+	name = "『国服周年第二弹』送长风皮肤任务8",
+	guild_coin_award = 0,
+	award = 906159,
+	type = 26,
+	desc = "进行战术训练2次",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21762,
+	target_num = 2,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21763] = {
+	name = "『国服周年第二弹』送长风皮肤任务9",
+	guild_coin_award = 0,
+	award = 906160,
+	type = 26,
+	desc = "击沉任意敌人20艘",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21763,
+	target_num = 20,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21764] = {
+	name = "『国服周年第二弹』送长风皮肤任务10",
+	guild_coin_award = 0,
+	award = 906161,
+	type = 26,
+	desc = "后宅补充食物5次",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21764,
+	target_num = 5,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21765] = {
+	name = "『国服周年第二弹』送长风皮肤任务11",
+	guild_coin_award = 0,
+	award = 906162,
+	type = 26,
+	desc = "建造舰船2次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21765,
+	target_num = 2,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21766] = {
+	name = "『国服周年第二弹』送长风皮肤任务12",
+	guild_coin_award = 0,
+	award = 906163,
+	type = 26,
+	desc = "打开任意科技箱1个",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21766,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21767] = {
+	name = "『国服周年第二弹』送长风皮肤任务13",
+	guild_coin_award = 0,
+	award = 906164,
+	type = 26,
+	desc = "进行2次战术训练",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21767,
+	target_num = 2,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21768] = {
+	name = "『国服周年第二弹』送长风皮肤任务14",
+	guild_coin_award = 0,
+	award = 906165,
+	type = 26,
+	desc = "击败旗舰3次 ",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 21768,
+	target_num = 3,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			7,
+			501082,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
 _G.pg.base.task_data_template[22011] = {
 	name = "新手任务阶段1-任务1",
 	guild_coin_award = 0,
@@ -165501,6 +166079,1499 @@ _G.pg.base.task_data_template[23772] = {
 		61
 	},
 	award_display = {}
+}
+
+_G.pg.base.task_data_template[23801] = {
+	name = "小埃吉尔npc临时加入",
+	guild_coin_award = 0,
+	award = 906166,
+	type = 6,
+	desc = "不该看到",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23801,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			403161,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23802] = {
+	name = "小埃吉尔通常任务1",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "舰队出征，获得20次胜利",
+	count_inherit = 23803,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "23803",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23802,
+	target_num = 20,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23803] = {
+	name = "小埃吉尔通常任务2",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "舰队出征，获得40次胜利",
+	count_inherit = 23804,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "23804",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23803,
+	target_num = 40,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23804] = {
+	name = "小埃吉尔通常任务3",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "舰队出征，获得60次胜利",
+	count_inherit = 23805,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "23805",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23804,
+	target_num = 60,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23805] = {
+	name = "小埃吉尔通常任务4",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "舰队出征，获得80次胜利",
+	count_inherit = 23806,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "23806",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23805,
+	target_num = 80,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23806] = {
+	name = "小埃吉尔通常任务5",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "舰队出征，获得100次胜利",
+	count_inherit = 23807,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "23807",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23806,
+	target_num = 100,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23807] = {
+	name = "小埃吉尔通常任务6",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "舰队出征，获得120次胜利",
+	count_inherit = 23808,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "23808",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23807,
+	target_num = 120,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23808] = {
+	name = "小埃吉尔通常任务7",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "舰队出征，获得140次胜利",
+	count_inherit = 23809,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "23809",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23808,
+	target_num = 140,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23809] = {
+	name = "小埃吉尔通常任务8",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "舰队出征，获得160次胜利",
+	count_inherit = 23810,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "23810",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23809,
+	target_num = 160,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23810] = {
+	name = "小埃吉尔通常任务9",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "舰队出征，获得180次胜利",
+	count_inherit = 23811,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "23811",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23810,
+	target_num = 180,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23811] = {
+	name = "小埃吉尔通常任务10",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "舰队出征，获得200次胜利",
+	count_inherit = 23812,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "23812",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23811,
+	target_num = 200,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23812] = {
+	name = "小埃吉尔通常任务11",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "舰队出征，获得240次胜利",
+	count_inherit = 23813,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "23813",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23812,
+	target_num = 240,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23813] = {
+	name = "小埃吉尔通常任务12",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "舰队出征，获得280次胜利",
+	count_inherit = 23814,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "23814",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23813,
+	target_num = 280,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23814] = {
+	name = "小埃吉尔通常任务13",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "舰队出征，获得320次胜利",
+	count_inherit = 23815,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "23815",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23814,
+	target_num = 320,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23815] = {
+	name = "小埃吉尔通常任务14",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "舰队出征，获得360次胜利",
+	count_inherit = 23816,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "23816",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23815,
+	target_num = 360,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23816] = {
+	name = "小埃吉尔通常任务15",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "舰队出征，获得400次胜利",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23816,
+	target_num = 400,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23817] = {
+	name = "小埃吉尔通常任务16",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "{namecode:544}上阵出击，获得20次胜利",
+	count_inherit = 23818,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "40316",
+	next_task = "23818",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23817,
+	target_num = 20,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23818] = {
+	name = "小埃吉尔通常任务17",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "{namecode:544}上阵出击，获得40次胜利",
+	count_inherit = 23819,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "40316",
+	next_task = "23819",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23818,
+	target_num = 40,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23819] = {
+	name = "小埃吉尔通常任务18",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "{namecode:544}上阵出击，获得60次胜利",
+	count_inherit = 23820,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "40316",
+	next_task = "23820",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23819,
+	target_num = 60,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23820] = {
+	name = "小埃吉尔通常任务19",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "{namecode:544}上阵出击，获得80次胜利",
+	count_inherit = 23821,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "40316",
+	next_task = "23821",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23820,
+	target_num = 80,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23821] = {
+	name = "小埃吉尔通常任务20",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "{namecode:544}上阵出击，获得100次胜利",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "40316",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23821,
+	target_num = 100,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23822] = {
+	name = "小埃吉尔通常任务21",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "{namecode:544}等级达到10",
+	count_inherit = 23823,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "40316",
+	next_task = "23823",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23822,
+	target_num = 10,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23823] = {
+	name = "小埃吉尔通常任务22",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "{namecode:544}等级达到20",
+	count_inherit = 23824,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "40316",
+	next_task = "23824",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23823,
+	target_num = 20,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23824] = {
+	name = "小埃吉尔通常任务23",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "{namecode:544}等级达到30",
+	count_inherit = 23825,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "40316",
+	next_task = "23825",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23824,
+	target_num = 30,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23825] = {
+	name = "小埃吉尔通常任务24",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "{namecode:544}等级达到40",
+	count_inherit = 23826,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "40316",
+	next_task = "23826",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23825,
+	target_num = 40,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23826] = {
+	name = "小埃吉尔通常任务25",
+	guild_coin_award = 0,
+	award = 906167,
+	type = 26,
+	desc = "{namecode:544}等级达到50",
+	count_inherit = 23827,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "40316",
+	next_task = "23827",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23826,
+	target_num = 50,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23827] = {
+	name = "小埃吉尔通常任务26",
+	guild_coin_award = 0,
+	award = 906168,
+	type = 26,
+	desc = "{namecode:544}等级达到70",
+	count_inherit = 23828,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "40316",
+	next_task = "23828",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23827,
+	target_num = 70,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23828] = {
+	name = "小埃吉尔通常任务27",
+	guild_coin_award = 0,
+	award = 906168,
+	type = 26,
+	desc = "{namecode:544}等级达到90",
+	count_inherit = 23829,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "40316",
+	next_task = "23829",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23828,
+	target_num = 90,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23829] = {
+	name = "小埃吉尔通常任务28",
+	guild_coin_award = 0,
+	award = 906168,
+	type = 26,
+	desc = "{namecode:544}等级达到100",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "40316",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23829,
+	target_num = 100,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23830] = {
+	name = "小埃吉尔通常任务29",
+	guild_coin_award = 0,
+	award = 906168,
+	type = 26,
+	desc = "{namecode:544}突破到3星",
+	count_inherit = 23831,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "40316",
+	next_task = "23831",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23830,
+	target_num = 3,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23831] = {
+	name = "小埃吉尔通常任务30",
+	guild_coin_award = 0,
+	award = 906169,
+	type = 26,
+	desc = "{namecode:544}突破到4星",
+	count_inherit = 23832,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "40316",
+	next_task = "23832",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23831,
+	target_num = 4,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			1500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23832] = {
+	name = "小埃吉尔通常任务31",
+	guild_coin_award = 0,
+	award = 906170,
+	type = 26,
+	desc = "{namecode:544}突破到5星",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "40316",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23832,
+	target_num = 5,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			2000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23833] = {
+	name = "小埃吉尔每日任务1",
+	guild_coin_award = 0,
+	award = 906171,
+	type = 36,
+	desc = "舰队出征，获得15次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23833,
+	target_num = 15,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23834] = {
+	name = "小埃吉尔每日任务2",
+	guild_coin_award = 0,
+	award = 906171,
+	type = 36,
+	desc = "通关3次任意困难关卡",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23834,
+	target_num = 3,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			511,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
 }
 
 _G.pg.base.task_data_template[31017] = {

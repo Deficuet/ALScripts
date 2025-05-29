@@ -20,6 +20,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 
 	if pg.SeriesGuideMgr.GetInstance():isEnd() then
 		pg.TrackerMgr.GetInstance():Tracking(TRACKING_TUTORIAL_COMPLETE_1)
+		pg.TrackerMgr.GetInstance():Tracking(TRACKING_GUIDE_COMPLETE)
 	end
 
 	if var_1_2 then

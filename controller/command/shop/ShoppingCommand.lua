@@ -136,6 +136,12 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			})
 		elseif var_1_3.resource_type == 4 or var_1_3.resource_type == 14 then
 			GoShoppingMsgBox(i18n("switch_to_shop_tip_3", i18n("word_gem")), ChargeScene.TYPE_DIAMOND)
+
+			if var_1_3.id == NewShopsMediator.FAST_BUILD_ITEM_ID then
+				pg.TrackerMgr.GetInstance():Tracking(TRACKING_BUILD_OR_SKIN_FAILD)
+			else
+				pg.TrackerMgr.GetInstance():Tracking(TRACKING_PAY_FAILD)
+			end
 		elseif not ItemTipPanel.ShowItemTip(DROP_TYPE_RESOURCE, var_1_3.resource_type) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("buyProp_noResource_error", var_1_16))
 		end

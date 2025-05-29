@@ -3,41 +3,55 @@ local var_0_0 = class("RandomDockYardMediator", import("view.base.ContextMediato
 var_0_0.OPEN_INDEX = "RandomDockYardMediator:OPEN_INDEX"
 var_0_0.ON_ADD_SHIPS = "RandomDockYardMediator:ON_ADD_SHIPS"
 var_0_0.ON_REMOVE_SHIPS = "RandomDockYardMediator:ON_REMOVE_SHIPS"
+var_0_0.OPEN_PHANTOM_LAYER = "RandomDockYardMediator.OPEN_PHANTOM_LAYER"
 
 function var_0_0.register(arg_1_0)
 	arg_1_0:bind(var_0_0.ON_ADD_SHIPS, function(arg_2_0, arg_2_1)
 		arg_1_0:sendNotification(GAME.CHANGE_RANDOM_SHIPS, {
-			addList = arg_2_1,
+			addList = underscore.map(arg_2_1, function(arg_3_0)
+				return ShipPhantom.PackMark(arg_3_0, 0)
+			end),
 			deleteList = {}
 		})
 	end)
-	arg_1_0:bind(var_0_0.ON_REMOVE_SHIPS, function(arg_3_0, arg_3_1)
+	arg_1_0:bind(var_0_0.ON_REMOVE_SHIPS, function(arg_4_0, arg_4_1)
 		arg_1_0:sendNotification(GAME.CHANGE_RANDOM_SHIPS, {
 			addList = {},
-			deleteList = arg_3_1
+			deleteList = underscore.map(arg_4_1, function(arg_5_0)
+				return ShipPhantom.PackMark(arg_5_0, 0)
+			end)
 		})
 	end)
-	arg_1_0:bind(var_0_0.OPEN_INDEX, function(arg_4_0, arg_4_1)
+	arg_1_0:bind(var_0_0.OPEN_INDEX, function(arg_6_0, arg_6_1)
 		arg_1_0:addSubLayers(Context.New({
 			viewComponent = RandomDockYardIndexLayer,
 			mediator = CustomIndexMediator,
-			data = arg_4_1
+			data = arg_6_1
+		}))
+	end)
+	arg_1_0:bind(var_0_0.OPEN_PHANTOM_LAYER, function(arg_7_0, arg_7_1)
+		arg_1_0:addSubLayers(Context.New({
+			mediator = DockyardMediator,
+			viewComponent = DockyardScene,
+			data = {
+				mode = DockyardScene.MODE_SHIP_PHANTOM
+			}
 		}))
 	end)
 end
 
-function var_0_0.listNotificationInterests(arg_5_0)
+function var_0_0.listNotificationInterests(arg_8_0)
 	return {
 		GAME.CHANGE_RANDOM_SHIPS_DONE
 	}
 end
 
-function var_0_0.handleNotification(arg_6_0, arg_6_1)
-	local var_6_0 = arg_6_1:getName()
-	local var_6_1 = arg_6_1:getBody()
+function var_0_0.handleNotification(arg_9_0, arg_9_1)
+	local var_9_0 = arg_9_1:getName()
+	local var_9_1 = arg_9_1:getBody()
 
-	if var_6_0 == GAME.CHANGE_RANDOM_SHIPS_DONE then
-		arg_6_0.viewComponent:OnChangeRandomShips()
+	if var_9_0 == GAME.CHANGE_RANDOM_SHIPS_DONE then
+		arg_9_0.viewComponent:OnChangeRandomShips()
 	end
 end
 

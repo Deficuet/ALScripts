@@ -3654,6 +3654,144 @@ pg.base.ship_skin_template_3 = {
 			}
 		}
 	},
+	[105093] = {
+		ship_group = 10509,
+		name = "夕阳的咏叹调",
+		hand_id = 1,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		l2d_drag_rate = "",
+		skin_type = 4,
+		group_index = 3,
+		id = 105093,
+		painting = "keluoladuo_4",
+		l2d_ignore_drag = 0,
+		shop_id = 71142,
+		illustrator = -1,
+		shop_type_id = 6,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "179",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		part_scale = "",
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "keluoladuo_4",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "明明可以和大家一起去海里玩，却选择在这里和我一起看日落...？难得来到海边，这样真的没问题？啊，不，只要你无所谓就好...",
+		voice_actor = 152,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.824,
+					0.903,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.869,
+					0.916,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.786,
+					2.27,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.719,
+							2.256,
+							0
+						}
+					}
+				}
+			}
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1031,
+					160,
+					2,
+					0,
+					100,
+					2
+				},
+				{
+					185,
+					370,
+					2,
+					100,
+					0,
+					2
+				},
+				{
+					-165,
+					-483,
+					2,
+					-70,
+					-70,
+					2
+				}
+			}
+		}
+	},
 	[105099] = {
 		ship_group = 10509,
 		name = "科罗拉多.改",
@@ -3974,6 +4112,144 @@ pg.base.ship_skin_template_3 = {
 							0
 						}
 					}
+				}
+			}
+		}
+	},
+	[105102] = {
+		ship_group = 10510,
+		name = "真红鼓手",
+		hand_id = 1,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		l2d_drag_rate = "",
+		skin_type = 4,
+		group_index = 2,
+		id = 105102,
+		painting = "malilan_3",
+		l2d_ignore_drag = 0,
+		shop_id = 71141,
+		illustrator = -1,
+		shop_type_id = 6,
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "161",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		part_scale = "",
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "malilan_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "哟，指挥官，你也躲到这里找清闲来了？安心，我不会告诉其他人你在这里的，一起看烟花吧。",
+		voice_actor = 162,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.719,
+					0.883,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.692,
+					0.883,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.664,
+					2.382,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.914,
+							2.328,
+							0
+						}
+					}
+				}
+			}
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1324,
+					16,
+					2,
+					0,
+					100,
+					2
+				},
+				{
+					-491,
+					502,
+					2,
+					100,
+					0,
+					2
+				},
+				{
+					-209,
+					-433,
+					2,
+					0,
+					-100,
+					2
 				}
 			}
 		}
@@ -13782,212 +14058,6 @@ pg.base.ship_skin_template_3 = {
 				{
 					0.914,
 					1.198,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.573,
-							2.346,
-							-0.25
-						}
-					}
-				}
-			}
-		}
-	},
-	[107222] = {
-		ship_group = 10722,
-		name = "「独立」品牌",
-		hand_id = 1,
-		bgm = "",
-		gyro = 0,
-		illustrator2 = -1,
-		l2d_drag_rate = "",
-		skin_type = 4,
-		group_index = 2,
-		id = 107222,
-		painting = "duli_5",
-		l2d_ignore_drag = 0,
-		shop_id = 70400,
-		illustrator = -1,
-		shop_type_id = 7,
-		l2d_para_range = "",
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "135",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		part_scale = "",
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		prefab = "duli_5",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "唔…这一套会不会太过头了些？嗯…再搭配个链子还是包包什么的也不错？…指挥官你觉得呢？别光顾着看，也给我点建议嘛…",
-		voice_actor = 130,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.931,
-					0.917,
-					0
-				}
-			},
-			plane = {
-				{
-					0.914,
-					0.955,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.573,
-							2.346,
-							-0.25
-						}
-					}
-				}
-			}
-		}
-	},
-	[107223] = {
-		ship_group = 10722,
-		name = "Relaxation.I",
-		hand_id = 1,
-		bgm = "",
-		gyro = 0,
-		illustrator2 = -1,
-		l2d_drag_rate = "",
-		skin_type = 4,
-		group_index = 3,
-		id = 107223,
-		painting = "duli_6",
-		l2d_ignore_drag = 0,
-		shop_id = 70518,
-		illustrator = -1,
-		shop_type_id = 20,
-		l2d_para_range = "",
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "109",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		part_scale = "",
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		prefab = "duli_6",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "嗯—…还是得拉伸下保证身体不会太僵硬才行呢。？衣服怎么了吗？…只要指挥官别一直盯着看就没什么吧…",
-		voice_actor = 130,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.453,
-					0.992,
-					0
-				}
-			},
-			plane = {
-				{
-					1.464,
-					1.001,
 					0
 				}
 			}

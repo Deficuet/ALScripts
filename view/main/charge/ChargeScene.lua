@@ -3,6 +3,7 @@ local var_0_0 = class("ChargeScene", import("...base.BaseUI"))
 var_0_0.TYPE_DIAMOND = 1
 var_0_0.TYPE_GIFT = 2
 var_0_0.TYPE_ITEM = 3
+var_0_0.TYPE_PICK = 4
 
 function var_0_0.getUIName(arg_1_0)
 	return "ChargeShopUI"
@@ -95,6 +96,8 @@ function var_0_0.init(arg_11_0)
 	arg_11_0.giftToggle = arg_11_0:findTF("toggle_list/gift_toggle", arg_11_0.viewContainer)
 	arg_11_0.diamondToggle = arg_11_0:findTF("toggle_list/diamond_toggle", arg_11_0.viewContainer)
 	arg_11_0.giftTip = arg_11_0:findTF("tip", arg_11_0.giftToggle)
+	arg_11_0.pickToggle = arg_11_0:findTF("toggle_list/pick_toggle", arg_11_0.viewContainer)
+	arg_11_0.pickTip = arg_11_0:findTF("tip", arg_11_0.pickToggle)
 	arg_11_0.chargeTipWindow = ChargeTipWindow.New(arg_11_0._tf, arg_11_0.event)
 
 	local var_11_1 = arg_11_0:findTF("light/title", arg_11_0.diamondToggle)
@@ -103,6 +106,8 @@ function var_0_0.init(arg_11_0)
 	local var_11_4 = arg_11_0:findTF("dark/title", arg_11_0.giftToggle)
 	local var_11_5 = arg_11_0:findTF("light/title", arg_11_0.itemToggle)
 	local var_11_6 = arg_11_0:findTF("dark/title", arg_11_0.itemToggle)
+	local var_11_7 = arg_11_0:findTF("light/title", arg_11_0.pickToggle)
+	local var_11_8 = arg_11_0:findTF("dark/title", arg_11_0.pickToggle)
 
 	setText(var_11_1, i18n("shop_diamond_title"))
 	setText(var_11_2, i18n("shop_diamond_title"))
@@ -110,16 +115,20 @@ function var_0_0.init(arg_11_0)
 	setText(var_11_4, i18n("shop_gift_title"))
 	setText(var_11_5, i18n("shop_item_title"))
 	setText(var_11_6, i18n("shop_item_title"))
+	setText(var_11_7, i18n("shop_akashi_pick_title"))
+	setText(var_11_8, i18n("shop_akashi_pick_title"))
 
 	arg_11_0.linkTitle = {
 		arg_11_0:findTF("title/title_diamond", arg_11_0.top),
 		arg_11_0:findTF("title/title_gift", arg_11_0.top),
-		arg_11_0:findTF("title/title_item", arg_11_0.top)
+		arg_11_0:findTF("title/title_item", arg_11_0.top),
+		arg_11_0:findTF("title/title_pick", arg_11_0.top)
 	}
 	arg_11_0.toggleList = {
 		arg_11_0.diamondToggle,
 		arg_11_0.giftToggle,
-		arg_11_0.itemToggle
+		arg_11_0.itemToggle,
+		arg_11_0.pickToggle
 	}
 
 	arg_11_0:createLive2D()
@@ -226,11 +235,13 @@ function var_0_0.initSubView(arg_21_0)
 	arg_21_0.diamondShopView = ChargeDiamondShopView.New(arg_21_0.subViewContainer, arg_21_0.event, arg_21_0.contextData)
 	arg_21_0.giftShopView = ChargeGiftShopView.New(arg_21_0.subViewContainer, arg_21_0.event, arg_21_0.contextData)
 	arg_21_0.itemShopView = ChargeItemShopView.New(arg_21_0.subViewContainer, arg_21_0.event, arg_21_0.contextData)
+	arg_21_0.pickShopView = ChargePickShopView.New(arg_21_0.subViewContainer, arg_21_0.event, arg_21_0.contextData)
 	arg_21_0.curSubViewNum = 0
 	arg_21_0.subViewList = {
 		[ChargeScene.TYPE_DIAMOND] = arg_21_0.diamondShopView,
 		[ChargeScene.TYPE_GIFT] = arg_21_0.giftShopView,
-		[ChargeScene.TYPE_ITEM] = arg_21_0.itemShopView
+		[ChargeScene.TYPE_ITEM] = arg_21_0.itemShopView,
+		[ChargeScene.TYPE_PICK] = arg_21_0.pickShopView
 	}
 end
 
@@ -420,141 +431,143 @@ function var_0_0.createLive2D(arg_33_0)
 		parent = arg_33_0:findTF("frame/painting/live2d")
 	})
 
-	arg_33_0.live2dChar = Live2D.New(var_33_0)
+	arg_33_0.live2dChar = Live2D.New(var_33_0, function(arg_34_0)
+		arg_34_0:setSortingLayer(LayerWeightConst.L2D_DEFAULT_LAYER)
+	end)
 end
 
-function var_0_0.checkBuyDone(arg_34_0, arg_34_1)
-	if not arg_34_0.live2dChar then
+function var_0_0.checkBuyDone(arg_35_0, arg_35_1)
+	if not arg_35_0.live2dChar or arg_35_0.live2dChar:IsLoaded() then
 		return
 	end
 
-	local var_34_0
+	local var_35_0
 
-	if type(arg_34_1) == "string" then
-		if arg_34_1 == "damonds" then
-			var_34_0 = "diamond"
+	if type(arg_35_1) == "string" then
+		if arg_35_1 == "damonds" then
+			var_35_0 = "diamond"
 		else
-			var_34_0 = arg_34_1
+			var_35_0 = arg_35_1
 		end
 	else
-		local var_34_1 = pg.shop_template[arg_34_1]
+		local var_35_1 = pg.shop_template[arg_35_1]
 
-		if var_34_1 and var_34_1.effect_args and type(var_34_1.effect_args) == "table" then
-			for iter_34_0, iter_34_1 in ipairs(var_34_1.effect_args) do
-				if iter_34_1 == 1 then
-					var_34_0 = "gold"
+		if var_35_1 and var_35_1.effect_args and type(var_35_1.effect_args) == "table" then
+			for iter_35_0, iter_35_1 in ipairs(var_35_1.effect_args) do
+				if iter_35_1 == 1 then
+					var_35_0 = "gold"
 				end
 			end
 		end
 	end
 
-	local var_34_2 = arg_34_0.preAniName == "gold" or arg_34_0.preAniName == "diamond"
-	local var_34_3 = var_34_0 == "gold" or var_34_0 == "diamond"
-	local var_34_4 = var_34_2 and var_34_3 or not var_34_2
+	local var_35_2 = arg_35_0.preAniName == "gold" or arg_35_0.preAniName == "diamond"
+	local var_35_3 = var_35_0 == "gold" or var_35_0 == "diamond"
+	local var_35_4 = var_35_2 and var_35_3 or not var_35_2
 
-	var_34_4 = var_34_0 and arg_34_0.preAniName ~= var_34_0 and var_34_4
+	var_35_4 = var_35_0 and arg_35_0.preAniName ~= var_35_0 and var_35_4
 
-	if var_34_4 then
-		arg_34_0.preAniName = var_34_0
+	if var_35_4 then
+		arg_35_0.preAniName = var_35_0
 
-		arg_34_0.live2dChar:TriggerAction(var_34_0, nil, true)
+		arg_35_0.live2dChar:TriggerAction(var_35_0, nil, true)
 	end
 
-	return var_34_4
+	return var_35_4
 end
 
-function var_0_0.playCV(arg_35_0, arg_35_1)
-	local var_35_0 = pg.pay_level_award[arg_35_1]
-	local var_35_1
+function var_0_0.playCV(arg_36_0, arg_36_1)
+	local var_36_0 = pg.pay_level_award[arg_36_1]
+	local var_36_1
 
-	if var_35_0 and var_35_0.cv_key ~= "" then
-		var_35_1 = "event:/cv/chargeShop/" .. var_35_0.cv_key
+	if var_36_0 and var_36_0.cv_key ~= "" then
+		var_36_1 = "event:/cv/chargeShop/" .. var_36_0.cv_key
 	end
 
-	if var_35_1 then
-		arg_35_0:stopCV()
+	if var_36_1 then
+		arg_36_0:stopCV()
 
-		arg_35_0._currentVoice = var_35_1
+		arg_36_0._currentVoice = var_36_1
 
-		pg.CriMgr.GetInstance():PlaySoundEffect_V3(var_35_1)
+		pg.CriMgr.GetInstance():PlaySoundEffect_V3(var_36_1)
 	end
 end
 
-function var_0_0.stopCV(arg_36_0)
-	if arg_36_0._currentVoice then
-		pg.CriMgr.GetInstance():UnloadSoundEffect_V3(arg_36_0._currentVoice)
+function var_0_0.stopCV(arg_37_0)
+	if arg_37_0._currentVoice then
+		pg.CriMgr.GetInstance():UnloadSoundEffect_V3(arg_37_0._currentVoice)
 	end
 
-	arg_36_0._currentVoice = nil
+	arg_37_0._currentVoice = nil
 end
 
-function var_0_0.blurView(arg_37_0)
-	pg.UIMgr.GetInstance():OverlayPanelPB(arg_37_0.viewContainer, {
+function var_0_0.blurView(arg_38_0)
+	pg.UIMgr.GetInstance():OverlayPanelPB(arg_38_0.viewContainer, {
 		pbList = {
-			arg_37_0:findTF("blurBg", arg_37_0.viewContainer)
+			arg_38_0:findTF("blurBg", arg_38_0.viewContainer)
 		}
 	})
 end
 
-function var_0_0.unBlurView(arg_38_0)
-	pg.UIMgr.GetInstance():UnOverlayPanel(arg_38_0.viewContainer, arg_38_0.frame)
+function var_0_0.unBlurView(arg_39_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_39_0.viewContainer, arg_39_0.frame)
 end
 
-function var_0_0.jpUIInit(arg_39_0)
+function var_0_0.jpUIInit(arg_40_0)
 	if PLATFORM_CODE ~= PLATFORM_JP then
 		return
 	end
 
-	arg_39_0.userAgreeBtn3 = arg_39_0:findTF("frame/raw1Btn")
-	arg_39_0.userAgreeBtn4 = arg_39_0:findTF("frame/raw2Btn")
+	arg_40_0.userAgreeBtn3 = arg_40_0:findTF("frame/raw1Btn")
+	arg_40_0.userAgreeBtn4 = arg_40_0:findTF("frame/raw2Btn")
 end
 
-function var_0_0.jpUIEnter(arg_40_0)
+function var_0_0.jpUIEnter(arg_41_0)
 	if PLATFORM_CODE ~= PLATFORM_JP then
 		return
 	end
 
-	onButton(arg_40_0, arg_40_0.userAgreeBtn3, function()
-		local var_41_0 = require("ShareCfg.UserAgreement3")
+	onButton(arg_41_0, arg_41_0.userAgreeBtn3, function()
+		local var_42_0 = require("ShareCfg.UserAgreement3")
 
-		arg_40_0:emit(ChargeMediator.OPEN_USER_AGREE, var_41_0 or "")
+		arg_41_0:emit(ChargeMediator.OPEN_USER_AGREE, var_42_0 or "")
 	end, SFX_PANEL)
-	onButton(arg_40_0, arg_40_0.userAgreeBtn4, function()
-		local var_42_0 = require("ShareCfg.UserAgreement4")
+	onButton(arg_41_0, arg_41_0.userAgreeBtn4, function()
+		local var_43_0 = require("ShareCfg.UserAgreement4")
 
-		arg_40_0:emit(ChargeMediator.OPEN_USER_AGREE, var_42_0 or "")
+		arg_41_0:emit(ChargeMediator.OPEN_USER_AGREE, var_43_0 or "")
 	end, SFX_PANEL)
 end
 
-function var_0_0.addRefreshTimer(arg_43_0, arg_43_1)
-	local function var_43_0()
-		if arg_43_0.refreshTimer then
-			arg_43_0.refreshTimer:Stop()
+function var_0_0.addRefreshTimer(arg_44_0, arg_44_1)
+	local function var_44_0()
+		if arg_44_0.refreshTimer then
+			arg_44_0.refreshTimer:Stop()
 
-			arg_43_0.refreshTimer = nil
+			arg_44_0.refreshTimer = nil
 		end
 	end
 
-	var_43_0()
+	var_44_0()
 
-	arg_43_0.refreshTimer = Timer.New(function()
-		local var_45_0 = arg_43_1 + 1 - pg.TimeMgr.GetInstance():GetServerTime()
+	arg_44_0.refreshTimer = Timer.New(function()
+		local var_46_0 = arg_44_1 + 1 - pg.TimeMgr.GetInstance():GetServerTime()
 
-		if var_45_0 <= 0 then
-			var_43_0()
-			arg_43_0:emit(ChargeMediator.GET_CHARGE_LIST)
+		if var_46_0 <= 0 then
+			var_44_0()
+			arg_44_0:emit(ChargeMediator.GET_CHARGE_LIST)
 		else
-			local var_45_1 = pg.TimeMgr.GetInstance():DescCDTime(var_45_0)
+			local var_46_1 = pg.TimeMgr.GetInstance():DescCDTime(var_46_0)
 		end
 	end, 1, -1)
 
-	arg_43_0.refreshTimer:Start()
-	arg_43_0.refreshTimer.func()
+	arg_44_0.refreshTimer:Start()
+	arg_44_0.refreshTimer.func()
 end
 
-function var_0_0.checkFreeGiftTag(arg_46_0)
+function var_0_0.checkFreeGiftTag(arg_47_0)
 	TagTipHelper.FreeGiftTag({
-		arg_46_0.giftTip
+		arg_47_0.giftTip
 	})
 end
 

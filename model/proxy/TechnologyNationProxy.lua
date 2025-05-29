@@ -458,7 +458,7 @@ function var_0_0.getNationPoint(arg_27_0, arg_27_1)
 		local var_27_0 = 0
 
 		for iter_27_0, iter_27_1 in pairs(arg_27_0.nationToPoint) do
-			var_27_0 = math.max(var_27_0, iter_27_1)
+			var_27_0 = var_27_0 + iter_27_1
 		end
 
 		return var_27_0

@@ -116,6 +116,7 @@ function var_0_0.ShowOilBuyTip(arg_7_0, arg_7_1)
 				count = 1,
 				id = var_7_1
 			})
+			pg.TrackerMgr.GetInstance():Tracking(TRACKING_PAY_OIL)
 		end,
 		weight = LayerWeightConst.TOP_LAYER
 	})

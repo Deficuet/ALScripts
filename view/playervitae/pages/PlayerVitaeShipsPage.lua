@@ -54,7 +54,7 @@ function var_0_0.UpdateCard(arg_5_0, arg_5_1)
 	local var_5_0 = arg_5_0.cards[var_0_1]
 
 	for iter_5_0, iter_5_1 in ipairs(var_5_0) do
-		if isActive(iter_5_1._tf) and iter_5_1.displayShip and iter_5_1.displayShip.id == arg_5_1 then
+		if isActive(iter_5_1._tf) and iter_5_1.displayShip and iter_5_1.displayShip:GetShipPhantomMark() == arg_5_1 then
 			iter_5_1:Refresh()
 
 			break
@@ -196,14 +196,14 @@ function var_0_0.OnEndDragCard(arg_16_0)
 	arg_16_0.displayCards[arg_16_0.dragIndex]._tf.localPosition = var_16_0
 
 	local var_16_1 = {}
-	local var_16_2 = getProxy(PlayerProxy):getRawData()
+	local var_16_2 = getProxy(PlayerProxy):getRawData():GetShipPhantomMarks()
 	local var_16_3 = false
 
 	for iter_16_0, iter_16_1 in pairs(arg_16_0.displayCards) do
 		iter_16_1:EnableDrag()
-		table.insert(var_16_1, iter_16_1.displayShip.id)
+		table.insert(var_16_1, iter_16_1.displayShip:GetShipPhantomMark())
 
-		if not var_16_3 and var_16_2.characters[#var_16_1] ~= iter_16_1.displayShip.id then
+		if not var_16_3 and var_16_2[#var_16_1] ~= var_16_1[#var_16_1] then
 			var_16_3 = true
 		end
 	end
@@ -442,13 +442,13 @@ function var_0_0.SwitchToPage(arg_38_0, arg_38_1)
 
 	if arg_38_1 == var_0_5 then
 		var_38_0 = _.select(getProxy(SettingsProxy):GetRandomFlagShipList(), function(arg_39_0)
-			return getProxy(BayProxy):RawGetShipById(arg_39_0) ~= nil
+			return getProxy(BayProxy):GetShipPhantom(arg_39_0) ~= nil
 		end)
 		arg_38_0.tip.text = i18n("random_ship_tips1")
 
 		arg_38_0:emit(PlayerVitaeScene.ON_PAGE_SWTICH, PlayerVitaeScene.PAGE_RANDOM_SHIPS)
 	elseif arg_38_1 == var_0_4 then
-		var_38_0 = getProxy(PlayerProxy):getRawData().characters
+		var_38_0 = getProxy(PlayerProxy):getRawData():GetShipPhantomMarks()
 		arg_38_0.tip.text = i18n("random_ship_tips2")
 
 		arg_38_0:emit(PlayerVitaeScene.ON_PAGE_SWTICH, PlayerVitaeScene.PAGE_NATIVE_SHIPS)

@@ -68,6 +68,7 @@ function var_0_0.handleNotification(arg_8_0, arg_8_1)
 		if var_8_2 then
 			arg_8_0:sendNotification(GAME.SET_SHIP_SKIN, {
 				hideTip = true,
+				phantomId = 0,
 				shipId = var_8_1.ship.id,
 				skinId = var_8_2.id
 			})

@@ -37,7 +37,7 @@ function var_0_0.SetMaskAsTopLayer(arg_2_0, arg_2_1)
 	if arg_2_1 then
 		arg_2_0.adpterCanvas.sortingOrder = 1000
 	else
-		arg_2_0.adpterCanvas.sortingOrder = -1000
+		arg_2_0.adpterCanvas.sortingOrder = LayerWeightConst.UI_ADPTER_LAYER
 	end
 end
 

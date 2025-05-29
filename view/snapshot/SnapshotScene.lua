@@ -513,6 +513,8 @@ function var_0_0.updateSkin(arg_48_0)
 				end
 			end
 
+			Live2D.SetL2dSortingLayer(arg_49_0, LayerWeightConst.L2D_DEFAULT_LAYER)
+
 			arg_48_0.live2dCom = var_49_1
 			arg_48_0.live2dCom.name = arg_48_0.paintSkin
 			arg_48_0.playActionId = pg.AssistantInfo.action2Id.idle

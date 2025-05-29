@@ -3,8 +3,8 @@ local var_0_0 = class("MainRandomFlagShipSequence")
 function var_0_0.Execute(arg_1_0, arg_1_1)
 	local var_1_0 = getProxy(SettingsProxy):GetRandomFlagShipList()
 
-	if #var_1_0 > 0 and _.all(var_1_0, function(arg_2_0)
-		return getProxy(BayProxy):RawGetShipById(arg_2_0) == nil
+	if #var_1_0 > 0 and underscore.all(var_1_0, function(arg_2_0)
+		return getProxy(BayProxy):GetShipPhantom(arg_2_0) == nil
 	end) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("random_ship_off_0"))
 		getProxy(SettingsProxy):UpdateRandomFlagShipList({})
@@ -84,49 +84,46 @@ local function var_0_3(arg_6_0, arg_6_1)
 			table.insert(arg_7_1, arg_7_2.groupId)
 		end
 
-		table.insert(arg_7_0[arg_7_2.groupId], arg_7_2.id)
+		table.insert(arg_7_0[arg_7_2.groupId], arg_7_2:GetShipPhantomMark())
 	end
 
-	local var_6_1 = {}
+	local var_6_1 = getProxy(BayProxy)
+	local var_6_2
 
 	if arg_6_0 == SettingsRandomFlagShipAndSkinPanel.COUSTOM then
-		for iter_6_0, iter_6_1 in ipairs(getProxy(PlayerProxy):getRawData():GetCustomRandomShipList()) do
-			local var_6_2 = getProxy(BayProxy):RawGetShipById(iter_6_1)
-
-			if var_6_2 then
-				table.insert(var_6_1, var_6_2)
-			end
-		end
+		var_6_2 = var_6_1:getRandomFlagShipPhantomMarks()
 	else
-		var_6_1 = getProxy(BayProxy):getRawData()
+		var_6_2 = var_6_1:getAllShipPhantomMarks()
 	end
 
-	local var_6_3 = {}
+	local var_6_3 = var_6_1:getShipPhantomList(var_6_2)
 	local var_6_4 = {}
 	local var_6_5 = {}
 	local var_6_6 = {}
+	local var_6_7 = {}
 
-	for iter_6_2, iter_6_3 in pairs(var_6_1) do
-		if var_0_2(arg_6_0, iter_6_3) then
-			if arg_6_1[iter_6_3.groupId] then
-				var_6_0(var_6_5, var_6_6, iter_6_3)
+	for iter_6_0, iter_6_1 in pairs(var_6_3) do
+		if var_0_2(arg_6_0, iter_6_1) then
+			if arg_6_1[iter_6_1.groupId] then
+				var_6_0(var_6_6, var_6_7, iter_6_1)
 			else
-				var_6_0(var_6_3, var_6_4, iter_6_3)
+				var_6_0(var_6_4, var_6_5, iter_6_1)
 			end
 		end
 	end
 
-	return var_6_3, var_6_4, var_6_5, var_6_6
+	return var_6_4, var_6_5, var_6_6, var_6_7
 end
 
 local function var_0_4(arg_8_0)
 	local var_8_0 = {}
 
 	for iter_8_0, iter_8_1 in ipairs(arg_8_0) do
-		local var_8_1 = getProxy(BayProxy):RawGetShipById(iter_8_1)
+		local var_8_1, var_8_2 = ShipPhantom.UnpackMark(iter_8_1)
+		local var_8_3 = getProxy(BayProxy):RawGetShipById(var_8_1)
 
-		if var_8_1 then
-			var_8_0[var_8_1.groupId] = true
+		if var_8_3 then
+			var_8_0[var_8_3.groupId] = true
 		end
 	end
 

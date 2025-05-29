@@ -14517,6 +14517,66 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	[563] = {
+		ship_group = 70504,
+		name = "Proj23.Bel",
+		sculpture = "suweiaibeilaluosi_3",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 563,
+		id = 563,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[564] = {
+		ship_group = 20705,
+		name = "Formidable",
+		sculpture = "kewei_6",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 564,
+		id = 564,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[565] = {
+		ship_group = 40314,
+		name = "Friedrich Carl",
+		sculpture = "feiteliekaer_3",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 565,
+		id = 565,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[566] = {
+		ship_group = 30189,
+		name = "Hatsuzuki",
+		sculpture = "chuyue_3",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 566,
+		id = 566,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[567] = {
+		ship_group = 10509,
+		name = "Colorado",
+		sculpture = "keluoladuo_4",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 567,
+		id = 567,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -15069,6 +15129,11 @@ pg.activity_ins_template = {
 		559,
 		560,
 		561,
-		562
+		562,
+		563,
+		564,
+		565,
+		566,
+		567
 	}
 }

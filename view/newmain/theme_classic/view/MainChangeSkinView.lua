@@ -13,12 +13,8 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 
 		arg_1_0.inChange = true
 
-		local var_2_0 = arg_1_0._flagShip:getSkinId()
-		local var_2_1 = arg_1_0._flagShip.id
-
 		arg_1_0.event:emit(NewMainMediator.CHANGE_SKIN_TOGGLE, {
-			ship_id = var_2_1,
-			skin_id = var_2_0
+			skin_id = arg_1_0._flagShip:getSkinId()
 		})
 	end, SFX_CONFIRM)
 end
@@ -38,17 +34,16 @@ end
 
 function var_0_0.updateUI(arg_5_0)
 	local var_5_0 = arg_5_0._flagShip:getSkinId()
-	local var_5_1 = arg_5_0._flagShip.id
-	local var_5_2 = ShipGroup.GetChangeSkinGroupId(var_5_0)
+	local var_5_1 = ShipSkin.GetChangeSkinGroupId(var_5_0)
 
-	if not var_5_2 then
+	if not var_5_1 then
 		setActive(arg_5_0._tf, false)
 	else
 		setActive(arg_5_0._tf, true)
 	end
 
-	if arg_5_0._changeSkinToggle and var_5_2 and var_5_2 > 0 then
-		arg_5_0._changeSkinToggle:setShipData(var_5_0, var_5_1)
+	if arg_5_0._changeSkinToggle and var_5_1 and var_5_1 > 0 then
+		arg_5_0._changeSkinToggle:setShipData(var_5_0)
 	end
 end
 

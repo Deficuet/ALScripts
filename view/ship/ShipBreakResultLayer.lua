@@ -130,7 +130,7 @@ function var_0_0.updateStatistics(arg_5_0)
 	end)
 
 	local var_5_18 = var_5_0:getCVIntimacy()
-	local var_5_19, var_5_20, var_5_21 = ShipWordHelper.GetWordAndCV(var_5_0.skinId, ShipWordHelper.WORD_TYPE_UPGRADE, nil, nil, var_5_18)
+	local var_5_19, var_5_20, var_5_21 = ShipWordHelper.GetWordAndCV(var_5_0:getSkinId(), ShipWordHelper.WORD_TYPE_UPGRADE, nil, nil, var_5_18)
 
 	setWidgetText(arg_5_0._chat, var_5_21)
 

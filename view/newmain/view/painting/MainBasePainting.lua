@@ -321,7 +321,7 @@ function var_0_0.OnDisplayWordEnd(arg_39_0)
 end
 
 function var_0_0.PlayCV(arg_40_0, arg_40_1, arg_40_2, arg_40_3, arg_40_4)
-	local var_40_0 = ShipWordHelper.RawGetCVKey(arg_40_0.ship.skinId)
+	local var_40_0 = ShipWordHelper.RawGetCVKey(arg_40_0.ship:getSkinId())
 	local var_40_1 = pg.CriMgr.GetCVBankName(var_40_0)
 
 	arg_40_0.cvLoader:Load(var_40_1, arg_40_3, 0, arg_40_4)
@@ -383,7 +383,7 @@ function var_0_0.CollectIdleEvents(arg_47_0, arg_47_1)
 		if #var_47_0 == 0 then
 			local var_47_1 = arg_47_0.ship:getCVIntimacy()
 
-			var_47_0 = var_0_5.filterAssistantEvents(Clone(var_0_5.IdleEvents), arg_47_0.ship.skinId, var_47_1)
+			var_47_0 = var_0_5.filterAssistantEvents(Clone(var_0_5.IdleEvents), arg_47_0.ship:getSkinId(), var_47_1)
 
 			if getProxy(TaskProxy):getNotFinishCount() and getProxy(TaskProxy):getNotFinishCount() > 0 and arg_47_1 ~= "mission" then
 				table.insert(var_47_0, "mission")
@@ -397,15 +397,15 @@ end
 function var_0_0.CollectTouchEvents(arg_48_0)
 	local var_48_0 = arg_48_0.ship:getCVIntimacy()
 
-	return (var_0_5.filterAssistantEvents(var_0_5.PaintingTouchEvents, arg_48_0.ship.skinId, var_48_0))
+	return (var_0_5.filterAssistantEvents(var_0_5.PaintingTouchEvents, arg_48_0.ship:getSkinId(), var_48_0))
 end
 
 function var_0_0.GetTouchEvent(arg_49_0, arg_49_1)
-	return (var_0_5.filterAssistantEvents(var_0_5.getAssistantTouchEvents(arg_49_1, arg_49_0.ship.skinId), arg_49_0.ship.skinId, 0))
+	return (var_0_5.filterAssistantEvents(var_0_5.getAssistantTouchEvents(arg_49_1, arg_49_0.ship:getSkinId()), arg_49_0.ship:getSkinId(), 0))
 end
 
 function var_0_0.GetIdleEvents(arg_50_0)
-	return (var_0_5.filterAssistantEvents(var_0_5.IdleEvents, arg_50_0.ship.skinId, 0))
+	return (var_0_5.filterAssistantEvents(var_0_5.IdleEvents, arg_50_0.ship:getSkinId(), 0))
 end
 
 function var_0_0.GetEventConfig(arg_51_0, arg_51_1)

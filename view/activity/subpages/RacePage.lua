@@ -200,7 +200,7 @@ function var_0_0.updateRankSelfTf(arg_19_0, arg_19_1, arg_19_2)
 		score = var_19_2:GetHighScore(var_0_1),
 		display = {
 			icon = var_19_1:getConfig("id"),
-			skinId = var_19_1.skinId,
+			skinId = var_19_1:getSkinId(),
 			proposeTime = var_19_1.proposeTime
 		}
 	}

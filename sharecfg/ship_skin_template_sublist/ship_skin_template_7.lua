@@ -1,6 +1,212 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_7 = {
+	[207042] = {
+		ship_group = 20704,
+		name = "春之女神的引导",
+		hand_id = 1,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		l2d_drag_rate = "",
+		skin_type = 4,
+		group_index = 2,
+		id = 207042,
+		painting = "shengli_3",
+		l2d_ignore_drag = 0,
+		shop_id = 70486,
+		illustrator = 1,
+		shop_type_id = 3,
+		l2d_para_range = "",
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "144",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		part_scale = "",
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "shengli_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "要准备港区的节日活动？呵呵，让我也来帮忙吧。放心，有美丽的我给予帮助，不管是活动还是什么的都肯定能顺利的！",
+		voice_actor = 94,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.322,
+					1.002,
+					0
+				}
+			},
+			plane = {
+				{
+					1.318,
+					1.008,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.366,
+							2.461,
+							-1.47
+						}
+					}
+				}
+			}
+		}
+	},
+	[207043] = {
+		ship_group = 20704,
+		name = "晚夏良宵",
+		hand_id = 1,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		l2d_drag_rate = "",
+		skin_type = 4,
+		group_index = 3,
+		id = 207043,
+		painting = "shengli_4",
+		l2d_ignore_drag = 0,
+		shop_id = 70927,
+		illustrator = 1,
+		shop_type_id = 10,
+		l2d_para_range = "",
+		l2d_voice_calibrate = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "172",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		part_scale = "",
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "shengli_4",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "哈啊……沐浴着晚夏的微风赏月，真是别有一番风雅的滋味呢。呵呵，此刻不应该作为皇家淑女，而是以重樱名媛的状态，优雅地品上这一口茶——呀！？ 好烫！？",
+		voice_actor = 94,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		get_showing = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.322,
+					1.002,
+					0
+				}
+			},
+			plane = {
+				{
+					1.318,
+					1.008,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.366,
+							2.461,
+							-1.47
+						}
+					}
+				}
+			}
+		}
+	},
 	[207050] = {
 		ship_group = 20705,
 		name = "可畏",
@@ -567,6 +773,196 @@ pg.base.ship_skin_template_7 = {
 			},
 			{
 				0.77
+			}
+		}
+	},
+	[207055] = {
+		ship_group = 20705,
+		name = "纪念印记",
+		hand_id = 13,
+		bgm = "",
+		gyro = 0,
+		illustrator2 = -1,
+		l2d_drag_rate = "",
+		skin_type = 4,
+		group_index = 5,
+		id = 207055,
+		painting = "kewei_6",
+		l2d_ignore_drag = 0,
+		shop_id = 71147,
+		illustrator = -1,
+		shop_type_id = 7,
+		lip_smoothing = 0,
+		bg = "107",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		part_scale = "",
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "kewei_6",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "为了表达对指挥官永恒的爱与感激，也为了庆祝我们一起度过的美好时光——可畏我将以全新的姿态参加港区的庆典。…哎呀，指挥官？快点告诉我后面的内容嘛！",
+		voice_actor = 89,
+		spine_offset = "",
+		change_skin = "",
+		rarity_bg = "",
+		time = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		live2d_offset_profile = {
+			50,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.666,
+					2.176,
+					0
+				}
+			},
+			plane = {
+				{
+					0.752,
+					1.084,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.869,
+							2.258,
+							-1.47
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-10,
+				20
+			}
+		},
+		ship_l2d_id = {
+			20705501,
+			20705502,
+			20705503,
+			20705504,
+			20705505,
+			20705506,
+			20705507,
+			20705508,
+			20705509,
+			20705510,
+			20705511,
+			20705512,
+			20705513,
+			20705514,
+			20705515,
+			20705516,
+			20705517,
+			20705518,
+			20705519,
+			20705520
+		},
+		get_showing = {
+			show = 1,
+			paint_offset = {
+				-508,
+				-168,
+				1
+			},
+			data = {
+				{
+					1368,
+					56,
+					2,
+					-168,
+					211,
+					2.5
+				},
+				{
+					-1380,
+					-10,
+					1.8,
+					222,
+					-192,
+					2.5
+				},
+				{
+					40,
+					564,
+					2,
+					139,
+					-237,
+					2.5
+				},
+				{
+					45,
+					-1011,
+					3,
+					39,
+					257,
+					3
+				}
 			}
 		}
 	},
@@ -14036,355 +14432,6 @@ pg.base.ship_skin_template_7 = {
 			3012922,
 			3012923,
 			3012924
-		}
-	},
-	[301293] = {
-		ship_group = 30129,
-		name = "盛夏岛屿的小憩",
-		hand_id = 14,
-		bgm = "",
-		gyro = 0,
-		illustrator2 = -1,
-		l2d_drag_rate = "",
-		skin_type = 4,
-		group_index = 3,
-		id = 301293,
-		painting = "daofeng_3",
-		l2d_ignore_drag = 0,
-		shop_id = 70785,
-		illustrator = -1,
-		shop_type_id = 6,
-		l2d_para_range = "",
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "164",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		part_scale = "",
-		bg_sp = "1101",
-		voice_actor_2 = -1,
-		prefab = "daofeng_3",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "也不能一直在海上跑呢，差不多该恢复恢复一下体力啦。如果指挥官要遮阳的话，就请用这把伞吧！",
-		voice_actor = 284,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.188,
-					0.97,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.188,
-					0.97,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.188,
-					1.35,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.62,
-							2.79,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301294] = {
-		ship_group = 30129,
-		name = "慌乱的月下玉兔",
-		hand_id = 14,
-		bgm = "",
-		gyro = 0,
-		illustrator2 = -1,
-		l2d_drag_rate = "",
-		skin_type = 4,
-		group_index = 4,
-		id = 301294,
-		painting = "daofeng_6",
-		l2d_ignore_drag = 0,
-		shop_id = 70915,
-		illustrator = -1,
-		shop_type_id = 3,
-		l2d_para_range = "",
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "165",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		part_scale = "",
-		bg_sp = "",
-		voice_actor_2 = -1,
-		prefab = "daofeng_6",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "哇啊！？危险啊指挥官！……呼……还好没出事……非常抱歉！{namecode:18}没注意看路！光想着要快点把月饼送给大家了……",
-		voice_actor = 284,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.188,
-					0.97,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.188,
-					0.97,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.188,
-					1.35,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.77,
-							2.58,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301300] = {
-		ship_group = 30130,
-		name = "{namecode:124}",
-		hand_id = 14,
-		bgm = "",
-		gyro = 0,
-		illustrator2 = -1,
-		l2d_drag_rate = "",
-		skin_type = -1,
-		group_index = 0,
-		id = 301300,
-		painting = "shenfeng",
-		l2d_ignore_drag = 0,
-		shop_id = 0,
-		illustrator = 33,
-		shop_type_id = 0,
-		l2d_para_range = "",
-		l2d_voice_calibrate = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		part_scale = "",
-		bg_sp = "",
-		voice_actor_2 = -1,
-		prefab = "shenfeng",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "{namecode:124}级驱逐舰一番舰—{namecode:124}",
-		voice_actor = 51,
-		spine_offset = "",
-		change_skin = "",
-		rarity_bg = "",
-		time = "",
-		get_showing = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.2,
-					1.19,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.2,
-					1.19,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.159,
-					0.13,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.2,
-					1.19,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.5,
-							2.36,
-							0
-						}
-					}
-				}
-			}
 		}
 	}
 }

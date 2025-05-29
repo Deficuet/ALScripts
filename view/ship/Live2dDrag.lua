@@ -13,9 +13,6 @@ local var_0_8 = 1
 function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	arg_1_0.live2dData = arg_1_2
 	arg_1_0.frameRate = Application.targetFrameRate or 60
-
-	print("drag id " .. arg_1_1.id .. "初始化")
-
 	arg_1_0.id = arg_1_1.id
 	arg_1_0.drawAbleName = arg_1_1.draw_able_name or ""
 	arg_1_0.parameterName = arg_1_1.parameter
@@ -361,7 +358,7 @@ end
 
 function var_0_0.setParameterCom(arg_12_0, arg_12_1)
 	if not arg_12_1 then
-		print("live2dDrag id:" .. tostring(arg_12_0.id) .. "设置了null的组件(该打印非报错)")
+		-- block empty
 	end
 
 	arg_12_0._parameterCom = arg_12_1
@@ -439,7 +436,9 @@ function var_0_0.onEventCallback(arg_20_0, arg_20_1, arg_20_2, arg_20_3)
 			var_20_6 = var_20_7.target_focus == 1 and true or false
 			var_20_4 = var_20_7.react or nil
 
-			arg_20_0:triggerAction()
+			if var_20_1 and #var_20_1 > 0 then
+				arg_20_0:triggerAction()
+			end
 
 			if arg_20_0.actionListIndex == #arg_20_0.actionTrigger.action_list then
 				arg_20_0:stopDrag()
@@ -448,6 +447,8 @@ function var_0_0.onEventCallback(arg_20_0, arg_20_1, arg_20_2, arg_20_3)
 			else
 				arg_20_0.actionListIndex = arg_20_0.actionListIndex + 1
 			end
+
+			print("id = " .. arg_20_0.id .. " action list index = " .. arg_20_0.actionListIndex)
 		elseif not arg_20_0.actionTrigger.action then
 			var_20_1 = arg_20_0:fillterAction(arg_20_0.actionTrigger.action)
 			var_20_0 = arg_20_0.actionTriggerActive

@@ -357,4 +357,12 @@ function var_0_0.GetGiftList(arg_35_0)
 	end
 end
 
+function var_0_0.GetPackageTag(arg_36_0)
+	if arg_36_0:getConfig("genre") ~= ShopArgs.GiftPackage or arg_36_0:getConfig("package_tag_open") == 0 then
+		return ""
+	else
+		return arg_36_0:getConfig("package_tag")
+	end
+end
+
 return var_0_0

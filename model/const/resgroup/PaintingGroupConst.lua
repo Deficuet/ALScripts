@@ -90,7 +90,7 @@ function var_0_0.AddPaintingNameBySkinID(arg_8_0, arg_8_1)
 			arg_8_1
 		}
 
-		if ShipGroup.IsChangeSkin(arg_8_1) then
+		if ShipSkin.IsChangeSkin(arg_8_1) then
 			local var_8_1 = ShipGroup.GetAllChangeSkinIds(arg_8_1)
 
 			for iter_8_0, iter_8_1 in ipairs(var_8_1) do

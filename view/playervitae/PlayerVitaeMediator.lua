@@ -53,7 +53,7 @@ function var_0_0.register(arg_1_0)
 	end)
 	arg_1_0:bind(var_0_0.CHANGE_PAINTS, function(arg_9_0, arg_9_1, arg_9_2)
 		arg_1_0:sendNotification(GAME.CHANGE_PLAYER_ICON, {
-			characterId = arg_9_1,
+			after = arg_9_1,
 			callback = arg_9_2
 		})
 	end)
@@ -72,19 +72,14 @@ function var_0_0.register(arg_1_0)
 	end)
 	arg_1_0:bind(var_0_0.CHANGE_PAINT, function(arg_13_0, arg_13_1)
 		local var_13_0 = {}
+		local var_13_1 = getProxy(PlayerProxy):getRawData()
+		local var_13_2 = var_13_1:GetShipPhantomMarks()
+
+		if arg_13_1 then
+			table.removebyvalue(var_13_2, arg_13_1:GetShipPhantomMark())
+		end
 
 		arg_1_0.contextData.showSelectCharacters = true
-
-		local var_13_1 = getProxy(PlayerProxy):getRawData()
-		local var_13_2 = {}
-
-		for iter_13_0, iter_13_1 in ipairs(var_13_1.characters) do
-			if not arg_13_1 or iter_13_1 ~= arg_13_1.id then
-				table.insert(var_13_0, iter_13_1)
-			end
-
-			table.insert(var_13_2, iter_13_1)
-		end
 
 		local var_13_3, var_13_4 = PlayerVitaeShipsPage.GetSlotMaxCnt()
 		local var_13_5 = {
@@ -92,16 +87,17 @@ function var_0_0.register(arg_1_0)
 			selectedMax = var_13_4,
 			hideTagFlags = ShipStatus.TAG_HIDE_ADMIRAL,
 			selectedIds = var_13_0,
+			selectedMarks = var_13_2,
 			ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips({
 				isActivityNpc = true
 			}),
 			onSelected = function(arg_14_0, arg_14_1)
-				local var_14_0 = arg_1_0:ReSortShipIds(var_13_2, arg_14_0)
+				local var_14_0 = arg_1_0:ReSortShipIds(var_13_1:GetShipPhantomMarks(), arg_14_0)
 
 				arg_1_0.contextData.showSelectCharacters = false
 
 				arg_1_0:sendNotification(GAME.CHANGE_PLAYER_ICON, {
-					characterId = var_14_0,
+					after = var_14_0,
 					callback = arg_14_1
 				})
 			end
@@ -117,29 +113,49 @@ end
 
 function var_0_0.ReSortShipIds(arg_15_0, arg_15_1, arg_15_2)
 	local var_15_0 = {}
-	local var_15_1 = math.max(#arg_15_1, #arg_15_2)
 
-	for iter_15_0, iter_15_1 in ipairs(arg_15_1) do
-		if table.contains(arg_15_2, iter_15_1) then
-			var_15_0[iter_15_0] = iter_15_1
+	for iter_15_0, iter_15_1 in ipairs({
+		{
+			arg_15_1,
+			-1
+		},
+		{
+			arg_15_2,
+			1
+		}
+	}) do
+		local var_15_1, var_15_2 = unpack(iter_15_1)
 
-			table.removebyvalue(arg_15_2, iter_15_1)
+		for iter_15_2, iter_15_3 in ipairs(var_15_1) do
+			var_15_0[iter_15_3] = defaultValue(var_15_0[iter_15_3], 0) + var_15_2
 		end
 	end
 
-	for iter_15_2 = 1, var_15_1 do
-		if not var_15_0[iter_15_2] and #arg_15_2 > 0 then
-			var_15_0[iter_15_2] = table.remove(arg_15_2, 1)
+	local var_15_3 = {}
+	local var_15_4 = 1
+	local var_15_5 = 1
+
+	while #var_15_3 < #arg_15_2 do
+		while var_15_4 <= #arg_15_1 and var_15_0[arg_15_1[var_15_4]] == 0 do
+			table.insert(var_15_3, arg_15_1[var_15_4])
+
+			var_15_4 = var_15_4 + 1
+		end
+
+		var_15_4 = var_15_4 + 1
+
+		while var_15_5 <= #arg_15_2 and var_15_0[arg_15_2[var_15_5]] == 0 do
+			var_15_5 = var_15_5 + 1
+		end
+
+		if arg_15_2[var_15_5] then
+			table.insert(var_15_3, arg_15_2[var_15_5])
+
+			var_15_5 = var_15_5 + 1
 		end
 	end
 
-	local var_15_2 = {}
-
-	for iter_15_3, iter_15_4 in pairs(var_15_0) do
-		table.insert(var_15_2, iter_15_4)
-	end
-
-	return var_15_2
+	return var_15_3
 end
 
 function var_0_0.listNotificationInterests(arg_16_0)
@@ -162,7 +178,7 @@ function var_0_0.handleNotification(arg_17_0, arg_17_1)
 	if var_17_0 == GAME.CHANGE_PLAYER_NAME_DONE then
 		arg_17_0.viewComponent:OnPlayerNameChange()
 	elseif var_17_0 == SetShipSkinCommand.SKIN_UPDATED then
-		arg_17_0.viewComponent:OnShipSkinChanged(var_17_1.ship)
+		arg_17_0.viewComponent:OnShipSkinChanged(var_17_1.ship:GetShipPhantomMark())
 	elseif var_17_0 == GAME.UPDATE_SKINCONFIG then
 		arg_17_0.viewComponent:ReloadPanting(var_17_1.skinId)
 	elseif var_17_0 == GAME.CHANGE_PLAYER_ICON_DONE then

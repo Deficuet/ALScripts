@@ -13,7 +13,7 @@ function var_0_0.UpdateChangeSkinBtn(arg_3_0)
 
 	if getProxy(SettingsProxy):IsOpenRandomFlagShip() then
 		var_3_0 = _.select(getProxy(SettingsProxy):GetRandomFlagShipList(), function(arg_4_0)
-			return getProxy(BayProxy):RawGetShipById(arg_4_0) ~= nil
+			return getProxy(BayProxy):GetShipPhantom(arg_4_0) ~= nil
 		end)
 	else
 		var_3_0 = getProxy(PlayerProxy):getRawData().characters

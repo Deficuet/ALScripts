@@ -832,6 +832,19 @@ pg.emoji_template = {
 			2
 		}
 	},
+	[67] = {
+		achieve = 1,
+		item_desc = "聊天表情：怒了！可以在表情选项的「动态」选项卡中找到并发出此表情。",
+		item_name = "聊天表情：怒了！",
+		id = 67,
+		index = 1026,
+		icon = "",
+		pic = "zhaohe_4",
+		desc = "<color=#92fc63>[怒了！]</color>",
+		type = {
+			2
+		}
+	},
 	[100] = {
 		achieve = 0,
 		item_desc = "",
@@ -1633,7 +1646,7 @@ pg.emoji_template = {
 		index = 83,
 		icon = "",
 		pic = "247",
-		desc = "<color=#92fc63>[大大]</color>",
+		desc = "<color=#92fc63>[别看]</color>",
 		type = {
 			1
 		}
@@ -1646,7 +1659,7 @@ pg.emoji_template = {
 		index = 84,
 		icon = "",
 		pic = "248",
-		desc = "<color=#92fc63>[别看]</color>",
+		desc = "<color=#92fc63>[大大]</color>",
 		type = {
 			1
 		}
@@ -2392,6 +2405,7 @@ pg.emoji_template = {
 		63,
 		65,
 		66,
+		67,
 		100,
 		101,
 		102,

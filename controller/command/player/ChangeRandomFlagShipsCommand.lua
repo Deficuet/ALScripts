@@ -4,77 +4,88 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_0 = arg_1_1:getBody()
 	local var_1_1 = var_1_0.addList
 	local var_1_2 = var_1_0.deleteList
-	local var_1_3 = 300
-	local var_1_4 = math.max(#var_1_2, #var_1_1)
-	local var_1_5 = math.ceil(var_1_4 / var_1_3)
-	local var_1_6 = {}
+	local var_1_3 = {}
 
-	for iter_1_0 = 1, var_1_5 do
-		local var_1_7 = {}
-		local var_1_8 = {}
-		local var_1_9 = (iter_1_0 - 1) * var_1_3 + 1
+	for iter_1_0, iter_1_1 in ipairs({
+		{
+			var_1_1,
+			1
+		},
+		{
+			var_1_2,
+			-1
+		}
+	}) do
+		local var_1_4, var_1_5 = unpack(iter_1_1)
 
-		for iter_1_1 = var_1_9, var_1_9 + var_1_3 - 1 do
-			if iter_1_1 <= #var_1_1 then
-				table.insert(var_1_7, var_1_1[iter_1_1])
-			end
-
-			if iter_1_1 <= #var_1_2 then
-				table.insert(var_1_8, var_1_2[iter_1_1])
-			end
+		for iter_1_2, iter_1_3 in ipairs(var_1_4) do
+			var_1_3[iter_1_3] = defaultValue(var_1_3[iter_1_3], 0) + var_1_5
 		end
+	end
 
-		table.insert(var_1_6, function(arg_2_0)
-			arg_1_0:Send(var_1_7, var_1_8, arg_2_0)
+	local var_1_6 = getProxy(BayProxy):getRandomFlagShipPhantomMarks()
+
+	for iter_1_4, iter_1_5 in ipairs(var_1_6) do
+		if var_1_3[iter_1_5] then
+			var_1_3[iter_1_5] = var_1_3[iter_1_5] + 1
+		end
+	end
+
+	local var_1_7 = {}
+
+	for iter_1_6, iter_1_7 in pairs(var_1_3) do
+		if iter_1_7 == math.clamp(iter_1_7, 0, 1) then
+			local var_1_8, var_1_9 = ShipPhantom.UnpackMark(iter_1_6)
+
+			table.insert(var_1_7, {
+				ship_id = var_1_8,
+				shadow = var_1_9,
+				flag = iter_1_7
+			})
+		end
+	end
+
+	local var_1_10 = 300
+	local var_1_11 = math.ceil(#var_1_7 / var_1_10)
+	local var_1_12 = {}
+
+	for iter_1_8 = 1, var_1_11 do
+		table.insert(var_1_12, function(arg_2_0)
+			arg_1_0:Send(underscore.slice(var_1_7, (iter_1_8 - 1) * var_1_10 + 1, var_1_10), arg_2_0)
 		end)
 	end
 
-	seriesAsync(var_1_6, function()
+	seriesAsync(var_1_12, function()
 		if #var_1_1 > 0 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("random_ship_custom_mode_add_complete"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("random_ship_custom_mode_add_shadow_complete"))
 		end
 
 		if #var_1_2 > 0 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("random_ship_custom_mode_remove_complete"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("random_ship_custom_mode_remove_shadow_complete"))
 		end
 
 		arg_1_0:sendNotification(GAME.CHANGE_RANDOM_SHIPS_DONE)
 	end)
 end
 
-function var_0_0.Send(arg_4_0, arg_4_1, arg_4_2, arg_4_3)
+function var_0_0.Send(arg_4_0, arg_4_1, arg_4_2)
 	pg.ConnectionMgr.GetInstance():Send(12208, {
-		add_list = arg_4_1,
-		del_list = arg_4_2
-	}, 12209, function(arg_5_0)
-		if arg_5_0.result == 0 then
-			local var_5_0 = getProxy(PlayerProxy):getRawData()
-			local var_5_1 = var_5_0:GetCustomRandomShipList()
-			local var_5_2 = {}
-
-			for iter_5_0, iter_5_1 in ipairs(arg_4_2) do
-				var_5_2[iter_5_1] = true
-			end
-
-			for iter_5_2 = #var_5_1, 1, -1 do
-				if var_5_2[var_5_1[iter_5_2]] then
-					table.remove(var_5_1, iter_5_2)
-				end
-			end
-
-			for iter_5_3, iter_5_4 in ipairs(arg_4_1) do
-				if not table.contains(var_5_1, iter_5_4) then
-					table.insert(var_5_1, iter_5_4)
-				end
-			end
-
-			var_5_0:UpdateCustomRandomShipList(var_5_1)
+		ship_shadow_list = underscore.map(arg_4_1, function(arg_5_0)
+			return {
+				key = arg_5_0.ship_id,
+				value1 = arg_5_0.shadow,
+				value2 = arg_5_0.flag
+			}
+		end)
+	}, 12209, function(arg_6_0)
+		if arg_6_0.result == 0 then
+			getProxy(BayProxy):updateRandomFlagShips(arg_4_1)
 		else
-			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[arg_5_0.result] .. arg_5_0.result)
+			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[arg_6_0.result] .. arg_6_0.result)
 		end
 
-		if arg_4_3 then
-			arg_4_3()
+		if arg_4_2 then
+			arg_4_2()
 		end
 	end)
 end

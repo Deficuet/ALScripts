@@ -202,8 +202,8 @@ function var_0_0.didEnter(arg_8_0)
 	onButton(arg_8_0, arg_8_0.btnChangeSkin, function()
 		local var_19_0 = arg_8_0.skin
 
-		if ShipGroup.IsChangeSkin(var_19_0.id) then
-			local var_19_1 = ShipGroup.GetChangeSkinNextId(var_19_0.id)
+		if ShipSkin.IsChangeSkin(var_19_0.id) then
+			local var_19_1 = ShipSkin.GetChangeSkinNextId(var_19_0.id)
 			local var_19_2 = pg.ship_skin_template[var_19_1]
 
 			arg_8_0:showSkinProfile(arg_8_0.contextData.skinIndex, var_19_2, arg_8_0.prevSkinBtn)
@@ -239,7 +239,7 @@ function var_0_0.InitSkinList(arg_20_0)
 end
 
 function var_0_0.showSkinProfile(arg_23_0, arg_23_1, arg_23_2, arg_23_3)
-	local var_23_0 = ShipGroup.IsChangeSkin(arg_23_2.id) and true or false
+	local var_23_0 = ShipSkin.IsChangeSkin(arg_23_2.id) and true or false
 
 	setActive(arg_23_0.btnChangeSkin, var_23_0)
 
@@ -596,7 +596,8 @@ function var_0_0.CreateLive2D(arg_49_0)
 		parent = arg_49_0.l2dRoot
 	})
 
-	arg_49_0.l2dChar = Live2D.New(var_49_3, function()
+	arg_49_0.l2dChar = Live2D.New(var_49_3, function(arg_50_0)
+		arg_50_0:setSortingLayer(LayerWeightConst.L2D_DEFAULT_LAYER)
 		arg_49_0.live2DBtn:SetEnable(true)
 	end)
 

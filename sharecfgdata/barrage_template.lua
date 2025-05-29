@@ -66783,6 +66783,196 @@ _G.pg.base.barrage_template[82054] = {
 	trans_ID = -1
 }
 
+_G.pg.base.barrage_template[82049] = {
+	offset_prioritise = false,
+	delta_offset_x = 0,
+	delta_delay = 0,
+	delay = 0,
+	offset_x = -1,
+	delta_offset_z = 1,
+	delta_angle = 4,
+	primal_repeat = 5,
+	offset_z = -3.5,
+	first_delay = 0,
+	random_angle = false,
+	senior_repeat = 0,
+	id = 82049,
+	senior_delay = 0,
+	angle = -12,
+	trans_ID = -1
+}
+
+_G.pg.base.barrage_template[82050] = {
+	offset_prioritise = false,
+	delta_offset_x = 0,
+	delta_delay = 0,
+	delay = 0,
+	offset_x = -1,
+	delta_offset_z = 1,
+	delta_angle = 4,
+	primal_repeat = 5,
+	offset_z = -3.5,
+	first_delay = 0.5,
+	random_angle = false,
+	senior_repeat = 0,
+	id = 82050,
+	senior_delay = 0,
+	angle = -12,
+	trans_ID = -1
+}
+
+_G.pg.base.barrage_template[82058] = {
+	offset_prioritise = false,
+	delta_offset_x = 4,
+	delta_delay = 0,
+	delay = 0,
+	offset_x = 0,
+	delta_offset_z = -4,
+	delta_angle = 0,
+	primal_repeat = 2,
+	offset_z = 16,
+	first_delay = 0,
+	random_angle = false,
+	senior_repeat = 0,
+	id = 82058,
+	senior_delay = 0,
+	angle = 0,
+	trans_ID = -1
+}
+
+_G.pg.base.barrage_template[82059] = {
+	offset_prioritise = false,
+	delta_offset_x = 4,
+	delta_delay = 0,
+	delay = 0,
+	offset_x = 0,
+	delta_offset_z = 4,
+	delta_angle = 0,
+	primal_repeat = 2,
+	offset_z = 0,
+	first_delay = 0,
+	random_angle = false,
+	senior_repeat = 0,
+	id = 82059,
+	senior_delay = 0,
+	angle = 0,
+	trans_ID = -1
+}
+
+_G.pg.base.barrage_template[82060] = {
+	offset_prioritise = false,
+	delta_offset_x = 4,
+	delta_delay = 0,
+	delay = 0,
+	offset_x = 0,
+	delta_offset_z = -4,
+	delta_angle = 0,
+	primal_repeat = 2,
+	offset_z = 0,
+	first_delay = 0,
+	random_angle = false,
+	senior_repeat = 0,
+	id = 82060,
+	senior_delay = 0,
+	angle = 0,
+	trans_ID = -1
+}
+
+_G.pg.base.barrage_template[82061] = {
+	offset_prioritise = false,
+	delta_offset_x = 4,
+	delta_delay = 0,
+	delay = 0,
+	offset_x = 0,
+	delta_offset_z = 4,
+	delta_angle = 0,
+	primal_repeat = 2,
+	offset_z = -16,
+	first_delay = 0,
+	random_angle = false,
+	senior_repeat = 0,
+	id = 82061,
+	senior_delay = 0,
+	angle = 0,
+	trans_ID = -1
+}
+
+_G.pg.base.barrage_template[82062] = {
+	offset_prioritise = false,
+	delta_offset_x = 0,
+	delta_delay = 0,
+	delay = 0.1,
+	offset_x = 0,
+	delta_offset_z = 0,
+	delta_angle = 0,
+	primal_repeat = 1,
+	offset_z = 0,
+	first_delay = 0,
+	random_angle = false,
+	senior_repeat = 0,
+	id = 82062,
+	senior_delay = 0,
+	angle = 0,
+	trans_ID = -1
+}
+
+_G.pg.base.barrage_template[82063] = {
+	offset_prioritise = false,
+	delta_offset_x = 0,
+	delta_delay = 0,
+	delay = 0.1,
+	offset_x = 0,
+	delta_offset_z = 0,
+	delta_angle = 0,
+	primal_repeat = 1,
+	offset_z = 0,
+	first_delay = 0,
+	random_angle = false,
+	senior_repeat = 1,
+	id = 82063,
+	senior_delay = 0.16,
+	angle = 0,
+	trans_ID = -1
+}
+
+_G.pg.base.barrage_template[82064] = {
+	offset_prioritise = false,
+	delta_offset_x = 0,
+	delta_delay = 0,
+	delay = 0.1,
+	offset_x = 0,
+	delta_offset_z = 0,
+	delta_angle = 0,
+	primal_repeat = 1,
+	offset_z = 0,
+	first_delay = 0,
+	random_angle = false,
+	senior_repeat = 2,
+	id = 82064,
+	senior_delay = 0.16,
+	angle = 0,
+	trans_ID = -1
+}
+
+_G.pg.base.barrage_template[82065] = {
+	offset_prioritise = false,
+	delta_offset_x = 0,
+	delta_delay = 0,
+	delay = 0.3,
+	offset_x = 0,
+	delta_offset_z = 0,
+	delta_angle = 0,
+	primal_repeat = 1,
+	offset_z = 0,
+	first_delay = 0,
+	random_angle = false,
+	senior_repeat = 0,
+	id = 82065,
+	senior_delay = 0,
+	angle = 0,
+	trans_ID = -1
+}
+
 _G.pg.base.barrage_template[90002] = {
 	offset_prioritise = false,
 	delta_offset_x = 0,

@@ -41,7 +41,7 @@ function var_0_0.initUI(arg_2_0, arg_2_1)
 end
 
 function var_0_0.preloadChangeAction(arg_4_0, arg_4_1, arg_4_2)
-	local var_4_0 = ShipGroup.GetChangeSkinAction(arg_4_1)
+	local var_4_0 = ShipSkin.GetChangeSkinAction(arg_4_1)
 
 	if var_4_0 and var_4_0 ~= "" then
 		arg_4_0._isloading = true
@@ -74,9 +74,9 @@ function var_0_0.play(arg_7_0, arg_7_1, arg_7_2, arg_7_3, arg_7_4)
 	end
 
 	arg_7_0._inPlaying = true
-	arg_7_0.changeIndex = ShipGroup.GetChangeSkinIndex(arg_7_1)
-	arg_7_0.changeState = ShipGroup.GetChangeSkinState(arg_7_1)
-	arg_7_0.changAction = ShipGroup.GetChangeSkinAction(arg_7_1)
+	arg_7_0.changeIndex = ShipSkin.GetChangeSkinIndex(arg_7_1)
+	arg_7_0.changeState = ShipSkin.GetChangeSkinState(arg_7_1)
+	arg_7_0.changAction = ShipSkin.GetChangeSkinAction(arg_7_1)
 
 	if arg_7_0.changeState == var_0_1 then
 		arg_7_0._loadObjectName = "changeskin/" .. arg_7_0.changAction

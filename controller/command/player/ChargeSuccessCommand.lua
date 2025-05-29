@@ -77,6 +77,8 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		pg.TrackerMgr.GetInstance():Tracking(TRACKING_PURCHASE_FIRST, var_1_2)
 	end
 
+	pg.TrackerMgr.GetInstance():Tracking(TRACKING_PAY_SUCCESS, var_1_2)
+
 	if var_1_5:firstPayDouble() then
 		local var_1_14 = var_1_10:getFirstChargeList() or {}
 

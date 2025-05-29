@@ -27,6 +27,12 @@ function var_0_0.Load(arg_4_0, arg_4_1)
 	arg_4_0.state = var_0_2
 
 	PoolMgr.GetInstance():GetUI(arg_4_0:GetUIName(), true, function(arg_5_0)
+		if arg_4_0.exited then
+			PoolMgr.GetInstance():ReturnUI(arg_4_0:GetUIName(), arg_5_0)
+
+			return
+		end
+
 		arg_4_0.state = var_0_3
 		arg_4_0._go = arg_5_0
 		arg_4_0._tf = arg_5_0.transform
@@ -46,6 +52,8 @@ function var_0_0.InitTitle(arg_6_0)
 end
 
 function var_0_0.Dispose(arg_7_0)
+	arg_7_0.exited = true
+
 	pg.DelegateInfo.Dispose(arg_7_0)
 
 	if arg_7_0.state >= var_0_3 then

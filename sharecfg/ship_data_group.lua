@@ -1379,6 +1379,9 @@ pg.ship_data_group = setmetatable({
 		[40315] = {
 			634
 		},
+		[40316] = {
+			697
+		},
 		[40401] = {
 			248
 		},
@@ -2351,6 +2354,9 @@ pg.ship_data_group = setmetatable({
 		[970509] = {
 			30046
 		},
+		[970107] = {
+			30047
+		},
 		[970707] = {
 			30048
 		}
@@ -2816,6 +2822,7 @@ pg.ship_data_group = setmetatable({
 			546,
 			568,
 			634,
+			697,
 			248,
 			249,
 			543,
@@ -3146,6 +3153,7 @@ pg.ship_data_group = setmetatable({
 			30044,
 			30045,
 			30046,
+			30047,
 			30048
 		}
 	},
@@ -3609,6 +3617,7 @@ pg.ship_data_group = setmetatable({
 		546,
 		568,
 		634,
+		697,
 		248,
 		249,
 		543,
@@ -3933,6 +3942,7 @@ pg.ship_data_group = setmetatable({
 		30044,
 		30045,
 		30046,
+		30047,
 		30048
 	}
 }, confHX)
@@ -24333,6 +24343,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[697] = {
+		type = 3,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 4,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 462,
+		code = 697,
+		group_type = 40316,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：「深渊之国」的缔造者",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[248] = {
 		type = 4,
 		redirect_id = 101,
@@ -36296,6 +36338,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9705091
+					}
+				},
+				0
+			}
+		}
+	},
+	[30047] = {
+		type = 1,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 97,
+		trans_skin = 0,
+		handbook_type = 3,
+		index_id = 30047,
+		code = 30047,
+		group_type = 970107,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：世界巡游",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9701071
 					}
 				},
 				0

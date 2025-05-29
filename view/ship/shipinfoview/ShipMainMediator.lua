@@ -37,6 +37,8 @@ var_0_0.EQUIP_CHANGE_NOTICE = "ShipMainMediator:EQUIP_CHANGE_NOTICE"
 var_0_0.ON_SELECT_SPWEAPON = "ShipMainMediator:ON_SELECT_SPWEAPON"
 var_0_0.OPEN_EQUIP_CODE = "ShipMainMediator:OPEN_EQUIP_CODE"
 var_0_0.OPEN_EQUIP_CODE_SHARE = "ShipMainMediator:OPEN_EQUIP_CODE_SHARE"
+var_0_0.CHANGE_RANDOM_FLAG = "ShipMainMediator.CHANGE_RANDOM_FLAG"
+var_0_0.OPEN_PHANTOM_LAYER = "ShipMainMediator.OPEN_PHANTOM_LAYER"
 
 function var_0_0.register(arg_1_0)
 	arg_1_0.bayProxy = getProxy(BayProxy)
@@ -207,6 +209,7 @@ function var_0_0.register(arg_1_0)
 	end)
 	arg_1_0:bind(var_0_0.CHANGE_SKIN, function(arg_23_0, arg_23_1, arg_23_2)
 		arg_1_0:sendNotification(GAME.SET_SHIP_SKIN, {
+			phantomId = 0,
 			shipId = arg_23_1,
 			skinId = arg_23_2
 		})
@@ -319,6 +322,28 @@ function var_0_0.register(arg_1_0)
 			}
 		}))
 	end)
+	arg_1_0:bind(var_0_0.CHANGE_RANDOM_FLAG, function(arg_42_0, arg_42_1, arg_42_2)
+		arg_1_0:sendNotification(GAME.CHANGE_RANDOM_SHIPS, {
+			addList = arg_42_2 and {
+				arg_42_1
+			} or {},
+			deleteList = not arg_42_2 and {
+				arg_42_1
+			} or {}
+		})
+	end)
+	arg_1_0:bind(var_0_0.OPEN_PHANTOM_LAYER, function(arg_43_0, arg_43_1)
+		arg_1_0:addSubLayers(Context.New({
+			mediator = DockyardMediator,
+			viewComponent = DockyardScene,
+			data = {
+				mode = DockyardScene.MODE_SHIP_PHANTOM,
+				techVersion = arg_43_1,
+				LayerWeightMgr_weight = LayerWeightConst.THIRD_LAYER
+			}
+		}))
+		arg_1_0.viewComponent:changePaintingSortLayer(false)
+	end)
 
 	if arg_1_0.contextData.selectedId then
 		arg_1_0:sendNotification(GAME.COMMANDER_EQUIP_TO_SHIP, {
@@ -341,163 +366,136 @@ function var_0_0.register(arg_1_0)
 	arg_1_0.viewComponent:setMaxLevelHelpFlag(var_1_4)
 end
 
-function var_0_0.getEquipmentSkins(arg_42_0, arg_42_1, arg_42_2)
-	if not arg_42_1 then
+function var_0_0.getEquipmentSkins(arg_44_0, arg_44_1, arg_44_2)
+	if not arg_44_1 then
 		return {}
 	end
 
-	local var_42_0 = arg_42_1:getEquip(arg_42_2)
-	local var_42_1 = var_42_0 and {
-		var_42_0:getType()
-	} or arg_42_1:getSkinTypes(arg_42_2)
-	local var_42_2 = getProxy(EquipmentProxy):getSkinsByTypes(var_42_1)
-	local var_42_3 = getProxy(BayProxy):getEquipmentSkinInShips(arg_42_1, var_42_1)
-	local var_42_4 = _.map(var_42_3, function(arg_43_0)
+	local var_44_0 = arg_44_1:getEquip(arg_44_2)
+	local var_44_1 = var_44_0 and {
+		var_44_0:getType()
+	} or arg_44_1:getSkinTypes(arg_44_2)
+	local var_44_2 = getProxy(EquipmentProxy):getSkinsByTypes(var_44_1)
+	local var_44_3 = getProxy(BayProxy):getEquipmentSkinInShips(arg_44_1, var_44_1)
+	local var_44_4 = _.map(var_44_3, function(arg_45_0)
 		return {
 			isSkin = true,
 			count = 1,
-			id = arg_43_0.id,
-			shipId = arg_43_0.shipId,
-			shipPos = arg_43_0.shipPos
+			id = arg_45_0.id,
+			shipId = arg_45_0.shipId,
+			shipPos = arg_45_0.shipPos
 		}
 	end)
-	local var_42_5 = _.map(var_42_2, function(arg_44_0)
+	local var_44_5 = _.map(var_44_2, function(arg_46_0)
 		return {
 			isSkin = true,
-			id = arg_44_0.id,
-			count = arg_44_0.count
+			id = arg_46_0.id,
+			count = arg_46_0.count
 		}
 	end)
 
-	for iter_42_0, iter_42_1 in ipairs(var_42_4 or {}) do
-		table.insert(var_42_5, iter_42_1)
+	for iter_44_0, iter_44_1 in ipairs(var_44_4 or {}) do
+		table.insert(var_44_5, iter_44_1)
 	end
 
-	return var_42_5
+	return var_44_5
 end
 
-function var_0_0.nextPage(arg_45_0, arg_45_1, arg_45_2)
-	if #arg_45_0.contextData.shipVOs == 0 then
+function var_0_0.nextPage(arg_47_0, arg_47_1, arg_47_2)
+	if #arg_47_0.contextData.shipVOs == 0 then
 		return
 	end
 
-	local var_45_0 = 1
-	local var_45_1 = 1
-	local var_45_2 = 1
+	local var_47_0 = 1
+	local var_47_1 = 1
+	local var_47_2 = 1
 
-	if arg_45_1 then
-		var_45_0 = arg_45_0.contextData.index + 1
-		var_45_1 = #arg_45_0.contextData.shipVOs
+	if arg_47_1 then
+		var_47_0 = arg_47_0.contextData.index + 1
+		var_47_1 = #arg_47_0.contextData.shipVOs
 	else
-		var_45_0 = arg_45_0.contextData.index - 1
-		var_45_2 = -1
+		var_47_0 = arg_47_0.contextData.index - 1
+		var_47_2 = -1
 	end
 
-	local var_45_3
+	local var_47_3
 
-	for iter_45_0 = var_45_0, var_45_1, var_45_2 do
-		local var_45_4 = arg_45_0.contextData.shipVOs[iter_45_0]
+	for iter_47_0 = var_47_0, var_47_1, var_47_2 do
+		local var_47_4 = arg_47_0.contextData.shipVOs[iter_47_0]
 
-		if var_45_4 then
-			var_45_3 = arg_45_0.bayProxy:getShipById(var_45_4.id)
+		if var_47_4 then
+			var_47_3 = arg_47_0.bayProxy:getShipById(var_47_4.id)
 
-			if var_45_3 then
-				arg_45_0.contextData.index = iter_45_0
-				arg_45_0.contextData.shipId = var_45_3.id
+			if var_47_3 then
+				arg_47_0.contextData.index = iter_47_0
+				arg_47_0.contextData.shipId = var_47_3.id
 
 				break
 			end
 		end
 	end
 
-	if var_45_3 == nil then
-		if arg_45_2 == nil then
+	if var_47_3 == nil then
+		if arg_47_2 == nil then
 			return
 		end
 
-		local var_45_5 = arg_45_0.contextData.shipVOs[arg_45_0.contextData.index]
+		local var_47_5 = arg_47_0.contextData.shipVOs[arg_47_0.contextData.index]
 
-		var_45_3 = arg_45_0.bayProxy:getShipById(var_45_5.id)
-		arg_45_0.contextData.shipId = var_45_3.id
+		var_47_3 = arg_47_0.bayProxy:getShipById(var_47_5.id)
+		arg_47_0.contextData.shipId = var_47_3.id
 	end
 
-	if var_45_3 then
-		arg_45_0.viewComponent:emit(var_0_0.ON_NEXTSHIP_PREPARE, var_45_3)
-		arg_45_0.viewComponent:setPreOrNext(arg_45_1, var_45_3)
+	if var_47_3 then
+		arg_47_0.viewComponent:emit(var_0_0.ON_NEXTSHIP_PREPARE, var_47_3)
+		arg_47_0.viewComponent:setPreOrNext(arg_47_1, var_47_3)
 
-		arg_45_0.viewComponent.fashionGroup = 0
-		arg_45_0.viewComponent.fashionSkinId = 0
+		arg_47_0.viewComponent.fashionGroup = 0
+		arg_47_0.viewComponent.fashionSkinId = 0
 
-		arg_45_0.viewComponent:setShip(var_45_3)
+		arg_47_0.viewComponent:setShip(var_47_3)
 
-		if arg_45_0.contextData.selectContextData then
-			arg_45_0.contextData.selectContextData.infoShipId = var_45_3.id
+		if arg_47_0.contextData.selectContextData then
+			arg_47_0.contextData.selectContextData.infoShipId = var_47_3.id
 		end
 
-		arg_45_0.viewComponent:updatePreferenceTag()
-		arg_45_0.viewComponent:displayShipWord("detail", true)
-		arg_45_0.viewComponent:closeRecordPanel()
+		arg_47_0.viewComponent:updatePreferenceTag()
+		arg_47_0.viewComponent:displayShipWord("detail", true)
+		arg_47_0.viewComponent:closeRecordPanel()
 
-		local var_45_6 = ShipViewConst.currentPage
+		local var_47_6 = ShipViewConst.currentPage
 
-		if var_45_6 == ShipViewConst.PAGE.UPGRADE then
-			arg_45_0:closeUpgrade()
-		elseif var_45_6 == ShipViewConst.PAGE.INTENSIFY and not arg_45_0.intensifyContext then
-			arg_45_0:closeIntensify()
-		elseif var_45_6 == ShipViewConst.PAGE.EQUIPMENT and arg_45_0.contextData.isInEquipmentSkinPage and var_45_3:hasEquipEquipmentSkin() and not ShipStatus.ShipStatusCheck("onModify", var_45_3) then
+		if var_47_6 == ShipViewConst.PAGE.UPGRADE then
+			arg_47_0:closeUpgrade()
+		elseif var_47_6 == ShipViewConst.PAGE.INTENSIFY and not arg_47_0.intensifyContext then
+			arg_47_0:closeIntensify()
+		elseif var_47_6 == ShipViewConst.PAGE.EQUIPMENT and arg_47_0.contextData.isInEquipmentSkinPage and var_47_3:hasEquipEquipmentSkin() and not ShipStatus.ShipStatusCheck("onModify", var_47_3) then
 			-- block empty
 		end
 
-		arg_45_0.viewComponent:switchToPage(var_45_6, true)
+		arg_47_0.viewComponent:switchToPage(var_47_6, true)
 	end
 
-	return var_45_3
+	return var_47_3
 end
 
-function var_0_0.openRemould(arg_46_0)
+function var_0_0.openRemould(arg_48_0)
 	if getProxy(ContextProxy):getCurrentContext():getContextByMediator(ShipRemouldMediator) then
 		return
 	end
 
-	arg_46_0:addSubLayers(Context.New({
+	arg_48_0:addSubLayers(Context.New({
 		viewComponent = ShipRemouldLayer,
 		mediator = ShipRemouldMediator,
 		data = {
-			shipId = arg_46_0.contextData.shipId,
-			LayerWeightMgr_groupName = LayerWeightConst.GROUP_SHIPINFOUI
-		}
-	}))
-end
-
-function var_0_0.closeRemould(arg_47_0)
-	local var_47_0 = getProxy(ContextProxy):getCurrentContext():getContextByMediator(ShipRemouldMediator)
-
-	if var_47_0 then
-		arg_47_0:sendNotification(GAME.REMOVE_LAYERS, {
-			context = var_47_0
-		})
-	end
-end
-
-function var_0_0.openUpgrade(arg_48_0)
-	if getProxy(ContextProxy):getCurrentContext():getContextByMediator(ShipUpgradeMediator2) then
-		return
-	end
-
-	arg_48_0:addSubLayers(Context.New({
-		mediator = ShipUpgradeMediator2,
-		viewComponent = ShipUpgradeLayer2,
-		data = {
 			shipId = arg_48_0.contextData.shipId,
-			shipVOs = arg_48_0.contextData.shipVOs,
-			index = arg_48_0.contextData.index,
 			LayerWeightMgr_groupName = LayerWeightConst.GROUP_SHIPINFOUI
 		}
 	}))
 end
 
-function var_0_0.closeUpgrade(arg_49_0)
-	local var_49_0 = getProxy(ContextProxy):getCurrentContext():getContextByMediator(ShipUpgradeMediator2)
+function var_0_0.closeRemould(arg_49_0)
+	local var_49_0 = getProxy(ContextProxy):getCurrentContext():getContextByMediator(ShipRemouldMediator)
 
 	if var_49_0 then
 		arg_49_0:sendNotification(GAME.REMOVE_LAYERS, {
@@ -506,9 +504,36 @@ function var_0_0.closeUpgrade(arg_49_0)
 	end
 end
 
-function var_0_0.openIntensify(arg_50_0)
-	if arg_50_0.intensifyContext ~= nil then
-		arg_50_0.intensifyContext.data.shipId = arg_50_0.contextData.shipId
+function var_0_0.openUpgrade(arg_50_0)
+	if getProxy(ContextProxy):getCurrentContext():getContextByMediator(ShipUpgradeMediator2) then
+		return
+	end
+
+	arg_50_0:addSubLayers(Context.New({
+		mediator = ShipUpgradeMediator2,
+		viewComponent = ShipUpgradeLayer2,
+		data = {
+			shipId = arg_50_0.contextData.shipId,
+			shipVOs = arg_50_0.contextData.shipVOs,
+			index = arg_50_0.contextData.index,
+			LayerWeightMgr_groupName = LayerWeightConst.GROUP_SHIPINFOUI
+		}
+	}))
+end
+
+function var_0_0.closeUpgrade(arg_51_0)
+	local var_51_0 = getProxy(ContextProxy):getCurrentContext():getContextByMediator(ShipUpgradeMediator2)
+
+	if var_51_0 then
+		arg_51_0:sendNotification(GAME.REMOVE_LAYERS, {
+			context = var_51_0
+		})
+	end
+end
+
+function var_0_0.openIntensify(arg_52_0)
+	if arg_52_0.intensifyContext ~= nil then
+		arg_52_0.intensifyContext.data.shipId = arg_52_0.contextData.shipId
 
 		return
 	end
@@ -517,31 +542,31 @@ function var_0_0.openIntensify(arg_50_0)
 		return
 	end
 
-	arg_50_0.intensifyContext = Context.New({
+	arg_52_0.intensifyContext = Context.New({
 		mediator = ShipModMediator,
 		viewComponent = ShipModLayer,
 		data = {
-			shipId = arg_50_0.contextData.shipId,
+			shipId = arg_52_0.contextData.shipId,
 			LayerWeightMgr_groupName = LayerWeightConst.GROUP_SHIPINFOUI
 		}
 	})
 
-	arg_50_0:addSubLayers(arg_50_0.intensifyContext, false, function()
-		arg_50_0.intensifyContext = nil
+	arg_52_0:addSubLayers(arg_52_0.intensifyContext, false, function()
+		arg_52_0.intensifyContext = nil
 	end)
 end
 
-function var_0_0.closeIntensify(arg_52_0)
-	local var_52_0 = getProxy(ContextProxy):getCurrentContext():getContextByMediator(ShipModMediator)
+function var_0_0.closeIntensify(arg_54_0)
+	local var_54_0 = getProxy(ContextProxy):getCurrentContext():getContextByMediator(ShipModMediator)
 
-	if var_52_0 then
-		arg_52_0:sendNotification(GAME.REMOVE_LAYERS, {
-			context = var_52_0
+	if var_54_0 then
+		arg_54_0:sendNotification(GAME.REMOVE_LAYERS, {
+			context = var_54_0
 		})
 	end
 end
 
-function var_0_0.listNotificationInterests(arg_53_0)
+function var_0_0.listNotificationInterests(arg_55_0)
 	return {
 		GAME.DESTROY_SHIP_DONE,
 		BayProxy.SHIP_UPDATED,
@@ -564,126 +589,133 @@ function var_0_0.listNotificationInterests(arg_53_0)
 		GAME.CHANGE_SKIN_UPDATE,
 		EquipmentProxy.EQUIPMENT_UPDATED,
 		GAME.WILL_LOGOUT,
-		PaintingGroupConst.NotifyPaintingDownloadFinish
+		PaintingGroupConst.NotifyPaintingDownloadFinish,
+		GAME.CHANGE_RANDOM_SHIPS_DONE
 	}
 end
 
-function var_0_0.handleNotification(arg_54_0, arg_54_1)
-	local var_54_0 = arg_54_1:getName()
-	local var_54_1 = arg_54_1:getBody()
+function var_0_0.handleNotification(arg_56_0, arg_56_1)
+	local var_56_0 = arg_56_1:getName()
+	local var_56_1 = arg_56_1:getBody()
 
-	if var_54_0 == BayProxy.SHIP_UPDATED then
-		if var_54_1.id == arg_54_0.contextData.shipId then
-			arg_54_0.showTrans = var_54_1:isRemoulded()
+	if var_56_0 == BayProxy.SHIP_UPDATED then
+		if var_56_1.id == arg_56_0.contextData.shipId then
+			arg_56_0.showTrans = var_56_1:isRemoulded()
 
-			arg_54_0.viewComponent:setShip(var_54_1)
+			arg_56_0.viewComponent:setShip(var_56_1)
 		end
-	elseif var_54_0 == GAME.CHANGE_SKIN_UPDATE then
-		if var_54_1.id == arg_54_0.contextData.shipId then
-			arg_54_0.showTrans = var_54_1:isRemoulded()
+	elseif var_56_0 == GAME.CHANGE_RANDOM_SHIPS_DONE then
+		arg_56_0.viewComponent:setShip(arg_56_0.bayProxy:getShipById(arg_56_0.contextData.shipId))
+	elseif var_56_0 == GAME.CHANGE_SKIN_UPDATE then
+		local var_56_2, var_56_3 = ShipPhantom.UnpackMark(var_56_1)
 
-			arg_54_0.viewComponent:setShip(var_54_1)
+		if var_56_2 == arg_56_0.contextData.shipId then
+			local var_56_4 = arg_56_0.bayProxy:getShipById(var_56_2)
+
+			arg_56_0.showTrans = var_56_4:isRemoulded()
+
+			arg_56_0.viewComponent:setShip(var_56_4)
 		end
-	elseif var_54_0 == GAME.DESTROY_SHIP_DONE then
+	elseif var_56_0 == GAME.DESTROY_SHIP_DONE then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_shipInfoMediator_destory"))
-		arg_54_0.viewComponent.event:emit(BaseUI.ON_CLOSE)
-	elseif var_54_0 == GAME.UPDATE_LOCK_DONE then
-		if var_54_1.id == arg_54_0.contextData.shipId then
-			arg_54_0.viewComponent:updateLock()
+		arg_56_0.viewComponent.event:emit(BaseUI.ON_CLOSE)
+	elseif var_56_0 == GAME.UPDATE_LOCK_DONE then
+		if var_56_1.id == arg_56_0.contextData.shipId then
+			arg_56_0.viewComponent:updateLock()
 		end
-	elseif var_54_0 == GAME.UPDATE_PREFERENCE_DONE then
-		if var_54_1.id == arg_54_0.contextData.shipId then
-			arg_54_0.viewComponent:updatePreferenceTag()
+	elseif var_56_0 == GAME.UPDATE_PREFERENCE_DONE then
+		if var_56_1.id == arg_56_0.contextData.shipId then
+			arg_56_0.viewComponent:updatePreferenceTag()
 		end
-	elseif var_54_0 == GAME.MOD_SHIP_DONE then
-		arg_54_0.viewComponent:displayShipWord("upgrade", true)
-	elseif var_54_0 == PlayerProxy.UPDATED then
-		local var_54_2 = getProxy(PlayerProxy):getData()
+	elseif var_56_0 == GAME.MOD_SHIP_DONE then
+		arg_56_0.viewComponent:displayShipWord("upgrade", true)
+	elseif var_56_0 == PlayerProxy.UPDATED then
+		local var_56_5 = getProxy(PlayerProxy):getData()
 
-		arg_54_0.viewComponent:setPlayer(var_54_2)
-	elseif var_54_0 == GAME.FETCH_EVALUATION_DONE then
-		arg_54_0:addSubLayers(Context.New({
+		arg_56_0.viewComponent:setPlayer(var_56_5)
+	elseif var_56_0 == GAME.FETCH_EVALUATION_DONE then
+		arg_56_0:addSubLayers(Context.New({
 			mediator = ShipEvaluationMediator,
 			viewComponent = ShipEvaluationLayer,
 			data = {
-				groupId = var_54_1,
-				showTrans = arg_54_0.showTrans,
+				groupId = var_56_1,
+				showTrans = arg_56_0.showTrans,
 				LayerWeightMgr_weight = LayerWeightConst.THIRD_LAYER
 			}
 		}))
-	elseif var_54_0 == ShipSkinProxy.SHIP_SKINS_UPDATE then
-		local var_54_3 = getProxy(ShipSkinProxy)
+	elseif var_56_0 == ShipSkinProxy.SHIP_SKINS_UPDATE then
+		local var_56_6 = getProxy(ShipSkinProxy)
 
-		arg_54_0.viewComponent:setSkinList(var_54_3:getSkinList())
+		arg_56_0.viewComponent:setSkinList(var_56_6:getSkinList())
 
-		arg_54_0.viewComponent.fashionGroup = 0
+		arg_56_0.viewComponent.fashionGroup = 0
 
-		arg_54_0.viewComponent.shipFashionView:UpdateFashion(true)
-	elseif var_54_0 == ShipUpgradeMediator2.NEXTSHIP then
-		local var_54_4 = arg_54_0:nextPage(var_54_1, 3)
-	elseif var_54_0 == ShipModMediator.LOADEND then
-		arg_54_0.viewComponent:setModPanel(var_54_1)
-	elseif var_54_0 == GAME.RENAME_SHIP_DONE then
-		arg_54_0.viewComponent:DisplayRenamePanel(false)
-	elseif var_54_0 == GAME.RECORD_SHIP_EQUIPMENT_DONE then
-		if var_54_1.shipId == arg_54_0.contextData.shipId and var_54_1.type == 1 then
-			arg_54_0.viewComponent:updateRecordEquipments(var_54_1.index)
+		arg_56_0.viewComponent.shipFashionView:UpdateFashion(true)
+	elseif var_56_0 == ShipUpgradeMediator2.NEXTSHIP then
+		local var_56_7 = arg_56_0:nextPage(var_56_1, 3)
+	elseif var_56_0 == ShipModMediator.LOADEND then
+		arg_56_0.viewComponent:setModPanel(var_56_1)
+	elseif var_56_0 == GAME.RENAME_SHIP_DONE then
+		arg_56_0.viewComponent:DisplayRenamePanel(false)
+	elseif var_56_0 == GAME.RECORD_SHIP_EQUIPMENT_DONE then
+		if var_56_1.shipId == arg_56_0.contextData.shipId and var_56_1.type == 1 then
+			arg_56_0.viewComponent:updateRecordEquipments(var_56_1.index)
 		end
-	elseif var_54_0 == GAME.SKIN_SHOPPIGN_DONE or var_54_0 == GAME.SKIN_COUPON_SHOPPING_DONE then
-		local var_54_5 = pg.shop_template[var_54_1.id]
+	elseif var_56_0 == GAME.SKIN_SHOPPIGN_DONE or var_56_0 == GAME.SKIN_COUPON_SHOPPING_DONE then
+		local var_56_8 = pg.shop_template[var_56_1.id]
 
-		if var_54_5 and var_54_5.genre == ShopArgs.SkinShop then
-			arg_54_0.viewComponent:StopPreVoice()
-			arg_54_0:addSubLayers(Context.New({
+		if var_56_8 and var_56_8.genre == ShopArgs.SkinShop then
+			arg_56_0.viewComponent:StopPreVoice()
+			arg_56_0:addSubLayers(Context.New({
 				mediator = NewSkinMediator,
 				viewComponent = NewSkinLayer,
 				data = {
-					skinId = var_54_5.effect_args[1]
+					skinId = var_56_8.effect_args[1]
 				}
 			}))
 		end
-	elseif var_54_0 == GAME.UPGRADE_MAX_LEVEL_DONE then
-		arg_54_0:sendNotification(PlayerResUI.CHANGE_TOUCH_ABLE, false)
+	elseif var_56_0 == GAME.UPGRADE_MAX_LEVEL_DONE then
+		arg_56_0:sendNotification(PlayerResUI.CHANGE_TOUCH_ABLE, false)
 
-		arg_54_0.maxLevelCallback = var_54_1.callback
+		arg_56_0.maxLevelCallback = var_56_1.callback
 
-		arg_54_0.viewComponent:doUpgradeMaxLeveAnim(var_54_1.oldShip, var_54_1.newShip, function()
-			if arg_54_0.maxLevelCallback then
-				arg_54_0.maxLevelCallback()
+		arg_56_0.viewComponent:doUpgradeMaxLeveAnim(var_56_1.oldShip, var_56_1.newShip, function()
+			if arg_56_0.maxLevelCallback then
+				arg_56_0.maxLevelCallback()
 
-				arg_54_0.maxLevelCallback = nil
+				arg_56_0.maxLevelCallback = nil
 			end
 
-			arg_54_0:sendNotification(PlayerResUI.CHANGE_TOUCH_ABLE, true)
-			arg_54_0.viewComponent:showAwakenCompleteAni(i18n("upgrade_to_next_maxlevel_succeed", var_54_1.newShip:getMaxLevel()))
+			arg_56_0:sendNotification(PlayerResUI.CHANGE_TOUCH_ABLE, true)
+			arg_56_0.viewComponent:showAwakenCompleteAni(i18n("upgrade_to_next_maxlevel_succeed", var_56_1.newShip:getMaxLevel()))
 		end)
-	elseif var_54_0 == GAME.HIDE_Ship_MAIN_SCENE_WORD then
-		arg_54_0.viewComponent:hideShipWord()
-	elseif var_54_0 == GAME.PROPOSE_SHIP_DONE then
-		local var_54_6 = arg_54_0.viewComponent.shipFashionView
+	elseif var_56_0 == GAME.HIDE_Ship_MAIN_SCENE_WORD then
+		arg_56_0.viewComponent:hideShipWord()
+	elseif var_56_0 == GAME.PROPOSE_SHIP_DONE then
+		local var_56_9 = arg_56_0.viewComponent.shipFashionView
 
-		if var_54_6 and var_54_6:GetLoaded() then
-			var_54_6:UpdateAllFashion(true)
+		if var_56_9 and var_56_9:GetLoaded() then
+			var_56_9:UpdateAllFashion(true)
 		end
-	elseif var_54_0 == GAME.USE_ADD_SHIPEXP_ITEM_DONE then
+	elseif var_56_0 == GAME.USE_ADD_SHIPEXP_ITEM_DONE then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_shipModLayer_modSuccess"))
-		arg_54_0.viewComponent:RefreshShipExpItemUsagePage()
-	elseif var_54_0 == EquipmentProxy.EQUIPMENT_UPDATED then
-		arg_54_0.viewComponent:equipmentChange()
-	elseif var_54_0 == GAME.WILL_LOGOUT then
-		arg_54_0.viewComponent:OnWillLogout()
-	elseif var_54_0 == PaintingGroupConst.NotifyPaintingDownloadFinish then
-		arg_54_0.viewComponent:updateFashionTag()
+		arg_56_0.viewComponent:RefreshShipExpItemUsagePage()
+	elseif var_56_0 == EquipmentProxy.EQUIPMENT_UPDATED then
+		arg_56_0.viewComponent:equipmentChange()
+	elseif var_56_0 == GAME.WILL_LOGOUT then
+		arg_56_0.viewComponent:OnWillLogout()
+	elseif var_56_0 == PaintingGroupConst.NotifyPaintingDownloadFinish then
+		arg_56_0.viewComponent:updateFashionTag()
 	end
 end
 
-function var_0_0.remove(arg_56_0)
-	if arg_56_0.maxLevelCallback then
-		arg_56_0.maxLevelCallback()
+function var_0_0.remove(arg_58_0)
+	if arg_58_0.maxLevelCallback then
+		arg_58_0.maxLevelCallback()
 
-		arg_56_0.maxLevelCallback = nil
+		arg_58_0.maxLevelCallback = nil
 
-		arg_56_0:sendNotification(PlayerResUI.CHANGE_TOUCH_ABLE, true)
+		arg_58_0:sendNotification(PlayerResUI.CHANGE_TOUCH_ABLE, true)
 	end
 end
 

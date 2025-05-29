@@ -232,7 +232,7 @@ end
 
 function var_0_0.GetNPCShipConfigIDList()
 	local var_19_0 = {}
-	local var_19_1 = pg.activity_const.ACT_NPC_SHIP_ID.act_id
+	local var_19_1 = ActivityConst.ACT_NPC_SHIP_ID
 
 	if var_19_1 and IsNumber(var_19_1) and var_0_0.IsActMatchTime(var_19_1) then
 		local var_19_2 = pg.activity_template[var_19_1].config_data[1]
@@ -263,7 +263,7 @@ function var_0_0.GetNormalShopSkinIDList()
 				table.insert(var_21_0, var_21_1)
 			end
 
-			if ShipGroup.IsChangeSkin(var_21_1) then
+			if ShipSkin.IsChangeSkin(var_21_1) then
 				local var_21_2 = ShipGroup.GetAllChangeSkinIds(var_21_1)
 
 				for iter_21_2, iter_21_3 in ipairs(var_21_2) do
@@ -295,7 +295,7 @@ function var_0_0.GetActShopSkinIDList()
 				table.insert(var_23_0, var_23_1)
 			end
 
-			if ShipGroup.IsChangeSkin(var_23_1) then
+			if ShipSkin.IsChangeSkin(var_23_1) then
 				local var_23_2 = ShipGroup.GetAllChangeSkinIds(var_23_1)
 
 				for iter_23_2, iter_23_3 in ipairs(var_23_2) do

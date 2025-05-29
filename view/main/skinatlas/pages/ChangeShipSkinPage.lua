@@ -5,185 +5,289 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.OnLoaded(arg_2_0)
+	arg_2_0.cancelBtn = arg_2_0:findTF("window/cancel_btn")
 	arg_2_0.confirmBtn = arg_2_0:findTF("window/exchange_btn")
 	arg_2_0.closeBtn = arg_2_0:findTF("window/top/btnBack")
-	arg_2_0.shipCardTpl = arg_2_0._tf:GetComponent("ItemList").prefabItem[0]
 	arg_2_0.shipContent = arg_2_0:findTF("window/sliders/scroll_rect/content")
-	arg_2_0.flagShipToggle = arg_2_0:findTF("window/flag_ship")
+	arg_2_0.shipCardTpl = arg_2_0.shipContent:GetChild(0)
+	arg_2_0.flagShipToggle = arg_2_0:findTF("window/flag_bg/flag_ship")
+	arg_2_0.flagRandomToggle = arg_2_0:findTF("window/flag_bg/flag_random")
 
 	setText(arg_2_0:findTF("window/top/title_list/infomation/title"), i18n("chang_ship_skin_window_title"))
-	setText(arg_2_0:findTF("window/please"), i18n("choose_ship_to_wear_this_skin"))
+	setText(arg_2_0:findTF("window/sliders/please/Text"), i18n("choose_ship_to_wear_this_skin"))
 	setText(arg_2_0:findTF("window/exchange_btn/Image"), i18n("change"))
+	setText(arg_2_0._tf:Find("window/cancel_btn/Image"), i18n("word_cancel"))
 end
 
 function var_0_0.OnInit(arg_3_0)
 	onButton(arg_3_0, arg_3_0.confirmBtn, function()
 		arg_3_0:OnConfirm()
 	end, SFX_PANEL)
+	onButton(arg_3_0, arg_3_0.cancelBtn, function()
+		arg_3_0:Hide()
+	end, SFX_CANCEL)
 	onButton(arg_3_0, arg_3_0.closeBtn, function()
 		arg_3_0:Hide()
-	end, SFX_PANEL)
-	onButton(arg_3_0, arg_3_0._tf, function()
+	end, SFX_CANCEL)
+	onButton(arg_3_0, arg_3_0._tf:Find("bg0"), function()
 		arg_3_0:Hide()
 	end, SFX_PANEL)
-	onToggle(arg_3_0, arg_3_0.flagShipToggle, function(arg_7_0)
-		arg_3_0.flagShipMark = arg_7_0
+	onToggle(arg_3_0, arg_3_0.flagShipToggle, function(arg_8_0)
+		arg_3_0.flagShipMark = arg_8_0
+	end, SFX_PANEL)
+	onToggle(arg_3_0, arg_3_0.flagRandomToggle, function(arg_9_0)
+		arg_3_0.flagRandomMark = arg_9_0
 	end, SFX_PANEL)
 end
 
-function var_0_0.OnConfirm(arg_8_0)
-	if not arg_8_0.selectIds or #arg_8_0.selectIds <= 0 then
+function var_0_0.OnConfirm(arg_10_0)
+	if not arg_10_0.selectIds or #arg_10_0.selectIds <= 0 then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("new_skin_no_choose"),
 			onYes = function()
-				arg_8_0:Hide()
+				arg_10_0:Hide()
 			end
 		})
 
 		return
 	end
 
-	for iter_8_0, iter_8_1 in ipairs(arg_8_0.selectIds) do
+	for iter_10_0, iter_10_1 in ipairs(arg_10_0.selectIds) do
+		local var_10_0, var_10_1 = ShipPhantom.UnpackMark(iter_10_1)
+
 		pg.m02:sendNotification(GAME.SET_SHIP_SKIN, {
-			shipId = iter_8_1,
-			skinId = arg_8_0.skin.id
+			shipId = var_10_0,
+			phantomId = var_10_1,
+			skinId = arg_10_0.skin.id
 		})
 	end
 
-	local var_8_0 = arg_8_0.flagShipMark
+	arg_10_0:SetFlagRandomMark(arg_10_0.flagRandomMark)
 
-	arg_8_0:SetFlagShip(var_8_0)
+	if arg_10_0.flagRandomMark then
+		pg.m02:sendNotification(GAME.CHANGE_RANDOM_SHIPS, {
+			addList = underscore.to_array(arg_10_0.selectIds),
+			deleteList = {}
+		})
+	end
 
-	if var_8_0 then
-		local var_8_1 = arg_8_0.selectIds[1]
+	arg_10_0:SetFlagShipMark(arg_10_0.flagShipMark)
+
+	if arg_10_0.flagShipMark then
+		arg_10_0:ShowAdmiral()
+	else
+		arg_10_0:Hide()
+	end
+end
+
+function var_0_0.Show(arg_12_0, arg_12_1)
+	var_0_0.super.Show(arg_12_0)
+	setActive(arg_12_0._tf:Find("window"), true)
+	setActive(arg_12_0._tf:Find("select_skin"), false)
+	pg.UIMgr.GetInstance():BlurPanel(arg_12_0._tf, false, {
+		weight = LayerWeightConst.SECOND_LAYER
+	})
+
+	arg_12_0.selectIds = {}
+	arg_12_0.skin = arg_12_1
+	arg_12_0.ships = arg_12_0:GetShips(arg_12_1)
+
+	triggerToggle(arg_12_0.flagShipToggle, arg_12_0:GetFlagShipMark())
+	triggerToggle(arg_12_0.flagRandomToggle, arg_12_0:GetFlagRandomMark())
+	arg_12_0:FlushShips()
+end
+
+function var_0_0.ShowAdmiral(arg_13_0)
+	setActive(arg_13_0._tf:Find("window"), false)
+	setActive(arg_13_0._tf:Find("select_skin"), true)
+
+	local var_13_0 = arg_13_0._tf:Find("select_skin")
+
+	onButton(arg_13_0, var_13_0:Find("btnBack"), function()
+		arg_13_0:Hide()
+	end, SFX_CANCEL)
+
+	arg_13_0.selectIndex = 1
+
+	onButton(arg_13_0, var_13_0:Find("exchange_btn"), function()
+		local var_15_0 = arg_13_0.selectIds[1]
+		local var_15_1 = getProxy(PlayerProxy):getRawData():GetShipPhantomMarks()
+
+		var_15_1[arg_13_0.selectIndex] = var_15_0
 
 		pg.m02:sendNotification(GAME.CHANGE_PLAYER_ICON, {
 			skinPage = true,
-			characterId = var_8_1
+			after = var_15_1
 		})
-	end
+		arg_13_0:Hide()
+	end, SFX_CONFIGM)
 
-	arg_8_0:Hide()
-end
+	arg_13_0.paintingInfo = {}
 
-function var_0_0.Show(arg_10_0, arg_10_1)
-	var_0_0.super.Show(arg_10_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_10_0._tf)
+	local var_13_1, var_13_2 = PlayerVitaeShipsPage.GetSlotMaxCnt()
+	local var_13_3 = getProxy(PlayerProxy):getRawData():GetShipPhantomMarks()
+	local var_13_4 = var_13_0:Find("frame/style_scroll/view_port")
 
-	arg_10_0.selectIds = {}
-	arg_10_0.skin = arg_10_1
-	arg_10_0.ships = arg_10_0:GetShips(arg_10_1)
+	UIItemList.StaticAlign(var_13_4, var_13_4:GetChild(0), var_13_1, function(arg_16_0, arg_16_1, arg_16_2)
+		arg_16_1 = arg_16_1 + 1
 
-	local var_10_0 = arg_10_0:GetSetFlagShip()
-
-	triggerToggle(arg_10_0.flagShipToggle, var_10_0)
-	arg_10_0:FlushShips()
-end
-
-function var_0_0.GetSetFlagShip(arg_11_0)
-	return getProxy(SettingsProxy):GetSetFlagShipForSkinAtlas()
-end
-
-function var_0_0.SetFlagShip(arg_12_0, arg_12_1)
-	getProxy(SettingsProxy):SetFlagShipForSkinAtlas(arg_12_1)
-end
-
-function var_0_0.Sort(arg_13_0, arg_13_1, arg_13_2)
-	local var_13_0 = arg_13_1.skinId == arg_13_0.skin.id and 0 or 1
-	local var_13_1 = arg_13_2.skinId == arg_13_0.skin.id and 0 or 1
-
-	if var_13_0 == var_13_1 then
-		if arg_13_1.level == arg_13_2.level then
-			local var_13_2 = arg_13_1:getStar()
-			local var_13_3 = arg_13_2:getStar()
-
-			if var_13_2 == var_13_3 then
-				local var_13_4 = arg_13_1.inFleet and 1 or 0
-				local var_13_5 = arg_13_2.inFleet and 1 or 0
-
-				if var_13_4 == var_13_5 then
-					return arg_13_1.createTime < arg_13_2.createTime
-				else
-					return var_13_5 < var_13_4
+		if arg_16_0 == UIItemList.EventUpdate then
+			onToggle(arg_13_0, arg_16_2, function(arg_17_0)
+				if arg_17_0 then
+					arg_13_0.selectIndex = arg_16_1
 				end
+			end, SFX_PANEL)
+
+			local var_16_0 = var_13_3[arg_16_1] and getProxy(BayProxy):GetShipPhantom(var_13_3[arg_16_1]) or nil
+
+			setActive(arg_16_2:Find("Style_card"), var_16_0)
+			setActive(arg_16_2:Find("empty"), not var_16_0)
+
+			if var_16_0 then
+				local var_16_1 = var_16_0:getSkinId()
+				local var_16_2 = pg.ship_skin_template[var_16_1]
+
+				arg_13_0.paintingInfo[arg_16_1] = {
+					paintingName = var_16_2.painting or "unknown",
+					painting = arg_16_2:Find("Style_card/bg/mask/painting")
+				}
+
+				arg_13_0:loadPainting(arg_13_0.paintingInfo[arg_16_1])
+				setText(arg_16_2:Find("Style_card/bg/desc/name_bar/name"), var_16_2.name)
+				setToggleEnabled(arg_16_2, true)
 			else
-				return var_13_3 < var_13_2
+				local var_16_3 = arg_16_1 > var_13_2
+
+				setActive(arg_16_2:Find("empty/add"), not var_16_3)
+				setActive(arg_16_2:Find("empty/lock"), var_16_3)
+				setText(arg_16_2:Find("empty/lock/Text"), i18n("secretary_unlock" .. arg_16_1))
+				setToggleEnabled(arg_16_2, not var_16_3)
 			end
-		else
-			return arg_13_1.level > arg_13_2.level
+
+			triggerToggle(arg_16_2, arg_16_1 == arg_13_0.selectIndex)
 		end
-	else
-		return var_13_1 < var_13_0
-	end
-end
-
-function var_0_0.GetShips(arg_14_0, arg_14_1)
-	local var_14_0 = arg_14_1:IsTransSkin()
-	local var_14_1 = arg_14_1:IsProposeSkin()
-	local var_14_2 = getProxy(BayProxy):_findShipsByGroup(arg_14_0.skin:getConfig("ship_group"), var_14_0, var_14_1)
-
-	table.sort(var_14_2, function(arg_15_0, arg_15_1)
-		return arg_14_0:Sort(arg_15_0, arg_15_1)
 	end)
-
-	return var_14_2
+	setText(arg_13_0._tf:Find("select_skin/title/Text"), i18n("choose_secretary_change_title"))
+	setText(arg_13_0._tf:Find("select_skin/please"), i18n("choose_secretary_change_to_this_ship"))
+	setText(arg_13_0._tf:Find("select_skin/exchange_btn/Image"), i18n("change"))
 end
 
-function var_0_0.FlushShips(arg_16_0)
-	local var_16_0 = arg_16_0.ships
+function var_0_0.GetFlagShipMark(arg_18_0)
+	if arg_18_0.isNew then
+		return getProxy(SettingsProxy):GetSetFlagShip()
+	else
+		return getProxy(SettingsProxy):GetSetFlagShipForSkinAtlas()
+	end
+end
 
-	local function var_16_1(arg_17_0)
-		for iter_17_0, iter_17_1 in pairs(arg_16_0.selectIds) do
-			if iter_17_1 == arg_17_0.shipVO.id then
-				table.remove(arg_16_0.selectIds, iter_17_0)
+function var_0_0.SetFlagShipMark(arg_19_0, arg_19_1)
+	if arg_19_0.isNew then
+		getProxy(SettingsProxy):SetFlagShip(arg_19_1)
+	else
+		getProxy(SettingsProxy):SetFlagShipForSkinAtlas(arg_19_1)
+	end
+end
 
-				break
-			end
+function var_0_0.GetFlagRandomMark(arg_20_0)
+	return getProxy(SettingsProxy):GetFlagRandom()
+end
+
+function var_0_0.SetFlagRandomMark(arg_21_0, arg_21_1)
+	getProxy(SettingsProxy):SetFlagRandom(arg_21_1)
+end
+
+function var_0_0.GetShips(arg_22_0, arg_22_1)
+	local var_22_0 = getProxy(BayProxy):CanUseShareSkinPhantoms(arg_22_1.id)
+
+	table.sort(var_22_0, CompareFuncs({
+		function(arg_23_0)
+			return -arg_23_0.level
+		end,
+		function(arg_24_0)
+			return -arg_24_0:getStar()
+		end,
+		function(arg_25_0)
+			return arg_25_0.inFleet and 0 or 1
+		end,
+		function(arg_26_0)
+			return arg_26_0.createTime
+		end,
+		function(arg_27_0)
+			return arg_27_0.phantomId
+		end
+	}))
+
+	return var_22_0
+end
+
+function var_0_0.FlushShips(arg_28_0)
+	UIItemList.StaticAlign(arg_28_0.shipContent, arg_28_0.shipCardTpl, #arg_28_0.ships, function(arg_29_0, arg_29_1, arg_29_2)
+		arg_29_1 = arg_29_1 + 1
+
+		if arg_29_0 == UIItemList.EventUpdate then
+			local var_29_0 = arg_28_0.ships[arg_29_1]
+			local var_29_1 = ShipDetailCard.New(arg_29_2.gameObject)
+
+			var_29_1:update(var_29_0, arg_28_0.skin.id)
+
+			local var_29_2 = var_29_0:getSkinId() == arg_28_0.skin.id
+
+			setActive(var_29_1.maskStatusOb, var_29_2)
+			setText(var_29_1.maskStatusOb:Find("Text"), "-  " .. i18n("index_CANTUSE") .. "  -")
+			setActive(arg_29_2:Find("phantom_mark"), var_29_0.phantomId > 0)
+			onToggle(arg_28_0, var_29_1.tr, function(arg_30_0)
+				if var_29_0:getSkinId() == arg_28_0.skin.id then
+					return
+				end
+
+				var_29_1:updateSelected(arg_30_0)
+
+				if arg_30_0 then
+					table.insert(arg_28_0.selectIds, var_29_1.shipVO:GetSelectMark())
+				else
+					table.removebyvalue(arg_28_0.selectIds, var_29_1.shipVO:GetSelectMark())
+				end
+			end, SFX_PANEL)
+		end
+	end)
+end
+
+function var_0_0.Hide(arg_31_0)
+	var_0_0.super.Hide(arg_31_0)
+	pg.UIMgr.GetInstance():UnblurPanel(arg_31_0._tf, arg_31_0._parentTf)
+
+	arg_31_0.selectIds = {}
+
+	existCall(arg_31_0.hideCallback)
+end
+
+function var_0_0.loadPainting(arg_32_0, arg_32_1)
+	local var_32_0 = checkABExist("painting/" .. arg_32_1.paintingName .. "_n")
+
+	setPaintingPrefabAsync(arg_32_1.painting, arg_32_1.paintingName, "pifu")
+end
+
+function var_0_0.clearPainting(arg_33_0, arg_33_1)
+	if arg_33_1.paintingName then
+		retPaintingPrefab(arg_33_1.painting, arg_33_1.paintingName)
+
+		arg_33_1.paintingName = nil
+	end
+end
+
+function var_0_0.OnDestroy(arg_34_0)
+	if arg_34_0:isShowing() then
+		arg_34_0:Hide()
+	end
+
+	if arg_34_0.paintingInfo then
+		for iter_34_0, iter_34_1 in pairs(arg_34_0.paintingInfo) do
+			arg_34_0:clearPainting(iter_34_1)
 		end
 	end
 
-	removeAllChildren(arg_16_0.shipContent)
-
-	for iter_16_0, iter_16_1 in ipairs(var_16_0) do
-		local var_16_2 = Object.Instantiate(arg_16_0.shipCardTpl, arg_16_0.shipContent)
-		local var_16_3 = ShipDetailCard.New(var_16_2.gameObject)
-
-		var_16_3:update(iter_16_1, arg_16_0.skin.id)
-
-		local var_16_4 = iter_16_1.skinId == arg_16_0.skin.id
-
-		setActive(var_16_3.maskStatusOb, var_16_4)
-		setText(var_16_3.maskStatusOb:Find("Text"), "-  " .. i18n("index_CANTUSE") .. "  -")
-		onToggle(arg_16_0, var_16_3.tr, function(arg_18_0)
-			if iter_16_1.skinId == arg_16_0.skin.id then
-				return
-			end
-
-			var_16_3:updateSelected(arg_18_0)
-
-			if arg_18_0 then
-				table.insert(arg_16_0.selectIds, var_16_3.shipVO.id)
-			else
-				var_16_1(var_16_3)
-			end
-		end, SFX_PANEL)
-	end
-end
-
-function var_0_0.Hide(arg_19_0)
-	var_0_0.super.Hide(arg_19_0)
-	pg.UIMgr.GetInstance():UnblurPanel(arg_19_0._tf, arg_19_0._parentTf)
-
-	arg_19_0.selectIds = {}
-end
-
-function var_0_0.OnDestroy(arg_20_0)
-	if arg_20_0:isShowing() then
-		arg_20_0:Hide()
-	end
-
-	arg_20_0.shipCards = nil
-	arg_20_0.selectIds = nil
+	arg_34_0.shipCards = nil
+	arg_34_0.selectIds = nil
 end
 
 return var_0_0

@@ -440,3 +440,18 @@ function injectClassProcess(arg_36_0, arg_36_1, arg_36_2)
 
 	setmetatable(arg_36_0, var_36_0)
 end
+
+function cloneRawTableFormClass(arg_39_0)
+	local var_39_0 = {}
+	local var_39_1 = getmetatable(arg_39_0)
+
+	setmetatable(arg_39_0, nil)
+
+	for iter_39_0, iter_39_1 in pairs(arg_39_0) do
+		var_39_0[iter_39_0] = iter_39_1
+	end
+
+	setmetatable(arg_39_0, var_39_1)
+
+	return var_39_0
+end

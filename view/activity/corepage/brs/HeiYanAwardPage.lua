@@ -329,4 +329,9 @@ function var_0_0.showBoxPanel(arg_24_0, arg_24_1)
 	setActive(arg_24_0.boxTF, arg_24_1)
 end
 
+function var_0_0.OnDestroy(arg_25_0)
+	pg.UIMgr.GetInstance():UnOverlayPanel(arg_25_0.boxTF)
+	var_0_0.super.OnDestroy(arg_25_0)
+end
+
 return var_0_0

@@ -13801,7 +13801,21 @@ pg.base.ship_skin_template_4 = {
 				}
 			}
 		},
-		smoke = {}
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.75,
+							2.37,
+							0
+						}
+					}
+				}
+			}
+		}
 	},
 	[201360] = {
 		ship_group = 20136,

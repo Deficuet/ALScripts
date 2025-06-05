@@ -971635,6 +971635,291 @@ _G.pg.base.expedition_data_template[1926003] = {
 	}
 }
 
+_G.pg.base.expedition_data_template[1929001] = {
+	sink_limit = 1,
+	name = "敌方旗舰",
+	guide_desc = "",
+	type = 99,
+	ai_mov = 0,
+	dungeon_id = 1929001,
+	add_icon = "",
+	bgm = "brs-1-inst",
+	exp_commander = 0,
+	SLG_destroy_FX = "",
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	icon_type = 2,
+	icon = "heiyansheshou",
+	difficulty = 2,
+	level = 30,
+	exp = 0,
+	limit_type = 1,
+	ai = 0,
+	time_limit = 150,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 1929001,
+	scale = 100,
+	map_id = {
+		{
+			8000,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		150
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+_G.pg.base.expedition_data_template[1929002] = {
+	sink_limit = 1,
+	name = "敌方旗舰",
+	guide_desc = "",
+	type = 99,
+	ai_mov = 0,
+	dungeon_id = 1929002,
+	add_icon = "",
+	bgm = "brs-1-inst",
+	exp_commander = 0,
+	SLG_destroy_FX = "",
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	icon_type = 2,
+	icon = "siwangzhuzai",
+	difficulty = 2,
+	level = 60,
+	exp = 0,
+	limit_type = 1,
+	ai = 0,
+	time_limit = 150,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 1929002,
+	scale = 100,
+	map_id = {
+		{
+			8000,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		150
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+_G.pg.base.expedition_data_template[1929003] = {
+	sink_limit = 1,
+	name = "敌方旗舰",
+	guide_desc = "",
+	type = 99,
+	ai_mov = 0,
+	dungeon_id = 1929003,
+	add_icon = "",
+	bgm = "brs-1-inst",
+	exp_commander = 0,
+	SLG_destroy_FX = "",
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	icon_type = 2,
+	icon = "heiyansheshou",
+	difficulty = 2,
+	level = 90,
+	exp = 0,
+	limit_type = 1,
+	ai = 0,
+	time_limit = 150,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 1929003,
+	scale = 100,
+	map_id = {
+		{
+			8000,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		150
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+_G.pg.base.expedition_data_template[1929004] = {
+	sink_limit = 1,
+	name = "敌方旗舰",
+	guide_desc = "",
+	type = 99,
+	ai_mov = 0,
+	dungeon_id = 1929004,
+	add_icon = "",
+	bgm = "battle-ODS-onstage",
+	exp_commander = 0,
+	SLG_destroy_FX = "",
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	icon_type = 1,
+	icon = "bossicon",
+	difficulty = 2,
+	level = 120,
+	exp = 0,
+	limit_type = 1,
+	ai = 0,
+	time_limit = 300,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 1929004,
+	scale = 100,
+	map_id = {
+		{
+			8000,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+_G.pg.base.expedition_data_template[1929005] = {
+	sink_limit = 1,
+	name = "敌方旗舰",
+	guide_desc = "",
+	type = 99,
+	ai_mov = 0,
+	dungeon_id = 1929005,
+	add_icon = "",
+	bgm = "battle-ODS-onstage",
+	exp_commander = 0,
+	SLG_destroy_FX = "",
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	icon_type = 1,
+	icon = "bossicon",
+	difficulty = 2,
+	level = 120,
+	exp = 0,
+	limit_type = 1,
+	ai = 0,
+	time_limit = 300,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 1929005,
+	scale = 100,
+	map_id = {
+		{
+			8000,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
 _G.pg.base.expedition_data_template[5000001] = {
 	sink_limit = 1,
 	name = "小型侦查舰队",
@@ -1051017,6 +1051302,786 @@ _G.pg.base.expedition_data_template[296270] = {
 	map_id = {
 		{
 			50124,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+_G.pg.base.expedition_data_template[296271] = {
+	objective_3 = "",
+	name = "信标·META",
+	guide_desc = "",
+	type = 15,
+	ai_mov = 0,
+	ai = 0,
+	add_icon = "",
+	bgm = "theme-ucnf-flagship",
+	exp_commander = 0,
+	sink_limit = 1,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	SLG_destroy_FX = "",
+	icon = "jiangfeng_alter",
+	difficulty = 4,
+	level = 70,
+	exp = 0,
+	limit_type = 1,
+	objective_2 = "",
+	icon_type = 2,
+	time_limit = 120,
+	dungeon_id = 296271,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 296271,
+	scale = 100,
+	map_id = {
+		{
+			50175,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+_G.pg.base.expedition_data_template[296272] = {
+	objective_3 = "",
+	name = "信标·META",
+	guide_desc = "",
+	type = 15,
+	ai_mov = 0,
+	ai = 0,
+	add_icon = "",
+	bgm = "theme-ucnf-flagship",
+	exp_commander = 0,
+	sink_limit = 1,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	SLG_destroy_FX = "",
+	icon = "jiangfeng_alter",
+	difficulty = 4,
+	level = 74,
+	exp = 0,
+	limit_type = 1,
+	objective_2 = "",
+	icon_type = 2,
+	time_limit = 120,
+	dungeon_id = 296272,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 296272,
+	scale = 100,
+	map_id = {
+		{
+			50175,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+_G.pg.base.expedition_data_template[296273] = {
+	objective_3 = "",
+	name = "信标·META",
+	guide_desc = "",
+	type = 15,
+	ai_mov = 0,
+	ai = 0,
+	add_icon = "",
+	bgm = "theme-ucnf-flagship",
+	exp_commander = 0,
+	sink_limit = 1,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	SLG_destroy_FX = "",
+	icon = "jiangfeng_alter",
+	difficulty = 4,
+	level = 78,
+	exp = 0,
+	limit_type = 1,
+	objective_2 = "",
+	icon_type = 2,
+	time_limit = 120,
+	dungeon_id = 296273,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 296273,
+	scale = 100,
+	map_id = {
+		{
+			50175,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+_G.pg.base.expedition_data_template[296274] = {
+	objective_3 = "",
+	name = "信标·META",
+	guide_desc = "",
+	type = 15,
+	ai_mov = 0,
+	ai = 0,
+	add_icon = "",
+	bgm = "theme-ucnf-flagship",
+	exp_commander = 0,
+	sink_limit = 1,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	SLG_destroy_FX = "",
+	icon = "jiangfeng_alter",
+	difficulty = 4,
+	level = 82,
+	exp = 0,
+	limit_type = 1,
+	objective_2 = "",
+	icon_type = 2,
+	time_limit = 120,
+	dungeon_id = 296274,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 296274,
+	scale = 100,
+	map_id = {
+		{
+			50175,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+_G.pg.base.expedition_data_template[296275] = {
+	objective_3 = "",
+	name = "信标·META",
+	guide_desc = "",
+	type = 15,
+	ai_mov = 0,
+	ai = 0,
+	add_icon = "",
+	bgm = "theme-ucnf-flagship",
+	exp_commander = 0,
+	sink_limit = 1,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	SLG_destroy_FX = "",
+	icon = "jiangfeng_alter",
+	difficulty = 4,
+	level = 86,
+	exp = 0,
+	limit_type = 1,
+	objective_2 = "",
+	icon_type = 2,
+	time_limit = 120,
+	dungeon_id = 296275,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 296275,
+	scale = 100,
+	map_id = {
+		{
+			50175,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+_G.pg.base.expedition_data_template[296276] = {
+	objective_3 = "",
+	name = "信标·META",
+	guide_desc = "",
+	type = 15,
+	ai_mov = 0,
+	ai = 0,
+	add_icon = "",
+	bgm = "theme-ucnf-flagship",
+	exp_commander = 0,
+	sink_limit = 1,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	SLG_destroy_FX = "",
+	icon = "jiangfeng_alter",
+	difficulty = 4,
+	level = 90,
+	exp = 0,
+	limit_type = 1,
+	objective_2 = "",
+	icon_type = 2,
+	time_limit = 120,
+	dungeon_id = 296276,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 296276,
+	scale = 100,
+	map_id = {
+		{
+			50175,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+_G.pg.base.expedition_data_template[296277] = {
+	objective_3 = "",
+	name = "信标·META",
+	guide_desc = "",
+	type = 15,
+	ai_mov = 0,
+	ai = 0,
+	add_icon = "",
+	bgm = "theme-ucnf-flagship",
+	exp_commander = 0,
+	sink_limit = 1,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	SLG_destroy_FX = "",
+	icon = "jiangfeng_alter",
+	difficulty = 4,
+	level = 94,
+	exp = 0,
+	limit_type = 1,
+	objective_2 = "",
+	icon_type = 2,
+	time_limit = 120,
+	dungeon_id = 296277,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 296277,
+	scale = 100,
+	map_id = {
+		{
+			50175,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+_G.pg.base.expedition_data_template[296278] = {
+	objective_3 = "",
+	name = "信标·META",
+	guide_desc = "",
+	type = 15,
+	ai_mov = 0,
+	ai = 0,
+	add_icon = "",
+	bgm = "theme-ucnf-flagship",
+	exp_commander = 0,
+	sink_limit = 1,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	SLG_destroy_FX = "",
+	icon = "jiangfeng_alter",
+	difficulty = 4,
+	level = 98,
+	exp = 0,
+	limit_type = 1,
+	objective_2 = "",
+	icon_type = 2,
+	time_limit = 120,
+	dungeon_id = 296278,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 296278,
+	scale = 100,
+	map_id = {
+		{
+			50175,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+_G.pg.base.expedition_data_template[296279] = {
+	objective_3 = "",
+	name = "信标·META",
+	guide_desc = "",
+	type = 15,
+	ai_mov = 0,
+	ai = 0,
+	add_icon = "",
+	bgm = "theme-ucnf-flagship",
+	exp_commander = 0,
+	sink_limit = 1,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	SLG_destroy_FX = "",
+	icon = "jiangfeng_alter",
+	difficulty = 4,
+	level = 102,
+	exp = 0,
+	limit_type = 1,
+	objective_2 = "",
+	icon_type = 2,
+	time_limit = 120,
+	dungeon_id = 296279,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 296279,
+	scale = 100,
+	map_id = {
+		{
+			50175,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+_G.pg.base.expedition_data_template[296280] = {
+	objective_3 = "",
+	name = "信标·META",
+	guide_desc = "",
+	type = 15,
+	ai_mov = 0,
+	ai = 0,
+	add_icon = "",
+	bgm = "theme-ucnf-flagship",
+	exp_commander = 0,
+	sink_limit = 1,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	SLG_destroy_FX = "",
+	icon = "jiangfeng_alter",
+	difficulty = 4,
+	level = 106,
+	exp = 0,
+	limit_type = 1,
+	objective_2 = "",
+	icon_type = 2,
+	time_limit = 120,
+	dungeon_id = 296280,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 296280,
+	scale = 100,
+	map_id = {
+		{
+			50175,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+_G.pg.base.expedition_data_template[296281] = {
+	objective_3 = "",
+	name = "信标·META",
+	guide_desc = "",
+	type = 15,
+	ai_mov = 0,
+	ai = 0,
+	add_icon = "",
+	bgm = "theme-ucnf-flagship",
+	exp_commander = 0,
+	sink_limit = 1,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	SLG_destroy_FX = "",
+	icon = "jiangfeng_alter",
+	difficulty = 4,
+	level = 110,
+	exp = 0,
+	limit_type = 1,
+	objective_2 = "",
+	icon_type = 2,
+	time_limit = 120,
+	dungeon_id = 296281,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 296281,
+	scale = 100,
+	map_id = {
+		{
+			50175,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+_G.pg.base.expedition_data_template[296282] = {
+	objective_3 = "",
+	name = "信标·META",
+	guide_desc = "",
+	type = 15,
+	ai_mov = 0,
+	ai = 0,
+	add_icon = "",
+	bgm = "theme-ucnf-flagship",
+	exp_commander = 0,
+	sink_limit = 1,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	SLG_destroy_FX = "",
+	icon = "jiangfeng_alter",
+	difficulty = 4,
+	level = 114,
+	exp = 0,
+	limit_type = 1,
+	objective_2 = "",
+	icon_type = 2,
+	time_limit = 120,
+	dungeon_id = 296282,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 296282,
+	scale = 100,
+	map_id = {
+		{
+			50175,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+_G.pg.base.expedition_data_template[296283] = {
+	objective_3 = "",
+	name = "信标·META",
+	guide_desc = "",
+	type = 15,
+	ai_mov = 0,
+	ai = 0,
+	add_icon = "",
+	bgm = "theme-ucnf-flagship",
+	exp_commander = 0,
+	sink_limit = 1,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	SLG_destroy_FX = "",
+	icon = "jiangfeng_alter",
+	difficulty = 4,
+	level = 118,
+	exp = 0,
+	limit_type = 1,
+	objective_2 = "",
+	icon_type = 2,
+	time_limit = 120,
+	dungeon_id = 296283,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 296283,
+	scale = 100,
+	map_id = {
+		{
+			50175,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+_G.pg.base.expedition_data_template[296284] = {
+	objective_3 = "",
+	name = "信标·META",
+	guide_desc = "",
+	type = 15,
+	ai_mov = 0,
+	ai = 0,
+	add_icon = "",
+	bgm = "theme-ucnf-flagship",
+	exp_commander = 0,
+	sink_limit = 1,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	SLG_destroy_FX = "",
+	icon = "jiangfeng_alter",
+	difficulty = 4,
+	level = 122,
+	exp = 0,
+	limit_type = 1,
+	objective_2 = "",
+	icon_type = 2,
+	time_limit = 120,
+	dungeon_id = 296284,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 296284,
+	scale = 100,
+	map_id = {
+		{
+			50175,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		0,
+		999
+	}
+}
+
+_G.pg.base.expedition_data_template[296285] = {
+	objective_3 = "",
+	name = "信标·META",
+	guide_desc = "",
+	type = 15,
+	ai_mov = 0,
+	ai = 0,
+	add_icon = "",
+	bgm = "theme-ucnf-flagship",
+	exp_commander = 0,
+	sink_limit = 1,
+	exp_commander_ratio = 0,
+	expose_speed = 5,
+	SLG_destroy_FX = "",
+	icon = "jiangfeng_alter",
+	difficulty = 4,
+	level = 126,
+	exp = 0,
+	limit_type = 1,
+	objective_2 = "",
+	icon_type = 2,
+	time_limit = 120,
+	dungeon_id = 296285,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 296285,
+	scale = 100,
+	map_id = {
+		{
+			50175,
 			1
 		}
 	},

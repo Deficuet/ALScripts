@@ -1617,6 +1617,11 @@ function temp()
 		容 = {
 			this = true
 		},
+		王 = {
+			星 = {
+				this = true
+			}
+		},
 		豚 = {
 			号 = {
 				this = true
@@ -1624,11 +1629,6 @@ function temp()
 		},
 		咲 = {
 			this = true
-		},
-		王 = {
-			星 = {
-				this = true
-			}
 		}
 	}
 end
@@ -4847,6 +4847,17 @@ function temp()
 	var_0_1.茳 = {
 		this = {
 			this = true
+		},
+		· = {
+			M = {
+				E = {
+					T = {
+						A = {
+							this = true
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -7924,6 +7935,78 @@ end
 temp()
 
 function temp()
+	var_0_1.B = {
+		L = {
+			A = {
+				C = {
+					K = {
+						★ = {
+							R = {
+								O = {
+									C = {
+										K = {
+											[" "] = {
+												S = {
+													H = {
+														O = {
+															O = {
+																T = {
+																	E = {
+																		R = {
+																			this = true,
+																			（ = {
+																				后 = {
+																					排 = {
+																						） = {
+																							this = true
+																						}
+																					}
+																				},
+																				前 = {
+																					排 = {
+																						） = {
+																							this = true
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.死 = {
+		亡 = {
+			主 = {
+				宰 = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.兴 = {
 		登 = {
 			堡 = {
@@ -8390,6 +8473,34 @@ function temp()
 	var_0_1.夕 = {
 		烧 = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.D = {
+		E = {
+			A = {
+				D = {
+					[" "] = {
+						M = {
+							A = {
+								S = {
+									T = {
+										E = {
+											R = {
+												this = true
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end

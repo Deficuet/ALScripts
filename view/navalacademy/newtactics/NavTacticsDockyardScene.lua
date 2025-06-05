@@ -4,7 +4,7 @@ local var_0_1 = 7
 function var_0_0.init(arg_1_0)
 	var_0_0.super.init(arg_1_0)
 
-	arg_1_0.toggleTr = arg_1_0:findTF("toggle_nav")
+	arg_1_0.toggleTr = arg_1_0._tf:Find("blur_panel/adapt/left_length/frame/toggle_nav")
 	arg_1_0.toggleOnTr = arg_1_0.toggleTr:Find("on")
 	arg_1_0.toggleOffTr = arg_1_0.toggleTr:Find("off")
 

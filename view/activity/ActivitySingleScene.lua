@@ -65,7 +65,7 @@ function var_0_0.updateActivity(arg_10_0, arg_10_1)
 		arg_10_1 = getProxy(ActivityProxy):getActivityById(ActivityConst.PageIdLink[arg_10_1.id])
 	end
 
-	if arg_10_1:isShow() and not arg_10_1:isEnd() and arg_10_0.activity and arg_10_0.activity.id == arg_10_1.id then
+	if arg_10_1:isShow() and arg_10_1:isCorePage(arg_10_0.contextData.coreName or "") and not arg_10_1:isEnd() and arg_10_0.activity and arg_10_0.activity.id == arg_10_1.id then
 		arg_10_0.activity = arg_10_1
 
 		arg_10_0.actPage:ActionInvoke("Flush", arg_10_1)

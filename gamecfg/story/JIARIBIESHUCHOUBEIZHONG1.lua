@@ -614,7 +614,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 0,
-			say = "这个产品度假岛……和港区的区别在哪里？",
+			say = "这个度假岛……和港区的区别在哪里？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -480,6 +480,7 @@ function var_0_0.switchHide(arg_42_0)
 	setActive(arg_42_0.stateInfo, var_42_0)
 	setActive(arg_42_0.helpBtn, var_42_0)
 	setActive(arg_42_0.exchangeBtn, var_42_0)
+	setActive(arg_42_0.btnPhantom, var_42_0)
 	setImageAlpha(arg_42_0.itemUnlockBtn, var_42_0 and 1 or 0)
 	setImageRaycastTarget(arg_42_0.itemUnlockBtn, var_42_0)
 	setImageAlpha(arg_42_0.speedupBtn, var_42_0 and 1 or 0)
@@ -2736,6 +2737,7 @@ end
 
 function var_0_0.changeEffectVisible(arg_194_0, arg_194_1)
 	setActive(arg_194_0.fittingBtn, arg_194_1)
+	setActive(arg_194_0.initPanel, arg_194_1)
 end
 
 return var_0_0

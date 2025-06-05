@@ -151712,6 +151712,297 @@ _G.pg.base.task_data_template[21768] = {
 	}
 }
 
+_G.pg.base.task_data_template[21769] = {
+	name = "纳西莫夫梭梭联动day1",
+	guild_coin_award = 0,
+	award = 906212,
+	type = 26,
+	desc = "后宅补充食物5次",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21769,
+	target_num = 5,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21770] = {
+	name = "纳西莫夫梭梭联动day2",
+	guild_coin_award = 0,
+	award = 906213,
+	type = 26,
+	desc = "舰船强化5次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21770,
+	target_num = 5,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54050,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21771] = {
+	name = "纳西莫夫梭梭联动day3",
+	guild_coin_award = 0,
+	award = 906214,
+	type = 26,
+	desc = "舰队出征，以S评价通关10次",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 21771,
+	target_num = 10,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[21772] = {
+	name = "纳西莫夫梭梭联动day4",
+	guild_coin_award = 0,
+	award = 906215,
+	type = 26,
+	desc = "舰船退役2次",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21772,
+	target_num = 2,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21773] = {
+	name = "纳西莫夫梭梭联动day5",
+	guild_coin_award = 0,
+	award = 906216,
+	type = 26,
+	desc = "进行战术训练2次",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21773,
+	target_num = 2,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54032,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21774] = {
+	name = "纳西莫夫梭梭联动day6",
+	guild_coin_award = 0,
+	award = 906217,
+	type = 26,
+	desc = "击沉任意敌人20艘",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21774,
+	target_num = 20,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			50004,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21775] = {
+	name = "纳西莫夫梭梭联动day7",
+	guild_coin_award = 0,
+	award = 906218,
+	type = 26,
+	desc = "击败旗舰3次 ",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 21775,
+	target_num = 3,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			7,
+			799022,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
 _G.pg.base.task_data_template[22011] = {
 	name = "新手任务阶段1-任务1",
 	guild_coin_award = 0,
@@ -151812,7 +152103,7 @@ _G.pg.base.task_data_template[22013] = {
 	type = 17,
 	desc = "将海军食堂或小卖部等级提升到2级",
 	count_inherit = 0,
-	sub_type = 82,
+	sub_type = 85,
 	target_id_2 = "0",
 	story_icon = "",
 	is_head = 1,
@@ -152641,7 +152932,7 @@ _G.pg.base.task_data_template[22036] = {
 	type = 17,
 	desc = "将海军食堂或小卖部等级提升到5级",
 	count_inherit = 0,
-	sub_type = 82,
+	sub_type = 85,
 	target_id_2 = "0",
 	story_icon = "",
 	is_head = 1,
@@ -153617,7 +153908,7 @@ _G.pg.base.task_data_template[22064] = {
 	type = 17,
 	desc = "将海军食堂或小卖部等级提升到6级",
 	count_inherit = 0,
-	sub_type = 82,
+	sub_type = 85,
 	target_id_2 = "0",
 	story_icon = "",
 	is_head = 1,
@@ -154006,7 +154297,7 @@ _G.pg.base.task_data_template[22075] = {
 	type = 17,
 	desc = "将海军食堂或小卖部等级提升到7级",
 	count_inherit = 0,
-	sub_type = 82,
+	sub_type = 85,
 	target_id_2 = "0",
 	story_icon = "",
 	is_head = 1,
@@ -154615,7 +154906,7 @@ _G.pg.base.task_data_template[22093] = {
 	type = 17,
 	desc = "将海军食堂或小卖部等级提升到8级",
 	count_inherit = 0,
-	sub_type = 82,
+	sub_type = 85,
 	target_id_2 = "0",
 	story_icon = "",
 	is_head = 1,
@@ -156562,7 +156853,7 @@ _G.pg.base.task_data_template[23043] = {
 	type = 17,
 	desc = "可通过<color=#e7b000>「主界面」</color>-<color=#e7b000>「生活区」</color>-<color=#e7b000>「学院」</color>确认小卖部和海军食堂的等级和当前产出情况；\n·也可通过<color=#e7b000>「主界面」</color>左侧三角按钮，在展开的侧拉弹窗中快速收取产出奖励；\n·小卖部与海军食堂分别产出物资与石油；\n·可消耗一定资源提升小卖部与海军食堂的建筑等级，升级可提升资源获取效率和存储上限。",
 	count_inherit = 0,
-	sub_type = 82,
+	sub_type = 85,
 	target_id_2 = "0",
 	story_icon = "",
 	is_head = 1,
@@ -167571,6 +167862,176 @@ _G.pg.base.task_data_template[23834] = {
 	},
 	scene = {
 		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23841] = {
+	name = "『黑岩联动』活动关通关1",
+	guild_coin_award = 0,
+	award = 906209,
+	type = 6,
+	desc = "看不到",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23841,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1929001
+	},
+	open_need = {},
+	award_display = {
+		{
+			5,
+			323001,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23842] = {
+	name = "『黑岩联动』活动关通关2",
+	guild_coin_award = 0,
+	award = 906210,
+	type = 6,
+	desc = "看不到",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23842,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1929002
+	},
+	open_need = {},
+	award_display = {
+		{
+			5,
+			323002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23843] = {
+	name = "『黑岩联动』活动关通关3",
+	guild_coin_award = 0,
+	award = 906211,
+	type = 6,
+	desc = "看不到",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23843,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1929003
+	},
+	open_need = {},
+	award_display = {
+		{
+			5,
+			307,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23844] = {
+	name = "『黑岩联动』npc临时加入",
+	guild_coin_award = 0,
+	award = 906181,
+	type = 6,
+	desc = "不该看到",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23844,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			103291,
+			1
+		}
 	}
 }
 

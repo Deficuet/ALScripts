@@ -239,7 +239,7 @@ function var_0_0.updateGiftGoodsVOList(arg_21_0)
 			local var_21_2 = var_21_1[iter_21_1]
 			local var_21_3 = var_21_2.extra_service
 
-			if not (var_21_3 == Goods.ITEM_BOX and var_21_2.akashi_pick == 1) and (var_21_3 == Goods.ITEM_BOX or var_21_3 == Goods.PASS_ITEM) then
+			if not (var_21_2.akashi_pick == 1) and (var_21_3 == Goods.ITEM_BOX or var_21_3 == Goods.PASS_ITEM) then
 				local var_21_4 = Goods.Create({
 					shop_id = iter_21_1
 				}, Goods.TYPE_CHARGE)

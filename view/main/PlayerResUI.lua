@@ -244,6 +244,7 @@ function var_0_0.ClickOil(arg_19_0)
 					count = 1,
 					id = var_19_2
 				})
+				pg.TrackerMgr.GetInstance():Tracking(TRACKING_PAY_OIL)
 			end,
 			weight = LayerWeightConst.TOP_LAYER
 		})

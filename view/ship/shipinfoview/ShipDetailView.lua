@@ -20,7 +20,6 @@ function var_0_0.OnInit(arg_2_0)
 	arg_2_0:InitEvent()
 	setParent(arg_2_0.randomFlagToggle, arg_2_0._tf.parent)
 	setActive(arg_2_0.randomFlagToggle, true)
-	triggerToggle(arg_2_0.randomFlagToggle, arg_2_0:GetShipVO():getRandomFlag())
 end
 
 function var_0_0.InitDetail(arg_3_0)
@@ -469,6 +468,7 @@ function var_0_0.UpdateUI(arg_39_0)
 	arg_39_0:UpdateEquipments(var_39_0)
 	arg_39_0:UpdateLock()
 	arg_39_0:UpdatePreferenceTag()
+	triggerToggle(arg_39_0.randomFlagToggle, arg_39_0:GetShipVO():getRandomFlag())
 end
 
 function var_0_0.UpdateIntimacy(arg_40_0, arg_40_1)
@@ -764,204 +764,214 @@ function var_0_0.quickSelectEmpty(arg_62_0)
 	end
 end
 
+function var_0_0.Show(arg_63_0)
+	var_0_0.super.Show(arg_63_0)
+	setActive(arg_63_0.randomFlagToggle, true)
+end
+
+function var_0_0.Hide(arg_64_0)
+	var_0_0.super.Hide(arg_64_0)
+	setActive(arg_64_0.randomFlagToggle, false)
+end
+
 local var_0_3 = 0.2
 
-function var_0_0.displayRecordPanel(arg_63_0)
-	if not arg_63_0:GetShipVO() then
+function var_0_0.displayRecordPanel(arg_65_0)
+	if not arg_65_0:GetShipVO() then
 		return
 	end
 
-	arg_63_0.isShowRecord = true
+	arg_65_0.isShowRecord = true
 
-	setActive(arg_63_0.recordPanel, true)
-	setActive(arg_63_0.attrs, false)
+	setActive(arg_65_0.recordPanel, true)
+	setActive(arg_65_0.attrs, false)
 
-	for iter_63_0, iter_63_1 in ipairs(arg_63_0.recordBtns) do
-		onButton(arg_63_0, iter_63_1, function()
-			arg_63_0:emit(ShipMainMediator.ON_RECORD_EQUIPMENT, arg_63_0:GetShipVO().id, iter_63_0, 1)
+	for iter_65_0, iter_65_1 in ipairs(arg_65_0.recordBtns) do
+		onButton(arg_65_0, iter_65_1, function()
+			arg_65_0:emit(ShipMainMediator.ON_RECORD_EQUIPMENT, arg_65_0:GetShipVO().id, iter_65_0, 1)
 		end, SFX_PANEL)
 	end
 
-	for iter_63_2, iter_63_3 in ipairs(arg_63_0.equipRecordBtns) do
-		onButton(arg_63_0, iter_63_3, function()
-			arg_63_0:emit(ShipMainMediator.ON_RECORD_EQUIPMENT, arg_63_0:GetShipVO().id, iter_63_2, 2)
+	for iter_65_2, iter_65_3 in ipairs(arg_65_0.equipRecordBtns) do
+		onButton(arg_65_0, iter_65_3, function()
+			arg_65_0:emit(ShipMainMediator.ON_RECORD_EQUIPMENT, arg_65_0:GetShipVO().id, iter_65_2, 2)
 		end, SFX_PANEL)
 	end
 
-	for iter_63_4, iter_63_5 in ipairs(arg_63_0.recordEquipmentsTFs) do
-		arg_63_0:UpdateRecordEquipments(iter_63_4)
+	for iter_65_4, iter_65_5 in ipairs(arg_65_0.recordEquipmentsTFs) do
+		arg_65_0:UpdateRecordEquipments(iter_65_4)
 	end
 
-	arg_63_0:UpdateRecordSpWeapons()
+	arg_65_0:UpdateRecordSpWeapons()
 end
 
-function var_0_0.CloseRecordPanel(arg_66_0, arg_66_1)
-	if arg_66_1 then
-		arg_66_0.isShowRecord = nil
+function var_0_0.CloseRecordPanel(arg_68_0, arg_68_1)
+	if arg_68_1 then
+		arg_68_0.isShowRecord = nil
 
-		setActive(arg_66_0.recordPanel, false)
+		setActive(arg_68_0.recordPanel, false)
 
-		if not arg_66_0.isShowRecord and not arg_66_0.isShowQuick then
-			setActive(arg_66_0.attrs, true)
+		if not arg_68_0.isShowRecord and not arg_68_0.isShowQuick then
+			setActive(arg_68_0.attrs, true)
 		end
 	else
-		triggerToggle(arg_66_0.showRecordBtn, false)
+		triggerToggle(arg_68_0.showRecordBtn, false)
 	end
 end
 
-function var_0_0.CloseQuickPanel(arg_67_0)
-	arg_67_0.isShowQuick = nil
+function var_0_0.CloseQuickPanel(arg_69_0)
+	arg_69_0.isShowQuick = nil
 
-	arg_67_0:selectedEquipItem(nil)
+	arg_69_0:selectedEquipItem(nil)
 
-	arg_67_0.showEquipItem = nil
+	arg_69_0.showEquipItem = nil
 
-	if arg_67_0.list then
-		arg_67_0:setListCount(0, 0)
+	if arg_69_0.list then
+		arg_69_0:setListCount(0, 0)
 	end
 
-	setActive(arg_67_0.quickPanel, false)
+	setActive(arg_69_0.quickPanel, false)
 
-	if not arg_67_0.isShowRecord and not arg_67_0.isShowQuick then
-		setActive(arg_67_0.attrs, true)
+	if not arg_69_0.isShowRecord and not arg_69_0.isShowQuick then
+		setActive(arg_69_0.attrs, true)
 	end
 
-	arg_67_0:updateQuickPanel()
+	arg_69_0:updateQuickPanel()
 end
 
-function var_0_0.UpdateRecordEquipments(arg_68_0, arg_68_1)
-	local var_68_0 = arg_68_0.recordEquipmentsTFs[arg_68_1]
-	local var_68_1 = arg_68_0:GetShipVO():getEquipmentRecord(arg_68_0.shareData.player.id)[arg_68_1] or {}
+function var_0_0.UpdateRecordEquipments(arg_70_0, arg_70_1)
+	local var_70_0 = arg_70_0.recordEquipmentsTFs[arg_70_1]
+	local var_70_1 = arg_70_0:GetShipVO():getEquipmentRecord(arg_70_0.shareData.player.id)[arg_70_1] or {}
 
-	for iter_68_0 = 1, 5 do
-		local var_68_2 = tonumber(var_68_1[iter_68_0])
-		local var_68_3 = var_68_2 and var_68_2 ~= -1
-		local var_68_4 = var_68_0:Find("equipment_" .. iter_68_0)
-		local var_68_5 = var_68_4:Find("empty")
-		local var_68_6 = var_68_4:Find("info")
+	for iter_70_0 = 1, 5 do
+		local var_70_2 = tonumber(var_70_1[iter_70_0])
+		local var_70_3 = var_70_2 and var_70_2 ~= -1
+		local var_70_4 = var_70_0:Find("equipment_" .. iter_70_0)
+		local var_70_5 = var_70_4:Find("empty")
+		local var_70_6 = var_70_4:Find("info")
 
-		setActive(var_68_6, var_68_3)
-		setActive(var_68_5, not var_68_3)
+		setActive(var_70_6, var_70_3)
+		setActive(var_70_5, not var_70_3)
 
-		if var_68_3 then
-			local var_68_7 = arg_68_0.equipmentProxy:getEquipmentById(var_68_2)
-			local var_68_8 = arg_68_0:GetShipVO().equipments[iter_68_0]
-			local var_68_9 = not (var_68_8 and var_68_8.id == var_68_2 or false) and (not var_68_7 or not (var_68_7.count > 0))
+		if var_70_3 then
+			local var_70_7 = arg_70_0.equipmentProxy:getEquipmentById(var_70_2)
+			local var_70_8 = arg_70_0:GetShipVO().equipments[iter_70_0]
+			local var_70_9 = not (var_70_8 and var_70_8.id == var_70_2 or false) and (not var_70_7 or not (var_70_7.count > 0))
 
-			setActive(var_68_6:Find("tip"), var_68_9)
-			updateEquipment(arg_68_0:findTF("IconTpl", var_68_6), Equipment.New({
-				id = var_68_2
+			setActive(var_70_6:Find("tip"), var_70_9)
+			updateEquipment(arg_70_0:findTF("IconTpl", var_70_6), Equipment.New({
+				id = var_70_2
 			}))
 
-			if var_68_9 then
-				onButton(arg_68_0, var_68_6, function()
+			if var_70_9 then
+				onButton(arg_70_0, var_70_6, function()
 					pg.TipsMgr.GetInstance():ShowTips(i18n("ship_quick_change_nofreeequip"))
 				end, SFX_PANEL)
 			end
 		else
-			removeOnButton(var_68_6)
+			removeOnButton(var_70_6)
 		end
 	end
 end
 
-function var_0_0.UpdateRecordSpWeapons(arg_70_0, arg_70_1)
+function var_0_0.UpdateRecordSpWeapons(arg_72_0, arg_72_1)
 	if LOCK_SP_WEAPON then
 		return
 	end
 
-	local var_70_0 = arg_70_0:GetShipVO():GetSpWeaponRecord(arg_70_0.shareData.player.id)
+	local var_72_0 = arg_72_0:GetShipVO():GetSpWeaponRecord(arg_72_0.shareData.player.id)
 
-	table.Foreach(arg_70_0.recordBars, function(arg_71_0, arg_71_1)
-		if arg_70_1 and arg_71_0 ~= arg_70_1 then
+	table.Foreach(arg_72_0.recordBars, function(arg_73_0, arg_73_1)
+		if arg_72_1 and arg_73_0 ~= arg_72_1 then
 			return
 		end
 
-		local var_71_0 = var_70_0[arg_71_0]
-		local var_71_1 = arg_71_1:Find("SpSlot")
-		local var_71_2 = arg_70_0:GetShipVO():IsSpweaponUnlock()
+		local var_73_0 = var_72_0[arg_73_0]
+		local var_73_1 = arg_73_1:Find("SpSlot")
+		local var_73_2 = arg_72_0:GetShipVO():IsSpweaponUnlock()
 
-		setActive(var_71_1:Find("Lock"), not var_71_2)
-		setActive(var_71_1:Find("Icon"), var_71_0)
-		setActive(var_71_1:Find("IconShadow"), var_71_0)
+		setActive(var_73_1:Find("Lock"), not var_73_2)
+		setActive(var_73_1:Find("Icon"), var_73_0)
+		setActive(var_73_1:Find("IconShadow"), var_73_0)
 
-		if var_71_0 then
-			UpdateSpWeaponSlot(var_71_1, var_71_0)
+		if var_73_0 then
+			UpdateSpWeaponSlot(var_73_1, var_73_0)
 
-			local var_71_3 = arg_70_0:GetShipVO():GetSpWeapon()
-			local var_71_4 = var_71_3 and var_71_3:GetConfigID() or 0
-			local var_71_5 = var_71_0:GetConfigID() ~= var_71_4
+			local var_73_3 = arg_72_0:GetShipVO():GetSpWeapon()
+			local var_73_4 = var_73_3 and var_73_3:GetConfigID() or 0
+			local var_73_5 = var_73_0:GetConfigID() ~= var_73_4
 
-			if var_71_5 then
-				local var_71_6 = getProxy(EquipmentProxy):GetSameTypeSpWeapon(var_71_0)
+			if var_73_5 then
+				local var_73_6 = getProxy(EquipmentProxy):GetSameTypeSpWeapon(var_73_0)
 
-				if var_71_6 and var_71_6:GetConfigID() == var_71_0:GetConfigID() then
-					var_71_5 = false
+				if var_73_6 and var_73_6:GetConfigID() == var_73_0:GetConfigID() then
+					var_73_5 = false
 				end
 			end
 
-			setActive(var_71_1:Find("Icon/tip"), var_71_5)
+			setActive(var_73_1:Find("Icon/tip"), var_73_5)
 
-			if var_71_5 then
-				onButton(arg_70_0, var_71_1, function()
+			if var_73_5 then
+				onButton(arg_72_0, var_73_1, function()
 					pg.TipsMgr.GetInstance():ShowTips(i18n("ship_quick_change_nofreeequip"))
 				end, SFX_PANEL)
 			else
-				removeOnButton(var_71_1)
+				removeOnButton(var_73_1)
 			end
 		else
-			removeOnButton(var_71_1)
+			removeOnButton(var_73_1)
 		end
 	end)
 end
 
-function var_0_0.UpdatePreferenceTag(arg_73_0)
-	triggerToggle(arg_73_0.commonTagToggle, arg_73_0:GetShipVO().preferenceTag == Ship.PREFERENCE_TAG_COMMON)
+function var_0_0.UpdatePreferenceTag(arg_75_0)
+	triggerToggle(arg_75_0.commonTagToggle, arg_75_0:GetShipVO().preferenceTag == Ship.PREFERENCE_TAG_COMMON)
 end
 
-function var_0_0.DoLeveUpAnim(arg_74_0, arg_74_1, arg_74_2, arg_74_3)
-	arg_74_0.shipDetailLogicPanel:doLeveUpAnim(arg_74_1, arg_74_2, arg_74_3)
+function var_0_0.DoLeveUpAnim(arg_76_0, arg_76_1, arg_76_2, arg_76_3)
+	arg_76_0.shipDetailLogicPanel:doLeveUpAnim(arg_76_1, arg_76_2, arg_76_3)
 end
 
-function var_0_0.clearListener(arg_75_0)
-	if arg_75_0.equipItems then
-		for iter_75_0 = 1, #arg_75_0.equipItems do
-			local var_75_0 = arg_75_0.equipItems[iter_75_0].tf
+function var_0_0.clearListener(arg_77_0)
+	if arg_77_0.equipItems then
+		for iter_77_0 = 1, #arg_77_0.equipItems do
+			local var_77_0 = arg_77_0.equipItems[iter_77_0].tf
 
-			if var_75_0 then
-				ClearEventTrigger(GetOrAddComponent(go(var_75_0), typeof(EventTriggerListener)))
-				removeOnButton(go(var_75_0))
+			if var_77_0 then
+				ClearEventTrigger(GetOrAddComponent(go(var_77_0), typeof(EventTriggerListener)))
+				removeOnButton(go(var_77_0))
 			end
 		end
 	end
 end
 
-function var_0_0.OnDestroy(arg_76_0)
-	setParent(arg_76_0.randomFlagToggle, arg_76_0._tf)
-	arg_76_0:clearListener()
-	removeAllChildren(arg_76_0.equipmentsGrid)
+function var_0_0.OnDestroy(arg_78_0)
+	setParent(arg_78_0.randomFlagToggle, arg_78_0._tf)
+	arg_78_0:clearListener()
+	removeAllChildren(arg_78_0.equipmentsGrid)
 
-	if arg_76_0.list then
-		arg_76_0.list:SetTotalCount(0)
+	if arg_78_0.list then
+		arg_78_0.list:SetTotalCount(0)
 
-		function arg_76_0.list.onUpdateItem()
+		function arg_78_0.list.onUpdateItem()
 			return
 		end
 	end
 
-	arg_76_0.destroy = true
+	arg_78_0.destroy = true
 
-	if arg_76_0.recordPanel then
-		if LeanTween.isTweening(go(arg_76_0.recordPanel)) then
-			LeanTween.cancel(go(arg_76_0.recordPanel))
+	if arg_78_0.recordPanel then
+		if LeanTween.isTweening(go(arg_78_0.recordPanel)) then
+			LeanTween.cancel(go(arg_78_0.recordPanel))
 		end
 
-		arg_76_0.recordPanel = nil
+		arg_78_0.recordPanel = nil
 	end
 
-	arg_76_0.shipDetailLogicPanel:clear()
-	arg_76_0.shipDetailLogicPanel:detach()
+	arg_78_0.shipDetailLogicPanel:clear()
+	arg_78_0.shipDetailLogicPanel:detach()
 
-	arg_76_0.shareData = nil
+	arg_78_0.shareData = nil
 end
 
 return var_0_0

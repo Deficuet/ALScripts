@@ -16,6 +16,7 @@ end
 function var_0_0.InitBtns(arg_2_0)
 	arg_2_0.activityBtns = {
 		MainActSummaryBtn.New(arg_2_0.actBtnTpl, arg_2_0.event, true),
+		MainCoreActivityBtn.New(arg_2_0.actBtnTpl, arg_2_0.event, false),
 		MainActEscortBtn.New(arg_2_0.actBtnTpl, arg_2_0.event),
 		MainActMapBtn.New(arg_2_0.actBtnTpl, arg_2_0.event),
 		MainActBossBtn.New(arg_2_0.actBtnTpl, arg_2_0.event),

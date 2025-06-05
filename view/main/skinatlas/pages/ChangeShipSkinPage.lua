@@ -153,7 +153,7 @@ function var_0_0.ShowAdmiral(arg_13_0)
 				}
 
 				arg_13_0:loadPainting(arg_13_0.paintingInfo[arg_16_1])
-				setText(arg_16_2:Find("Style_card/bg/desc/name_bar/name"), var_16_2.name)
+				changeToScrollText(arg_16_2:Find("Style_card/bg/desc/name_bar/name"), var_16_2.name)
 				setToggleEnabled(arg_16_2, true)
 			else
 				local var_16_3 = arg_16_1 > var_13_2

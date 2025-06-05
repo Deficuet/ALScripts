@@ -41,7 +41,7 @@ function var_0_0.OnInit(arg_1_0)
 
 	onButton(arg_1_0, arg_1_0.btnPay, function()
 		arg_1_0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.CHARGE, {
-			wrap = ChargeScene.TYPE_GIFT
+			wrap = ChargeScene.TYPE_PICK
 		})
 	end, SFX_CONFIRM)
 

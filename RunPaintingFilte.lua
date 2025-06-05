@@ -232,13 +232,14 @@ end
 
 function var_0_0.GetNPCShipConfigIDList()
 	local var_19_0 = {}
-	local var_19_1 = ActivityConst.ACT_NPC_SHIP_ID
 
-	if var_19_1 and IsNumber(var_19_1) and var_0_0.IsActMatchTime(var_19_1) then
-		local var_19_2 = pg.activity_template[var_19_1].config_data[1]
-		local var_19_3 = pg.task_data_template[var_19_2].award_display[1][2]
+	for iter_19_0, iter_19_1 in ipairs(getGameset("act_npc_ship_id")[2]) do
+		if var_0_0.IsActMatchTime(iter_19_1) then
+			local var_19_1 = pg.activity_template[iter_19_1].config_data[1]
+			local var_19_2 = pg.task_data_template[var_19_1].award_display[1][2]
 
-		table.insert(var_19_0, var_19_3)
+			table.insert(var_19_0, var_19_2)
+		end
 	end
 
 	return var_19_0

@@ -437,6 +437,10 @@ function var_0_0.SetAction(arg_38_0, arg_38_1, arg_38_2, arg_38_3)
 		return false
 	end
 
+	if arg_38_2 and arg_38_2 == 0 then
+		arg_38_0.lastPlayAction = arg_38_1
+	end
+
 	if arg_38_2 == 0 and arg_38_1 ~= arg_38_0:getIdleName() then
 		arg_38_0.inAction = true
 	end
@@ -464,6 +468,10 @@ function var_0_0.ablePlayAction(arg_39_0, arg_39_1, arg_39_2, arg_39_3)
 	end
 
 	if arg_39_0.lockLayer and not arg_39_2 and arg_39_0.inAction and arg_39_3 and arg_39_3 > 0 then
+		return false
+	end
+
+	if arg_39_0.lastPlayAction and arg_39_0.lastPlayAction ~= arg_39_0._idleName and arg_39_3 and arg_39_3 > 0 then
 		return false
 	end
 

@@ -51,10 +51,9 @@ var_0_0.GO_CHANGE_SHOP = "go Change shop"
 var_0_0.GO_Activity_level = "go Activity level"
 var_0_0.ON_ADD_SUBLAYER = "ActivityMediator.ON_ADD_SUBLAYER"
 var_0_0.GO_SPECIAL_EXERCISE = "go Special exercise"
+var_0_0.GO_SINGLE_PRECOMBAT = "ActivityMediator.GO_SINGLE_PRECOMBAT"
 
 function var_0_0.register(arg_1_0)
-	arg_1_0.UIAvalibleCallbacks = {}
-
 	arg_1_0:bind(var_0_0.GO_MONOPOLY2024, function(arg_2_0, arg_2_1, arg_2_2)
 		arg_1_0:addSubLayers(Context.New({
 			mediator = MonopolyCar2024Mediator,
@@ -412,26 +411,31 @@ function var_0_0.register(arg_1_0)
 			}
 		})
 	end)
+	arg_1_0:bind(var_0_0.GO_SINGLE_PRECOMBAT, function(arg_53_0, arg_53_1)
+		arg_1_0:addSubLayers(Context.New({
+			mediator = BossSinglePreCombatLiteMediator,
+			viewComponent = BossSinglePreCombatLiteLayer,
+			data = {
+				system = arg_53_1.system,
+				stageId = arg_53_1.stageId,
+				actId = arg_53_1.activityID,
+				fleets = arg_53_1.fleets
+			}
+		}))
+	end)
+	arg_1_0.viewComponent:setActivities(arg_1_0:getDisplayActivity())
 
-	local var_1_0 = getProxy(ActivityProxy)
+	local var_1_0 = getProxy(PlayerProxy):getRawData()
 
-	arg_1_0.viewComponent:setActivities(var_1_0:getPanelActivities())
+	arg_1_0.viewComponent:setPlayer(var_1_0)
 
-	local var_1_1 = getProxy(PlayerProxy):getRawData()
+	local var_1_1 = getProxy(BayProxy):getShipById(var_1_0.character)
 
-	arg_1_0.viewComponent:setPlayer(var_1_1)
-
-	local var_1_2 = getProxy(BayProxy):getShipById(var_1_1.character)
-
-	arg_1_0.viewComponent:setFlagShip(var_1_2)
+	arg_1_0.viewComponent:setFlagShip(var_1_1)
 end
 
-function var_0_0.onUIAvalible(arg_53_0)
-	arg_53_0.UIAvalible = true
-
-	_.each(arg_53_0.UIAvalibleCallbacks, function(arg_54_0)
-		arg_54_0()
-	end)
+function var_0_0.getDisplayActivity(arg_54_0)
+	return getProxy(ActivityProxy):getPanelActivities()
 end
 
 function var_0_0.initNotificationHandleDic(arg_55_0)
@@ -636,7 +640,7 @@ function var_0_0.initNotificationHandleDic(arg_55_0)
 			arg_89_0.viewComponent:emit(BaseUI.ON_ACHIEVE, var_89_0.awards, function()
 				local var_90_0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_UR_EXCHANGE)
 
-				if var_90_0 and not var_90_0:isShow() then
+				if var_90_0 and not var_90_0:isShow() and var_90_0:isCorePage(arg_89_0.contextData.coreName) then
 					arg_89_0.viewComponent:removeActivity(var_90_0.id)
 				end
 

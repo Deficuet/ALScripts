@@ -14577,6 +14577,30 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	[568] = {
+		ship_group = 10121,
+		name = "BLACK★ROCK SHOOTER",
+		sculpture = "heiyansheshou",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 568,
+		id = 568,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[569] = {
+		ship_group = 10122,
+		name = "DEAD MASTER",
+		sculpture = "siwangzhuzai",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 569,
+		id = 569,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -15134,6 +15158,8 @@ pg.activity_ins_template = {
 		564,
 		565,
 		566,
-		567
+		567,
+		568,
+		569
 	}
 }

@@ -180,21 +180,24 @@ function var_0_0.init(arg_2_0)
 		setActive(var_2_3, arg_2_0.contextData.priorMode == var_0_0.PRIOR_MODE_SHIP_UP)
 	end
 
-	arg_2_0.togglePhantom = arg_2_0._tf:Find("toggle_phantom")
+	arg_2_0.togglePhantom = arg_2_0._tf:Find("blur_panel/adapt/left_length/frame/toggle_phantom")
 
-	onToggle(arg_2_0, arg_2_0.togglePhantom, function()
-		arg_2_0.inPhantom = not arg_2_0.inPhantom
+	onToggle(arg_2_0, arg_2_0.togglePhantom, function(arg_18_0)
+		if arg_2_0.inPhantom ~= arg_18_0 then
+			arg_2_0.inPhantom = arg_18_0
 
-		arg_2_0:SwitchContainerDisplay()
+			arg_2_0:SwitchContainerDisplay()
+		end
 	end, SFX_PANEL)
 	setActive(arg_2_0.togglePhantom, false)
 
-	arg_2_0.helpPhantom = arg_2_0._tf:Find("help_phantom")
+	arg_2_0.helpPhantom = arg_2_0._tf:Find("blur_panel/adapt/left_length/frame/help_phantom")
 
 	onButton(arg_2_0, arg_2_0.helpPhantom, function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = i18n("projection_help")
+			helps = i18n("projection_help"),
+			weight = arg_2_0.contextData.LayerWeightMgr_weight or nil
 		})
 	end, SFX_PANEL)
 
@@ -1497,7 +1500,13 @@ function var_0_0.didEnter(arg_108_0)
 			arg_108_0:displayDestroyPanel()
 		end
 	end, SFX_CONFIRM)
-	arg_108_0:SwitchContainerDisplay()
+
+	if isActive(arg_108_0.togglePhantom) then
+		triggerToggle(arg_108_0.togglePhantom, tobool(arg_108_0.inPhantom))
+	else
+		arg_108_0:SwitchContainerDisplay()
+	end
+
 	arg_108_0:updateBarInfo()
 
 	if arg_108_0.contextData.mode == var_0_0.MODE_WORLD then
@@ -2098,7 +2107,6 @@ function var_0_0.willExit(arg_165_0)
 	end
 
 	pg.UIMgr.GetInstance():UnOverlayPanel(arg_165_0.blurPanel, arg_165_0._tf)
-	pg.m02:sendNotification(DockyardMediator.QUIT_DOCKYARD_SCENE)
 end
 
 function var_0_0.uiStartAnimating(arg_166_0)

@@ -1,25 +1,24 @@
 local var_0_0 = class("MainRemoveNpcSequence")
 
 function var_0_0.Execute(arg_1_0, arg_1_1)
-	local var_1_0 = getProxy(ActivityProxy):getActivityById(ActivityConst.ACT_NPC_SHIP_ID)
-	local var_1_1 = getProxy(BayProxy)
+	local var_1_0 = getProxy(BayProxy)
 
-	if not var_1_1.isClearNpc and (not var_1_0 or var_1_0:isEnd()) then
-		local var_1_2 = var_1_1:getRawData()
+	if not var_1_0.isClearNpc then
+		local var_1_1 = getProxy(ActivityProxy)
 
-		for iter_1_0, iter_1_1 in pairs(var_1_2) do
-			if iter_1_1:isActivityNpc() then
-				local var_1_3 = iter_1_1:clone()
+		for iter_1_0, iter_1_1 in pairs(var_1_0:getRawData()) do
+			if iter_1_1:isActivityNpc() and not var_1_1:IsActivityNotEnd(iter_1_1.activityNpc) then
+				local var_1_2 = iter_1_1:clone()
 
-				arg_1_0:UnloadEquipments(var_1_3)
-				arg_1_0:CheckChapters(var_1_3)
-				arg_1_0:CheckFormations(var_1_3)
-				arg_1_0:CheckNavTactics(var_1_3)
-				var_1_1:removeShipById(var_1_3.id)
+				arg_1_0:UnloadEquipments(var_1_2)
+				arg_1_0:CheckChapters(var_1_2)
+				arg_1_0:CheckFormations(var_1_2)
+				arg_1_0:CheckNavTactics(var_1_2)
+				var_1_0:removeShipById(var_1_2.id)
 			end
 		end
 
-		var_1_1.isClearNpc = true
+		var_1_0.isClearNpc = true
 	end
 
 	arg_1_1()

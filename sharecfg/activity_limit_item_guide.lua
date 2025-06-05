@@ -1265,6 +1265,335 @@ pg.activity_limit_item_guide = {
 			}
 		}
 	},
+	[81] = {
+		id = 81,
+		activity = 5988,
+		count = 1,
+		type = 4,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 11200011,
+		order = 0,
+		link_params = {
+			{
+				3,
+				5986,
+				"「BLACK之痕」活动奖励"
+			}
+		}
+	},
+	[82] = {
+		id = 82,
+		activity = 5988,
+		count = 1,
+		type = 4,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 11200021,
+		order = 0,
+		link_params = {
+			{
+				3,
+				5984,
+				"「DEATH之意」活动奖励"
+			}
+		}
+	},
+	[83] = {
+		id = 83,
+		activity = 5988,
+		count = 1,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 1471,
+		order = 0,
+		link_params = {
+			{
+				3,
+				5986,
+				"「BLACK之痕」活动奖励"
+			}
+		}
+	},
+	[84] = {
+		id = 84,
+		activity = 5988,
+		count = 1,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 1475,
+		order = 0,
+		link_params = {
+			{
+				3,
+				5986,
+				"「BLACK之痕」活动奖励"
+			}
+		}
+	},
+	[85] = {
+		id = 85,
+		activity = 5988,
+		count = 1,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 1477,
+		order = 0,
+		link_params = {
+			{
+				3,
+				5986,
+				"「BLACK之痕」活动奖励"
+			}
+		}
+	},
+	[86] = {
+		id = 86,
+		activity = 5988,
+		count = 1,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 1479,
+		order = 0,
+		link_params = {
+			{
+				3,
+				5986,
+				"「BLACK之痕」活动奖励"
+			}
+		}
+	},
+	[87] = {
+		id = 87,
+		activity = 5988,
+		count = 1,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 1476,
+		order = 0,
+		link_params = {
+			{
+				3,
+				5984,
+				"「DEATH之意」活动奖励"
+			}
+		}
+	},
+	[88] = {
+		id = 88,
+		activity = 5988,
+		count = 1,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 1478,
+		order = 0,
+		link_params = {
+			{
+				3,
+				5984,
+				"「DEATH之意」活动奖励"
+			}
+		}
+	},
+	[89] = {
+		id = 89,
+		activity = 5988,
+		count = 1,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 1480,
+		order = 0,
+		link_params = {
+			{
+				3,
+				5984,
+				"「DEATH之意」活动奖励"
+			}
+		}
+	},
+	[90] = {
+		id = 90,
+		activity = 5988,
+		count = 1,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 1472,
+		order = 0,
+		link_params = {
+			{
+				3,
+				5984,
+				"「DEATH之意」活动奖励"
+			}
+		}
+	},
+	[91] = {
+		id = 91,
+		activity = 5988,
+		count = 1,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 1473,
+		order = 0,
+		link_params = {
+			{
+				3,
+				5984,
+				"「DEATH之意」活动奖励"
+			}
+		}
+	},
+	[92] = {
+		id = 92,
+		activity = 5988,
+		count = 1,
+		type = 9,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 1474,
+		order = 0,
+		link_params = {
+			{
+				3,
+				5984,
+				"「DEATH之意」活动奖励"
+			}
+		}
+	},
+	[93] = {
+		id = 93,
+		activity = 5988,
+		count = 1,
+		type = 5,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 323001,
+		order = 0,
+		link_params = {
+			{
+				3,
+				5989,
+				"「幻影挑战」活动奖励"
+			}
+		}
+	},
+	[94] = {
+		id = 94,
+		activity = 5988,
+		count = 1,
+		type = 5,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 323002,
+		order = 0,
+		link_params = {
+			{
+				3,
+				5989,
+				"「幻影挑战」活动奖励"
+			}
+		}
+	},
+	[95] = {
+		id = 95,
+		activity = 5988,
+		count = 1,
+		type = 5,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 323101,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene court yard",
+					{}
+				},
+				"家具商店购买"
+			}
+		}
+	},
+	[96] = {
+		id = 96,
+		activity = 5988,
+		count = 1,
+		type = 5,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 323102,
+		order = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene court yard",
+					{}
+				},
+				"家具商店购买"
+			}
+		}
+	},
+	[97] = {
+		id = 97,
+		activity = 5988,
+		count = 1,
+		type = 5,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 307,
+		order = 0,
+		link_params = {
+			{
+				3,
+				5989,
+				"「幻影挑战」活动奖励"
+			}
+		}
+	},
+	[98] = {
+		id = 98,
+		activity = 5988,
+		count = 1,
+		type = 21,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 14240,
+		order = 0,
+		link_params = {
+			{
+				3,
+				5986,
+				"「BLACK之痕」活动奖励"
+			}
+		}
+	},
+	[99] = {
+		id = 99,
+		activity = 5988,
+		count = 1,
+		type = 21,
+		is_new = 1,
+		count_storage = 0,
+		drop_id = 14260,
+		order = 0,
+		link_params = {
+			{
+				3,
+				5984,
+				"「DEATH之意」活动奖励"
+			}
+		}
+	},
 	get_id_list_by_activity = {
 		[4937] = {
 			1,
@@ -1334,6 +1663,27 @@ pg.activity_limit_item_guide = {
 			74,
 			75,
 			76
+		},
+		[5988] = {
+			81,
+			82,
+			83,
+			84,
+			85,
+			86,
+			87,
+			88,
+			89,
+			90,
+			91,
+			92,
+			93,
+			94,
+			95,
+			96,
+			97,
+			98,
+			99
 		}
 	},
 	all = {
@@ -1401,6 +1751,25 @@ pg.activity_limit_item_guide = {
 		73,
 		74,
 		75,
-		76
+		76,
+		81,
+		82,
+		83,
+		84,
+		85,
+		86,
+		87,
+		88,
+		89,
+		90,
+		91,
+		92,
+		93,
+		94,
+		95,
+		96,
+		97,
+		98,
+		99
 	}
 }

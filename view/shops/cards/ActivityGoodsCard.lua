@@ -60,6 +60,7 @@ function var_0_0.updateSingle(arg_3_0, arg_3_1, arg_3_2, arg_3_3, arg_3_4)
 		setActive(arg_3_0.limitPassTag, false)
 	end
 
+	setActive(arg_3_0.unexchangeTag, false)
 	removeOnButton(arg_3_0.mask)
 
 	if var_3_1 then

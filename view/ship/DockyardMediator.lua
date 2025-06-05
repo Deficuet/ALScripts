@@ -6,7 +6,6 @@ var_0_0.ON_SHIP_REPAIR = "DockyardMediator:ON_SHIP_REPAIR"
 var_0_0.OPEN_DOCKYARD_INDEX = "DockyardMediator:OPEN_DOCKYARD_INDEX"
 var_0_0.CHANGE_SKIN = "DockyardMediator.CHANGE_SKIN"
 var_0_0.CHANGE_RANDOM_FLAG = "DockyardMediator.CHANGE_RANDOM_FLAG"
-var_0_0.QUIT_DOCKYARD_SCENE = "DockyardMediator.QUIT_DOCKYARD_SCENE"
 
 function var_0_0.register(arg_1_0)
 	local var_1_0 = getProxy(BayProxy)

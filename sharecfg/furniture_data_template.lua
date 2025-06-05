@@ -200,6 +200,9 @@ pg.furniture_data_template = setmetatable({
 			302,
 			303,
 			304,
+			305,
+			306,
+			307,
 			100001,
 			100002,
 			100003,
@@ -304,7 +307,11 @@ pg.furniture_data_template = setmetatable({
 			32106,
 			54101,
 			54102,
-			54103
+			54103,
+			323001,
+			323002,
+			323101,
+			323102
 		},
 		[8] = {
 			106,
@@ -3740,6 +3747,8 @@ pg.furniture_data_template = setmetatable({
 			299,
 			300,
 			301,
+			305,
+			306,
 			100001,
 			100002,
 			100003,
@@ -3884,7 +3893,8 @@ pg.furniture_data_template = setmetatable({
 			296,
 			302,
 			303,
-			304
+			304,
+			307
 		},
 		[7] = {
 			213,
@@ -4085,7 +4095,9 @@ pg.furniture_data_template = setmetatable({
 			319117,
 			320115,
 			321114,
-			322116
+			322116,
+			323101,
+			323102
 		},
 		[4] = {
 			1001,
@@ -4198,7 +4210,8 @@ pg.furniture_data_template = setmetatable({
 			319001,
 			320001,
 			321001,
-			322001
+			322001,
+			323001
 		},
 		[3] = {
 			1002,
@@ -4311,7 +4324,8 @@ pg.furniture_data_template = setmetatable({
 			319002,
 			320002,
 			321002,
-			322002
+			322002,
+			323002
 		},
 		{
 			1101,
@@ -7177,6 +7191,9 @@ pg.furniture_data_template = setmetatable({
 			302,
 			303,
 			304,
+			305,
+			306,
+			307,
 			100001,
 			100002,
 			100004,
@@ -9346,7 +9363,8 @@ pg.furniture_data_template = setmetatable({
 			322113,
 			322114,
 			322115,
-			322116
+			322116,
+			323101
 		},
 		[11] = {
 			131,
@@ -9400,7 +9418,8 @@ pg.furniture_data_template = setmetatable({
 			312115,
 			316112,
 			316121,
-			317107
+			317107,
+			323102
 		},
 		[14] = {
 			214,
@@ -9921,7 +9940,8 @@ pg.furniture_data_template = setmetatable({
 			319001,
 			320001,
 			321001,
-			322001
+			322001,
+			323001
 		},
 		{
 			1002,
@@ -10034,7 +10054,8 @@ pg.furniture_data_template = setmetatable({
 			319002,
 			320002,
 			321002,
-			322002
+			322002,
+			323002
 		},
 		[5] = {
 			1101,
@@ -10620,6 +10641,9 @@ pg.furniture_data_template = setmetatable({
 		302,
 		303,
 		304,
+		305,
+		306,
+		307,
 		100001,
 		100002,
 		100003,
@@ -13801,7 +13825,11 @@ pg.furniture_data_template = setmetatable({
 		322113,
 		322114,
 		322115,
-		322116
+		322116,
+		323001,
+		323002,
+		323101,
+		323102
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -23588,6 +23616,225 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			1
+		},
+		interAction_group = {}
+	},
+	[305] = {
+		spine_extra = "",
+		describe = "要来场坚果浴吗？不许偷吃哦~",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "洽洽坚果袋",
+		themeId = 0,
+		icon = "qiaqiajianguoicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 305,
+		can_rotate = 1,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiaqiajianguoB",
+				"normal"
+			},
+			{
+				"qiaqiajianguoT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					3.6,
+					106.54
+				},
+				{
+					268.5,
+					345.39
+				},
+				"chuanmo/qiaqiajianguo_mask"
+			},
+			{
+				-5.37,
+				-113.8
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[306] = {
+		spine_extra = "",
+		describe = "",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "阿华田巧克力棒浴缸",
+		themeId = 0,
+		icon = "ahuatianyugangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 306,
+		can_rotate = 1,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ahuatianyugangB",
+				"normal"
+			},
+			{
+				"ahuatianyugangT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash2",
+						nil,
+						"wash"
+					}
+				},
+				{
+					[3] = {
+						"wash1",
+						"wash"
+					},
+					[4] = wash
+				},
+				{
+					1
+				}
+			},
+			{
+				{
+					3,
+					169.6
+				},
+				{
+					257.3,
+					362.7
+				},
+				"chuanmo/ahuatianyugang_mask"
+			},
+			{
+				3.71,
+				-162.9
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[307] = {
+		spine_extra = "",
+		describe = "穿越幻境疆界，谱写超越世界的新篇章——献给参与联动活动的指挥官",
+		gain_by = "幻影迷途者",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 8,
+		icon = "brsxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "冲破黑暗",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 307,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"brsxunzhang",
+				"normal"
+			}
 		},
 		interAction_group = {}
 	},
@@ -165846,6 +166093,234 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[323001] = {
+		spine_extra = "",
+		describe = "黑白交织的另一个“世界”",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 0,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "黑与白的世界",
+		effect = "",
+		advice = 0,
+		icon = "dibanbrsicon",
+		spine_action_replace = "",
+		picture = "brs/dibanbrs",
+		comfortable = 4,
+		canputon = 0,
+		id = 323001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[323002] = {
+		spine_extra = "",
+		describe = "黑白交织的另一个“世界”",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 0,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "黑与白的世界",
+		effect = "",
+		advice = 0,
+		icon = "qiangbibrsicon",
+		spine_action_replace = "",
+		picture = "brs/qiangbibrs",
+		comfortable = 4,
+		canputon = 0,
+		id = 323002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[323101] = {
+		spine_extra = "",
+		describe = "从某位少女的存在中获得灵感的——家具？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "邪灵兵装",
+		themeId = 0,
+		icon = "dapaobrsicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 323101,
+		can_rotate = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dapaobrsB",
+				"normal"
+			},
+			{
+				"dapaobrsT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-11.7,
+					128.13
+				},
+				{
+					194,
+					268
+				},
+				"brs/dapaobrs_mask"
+			},
+			{
+				-2.9,
+				-65
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[323102] = {
+		spine_extra = "",
+		describe = "暂且不论移动是否方便，其构思获得了相当不错的评价",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "浮游的因缘",
+		themeId = 0,
+		icon = "liandaobrsicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 323102,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"liandaobrs",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.8
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	}

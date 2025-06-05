@@ -25,7 +25,7 @@ var_0_0.time_data = {
 	{
 		tf = "day1",
 		name = "day",
-		time = 30,
+		time = 30000000,
 		type = 1,
 		next = 2,
 		anim = "day",
@@ -34,7 +34,7 @@ var_0_0.time_data = {
 	{
 		tf = "sunSet",
 		name = "sunset",
-		time = 30,
+		time = 30000000,
 		type = 2,
 		next = 3,
 		anim = "sunset",
@@ -43,7 +43,7 @@ var_0_0.time_data = {
 	{
 		tf = "night",
 		name = "night",
-		time = 30,
+		time = 30000000,
 		type = 3,
 		next = 1,
 		anim = "night",
@@ -222,13 +222,6 @@ var_0_0.item_data = {
 		name = "sushi",
 		id = 9,
 		type = var_0_0.item_type_damage
-	},
-	{
-		buff_id = 5,
-		effect = "EF_fr_Item",
-		name = "Score_G",
-		id = 10,
-		type = var_0_0.item_type_buff
 	}
 }
 var_0_0.item_map = {
@@ -1088,14 +1081,6 @@ var_0_0.item_map = {
 				1,
 				1,
 				1
-			}
-		}
-	},
-	{
-		id = 21,
-		list = {
-			{
-				10
 			}
 		}
 	}

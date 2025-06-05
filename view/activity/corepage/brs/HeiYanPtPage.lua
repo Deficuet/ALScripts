@@ -1,0 +1,137 @@
+local var_0_0 = class("HeiYanPtPage", import("view.activity.CorePage.CoreActivityPage"))
+
+function var_0_0.OnInit(arg_1_0)
+	arg_1_0.bg = arg_1_0:findTF("AD")
+	arg_1_0.task_bg = arg_1_0:findTF("task_bg", arg_1_0.bg)
+	arg_1_0.slider = arg_1_0:findTF("slider", arg_1_0.task_bg)
+	arg_1_0.step = arg_1_0:findTF("step", arg_1_0.task_bg)
+	arg_1_0.progress = arg_1_0:findTF("progress", arg_1_0.task_bg)
+	arg_1_0.progres = arg_1_0:findTF("progres", arg_1_0.task_bg)
+	arg_1_0.displayBtn = arg_1_0:findTF("display_btn", arg_1_0.task_bg)
+	arg_1_0.awardTF = arg_1_0:findTF("award", arg_1_0.task_bg)
+	arg_1_0.battleBtn = arg_1_0:findTF("battle_btn", arg_1_0.task_bg)
+	arg_1_0.getBtn = arg_1_0:findTF("get_btn", arg_1_0.task_bg)
+	arg_1_0.gotBtn = arg_1_0:findTF("got_btn", arg_1_0.task_bg)
+end
+
+function var_0_0.OnDataSetting(arg_2_0)
+	if arg_2_0.ptData then
+		arg_2_0.ptData:Update(arg_2_0.activity)
+	else
+		arg_2_0.ptData = ActivityPtData.New(arg_2_0.activity)
+	end
+end
+
+function var_0_0.OnFirstFlush(arg_3_0)
+	onButton(arg_3_0, arg_3_0.displayBtn, function()
+		arg_3_0:emit(ActivityMediator.SHOW_AWARD_WINDOW, PtAwardWindow, {
+			blur = true,
+			type = arg_3_0.ptData.type,
+			dropList = arg_3_0.ptData.dropList,
+			targets = arg_3_0.ptData.targets,
+			level = arg_3_0.ptData.level,
+			count = arg_3_0.ptData.count,
+			resId = arg_3_0.ptData.resId,
+			unlockStamps = arg_3_0.ptData:GetDayUnlockStamps()
+		})
+	end, SFX_PANEL)
+	onButton(arg_3_0, arg_3_0.battleBtn, function()
+		arg_3_0:emit(ActivityMediator.SPECIAL_BATTLE_OPERA)
+	end, SFX_PANEL)
+	onButton(arg_3_0, arg_3_0.getBtn, function()
+		arg_3_0:GetAllAward()
+	end, SFX_PANEL)
+	arg_3_0:OnUpdateFlush()
+end
+
+function var_0_0.GetAllAward(arg_7_0)
+	local var_7_0 = {}
+	local var_7_1 = arg_7_0.ptData:GetAward()
+	local var_7_2 = getProxy(PlayerProxy):getRawData()
+	local var_7_3 = pg.gameset.urpt_chapter_max.description[1]
+	local var_7_4 = LOCK_UR_SHIP and 0 or getProxy(BagProxy):GetLimitCntById(var_7_3)
+	local var_7_5, var_7_6 = Task.StaticJudgeOverflow(var_7_2.gold, var_7_2.oil, var_7_4, true, true, {
+		{
+			var_7_1.type,
+			var_7_1.id,
+			var_7_1.count
+		}
+	})
+
+	if var_7_5 then
+		table.insert(var_7_0, function(arg_8_0)
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_ITEM_BOX,
+				content = i18n("award_max_warning"),
+				items = var_7_6,
+				onYes = arg_8_0
+			})
+		end)
+	end
+
+	seriesAsync(var_7_0, function()
+		local var_9_0, var_9_1 = arg_7_0.ptData:GetResProgress()
+
+		arg_7_0:emit(ActivityMediator.EVENT_PT_OPERATION, {
+			cmd = 1,
+			activity_id = arg_7_0.ptData:GetId(),
+			arg1 = var_9_1
+		})
+	end)
+end
+
+function var_0_0.OnUpdateFlush(arg_10_0)
+	local var_10_0, var_10_1, var_10_2 = arg_10_0.ptData:GetLevelProgress()
+
+	if arg_10_0.step then
+		setText(arg_10_0.step, var_10_0 .. "/" .. var_10_1)
+	end
+
+	local var_10_3 = arg_10_0.activity:getConfig("config_client").story
+
+	if checkExist(var_10_3, {
+		var_10_0
+	}, {
+		1
+	}) then
+		pg.NewStoryMgr.GetInstance():Play(var_10_3[var_10_0][1])
+	end
+
+	local var_10_4, var_10_5, var_10_6 = arg_10_0.ptData:GetResProgress()
+
+	setText(arg_10_0.progress, "/" .. var_10_5)
+	setText(arg_10_0.progres, var_10_6 >= 1 and setColorStr(var_10_4, "#6ef0ff") or var_10_4)
+	setSlider(arg_10_0.slider, 0, 1, var_10_6)
+
+	local var_10_7 = arg_10_0.ptData:CanGetAward()
+	local var_10_8 = arg_10_0.ptData:CanGetNextAward()
+	local var_10_9 = arg_10_0.ptData:CanGetMorePt()
+
+	setActive(arg_10_0.battleBtn, var_10_9 and not var_10_7 and var_10_8)
+	setActive(arg_10_0.getBtn, var_10_7)
+	setActive(arg_10_0.gotBtn, not var_10_8)
+
+	local var_10_10 = arg_10_0.ptData:GetAward()
+
+	updateDrop(arg_10_0.awardTF, var_10_10)
+	onButton(arg_10_0, arg_10_0.awardTF, function()
+		arg_10_0:emit(BaseUI.ON_DROP, var_10_10)
+	end, SFX_PANEL)
+end
+
+function var_0_0.OnDestroy(arg_12_0)
+	return
+end
+
+function var_0_0.GetWorldPtData(arg_13_0, arg_13_1)
+	if arg_13_1 <= pg.TimeMgr.GetInstance():GetServerTime() - (ActivityMainScene.Data2Time or 0) then
+		ActivityMainScene.Data2Time = pg.TimeMgr.GetInstance():GetServerTime()
+
+		arg_13_0:emit(ActivityMediator.EVENT_PT_OPERATION, {
+			cmd = 2,
+			activity_id = arg_13_0.ptData:GetId()
+		})
+	end
+end
+
+return var_0_0

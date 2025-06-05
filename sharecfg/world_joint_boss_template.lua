@@ -401,7 +401,7 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		state = "always",
 		name = "基洛夫·META",
 		painting = "jiluofu",
 		boss_level_id = 181,
@@ -576,12 +576,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "大黄蜂·META",
 		painting = "dahuangfeng",
 		boss_level_id = 256,
 		id = 18,
 		meta_id = 970706,
+		item_id = 100000,
 		description = {
 			{
 				"近地轨道支援",
@@ -592,32 +593,6 @@ pg.world_joint_boss_template = {
 				"幽灵行动",
 				1,
 				"大黄蜂·META每隔18秒，都会为其自身增添一层光学迷彩效果，每1层<color=#92fc63>提高自身6%回避率</color>，最多叠加3层。\n光学迷彩效果达到3层后，大黄蜂·META将会使用一次电磁脉冲攻击，<color=#92fc63>对所有我方单位造成致盲效果</color>，持续5秒。（视野受到影响，无法使用主炮开火、空袭支援等功能）"
-			}
-		},
-		state = {
-			{
-				{
-					2025,
-					3,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					6,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		p_offset = {
@@ -631,6 +606,64 @@ pg.world_joint_boss_template = {
 			562,
 			0.9,
 			0.9
+		}
+	},
+	{
+		item_id = 100000,
+		name = "茳·META",
+		painting = "jiangfeng",
+		boss_level_id = 271,
+		id = 19,
+		meta_id = 970108,
+		description = {
+			{
+				"二刀流·夕照",
+				2,
+				"\t茳·META每隔一段时间施展一次<color=#92fc63>「二刀流·夕照」</color>，以杀气锁定，0.5秒内大幅度降低目标移动速度，并同时造成交叉斩击，附带产生剑气。<color=#92fc63>斩击若命中则固定造成目标耐久上限5%的伤害</color>。\n茳·META的<color=#92fc63>所有剑气均会造成雷击伤害</color>。"
+			},
+			{
+				"过去之影",
+				3,
+				"\n「二刀流·夕照」的斩击每累计命中并造成伤害10次，或在单次战斗中自身每累计损失20%耐久，茳·META都将召唤一只「血影」，<color=#92fc63>永久提升自身炮击、雷击，并降低「二刀流·夕照」的释放间隔</color>。"
+			}
+		},
+		state = {
+			{
+				{
+					2025,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					9,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-376,
+			465,
+			0.73,
+			0.73
+		},
+		p_offset_other = {
+			236,
+			484,
+			0.68,
+			0.68
 		}
 	},
 	all = {
@@ -651,6 +684,7 @@ pg.world_joint_boss_template = {
 		15,
 		16,
 		17,
-		18
+		18,
+		19
 	}
 }

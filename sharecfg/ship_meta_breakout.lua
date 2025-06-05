@@ -30,6 +30,10 @@ pg.ship_meta_breakout = setmetatable({
 		9701072,
 		9701073,
 		9701074,
+		9701081,
+		9701082,
+		9701083,
+		9701084,
 		9702011,
 		9702012,
 		9702013,
@@ -637,6 +641,69 @@ pg.base.ship_meta_breakout = {
 		id = 9701074,
 		item1 = 21047,
 		pre_id = 9701073,
+		weapon_ids = {}
+	},
+	[9701081] = {
+		breakout_view = "习得技能【湮烬之核·{namecode:158}】/鱼雷效率提高5%",
+		gold = 1000,
+		breakout_id = 9701082,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9701081,
+		item1 = 21049,
+		pre_id = 0,
+		weapon_ids = {
+			170791
+		}
+	},
+	[9701082] = {
+		breakout_view = "鱼雷底座+1/鱼雷预装填+1/鱼雷效率提高10%",
+		gold = 3000,
+		breakout_id = 9701083,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9701082,
+		item1 = 21049,
+		pre_id = 9701081,
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[9701083] = {
+		breakout_view = "【湮烬之核·{namecode:158}】升级/全武器效率提高5%",
+		gold = 10000,
+		breakout_id = 9701084,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9701083,
+		item1 = 21049,
+		pre_id = 9701082,
+		weapon_ids = {
+			170792
+		}
+	},
+	[9701084] = {
+		breakout_view = "无",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9701084,
+		item1 = 21049,
+		pre_id = 9701083,
 		weapon_ids = {}
 	},
 	[9702011] = {

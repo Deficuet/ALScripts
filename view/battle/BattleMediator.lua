@@ -1386,11 +1386,14 @@ function var_0_0.GenBattleData(arg_35_0)
 
 			local var_35_176 = var_35_1 == SYSTEM_BOSS_SINGLE_VARIABLE and 100 or 10
 			local var_35_177 = var_35_167[arg_35_0.contextData.mainFleetId + var_35_176]
-			local var_35_178 = _.values(var_35_177:getCommanders())
-			local var_35_179 = var_35_177:getTeamByName(TeamType.Submarine)
 
-			for iter_35_64, iter_35_65 in ipairs(var_35_179) do
-				var_35_173(iter_35_65, var_35_178, var_35_0.SubUnitList, var_35_172)
+			if var_35_177 then
+				local var_35_178 = _.values(var_35_177:getCommanders())
+				local var_35_179 = var_35_177:getTeamByName(TeamType.Submarine)
+
+				for iter_35_64, iter_35_65 in ipairs(var_35_179) do
+					var_35_173(iter_35_65, var_35_178, var_35_0.SubUnitList, var_35_172)
+				end
 			end
 
 			local var_35_180 = getProxy(PlayerProxy):getRawData()
@@ -1400,8 +1403,10 @@ function var_0_0.GenBattleData(arg_35_0)
 
 			local var_35_182 = pg.strategy_data_template
 
-			for iter_35_66, iter_35_67 in ipairs(arg_35_0.contextData.variableBuffList) do
-				table.insert(var_35_0.ChapterBuffIDs, var_35_182[iter_35_67].buff_id)
+			if arg_35_0.contextData.variableBuffList then
+				for iter_35_66, iter_35_67 in ipairs(arg_35_0.contextData.variableBuffList) do
+					table.insert(var_35_0.ChapterBuffIDs, var_35_182[iter_35_67].buff_id)
+				end
 			end
 
 			local var_35_183 = var_35_181:GetEnemyDataByStageId(arg_35_0.contextData.stageId):GetOilLimit()
@@ -1423,14 +1428,17 @@ function var_0_0.GenBattleData(arg_35_0)
 			end
 
 			var_35_186(var_35_168, var_35_183[1] or 0)
-			var_35_186(var_35_177, var_35_183[2] or 0)
 
-			if var_35_177:isLegalToFight() == true and var_35_184 <= var_35_180.oil then
-				var_35_0.SubFlag = 1
-				var_35_0.TotalSubAmmo = 1
+			if var_35_177 then
+				var_35_186(var_35_177, var_35_183[2] or 0)
+
+				if var_35_177:isLegalToFight() == true and var_35_184 <= var_35_180.oil then
+					var_35_0.SubFlag = 1
+					var_35_0.TotalSubAmmo = 1
+				end
+
+				var_35_0.SubCommanderList = var_35_177:buildBattleBuffList()
 			end
-
-			var_35_0.SubCommanderList = var_35_177:buildBattleBuffList()
 
 			arg_35_0.viewComponent:setFleet(var_35_170, var_35_171, var_35_172)
 		end

@@ -721,6 +721,78 @@ pg.activity_single_enemy = {
 			201320
 		}
 	},
+	[3001] = {
+		expedition_id = 1929001,
+		pre_chapter = 0,
+		count = 0,
+		type = 1,
+		name = "ABRS-1",
+		enter_cost_drop = 0,
+		strategy_num = 0,
+		icon = "",
+		guardian_limit = 0,
+		level = "30",
+		time = "always",
+		enter_cost = 0,
+		id = 3001,
+		activity_type = 1,
+		extra_drop = "",
+		strategy_id = "",
+		use_oil_limit = {
+			0,
+			0
+		},
+		limitation = {},
+		property_limitation = {}
+	},
+	[3002] = {
+		expedition_id = 1929002,
+		pre_chapter = 3001,
+		count = 0,
+		type = 1,
+		name = "ABRS-2",
+		enter_cost_drop = 0,
+		strategy_num = 0,
+		icon = "",
+		guardian_limit = 0,
+		level = "60",
+		time = "always",
+		enter_cost = 0,
+		id = 3002,
+		activity_type = 1,
+		extra_drop = "",
+		strategy_id = "",
+		use_oil_limit = {
+			0,
+			0
+		},
+		limitation = {},
+		property_limitation = {}
+	},
+	[3003] = {
+		expedition_id = 1929003,
+		pre_chapter = 3002,
+		count = 0,
+		type = 1,
+		name = "ABRS-3",
+		enter_cost_drop = 0,
+		strategy_num = 0,
+		icon = "",
+		guardian_limit = 0,
+		level = "90",
+		time = "always",
+		enter_cost = 0,
+		id = 3003,
+		activity_type = 1,
+		extra_drop = "",
+		strategy_id = "",
+		use_oil_limit = {
+			0,
+			0
+		},
+		limitation = {},
+		property_limitation = {}
+	},
 	all = {
 		1001,
 		1002,
@@ -739,6 +811,9 @@ pg.activity_single_enemy = {
 		2010,
 		2011,
 		2012,
-		2013
+		2013,
+		3001,
+		3002,
+		3003
 	}
 }

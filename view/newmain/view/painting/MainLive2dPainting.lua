@@ -42,7 +42,6 @@ function var_0_0.OnLoad(arg_4_0, arg_4_1)
 	arg_4_0.cg.blocksRaycasts = true
 	arg_4_0.live2dChar = Live2D.New(var_4_0, function(arg_5_0)
 		arg_4_0:AdJustOrderInLayer(arg_5_0)
-		arg_4_1()
 
 		if arg_4_0._initTriggerAction then
 			for iter_5_0, iter_5_1 in ipairs(arg_4_0._initTriggerAction) do
@@ -59,6 +58,8 @@ function var_0_0.OnLoad(arg_4_0, arg_4_1)
 
 			arg_4_0._initTriggerAction = nil
 		end
+
+		arg_4_1()
 	end)
 	arg_4_0.shipGroup = getProxy(CollectionProxy):getShipGroup(arg_4_0.ship.groupId)
 
@@ -328,7 +329,7 @@ function var_0_0.OnUpdateShip(arg_29_0, arg_29_1)
 end
 
 function var_0_0.SetContainerVisible(arg_30_0, arg_30_1)
-	setActive(arg_30_0.live2dContainer, arg_30_1)
+	return
 end
 
 function var_0_0.OnResume(arg_31_0)

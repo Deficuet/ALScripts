@@ -17,14 +17,15 @@ function var_0_0.updateGiftGoodsVOList(arg_3_0)
 	for iter_3_0, iter_3_1 in pairs(var_3_1.all) do
 		if not table.contains(var_3_0, iter_3_1) then
 			local var_3_2 = var_3_1[iter_3_1]
+			local var_3_3 = var_3_2.extra_service
 
-			if var_3_2.extra_service == Goods.ITEM_BOX and var_3_2.akashi_pick == 1 then
-				local var_3_3 = Goods.Create({
+			if var_3_2.akashi_pick == 1 and (var_3_3 == Goods.ITEM_BOX or var_3_3 == Goods.PASS_ITEM) then
+				local var_3_4 = Goods.Create({
 					shop_id = iter_3_1
 				}, Goods.TYPE_CHARGE)
 
-				if arg_3_0:filterLimitTypeGoods(var_3_3) then
-					table.insert(arg_3_0.giftGoodsVOList, var_3_3)
+				if arg_3_0:filterLimitTypeGoods(var_3_4) then
+					table.insert(arg_3_0.giftGoodsVOList, var_3_4)
 				end
 			end
 		end
@@ -32,11 +33,11 @@ function var_0_0.updateGiftGoodsVOList(arg_3_0)
 
 	for iter_3_2, iter_3_3 in pairs(pg.shop_template.get_id_list_by_genre.gift_package) do
 		if pg.shop_template[iter_3_3].akashi_pick == 1 and not table.contains(var_3_0, iter_3_3) then
-			local var_3_4 = Goods.Create({
+			local var_3_5 = Goods.Create({
 				shop_id = iter_3_3
 			}, Goods.TYPE_GIFT_PACKAGE)
 
-			table.insert(arg_3_0.giftGoodsVOList, var_3_4)
+			table.insert(arg_3_0.giftGoodsVOList, var_3_5)
 		end
 	end
 end

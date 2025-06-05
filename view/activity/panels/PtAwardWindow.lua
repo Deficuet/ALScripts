@@ -84,6 +84,9 @@ function var_0_0.Show(arg_7_0, arg_7_1)
 	local var_7_3 = arg_7_1.count
 	local var_7_4 = arg_7_1.resId
 	local var_7_5 = arg_7_1.type
+
+	arg_7_0.blur = arg_7_1.blur
+
 	local var_7_6 = arg_7_1.unlockStamps
 
 	arg_7_0.resIcon = nil
@@ -97,6 +100,10 @@ function var_0_0.Show(arg_7_0, arg_7_1)
 
 	Canvas.ForceUpdateCanvases()
 	setActive(arg_7_0._tf, true)
+
+	if arg_7_0.blur then
+		pg.UIMgr.GetInstance():BlurPanel(arg_7_0._tf)
+	end
 end
 
 function var_0_0.UpdateTitle(arg_8_0, arg_8_1)
@@ -136,10 +143,16 @@ function var_0_0.updateResIcon(arg_9_0, arg_9_1, arg_9_2, arg_9_3)
 		else
 			setActive(arg_9_0.ptIcon, false)
 		end
+	else
+		setActive(arg_9_0.ptIcon, false)
 	end
 end
 
 function var_0_0.Hide(arg_10_0)
+	if arg_10_0.blur then
+		pg.UIMgr.GetInstance():UnblurPanel(arg_10_0._tf)
+	end
+
 	setActive(arg_10_0._tf, false)
 end
 

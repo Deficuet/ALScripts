@@ -382374,6 +382374,632 @@ _G.pg.base.ship_data_statistics[900506] = {
 	tag_list = {}
 }
 
+_G.pg.base.ship_data_statistics[900507] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "海王星",
+	type = 2,
+	oxy_cost = 0,
+	skin_id = 299010,
+	english_name = "HMS Neptune",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 900507,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		815,
+		32,
+		67,
+		69,
+		0,
+		60,
+		0,
+		54,
+		28,
+		33.5,
+		0,
+		92
+	},
+	attrs_growth = {
+		19890,
+		700,
+		1404,
+		1445,
+		0,
+		418,
+		0,
+		803,
+		542,
+		0,
+		0,
+		438
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		214
+	},
+	default_equip_list = {
+		22293,
+		25053,
+		26673
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.6,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Plan-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[900508] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "奇尔沙治",
+	type = 10,
+	oxy_cost = 0,
+	skin_id = 199040,
+	english_name = "USS Kearsarge",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	nationality = 1,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 900508,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1571,
+		83,
+		0,
+		63,
+		70,
+		56,
+		0,
+		28,
+		8,
+		30,
+		0,
+		0
+	},
+	attrs_growth = {
+		40236,
+		1695,
+		0,
+		1333,
+		1661,
+		391,
+		0,
+		397,
+		233,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		11250,
+		11250
+	},
+	default_equip_list = {
+		43173,
+		17453,
+		16493
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		4,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.8,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Plan-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[900509] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "BLACK★ROCK SHOOTER（后排）",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 11200010,
+	english_name = "BLACK★ROCK SHOOTER",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 112,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 900509,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3286,
+		169,
+		0,
+		139,
+		0,
+		64,
+		0,
+		24,
+		10,
+		35,
+		89,
+		0
+	},
+	attrs_growth = {
+		38008,
+		1044,
+		0,
+		1203,
+		0,
+		442,
+		0,
+		339,
+		187,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		14513,
+		90173,
+		16493
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"BRS"
+	}
+}
+
+_G.pg.base.ship_data_statistics[900510] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "BLACK★ROCK SHOOTER（前排）",
+	type = 3,
+	oxy_cost = 0,
+	skin_id = 11200010,
+	english_name = "BLACK★ROCK SHOOTER",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 112,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 900510,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3286,
+		169,
+		0,
+		139,
+		0,
+		64,
+		0,
+		24,
+		10,
+		35,
+		89,
+		0
+	},
+	attrs_growth = {
+		38008,
+		1044,
+		0,
+		1203,
+		0,
+		442,
+		0,
+		339,
+		187,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		43173,
+		90173,
+		16493
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1,
+		1.4
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"BRS"
+	}
+}
+
+_G.pg.base.ship_data_statistics[900511] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "死亡主宰",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 11200020,
+	english_name = "DEAD MASTER",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 112,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 900511,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2778,
+		0,
+		0,
+		155,
+		199,
+		43,
+		0,
+		32,
+		12,
+		30,
+		92,
+		0
+	},
+	attrs_growth = {
+		30269,
+		0,
+		0,
+		1328,
+		984,
+		295,
+		0,
+		471,
+		303,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		3279401,
+		841050,
+		841050
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.3,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"BRS"
+	}
+}
+
 _G.pg.base.ship_data_statistics[900801] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -400541,6 +401167,506 @@ _G.pg.base.ship_data_statistics[9701074] = {
 	},
 	tag_list = {
 		"GrenvilleMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9701081] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "江风·META",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 9701080,
+	english_name = "Kawakaze.META",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9701081,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		309,
+		19,
+		114,
+		31,
+		0,
+		80,
+		0,
+		57,
+		69,
+		41,
+		38,
+		49
+	},
+	attrs_growth = {
+		6267,
+		238,
+		1370,
+		417,
+		0,
+		554,
+		0,
+		767,
+		908,
+		0,
+		0,
+		658
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.8,
+		1.35,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"KawakazeMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9701082] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "江风·META",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 9701080,
+	english_name = "Kawakaze.META",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9701082,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		384,
+		24,
+		142,
+		39,
+		0,
+		80,
+		0,
+		57,
+		69,
+		41,
+		38,
+		61
+	},
+	attrs_growth = {
+		6267,
+		238,
+		1370,
+		417,
+		0,
+		554,
+		0,
+		767,
+		908,
+		0,
+		0,
+		658
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.8,
+		1.4,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"KawakazeMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9701083] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "江风·META",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 9701080,
+	english_name = "Kawakaze.META",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9701083,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		535,
+		33,
+		199,
+		54,
+		0,
+		80,
+		0,
+		57,
+		69,
+		41,
+		38,
+		86
+	},
+	attrs_growth = {
+		6267,
+		238,
+		1370,
+		417,
+		0,
+		554,
+		0,
+		767,
+		908,
+		0,
+		0,
+		658
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		0.8,
+		1.5,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"KawakazeMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9701084] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "江风·META",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 9701080,
+	english_name = "Kawakaze.META",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9701084,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		761,
+		47,
+		284,
+		76,
+		0,
+		80,
+		0,
+		57,
+		69,
+		41,
+		38,
+		122
+	},
+	attrs_growth = {
+		6267,
+		238,
+		1370,
+		417,
+		0,
+		554,
+		0,
+		767,
+		908,
+		0,
+		0,
+		658
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		0.85,
+		1.55,
+		0.85
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"KawakazeMETA"
 	}
 }
 
@@ -459245,6 +460371,1002 @@ _G.pg.base.ship_data_statistics[11100064] = {
 	tag_list = {
 		"To LOVE-Ru",
 		"Toloveyui"
+	}
+}
+
+_G.pg.base.ship_data_statistics[11200011] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "BLACK★ROCK SHOOTER",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 11200010,
+	english_name = "BLACK★ROCK SHOOTER",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 112,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 11200011,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1334,
+		68,
+		0,
+		56,
+		0,
+		64,
+		0,
+		24,
+		10,
+		35,
+		26,
+		0
+	},
+	attrs_growth = {
+		38008,
+		1044,
+		0,
+		1203,
+		0,
+		442,
+		0,
+		339,
+		187,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"BRS"
+	}
+}
+
+_G.pg.base.ship_data_statistics[11200012] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "BLACK★ROCK SHOOTER",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 11200010,
+	english_name = "BLACK★ROCK SHOOTER",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 112,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 11200012,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1659,
+		85,
+		0,
+		70,
+		0,
+		64,
+		0,
+		24,
+		10,
+		35,
+		26,
+		0
+	},
+	attrs_growth = {
+		38008,
+		1044,
+		0,
+		1203,
+		0,
+		442,
+		0,
+		339,
+		187,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"BRS"
+	}
+}
+
+_G.pg.base.ship_data_statistics[11200013] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "BLACK★ROCK SHOOTER",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 11200010,
+	english_name = "BLACK★ROCK SHOOTER",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 112,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 11200013,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2310,
+		118,
+		0,
+		97,
+		0,
+		64,
+		0,
+		24,
+		10,
+		35,
+		26,
+		0
+	},
+	attrs_growth = {
+		38008,
+		1044,
+		0,
+		1203,
+		0,
+		442,
+		0,
+		339,
+		187,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"BRS"
+	}
+}
+
+_G.pg.base.ship_data_statistics[11200014] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "BLACK★ROCK SHOOTER",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 11200010,
+	english_name = "BLACK★ROCK SHOOTER",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 112,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 11200014,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3286,
+		169,
+		0,
+		139,
+		0,
+		64,
+		0,
+		24,
+		10,
+		35,
+		26,
+		0
+	},
+	attrs_growth = {
+		38008,
+		1044,
+		0,
+		1203,
+		0,
+		442,
+		0,
+		339,
+		187,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"BRS"
+	}
+}
+
+_G.pg.base.ship_data_statistics[11200021] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "DEAD MASTER",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 11200020,
+	english_name = "DEAD MASTER",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 112,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 11200021,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1107,
+		0,
+		0,
+		61,
+		83,
+		51,
+		0,
+		32,
+		13,
+		31.5,
+		17,
+		0
+	},
+	attrs_growth = {
+		29723,
+		0,
+		0,
+		1286,
+		1009,
+		353,
+		0,
+		471,
+		320,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		119,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.15,
+		1.15
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"BRS",
+		"DM"
+	}
+}
+
+_G.pg.base.ship_data_statistics[11200022] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "DEAD MASTER",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 11200020,
+	english_name = "DEAD MASTER",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 112,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 11200022,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1377,
+		0,
+		0,
+		76,
+		103,
+		51,
+		0,
+		32,
+		13,
+		31.5,
+		17,
+		0
+	},
+	attrs_growth = {
+		29723,
+		0,
+		0,
+		1286,
+		1009,
+		353,
+		0,
+		471,
+		320,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		119,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.28,
+		1.18,
+		1.18
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"BRS",
+		"DM"
+	}
+}
+
+_G.pg.base.ship_data_statistics[11200023] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "DEAD MASTER",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 11200020,
+	english_name = "DEAD MASTER",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 112,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 11200023,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1917,
+		0,
+		0,
+		106,
+		144,
+		51,
+		0,
+		32,
+		13,
+		31.5,
+		17,
+		0
+	},
+	attrs_growth = {
+		29723,
+		0,
+		0,
+		1286,
+		1009,
+		353,
+		0,
+		471,
+		320,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		119,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.33,
+		1.23,
+		1.23
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"BRS",
+		"DM"
+	}
+}
+
+_G.pg.base.ship_data_statistics[11200024] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "DEAD MASTER",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 11200020,
+	english_name = "DEAD MASTER",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 112,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 11200024,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2727,
+		0,
+		0,
+		150,
+		206,
+		51,
+		0,
+		32,
+		13,
+		31.5,
+		17,
+		0
+	},
+	attrs_growth = {
+		29723,
+		0,
+		0,
+		1286,
+		1009,
+		353,
+		0,
+		471,
+		320,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		119,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		3,
+		2,
+		3
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.3,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"BRS",
+		"DM"
 	}
 }
 

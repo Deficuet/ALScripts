@@ -32,6 +32,7 @@ function var_0_0.Ctor(arg_1_0)
 		MainNotificationWindowSequence.New(),
 		MainRequestFeastActDataSequence.New(),
 		MainActDataExpirationReminderSequence.New(),
+		MainRequestNewInstagramDataSequence.New(),
 		MainCalcHxSequence.New(),
 		MainGuideSequence.New(),
 		MainOpenSystemSequence.New()

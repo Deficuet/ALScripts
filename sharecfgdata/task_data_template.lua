@@ -44398,6 +44398,291 @@ _G.pg.base.task_data_template[10194] = {
 	}
 }
 
+_G.pg.base.task_data_template[10195] = {
+	name = "限时 兵装训练任务1",
+	guild_coin_award = 0,
+	award = 94085,
+	type = 6,
+	desc = "完成1次「每日挑战-限时兵装训练」",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 10195,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			10
+		},
+		{
+			2,
+			15021,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[10196] = {
+	name = "限时 兵装训练任务2",
+	guild_coin_award = 0,
+	award = 94085,
+	type = 6,
+	desc = "完成2次「每日挑战-限时兵装训练」",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 10196,
+	target_num = 2,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			10
+		},
+		{
+			2,
+			15021,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[10197] = {
+	name = "限时 兵装训练任务3",
+	guild_coin_award = 0,
+	award = 94086,
+	type = 6,
+	desc = "完成3次「每日挑战-限时兵装训练」",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 10197,
+	target_num = 3,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			25
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[10198] = {
+	name = "限时 兵装训练任务4",
+	guild_coin_award = 0,
+	award = 94087,
+	type = 6,
+	desc = "完成4次「每日挑战-限时兵装训练」",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 10198,
+	target_num = 4,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			2
+		},
+		{
+			2,
+			15016,
+			25
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[10199] = {
+	name = "限时 兵装训练任务5",
+	guild_coin_award = 0,
+	award = 94088,
+	type = 6,
+	desc = "完成5次「每日挑战-限时兵装训练」",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 10199,
+	target_num = 5,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			3
+		},
+		{
+			2,
+			15017,
+			5
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			4
+		}
+	}
+}
+
 _G.pg.base.task_data_template[10302] = {
 	name = "通关3-4赠送伊58",
 	guild_coin_award = 0,
@@ -151717,7 +152002,7 @@ _G.pg.base.task_data_template[21769] = {
 	guild_coin_award = 0,
 	award = 906212,
 	type = 26,
-	desc = "后宅补充食物5次",
+	desc = "（1/7）后宅补充食物5次",
 	count_inherit = 0,
 	sub_type = 61,
 	target_id_2 = "",
@@ -151758,7 +152043,7 @@ _G.pg.base.task_data_template[21770] = {
 	guild_coin_award = 0,
 	award = 906213,
 	type = 26,
-	desc = "舰船强化5次",
+	desc = "（2/7）舰船强化5次",
 	count_inherit = 0,
 	sub_type = 34,
 	target_id_2 = "",
@@ -151799,7 +152084,7 @@ _G.pg.base.task_data_template[21771] = {
 	guild_coin_award = 0,
 	award = 906214,
 	type = 26,
-	desc = "舰队出征，以S评价通关10次",
+	desc = "（3/7）舰队出征，以S评价通关10次",
 	count_inherit = 0,
 	sub_type = 24,
 	target_id_2 = "",
@@ -151842,7 +152127,7 @@ _G.pg.base.task_data_template[21772] = {
 	guild_coin_award = 0,
 	award = 906215,
 	type = 26,
-	desc = "舰船退役2次",
+	desc = "（4/7）舰船退役2次",
 	count_inherit = 0,
 	sub_type = 31,
 	target_id_2 = "",
@@ -151883,7 +152168,7 @@ _G.pg.base.task_data_template[21773] = {
 	guild_coin_award = 0,
 	award = 906216,
 	type = 26,
-	desc = "进行战术训练2次",
+	desc = "（5/7）进行战术训练2次",
 	count_inherit = 0,
 	sub_type = 71,
 	target_id_2 = "",
@@ -151924,7 +152209,7 @@ _G.pg.base.task_data_template[21774] = {
 	guild_coin_award = 0,
 	award = 906217,
 	type = 26,
-	desc = "击沉任意敌人20艘",
+	desc = "（6/7）击沉任意敌人20艘",
 	count_inherit = 0,
 	sub_type = 11,
 	target_id_2 = "",
@@ -151965,7 +152250,7 @@ _G.pg.base.task_data_template[21775] = {
 	guild_coin_award = 0,
 	award = 906218,
 	type = 26,
-	desc = "击败旗舰3次 ",
+	desc = "（7/7）击败旗舰3次 ",
 	count_inherit = 0,
 	sub_type = 21,
 	target_id_2 = "",
@@ -168030,6 +168315,334 @@ _G.pg.base.task_data_template[23844] = {
 		{
 			4,
 			103291,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23845] = {
+	name = "小大凤npc临时加入",
+	guild_coin_award = 0,
+	award = 906231,
+	type = 6,
+	desc = "不该看到",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23845,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			307131,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23846] = {
+	name = "『3D宿舍』第二期-签到活动1",
+	guild_coin_award = 0,
+	award = 906244,
+	type = 6,
+	desc = "进入宿舍基建",
+	count_inherit = 0,
+	sub_type = 502,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23846,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15023,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23847] = {
+	name = "『3D宿舍』第二期-签到活动2",
+	guild_coin_award = 0,
+	award = 906245,
+	type = 6,
+	desc = "进入宿舍基建",
+	count_inherit = 0,
+	sub_type = 502,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23847,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23848] = {
+	name = "『3D宿舍』第二期-签到活动3",
+	guild_coin_award = 0,
+	award = 906246,
+	type = 6,
+	desc = "进入宿舍基建",
+	count_inherit = 0,
+	sub_type = 502,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23848,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			27,
+			1021001,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23849] = {
+	name = "『3D宿舍』第二期-签到活动4",
+	guild_coin_award = 0,
+	award = 906247,
+	type = 6,
+	desc = "进入宿舍基建",
+	count_inherit = 0,
+	sub_type = 502,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23849,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23850] = {
+	name = "『3D宿舍』第二期-签到活动5",
+	guild_coin_award = 0,
+	award = 906248,
+	type = 6,
+	desc = "进入宿舍基建",
+	count_inherit = 0,
+	sub_type = 502,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23850,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			27,
+			1021001,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23851] = {
+	name = "『3D宿舍』第二期-签到活动6",
+	guild_coin_award = 0,
+	award = 906249,
+	type = 6,
+	desc = "进入宿舍基建",
+	count_inherit = 0,
+	sub_type = 502,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23851,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30025,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23852] = {
+	name = "『3D宿舍』第二期-签到活动7",
+	guild_coin_award = 0,
+	award = 906250,
+	type = 6,
+	desc = "进入宿舍基建",
+	count_inherit = 0,
+	sub_type = 502,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23852,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			27,
+			1021002,
 			1
 		}
 	}
@@ -275814,6 +276427,325 @@ _G.pg.base.task_data_template[500127] = {
 	activity_client_config = "",
 	added_tip = 1,
 	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18033,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[500131] = {
+	name = "魔女的邀请函",
+	guild_coin_award = 0,
+	award = 500131,
+	type = 5,
+	desc = "提交3个《鱼雷天妇罗》",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "aogusite",
+	is_head = 1,
+	task_fold = 0,
+	open_need = "",
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	ryza_type = 0,
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "500132",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "50003",
+	story_id = "AOGUSITE1",
+	tutorial_handbook_pic = "",
+	id = 500131,
+	target_num = 3,
+	activity_client_config = "",
+	added_tip = 1,
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+_G.pg.base.task_data_template[500132] = {
+	name = "魔女的试炼",
+	guild_coin_award = 0,
+	award = 500132,
+	type = 5,
+	desc = "强化任意角色10次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "aogusite",
+	is_head = 0,
+	task_fold = 0,
+	open_need = "",
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	ryza_type = 0,
+	priority_type = 0,
+	story_id = "AOGUSITE2",
+	ryza_icon = "",
+	next_task = "500133",
+	auto_commit = 0,
+	story_icon_shift = "",
+	fix_task = 0,
+	scene = "",
+	target_id = "0",
+	tutorial_handbook_pic = "",
+	id = 500132,
+	target_num = 10,
+	activity_client_config = "",
+	added_tip = 1,
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[500133] = {
+	name = "命定之地",
+	guild_coin_award = 0,
+	award = 500133,
+	type = 5,
+	desc = "{namecode:481}上阵出击(关卡)胜利20次",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "aogusite",
+	is_head = 0,
+	task_fold = 0,
+	open_need = "",
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	ryza_type = 0,
+	priority_type = 0,
+	story_id = "AOGUSITE3",
+	ryza_icon = "",
+	next_task = "500134",
+	auto_commit = 0,
+	story_icon_shift = "",
+	fix_task = 0,
+	scene = "",
+	target_id = "49906",
+	tutorial_handbook_pic = "",
+	id = 500133,
+	target_num = 20,
+	activity_client_config = "",
+	added_tip = 1,
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[500134] = {
+	name = "点亮星光之地",
+	guild_coin_award = 0,
+	award = 500134,
+	type = 5,
+	desc = "累计消耗石油500",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "aogusite",
+	is_head = 0,
+	task_fold = 0,
+	open_need = "",
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	ryza_type = 0,
+	priority_type = 0,
+	story_id = "AOGUSITE4",
+	ryza_icon = "",
+	next_task = "500135",
+	auto_commit = 0,
+	story_icon_shift = "",
+	fix_task = 0,
+	scene = "",
+	target_id = "0",
+	tutorial_handbook_pic = "",
+	id = 500134,
+	target_num = 500,
+	activity_client_config = "",
+	added_tip = 1,
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[500135] = {
+	name = "魔女的结界",
+	guild_coin_award = 0,
+	award = 500135,
+	type = 5,
+	desc = "{namecode:481}好感度达到100",
+	count_inherit = 0,
+	sub_type = 1012,
+	target_id_2 = "",
+	story_icon = "aogusite",
+	is_head = 0,
+	task_fold = 0,
+	open_need = "",
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	ryza_type = 0,
+	priority_type = 0,
+	story_id = "AOGUSITE5",
+	ryza_icon = "",
+	next_task = "500136",
+	auto_commit = 0,
+	story_icon_shift = "",
+	fix_task = 0,
+	scene = "",
+	target_id = "49906",
+	tutorial_handbook_pic = "",
+	id = 500135,
+	target_num = 10000,
+	activity_client_config = "",
+	added_tip = 1,
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[500136] = {
+	name = "魔女的盛宴",
+	guild_coin_award = 0,
+	award = 500136,
+	type = 5,
+	desc = "{namecode:481}突破至满星",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "aogusite",
+	is_head = 0,
+	task_fold = 0,
+	open_need = "",
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	ryza_type = 0,
+	priority_type = 0,
+	story_id = "AOGUSITE6",
+	ryza_icon = "",
+	next_task = "500137",
+	auto_commit = 0,
+	story_icon_shift = "",
+	fix_task = 0,
+	scene = "",
+	target_id = "49906",
+	tutorial_handbook_pic = "",
+	id = 500136,
+	target_num = 6,
+	activity_client_config = "",
+	added_tip = 1,
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18032,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[500137] = {
+	name = "共赴星河",
+	guild_coin_award = 0,
+	award = 500137,
+	type = 5,
+	desc = "{namecode:481}等级达到100",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "aogusite",
+	is_head = 0,
+	task_fold = 0,
+	open_need = "",
+	award_choice = "",
+	visibility = 1,
+	quick_finish = 0,
+	level = 1,
+	ryza_type = 0,
+	priority_type = 0,
+	story_id = "AOGUSITE7",
+	ryza_icon = "",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	fix_task = 0,
+	scene = "",
+	target_id = "49906",
+	tutorial_handbook_pic = "",
+	id = 500137,
+	target_num = 100,
+	activity_client_config = "",
+	added_tip = 1,
 	award_display = {
 		{
 			1,

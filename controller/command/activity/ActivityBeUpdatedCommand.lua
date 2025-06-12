@@ -5,11 +5,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_1 = var_1_0.activity
 	local var_1_2 = var_1_0.isInit
 
-	if var_1_1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_INSTAGRAM then
-		if var_1_1:CanBeActivated() then
-			getProxy(ActivityProxy):AddInstagramTimer(var_1_1.id)
-		end
-	elseif not var_1_2 and var_1_1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_BUFF and arg_1_0:IsLinkVoteAct(var_1_1) then
+	if not var_1_2 and var_1_1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_BUFF and arg_1_0:IsLinkVoteAct(var_1_1) then
 		local var_1_3 = ActivityPtData.New(var_1_1)
 
 		if var_1_3:CanGetAward() then

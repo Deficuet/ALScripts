@@ -410,3 +410,40 @@ function table.CastToString(arg_33_0)
 
 	return var_33_0 .. "}"
 end
+
+function table.Diff(arg_34_0, arg_34_1, arg_34_2)
+	arg_34_2 = arg_34_2 or function(arg_35_0)
+		return arg_35_0
+	end
+
+	local var_34_0 = {}
+	local var_34_1 = {}
+
+	for iter_34_0, iter_34_1 in ipairs(arg_34_0) do
+		var_34_0[arg_34_2(iter_34_1)] = iter_34_1
+	end
+
+	for iter_34_2, iter_34_3 in ipairs(arg_34_1) do
+		var_34_1[arg_34_2(iter_34_3)] = iter_34_3
+	end
+
+	local var_34_2 = {}
+	local var_34_3 = {}
+	local var_34_4 = {}
+
+	for iter_34_4, iter_34_5 in pairs(var_34_1) do
+		if var_34_0[iter_34_4] then
+			table.insert(var_34_2, iter_34_5)
+		else
+			table.insert(var_34_3, iter_34_5)
+		end
+	end
+
+	for iter_34_6, iter_34_7 in pairs(var_34_0) do
+		if not var_34_1[iter_34_6] then
+			table.insert(var_34_4, iter_34_7)
+		end
+	end
+
+	return var_34_2, var_34_3, var_34_4
+end

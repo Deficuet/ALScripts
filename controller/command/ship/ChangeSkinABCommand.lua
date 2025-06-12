@@ -19,6 +19,14 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 end
 
 function var_0_0.startChangeAction(arg_3_0, arg_3_1, arg_3_2, arg_3_3)
+	local var_3_0 = getProxy(SettingsProxy):getCharacterSetting(arg_3_3.id, SHIP_FLAG_L2D)
+
+	if var_3_0 and Live2dConst.GetLive2DArm32MatchAble() then
+		getProxy(SettingsProxy):setCharacterSetting(arg_3_3.id, SHIP_FLAG_L2D, false)
+	elseif not var_3_0 and not Live2dConst.GetLive2DArm32MatchAble() then
+		getProxy(SettingsProxy):setCharacterSetting(arg_3_3.id, SHIP_FLAG_L2D, true)
+	end
+
 	arg_3_0:sendNotification(GAME.PLAY_CHANGE_SKIN_OUT, {
 		callback = function(arg_4_0)
 			local var_4_0 = arg_4_0.flag
@@ -26,28 +34,17 @@ function var_0_0.startChangeAction(arg_3_0, arg_3_1, arg_3_2, arg_3_3)
 
 			if var_4_0 then
 				ShipSkin.SetStoreChangeSkinId(arg_3_2)
-
-				if not getProxy(SettingsProxy):getCharacterSetting(shipId, SHIP_FLAG_L2D) then
+				pg.ChangeSkinMgr.GetInstance():play(arg_3_2, function()
 					arg_3_0:sendNotification(GAME.CHANGE_SKIN_EXCHANGE, {
 						callback = function()
 							return
 						end
 					})
+				end, function()
 					arg_3_0:sendNotification(GAME.PLAY_CHANGE_SKIN_IN)
+				end, function()
 					arg_3_0:sendNotification(GAME.PLAY_CHANGE_SKIN_FINISH)
-				else
-					pg.ChangeSkinMgr.GetInstance():play(arg_3_2, function()
-						arg_3_0:sendNotification(GAME.CHANGE_SKIN_EXCHANGE, {
-							callback = function()
-								return
-							end
-						})
-					end, function()
-						arg_3_0:sendNotification(GAME.PLAY_CHANGE_SKIN_IN)
-					end, function()
-						arg_3_0:sendNotification(GAME.PLAY_CHANGE_SKIN_FINISH)
-					end)
-				end
+				end)
 			end
 
 			if var_4_1 then

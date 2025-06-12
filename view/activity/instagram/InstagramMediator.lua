@@ -12,7 +12,6 @@ var_0_0.CLOSE_DETAIL = "InstagramMediator:CLOSE_DETAIL"
 var_0_0.BACK_PRESSED = "InstagramMediator:BACK_PRESSED"
 
 function var_0_0.register(arg_1_0)
-	getProxy(InstagramProxy):InitLocalConfigs()
 	arg_1_0:bind(var_0_0.ON_READED, function(arg_2_0, arg_2_1)
 		arg_1_0:sendNotification(GAME.ACT_INSTAGRAM_OP, {
 			arg2 = 0,
@@ -59,7 +58,6 @@ function var_0_0.register(arg_1_0)
 			arg_1_0.viewComponent:emit(var_0_0.ON_REPLY_UPDATE, arg_8_1, arg_8_2)
 		end
 	end)
-	arg_1_0.viewComponent:SetProxy(getProxy(InstagramProxy))
 	arg_1_0:bind(var_0_0.CLOSE_ALL, function(arg_9_0)
 		arg_1_0:sendNotification(InstagramMainMediator.CLOSE_ALL)
 	end)

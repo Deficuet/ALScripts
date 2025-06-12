@@ -23705,7 +23705,7 @@ pg.base.furniture_data_template = {
 	},
 	[306] = {
 		spine_extra = "",
-		describe = "",
+		describe = "吃完记得把手指舔干净哦~",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -23715,7 +23715,7 @@ pg.base.furniture_data_template = {
 		belong = 1,
 		count = 1,
 		is_3d_obj = 0,
-		name = "阿华田巧克力棒浴缸",
+		name = "阿华田蘸酱饼干盒",
 		themeId = 0,
 		icon = "ahuatianyugangicon",
 		deblocking = 1,

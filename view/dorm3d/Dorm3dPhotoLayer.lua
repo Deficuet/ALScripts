@@ -69,10 +69,6 @@ function var_0_0.init(arg_2_0)
 	setActive(arg_2_0.shareUI, false)
 
 	arg_2_0.ysScreenShoter = arg_2_0._tf:Find("Shoter"):GetComponent(typeof(YSTool.YSScreenShoter))
-	arg_2_0.skinSelectPanel = arg_2_0._tf:Find("SkinSelectPanel")
-
-	setActive(arg_2_0.skinSelectPanel, false)
-
 	arg_2_0.btnMenuSmall = arg_2_0._tf:Find("Center/MenuSmall")
 	arg_2_0.btnMenu = arg_2_0._tf:Find("Center/Menu")
 
@@ -96,8 +92,6 @@ function var_0_0.init(arg_2_0)
 	setText(arg_2_0.panelAction:Find("Layout/Title/Regular/Selected"), i18n("dorm3d_photo_regular_anim"))
 	setText(arg_2_0.panelAction:Find("Layout/Title/Special/Name"), i18n("dorm3d_photo_special_anim"))
 	setText(arg_2_0.panelAction:Find("Layout/Title/Special/Selected"), i18n("dorm3d_photo_special_anim"))
-	setText(arg_2_0.skinSelectPanel:Find("BG/Scroll/Content/Unlock/Title/Text"), i18n("word_unlock"))
-	setText(arg_2_0.skinSelectPanel:Find("BG/Scroll/Content/Lock/Title/Text"), i18n("word_lock"))
 
 	arg_2_0.mainCamera = GameObject.Find("BackYardMainCamera"):GetComponent(typeof(Camera))
 	arg_2_0.stopRecBtn = arg_2_0:findTF("stopRec")
@@ -411,11 +405,9 @@ function var_0_0.didEnter(arg_7_0)
 		setActive(arg_7_0.btnMenuSmall, true)
 	end, SFX_PANEL)
 	onButton(arg_7_0, arg_7_0.btnMenu, function()
-		setActive(arg_7_0.skinSelectPanel, true)
-		arg_7_0:UpdateSkinList()
-	end, SFX_PANEL)
-	onButton(arg_7_0, arg_7_0.skinSelectPanel:Find("BG/Close"), function()
-		setActive(arg_7_0.skinSelectPanel, false)
+		arg_7_0:emit(Dorm3dPhotoMediator.OPEN_SKIN_SELECT_LAYER, arg_7_0.groupId, arg_7_0.scene.ladyDict[arg_7_0.groupId], function(arg_47_0, arg_47_1, arg_47_2)
+			arg_7_0:OnSwitchSkin(arg_47_0, arg_47_1, arg_47_2)
+		end, not arg_7_0.scene.room:isPersonalRoom())
 	end, SFX_PANEL)
 
 	arg_7_0.activePanel = 1
@@ -1321,123 +1313,67 @@ function var_0_0.UpdateLightingPanel(arg_123_0)
 	setActive(arg_123_0.panelLightning:Find("Layout/Filter/Slider"), false)
 end
 
-function var_0_0.UpdateSkinList(arg_128_0)
-	local var_128_0 = arg_128_0.scene.apartment:GetConfigID()
-	local var_128_1 = arg_128_0.scene.ladyDict[var_128_0]
-	local var_128_2 = var_128_1.skinIdList
-	local var_128_3 = var_128_1.skinId
-	local var_128_4 = {}
-	local var_128_5 = {}
+function var_0_0.OnSwitchSkin(arg_128_0, arg_128_1, arg_128_2, arg_128_3)
+	seriesAsync({
+		function(arg_129_0)
+			if arg_128_0.settingHideCharacter then
+				arg_128_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCharacterBylayer")
+			end
 
-	_.each(var_128_2, function(arg_129_0)
-		if ApartmentProxy.CheckUnlockConfig(pg.dorm3d_resource[arg_129_0].unlock) then
-			table.insert(var_128_4, arg_129_0)
-		else
-			table.insert(var_128_5, arg_129_0)
+			arg_128_1:SwitchCharacterSkin(arg_128_2, arg_128_3, arg_129_0)
+		end,
+		function(arg_130_0)
+			setActive(arg_128_1.ladySafeCollider, true)
+
+			if not arg_128_0.animInfo then
+				return arg_130_0()
+			end
+
+			local var_130_0 = arg_128_0.animInfo
+
+			for iter_130_0 = #var_130_0.animPlayList, 1, -1 do
+				local var_130_1 = var_130_0.animPlayList[iter_130_0]:GetStartPoint()
+
+				if #var_130_1 > 0 then
+					arg_128_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCurrentCharPoint", var_130_1)
+
+					break
+				end
+
+				if iter_130_0 == 1 then
+					local var_130_2 = arg_128_0.room:GetCameraZones()[arg_128_0.zoneIndex]
+
+					arg_128_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCurrentCharPoint", var_130_2:GetWatchCameraName())
+				end
+			end
+
+			arg_128_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SyncCurrentInterestTransform")
+
+			local var_130_3 = var_130_0.animPlayList[#var_130_0.animPlayList]
+			local var_130_4 = var_130_3:GetAnimTime()
+
+			arg_128_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayCurrentSingleAction", var_130_3:GetStateName())
+			arg_128_0.scene.ladyDict[arg_128_2].ladyAnimator:Update(var_130_4)
+			arg_128_0.timerAnim:Stop()
+
+			arg_128_0.timerAnim = nil
+			arg_128_0.animInfo = nil
+			arg_128_0.animPlaying = nil
+
+			arg_130_0()
+		end,
+		function()
+			arg_128_0:UpdateActionPanel()
+
+			if arg_128_0.settingHideCharacter then
+				arg_128_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "HideCharacterBylayer")
+			end
 		end
-	end)
-
-	local function var_128_6(arg_130_0, arg_130_1)
-		local var_130_0 = arg_130_1 and var_128_4 or var_128_5
-
-		UIItemList.StaticAlign(arg_130_0, arg_130_0:GetChild(0), #var_130_0, function(arg_131_0, arg_131_1, arg_131_2)
-			if arg_131_0 ~= UIItemList.EventUpdate then
-				return
-			end
-
-			local var_131_0 = var_130_0[arg_131_1 + 1]
-
-			setActive(arg_131_2:Find("Selected"), var_131_0 == var_128_3)
-			setActive(arg_131_2:Find("Lock"), not arg_130_1)
-
-			if not arg_130_1 then
-				setText(arg_131_2:Find("Lock/Bar/Text"), pg.dorm3d_resource[var_131_0].unlock_text)
-			end
-
-			arg_128_0.loader:GetSpriteQuiet(string.format("dorm3dselect/apartment_skin_%d", var_131_0), "", arg_131_2:Find("Icon"))
-			onButton(arg_128_0, arg_131_2, function()
-				if not arg_130_1 then
-					local var_132_0, var_132_1 = ApartmentProxy.CheckUnlockConfig(pg.dorm3d_resource[var_131_0].unlock)
-
-					pg.TipsMgr.GetInstance():ShowTips(var_132_1)
-
-					return
-				end
-
-				if var_131_0 == var_128_3 then
-					return
-				end
-
-				local var_132_2 = var_131_0
-
-				seriesAsync({
-					function(arg_133_0)
-						if arg_128_0.settingHideCharacter then
-							arg_128_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCharacterBylayer")
-						end
-
-						arg_128_0.scene:SwitchCharacterSkin(var_128_1, var_128_0, var_132_2, arg_133_0)
-					end,
-					function(arg_134_0)
-						setActive(var_128_1.ladySafeCollider, true)
-
-						if not arg_128_0.animInfo then
-							return arg_134_0()
-						end
-
-						local var_134_0 = arg_128_0.animInfo
-
-						for iter_134_0 = #var_134_0.animPlayList, 1, -1 do
-							local var_134_1 = var_134_0.animPlayList[iter_134_0]:GetStartPoint()
-
-							if #var_134_1 > 0 then
-								arg_128_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCurrentCharPoint", var_134_1)
-
-								break
-							end
-
-							if iter_134_0 == 1 then
-								local var_134_2 = arg_128_0.room:GetCameraZones()[arg_128_0.zoneIndex]
-
-								arg_128_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCurrentCharPoint", var_134_2:GetWatchCameraName())
-							end
-						end
-
-						arg_128_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SyncCurrentInterestTransform")
-
-						local var_134_3 = var_134_0.animPlayList[#var_134_0.animPlayList]
-						local var_134_4 = var_134_3:GetAnimTime()
-
-						arg_128_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayCurrentSingleAction", var_134_3:GetStateName())
-						arg_128_0.scene.ladyDict[var_128_0].ladyAnimator:Update(var_134_4)
-						arg_128_0.timerAnim:Stop()
-
-						arg_128_0.timerAnim = nil
-						arg_128_0.animInfo = nil
-						arg_128_0.animPlaying = nil
-
-						arg_134_0()
-					end,
-					function()
-						arg_128_0:UpdateActionPanel()
-
-						if arg_128_0.settingHideCharacter then
-							arg_128_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "HideCharacterBylayer")
-						end
-
-						arg_128_0:UpdateSkinList()
-					end
-				})
-			end, SFX_PANEL)
-		end)
-	end
-
-	var_128_6(arg_128_0.skinSelectPanel:Find("BG/Scroll/Content/Unlock/List"), true)
-	var_128_6(arg_128_0.skinSelectPanel:Find("BG/Scroll/Content/Lock/List"), false)
+	})
 end
 
-function var_0_0.SetMute(arg_136_0)
-	if arg_136_0 then
+function var_0_0.SetMute(arg_132_0)
+	if arg_132_0 then
 		CriWare.CriAtom.SetCategoryVolume("Category_CV", 0)
 		CriWare.CriAtom.SetCategoryVolume("Category_BGM", 0)
 		CriWare.CriAtom.SetCategoryVolume("Category_SE", 0)
@@ -1448,56 +1384,48 @@ function var_0_0.SetMute(arg_136_0)
 	end
 end
 
-function var_0_0.willExit(arg_137_0)
-	arg_137_0.loader:Clear()
+function var_0_0.willExit(arg_133_0)
+	arg_133_0.loader:Clear()
 
-	if arg_137_0.timerAnim then
-		arg_137_0.timerAnim:Stop()
+	if arg_133_0.timerAnim then
+		arg_133_0.timerAnim:Stop()
 
-		arg_137_0.timerAnim = nil
+		arg_133_0.timerAnim = nil
 	end
 
-	local var_137_0 = arg_137_0.scene.apartment:GetConfigID()
-	local var_137_1 = arg_137_0.scene.ladyDict[var_137_0]
-	local var_137_2 = var_137_1.skinIdList
-
-	if var_137_1.skinId ~= var_137_2[1] then
-		arg_137_0.scene:SwitchCharacterSkin(var_137_1, var_137_0, var_137_2[1])
+	if arg_133_0.animSpeed ~= 1 then
+		arg_133_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SetCharacterAnimSpeed", 1)
 	end
 
-	if arg_137_0.animSpeed ~= 1 then
-		arg_137_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SetCharacterAnimSpeed", 1)
+	if arg_133_0.settingHideCharacter then
+		arg_133_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCharacterBylayer")
 	end
 
-	if arg_137_0.settingHideCharacter then
-		arg_137_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCharacterBylayer")
+	if not arg_133_0.settingFaceCamera then
+		arg_133_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "EnableCurrentHeadIK", true)
 	end
 
-	if not arg_137_0.settingFaceCamera then
-		arg_137_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "EnableCurrentHeadIK", true)
-	end
-
-	arg_137_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCharacterLight")
-	arg_137_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertVolumeProfile")
-	arg_137_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCameraSettings")
-	arg_137_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ExitPhotoMode")
+	arg_133_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCharacterLight")
+	arg_133_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertVolumeProfile")
+	arg_133_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCameraSettings")
+	arg_133_0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ExitPhotoMode")
 end
 
-function var_0_0.SetPhotoCameraSliderValue(arg_138_0, arg_138_1)
-	local var_138_0 = arg_138_0.normalPanel:Find("Zoom/Slider")
+function var_0_0.SetPhotoCameraSliderValue(arg_134_0, arg_134_1)
+	local var_134_0 = arg_134_0.normalPanel:Find("Zoom/Slider")
 
-	setSlider(var_138_0, 0, 1, arg_138_1)
+	setSlider(var_134_0, 0, 1, arg_134_1)
 end
 
-function var_0_0.SetPhotoStickDelta(arg_139_0, arg_139_1)
-	arg_139_1 = arg_139_1 * 0.5
+function var_0_0.SetPhotoStickDelta(arg_135_0, arg_135_1)
+	arg_135_1 = arg_135_1 * 0.5
 
-	local var_139_0 = arg_139_0._tf:Find("Center/Stick")
-	local var_139_1 = var_139_0.rect.height
-	local var_139_2 = var_139_0.rect.width
-	local var_139_3 = var_139_0:Find("Handler")
+	local var_135_0 = arg_135_0._tf:Find("Center/Stick")
+	local var_135_1 = var_135_0.rect.height
+	local var_135_2 = var_135_0.rect.width
+	local var_135_3 = var_135_0:Find("Handler")
 
-	setAnchoredPosition(var_139_3, Vector2.New(var_139_1 * arg_139_1.x, var_139_2 * arg_139_1.y))
+	setAnchoredPosition(var_135_3, Vector2.New(var_135_1 * arg_135_1.x, var_135_2 * arg_135_1.y))
 end
 
 return var_0_0

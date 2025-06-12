@@ -132,6 +132,50 @@ pg.dorm3d_accompany = {
 			19903
 		}
 	},
+	[111] = {
+		ship_id = 10517,
+		name = "日常相伴",
+		resource_room = 11,
+		performance_time = 20,
+		id = 111,
+		image = "xinzexi_accompany_room",
+		timeline = "Xiangban_personal",
+		sceneInfo = "map_newjerseyhostel_02|Xinzexi_DB/Newjerseyhostel",
+		favor = {
+			300,
+			{
+				1015,
+				1016,
+				1017
+			}
+		},
+		jump_trigger = {},
+		unlock = {}
+	},
+	[112] = {
+		ship_id = 10517,
+		name = "休闲相伴",
+		resource_room = 16,
+		performance_time = 20,
+		id = 112,
+		image = "cafe_accompany",
+		timeline = "Xiangban_cafe",
+		sceneInfo = "map_publiccafe_02|Publiccafe",
+		favor = {
+			300,
+			{
+				1015,
+				1016,
+				1017
+			}
+		},
+		jump_trigger = {},
+		unlock = {
+			5,
+			16,
+			10517
+		}
+	},
 	get_id_list_by_ship_id = {
 		[20220] = {
 			1,
@@ -144,6 +188,10 @@ pg.dorm3d_accompany = {
 		[19903] = {
 			31,
 			32
+		},
+		[10517] = {
+			111,
+			112
 		}
 	},
 	all = {
@@ -152,6 +200,8 @@ pg.dorm3d_accompany = {
 		21,
 		22,
 		31,
-		32
+		32,
+		111,
+		112
 	}
 }

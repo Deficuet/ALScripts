@@ -249,6 +249,11 @@ function var_0_2.ChangeState(arg_18_0, arg_18_1)
 		end
 	elseif arg_18_1 == var_0_2.BATTLE_STATE_FIGHT then
 		arg_18_0:ActiveAutoComponentTimer()
+
+		if not arg_18_0._dataProxy:GetFleetLegal(var_0_0.Battle.BattleConfig.FRIENDLY_CODE, arg_18_0:GetBattleType()) then
+			arg_18_0._battleCommand:CalcStatistic()
+			arg_18_0:BattleEnd()
+		end
 	elseif arg_18_1 == var_0_2.BATTLE_STATE_REPORT then
 		-- block empty
 	end

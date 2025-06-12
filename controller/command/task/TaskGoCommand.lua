@@ -186,19 +186,15 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		end
 	elseif var_1_9 == 10 then
 		if var_1_10 == 4 or var_1_10 == 5 then
-			local var_1_13 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_INSTAGRAM)
-
-			if var_1_13 and not var_1_13:isEnd() then
-				arg_1_0:sendNotification(GAME.GO_SCENE, SCENE.MAINUI, {
-					subContext = Context.New({
-						viewComponent = InstagramLayer,
-						mediator = InstagramMediator,
-						data = {
-							id = var_1_13.id
-						}
-					})
+			arg_1_0:sendNotification(GAME.GO_SCENE, SCENE.MAINUI, {
+				subContext = Context.New({
+					viewComponent = InstagramLayer,
+					mediator = InstagramMediator,
+					data = {
+						id = act.id
+					}
 				})
-			end
+			})
 		end
 	elseif var_1_9 == 11 then
 		if var_1_10 == 0 then

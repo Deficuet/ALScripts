@@ -347,6 +347,7 @@ pg.memory_group = setmetatable({
 		608,
 		609,
 		610,
+		611,
 		1000,
 		1001,
 		1002,
@@ -8023,6 +8024,26 @@ pg.base.memory_group = {
 			4325,
 			4326,
 			4327
+		},
+		group_id = {
+			10000
+		}
+	},
+	[611] = {
+		id = 611,
+		subtype = 0,
+		icon = "title_chara_aogusite",
+		type = 3,
+		link_event = 0,
+		title = "魔女的命运之夜",
+		memories = {
+			4441,
+			4442,
+			4443,
+			4444,
+			4445,
+			4446,
+			4447
 		},
 		group_id = {
 			10000

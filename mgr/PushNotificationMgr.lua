@@ -94,7 +94,7 @@ function var_0_1.PushCache(arg_8_0)
 		local var_8_2 = iter_8_1.content
 		local var_8_3 = iter_8_1.offsetSecond * 1000
 
-		YSNormalTool.NotificationTool.ScheduleNotification(var_8_0, var_8_1, var_8_2, var_8_3)
+		YSNormalTool.NotificationTool.ScheduleNotification(var_8_0, var_8_1, var_8_2, var_8_3, "ys_icon_notification")
 	end
 end
 

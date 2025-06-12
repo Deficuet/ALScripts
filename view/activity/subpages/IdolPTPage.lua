@@ -16,25 +16,7 @@ function var_0_0.OnInit(arg_1_0)
 end
 
 function var_0_0.OnDataSetting(arg_2_0)
-	local var_2_0 = var_0_0.super.OnDataSetting(arg_2_0)
-	local var_2_1 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_INSTAGRAM)
-
-	arg_2_0.linkAct = var_2_1
-
-	if var_2_1 and not var_2_1:isEnd() then
-		local var_2_2 = getProxy(ActivityProxy).requestTime[var_2_1.id]
-		local var_2_3 = pg.TimeMgr.GetInstance():GetServerTime() - (var_2_2 or 0) >= arg_2_0.RefreshTime
-
-		if var_2_3 then
-			arg_2_0:emit(ActivityMediator.FETCH_INSTARGRAM, {
-				activity_id = var_2_1.id
-			})
-		end
-
-		return var_2_3 or var_2_0
-	end
-
-	return var_2_0
+	return (var_0_0.super.OnDataSetting(arg_2_0))
 end
 
 function var_0_0.OnFirstFlush(arg_3_0)
@@ -61,17 +43,13 @@ function var_0_0.OnFirstFlush(arg_3_0)
 		})
 	end, SFX_PANEL)
 	onButton(arg_3_0, arg_3_0.linkBtn, function()
-		if arg_3_0.linkAct and not arg_3_0.linkAct:isEnd() and arg_3_0.linkAct:ExistMsg() then
-			arg_3_0:emit(ActivityMediator.OPEN_LAYER, Context.New({
-				viewComponent = InstagramLayer,
-				mediator = InstagramMediator,
-				data = {
-					id = ActivityConst.IDOL_INS_ID
-				}
-			}))
-		else
-			pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_end_tip"))
-		end
+		arg_3_0:emit(ActivityMediator.OPEN_LAYER, Context.New({
+			viewComponent = InstagramLayer,
+			mediator = InstagramMediator,
+			data = {
+				id = ActivityConst.IDOL_INS_ID
+			}
+		}))
 	end)
 end
 

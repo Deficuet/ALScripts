@@ -48,7 +48,7 @@ pg.dorm3d_ins_template = {
 	[19903202] = {
 		ship_group = 19903,
 		name = "Anchorage",
-		picture = "Ins_199032",
+		picture = "ins_199032",
 		message = "ankeleiqi_2",
 		background = "Ins_199032_bg",
 		sculpture = "ankeleiqi_3",
@@ -58,6 +58,36 @@ pg.dorm3d_ins_template = {
 		discuss = {
 			7,
 			8
+		}
+	},
+	[10517201] = {
+		ship_group = 10517,
+		name = "BlackDragon",
+		picture = "ins_105171",
+		message = "xinzexi_1",
+		background = "Ins_199032_bg",
+		sculpture = "xinzexi_4",
+		id = 10517201,
+		group_id = 1,
+		npc_discuss = "",
+		discuss = {
+			9,
+			10
+		}
+	},
+	[10517202] = {
+		ship_group = 10517,
+		name = "BlackDragon",
+		picture = "ins_105172",
+		message = "xinzexi_2",
+		background = "Ins_199032_bg",
+		sculpture = "xinzexi_4",
+		id = 10517202,
+		group_id = 1,
+		npc_discuss = "",
+		discuss = {
+			11,
+			12
 		}
 	},
 	get_id_list_by_ship_group = {
@@ -70,12 +100,18 @@ pg.dorm3d_ins_template = {
 		[19903] = {
 			19903201,
 			19903202
+		},
+		[10517] = {
+			10517201,
+			10517202
 		}
 	},
 	all = {
 		20220201,
 		30221201,
 		19903201,
-		19903202
+		19903202,
+		10517201,
+		10517202
 	}
 }

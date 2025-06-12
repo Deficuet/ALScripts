@@ -251,6 +251,10 @@ function var_0_0.SetPagesActive(arg_12_0, arg_12_1)
 end
 
 function var_0_0.ShowTaskPage(arg_13_0)
+	if not arg_13_0.taskItemAnimTime then
+		arg_13_0.taskItemAnimTime = {}
+	end
+
 	local var_13_0 = UIItemList.New(arg_13_0:findTF("subPageScroll/Viewport/Content", arg_13_0.taskPage), arg_13_0:findTF("subPageScroll/Viewport/Content/subPageBtn", arg_13_0.taskPage))
 	local var_13_1 = UIItemList.New(arg_13_0:findTF("page/scroll/Viewport/Content", arg_13_0.taskPage), arg_13_0:findTF("page/scroll/Viewport/Content/tpl", arg_13_0.taskPage))
 	local var_13_2 = false
@@ -344,7 +348,11 @@ function var_0_0.ShowTaskPage(arg_13_0)
 								setActive(var_16_10, true)
 							end
 
-							arg_16_2:GetComponent(typeof(Animation)):Play("anim_CommanderManualUI_tpl_update")
+							if not arg_13_0.taskItemAnimTime[var_16_0] or Time.realtimeSinceStartup - arg_13_0.taskItemAnimTime[var_16_0] > 1 then
+								arg_16_2:GetComponent(typeof(Animation)):Play("anim_CommanderManualUI_tpl_update")
+
+								arg_13_0.taskItemAnimTime[var_16_0] = Time.realtimeSinceStartup
+							end
 						end
 					end)
 					var_13_1:align(#var_14_0.taskIdList)

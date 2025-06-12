@@ -1,0 +1,44 @@
+local var_0_0 = class("DormConst")
+
+var_0_0.boneMap = {
+	Head = "Bip001 Head",
+	LeftUpperArm = "Bip001 L UpperArm",
+	RightThigh = "Bip001 R Thigh",
+	LeftFoot = "Bip001 L Foot",
+	RightFoot = "Bip001 R Foot",
+	Spine1 = "Bip001 Spine1",
+	RightCalf = "Bip001 R Calf",
+	RightHand = "Bip001 R Hand",
+	LeftThigh = "Bip001 L Thigh",
+	Spine = "Bip001 Spine",
+	RightUpperArm = "Bip001 R UpperArm",
+	Spine2 = "Bip001 Spine2",
+	LeftHand = "Bip001 L Hand",
+	Pelvis = "Bip001 Pelvis",
+	LeftForeArm = "Bip001 L Forearm",
+	RightForeArm = "Bip001 R Forearm",
+	LeftCalf = "Bip001 L Calf"
+}
+var_0_0.BONE_TO_TOUCH = {
+	Head = "head",
+	LeftUpperArm = "hand",
+	RightThigh = "leg",
+	LeftFoot = "leg",
+	RightUpperArm = "hand",
+	RightLowerArm = "hand",
+	Chest = "chest",
+	Butt = "butt",
+	RightHand = "hand",
+	LeftLowerArm = "hand",
+	LeftThigh = "leg",
+	RightCalf = "leg",
+	RightFoot = "leg",
+	LeftHand = "hand",
+	Back = "back",
+	LeftCalf = "leg",
+	Belly = "belly"
+}
+var_0_0.LADY_MOVE_SPEED = 1.5
+var_0_0.LADY_ROTATE_SPEED = 10
+
+return var_0_0

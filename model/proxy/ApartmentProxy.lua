@@ -4,6 +4,8 @@ var_0_0.UPDATE_APARTMENT = "ApartmentProxy.UPDATE_APARTMENT"
 var_0_0.UPDATE_ROOM = "ApartmentProxy.UPDATE_ROOM"
 var_0_0.UPDATE_GIFT_COUNT = "ApartmentProxy.UPDATE_GIFT_COUNT"
 var_0_0.ZERO_HOUR_REFRESH = "ApartmentProxy.ZERO_HOUR_REFRESH"
+var_0_0.UPDATE_ROOM_INVITE_LIST = "ApartmentProxy.UPDATE_ROOM_INVITE_LIST"
+var_0_0.UPDATE_SLIDE_INVITE_LIST = "ApartmentProxy.UPDATE_SLIDE_INVITE_LIST"
 
 function var_0_0.register(arg_1_0)
 	arg_1_0.data = {}
@@ -99,118 +101,187 @@ function var_0_0.updateRoom(arg_10_0, arg_10_1)
 	arg_10_0:sendNotification(var_0_0.UPDATE_ROOM, arg_10_1)
 end
 
-function var_0_0.triggerFavor(arg_11_0, arg_11_1, arg_11_2, arg_11_3)
-	arg_11_3 = arg_11_3 or 1
-
+function var_0_0.ModifyApartment(arg_11_0, arg_11_1, arg_11_2)
 	local var_11_0 = arg_11_0.data[arg_11_1]
-	local var_11_1 = pg.dorm3d_favor_trigger[arg_11_2]
-	local var_11_2 = 0
-	local var_11_3 = 0
 
-	if arg_11_0.stamina >= var_11_1.is_daily_max and not var_11_0:isMaxFavor() then
-		var_11_3 = var_11_1.is_daily_max * arg_11_3
-		var_11_2 = math.min(var_11_1.num * arg_11_3, var_11_0:getMaxFavor() - var_11_0.favor)
+	assert(var_11_0, "apartment not exist")
+
+	if type(arg_11_2) == "function" then
+		arg_11_2(var_11_0)
+	elseif type(arg_11_2) == "table" then
+		for iter_11_0, iter_11_1 in pairs(arg_11_2) do
+			var_11_0[iter_11_0] = iter_11_1
+		end
 	end
 
-	arg_11_0.stamina = arg_11_0.stamina - var_11_3
-	var_11_0.favor = var_11_0.favor + var_11_2
-	var_11_0.triggerCountDic[arg_11_2] = var_11_0.triggerCountDic[arg_11_2] + 1
-
-	pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataFavor(arg_11_1, var_11_2, var_11_0.favor, var_11_1.type, table.CastToString(var_11_1.param)))
-	arg_11_0:updateApartment(var_11_0)
-
-	return var_11_2, var_11_3
+	arg_11_0:sendNotification(var_0_0.UPDATE_APARTMENT, var_11_0:clone())
 end
 
-function var_0_0.getStamina(arg_12_0)
-	return arg_12_0.stamina, getDorm3dGameset("daily_vigor_max")[1]
+function var_0_0.ModifyRoom(arg_12_0, arg_12_1, arg_12_2)
+	local var_12_0 = arg_12_0.roomData[arg_12_1]
+
+	assert(var_12_0, "room not exist")
+
+	if type(arg_12_2) == "function" then
+		arg_12_2(var_12_0)
+	elseif type(arg_12_2) == "table" then
+		for iter_12_0, iter_12_1 in pairs(arg_12_2) do
+			var_12_0[iter_12_0] = iter_12_1
+		end
+	end
+
+	arg_12_0:sendNotification(var_0_0.UPDATE_ROOM, var_12_0:clone())
 end
 
-function var_0_0.RawGetApartment(arg_13_0, arg_13_1)
-	return arg_13_0.data[arg_13_1]
+function var_0_0.triggerFavor(arg_13_0, arg_13_1, arg_13_2, arg_13_3)
+	arg_13_3 = arg_13_3 or 1
+
+	local var_13_0 = arg_13_0.data[arg_13_1]
+	local var_13_1 = pg.dorm3d_favor_trigger[arg_13_2]
+	local var_13_2 = 0
+	local var_13_3 = 0
+
+	if arg_13_0.stamina >= var_13_1.is_daily_max and not var_13_0:isMaxFavor() then
+		var_13_3 = var_13_1.is_daily_max * arg_13_3
+		var_13_2 = math.min(var_13_1.num * arg_13_3, var_13_0:getMaxFavor() - var_13_0.favor)
+	end
+
+	arg_13_0.stamina = arg_13_0.stamina - var_13_3
+	var_13_0.favor = var_13_0.favor + var_13_2
+	var_13_0.triggerCountDic[arg_13_2] = var_13_0.triggerCountDic[arg_13_2] + 1
+
+	pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataFavor(arg_13_1, var_13_2, var_13_0.favor, var_13_1.type, table.CastToString(var_13_1.param)))
+	arg_13_0:updateApartment(var_13_0)
+
+	return var_13_2, var_13_3
 end
 
-function var_0_0.getApartment(arg_14_0, arg_14_1)
-	return arg_14_0.data[arg_14_1] and arg_14_0.data[arg_14_1]:clone() or nil
+function var_0_0.getStamina(arg_14_0)
+	return arg_14_0.stamina, getDorm3dGameset("daily_vigor_max")[1]
 end
 
-function var_0_0.getRoom(arg_15_0, arg_15_1)
-	return arg_15_0.roomData[arg_15_1]
+function var_0_0.RawGetApartment(arg_15_0, arg_15_1)
+	return arg_15_0.data[arg_15_1]
 end
 
-function var_0_0.getGiftCount(arg_16_0, arg_16_1)
-	return arg_16_0.giftBag[arg_16_1]
+function var_0_0.getApartment(arg_16_0, arg_16_1)
+	return arg_16_0.data[arg_16_1] and arg_16_0.data[arg_16_1]:clone() or nil
 end
 
-function var_0_0.changeGiftCount(arg_17_0, arg_17_1, arg_17_2)
-	assert(arg_17_2 ~= 0)
-
-	arg_17_0.giftBag[arg_17_1] = arg_17_0.giftBag[arg_17_1] + arg_17_2
-
-	arg_17_0:sendNotification(var_0_0.UPDATE_GIFT_COUNT, arg_17_1)
+function var_0_0.getRoom(arg_17_0, arg_17_1)
+	return arg_17_0.roomData[arg_17_1]
 end
 
-function var_0_0.getApartmentGiftCount(arg_18_0, arg_18_1)
-	for iter_18_0, iter_18_1 in pairs(arg_18_0.giftBag) do
-		if iter_18_1 > 0 and pg.dorm3d_gift[iter_18_0].ship_group_id == arg_18_1 then
-			return iter_18_0
+function var_0_0.getGiftCount(arg_18_0, arg_18_1)
+	return arg_18_0.giftBag[arg_18_1]
+end
+
+function var_0_0.changeGiftCount(arg_19_0, arg_19_1, arg_19_2)
+	assert(arg_19_2 ~= 0)
+
+	arg_19_0.giftBag[arg_19_1] = arg_19_0.giftBag[arg_19_1] + arg_19_2
+
+	arg_19_0:sendNotification(var_0_0.UPDATE_GIFT_COUNT, arg_19_1)
+end
+
+function var_0_0.getApartmentGiftCount(arg_20_0, arg_20_1)
+	for iter_20_0, iter_20_1 in pairs(arg_20_0.giftBag) do
+		if iter_20_1 > 0 and pg.dorm3d_gift[iter_20_0].ship_group_id == arg_20_1 then
+			return iter_20_0
 		end
 	end
 
 	return nil
 end
 
-function var_0_0.addGiftGiveCount(arg_19_0, arg_19_1, arg_19_2)
-	arg_19_0.giftGiveCount[arg_19_1] = arg_19_0.giftGiveCount[arg_19_1] + arg_19_2
+function var_0_0.addGiftGiveCount(arg_21_0, arg_21_1, arg_21_2)
+	arg_21_0.giftGiveCount[arg_21_1] = arg_21_0.giftGiveCount[arg_21_1] + arg_21_2
 end
 
-function var_0_0.isGiveGiftDone(arg_20_0, arg_20_1)
-	return arg_20_0.giftGiveCount[arg_20_1] > 0
+function var_0_0.isGiveGiftDone(arg_22_0, arg_22_1)
+	return arg_22_0.giftGiveCount[arg_22_1] > 0
 end
 
-function var_0_0.GetGiftShopCount(arg_21_0, arg_21_1)
-	return arg_21_0.shopCount.dailyGift[arg_21_1] or arg_21_0.shopCount.permanentGift[arg_21_1] or 0
+function var_0_0.GetGiftShopCount(arg_23_0, arg_23_1)
+	return arg_23_0.shopCount.dailyGift[arg_23_1] or arg_23_0.shopCount.permanentGift[arg_23_1] or 0
 end
 
-function var_0_0.AddDailyGiftShopCount(arg_22_0, arg_22_1, arg_22_2)
-	arg_22_0.shopCount.dailyGift[arg_22_1] = (arg_22_0.shopCount.dailyGift[arg_22_1] or 0) + arg_22_2
+function var_0_0.AddDailyGiftShopCount(arg_24_0, arg_24_1, arg_24_2)
+	arg_24_0.shopCount.dailyGift[arg_24_1] = (arg_24_0.shopCount.dailyGift[arg_24_1] or 0) + arg_24_2
 end
 
-function var_0_0.AddPermanentGiftShopCount(arg_23_0, arg_23_1, arg_23_2)
-	arg_23_0.shopCount.permanentGift[arg_23_1] = (arg_23_0.shopCount.permanentGift[arg_23_1] or 0) + arg_23_2
+function var_0_0.AddPermanentGiftShopCount(arg_25_0, arg_25_1, arg_25_2)
+	arg_25_0.shopCount.permanentGift[arg_25_1] = (arg_25_0.shopCount.permanentGift[arg_25_1] or 0) + arg_25_2
 end
 
-function var_0_0.GetFurnitureShopCount(arg_24_0, arg_24_1)
-	return arg_24_0.shopCount.dailyFurniture[arg_24_1] or arg_24_0.shopCount.permanentFurniture[arg_24_1] or 0
+function var_0_0.GetFurnitureShopCount(arg_26_0, arg_26_1)
+	return arg_26_0.shopCount.dailyFurniture[arg_26_1] or arg_26_0.shopCount.permanentFurniture[arg_26_1] or 0
 end
 
-function var_0_0.AddDailyFurnitureShopCount(arg_25_0, arg_25_1, arg_25_2)
-	arg_25_0.shopCount.dailyFurniture[arg_25_1] = (arg_25_0.shopCount.dailyFurniture[arg_25_1] or 0) + arg_25_2
+function var_0_0.AddDailyFurnitureShopCount(arg_27_0, arg_27_1, arg_27_2)
+	arg_27_0.shopCount.dailyFurniture[arg_27_1] = (arg_27_0.shopCount.dailyFurniture[arg_27_1] or 0) + arg_27_2
 end
 
-function var_0_0.AddPermanentFurnitureShopCount(arg_26_0, arg_26_1, arg_26_2)
-	arg_26_0.shopCount.permanentFurniture[arg_26_1] = (arg_26_0.shopCount.permanentFurniture[arg_26_1] or 0) + arg_26_2
+function var_0_0.AddPermanentFurnitureShopCount(arg_28_0, arg_28_1, arg_28_2)
+	arg_28_0.shopCount.permanentFurniture[arg_28_1] = (arg_28_0.shopCount.permanentFurniture[arg_28_1] or 0) + arg_28_2
 end
 
-function var_0_0.ResetDailyShopCount(arg_27_0)
-	table.clear(arg_27_0.shopCount.dailyGift)
-	table.clear(arg_27_0.shopCount.dailyFurniture)
+function var_0_0.ResetDailyShopCount(arg_29_0)
+	table.clear(arg_29_0.shopCount.dailyGift)
+	table.clear(arg_29_0.shopCount.dailyFurniture)
 end
 
-function var_0_0.RecordEnterTime(arg_28_0)
-	arg_28_0.dormEnterTimeStamp = pg.TimeMgr.GetInstance():GetServerTime()
+function var_0_0.RecordEnterTime(arg_30_0)
+	arg_30_0.dormEnterTimeStamp = pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function var_0_0.GetEnterTime(arg_29_0)
-	return arg_29_0.dormEnterTimeStamp
+function var_0_0.GetEnterTime(arg_31_0)
+	return arg_31_0.dormEnterTimeStamp
 end
 
-function var_0_0.RecordAccompanyTime(arg_30_0)
-	arg_30_0.dormAccompanyTimeStamp = pg.TimeMgr.GetInstance():GetServerTime()
+function var_0_0.RecordAccompanyTime(arg_32_0)
+	arg_32_0.dormAccompanyTimeStamp = pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function var_0_0.GetAccompanyTime(arg_31_0)
-	return arg_31_0.dormAccompanyTimeStamp
+function var_0_0.GetAccompanyTime(arg_33_0)
+	return arg_33_0.dormAccompanyTimeStamp
+end
+
+function var_0_0.GetRoomInviteList(arg_34_0)
+	return underscore.map(string.split(PlayerPrefs.GetString(string.format("room%d_invite_list", arg_34_0), ""), "|"), function(arg_35_0)
+		return tonumber(arg_35_0)
+	end)
+end
+
+function var_0_0.SetRoomInviteList(arg_36_0, arg_36_1, arg_36_2, arg_36_3)
+	local var_36_0, var_36_1, var_36_2 = table.Diff(var_0_0.GetRoomInviteList(arg_36_1), arg_36_2)
+
+	PlayerPrefs.SetString(string.format("room%d_invite_list", arg_36_1), table.concat(arg_36_2, "|"))
+	arg_36_0:sendNotification(var_0_0.UPDATE_ROOM_INVITE_LIST, {
+		roomId = arg_36_1,
+		groupIds = arg_36_2,
+		addIds = var_36_1,
+		removeIds = var_36_2,
+		callback = arg_36_3
+	})
+end
+
+function var_0_0.GetSlideInviteList()
+	return underscore.map(string.split(PlayerPrefs.GetString("slide_invite_list", ""), "|"), function(arg_38_0)
+		return tonumber(arg_38_0)
+	end) or {}
+end
+
+function var_0_0.SetSlideInviteList(arg_39_0, arg_39_1, arg_39_2)
+	local var_39_0, var_39_1, var_39_2 = table.Diff(var_0_0.GetSlideInviteList(), arg_39_1)
+
+	PlayerPrefs.SetString("slide_invite_list", table.concat(arg_39_1, "|"))
+	arg_39_0:sendNotification(var_0_0.UPDATE_SLIDE_INVITE_LIST, {
+		groupIds = arg_39_1,
+		addIds = var_39_1,
+		removeIds = var_39_2,
+		callback = arg_39_2
+	})
 end
 
 local var_0_1 = {
@@ -218,143 +289,150 @@ local var_0_1 = {
 	18
 }
 
-function var_0_0.GetTimeIndex(arg_32_0)
-	local var_32_0 = #var_0_1
+function var_0_0.GetTimeIndex(arg_40_0)
+	local var_40_0 = #var_0_1
 
-	for iter_32_0, iter_32_1 in ipairs(var_0_1) do
-		if arg_32_0 < iter_32_1 then
+	for iter_40_0, iter_40_1 in ipairs(var_0_1) do
+		if arg_40_0 < iter_40_1 then
 			break
 		else
-			var_32_0 = iter_32_0
+			var_40_0 = iter_40_0
 		end
 	end
 
-	return var_32_0
+	return var_40_0
 end
 
-function var_0_0.GetTimePPName(arg_33_0)
-	local var_33_0 = getProxy(PlayerProxy):getRawData()
+function var_0_0.GetTimePPName(arg_41_0)
+	local var_41_0 = getProxy(PlayerProxy):getRawData()
 
-	return "DORM3D_SCENE_LOCK_TIME_IN_PLAYER:" .. var_33_0.id .. "_ROOM_" .. arg_33_0
+	return "DORM3D_SCENE_LOCK_TIME_IN_PLAYER:" .. var_41_0.id .. "_ROOM_" .. arg_41_0
 end
 
-function var_0_0.CheckUnlockConfig(arg_34_0)
-	if arg_34_0 == nil or arg_34_0 == "" or #arg_34_0 == 0 then
+function var_0_0.CheckUnlockConfig(arg_42_0)
+	if arg_42_0 == nil or arg_42_0 == "" or #arg_42_0 == 0 then
 		return true
 	end
 
-	return switch(arg_34_0[1], {
-		function(arg_35_0, arg_35_1, arg_35_2)
-			local var_35_0 = getProxy(ApartmentProxy):getApartment(arg_35_1)
+	return switch(arg_42_0[1], {
+		function(arg_43_0, arg_43_1, arg_43_2)
+			local var_43_0 = getProxy(ApartmentProxy):getApartment(arg_43_1)
 
-			if var_35_0 and arg_35_2 <= var_35_0.level then
+			if var_43_0 and arg_43_2 <= var_43_0.level then
 				return true
 			else
-				return false, i18n("apartment_level_unenough", arg_35_2)
+				return false, i18n("apartment_level_unenough", arg_43_2)
 			end
 		end,
-		function(arg_36_0, arg_36_1)
-			local var_36_0 = getProxy(ApartmentProxy):getRoom(pg.dorm3d_furniture_template[arg_36_1].room_id)
+		function(arg_44_0, arg_44_1)
+			local var_44_0 = getProxy(ApartmentProxy):getRoom(pg.dorm3d_furniture_template[arg_44_1].room_id)
 
-			if var_36_0 and underscore.any(var_36_0.furnitures, function(arg_37_0)
-				return arg_37_0.configId == arg_36_1
+			if var_44_0 and underscore.any(var_44_0.furnitures, function(arg_45_0)
+				return arg_45_0.configId == arg_44_1
 			end) then
 				return true
 			else
-				return false, string.format("without dorm furniture:%d", arg_36_1)
+				return false, string.format("without dorm furniture:%d", arg_44_1)
 			end
 		end,
-		function(arg_38_0, arg_38_1)
-			if getProxy(ApartmentProxy):isGiveGiftDone(arg_38_1) then
+		function(arg_46_0, arg_46_1)
+			if getProxy(ApartmentProxy):isGiveGiftDone(arg_46_1) then
 				return true
 			else
-				return false, string.format("gift:%d didn't had given", arg_38_1)
+				return false, string.format("gift:%d didn't had given", arg_46_1)
 			end
 		end,
-		function(arg_39_0, arg_39_1)
-			local var_39_0 = getProxy(CollectionProxy):getShipGroup(arg_39_1)
+		function(arg_47_0, arg_47_1)
+			local var_47_0 = getProxy(CollectionProxy):getShipGroup(arg_47_1)
 
-			if var_39_0 and var_39_0.married > 0 then
+			if var_47_0 and var_47_0.married > 0 then
 				return true
 			else
-				return false, string.format("ship:%d was not married", arg_39_1)
+				return false, string.format("ship:%d was not married", arg_47_1)
 			end
 		end,
-		function(arg_40_0, arg_40_1, arg_40_2)
-			local var_40_0 = getProxy(ApartmentProxy):getRoom(arg_40_1)
+		function(arg_48_0, arg_48_1, arg_48_2)
+			local var_48_0 = getProxy(ApartmentProxy):getRoom(arg_48_1)
 
-			return var_40_0 and var_40_0.unlockCharacter[arg_40_2], i18n("dorm3d_skin_locked")
+			return var_48_0 and var_48_0.unlockCharacter[arg_48_2], i18n("dorm3d_skin_locked")
+		end,
+		function(arg_49_0, arg_49_1, arg_49_2)
+			local var_49_0 = getProxy(ApartmentProxy):getApartment(arg_49_2)
+
+			return var_49_0 and _.detect(var_49_0.skinList, function(arg_50_0)
+				return arg_50_0 == arg_49_1
+			end), i18n("dorm3d_skin_locked")
 		end
-	}, function(arg_41_0)
-		return false, string.format("without unlock type:%d", arg_41_0)
-	end, unpack(arg_34_0))
+	}, function(arg_51_0)
+		return false, string.format("without unlock type:%d", arg_51_0)
+	end, unpack(arg_42_0))
 end
 
-function var_0_0.PendingRandom(arg_42_0, arg_42_1)
-	local var_42_0 = {}
+function var_0_0.PendingRandom(arg_52_0, arg_52_1)
+	local var_52_0 = {}
 
-	for iter_42_0, iter_42_1 in ipairs(arg_42_1) do
-		local var_42_1 = underscore.detect(pg.dorm3d_rooms[arg_42_0].character_welcome, function(arg_43_0)
-			return arg_43_0[1] == iter_42_1
+	for iter_52_0, iter_52_1 in ipairs(arg_52_1) do
+		local var_52_1 = underscore.detect(pg.dorm3d_rooms[arg_52_0].character_welcome, function(arg_53_0)
+			return arg_53_0[1] == iter_52_1
 		end)
 
-		if var_42_1 and var_42_1[2] > math.random() * 10000 then
-			var_42_0[iter_42_1] = {}
+		if var_52_1 and var_52_1[2] > math.random() * 10000 then
+			var_52_0[iter_52_1] = {}
 		end
 	end
 
-	for iter_42_2, iter_42_3 in ipairs(pg.dorm3d_welcome.get_id_list_by_room_id[arg_42_0] or {}) do
-		local var_42_2 = pg.dorm3d_welcome[iter_42_3]
+	for iter_52_2, iter_52_3 in ipairs(pg.dorm3d_welcome.get_id_list_by_room_id[arg_52_0] or {}) do
+		local var_52_2 = pg.dorm3d_welcome[iter_52_3]
 
-		if var_42_0[var_42_2.ship_id] then
-			table.insert(var_42_0[var_42_2.ship_id], iter_42_3)
+		if var_52_0[var_52_2.ship_id] then
+			table.insert(var_52_0[var_52_2.ship_id], iter_52_3)
 		end
 	end
 
-	local var_42_3 = {}
+	local var_52_3 = {}
 
-	for iter_42_4, iter_42_5 in pairs(var_42_0) do
-		local var_42_4 = 0
-		local var_42_5 = 0
+	for iter_52_4, iter_52_5 in pairs(var_52_0) do
+		local var_52_4 = 0
+		local var_52_5 = 0
 
-		for iter_42_6, iter_42_7 in ipairs(iter_42_5) do
-			var_42_5 = var_42_5 + pg.dorm3d_welcome[iter_42_7].weight
+		for iter_52_6, iter_52_7 in ipairs(iter_52_5) do
+			var_52_5 = var_52_5 + pg.dorm3d_welcome[iter_52_7].weight
 		end
 
-		local var_42_6 = math.random() * var_42_5
+		local var_52_6 = math.random() * var_52_5
 
-		for iter_42_8, iter_42_9 in ipairs(iter_42_5) do
-			var_42_4 = var_42_4 + pg.dorm3d_welcome[iter_42_9].weight
+		for iter_52_8, iter_52_9 in ipairs(iter_52_5) do
+			var_52_4 = var_52_4 + pg.dorm3d_welcome[iter_52_9].weight
 
-			if var_42_6 < var_42_4 then
-				var_42_3[iter_42_4] = iter_42_9
+			if var_52_6 < var_52_4 then
+				var_52_3[iter_52_4] = iter_52_9
 
 				break
 			end
 		end
 	end
 
-	return var_42_3
+	return var_52_3
 end
 
 function var_0_0.RefreshGiftDailyTip()
-	for iter_44_0, iter_44_1 in pairs(pg.dorm3d_shop_template.all) do
-		local var_44_0 = pg.dorm3d_shop_template[iter_44_1]
+	for iter_54_0, iter_54_1 in pairs(pg.dorm3d_shop_template.all) do
+		local var_54_0 = pg.dorm3d_shop_template[iter_54_1]
 
-		if pg.shop_template[var_44_0.shop_id[1]].group ~= 0 then
-			local var_44_1 = getProxy(PlayerProxy):getRawData().id
+		if pg.shop_template[var_54_0.shop_id[1]].group ~= 0 then
+			local var_54_1 = getProxy(PlayerProxy):getRawData().id
 
-			PlayerPrefs.SetInt(var_44_1 .. "_dorm3dGiftWeekViewed_" .. var_44_0.item_id, 0)
-			PlayerPrefs.SetInt(var_44_1 .. "_dorm3dGiftWeekRefreshTimeStamp", pg.TimeMgr.GetInstance():GetServerTime())
+			PlayerPrefs.SetInt(var_54_1 .. "_dorm3dGiftWeekViewed_" .. var_54_0.item_id, 0)
+			PlayerPrefs.SetInt(var_54_1 .. "_dorm3dGiftWeekRefreshTimeStamp", pg.TimeMgr.GetInstance():GetServerTime())
 		end
 	end
 end
 
 function var_0_0.CheckDeviceRAMEnough()
-	local var_45_0 = SystemInfo.systemMemorySize
-	local var_45_1 = getDorm3dGameset("drom3d_memory_limit")[1]
+	local var_55_0 = SystemInfo.systemMemorySize
+	local var_55_1 = getDorm3dGameset("drom3d_memory_limit")[1]
 
-	return var_45_0 == 0 or var_45_1 < var_45_0
+	return var_55_0 == 0 or var_55_1 < var_55_0
 end
 
 return var_0_0

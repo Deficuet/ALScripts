@@ -174760,6 +174760,125 @@ _G.pg.base.bullet_template[167698] = {
 	}
 }
 
+_G.pg.base.bullet_template[167699] = {
+	hit_sfx = "",
+	range_offset = 0,
+	modle_ID = "shuidizidan02",
+	type = 5,
+	out_bound = 0,
+	antisub_enhancement = 0,
+	hit_fx = "Clhit",
+	effect_type = 1,
+	id = 167699,
+	random_damage_rate = 0,
+	miss_sfx = "",
+	range = 20,
+	miss_fx = "None",
+	pierce_count = 0,
+	ammo_type = 1,
+	alert_fx = "",
+	velocity = 8,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		6,
+		2,
+		2
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreB = true,
+		ignoreShield = true,
+		lastTime = 0.1,
+		shrapnel = {
+			{
+				barrage_ID = 81111,
+				bullet_ID = 167700,
+				reaim = true,
+				emitterType = "BattleBulletEmitter"
+			},
+			FXID = ""
+		}
+	}
+}
+
+_G.pg.base.bullet_template[167700] = {
+	hit_sfx = "battle/hit",
+	range_offset = 0,
+	modle_ID = "shuidizidan02",
+	type = 1,
+	out_bound = 0,
+	antisub_enhancement = 0,
+	hit_fx = "Clhit",
+	effect_type = 1,
+	id = 167700,
+	random_damage_rate = 0,
+	miss_sfx = "",
+	range = 100,
+	miss_fx = "None",
+	pierce_count = 0,
+	ammo_type = 1,
+	alert_fx = "",
+	velocity = 18,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		6,
+		2,
+		2
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {}
+}
+
 _G.pg.base.bullet_template[167931] = {
 	hit_sfx = "battle/hit",
 	range_offset = 15,
@@ -175266,6 +175385,567 @@ _G.pg.base.bullet_template[167965] = {
 			group_level = 1
 		}
 	},
+	extra_param = {
+		diveFilter = {
+			2
+		}
+	}
+}
+
+_G.pg.base.bullet_template[168081] = {
+	hit_sfx = "battle/torpedo-hit",
+	range_offset = 20,
+	modle_ID = "kuashe",
+	type = 2,
+	out_bound = 0,
+	antisub_enhancement = 0,
+	hit_fx = "ShellHit",
+	effect_type = 1,
+	id = 168081,
+	random_damage_rate = 0,
+	miss_sfx = "battle/sink",
+	range = 80,
+	miss_fx = "ShellMissBig",
+	pierce_count = 0,
+	ammo_type = 1,
+	alert_fx = "AlertArea",
+	velocity = 12,
+	damage_type = {
+		0.7,
+		1,
+		0.9
+	},
+	DMG_font = {
+		{
+			4,
+			0.9
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		5,
+		2,
+		2
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 15
+	},
+	attach_buff = {},
+	extra_param = {
+		gravity = -0.05,
+		randomOffsetZ = 16,
+		randomOffsetX = 16,
+		accuracy = "chargeBulletAccuracy",
+		diveFilter = {
+			2
+		}
+	}
+}
+
+_G.pg.base.bullet_template[168082] = {
+	hit_sfx = "battle/torpedo-hit",
+	range_offset = 20,
+	modle_ID = "kuasheAP",
+	type = 2,
+	out_bound = 0,
+	antisub_enhancement = 0,
+	hit_fx = "ShellHit",
+	effect_type = 1,
+	id = 168082,
+	random_damage_rate = 0,
+	miss_sfx = "battle/sink",
+	range = 80,
+	miss_fx = "ShellMissBig",
+	pierce_count = 0,
+	ammo_type = 2,
+	alert_fx = "AlertArea",
+	velocity = 12,
+	damage_type = {
+		0.3,
+		1.3,
+		1.1
+	},
+	DMG_font = {
+		{
+			4,
+			0.7
+		},
+		{
+			2,
+			1.3
+		},
+		{
+			2,
+			1.1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		5,
+		2,
+		2
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 15
+	},
+	attach_buff = {},
+	extra_param = {
+		gravity = -0.05,
+		randomOffsetZ = 16,
+		randomOffsetX = 16,
+		accuracy = "chargeBulletAccuracy",
+		diveFilter = {
+			2
+		}
+	}
+}
+
+_G.pg.base.bullet_template[168111] = {
+	hit_sfx = "battle/hit",
+	range_offset = 20,
+	modle_ID = "yanzhan_dajian",
+	type = 2,
+	out_bound = 0,
+	antisub_enhancement = 0,
+	hit_fx = "None",
+	effect_type = 1,
+	id = 168111,
+	random_damage_rate = 0,
+	miss_sfx = "",
+	range = 200,
+	miss_fx = "None",
+	pierce_count = 0,
+	ammo_type = 6,
+	alert_fx = "",
+	velocity = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			2,
+			1
+		},
+		{
+			2,
+			1
+		},
+		{
+			2,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1.8,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 20
+	},
+	attach_buff = {},
+	extra_param = {
+		gravity = 0,
+		timeToExplode = 5.01,
+		airdrop = true,
+		offsetY = 1,
+		diveFilter = {
+			1,
+			2
+		}
+	}
+}
+
+_G.pg.base.bullet_template[168112] = {
+	hit_sfx = "battle/hit",
+	range_offset = 20,
+	modle_ID = "yanzhan_dajian",
+	type = 2,
+	out_bound = 0,
+	antisub_enhancement = 0,
+	hit_fx = "ShellHit",
+	effect_type = 1,
+	id = 168112,
+	random_damage_rate = 0,
+	miss_sfx = "",
+	range = 200,
+	miss_fx = "ShellMiss",
+	pierce_count = 0,
+	ammo_type = 6,
+	alert_fx = "AlertArea",
+	velocity = 0,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			2,
+			1
+		},
+		{
+			2,
+			1
+		},
+		{
+			2,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1.8,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 20
+	},
+	attach_buff = {
+		{
+			rant = 10000,
+			buff_id = 1010319,
+			group_level = 1
+		}
+	},
+	extra_param = {
+		gravity = 0,
+		timeToExplode = 0.31,
+		airdrop = true,
+		offsetY = 1,
+		diveFilter = {
+			2
+		}
+	}
+}
+
+_G.pg.base.bullet_template[168121] = {
+	hit_sfx = "battle/torpedo-hit",
+	range_offset = 20,
+	modle_ID = "kuashe",
+	type = 2,
+	out_bound = 0,
+	antisub_enhancement = 0,
+	hit_fx = "ShellHit",
+	effect_type = 1,
+	id = 168121,
+	random_damage_rate = 0,
+	miss_sfx = "battle/sink",
+	range = 80,
+	miss_fx = "ShellMissBig",
+	pierce_count = 0,
+	ammo_type = 1,
+	alert_fx = "AlertArea",
+	velocity = 12,
+	damage_type = {
+		0.7,
+		1,
+		0.9
+	},
+	DMG_font = {
+		{
+			4,
+			0.9
+		},
+		{
+			1,
+			1
+		},
+		{
+			1,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		5,
+		2,
+		2
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 15
+	},
+	attach_buff = {},
+	extra_param = {
+		gravity = -0.05,
+		randomOffsetZ = 16,
+		randomOffsetX = 16,
+		accuracy = "chargeBulletAccuracy",
+		diveFilter = {
+			2
+		}
+	}
+}
+
+_G.pg.base.bullet_template[168122] = {
+	hit_sfx = "battle/torpedo-hit",
+	range_offset = 20,
+	modle_ID = "kuasheAP",
+	type = 2,
+	out_bound = 0,
+	antisub_enhancement = 0,
+	hit_fx = "ShellHit",
+	effect_type = 1,
+	id = 168122,
+	random_damage_rate = 0,
+	miss_sfx = "battle/sink",
+	range = 80,
+	miss_fx = "ShellMissBig",
+	pierce_count = 0,
+	ammo_type = 2,
+	alert_fx = "AlertArea",
+	velocity = 12,
+	damage_type = {
+		0.65,
+		1.35,
+		1.15
+	},
+	DMG_font = {
+		{
+			4,
+			0.7
+		},
+		{
+			2,
+			1.3
+		},
+		{
+			2,
+			1.1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		5,
+		2,
+		2
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 15
+	},
+	attach_buff = {},
+	extra_param = {
+		gravity = -0.05,
+		randomOffsetZ = 16,
+		randomOffsetX = 16,
+		accuracy = "chargeBulletAccuracy",
+		diveFilter = {
+			2
+		}
+	}
+}
+
+_G.pg.base.bullet_template[168201] = {
+	hit_sfx = "battle/hit",
+	range_offset = 10,
+	modle_ID = "jialisuoniai_jianqi",
+	type = 1,
+	out_bound = 0,
+	antisub_enhancement = 0,
+	hit_fx = "CAHit",
+	effect_type = 1,
+	id = 168201,
+	random_damage_rate = 0,
+	miss_sfx = "battle/sink",
+	range = 150,
+	miss_fx = "ShellMiss",
+	pierce_count = 0,
+	ammo_type = 1,
+	alert_fx = "",
+	velocity = 16,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			3,
+			1
+		},
+		{
+			3,
+			1
+		},
+		{
+			3,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		8,
+		1,
+		16
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreShield = true
+	}
+}
+
+_G.pg.base.bullet_template[168202] = {
+	hit_sfx = "battle/hit",
+	range_offset = 10,
+	modle_ID = "beiyade_jianqi",
+	type = 1,
+	out_bound = 0,
+	antisub_enhancement = 0,
+	hit_fx = "CAHit",
+	effect_type = 1,
+	id = 168202,
+	random_damage_rate = 0,
+	miss_sfx = "battle/sink",
+	range = 150,
+	miss_fx = "ShellMiss",
+	pierce_count = 0,
+	ammo_type = 1,
+	alert_fx = "",
+	velocity = 16,
+	damage_type = {
+		1,
+		1,
+		1
+	},
+	DMG_font = {
+		{
+			2,
+			1
+		},
+		{
+			2,
+			1
+		},
+		{
+			2,
+			1
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		8,
+		1,
+		16
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {},
+	attach_buff = {},
+	extra_param = {
+		ignoreShield = true
+	}
+}
+
+_G.pg.base.bullet_template[168211] = {
+	hit_sfx = "battle/torpedo-hit",
+	range_offset = 10,
+	modle_ID = "Torpedo01",
+	type = 3,
+	out_bound = 0,
+	antisub_enhancement = 0,
+	hit_fx = "TorpedoHit3",
+	effect_type = 1,
+	id = 168211,
+	random_damage_rate = 0,
+	miss_sfx = "battle/sink",
+	range = 150,
+	miss_fx = "ShellMiss",
+	pierce_count = 0,
+	ammo_type = 4,
+	alert_fx = "TorAlert",
+	velocity = 4,
+	damage_type = {
+		0.8,
+		1,
+		1.3
+	},
+	DMG_font = {
+		{
+			3,
+			0.8
+		},
+		{
+			3,
+			1
+		},
+		{
+			3,
+			1.3
+		}
+	},
+	acceleration = {},
+	cld_box = {
+		1.8,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	hit_type = {
+		time = -1,
+		range = 3
+	},
+	attach_buff = {},
 	extra_param = {
 		diveFilter = {
 			2

@@ -723,11 +723,11 @@ function var_0_0.UpdateSpWeaponUpgradeInfo(arg_41_0, arg_41_1, arg_41_2, arg_41_
 		})
 	end
 
-	if arg_41_3[2].skillId > 0 then
+	for iter_41_0, iter_41_1 in ipairs(arg_41_3[2]) do
 		table.insert(var_41_2, {
 			isSkill = true,
 			name = i18n("spweapon_attr_skillupgrade"),
-			effect = arg_41_3[2]
+			effect = iter_41_1
 		})
 	end
 

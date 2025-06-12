@@ -7,7 +7,6 @@ function var_0_0.GetType2Class()
 	end
 
 	var_0_1 = {
-		[ActivityConst.ACTIVITY_TYPE_INSTAGRAM] = InstagramActivity,
 		[ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN] = BeatMonterNianActivity,
 		[ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT] = CollectionEventActivity,
 		[ActivityConst.ACTIVITY_TYPE_RETURN_AWARD] = ReturnerActivity,
@@ -869,6 +868,7 @@ function var_0_0.IsShowTipById(arg_73_0)
 		[ActivityConst.JIUJIU_YOYO_ID] = JiujiuYoyoPage.IsShowRed,
 		[ActivityConst.SENRANKAGURA_TRAIN_ACT_ID] = SenrankaguraTrainScene.IsShowRed,
 		[ActivityConst.DORM_SIGN_ID] = DormSignPage.IsShowRed,
+		[ActivityConst.DORM_SIGN_ID_2] = DormSignTwoPage.IsShowRed,
 		[ActivityConst.GOASTSTORYACTIVITY_ID] = GhostSkinPageLayer.IsShowRed
 	}
 
@@ -925,7 +925,8 @@ function var_0_0.isShow(arg_81_0)
 			return arg_84_0 + getProxy(ShopsProxy):getActivityShopById(var_81_5.shopId):GetCommodityById(arg_84_1):GetPurchasableCnt()
 		end)
 	elseif arg_81_0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_TASK_RYZA and table.contains({
-		ActivityConst.DORM_SIGN_ID
+		ActivityConst.DORM_SIGN_ID,
+		ActivityConst.DORM_SIGN_ID_2
 	}, arg_81_0:getConfig("id")) then
 		return #getProxy(ActivityProxy):getActivityById(arg_81_0:getConfig("id")):getConfig("config_data") ~= #getProxy(ActivityTaskProxy):getFinishTaskById(arg_81_0:getConfig("id"))
 	end

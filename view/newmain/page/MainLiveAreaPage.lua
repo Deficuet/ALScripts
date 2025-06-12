@@ -242,12 +242,11 @@ function var_0_0.Hide(arg_25_0)
 end
 
 function var_0_0.OnDestroy(arg_26_0)
+	arg_26_0:Hide()
 	arg_26_0.coverPage:Destroy()
 
 	arg_26_0.coverPage = nil
 	arg_26_0.cover = nil
-
-	arg_26_0:Hide()
 end
 
 return var_0_0

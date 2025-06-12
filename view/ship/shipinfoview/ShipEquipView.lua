@@ -538,21 +538,26 @@ function var_0_0.UpdateSpWeaponPanel(arg_20_0, arg_20_1)
 
 			setScrollText(var_23_0:Find("value/Text"), getSkillName(var_23_1))
 		end)()
-		;(function()
-			local var_24_0 = var_20_11:GetChild(1)
+
+		local function var_20_12(arg_24_0, arg_24_1)
+			local var_24_0 = var_20_11:GetChild(arg_24_0)
 
 			setText(var_24_0:Find("tag"), i18n("spweapon_ui_skill_tag"))
+			setActive(var_24_0, arg_24_1 and arg_24_1 > 0)
 
-			local var_24_1 = arg_20_1:GetActiveUpgradableSkill(var_20_3)
-
-			setActive(var_24_0, var_24_1 and var_24_1 > 0)
-
-			if not var_24_1 or not (var_24_1 > 0) then
+			if not arg_24_1 or not (arg_24_1 > 0) then
 				return
 			end
 
-			setScrollText(var_24_0:Find("value/Text"), getSkillName(var_24_1))
-		end)()
+			setScrollText(var_24_0:Find("value/Text"), getSkillName(arg_24_1))
+		end
+
+		local var_20_13 = arg_20_1:GetActiveUpgradableSkillList(var_20_3)
+
+		for iter_20_1, iter_20_2 in ipairs(var_20_13) do
+			var_20_12(iter_20_1, iter_20_2.mapSkillID)
+		end
+
 		onButton(arg_20_0, var_20_0, function()
 			arg_20_0:emit(BaseUI.ON_SPWEAPON, {
 				type = SpWeaponInfoLayer.TYPE_SHIP,

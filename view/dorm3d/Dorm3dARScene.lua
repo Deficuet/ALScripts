@@ -110,12 +110,12 @@ function var_0_0.LoadCharacter(arg_11_0, arg_11_1, arg_11_2)
 			local var_14_0 = string.format("dorm3d/character/%s/prefabs/%s", var_11_3, var_11_5)
 
 			arg_11_0.loader:GetPrefab(var_14_0, "", function(arg_15_0)
-				var_11_1.ladyGameobject = arg_15_0
+				var_11_1.ladyGameObject = arg_15_0
 
 				setActive(arg_15_0.transform, false)
 
 				arg_11_0.skinDict[var_11_4] = {
-					ladyGameobject = arg_15_0
+					ladyGameObject = arg_15_0
 				}
 
 				arg_14_0()
@@ -127,7 +127,7 @@ function var_0_0.LoadCharacter(arg_11_0, arg_11_1, arg_11_2)
 end
 
 function var_0_0.InitCharacter(arg_16_0, arg_16_1)
-	arg_16_0.lady = arg_16_0.ladyGameobject.transform
+	arg_16_0.lady = arg_16_0.ladyGameObject.transform
 
 	arg_16_0.lady:SetParent(arg_16_0.mainCameraTF)
 	arg_16_0.lady:SetParent(nil)

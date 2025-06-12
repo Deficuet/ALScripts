@@ -1,7 +1,9 @@
 return {
-	id = "ACTRUYUE01",
 	bgName = "bg_bianzhihua_cg4",
 	shipGroup = 20220,
+	id = "ACTRUYUE01",
+	label = "dorm3d_VIDEO_TELEPHONE_LABEL",
+	stopBgm = true,
 	scripts = {
 		{
 			say = "通话过程中背景会变为",

@@ -2644,3 +2644,17 @@ function var_0_9.ActiveFreezeUnit(arg_159_0, arg_159_1)
 		var_159_0:ActiveFreezeUnit(arg_159_1)
 	end
 end
+
+function var_0_9.GetFleetLegal(arg_160_0, arg_160_1, arg_160_2)
+	if arg_160_2 == SYSTEM_DUEL or arg_160_2 == SYSTEM_PERFORM or arg_160_2 == SYSTEM_SUB_ROUTINE or arg_160_2 == SYSTEM_CARDPUZZLE or arg_160_2 == SYSTEM_PROLOGUE or arg_160_2 == SYSTEM_DODGEM or arg_160_2 == SYSTEM_SIMULATION or arg_160_2 == SYSTEM_SUBMARINE_RUN or arg_160_2 == SYSTEM_DEBUG or arg_160_2 == SYSTEM_AIRFIGHT then
+		return true
+	else
+		local var_160_0 = arg_160_0:GetFleetByIFF(arg_160_1)
+
+		if #var_160_0:GetScoutList() == 0 or not var_160_0:GetFlagShip():IsAlive() then
+			return false
+		else
+			return true
+		end
+	end
+end

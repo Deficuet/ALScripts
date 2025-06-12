@@ -15,9 +15,8 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	end
 
 	local var_1_6 = getProxy(ApartmentProxy)
-	local var_1_7 = var_1_6:getRoom(var_1_1)
 
-	if var_1_7.collectItemDic[var_1_3] then
+	if var_1_6:getRoom(var_1_1).collectItemDic[var_1_3] then
 		arg_1_0:sendNotification(GAME.APARTMENT_COLLECTION_ITEM_DONE, {
 			itemId = var_1_3
 		})
@@ -25,7 +24,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		return
 	end
 
-	local var_1_8 = var_1_6:getApartment(var_1_2)
+	local var_1_7 = var_1_6:getApartment(var_1_2)
 
 	pg.ConnectionMgr.GetInstance():Send(28011, {
 		room_id = var_1_1,
@@ -33,10 +32,9 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		ship_group = var_1_2
 	}, 28012, function(arg_2_0)
 		if arg_2_0.result == 0 then
-			var_1_7 = var_1_6:getRoom(var_1_1)
-			var_1_7.collectItemDic[var_1_3] = true
-
-			var_1_6:updateRoom(var_1_7)
+			var_1_6:ModifyRoom(var_1_1, function(arg_3_0)
+				arg_3_0.collectItemDic[var_1_3] = true
+			end)
 
 			local var_2_0 = var_1_4.award
 
@@ -47,7 +45,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 					triggerId = var_2_0,
 					cost = var_2_2,
 					delta = var_2_1,
-					apartment = var_1_8
+					apartment = var_1_7
 				})
 			end
 

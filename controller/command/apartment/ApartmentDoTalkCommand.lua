@@ -25,10 +25,9 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				PlayerPrefs.SetInt("apartment_collection_recall", var_1_1)
 			end
 
-			var_1_5 = var_1_4:getApartment(var_1_3)
-			var_1_5.talkDic[var_1_1] = true
-
-			var_1_4:updateApartment(var_1_5)
+			var_1_4:ModifyApartment(var_1_3, function(arg_3_0)
+				arg_3_0.talkDic[var_1_1] = true
+			end)
 
 			local var_2_0 = PlayerConst.addTranDrop(arg_2_0.drop_list)
 

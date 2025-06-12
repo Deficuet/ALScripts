@@ -109,7 +109,7 @@ function var_0_0.openResultView(arg_11_0)
 		correctNumToEXValue = arg_11_0:GetMGData():getConfig("simple_config_data").correct_value,
 		scoreLevel = arg_11_0:GetMGData():getConfig("simple_config_data").score_level,
 		onSubmit = function(arg_12_0)
-			arg_11_0:SendSuccess(arg_11_0.score)
+			arg_11_0:SendSuccess(arg_11_0.packageData.score and arg_11_0.packageData.score or 0)
 
 			arg_11_0.score = 0
 			arg_11_0.countTime = nil

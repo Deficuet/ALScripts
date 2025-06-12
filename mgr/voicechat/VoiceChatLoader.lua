@@ -15,6 +15,7 @@ function var_0_0.OnLoaded(arg_2_0)
 	arg_2_0.respondBtn = arg_2_0:findTF("front/btns/respond")
 	arg_2_0.closeBtn = arg_2_0:findTF("front/btns/close_btn")
 	arg_2_0.optionPanel = arg_2_0._tf:Find("front/options_panel")
+	arg_2_0.bg = arg_2_0._tf:Find("back")
 	arg_2_0.bgImg = arg_2_0._tf:Find("back/bg"):GetComponent(typeof(Image))
 	arg_2_0.player = VoiceChatPlayer.New(arg_2_0._go)
 	arg_2_0.state = var_0_1
@@ -57,7 +58,7 @@ function var_0_0.Play(arg_5_0, arg_5_1, arg_5_2)
 	local var_5_1 = {}
 
 	table.insert(var_5_1, function(arg_6_0)
-		arg_5_0:WaitForRespond(var_5_0, arg_6_0)
+		arg_5_0:WaitForRespond(var_5_0, arg_6_0, arg_5_2)
 	end)
 	table.insert(var_5_1, function(arg_7_0)
 		arg_5_0:StartAction(var_5_0)
@@ -92,12 +93,11 @@ function var_0_0.InitAction(arg_11_0, arg_11_1)
 	removeOnButton(arg_11_0.respondBtn)
 	removeOnButton(arg_11_0.closeBtn)
 	setActive(arg_11_0.optionPanel, false)
+	setActive(arg_11_0.bg, arg_11_1:HasBg())
 	arg_11_0:Show()
 
-	local var_11_0 = arg_11_1:GetBgName()
-
-	if var_11_0 then
-		arg_11_0.bgImg.sprite = LoadSprite("bg/" .. var_11_0)
+	if arg_11_1:HasBg() then
+		arg_11_0.bgImg.sprite = LoadSprite("bg/" .. arg_11_1:GetBgName())
 
 		arg_11_0.bgImg:SetNativeSize()
 	end
@@ -105,116 +105,133 @@ function var_0_0.InitAction(arg_11_0, arg_11_1)
 	arg_11_0.player:OnStart()
 end
 
-function var_0_0.WaitForRespond(arg_12_0, arg_12_1, arg_12_2)
+function var_0_0.WaitForRespond(arg_12_0, arg_12_1, arg_12_2, arg_12_3)
 	setActive(arg_12_0.respondBtn, true)
 	setActive(arg_12_0.closeBtn, true)
 
-	arg_12_0.stateTxt.text = i18n("dorm3d_VIDEO_CHAT_LABEL", arg_12_1:GetShipName())
+	arg_12_0.stateTxt.text = i18n(arg_12_1:GetLabel(), arg_12_1:GetShipName())
 	arg_12_0.stateEnTxt.text = "P R I V A T E C H A T"
 
 	onButton(arg_12_0, arg_12_0.respondBtn, arg_12_2, SFX_PANEL)
 	onButton(arg_12_0, arg_12_0.closeBtn, function()
-		arg_12_0:Stop()
+		arg_12_0.closeBtn:GetComponent(typeof(Animation)):Play("anim_close_btn_hang")
+		arg_12_0.closeBtn:GetComponent(typeof(DftAniEvent)):SetEndEvent(function()
+			arg_12_0:Stop()
+			existCall(arg_12_3)
+		end)
 	end, SFX_PANEL)
 end
 
-local function var_0_6(arg_14_0)
-	local var_14_0 = math.floor(arg_14_0 / 60)
-	local var_14_1 = arg_14_0 % 60
+local function var_0_6(arg_15_0)
+	local var_15_0 = math.floor(arg_15_0 / 60)
+	local var_15_1 = arg_15_0 % 60
 
-	return string.format("%02d:%02d", var_14_0, var_14_1)
+	return string.format("%02d:%02d", var_15_0, var_15_1)
 end
 
-function var_0_0.StartAction(arg_15_0, arg_15_1)
-	arg_15_0.state = var_0_3
-	arg_15_0.stateEnTxt.text = "V I D E O  I N V I T E"
+function var_0_0.StartAction(arg_16_0, arg_16_1)
+	arg_16_0.state = var_0_3
+	arg_16_0.stateEnTxt.text = "V I D E O  I N V I T E"
 
-	local var_15_0 = 0
+	local var_16_0 = 0
 
-	arg_15_0:AddTimer(1, function()
-		var_15_0 = var_15_0 + 1
-		arg_15_0.timeTxt.text = var_0_6(var_15_0)
+	arg_16_0:AddTimer(1, function()
+		var_16_0 = var_16_0 + 1
+		arg_16_0.timeTxt.text = var_0_6(var_16_0)
 	end)
-	setActive(arg_15_0.respondBtn, false)
+	setActive(arg_16_0.respondBtn, false)
+
+	if arg_16_1:ShouldStopBgm() then
+		pg.BgmMgr.GetInstance():StopPlay()
+	end
 end
 
-function var_0_0.WaitForHangUp(arg_17_0, arg_17_1)
-	arg_17_0:RemoveTimer()
-
-	arg_17_0.timeTxt.text = ""
-
-	arg_17_0:AddWaitTimer(2, arg_17_1)
-end
-
-function var_0_0.EndAction(arg_18_0)
-	arg_18_0:RemoveWaitTimer()
+function var_0_0.WaitForHangUp(arg_18_0, arg_18_1)
 	arg_18_0:RemoveTimer()
-	arg_18_0:Hide()
-	arg_18_0.player:OnEnd()
 
-	arg_18_0.script = nil
-	arg_18_0.state = var_0_4
+	arg_18_0.timeTxt.text = ""
 
-	removeOnButton(arg_18_0.respondBtn)
-	removeOnButton(arg_18_0.closeBtn)
+	arg_18_0:AddWaitTimer(2, arg_18_1)
 end
 
-function var_0_0.IsRunning(arg_19_0)
-	return arg_19_0.state == var_0_3 or arg_19_0.state == var_0_2
+function var_0_0.EndAction(arg_19_0)
+	arg_19_0:RemoveWaitTimer()
+	arg_19_0:RemoveTimer()
+	arg_19_0:Hide()
+
+	if arg_19_0.script:ShouldStopBgm() then
+		pg.BgmMgr.GetInstance():ContinuePlay()
+	end
+
+	arg_19_0.player:OnEnd()
+
+	arg_19_0.script = nil
+	arg_19_0.state = var_0_4
+
+	removeOnButton(arg_19_0.respondBtn)
+	removeOnButton(arg_19_0.closeBtn)
 end
 
-function var_0_0.Stop(arg_20_0)
-	if not arg_20_0:IsRunning() then
+function var_0_0.IsRunning(arg_20_0)
+	return arg_20_0.state == var_0_3 or arg_20_0.state == var_0_2
+end
+
+function var_0_0.Stop(arg_21_0)
+	if not arg_21_0:IsRunning() then
 		return
 	end
 
-	if arg_20_0.state == var_0_3 then
-		arg_20_0.script:MarkSkip()
-		arg_20_0.player:OnStop()
-	elseif arg_20_0.state == var_0_2 then
-		arg_20_0:EndAction()
+	if arg_21_0.state == var_0_3 then
+		arg_21_0.script:MarkSkip()
+		arg_21_0.player:OnStop()
+	elseif arg_21_0.state == var_0_2 then
+		arg_21_0:EndAction()
 	end
 end
 
-function var_0_0.OnDestroy(arg_21_0)
-	if arg_21_0:isShowing() then
-		arg_21_0:Hide()
+function var_0_0.OnDestroy(arg_22_0)
+	if arg_22_0:isShowing() then
+		arg_22_0:Hide()
 	end
 
-	arg_21_0:RemoveWaitTimer()
-	arg_21_0:RemoveTimer()
-end
-
-function var_0_0.AddTimer(arg_22_0, arg_22_1, arg_22_2)
+	arg_22_0:RemoveWaitTimer()
 	arg_22_0:RemoveTimer()
 
-	arg_22_0.timer = Timer.New(arg_22_2, arg_22_1, -1)
-
-	arg_22_0.timer.func()
-	arg_22_0.timer:Start()
-end
-
-function var_0_0.RemoveTimer(arg_23_0)
-	if arg_23_0.timer then
-		arg_23_0.timer:Stop()
-
-		arg_23_0.timer = nil
+	if arg_22_0.player then
+		arg_22_0.player:Clear()
 	end
 end
 
-function var_0_0.AddWaitTimer(arg_24_0, arg_24_1, arg_24_2)
-	arg_24_0:RemoveWaitTimer()
+function var_0_0.AddTimer(arg_23_0, arg_23_1, arg_23_2)
+	arg_23_0:RemoveTimer()
 
-	arg_24_0.waitTimer = Timer.New(arg_24_2, arg_24_1, 1)
+	arg_23_0.timer = Timer.New(arg_23_2, arg_23_1, -1)
 
-	arg_24_0.waitTimer:Start()
+	arg_23_0.timer.func()
+	arg_23_0.timer:Start()
 end
 
-function var_0_0.RemoveWaitTimer(arg_25_0)
-	if arg_25_0.waitTimer then
-		arg_25_0.waitTimer:Stop()
+function var_0_0.RemoveTimer(arg_24_0)
+	if arg_24_0.timer then
+		arg_24_0.timer:Stop()
 
-		arg_25_0.waitTimer = nil
+		arg_24_0.timer = nil
+	end
+end
+
+function var_0_0.AddWaitTimer(arg_25_0, arg_25_1, arg_25_2)
+	arg_25_0:RemoveWaitTimer()
+
+	arg_25_0.waitTimer = Timer.New(arg_25_2, arg_25_1, 1)
+
+	arg_25_0.waitTimer:Start()
+end
+
+function var_0_0.RemoveWaitTimer(arg_26_0)
+	if arg_26_0.waitTimer then
+		arg_26_0.waitTimer:Stop()
+
+		arg_26_0.waitTimer = nil
 	end
 end
 

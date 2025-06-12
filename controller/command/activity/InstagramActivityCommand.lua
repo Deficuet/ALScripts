@@ -8,26 +8,15 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 	local var_1_1 = getProxy(InstagramProxy)
 
 	if ActivityConst.INSTAGRAM_OP_ACTIVE == var_1_0.cmd then
-		local var_1_2 = getProxy(ActivityProxy)
-		local var_1_3 = var_1_2:getActivityById(var_1_0.activity_id)
-
-		pg.ConnectionMgr.GetInstance():Send(11202, {
+		pg.ConnectionMgr.GetInstance():Send(11701, {
 			cmd = 1,
-			activity_id = var_1_0.activity_id,
-			arg1 = var_1_0.arg1 or 0,
-			arg2 = var_1_0.arg2 or 0,
-			arg3 = var_1_0.arg3 or 0,
-			arg_list = {}
-		}, 11203, function(arg_2_0)
+			id = var_1_0.arg1
+		}, 11702, function(arg_2_0)
 			if arg_2_0.result == 0 then
-				local var_2_0 = Instagram.New(arg_2_0.ins_message)
+				local var_2_0 = Instagram.New(arg_2_0.data)
 
 				var_1_1:UpdateMessage(var_2_0)
-				var_1_3:UpdateActiveCnt()
-				var_1_2:updateActivity(var_1_3)
-				arg_1_0:sendNotification(GAME.ACTIVITY_BE_UPDATED, {
-					activity = var_1_3
-				})
+				var_1_1:AddInstagramTimer()
 				arg_1_0:sendNotification(GAME.ACT_INSTAGRAM_OP_DONE, {
 					cmd = var_1_0.cmd,
 					id = var_1_0.arg1

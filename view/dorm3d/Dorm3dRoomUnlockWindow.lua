@@ -68,7 +68,7 @@ function var_0_0.didEnter(arg_3_0)
 			local var_7_0 = Drop.Create(arg_7_0)
 
 			return string.format("%s*%d", var_7_0:getName(), var_7_0.count)
-		end)), "、"))
+		end)), var_3_7:getConfig("room")))
 
 		if var_3_7:needDownload() then
 			local var_3_8, var_3_9 = var_3_7:getDownloadNeedSize()

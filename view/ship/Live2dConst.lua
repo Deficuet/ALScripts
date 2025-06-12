@@ -1,5 +1,6 @@
 local var_0_0 = class("Live2dConst")
 
+var_0_0.l2d_arm_32 = false
 var_0_0.UnLoadL2dPating = nil
 
 function var_0_0.SaveL2dIdle(arg_1_0, arg_1_1, arg_1_2)
@@ -156,6 +157,28 @@ function var_0_0.ClearLive2dSave(arg_15_0, arg_15_1)
 	end
 
 	pg.TipsMgr.GetInstance():ShowTips(i18n("live2d_reset_desc"))
+end
+
+function var_0_0.GetLive2DArm32MatchAble()
+	if var_0_0.l2d_arm_32 then
+		return true
+	end
+
+	if PermissionHelper.IsAndroid() then
+		local var_16_0 = Application.dataPath:gsub("/base%.apk/assets$", ""):gsub("/assets$", ""):gsub("/[^/]+$", "/lib/") .. "arm"
+
+		if System.IO.Directory.Exists(var_16_0) then
+			return true
+		else
+			return false
+		end
+	else
+		return false
+	end
+end
+
+function var_0_0.ShowLive2DArm32Tips()
+	pg.TipsMgr:GetInstance():ShowTips(i18n("l2d_32xbanned_warning"))
 end
 
 return var_0_0

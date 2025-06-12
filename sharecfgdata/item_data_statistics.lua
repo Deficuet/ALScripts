@@ -10984,6 +10984,36 @@ _G.pg.base.item_data_statistics[15022] = {
 	limit = {}
 }
 
+_G.pg.base.item_data_statistics[15023] = {
+	open_directly = 0,
+	name = "咖啡馆建设券",
+	display = "用于扩建咖啡馆功能区域的建设开发券。",
+	type = 100,
+	display_effect = "",
+	id = 15023,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "Props/15022",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
 _G.pg.base.item_data_statistics[16001] = {
 	open_directly = 0,
 	name = "舰艇攻击教材T1",

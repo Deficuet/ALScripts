@@ -48,11 +48,9 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 				reducePlayerOwn(iter_4_1)
 			end
 
-			local var_4_0 = var_1_3:getRoom(var_1_1)
-
-			var_4_0.unlockCharacter[var_1_2] = true
-
-			var_1_3:updateRoom(var_4_0)
+			var_1_3:ModifyRoom(var_1_1, function(arg_5_0)
+				arg_5_0.unlockCharacter[var_1_2] = true
+			end)
 			arg_1_0:sendNotification(GAME.APARTMENT_ROOM_INVITE_UNLOCK_DONE, {
 				roomId = var_1_1,
 				groupId = var_1_2

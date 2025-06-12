@@ -23,6 +23,12 @@ function var_0_0.init(arg_2_0)
 	setText(arg_2_0:findTF("Image", arg_2_0.metaBtn), i18n("meta_skillbtn_tactics"))
 	setText(arg_2_0:findTF("panel/top/title_list/infomation/title"), i18n("words_information"))
 	setText(arg_2_0.buttonList:Find("ok_button/Image"), i18n("text_confirm"))
+
+	if PLATFORM_CODE == PLATFORM_JP then
+		setText(arg_2_0.buttonList:Find("level_button/Image"), i18n("msgbox_text_noPos_intensify"))
+	else
+		setText(arg_2_0.buttonList:Find("level_button/Image"), i18n("msgbox_text_upgrade"))
+	end
 end
 
 function var_0_0.didEnter(arg_3_0)

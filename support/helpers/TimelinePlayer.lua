@@ -54,21 +54,29 @@ function var_0_0.Stop(arg_8_0)
 	arg_8_0.comDirector:Stop()
 end
 
-function var_0_0.SetSpeed(arg_9_0, arg_9_1)
-	setDirectorSpeed(arg_9_0.comDirector, arg_9_1)
+function var_0_0.Resume(arg_9_0)
+	arg_9_0.comDirector:Resume()
 end
 
-function var_0_0.SetTime(arg_10_0, arg_10_1)
-	arg_10_0.comDirector.time = arg_10_1
-
-	arg_10_0.comDirector:RebuildGraph()
+function var_0_0.SetSpeed(arg_10_0, arg_10_1)
+	setDirectorSpeed(arg_10_0.comDirector, arg_10_1)
 end
 
-function var_0_0.RawSetTime(arg_11_0, arg_11_1)
-	arg_11_0.comDirector.time = arg_11_1
+function var_0_0.GetTime(arg_11_0)
+	return arg_11_0.comDirector.time
 end
 
-function var_0_0.Dispose(arg_12_0)
+function var_0_0.SetTime(arg_12_0, arg_12_1)
+	arg_12_0.comDirector.time = arg_12_1
+
+	arg_12_0.comDirector:RebuildGraph()
+end
+
+function var_0_0.RawSetTime(arg_13_0, arg_13_1)
+	arg_13_0.comDirector.time = arg_13_1
+end
+
+function var_0_0.Dispose(arg_14_0)
 	return
 end
 

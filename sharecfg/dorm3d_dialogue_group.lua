@@ -9537,26 +9537,6 @@ pg.dorm3d_dialogue_group = {
 			1051701
 		}
 	},
-	[110999] = {
-		reward = 0,
-		type = 700,
-		performance_type = 1,
-		trigger_area = "",
-		story = "DormLvPerformance1199",
-		room_id = 11,
-		bgm = "",
-		char_id = 10517,
-		extend_loading = 1,
-		id = 110999,
-		action_type = "stand",
-		trigger_config = {
-			11
-		},
-		unlock = {
-			3,
-			1051701
-		}
-	},
 	get_id_list_by_char_id = {
 		[20220] = {
 			1001,
@@ -10063,8 +10043,7 @@ pg.dorm3d_dialogue_group = {
 			110531,
 			110541,
 			110542,
-			110543,
-			110999
+			110543
 		}
 	},
 	get_id_list_by_room_id = {
@@ -10570,8 +10549,7 @@ pg.dorm3d_dialogue_group = {
 			110531,
 			110541,
 			110542,
-			110543,
-			110999
+			110543
 		},
 		[16] = {
 			110051,
@@ -11080,7 +11058,6 @@ pg.dorm3d_dialogue_group = {
 		110531,
 		110541,
 		110542,
-		110543,
-		110999
+		110543
 	}
 }

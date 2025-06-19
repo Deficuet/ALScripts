@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			actor = 0,
 			side = 2,
+			actorName = 10517,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			say = "骨碌骨碌骨碌骨碌——",

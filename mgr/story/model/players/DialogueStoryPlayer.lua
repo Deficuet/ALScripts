@@ -653,7 +653,12 @@ function var_0_0.UpdateLive2dPainting(arg_53_0, arg_53_1, arg_53_2, arg_53_3, ar
 		local var_54_1 = arg_53_1:GetLive2dPos()
 		local var_54_2 = Live2D.GenerateData({
 			ship = var_54_0,
-			scale = Vector3(70, 70, 70),
+			offset = {
+				0,
+				0,
+				0,
+				70
+			},
 			position = var_54_1 or Vector3(0, 0, 0),
 			parent = arg_53_2:Find("live2d")
 		})

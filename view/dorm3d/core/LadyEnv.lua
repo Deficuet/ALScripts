@@ -488,4 +488,16 @@ function var_0_0.MoveToTarget(arg_44_0, arg_44_1)
 	arg_44_0.characterController:Move(var_44_2 * Time.deltaTime)
 end
 
+function var_0_0.SetCurrentIkTimelineStatus(arg_45_0, arg_45_1)
+	arg_45_0.currentIkTimelineStatus = arg_45_1
+end
+
+function var_0_0.CheckIkTimelineStatus(arg_46_0, arg_46_1)
+	if not arg_46_0.currentIkTimelineStatus then
+		return true
+	end
+
+	return arg_46_0.currentIkTimelineStatus ~= arg_46_1
+end
+
 return var_0_0

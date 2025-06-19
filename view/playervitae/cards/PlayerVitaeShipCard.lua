@@ -3,6 +3,7 @@ local var_0_0 = class("PlayerVitaeShipCard", import(".PlayerVitaeBaseCard"))
 function var_0_0.OnInit(arg_1_0)
 	arg_1_0.bgImage = arg_1_0._tf:Find("bg"):GetComponent(typeof(Image))
 	arg_1_0.paintingTr = arg_1_0._tf:Find("ship_icon/painting")
+	arg_1_0.paintingDefaultAngle = arg_1_0.paintingTr.localEulerAngles
 	arg_1_0.detailTF = arg_1_0._tf:Find("detail")
 	arg_1_0.lvTxtTF = arg_1_0.detailTF:Find("top/level")
 	arg_1_0.lvTxt = arg_1_0.lvTxtTF:GetComponent(typeof(Text))
@@ -194,7 +195,10 @@ function var_0_0.UpdateShip(arg_17_0, arg_17_1)
 	end)
 	arg_17_0.UIlist:align(var_17_0)
 	setScrollText(arg_17_0.nameTxt, arg_17_1:GetColorName())
-	setPaintingPrefabAsync(arg_17_0.paintingTr, arg_17_1:getPainting(), "biandui")
+	setPaintingPrefabAsync(arg_17_0.paintingTr, arg_17_1:getPainting(), "biandui", nil, {
+		skinID = arg_17_1:getSkinId(),
+		rotateZ = arg_17_0.paintingDefaultAngle.z
+	})
 
 	local var_17_2 = arg_17_1:rarity2bgPrint()
 

@@ -170828,6 +170828,102 @@ _G.pg.base.item_virtual_data_statistics[65621] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_virtual_data_statistics[65623] = {
+	display = "用于头像框活动兑换，活动结束后将会消失",
+	name = "训练点数",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xunliandianshu_d",
+	id = 65623,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[65624] = {
+	display = "用于「空相交汇点」复刻活动兑换，活动结束后将会消失",
+	name = "交汇的残片",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/bisimaiz_pt",
+	id = 65624,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[65625] = {
+	display = "于「空相交汇点」活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
+	name = "单次建造券",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 50001,
+	virtual_type = 22,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	id = 65625,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[65626] = {
+	display = "用于「限时体验商店」兑换角色限时换装",
+	name = "换装体验券",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 65626,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_virtual_data_statistics[66001] = {
 	display = "重要的重建物资之一，木香与海风更配哦",
 	name = "木料",

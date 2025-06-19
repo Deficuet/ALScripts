@@ -15,7 +15,7 @@ function var_0_0.EachSubDirector(arg_2_0, arg_2_1)
 		end
 
 		table.IpairsCArray(TimelineHelper.GetTimelineTracks(var_3_0), function(arg_4_0, arg_4_1)
-			arg_2_1(arg_4_0, arg_4_1)
+			arg_2_1(arg_4_0, arg_4_1, var_3_0)
 		end)
 		var_0_0.EachSubDirector(var_3_0, arg_2_1)
 	end)
@@ -30,12 +30,12 @@ function var_0_0.DynamicBinding(arg_5_0)
 		return arg_6_0
 	end)
 
-	var_0_0.EachSubDirector(arg_5_0, function(arg_7_0, arg_7_1)
+	var_0_0.EachSubDirector(arg_5_0, function(arg_7_0, arg_7_1, arg_7_2)
 		if var_5_0[arg_7_1.name] then
 			local var_7_0 = GameObject.Find(var_5_0[arg_7_1.name])
 
 			if var_7_0 then
-				TimelineHelper.SetSceneBinding(subDirector, arg_7_1, var_7_0)
+				TimelineHelper.SetSceneBinding(arg_7_2, arg_7_1, var_7_0)
 			else
 				warning(string.format("轨道%s需要绑定的物体%s不存在", arg_7_1.name, var_5_0[arg_7_1.name]))
 			end

@@ -47,6 +47,14 @@ function var_0_0.SetPainting(arg_8_0, arg_8_1, arg_8_2)
 	setPaintingPrefabAsync(arg_8_0.painting, var_8_0, "chuanwu")
 
 	arg_8_0.paintingName = var_8_0
+
+	local var_8_1 = arg_8_0.painting.localEulerAngles
+
+	setLocalEulerAngles(arg_8_0.painting, {
+		z = 90,
+		x = var_8_1.x,
+		y = var_8_1.y
+	})
 end
 
 function var_0_0.RecyclePainting(arg_9_0)

@@ -2113,7 +2113,9 @@ function var_0_0.OutOfPending(arg_248_0, arg_248_1, arg_248_2)
 		function(arg_250_0)
 			arg_248_0.shiftLady = arg_248_1
 
-			arg_248_0:ShiftZone(arg_248_0.ladyBaseZone, arg_250_0)
+			local var_250_0 = arg_248_0.ladyDict[arg_248_1]
+
+			arg_248_0:ShiftZone(var_250_0.ladyBaseZone, arg_250_0)
 		end,
 		function(arg_251_0)
 			arg_248_0:DoTalk(var_248_0, arg_251_0)

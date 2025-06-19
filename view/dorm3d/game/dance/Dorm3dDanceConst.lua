@@ -39,23 +39,23 @@ var_0_0.SCORE_RANGE = {
 		3000
 	},
 	A = {
-		2200,
-		2799
+		2000,
+		2699
 	},
 	B = {
-		1500,
-		2199
+		1000,
+		1999
 	},
 	C = {
 		0,
-		1499
+		999
 	}
 }
 var_0_0.PHOTO_MOVE_TIME = 1
 var_0_0.CUCOLORIS_FADE_100_50 = 0.5
 var_0_0.CUCOLORIS_FADE_50_0 = 0.5
 var_0_0.MATCH_ANIM_TIME = 0.2
-var_0_0.SCORE_ANIM_TIME = 0.5
+var_0_0.SCORE_ANIM_TIME = 0.3
 var_0_0.RANK_ANIM_TIME = 0.5
 var_0_0.PHOTO_SCALE = Vector3(0.58, 0.58, 0.58)
 

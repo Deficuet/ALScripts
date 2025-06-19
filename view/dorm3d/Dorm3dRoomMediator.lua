@@ -240,8 +240,6 @@ function var_0_0.register(arg_1_0)
 		local var_1_0 = getProxy(ApartmentProxy):getApartment(arg_1_0.contextData.groupIds[1])
 
 		arg_1_0.viewComponent:SetApartment(var_1_0)
-	else
-		getProxy(ApartmentProxy):SetRoomInviteList(arg_1_0.contextData.roomId, arg_1_0.contextData.groupIds)
 	end
 
 	Dorm3dFurniture.RecordLastTimelimitShopFurniture()

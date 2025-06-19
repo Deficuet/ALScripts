@@ -3284,7 +3284,7 @@ pg.base.dorm3d_ins_chat_language = {
 	},
 	{
 		param = "附近的商业街入驻了不少店家，可以解决你的需求",
-		ship_group = 10517,
+		ship_group = 0,
 		type = 1,
 		option = "",
 		id = 333,
@@ -3313,7 +3313,7 @@ pg.base.dorm3d_ins_chat_language = {
 	},
 	{
 		param = "好啊，想逛什么？",
-		ship_group = 10517,
+		ship_group = 0,
 		type = 1,
 		option = "",
 		id = 336,
@@ -3673,12 +3673,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				3,
-				"我相信新泽西"
+				"我相信{namecode:199}"
 			}
 		}
 	},
 	{
-		param = "我相信新泽西",
+		param = "我相信{namecode:199}",
 		ship_group = 0,
 		type = 1,
 		option = "",

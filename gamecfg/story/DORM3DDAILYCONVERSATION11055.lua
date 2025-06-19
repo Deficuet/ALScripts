@@ -12,8 +12,8 @@ return {
 	},
 	scripts = {
 		{
+			actor = 0,
 			side = 2,
-			actorName = 10517,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			actor = 10517,
 			side = 2,
+			actorName = 10517,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			say = "嗯嗯！又松软又香甜，确实非常好吃呢~",

@@ -9,20 +9,47 @@ function var_0_0.GenerateData(arg_1_0)
 			arg_2_0.effectParent = arg_2_1.effectParent
 
 			local var_2_0 = arg_2_0:GetShipSkinConfig()
+			local var_2_1
+			local var_2_2
 
-			arg_2_0.pos = arg_2_1.position + BuildVector3(var_2_0.spine_offset[1])
+			if arg_2_1.offset and #arg_2_1.offset >= 3 then
+				var_2_1 = BuildVector3({
+					arg_2_1.offset[1],
+					arg_2_1.offset[2],
+					arg_2_1.offset[3]
+				})
+			elseif var_2_0.spine_offset and #var_2_0.spine_offset >= 3 then
+				var_2_1 = BuildVector3({
+					var_2_0.spine_offset[1],
+					var_2_0.spine_offset[2],
+					var_2_0.spine_offset[3]
+				})
+			else
+				var_2_1 = BuildVector3({
+					0,
+					0,
+					0
+				})
+			end
 
-			local var_2_1 = var_2_0.spine_offset[2][1]
+			if arg_2_1.offset and #arg_2_1.offset >= 4 then
+				var_2_2 = arg_2_1.offset[4]
+			elseif var_2_0.spine_offset and #var_2_0.spine_offset >= 4 then
+				var_2_2 = var_2_0.spine_offset[4]
+			else
+				var_2_2 = 1
+			end
 
-			arg_2_0.scale = Vector3(var_2_1, var_2_1, var_2_1)
+			arg_2_0.pos = arg_2_1.position + var_2_1
+			arg_2_0.scale = Vector3(var_2_2, var_2_2, var_2_2)
 
 			if #var_2_0.special_effects > 0 then
 				arg_2_0.bgEffectName = var_2_0.special_effects[1]
 				arg_2_0.bgEffectPos = arg_2_1.position + BuildVector3(var_2_0.special_effects[2])
 
-				local var_2_2 = var_2_0.special_effects[3][1]
+				local var_2_3 = var_2_0.special_effects[3][1]
 
-				arg_2_0.bgEffectScale = Vector3(var_2_2, var_2_2, var_2_2)
+				arg_2_0.bgEffectScale = Vector3(var_2_3, var_2_3, var_2_3)
 			end
 		end,
 		GetShipName = function(arg_3_0)

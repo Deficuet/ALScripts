@@ -445,7 +445,7 @@ pg.base.dorm3d_shop_template = {
 		}
 	},
 	{
-		name = "{namecode:68}咖啡馆邀请函",
+		name = "{namecode:199}咖啡馆邀请函",
 		rarity = 4,
 		item_id = 16,
 		type = 3,

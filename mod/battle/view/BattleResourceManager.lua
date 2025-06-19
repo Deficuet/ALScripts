@@ -1149,7 +1149,7 @@ function var_0_5.GetBulletResource(arg_73_0, arg_73_1)
 	return var_73_0
 end
 
-function var_0_5.GetAircraftResource(arg_74_0, arg_74_1, arg_74_2)
+function var_0_5.GetAircraftResource(arg_74_0, arg_74_1, arg_74_2, arg_74_3)
 	local var_74_0 = {}
 
 	arg_74_2 = arg_74_2 or 0
@@ -1181,7 +1181,10 @@ function var_0_5.GetAircraftResource(arg_74_0, arg_74_1, arg_74_2)
 	end
 
 	var_74_0[#var_74_0 + 1] = var_0_5.GetCharacterGoPath(var_74_2)
-	var_74_0[#var_74_0 + 1] = var_0_5.GetAircraftIconPath(var_74_1.model_ID)
+
+	if arg_74_3 then
+		var_74_0[#var_74_0 + 1] = var_0_5.GetAircraftIconPath(var_74_1.model_ID)
+	end
 
 	local var_74_9 = arg_74_1 or var_74_1.weapon_ID
 
@@ -1303,7 +1306,7 @@ function var_0_5.GetStageResource(arg_76_0)
 
 			if iter_76_7.airFighter ~= nil then
 				for iter_76_20, iter_76_21 in pairs(iter_76_7.airFighter) do
-					local var_76_11 = var_0_5.GetAircraftResource(iter_76_21.templateID, iter_76_21.weaponID)
+					local var_76_11 = var_0_5.GetAircraftResource(iter_76_21.templateID, iter_76_21.weaponID, true)
 
 					for iter_76_22, iter_76_23 in ipairs(var_76_11) do
 						var_76_1[#var_76_1 + 1] = iter_76_23

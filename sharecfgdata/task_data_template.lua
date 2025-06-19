@@ -166657,6 +166657,584 @@ _G.pg.base.task_data_template[23772] = {
 	award_display = {}
 }
 
+_G.pg.base.task_data_template[23773] = {
+	name = "『俾斯麦Z版本』前哨战七日任务1",
+	guild_coin_award = 0,
+	award = 906261,
+	type = 26,
+	desc = "舰队出征，以S评价通关10次",
+	count_inherit = 0,
+	sub_type = 24,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23773,
+	target_num = 10,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23774] = {
+	name = "『俾斯麦Z版本』前哨战七日任务2",
+	guild_coin_award = 0,
+	award = 906262,
+	type = 26,
+	desc = "登录游戏",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23774,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23775] = {
+	name = "『俾斯麦Z版本』前哨战七日任务3",
+	guild_coin_award = 0,
+	award = 906263,
+	type = 26,
+	desc = "进行2次演习",
+	count_inherit = 0,
+	sub_type = 27,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23775,
+	target_num = 2,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23776] = {
+	name = "『俾斯麦Z版本』前哨战七日任务4",
+	guild_coin_award = 0,
+	award = 906264,
+	type = 26,
+	desc = "完成军事委托2次",
+	count_inherit = 0,
+	sub_type = 80,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23776,
+	target_num = 2,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23777] = {
+	name = "『俾斯麦Z版本』前哨战七日任务5",
+	guild_coin_award = 0,
+	award = 906265,
+	type = 26,
+	desc = "舰船退役2次",
+	count_inherit = 0,
+	sub_type = 31,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23777,
+	target_num = 2,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23778] = {
+	name = "『俾斯麦Z版本』前哨战七日任务6",
+	guild_coin_award = 0,
+	award = 906266,
+	type = 26,
+	desc = "完成3次每日挑战",
+	count_inherit = 0,
+	sub_type = 26,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23778,
+	target_num = 3,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23779] = {
+	name = "『俾斯麦Z版本』前哨战七日任务7",
+	guild_coin_award = 0,
+	award = 906267,
+	type = 26,
+	desc = "舰船强化5次",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23779,
+	target_num = 5,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23780] = {
+	name = "『俾斯麦Z版本』前哨战七日任务8",
+	guild_coin_award = 0,
+	award = 906268,
+	type = 26,
+	desc = "进行战术训练2次",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23780,
+	target_num = 2,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23781] = {
+	name = "『俾斯麦Z版本』前哨战七日任务9",
+	guild_coin_award = 0,
+	award = 906269,
+	type = 26,
+	desc = "击沉任意敌人20艘",
+	count_inherit = 0,
+	sub_type = 11,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23781,
+	target_num = 20,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23782] = {
+	name = "『俾斯麦Z版本』前哨战七日任务10",
+	guild_coin_award = 0,
+	award = 906270,
+	type = 26,
+	desc = "后宅补充食物5次",
+	count_inherit = 0,
+	sub_type = 61,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23782,
+	target_num = 5,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23783] = {
+	name = "『俾斯麦Z版本』前哨战七日任务11",
+	guild_coin_award = 0,
+	award = 906271,
+	type = 26,
+	desc = "建造舰船2次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23783,
+	target_num = 2,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23784] = {
+	name = "『俾斯麦Z版本』前哨战七日任务12",
+	guild_coin_award = 0,
+	award = 906272,
+	type = 26,
+	desc = "打开任意科技箱1个",
+	count_inherit = 0,
+	sub_type = 50,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23784,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23785] = {
+	name = "『俾斯麦Z版本』前哨战七日任务13",
+	guild_coin_award = 0,
+	award = 906273,
+	type = 26,
+	desc = "进行2次战术训练",
+	count_inherit = 0,
+	sub_type = 71,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23785,
+	target_num = 2,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23786] = {
+	name = "『俾斯麦Z版本』前哨战七日任务14",
+	guild_coin_award = 0,
+	award = 906274,
+	type = 26,
+	desc = "击败旗舰3次 ",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23786,
+	target_num = 3,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			3,
+			3900,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
 _G.pg.base.task_data_template[23801] = {
 	name = "小埃吉尔npc临时加入",
 	guild_coin_award = 0,
@@ -168644,6 +169222,1081 @@ _G.pg.base.task_data_template[23852] = {
 			27,
 			1021002,
 			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23862] = {
+	name = "『俾斯麦Z复刻』-日常建造",
+	guild_coin_award = 0,
+	award = 906309,
+	type = 36,
+	desc = "建造舰船3次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23862,
+	target_num = 3,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65624,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23863] = {
+	name = "『俾斯麦Z复刻』-日常出击",
+	guild_coin_award = 0,
+	award = 906310,
+	type = 36,
+	desc = "舰队出征，获得15次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23863,
+	target_num = 15,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65624,
+			300
+		},
+		{
+			2,
+			65625,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[23864] = {
+	name = "『俾斯麦Z复刻』-日常困难本",
+	guild_coin_award = 0,
+	award = 906311,
+	type = 36,
+	desc = "通关1次任意困难关卡 ",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "10101",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23864,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65624,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23865] = {
+	name = "『俾斯麦Z复刻』-日常活动关卡",
+	guild_coin_award = 0,
+	award = 906312,
+	type = 36,
+	desc = "通过1次任意活动关卡 ",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23865,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1720001,
+		1720002,
+		1720003,
+		1720004,
+		1720005,
+		1720006,
+		1720007,
+		1720008,
+		1720021,
+		1720022,
+		1720023,
+		1720024,
+		1720025,
+		1720026,
+		1720027,
+		1720028,
+		1720041,
+		1720051
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65624,
+			300
+		},
+		{
+			2,
+			54006,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			50004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23866] = {
+	name = "『俾斯麦Z复刻』通关T1/HT1",
+	guild_coin_award = 0,
+	award = 906313,
+	type = 6,
+	desc = "击败T1或HT1旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23866,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1720001,
+		1720021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			65625,
+			1
+		},
+		{
+			2,
+			65624,
+			200
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			50003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23867] = {
+	name = "『俾斯麦Z复刻』通关T2/HT2",
+	guild_coin_award = 0,
+	award = 906314,
+	type = 6,
+	desc = "击败T2或HT2旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23867,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1720002,
+		1720022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			65625,
+			1
+		},
+		{
+			2,
+			65624,
+			400
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			50003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23868] = {
+	name = "『俾斯麦Z复刻』通关T3/HT3",
+	guild_coin_award = 0,
+	award = 906315,
+	type = 6,
+	desc = "击败T3或HT3旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23868,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1720003,
+		1720023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			65625,
+			2
+		},
+		{
+			2,
+			65624,
+			600
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			50003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23869] = {
+	name = "『俾斯麦Z复刻』通关T4/HT4",
+	guild_coin_award = 0,
+	award = 906316,
+	type = 6,
+	desc = "击败T4或HT4旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23869,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1720004,
+		1720024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			65625,
+			1
+		},
+		{
+			2,
+			65624,
+			400
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			50004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23870] = {
+	name = "『俾斯麦Z复刻』通关T5/HT5",
+	guild_coin_award = 0,
+	award = 906317,
+	type = 6,
+	desc = "击败T5或HT5旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23870,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1720005,
+		1720025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			65625,
+			1
+		},
+		{
+			2,
+			65624,
+			600
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			50004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23871] = {
+	name = "『俾斯麦Z复刻』通关T6/HT6",
+	guild_coin_award = 0,
+	award = 906318,
+	type = 6,
+	desc = "击败T6或HT6旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23871,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1720006,
+		1720026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			65625,
+			2
+		},
+		{
+			2,
+			65624,
+			800
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			50004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23872] = {
+	name = "『俾斯麦Z复刻』通关SP",
+	guild_coin_award = 0,
+	award = 906319,
+	type = 6,
+	desc = "通关SP",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1720041",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23872,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			65625,
+			3
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1720025,
+			chapterId = 1720041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23873] = {
+	name = "『俾斯麦Z复刻』通关HT6",
+	guild_coin_award = 0,
+	award = 906320,
+	type = 6,
+	desc = "通关HT6<color=#92fc63>（勋章无法重复获得）</color>",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1720026",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23873,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			248,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1720012,
+			chapterId = 1720026
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23874] = {
+	name = "『俾斯麦Z复刻』通关EX",
+	guild_coin_award = 0,
+	award = 906321,
+	type = 6,
+	desc = "通关EX关卡",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1720051",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23874,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1720026,
+			chapterId = 1720051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23875] = {
+	name = "『俾斯麦Z复刻』T1/HT1的3星",
+	guild_coin_award = 0,
+	award = 906322,
+	type = 6,
+	desc = "完成T1或HT1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "23876",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23875,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1720001,
+		1720021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			50003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23876] = {
+	name = "『俾斯麦Z复刻』T2/HT2的3星",
+	guild_coin_award = 0,
+	award = 906323,
+	type = 6,
+	desc = "完成T2或HT2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "23877",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23876,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1720002,
+		1720022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			50003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23877] = {
+	name = "『俾斯麦Z复刻』T3/HT3的3星",
+	guild_coin_award = 0,
+	award = 906324,
+	type = 6,
+	desc = "完成T3或HT3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "23878",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23877,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1720003,
+		1720023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			50003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23878] = {
+	name = "『俾斯麦Z复刻』T4/HT4的3星",
+	guild_coin_award = 0,
+	award = 906325,
+	type = 6,
+	desc = "完成T4或HT4的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "23879",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23878,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1720004,
+		1720024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			50004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23879] = {
+	name = "『俾斯麦Z复刻』T5/HT5的3星",
+	guild_coin_award = 0,
+	award = 906326,
+	type = 6,
+	desc = "完成T5或HT5的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "23880",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23879,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1720005,
+		1720025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			50004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23880] = {
+	name = "『俾斯麦Z复刻』T6/HT6的3星",
+	guild_coin_award = 0,
+	award = 906327,
+	type = 6,
+	desc = "完成T6或HT6的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23880,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1720006,
+		1720026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			50004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23881] = {
+	name = "『俾斯麦Z复刻』外观装备箱保底",
+	guild_coin_award = 0,
+	award = 906328,
+	type = 6,
+	desc = "通过「活动商店」兑换或「补给商店-军火」购买20个 [外观装备箱(海岛冒险)]",
+	count_inherit = 0,
+	sub_type = 52,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "30345",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23881,
+	target_num = 20,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30522,
+			1
+		}
+	},
+	scene = {
+		"SHOP",
+		{
+			warp = "shopstreet"
 		}
 	}
 }

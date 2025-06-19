@@ -12,7 +12,12 @@ function var_0_0.Load(arg_2_0, arg_2_1, arg_2_2, arg_2_3)
 		ship = Ship.New({
 			configId = 312011
 		}),
-		scale = Vector3(75, 75, 75),
+		offset = {
+			nil,
+			nil,
+			nil,
+			72
+		},
 		position = Vector3(0, 0, 0),
 		parent = arg_2_0.live2dContainer
 	})

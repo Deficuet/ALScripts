@@ -453,7 +453,8 @@ function var_0_0.commonBind(arg_37_0)
 			arg_48_0:addSubLayers(Context.New({
 				mediator = EquipmentInfoMediator,
 				viewComponent = EquipmentInfoLayer,
-				data = arg_48_2
+				data = arg_48_2,
+				onRemoved = arg_48_2 and arg_48_2.onRemoved or nil
 			}))
 		end,
 		[BaseUI.ON_NEW_DROP] = function(arg_49_0, arg_49_1, arg_49_2)

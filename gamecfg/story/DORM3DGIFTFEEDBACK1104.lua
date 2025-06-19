@@ -11,7 +11,7 @@ return {
 	},
 	scripts = {
 		{
-			actorName = 19903,
+			actorName = 10517,
 			nameColor = "#FFFFFF",
 			say = "哇哦~是我最喜欢的气泡水果糖！",
 			typewriter = {
@@ -46,7 +46,7 @@ return {
 			}
 		},
 		{
-			actorName = 19903,
+			actorName = 10517,
 			nameColor = "#FFFFFF",
 			say = "Honey特意挑选的吗？包装得很漂亮嘛！谢啦~！",
 			typewriter = {

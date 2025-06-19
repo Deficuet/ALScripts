@@ -408,7 +408,7 @@ function var_0_0.onEventCallback(arg_20_0, arg_20_1, arg_20_2, arg_20_3)
 		if arg_20_0.actionTrigger.action then
 			var_20_1 = arg_20_0:fillterAction(arg_20_0.actionTrigger.action)
 			var_20_0 = arg_20_0.actionTriggerActive
-			var_20_2 = arg_20_0.actionTrigger.focus or false
+			var_20_2 = arg_20_0.actionTrigger.focus == 1 and true or false
 			var_20_3 = arg_20_0.actionTrigger.target or nil
 			var_20_6 = arg_20_0.actionTrigger.target_focus == 1 and true or false
 
@@ -431,7 +431,7 @@ function var_0_0.onEventCallback(arg_20_0, arg_20_1, arg_20_2, arg_20_3)
 				var_20_0 = arg_20_0.actionTriggerActive
 			end
 
-			var_20_2 = var_20_7.focus or true
+			var_20_2 = var_20_7.focus == 1 and true or false
 			var_20_3 = var_20_7.target or nil
 			var_20_6 = var_20_7.target_focus == 1 and true or false
 			var_20_4 = var_20_7.react or nil
@@ -452,7 +452,7 @@ function var_0_0.onEventCallback(arg_20_0, arg_20_1, arg_20_2, arg_20_3)
 		elseif not arg_20_0.actionTrigger.action then
 			var_20_1 = arg_20_0:fillterAction(arg_20_0.actionTrigger.action)
 			var_20_0 = arg_20_0.actionTriggerActive
-			var_20_2 = arg_20_0.actionTrigger.focus or false
+			var_20_2 = arg_20_0.actionTrigger.focus == 1 and true or false
 			var_20_3 = arg_20_0.actionTrigger.target or nil
 			var_20_6 = arg_20_0.actionTrigger.target_focus == 1 and true or false
 
@@ -491,6 +491,10 @@ function var_0_0.onEventCallback(arg_20_0, arg_20_1, arg_20_2, arg_20_3)
 			if not var_20_1 then
 				arg_20_0.revertResetFlag = true
 			end
+		end
+
+		if var_20_2 then
+			arg_20_0:setTriggerActionFlag(false)
 		end
 
 		arg_20_2 = {
@@ -1273,7 +1277,9 @@ end
 function var_0_0.checkClickAction(arg_65_0)
 	if arg_65_0.firstActive then
 		if arg_65_0.actionTrigger.down then
-			if not arg_65_0.l2dIsPlaying then
+			if arg_65_0.actionTrigger.focus == 1 and arg_65_0.l2dIsPlaying then
+				return true
+			elseif not arg_65_0.l2dIsPlaying then
 				return true
 			end
 		else
@@ -1283,9 +1289,16 @@ function var_0_0.checkClickAction(arg_65_0)
 		local var_65_0 = math.abs(arg_65_0.mouseInputUp.x - arg_65_0.mouseInputDown.x) < 30 and math.abs(arg_65_0.mouseInputUp.y - arg_65_0.mouseInputDown.y) < 30
 		local var_65_1 = arg_65_0.mouseInputUpTime - arg_65_0.mouseInputDownTime < 0.5
 
-		if not arg_65_0.actionTrigger.down and var_65_0 and var_65_1 and not arg_65_0.l2dIsPlaying then
-			arg_65_0.clickTriggerTime = 0.01
-			arg_65_0.clickApplyFlag = true
+		if not arg_65_0.actionTrigger.down and var_65_0 and var_65_1 then
+			if arg_65_0.actionTrigger.focus == 1 and arg_65_0.l2dIsPlaying then
+				if arg_65_0.l2dPlayActionName == arg_65_0.actionTrigger.action then
+					arg_65_0.clickTriggerTime = 0.01
+					arg_65_0.clickApplyFlag = true
+				end
+			elseif not arg_65_0.l2dIsPlaying then
+				arg_65_0.clickTriggerTime = 0.01
+				arg_65_0.clickApplyFlag = true
+			end
 		else
 			arg_65_0:setAbleWithFlag(false)
 		end

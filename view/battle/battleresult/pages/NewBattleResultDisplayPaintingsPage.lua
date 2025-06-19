@@ -337,8 +337,8 @@ function var_0_0.InitMainFleetShips(arg_37_0, arg_37_1)
 				return
 			end
 
-			arg_37_0:AdjustPainting(var_37_6, var_37_5)
 			setPaintingPrefabAsync(var_37_6:Find("mask/painting"), var_37_5:getPainting(), "biandui", arg_38_0)
+			arg_37_0:AdjustPainting(var_37_6, var_37_5)
 		end)
 	end
 
@@ -351,20 +351,26 @@ function var_0_0.AdjustPainting(arg_39_0, arg_39_1, arg_39_2)
 
 	if var_39_1 then
 		local var_39_2 = var_39_1.battle_result_display_shift
+		local var_39_3 = var_39_0:GetComponent(typeof(RectTransform))
 
-		var_39_0.anchoredPosition = Vector2(var_39_2[1] + arg_39_0.defaultPaintingPosition.x, var_39_2[2] + arg_39_0.defaultPaintingPosition.y)
+		var_39_3.anchoredPosition = Vector2(var_39_2[1] + arg_39_0.defaultPaintingPosition.x, var_39_2[2] + arg_39_0.defaultPaintingPosition.y)
 
-		local var_39_3 = var_39_2[4]
+		local var_39_4 = var_39_2[4]
 
-		var_39_0.localScale = Vector3(var_39_3, var_39_3, 1)
+		var_39_3.localScale = Vector3(var_39_4, var_39_4, 1)
+
+		local var_39_5 = var_39_3.localEulerAngles
+
+		var_39_3.localEulerAngles = Vector3(var_39_5.x, var_39_5.y, var_39_2[5] and var_39_2[5] or 0)
 	end
 end
 
 function var_0_0.RevertPainting(arg_40_0, arg_40_1)
-	local var_40_0 = arg_40_0:findTF("mask/painting", arg_40_1)
+	local var_40_0 = arg_40_0:findTF("mask/painting", arg_40_1):GetComponent(typeof(RectTransform))
 
 	var_40_0.anchoredPosition = arg_40_0.defaultPaintingPosition
 	var_40_0.localScale = Vector3(1, 1, 1)
+	var_40_0.localEulerAngles = Vector3(0, 0, 0)
 end
 
 function var_0_0.OnDestroy(arg_41_0)

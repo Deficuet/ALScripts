@@ -11,6 +11,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.content = arg_1_0.tr:Find("content")
 	arg_1_0.bgImage = arg_1_0.content:Find("bg"):GetComponent(typeof(Image))
 	arg_1_0.paintingTr = arg_1_0.content:Find("ship_icon/painting")
+	arg_1_0.paintingDefaultAngle = arg_1_0.paintingTr.localEulerAngles
 	arg_1_0.detailTF = arg_1_0.content:Find("detail")
 	arg_1_0.lvTxtTF = arg_1_0.detailTF:Find("top/level")
 	arg_1_0.lvTxt = arg_1_0.lvTxtTF:GetComponent(typeof(Text))
@@ -73,7 +74,10 @@ function var_0_0.flush(arg_4_0)
 		arg_4_0.UIlist:align(var_4_2)
 		setScrollText(arg_4_0.nameTxt, var_4_1:GetColorName())
 		arg_4_0:updateProps({})
-		setPaintingPrefabAsync(arg_4_0.paintingTr, var_4_1:getPainting(), "biandui")
+		setPaintingPrefabAsync(arg_4_0.paintingTr, var_4_1:getPainting(), "biandui", nil, {
+			skinID = var_4_1:getSkinId(),
+			rotateZ = arg_4_0.paintingDefaultAngle.z
+		})
 
 		local var_4_4 = arg_4_0.shipVO:rarity2bgPrint()
 

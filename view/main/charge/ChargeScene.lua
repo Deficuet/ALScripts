@@ -436,7 +436,12 @@ function var_0_0.createLive2D(arg_34_0)
 		ship = Ship.New({
 			configId = 312011
 		}),
-		scale = Vector3(75, 75, 75),
+		offset = {
+			0,
+			0,
+			0,
+			75
+		},
 		position = Vector3(0, 0, 0),
 		parent = arg_34_0:findTF("frame/painting/live2d")
 	})

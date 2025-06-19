@@ -265,10 +265,11 @@ function var_0_0.SwitchContainerDisplay(arg_27_0)
 	setActive(arg_27_0.sortBtn, not arg_27_0.isRemouldOrUpgradeMode and not arg_27_0.isPhantomMode)
 	setActive(arg_27_0._tf:Find("main/ship_container"), not arg_27_0.isPhantomMode)
 	setActive(arg_27_0._tf:Find("main/phantom_container"), arg_27_0.isPhantomMode)
+	setActive(arg_27_0.preferenceBtn, not arg_27_0.isPhantomMode)
 	arg_27_0:updateBarInfo()
 	setActive(arg_27_0.helpPhantom, arg_27_0.contextData.mode == var_0_0.MODE_SHIP_PHANTOM)
 
-	if PlayerPrefs.GetInt("PHANTOM_HELP_FIRST", 0) == 0 then
+	if pg.SeriesGuideMgr.GetInstance():isEnd() and PlayerPrefs.GetInt("PHANTOM_HELP_FIRST", 0) == 0 then
 		PlayerPrefs.SetInt("PHANTOM_HELP_FIRST", 1)
 		triggerButton(arg_27_0.helpPhantom)
 	end
@@ -332,8 +333,6 @@ function var_0_0.SwitchContainerDisplay(arg_27_0)
 
 			arg_27_0.scrollPhantoms = {}
 			arg_27_0.phantomGroupDic = {}
-
-			setActive(arg_27_0.preferenceBtn, false)
 
 			local var_28_3 = 0
 
@@ -410,7 +409,6 @@ function var_0_0.SwitchContainerDisplay(arg_27_0)
 			end
 
 			arg_27_0:updateIndexDatas()
-			setActive(arg_27_0.preferenceBtn, true)
 			triggerToggle(arg_27_0.preferenceBtn, arg_27_0.commonTag == Ship.PREFERENCE_TAG_COMMON)
 			arg_27_0:initIndexPanel()
 

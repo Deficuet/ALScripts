@@ -570,7 +570,7 @@ pg.ship_l2d = {
 		parts_data = "",
 		revert_action_index = 0,
 		draw_able_name = "TouchDrag1",
-		limit_time = 0,
+		limit_time = 0.1,
 		mode = 2,
 		offset_y = 80,
 		gyro = 0,
@@ -600,9 +600,8 @@ pg.ship_l2d = {
 		},
 		action_trigger = {
 			action = "touch_drag1",
-			num = 1,
-			time = 0.5,
-			type = 1
+			focus = 1,
+			type = 2
 		}
 	},
 	[3012922] = {

@@ -33,6 +33,12 @@ function var_0_0.Init(arg_3_0)
 	setActive(arg_3_0.loadDot, false)
 	setActive(arg_3_0.loadLoading, false)
 	onButton(arg_3_0, arg_3_0._tf, function()
+		if Live2dConst.GetLive2DArm32MatchAble() then
+			Live2dConst.ShowLive2DArm32Tips()
+
+			return
+		end
+
 		local var_4_0 = arg_3_0:GetDownloadGroup()
 		local var_4_1 = pg.SettingsGroupMgr:GetInstance():GetState(var_4_0)
 
@@ -66,6 +72,15 @@ function var_0_0.InitPrefsBar(arg_6_0)
 	arg_6_0.hideTip = true
 
 	onToggle(arg_6_0, arg_6_0.prefsBar, function(arg_7_0)
+		if Live2dConst.GetLive2DArm32MatchAble() then
+			if arg_7_0 then
+				Live2dConst.ShowLive2DArm32Tips()
+				triggerToggle(arg_6_0.prefsBar, false)
+			end
+
+			return
+		end
+
 		if arg_7_0 == true then
 			GroupHelper.SetGroupPrefsByName(var_6_0, DMFileChecker.Prefs.Max)
 		else

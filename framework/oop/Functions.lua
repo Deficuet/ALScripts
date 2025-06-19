@@ -46,6 +46,12 @@ local var_0_6 = tostring
 local var_0_7 = next
 
 function print_r(arg_10_0)
+	if var_0_4(arg_10_0) ~= "table" then
+		var_0_0("root is not table")
+
+		return
+	end
+
 	local var_10_0 = {
 		[arg_10_0] = "."
 	}

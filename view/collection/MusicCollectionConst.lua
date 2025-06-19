@@ -1,8 +1,8 @@
 local var_0_0 = class("MusicCollectionConst")
 
-var_0_0.Version = 3
+var_0_0.Version = 4
 var_0_0.AutoScrollIndex = 1
-var_0_0.NewCount = 33
+var_0_0.NewCount = 21
 var_0_0.MusicStates = {
 	DirectShow = 0,
 	Unlocked = 1,

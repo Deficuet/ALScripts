@@ -149,7 +149,8 @@ function var_0_0.ShowAdmiral(arg_13_0)
 
 				arg_13_0.paintingInfo[arg_16_1] = {
 					paintingName = var_16_2.painting or "unknown",
-					painting = arg_16_2:Find("Style_card/bg/mask/painting")
+					painting = arg_16_2:Find("Style_card/bg/mask/painting"),
+					skinID = var_16_1
 				}
 
 				arg_13_0:loadPainting(arg_13_0.paintingInfo[arg_16_1])
@@ -264,7 +265,10 @@ end
 function var_0_0.loadPainting(arg_32_0, arg_32_1)
 	local var_32_0 = checkABExist("painting/" .. arg_32_1.paintingName .. "_n")
 
-	setPaintingPrefabAsync(arg_32_1.painting, arg_32_1.paintingName, "pifu")
+	setPaintingPrefabAsync(arg_32_1.painting, arg_32_1.paintingName, "pifu", nil, {
+		rotateZ = 0,
+		skinID = arg_32_1.skinID
+	})
 end
 
 function var_0_0.clearPainting(arg_33_0, arg_33_1)

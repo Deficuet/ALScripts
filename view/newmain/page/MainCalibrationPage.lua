@@ -111,7 +111,7 @@ function var_0_0.updateState(arg_14_0)
 	setActive(arg_14_0.resetBtn, arg_14_0.stateType > var_0_2)
 	setActive(arg_14_0.saveBtn, arg_14_0.stateType > var_0_2)
 
-	arg_14_0.bgImage.enabled = arg_14_0.stateType ~= var_0_1
+	arg_14_0.bgImage.enabled = arg_14_0.stateType ~= var_0_1 and arg_14_0.stateType ~= var_0_2
 
 	if arg_14_0.stateType > 0 then
 		if arg_14_0.stateType == var_0_2 then

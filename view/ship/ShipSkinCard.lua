@@ -4,6 +4,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.go = arg_1_1
 	arg_1_0.tr = arg_1_1.transform
 	arg_1_0.painting = findTF(arg_1_0.tr, "bg/mask/painting")
+	arg_1_0.paintingDefaultAngle = arg_1_0.painting.localEulerAngles
 	arg_1_0.nameBar = findTF(arg_1_0.tr, "bg/desc/name_bar")
 	arg_1_0.name = findTF(arg_1_0.nameBar, "name")
 	arg_1_0.effectBar = findTF(arg_1_0.tr, "bg/desc/effect_bar")
@@ -223,7 +224,10 @@ function var_0_0.loadPainting(arg_15_0)
 
 	arg_15_0.hideObjToggle.isOn = PlayerPrefs.GetInt("paint_hide_other_obj_" .. arg_15_0.paintingName, 0) ~= 0
 
-	setPaintingPrefabAsync(arg_15_0.painting, arg_15_0.paintingName, "pifu")
+	setPaintingPrefabAsync(arg_15_0.painting, arg_15_0.paintingName, "pifu", nil, {
+		skinID = arg_15_0.skin.id,
+		rotateZ = arg_15_0.paintingDefaultAngle
+	})
 end
 
 function var_0_0.clear(arg_16_0)

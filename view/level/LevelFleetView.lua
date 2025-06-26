@@ -1274,18 +1274,18 @@ function var_0_0.flush(arg_97_0)
 	arg_97_0:updateEliteLimit()
 	arg_97_0:updateEliteASValue()
 
-	arg_97_0.lastFleetVaildStatus = arg_97_0.lastFleetVaildStatus or {}
+	arg_97_0.lastFleetValidStatus = arg_97_0.lastFleetValidStatus or {}
 
 	local var_97_0 = {
 		not arg_97_0:IsListOfFleetEmpty(1) or nil,
 		not arg_97_0:IsListOfFleetEmpty(2) or nil
 	}
 
-	if arg_97_0.dutyTabEnabled and table.getCount(arg_97_0.lastFleetVaildStatus) == 2 and table.getCount(var_97_0) == 1 then
+	if arg_97_0.dutyTabEnabled and table.getCount(arg_97_0.lastFleetValidStatus) == 2 and table.getCount(var_97_0) == 1 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("autofight_change_tip"))
 	end
 
-	arg_97_0.lastFleetVaildStatus = var_97_0
+	arg_97_0.lastFleetValidStatus = var_97_0
 
 	arg_97_0:updateEliteFleets()
 	arg_97_0:UpdateEliteSonarRange()

@@ -49,14 +49,12 @@ function var_0_0.checkMusicFileState(arg_4_0)
 	local var_4_0
 	local var_4_1
 
-	for iter_4_0, iter_4_1 in pairs(pg.music_collect_config.get_id_list_by_album_name) do
-		for iter_4_2, iter_4_3 in ipairs(iter_4_1) do
-			local var_4_2 = pg.music_collect_config[iter_4_3].music
-			local var_4_3 = MusicCollectionConst.MUSIC_SONG_PATH_PREFIX .. var_4_2 .. ".b"
-			local var_4_4 = checkABExist(var_4_3)
+	for iter_4_0, iter_4_1 in pairs(pg.music_collect_config.all) do
+		local var_4_2 = pg.music_collect_config[iter_4_1].music
+		local var_4_3 = MusicCollectionConst.MUSIC_SONG_PATH_PREFIX .. var_4_2 .. ".b"
+		local var_4_4 = checkABExist(var_4_3)
 
-			arg_4_0.musicExistStateTable[iter_4_3] = var_4_4
-		end
+		arg_4_0.musicExistStateTable[iter_4_1] = var_4_4
 	end
 end
 
@@ -452,7 +450,9 @@ function var_0_0.getMainPlayerAlbumName(arg_45_0)
 	elseif arg_45_0.mainMarkMusicId == 999 then
 		return "favor"
 	else
-		return pg.music_collect_config[arg_45_0.mainMarkMusicId].album_name
+		local var_45_0 = pg.music_collect_config[arg_45_0.mainMarkMusicId].album_id
+
+		return pg.music_album[var_45_0].album_name
 	end
 end
 
@@ -474,7 +474,11 @@ function var_0_0.getAlbumMusicList(arg_48_0, arg_48_1)
 	if arg_48_1 == "favor" then
 		return underscore.to_array(arg_48_0.musicLikeIDList)
 	else
-		return underscore.to_array(pg.music_collect_config.get_id_list_by_album_name[arg_48_1] or {})
+		local var_48_0 = (pg.music_album.get_id_list_by_album_name[arg_48_1] or {
+			0
+		})[1]
+
+		return underscore.to_array(pg.music_collect_config.get_id_list_by_album_id[var_48_0] or {})
 	end
 end
 

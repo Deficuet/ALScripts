@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			bgm = "battle-ods-onstage",
+			bgm = "battle-DOS-onstage",
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,

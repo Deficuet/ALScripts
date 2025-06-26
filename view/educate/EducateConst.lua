@@ -114,4 +114,50 @@ var_0_0.MAIN_TASK_ID_2 = 102
 var_0_0.FORCE_SKIP_PLAN_PERFORM = false
 var_0_0.SECRETARY_TYPE_SP = 7
 
+function var_0_0.CheckAllCollectionTrack()
+	local var_1_0 = 0
+	local var_1_1 = {}
+
+	for iter_1_0, iter_1_1 in ipairs(getProxy(EducateProxy):GetMemories()) do
+		var_1_1[iter_1_1] = true
+	end
+
+	for iter_1_2, iter_1_3 in ipairs(pg.child_memory.all) do
+		local var_1_2 = pg.child_memory[iter_1_3]
+
+		if not var_1_1[iter_1_3] then
+			var_1_0 = -1
+
+			break
+		else
+			var_1_0 = var_1_0 + 1
+		end
+	end
+
+	if var_1_0 < 0 then
+		return
+	end
+
+	local var_1_3 = pg.NewStoryMgr.GetInstance()
+
+	for iter_1_4, iter_1_5 in ipairs(pg.child2_memory.all) do
+		local var_1_4 = pg.child2_memory[iter_1_5]
+
+		if not var_1_3:IsPlayed(var_1_4.lua) then
+			var_1_0 = -1
+
+			break
+		else
+			var_1_0 = var_1_0 + 1
+		end
+	end
+
+	local var_1_5 = getProxy(PlayerProxy):getRawData().id
+
+	if var_1_0 > PlayerPrefs.GetInt("EDUCATE_ALL_COLLECTION:" .. var_1_5, 0) then
+		PlayerPrefs.SetInt("EDUCATE_ALL_COLLECTION:" .. var_1_5, var_1_0)
+		pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildAllCollection(20003, var_1_0))
+	end
+end
+
 return var_0_0

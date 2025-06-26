@@ -586,16 +586,20 @@ function var_0_0.UpdateSpWeaponPanel(arg_22_0, arg_22_1)
 		onButton(arg_22_0, var_22_0, function()
 			arg_22_0:emit(BaseUI.ON_SPWEAPON, {
 				type = SpWeaponInfoLayer.TYPE_SHIP,
-				shipId = var_22_3.id
+				shipId = var_22_3.id,
+				onRemoved = function()
+					arg_22_0:setEquipDescVisible(true)
+				end
 			})
+			arg_22_0:setEquipDescVisible(false)
 		end, SFX_UI_DOCKYARD_EQUIPADD)
 	else
 		onButton(arg_22_0, var_22_0, function()
 			if var_22_3 then
-				local var_28_0, var_28_1 = ShipStatus.ShipStatusCheck("onModify", var_22_3)
+				local var_29_0, var_29_1 = ShipStatus.ShipStatusCheck("onModify", var_22_3)
 
-				if not var_28_0 then
-					pg.TipsMgr.GetInstance():ShowTips(var_28_1)
+				if not var_29_0 then
+					pg.TipsMgr.GetInstance():ShowTips(var_29_1)
 
 					return
 				end
@@ -606,26 +610,26 @@ function var_0_0.UpdateSpWeaponPanel(arg_22_0, arg_22_1)
 	end
 end
 
-function var_0_0.switch2EquipmentSkinPage(arg_29_0)
-	if arg_29_0.equipSkinLogicPanel:isTweening() then
+function var_0_0.switch2EquipmentSkinPage(arg_30_0)
+	if arg_30_0.equipSkinLogicPanel:isTweening() then
 		return
 	end
 
-	arg_29_0.equipSkinLogicPanel:doSwitchAnim(arg_29_0.contextData.isInEquipmentSkinPage)
+	arg_30_0.equipSkinLogicPanel:doSwitchAnim(arg_30_0.contextData.isInEquipmentSkinPage)
 
-	arg_29_0.contextData.isInEquipmentSkinPage = not arg_29_0.contextData.isInEquipmentSkinPage
+	arg_30_0.contextData.isInEquipmentSkinPage = not arg_30_0.contextData.isInEquipmentSkinPage
 
-	setActive(arg_29_0.equipSkinBtn:Find("unsel"), not arg_29_0.contextData.isInEquipmentSkinPage)
-	setActive(arg_29_0.equipSkinBtn:Find("sel"), arg_29_0.contextData.isInEquipmentSkinPage)
-	arg_29_0.equipSkinLogicPanel:updateAll(arg_29_0:GetShipVO())
+	setActive(arg_30_0.equipSkinBtn:Find("unsel"), not arg_30_0.contextData.isInEquipmentSkinPage)
+	setActive(arg_30_0.equipSkinBtn:Find("sel"), arg_30_0.contextData.isInEquipmentSkinPage)
+	arg_30_0.equipSkinLogicPanel:updateAll(arg_30_0:GetShipVO())
 end
 
-function var_0_0.OnDestroy(arg_30_0)
-	setParent(arg_30_0.equipmentR, arg_30_0._tf)
-	setParent(arg_30_0.equipmentL, arg_30_0._tf)
-	setParent(arg_30_0.equipmentB, arg_30_0._tf)
+function var_0_0.OnDestroy(arg_31_0)
+	setParent(arg_31_0.equipmentR, arg_31_0._tf)
+	setParent(arg_31_0.equipmentL, arg_31_0._tf)
+	setParent(arg_31_0.equipmentB, arg_31_0._tf)
 
-	arg_30_0.shareData = nil
+	arg_31_0.shareData = nil
 end
 
 return var_0_0

@@ -11,7 +11,7 @@ return {
 			actorName = "净化亲",
 			side = 2,
 			say = "等等——",
-			bgm = "battle-ods-onstage",
+			bgm = "battle-DOS-onstage",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

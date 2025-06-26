@@ -5,16 +5,6 @@ pg.activity_medal_group = {
 		entrance_picture = "medalAlbum/5711",
 		is_out_of_print = 0,
 		group_name = "星光下的余晖",
-		activity_medal_ids = {
-			571101,
-			571102,
-			571103,
-			571104,
-			571105,
-			571106,
-			571107,
-			571108
-		},
 		activity_link = {
 			{
 				1,
@@ -54,16 +44,6 @@ pg.activity_medal_group = {
 		entrance_picture = "medalAlbum/5769",
 		is_out_of_print = 0,
 		group_name = "华裳巧展喜事长",
-		activity_medal_ids = {
-			576901,
-			576902,
-			576903,
-			576904,
-			576905,
-			576906,
-			576907,
-			576908
-		},
 		activity_link = {
 			{
 				1,
@@ -99,16 +79,6 @@ pg.activity_medal_group = {
 		entrance_picture = "medalAlbum/5812",
 		is_out_of_print = 0,
 		group_name = "樊笼内的神光",
-		activity_medal_ids = {
-			581201,
-			581202,
-			581203,
-			581204,
-			581205,
-			581206,
-			581207,
-			581208
-		},
 		activity_link = {
 			{
 				1,
@@ -148,16 +118,6 @@ pg.activity_medal_group = {
 		entrance_picture = "medalAlbum/5875",
 		is_out_of_print = 0,
 		group_name = "深谷来信",
-		activity_medal_ids = {
-			587501,
-			587502,
-			587503,
-			587504,
-			587505,
-			587506,
-			587507,
-			587508
-		},
 		activity_link = {
 			{
 				1,
@@ -197,16 +157,6 @@ pg.activity_medal_group = {
 		entrance_picture = "medalAlbum/5913",
 		is_out_of_print = 0,
 		group_name = "扬起郁金之旗",
-		activity_medal_ids = {
-			591301,
-			591302,
-			591303,
-			591304,
-			591305,
-			591306,
-			591307,
-			591308
-		},
 		activity_link = {
 			{
 				1,
@@ -246,16 +196,6 @@ pg.activity_medal_group = {
 		entrance_picture = "medalAlbum/5970",
 		is_out_of_print = 0,
 		group_name = "高塔上的蔷薇",
-		activity_medal_ids = {
-			597001,
-			597002,
-			597003,
-			597004,
-			597005,
-			597006,
-			597007,
-			597008
-		},
 		activity_link = {
 			{
 				1,
@@ -295,15 +235,6 @@ pg.activity_medal_group = {
 		entrance_picture = "medalAlbum/5971",
 		is_out_of_print = 0,
 		group_name = "夏日重建",
-		activity_medal_ids = {
-			597101,
-			597102,
-			597103,
-			597104,
-			597105,
-			597106,
-			597107
-		},
 		activity_link = {
 			{
 				1,
@@ -337,6 +268,41 @@ pg.activity_medal_group = {
 			}
 		}
 	},
+	[50021] = {
+		id = 50021,
+		entrance_picture = "MedalAlbum/50021",
+		is_out_of_print = 0,
+		group_name = "迷彩都市的寻踪者",
+		activity_link = {
+			{
+				1,
+				50021,
+				{
+					21776,
+					21777,
+					21778,
+					21779,
+					21780,
+					21781,
+					21782,
+					21783,
+					21784
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "CamouflageCityMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{},
+			{
+				8,
+				65631,
+				1
+			}
+		}
+	},
 	all = {
 		5711,
 		5769,
@@ -344,6 +310,7 @@ pg.activity_medal_group = {
 		5875,
 		5913,
 		5970,
-		5971
+		5971,
+		50021
 	}
 }

@@ -1835,5 +1835,17 @@ pg.voice_actor_CN = {
 	{
 		code = 459,
 		actor_name = "花泽香菜"
+	},
+	{
+		code = 460,
+		actor_name = "广濑有纪 "
+	},
+	{
+		code = 461,
+		actor_name = "葵梓 "
+	},
+	{
+		code = 462,
+		actor_name = "引坂理绘 "
 	}
 }

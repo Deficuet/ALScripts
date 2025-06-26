@@ -448,6 +448,7 @@ ShareCfg = {
 	["ShareCfg.expedition_cloud_template"] = true,
 	["ShareCfg.dorm3d_ins_telephone_group"] = true,
 	["ShareCfg.task_data_template"] = true,
+	["ShareCfg.music_album"] = true,
 	["ShareCfg.emoji_small_template"] = true,
 	["ShareCfg.child_shop_template"] = true,
 	["ShareCfg.expedition_island_template"] = true,

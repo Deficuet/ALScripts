@@ -322,6 +322,7 @@ function var_0_0.checkShowResetL2dBtn(arg_27_0)
 			local var_28_0 = arg_27_0:GetFlagShip()
 
 			Live2dConst.ClearLive2dSave(var_28_0:getSkinId(), var_28_0.id)
+			Live2dConst.SetLive2dDirty(var_28_0:getSkinId(), var_28_0.id)
 		end
 	end, SFX_CONFIRM)
 end

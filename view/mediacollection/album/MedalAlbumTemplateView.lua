@@ -13,7 +13,7 @@ function var_0_0.SetMedalGroupData(arg_1_0, arg_1_1)
 
 	arg_1_0.medalDetailView:SetMedalGroup(arg_1_0.currentMedalGroup)
 
-	local var_1_0 = arg_1_0.currentMedalGroup:getConfig("activity_medal_ids")
+	local var_1_0 = arg_1_0.currentMedalGroup:GetMedalIds()
 
 	for iter_1_0 = 1, arg_1_0.MEDAL_COUNT do
 		local var_1_1 = var_1_0[iter_1_0]
@@ -134,27 +134,28 @@ function var_0_0.showTaskView(arg_16_0)
 end
 
 function var_0_0.UpdateView(arg_17_0)
-	local var_17_0 = arg_17_0.currentMedalGroup:GetMedalList()
+	local var_17_0 = arg_17_0.currentMedalGroup:GetMedalIds()
+	local var_17_1 = arg_17_0.currentMedalGroup:GetMedalList()
 
 	for iter_17_0 = 1, arg_17_0.MEDAL_COUNT do
-		local var_17_1 = arg_17_0.currentMedalGroup:getConfig("activity_medal_ids")[iter_17_0]
-		local var_17_2 = arg_17_0.slots[iter_17_0]
+		local var_17_2 = var_17_0[iter_17_0]
+		local var_17_3 = arg_17_0.slots[iter_17_0]
 
-		if var_17_0[var_17_1].timeStamp then
-			setActive(var_17_2.active, true)
+		if var_17_1[var_17_2].timeStamp then
+			setActive(var_17_3.active, true)
 		else
-			setActive(var_17_2.active, false)
+			setActive(var_17_3.active, false)
 		end
 	end
 
-	local var_17_3 = arg_17_0.currentMedalGroup:getConfig("activity_link")[1][3][1]
-	local var_17_4 = getProxy(TaskProxy):getTaskById(var_17_3)
+	local var_17_4 = arg_17_0.currentMedalGroup:getConfig("activity_link")[1][3][1]
+	local var_17_5 = getProxy(TaskProxy):getTaskById(var_17_4)
 
 	if arg_17_0.trophyLock then
-		arg_17_0.trophyLock:GetComponent(typeof(Image)).enabled = var_17_4 ~= nil
+		arg_17_0.trophyLock:GetComponent(typeof(Image)).enabled = var_17_5 ~= nil
 	end
 
-	arg_17_0.medalLock:GetComponent(typeof(Image)).enabled = var_17_4 ~= nil
+	arg_17_0.medalLock:GetComponent(typeof(Image)).enabled = var_17_5 ~= nil
 
 	setActive(arg_17_0.taskBtn, arg_17_0.currentMedalGroup:GetMedalGroupState() == ActivityMedalGroup.STATE_ACTIVE)
 end

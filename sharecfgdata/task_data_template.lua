@@ -152288,6 +152288,485 @@ _G.pg.base.task_data_template[21775] = {
 	}
 }
 
+_G.pg.base.task_data_template[21776] = {
+	name = "『曾克海军上将SP版本』纪念任务1",
+	guild_coin_award = 0,
+	award = 906483,
+	type = 26,
+	desc = "收集8个「迷彩都市的寻踪者」纪念贴纸",
+	count_inherit = 0,
+	sub_type = 131,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 1,
+	story_icon_shift = "",
+	target_id = "50021",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21776,
+	target_num = 8,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65631,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21777] = {
+	name = "『曾克海军上将SP版本』纪念贴纸获取1",
+	guild_coin_award = 0,
+	award = 906484,
+	type = 26,
+	desc = "收集7个「迷彩都市的寻踪者」纪念贴纸",
+	count_inherit = 0,
+	sub_type = 131,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "50021",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21777,
+	target_num = 7,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65632,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21778] = {
+	name = "『曾克海军上将SP版本』纪念贴纸获取2",
+	guild_coin_award = 0,
+	award = 906485,
+	type = 26,
+	desc = "在活动关卡中累计击沉敌人100次",
+	count_inherit = 0,
+	sub_type = 12,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21778,
+	target_num = 100,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		16740001,
+		16740002,
+		16740003,
+		16740004,
+		16740005,
+		16740006,
+		16740007,
+		16740101,
+		16740102,
+		16740103,
+		16740104,
+		16740105,
+		16740301,
+		16741001,
+		16741002,
+		16741003,
+		16741004,
+		16741005,
+		16741006,
+		16741007,
+		16741101,
+		16741102,
+		16741103,
+		16741104,
+		16741105,
+		16741301,
+		16741302,
+		16742001,
+		16742002,
+		16742003,
+		16742004,
+		16742005,
+		16742006,
+		16742007,
+		16742101,
+		16742102,
+		16742103,
+		16742104,
+		16742105,
+		16742301,
+		16742302,
+		16742303,
+		16743001,
+		16743002,
+		16743003,
+		16743004,
+		16743005,
+		16743006,
+		16743007,
+		16743101,
+		16743102,
+		16743103,
+		16743104,
+		16743105,
+		16743301,
+		16743302,
+		16743303,
+		16743304,
+		16744001,
+		16744002,
+		16744003,
+		16744004,
+		16744005,
+		16744006,
+		16744007,
+		16744101,
+		16744102,
+		16744103,
+		16744104,
+		16744105,
+		16744301,
+		16744302,
+		16744303,
+		16744304,
+		16744305
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65633,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21779] = {
+	name = "『曾克海军上将SP版本』纪念贴纸获取3",
+	guild_coin_award = 0,
+	award = 906486,
+	type = 26,
+	desc = "通关1次「迷彩都市的寻踪者」任意难度关卡",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21779,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1930101,
+		1930201,
+		1930202,
+		1930301,
+		1930302,
+		1930303,
+		1930401,
+		1930402,
+		1930403,
+		1930404,
+		1930501,
+		1930502,
+		1930503,
+		1930504,
+		1930505
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65634,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21780] = {
+	name = "『曾克海军上将SP版本』纪念贴纸获取4",
+	guild_coin_award = 0,
+	award = 906487,
+	type = 26,
+	desc = "通关40次「迷彩都市的寻踪者」特别作战关卡",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21780,
+	target_num = 40,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1930101,
+		1930201,
+		1930202,
+		1930301,
+		1930302,
+		1930303,
+		1930401,
+		1930402,
+		1930403,
+		1930404,
+		1930501,
+		1930502,
+		1930503,
+		1930504,
+		1930505
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65635,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21781] = {
+	name = "『曾克海军上将SP版本』纪念贴纸获取5",
+	guild_coin_award = 0,
+	award = 906488,
+	type = 26,
+	desc = "累计获取10000张「都市电影票」",
+	count_inherit = 0,
+	sub_type = 1001,
+	target_id_2 = "50019",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "516",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21781,
+	target_num = 10000,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65636,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21782] = {
+	name = "『曾克海军上将SP版本』纪念贴纸获取6",
+	guild_coin_award = 0,
+	award = 906489,
+	type = 26,
+	desc = "通关困难关卡",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "1930303",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21782,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65637,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21783] = {
+	name = "『曾克海军上将SP版本』纪念贴纸获取7",
+	guild_coin_award = 0,
+	award = 906490,
+	type = 26,
+	desc = "通关SP",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "1930404",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21783,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65638,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[21784] = {
+	name = "『曾克海军上将SP版本』纪念贴纸获取8",
+	guild_coin_award = 0,
+	award = 906491,
+	type = 26,
+	desc = "完成「迷彩都市的寻踪者」剧情模式",
+	count_inherit = 0,
+	sub_type = 1005,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 21784,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		6930
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65639,
+			1
+		}
+	}
+}
+
 _G.pg.base.task_data_template[22011] = {
 	name = "新手任务阶段1-任务1",
 	guild_coin_award = 0,
@@ -170298,6 +170777,566 @@ _G.pg.base.task_data_template[23881] = {
 		{
 			warp = "shopstreet"
 		}
+	}
+}
+
+_G.pg.base.task_data_template[23882] = {
+	name = "『曾克海军上将』多队出击挑战1",
+	guild_coin_award = 0,
+	award = 906462,
+	type = 6,
+	desc = "不编入导驱/驱逐的情况下，使用多队出击通关『拍摄地：轨道车』",
+	count_inherit = 0,
+	sub_type = 107,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23882,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		{
+			1,
+			20,
+			21
+		},
+		3003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17023,
+			20
+		},
+		{
+			2,
+			42066,
+			1
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+_G.pg.base.task_data_template[23883] = {
+	name = "『曾克海军上将』多队出击挑战2",
+	guild_coin_award = 0,
+	award = 906463,
+	type = 6,
+	desc = "不编入轻巡的情况下，使用多队出击通关『拍摄地：轨道车』",
+	count_inherit = 0,
+	sub_type = 107,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23883,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		{
+			2
+		},
+		3003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17033,
+			20
+		},
+		{
+			2,
+			42066,
+			1
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+_G.pg.base.task_data_template[23884] = {
+	name = "『曾克海军上将』多队出击挑战3",
+	guild_coin_award = 0,
+	award = 906464,
+	type = 6,
+	desc = "不编入超巡/重巡的情况下，使用多队出击通关『拍摄地：轨道车』",
+	count_inherit = 0,
+	sub_type = 107,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23884,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		{
+			3,
+			18
+		},
+		3003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			20
+		},
+		{
+			2,
+			42066,
+			1
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+_G.pg.base.task_data_template[23885] = {
+	name = "『曾克海军上将』多队出击挑战4",
+	guild_coin_award = 0,
+	award = 906465,
+	type = 6,
+	desc = "不编入轻航/航母的情况下，使用多队出击通关『拍摄地：轨道车』",
+	count_inherit = 0,
+	sub_type = 107,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23885,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		{
+			6,
+			7
+		},
+		3003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17043,
+			20
+		},
+		{
+			2,
+			42066,
+			2
+		},
+		{
+			2,
+			15012,
+			20
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+_G.pg.base.task_data_template[23886] = {
+	name = "『曾克海军上将』多队出击挑战5",
+	guild_coin_award = 0,
+	award = 906466,
+	type = 6,
+	desc = "不编入战列/战巡/重炮的情况下，使用多队出击通关『拍摄地：轨道车』",
+	count_inherit = 0,
+	sub_type = 107,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23886,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		{
+			4,
+			5,
+			13
+		},
+		3003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17013,
+			20
+		},
+		{
+			2,
+			42066,
+			2
+		},
+		{
+			2,
+			15012,
+			20
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+_G.pg.base.task_data_template[23887] = {
+	name = "『曾克海军上将』EX挑战",
+	guild_coin_award = 0,
+	award = 906467,
+	type = 6,
+	desc = "取得EX关卡的第一场战斗胜利 ",
+	count_inherit = 0,
+	sub_type = 108,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23887,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+_G.pg.base.task_data_template[23889] = {
+	name = "『曾克海军上将』剧情送装备",
+	guild_coin_award = 0,
+	award = 906454,
+	type = 6,
+	desc = "完成「剧情模式」 ",
+	count_inherit = 0,
+	sub_type = 1005,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23889,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		6930
+	},
+	open_need = {},
+	award_display = {
+		{
+			9,
+			4185,
+			1
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN",
+		{
+			displayMode = 2
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23890] = {
+	name = "『曾克海军上将』-日常建造",
+	guild_coin_award = 0,
+	award = 906455,
+	type = 36,
+	desc = "(每日)建造舰船3次",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	tutorial_handbook_pic = "",
+	id = 23890,
+	target_num = 3,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			516,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23891] = {
+	name = "『曾克海军上将』-日常出击",
+	guild_coin_award = 0,
+	award = 906456,
+	type = 36,
+	desc = "(每日)舰队出征，获得15次胜利",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23891,
+	target_num = 15,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			516,
+			300
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+_G.pg.base.task_data_template[23892] = {
+	name = "『曾克海军上将』外观装备箱保底",
+	guild_coin_award = 0,
+	award = 906400,
+	type = 6,
+	desc = "通过「补给商店-军火」购买20个[外观装备箱(铁道之旅)]",
+	count_inherit = 0,
+	sub_type = 52,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "30369",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23892,
+	target_num = 20,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30556,
+			1
+		}
+	},
+	scene = {
+		"SHOP",
+		{
+			warp = "shopstreet"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[23893] = {
+	name = "『曾克海军上将』-日常困难本",
+	guild_coin_award = 0,
+	award = 906457,
+	type = 36,
+	desc = "(每日)通关1次任意困难关卡 ",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	tutorial_handbook_pic = "",
+	id = 23893,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			516,
+			150
+		}
+	},
+	scene = {
+		"LEVEL"
 	}
 }
 

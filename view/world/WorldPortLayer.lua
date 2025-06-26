@@ -111,7 +111,7 @@ function var_0_0.init(arg_2_0)
 end
 
 function var_0_0.didEnter(arg_4_0)
-	pg.UIMgr.GetInstance():BlurPanel(arg_4_0._tf, {
+	pg.UIMgr.GetInstance():BlurPanel(arg_4_0._tf, false, {
 		groupName = arg_4_0:getGroupNameFromData()
 	})
 	onButton(arg_4_0, arg_4_0.btnBack, function()

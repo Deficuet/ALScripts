@@ -98,6 +98,10 @@ return {
 			}
 		},
 		isShow = function()
+			if LOCK_SKIN_US and pg.gameset.levellimit_skinentrance.key_value >= getProxy(PlayerProxy):getRawData().level then
+				return false
+			end
+
 			local var_8_0 = pg.activity_banner.get_id_list_by_type[GAMEUI_BANNER_12]
 
 			return var_8_0 and #var_8_0 > 0 and _.any(var_8_0, function(arg_9_0)

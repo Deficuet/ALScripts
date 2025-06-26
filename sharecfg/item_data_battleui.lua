@@ -10,7 +10,8 @@ pg.item_data_battleui = {
 		unlock = "默认获得",
 		id = 0,
 		icon = "0",
-		scene = {}
+		scene = {},
+		rare_display = {}
 	},
 	[101] = {
 		key = "SkinNormal_20240701",
@@ -22,7 +23,8 @@ pg.item_data_battleui = {
 		unlock = "默认获得",
 		id = 101,
 		icon = "101",
-		scene = {}
+		scene = {},
+		rare_display = {}
 	},
 	[102] = {
 		key = "SkinNormal_20240912",
@@ -34,7 +36,10 @@ pg.item_data_battleui = {
 		unlock = "世界巡游十九期获取",
 		id = 102,
 		icon = "102",
-		scene = {}
+		scene = {},
+		rare_display = {
+			1
+		}
 	},
 	[103] = {
 		key = "SkinNormal_20240913",
@@ -46,7 +51,12 @@ pg.item_data_battleui = {
 		unlock = "梦幻霓虹战斗主题礼包获取",
 		id = 103,
 		icon = "103",
-		scene = {}
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
 	},
 	[104] = {
 		key = "SkinNormal_20241107",
@@ -58,7 +68,10 @@ pg.item_data_battleui = {
 		unlock = "世界巡游二十期获取",
 		id = 104,
 		icon = "104",
-		scene = {}
+		scene = {},
+		rare_display = {
+			1
+		}
 	},
 	[105] = {
 		key = "SkinNormal_20250123",
@@ -70,7 +83,10 @@ pg.item_data_battleui = {
 		unlock = "世界巡游二十一期获取",
 		id = 105,
 		icon = "105",
-		scene = {}
+		scene = {},
+		rare_display = {
+			1
+		}
 	},
 	[106] = {
 		key = "SkinNormal_20250327",
@@ -82,7 +98,10 @@ pg.item_data_battleui = {
 		unlock = "世界巡游二十二期获取",
 		id = 106,
 		icon = "106",
-		scene = {}
+		scene = {},
+		rare_display = {
+			1
+		}
 	},
 	[107] = {
 		key = "SkinNormal_20250529",
@@ -94,7 +113,10 @@ pg.item_data_battleui = {
 		unlock = "世界巡游二十三期获取",
 		id = 107,
 		icon = "107",
-		scene = {}
+		scene = {},
+		rare_display = {
+			1
+		}
 	},
 	[201] = {
 		key = "SkinNormal_20241209",
@@ -106,7 +128,12 @@ pg.item_data_battleui = {
 		unlock = "圣诞雪境战斗主题礼包获取",
 		id = 201,
 		icon = "201",
-		scene = {}
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
 	},
 	[202] = {
 		key = "SkinNormal_20250227",
@@ -118,7 +145,12 @@ pg.item_data_battleui = {
 		unlock = "圣砂之约战斗主题礼包获取",
 		id = 202,
 		icon = "202",
-		scene = {}
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
 	},
 	[203] = {
 		key = "SkinElite_20250327",
@@ -130,7 +162,12 @@ pg.item_data_battleui = {
 		unlock = "基因之源战斗主题礼包获取",
 		id = 203,
 		icon = "203",
-		scene = {}
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
 	},
 	[204] = {
 		key = "SkinElite_20250520",
@@ -142,7 +179,12 @@ pg.item_data_battleui = {
 		unlock = "海滨假日战斗主题礼包获取",
 		id = 204,
 		icon = "204",
-		scene = {}
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
 	},
 	all = {
 		0,

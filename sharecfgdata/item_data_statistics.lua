@@ -26246,6 +26246,130 @@ _G.pg.base.item_data_statistics[30368] = {
 	limit = {}
 }
 
+_G.pg.base.item_data_statistics[30369] = {
+	open_directly = 1,
+	name = "外观装备箱(铁道之旅)",
+	display = "可以获得一件随机的铁道之旅风格外观装备",
+	type = 11,
+	display_effect = "",
+	id = 30369,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/appearanceboxtiedao",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30369",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4186,
+			1
+		},
+		{
+			9,
+			4187,
+			1
+		},
+		{
+			9,
+			4188,
+			1
+		},
+		{
+			9,
+			4189,
+			1
+		},
+		{
+			9,
+			4190,
+			1
+		},
+		{
+			9,
+			4191,
+			1
+		},
+		{
+			9,
+			4192,
+			1
+		},
+		{
+			9,
+			4193,
+			1
+		},
+		{
+			9,
+			4194,
+			1
+		},
+		{
+			9,
+			4195,
+			1
+		},
+		{
+			9,
+			4196,
+			1
+		},
+		{
+			9,
+			4197,
+			1
+		},
+		{
+			9,
+			4198,
+			1
+		},
+		{
+			9,
+			4199,
+			1
+		},
+		{
+			9,
+			4200,
+			1
+		},
+		{
+			9,
+			4201,
+			1
+		},
+		{
+			9,
+			4202,
+			1
+		},
+		{
+			9,
+			4203,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "外观装备箱(世界巡游)",
@@ -39385,6 +39509,218 @@ _G.pg.base.item_data_statistics[30555] = {
 		{
 			9,
 			4184,
+			1
+		}
+	},
+	limit = {}
+}
+
+_G.pg.base.item_data_statistics[30556] = {
+	open_directly = 0,
+	name = "定向外观装备箱(铁道之旅)",
+	display = "使用后可从「铁道之旅」主题外观装备中任意选择一种获得1个",
+	type = 13,
+	display_effect = "",
+	id = 30556,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	link_id = 0,
+	icon = "Props/appearanceboxtiedaozixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4186,
+			1
+		},
+		{
+			9,
+			4187,
+			1
+		},
+		{
+			9,
+			4188,
+			1
+		},
+		{
+			9,
+			4189,
+			1
+		},
+		{
+			9,
+			4190,
+			1
+		},
+		{
+			9,
+			4191,
+			1
+		},
+		{
+			9,
+			4192,
+			1
+		},
+		{
+			9,
+			4193,
+			1
+		},
+		{
+			9,
+			4194,
+			1
+		},
+		{
+			9,
+			4195,
+			1
+		},
+		{
+			9,
+			4196,
+			1
+		},
+		{
+			9,
+			4197,
+			1
+		},
+		{
+			9,
+			4198,
+			1
+		},
+		{
+			9,
+			4199,
+			1
+		},
+		{
+			9,
+			4200,
+			1
+		},
+		{
+			9,
+			4201,
+			1
+		},
+		{
+			9,
+			4202,
+			1
+		},
+		{
+			9,
+			4203,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4186,
+			1
+		},
+		{
+			9,
+			4187,
+			1
+		},
+		{
+			9,
+			4188,
+			1
+		},
+		{
+			9,
+			4189,
+			1
+		},
+		{
+			9,
+			4190,
+			1
+		},
+		{
+			9,
+			4191,
+			1
+		},
+		{
+			9,
+			4192,
+			1
+		},
+		{
+			9,
+			4193,
+			1
+		},
+		{
+			9,
+			4194,
+			1
+		},
+		{
+			9,
+			4195,
+			1
+		},
+		{
+			9,
+			4196,
+			1
+		},
+		{
+			9,
+			4197,
+			1
+		},
+		{
+			9,
+			4198,
+			1
+		},
+		{
+			9,
+			4199,
+			1
+		},
+		{
+			9,
+			4200,
+			1
+		},
+		{
+			9,
+			4201,
+			1
+		},
+		{
+			9,
+			4202,
+			1
+		},
+		{
+			9,
+			4203,
 			1
 		}
 	},
@@ -112353,6 +112689,348 @@ _G.pg.base.item_data_statistics[68080] = {
 	combination_display = {},
 	usage_arg = {
 		90350
+	},
+	limit = {}
+}
+
+_G.pg.base.item_data_statistics[68090] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(心动审讯练习中)",
+	display = "购买后可获得<color=#92fc63FF>{namecode:546}</color>换装<color=#92fc63FF>心动审讯练习中</color>的钻石抵扣券等道具",
+	type = 17,
+	display_effect = "",
+	id = 68090,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906492",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68084,
+			1
+		},
+		{
+			2,
+			68087,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+_G.pg.base.item_data_statistics[68082] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(战略性约会进行时)",
+	display = "购买后可获得<color=#92fc63FF>{namecode:498}</color>换装<color=#92fc63FF>战略性约会进行时</color>的钻石抵扣券等道具",
+	type = 17,
+	display_effect = "",
+	id = 68082,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906493",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68085,
+			1
+		},
+		{
+			2,
+			68088,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+_G.pg.base.item_data_statistics[68083] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(心向何方的指导课)",
+	display = "购买后可获得<color=#92fc63FF>{namecode:165}</color>换装<color=#92fc63FF>心向何方的指导课</color>的钻石抵扣券等道具",
+	type = 17,
+	display_effect = "",
+	id = 68083,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906494",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68086,
+			1
+		},
+		{
+			2,
+			68089,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+_G.pg.base.item_data_statistics[68084] = {
+	open_directly = 0,
+	name = "换装抵扣券(心动审讯练习中)",
+	display = "持有此道具时，购买<color=#92fc63FF>{namecode:546}</color>换装<color=#92fc63FF>心动审讯练习中</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年6月30日23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	type = 1,
+	display_effect = "",
+	id = 68084,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	link_id = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71151
+		},
+		300
+	},
+	limit = {}
+}
+
+_G.pg.base.item_data_statistics[68085] = {
+	open_directly = 0,
+	name = "换装抵扣券(战略性约会进行时)",
+	display = "持有此道具时，购买<color=#92fc63FF>{namecode:498}</color>换装<color=#92fc63FF>战略性约会进行时</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年6月30日23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	type = 1,
+	display_effect = "",
+	id = 68085,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	link_id = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71153
+		},
+		300
+	},
+	limit = {}
+}
+
+_G.pg.base.item_data_statistics[68086] = {
+	open_directly = 0,
+	name = "换装抵扣券(心向何方的指导课)",
+	display = "持有此道具时，购买<color=#92fc63FF>{namecode:165}</color>换装<color=#92fc63FF>心向何方的指导课</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年6月30日23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	type = 1,
+	display_effect = "",
+	id = 68086,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	link_id = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71154
+		},
+		300
+	},
+	limit = {}
+}
+
+_G.pg.base.item_data_statistics[68087] = {
+	open_directly = 0,
+	name = "换装体验券(心动审讯练习中)",
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:546}</color>换装<color=#92fc63FF>心动审讯练习中</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年6月30日23:59，过期后此道具将消失</color>",
+	type = 1,
+	display_effect = "",
+	id = 68087,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	link_id = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90360
+	},
+	limit = {}
+}
+
+_G.pg.base.item_data_statistics[68088] = {
+	open_directly = 0,
+	name = "换装体验券(战略性约会进行时)",
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:498}</color>换装<color=#92fc63FF>战略性约会进行时</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年6月30日23:59，过期后此道具将消失</color>",
+	type = 1,
+	display_effect = "",
+	id = 68088,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	link_id = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90361
+	},
+	limit = {}
+}
+
+_G.pg.base.item_data_statistics[68089] = {
+	open_directly = 0,
+	name = "换装体验券(心向何方的指导课)",
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:165}</color>换装<color=#92fc63FF>心向何方的指导课</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年6月30日23:59，过期后此道具将消失</color>",
+	type = 1,
+	display_effect = "",
+	id = 68089,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	link_id = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90362
 	},
 	limit = {}
 }

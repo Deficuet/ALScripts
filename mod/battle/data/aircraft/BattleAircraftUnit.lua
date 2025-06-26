@@ -35,10 +35,10 @@ function var_0_6.SetBound(arg_2_0, arg_2_1, arg_2_2)
 	arg_2_0._top = arg_2_1
 	arg_2_0._bottom = arg_2_2
 
-	if arg_2_0._tmpData.spawn_brownian then
-		arg_2_0._speedZ = (math.random() - 0.5) * 0.5
-	else
+	if arg_2_0._tmpData.spawn_brownian == -1 then
 		arg_2_0._speedZ = 0
+	else
+		arg_2_0._speedZ = (math.random() - 0.5) * 0.5
 	end
 
 	arg_2_0:SetTargetZ()

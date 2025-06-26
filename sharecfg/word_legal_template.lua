@@ -877,6 +877,11 @@ function temp()
 				}
 			}
 		},
+		丝 = {
+			特 = {
+				this = true
+			}
+		},
 		姆 = {
 			登 = {
 				this = true
@@ -3620,6 +3625,9 @@ function temp()
 	var_0_1.泽 = {
 		西 = {
 			this = true
+		},
+		特 = {
+			this = true
 		}
 	}
 end
@@ -6099,6 +6107,9 @@ function temp()
 			["1"] = {
 				this = true
 			},
+			["3"] = {
+				this = true
+			},
 			["6"] = {
 				this = true
 			},
@@ -6606,6 +6617,24 @@ end
 temp()
 
 function temp()
+	var_0_1.曾 = {
+		克 = {
+			海 = {
+				军 = {
+					上 = {
+						将 = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	var_0_1.俾 = {
 		斯 = {
 			麦 = {
@@ -6764,6 +6793,9 @@ function temp()
 								}
 							}
 						}
+					},
+					["2"] = {
+						this = true
 					}
 				},
 				["2"] = {
@@ -6845,6 +6877,9 @@ function temp()
 							}
 						}
 					}
+				},
+				妮 = {
+					this = true
 				}
 			}
 		},

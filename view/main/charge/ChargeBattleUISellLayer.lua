@@ -5,6 +5,8 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.init(arg_2_0)
+	arg_2_0.loader = AutoLoader.New()
+
 	arg_2_0:InitData()
 	arg_2_0:InitUI()
 	arg_2_0:updateGiftWindow()
@@ -16,6 +18,8 @@ function var_0_0.didEnter(arg_3_0)
 end
 
 function var_0_0.willExit(arg_4_0)
+	arg_4_0.loader:Clear()
+	UpdateBeat:RemoveListener(arg_4_0.handle)
 	arg_4_0:ClearPreviewer()
 	pg.UIMgr.GetInstance():UnblurPanel(arg_4_0._tf)
 end
@@ -42,7 +46,7 @@ end
 
 function var_0_0.InitUI(arg_6_0)
 	arg_6_0.bg = arg_6_0:findTF("BG")
-	arg_6_0.titleText = arg_6_0:findTF("mainPanel/topBar/left/titleText")
+	arg_6_0.titleText = arg_6_0:findTF("mainPanel/topBar/left/nameMask/name")
 	arg_6_0.tipText = arg_6_0:findTF("mainPanel/topBar/left/tipText")
 	arg_6_0.middleText = arg_6_0:findTF("mainPanel/topBar/middle/Text")
 	arg_6_0.closeBtn = arg_6_0:findTF("mainPanel/topBar/right")
@@ -66,7 +70,7 @@ function var_0_0.InitUI(arg_6_0)
 	arg_6_0.normalList = UIItemList.New(arg_6_0:findTF("list", arg_6_0.normalWindow), arg_6_0.itemTpl)
 	arg_6_0.specialList = UIItemList.New(arg_6_0:findTF("list", arg_6_0.specialWindow), arg_6_0.itemTpl)
 
-	setText(arg_6_0.titleText, "")
+	setScrollText(arg_6_0.titleText, "")
 	setText(arg_6_0.tipText, i18n("ui_pack_tip1"))
 	setText(arg_6_0.normalText, i18n("ui_pack_tip2"))
 	setText(arg_6_0.specialText, i18n("ui_pack_tip3"))
@@ -85,155 +89,211 @@ function var_0_0.InitUI(arg_6_0)
 		arg_6_0:ClearPreviewer()
 		arg_6_0:closeView()
 	end, SFX_PANEL)
+
+	arg_6_0.tipsGo = arg_6_0:findTF("mainPanel/topBar/left/tips")
+	arg_6_0.tipsText = arg_6_0:findTF("mainPanel/topBar/left/tips/text")
+	arg_6_0.toggleList = UIItemList.New(arg_6_0:findTF("mainPanel/topBar/left/elementList"), arg_6_0:findTF("mainPanel/topBar/left/elementList/main_toggle"))
+	arg_6_0.handle = UpdateBeat:CreateListener(arg_6_0.UpdateClick, arg_6_0)
+
+	UpdateBeat:AddListener(arg_6_0.handle)
 end
 
-function var_0_0.updateGiftWindow(arg_9_0)
-	onButton(arg_9_0, arg_9_0.buyNormalBtn, function()
+function var_0_0.ShowTips(arg_9_0, arg_9_1)
+	setActive(arg_9_0.tipsGo, arg_9_1)
+end
+
+function var_0_0.UpdateClick(arg_10_0)
+	if UnityEngine.Input.GetMouseButtonDown(0) then
+		arg_10_0.toggleList:each(function(arg_11_0, arg_11_1)
+			GetComponent(arg_11_1, typeof(Toggle)).isOn = false
+		end)
+	end
+end
+
+function var_0_0.updateGiftWindow(arg_12_0)
+	onButton(arg_12_0, arg_12_0.buyNormalBtn, function()
 		pg.m02:sendNotification(GAME.CHARGE_OPERATION, {
-			shopId = arg_9_0.normalGoodVO.id
+			shopId = arg_12_0.normalGoodVO.id
 		})
-		arg_9_0:ClearPreviewer()
-		arg_9_0:closeView()
+		arg_12_0:ClearPreviewer()
+		arg_12_0:closeView()
 	end, SFX_PANEL)
-	onButton(arg_9_0, arg_9_0.buySpecialBtn, function()
+	onButton(arg_12_0, arg_12_0.buySpecialBtn, function()
 		pg.m02:sendNotification(GAME.CHARGE_OPERATION, {
-			shopId = arg_9_0.specailGoodVO.id
+			shopId = arg_12_0.specailGoodVO.id
 		})
-		arg_9_0:ClearPreviewer()
-		arg_9_0:closeView()
+		arg_12_0:ClearPreviewer()
+		arg_12_0:closeView()
 	end, SFX_PANEL)
 
-	local var_9_0 = {}
+	local var_12_0 = {}
 
-	for iter_9_0, iter_9_1 in ipairs(arg_9_0.normalGoodVO:GetExtraServiceItem()) do
-		table.insert(var_9_0, iter_9_1)
+	for iter_12_0, iter_12_1 in ipairs(arg_12_0.normalGoodVO:GetExtraServiceItem()) do
+		table.insert(var_12_0, iter_12_1)
 
-		if not arg_9_0.battleSkinId then
-			arg_9_0.battleSkinId = iter_9_1.id
+		if not arg_12_0.battleSkinId then
+			arg_12_0.battleSkinId = iter_12_1.id
 		end
 	end
 
-	arg_9_0.normalList:make(function(arg_12_0, arg_12_1, arg_12_2)
-		if arg_12_0 == UIItemList.EventUpdate then
-			local var_12_0 = arg_9_0:findTF("Container", arg_12_2):GetChild(0)
-			local var_12_1 = arg_9_0:findTF("TextMask/Text", arg_12_2)
-			local var_12_2 = var_9_0[arg_12_1 + 1]
+	arg_12_0.normalList:make(function(arg_15_0, arg_15_1, arg_15_2)
+		if arg_15_0 == UIItemList.EventUpdate then
+			local var_15_0 = arg_12_0:findTF("Container", arg_15_2):GetChild(0)
+			local var_15_1 = arg_12_0:findTF("TextMask/Text", arg_15_2)
+			local var_15_2 = var_12_0[arg_15_1 + 1]
 
-			updateDrop(var_12_0, var_12_2)
-			onButton(arg_9_0, var_12_0, function()
-				arg_9_0:emit(BaseUI.ON_DROP, var_12_2)
+			var_15_2.notPlay = true
+
+			updateDrop(var_15_0, var_15_2)
+			onButton(arg_12_0, var_15_0, function()
+				arg_12_0:emit(BaseUI.ON_DROP, var_15_2)
 			end, SFX_PANEL)
-			setScrollText(var_12_1, var_12_2:getName())
+			setScrollText(var_15_1, var_15_2:getName())
 
-			if arg_9_0.titleText:GetComponent(typeof(Text)).text == "" then
-				setText(arg_9_0.titleText, var_12_2:getName())
+			if arg_12_0.titleText:GetComponent(typeof(Text)).text == "" then
+				setScrollText(arg_12_0.titleText, var_15_2:getName())
 			end
 		end
 	end)
-	arg_9_0.normalList:align(#var_9_0)
+	arg_12_0.normalList:align(#var_12_0)
 
-	var_9_0 = {}
+	var_12_0 = {}
 
-	for iter_9_2, iter_9_3 in ipairs(arg_9_0.specailGoodVO:GetExtraServiceItem()) do
-		table.insert(var_9_0, iter_9_3)
+	for iter_12_2, iter_12_3 in ipairs(arg_12_0.specailGoodVO:GetExtraServiceItem()) do
+		table.insert(var_12_0, iter_12_3)
 	end
 
-	arg_9_0.specialList:make(function(arg_14_0, arg_14_1, arg_14_2)
-		if arg_14_0 == UIItemList.EventUpdate then
-			local var_14_0 = arg_9_0:findTF("Container", arg_14_2):GetChild(0)
-			local var_14_1 = arg_9_0:findTF("TextMask/Text", arg_14_2)
-			local var_14_2 = var_9_0[arg_14_1 + 1]
+	arg_12_0.specialList:make(function(arg_17_0, arg_17_1, arg_17_2)
+		if arg_17_0 == UIItemList.EventUpdate then
+			local var_17_0 = arg_12_0:findTF("Container", arg_17_2):GetChild(0)
+			local var_17_1 = arg_12_0:findTF("TextMask/Text", arg_17_2)
+			local var_17_2 = var_12_0[arg_17_1 + 1]
 
-			updateDrop(var_14_0, var_14_2)
-			onButton(arg_9_0, var_14_0, function()
-				arg_9_0:emit(BaseUI.ON_DROP, var_14_2)
+			updateDrop(var_17_0, var_17_2)
+
+			var_17_2.notPlay = true
+
+			onButton(arg_12_0, var_17_0, function()
+				arg_12_0:emit(BaseUI.ON_DROP, var_17_2)
 			end, SFX_PANEL)
-			setScrollText(var_14_1, var_14_2:getName())
+			setScrollText(var_17_1, var_17_2:getName())
 		end
 	end)
-	arg_9_0.specialList:align(#var_9_0)
+	arg_12_0.specialList:align(#var_12_0)
+	arg_12_0:InitTitle(var_12_0)
 end
 
-function var_0_0.InitBattleShow(arg_16_0)
-	local var_16_0 = Ship.New({
+function var_0_0.InitBattleShow(arg_19_0)
+	local var_19_0 = Ship.New({
 		id = 100001,
 		configId = 100001,
 		skin_id = 100000
 	})
-	local var_16_1 = Ship.New({
+	local var_19_1 = Ship.New({
 		id = 100011,
 		configId = 100011,
 		skin_id = 100010
 	})
-	local var_16_2 = pg.item_data_battleui[arg_16_0.battleSkinId].key
+	local var_19_2 = pg.item_data_battleui[arg_19_0.battleSkinId].key
 
-	onButton(arg_16_0, arg_16_0.startShowBtn, function()
-		local var_17_0 = "CombatUI" .. var_16_2
-		local var_17_1 = "CombatHPBar" .. var_16_2
-		local var_17_2
-		local var_17_3
-		local var_17_4
+	onButton(arg_19_0, arg_19_0.startShowBtn, function()
+		local var_20_0 = "CombatUI" .. var_19_2
+		local var_20_1 = "CombatHPBar" .. var_19_2
+		local var_20_2
+		local var_20_3
+		local var_20_4
 
 		seriesAsync({
-			function(arg_18_0)
-				PoolMgr.GetInstance():GetUI(var_17_1, true, function(arg_19_0)
-					var_17_3 = arg_19_0
+			function(arg_21_0)
+				PoolMgr.GetInstance():GetUI(var_20_1, true, function(arg_22_0)
+					var_20_3 = arg_22_0
 
-					arg_18_0()
+					arg_21_0()
 				end)
 			end,
-			function(arg_20_0)
-				PoolMgr.GetInstance():GetUI(var_17_1, true, function(arg_21_0)
-					var_17_4 = arg_21_0
+			function(arg_23_0)
+				PoolMgr.GetInstance():GetUI(var_20_1, true, function(arg_24_0)
+					var_20_4 = arg_24_0
 
-					arg_20_0()
+					arg_23_0()
 				end)
 			end,
-			function(arg_22_0)
-				PoolMgr.GetInstance():GetUI(var_17_0, true, function(arg_23_0)
-					var_17_2 = arg_23_0
+			function(arg_25_0)
+				PoolMgr.GetInstance():GetUI(var_20_0, true, function(arg_26_0)
+					var_20_2 = arg_26_0
 
-					arg_22_0()
+					arg_25_0()
 				end)
 			end
 		}, function()
-			local var_24_0 = pg.UIMgr.GetInstance().UIMain
+			local var_27_0 = pg.UIMgr.GetInstance().UIMain
 
-			var_17_2.transform:SetParent(arg_16_0.preview, false)
-			var_17_3.transform:SetParent(arg_16_0.preview, false)
-			var_17_4.transform:SetParent(arg_16_0.preview, false)
-			setActive(arg_16_0.preview, true)
+			var_20_2.transform:SetParent(arg_19_0.preview, false)
+			var_20_3.transform:SetParent(arg_19_0.preview, false)
+			var_20_4.transform:SetParent(arg_19_0.preview, false)
+			setActive(arg_19_0.preview, true)
 
-			local var_24_1 = arg_16_0.sea.rect.width
-			local var_24_2 = arg_16_0.sea.rect.height
+			local var_27_1 = arg_19_0.sea.rect.width
+			local var_27_2 = arg_19_0.sea.rect.height
 
-			var_17_2.transform.localScale = Vector3(var_24_1 / 1920, var_24_2 / 1080, 1)
-			arg_16_0.previewer = CombatUIPreviewer.New(arg_16_0.rawImage)
+			var_20_2.transform.localScale = Vector3(var_27_1 / 1920, var_27_2 / 1080, 1)
+			arg_19_0.previewer = CombatUIPreviewer.New(arg_19_0.rawImage)
 
-			arg_16_0.previewer:setDisplayWeapon({
+			arg_19_0.previewer:setDisplayWeapon({
 				100
 			})
-			arg_16_0.previewer:setCombatUI(var_17_2, var_17_3, var_17_4, var_16_2)
-			arg_16_0.previewer:load(40000, var_16_0, var_16_1, {}, function()
+			arg_19_0.previewer:setCombatUI(var_20_2, var_20_3, var_20_4, var_19_2)
+			arg_19_0.previewer:load(40000, var_19_0, var_19_1, {}, function()
 				return
 			end)
 		end)
 	end, SFX_PANEL)
-	triggerButton(arg_16_0.startShowBtn)
+	triggerButton(arg_19_0.startShowBtn)
 end
 
-function var_0_0.ClearPreviewer(arg_26_0)
-	if arg_26_0.previewer then
-		setActive(arg_26_0.preview, false)
-		arg_26_0.previewer:clear()
+function var_0_0.InitTitle(arg_29_0, arg_29_1)
+	for iter_29_0, iter_29_1 in ipairs(arg_29_1) do
+		if iter_29_1.type == DROP_TYPE_COMBAT_UI_STYLE then
+			setScrollText(arg_29_0.titleText, iter_29_1:getName())
 
-		arg_26_0.previewer = nil
+			local var_29_0 = iter_29_1.id
+			local var_29_1 = pg.item_data_battleui[var_29_0]
+			local var_29_2 = var_29_1.rare
+
+			arg_29_0.loader:GetSpriteQuiet("ui/combatskinrare", string.format("rare_%s", var_29_2), arg_29_0:findTF("mainPanel/topBar/left/rareImage"))
+			arg_29_0.toggleList:make(function(arg_30_0, arg_30_1, arg_30_2)
+				if arg_30_0 == UIItemList.EventUpdate then
+					local var_30_0 = var_29_1.rare_display[arg_30_1 + 1]
+
+					arg_29_0.loader:GetSpriteQuiet("ui/combatskinrare", CombatSkinConst.TYPE_ICON_NAME[var_30_0], findTF(arg_30_2, "on"))
+					arg_29_0.loader:GetSpriteQuiet("ui/combatskinrare", string.format("%s_unselected", CombatSkinConst.TYPE_ICON_NAME[var_30_0]), findTF(arg_30_2, "off"))
+					onToggle(arg_29_0, arg_30_2, function(arg_31_0)
+						setText(arg_29_0.tipsText, i18n("battleui_display" .. var_30_0))
+
+						local var_31_0 = arg_29_0:findTF("mainPanel/topBar/left"):InverseTransformPoint(arg_30_2.transform.position)
+
+						setLocalPosition(arg_29_0.tipsGo, var_31_0 + Vector3(-20, 46, 0))
+						arg_29_0:ShowTips(arg_31_0)
+					end, SFX_CONFIGM)
+				end
+			end)
+			arg_29_0.toggleList:align(#var_29_1.rare_display)
+		end
 	end
 end
 
-function var_0_0.onBackPressed(arg_27_0)
-	arg_27_0:ClearPreviewer()
-	arg_27_0:emit(var_0_0.ON_BACK_PRESSED)
+function var_0_0.ClearPreviewer(arg_32_0)
+	if arg_32_0.previewer then
+		setActive(arg_32_0.preview, false)
+		arg_32_0.previewer:clear()
+
+		arg_32_0.previewer = nil
+	end
+end
+
+function var_0_0.onBackPressed(arg_33_0)
+	arg_33_0:ClearPreviewer()
+	arg_33_0:emit(var_0_0.ON_BACK_PRESSED)
 end
 
 return var_0_0

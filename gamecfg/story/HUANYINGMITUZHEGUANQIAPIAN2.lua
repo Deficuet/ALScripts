@@ -23,7 +23,7 @@ return {
 			}
 		},
 		{
-			bgm = "battle-ods-onstage",
+			bgm = "battle-DOS-onstage",
 			side = 2,
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
@@ -725,7 +725,7 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			say = "一声巨响后，前方一处封闭区域的墙壁突然炸裂。从形成的大洞中，伴随着滚滚沙尘，一位全身黑衣的少女翻滚而出。",
-			bgm = "battle-ods-onstage",
+			bgm = "battle-DOS-onstage",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

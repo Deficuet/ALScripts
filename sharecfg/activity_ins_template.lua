@@ -20976,12 +20976,12 @@ pg.activity_ins_template = {
 	[556] = {
 		ship_group = 70202,
 		name = "Pamiat' Merkuria",
-		message_persist = "",
+		message_persist = "ins_556",
 		sculpture = "shuixingjinian",
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/250514_shuixngjinian0ADTNxensapk2eM3.png",
 		group_id = 556,
 		id = 556,
-		is_active = 1,
+		is_active = 0,
 		time = {
 			{
 				2025,
@@ -20994,18 +20994,33 @@ pg.activity_ins_template = {
 				17
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				5,
+				14
+			},
+			{
+				16,
+				6,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5871,
+			5875,
+			5880
+		}
 	},
 	[557] = {
 		ship_group = 20516,
 		name = "Lion",
-		message_persist = "",
+		message_persist = "ins_557",
 		sculpture = "shi_2",
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/250520_shiYqYw1No2lHMKKbun.png",
 		group_id = 557,
 		id = 557,
-		is_active = 1,
+		is_active = 0,
 		time = {
 			{
 				2025,
@@ -21018,18 +21033,32 @@ pg.activity_ins_template = {
 				17
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				5,
+				20
+			},
+			{
+				14,
+				23,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5891,
+			5896
+		}
 	},
 	[558] = {
 		ship_group = 20138,
 		name = "Trafalgar",
-		message_persist = "",
+		message_persist = "ins_558",
 		sculpture = "telafaerjia_2",
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/250520_telafaerjiaHuUIr73ildv3WA02.png",
 		group_id = 558,
 		id = 558,
-		is_active = 1,
+		is_active = 0,
 		time = {
 			{
 				2025,
@@ -21042,18 +21071,32 @@ pg.activity_ins_template = {
 				17
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				5,
+				21
+			},
+			{
+				10,
+				51,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5906,
+			5910
+		}
 	},
 	[559] = {
 		ship_group = 20235,
 		name = "Cleopatra",
-		message_persist = "",
+		message_persist = "ins_559",
 		sculpture = "keliaopeitela_2",
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/250520_keliaopeitelarakfOnmfGOBknM4i.png",
 		group_id = 559,
 		id = 559,
-		is_active = 1,
+		is_active = 0,
 		time = {
 			{
 				2025,
@@ -21066,18 +21109,32 @@ pg.activity_ins_template = {
 				17
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				5,
+				22
+			},
+			{
+				18,
+				44,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5919,
+			5924
+		}
 	},
 	[560] = {
 		ship_group = 20139,
 		name = "Gallant",
-		message_persist = "",
+		message_persist = "ins_560",
 		sculpture = "yongqi_2",
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/250520_yongqi5OjobLY4pV9XgaHn.png",
 		group_id = 560,
 		id = 560,
-		is_active = 1,
+		is_active = 0,
 		time = {
 			{
 				2025,
@@ -21090,18 +21147,32 @@ pg.activity_ins_template = {
 				17
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				5,
+				23
+			},
+			{
+				10,
+				18,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5933,
+			5939
+		}
 	},
 	[561] = {
 		ship_group = 20236,
 		name = "Trinidad",
-		message_persist = "",
+		message_persist = "ins_561",
 		sculpture = "telinida_2",
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/250520_telinidageH2q5J3zz3I4n7w.png",
 		group_id = 561,
 		id = 561,
-		is_active = 1,
+		is_active = 0,
 		time = {
 			{
 				2025,
@@ -21114,18 +21185,32 @@ pg.activity_ins_template = {
 				17
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				5,
+				24
+			},
+			{
+				16,
+				10,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5949,
+			5957
+		}
 	},
 	[562] = {
 		ship_group = 39906,
 		name = "Shimanto",
-		message_persist = "",
+		message_persist = "ins_562",
 		sculpture = "siwanshi_3",
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/250520_siwanshi5OjobLY4pV9XgaHn.png",
 		group_id = 562,
 		id = 562,
-		is_active = 1,
+		is_active = 0,
 		time = {
 			{
 				2025,
@@ -21138,18 +21223,32 @@ pg.activity_ins_template = {
 				17
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				5,
+				25
+			},
+			{
+				12,
+				5,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5967,
+			5971
+		}
 	},
 	[563] = {
 		ship_group = 70504,
 		name = "Proj23.Bel",
-		message_persist = "",
+		message_persist = "ins_563",
 		sculpture = "suweiaibeilaluosi_3",
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/250529_suweiaibeilaluosirRz5EpX2WLxrwvEo.png",
 		group_id = 563,
 		id = 563,
-		is_active = 1,
+		is_active = 0,
 		time = {
 			{
 				2025,
@@ -21162,18 +21261,32 @@ pg.activity_ins_template = {
 				17
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				5,
+				29
+			},
+			{
+				15,
+				46,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5981,
+			5987
+		}
 	},
 	[564] = {
 		ship_group = 20705,
 		name = "Formidable",
-		message_persist = "",
+		message_persist = "ins_564",
 		sculpture = "kewei_6",
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/250529_keweiEKxJkdk0rtAJES4b.png",
 		group_id = 564,
 		id = 564,
-		is_active = 1,
+		is_active = 0,
 		time = {
 			{
 				2025,
@@ -21186,18 +21299,32 @@ pg.activity_ins_template = {
 				17
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				5,
+				30
+			},
+			{
+				12,
+				14,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5999,
+			6004
+		}
 	},
 	[565] = {
 		ship_group = 40314,
 		name = "Friedrich Carl",
-		message_persist = "",
+		message_persist = "ins_565",
 		sculpture = "feiteliekaer_3",
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/250529_feiteliekaerSJGnfK8pZsSMfLnL.png",
 		group_id = 565,
 		id = 565,
-		is_active = 1,
+		is_active = 0,
 		time = {
 			{
 				2025,
@@ -21210,18 +21337,32 @@ pg.activity_ins_template = {
 				17
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				5,
+				31
+			},
+			{
+				10,
+				8,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			6015,
+			6021
+		}
 	},
 	[566] = {
 		ship_group = 30189,
 		name = "Hatsuzuki",
-		message_persist = "",
+		message_persist = "ins_566",
 		sculpture = "chuyue_3",
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/250529_chuyuepWVUEWxH51sXq3wj.png",
 		group_id = 566,
 		id = 566,
-		is_active = 1,
+		is_active = 0,
 		time = {
 			{
 				2025,
@@ -21234,18 +21375,32 @@ pg.activity_ins_template = {
 				17
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				6,
+				1
+			},
+			{
+				19,
+				27,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			6030,
+			6035
+		}
 	},
 	[567] = {
 		ship_group = 10509,
 		name = "Colorado",
-		message_persist = "",
+		message_persist = "ins_567",
 		sculpture = "keluoladuo_4",
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/250529_keluoladuoFrkGus7XP2M0p0d2.png",
 		group_id = 567,
 		id = 567,
-		is_active = 1,
+		is_active = 0,
 		time = {
 			{
 				2025,
@@ -21258,18 +21413,33 @@ pg.activity_ins_template = {
 				17
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				6,
+				2
+			},
+			{
+				17,
+				38,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			6045,
+			6049,
+			6052
+		}
 	},
 	[568] = {
 		ship_group = 10121,
 		name = "BLACK★ROCK SHOOTER",
-		message_persist = "",
+		message_persist = "ins_568",
 		sculpture = "heiyansheshou",
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/250603_BRSVYJ7JrDJgJTUqtH3.png",
 		group_id = 568,
 		id = 568,
-		is_active = 1,
+		is_active = 0,
 		time = {
 			{
 				2025,
@@ -21282,18 +21452,32 @@ pg.activity_ins_template = {
 				17
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				6,
+				5
+			},
+			{
+				14,
+				37,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			6063,
+			6070
+		}
 	},
 	[569] = {
 		ship_group = 10122,
 		name = "DEAD MASTER",
-		message_persist = "",
+		message_persist = "ins_569",
 		sculpture = "siwangzhuzai",
-		picture_persist = "",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/250603_DMzpuzSHEW21Vmwhve.png",
 		group_id = 569,
 		id = 569,
-		is_active = 1,
+		is_active = 0,
 		time = {
 			{
 				2025,
@@ -21303,6 +21487,116 @@ pg.activity_ins_template = {
 			{
 				11,
 				49,
+				17
+			}
+		},
+		time_persist = {
+			{
+				2025,
+				6,
+				6
+			},
+			{
+				11,
+				49,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			6080,
+			6085
+		}
+	},
+	[570] = {
+		ship_group = 40407,
+		name = "Admiral Zenker",
+		message_persist = "",
+		sculpture = "zengkehaijunshangjiang",
+		picture_persist = "",
+		group_id = 570,
+		id = 570,
+		is_active = 1,
+		time = {
+			{
+				2025,
+				6,
+				26
+			},
+			{
+				15,
+				30,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[571] = {
+		ship_group = 40814,
+		name = "U.B.552",
+		message_persist = "",
+		sculpture = "U552",
+		picture_persist = "",
+		group_id = 571,
+		id = 571,
+		is_active = 1,
+		time = {
+			{
+				2025,
+				6,
+				27
+			},
+			{
+				12,
+				0,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[572] = {
+		ship_group = 40113,
+		name = "AAAZielplanerin13",
+		message_persist = "",
+		sculpture = "Z13",
+		picture_persist = "",
+		group_id = 572,
+		id = 572,
+		is_active = 1,
+		time = {
+			{
+				2025,
+				6,
+				28
+			},
+			{
+				10,
+				24,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[573] = {
+		ship_group = 29901,
+		name = "Neptune",
+		message_persist = "",
+		sculpture = "haiwangxing",
+		picture_persist = "",
+		group_id = 573,
+		id = 573,
+		is_active = 1,
+		time = {
+			{
+				2025,
+				6,
+				29
+			},
+			{
+				23,
+				23,
 				17
 			}
 		},
@@ -21868,6 +22162,10 @@ pg.activity_ins_template = {
 		566,
 		567,
 		568,
-		569
+		569,
+		570,
+		571,
+		572,
+		573
 	}
 }

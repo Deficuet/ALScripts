@@ -11,25 +11,6 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 		var_1_0:SetActivityId(arg_1_0.id)
 		table.insert(arg_1_0.collections, var_1_0)
 	end
-
-	local var_1_1 = arg_1_0:getConfig("config_data")
-	local var_1_2 = arg_1_0:getDayIndex()
-
-	print("collection==============================", var_1_2)
-
-	if #arg_1_0.collections == 0 and var_1_2 > 0 and var_1_2 <= #var_1_1 then
-		local var_1_3 = var_1_1[var_1_2]
-
-		if not table.contains(arg_1_0.data1_list, var_1_3) then
-			table.insert(arg_1_0.collections, EventInfo.New({
-				finish_time = 0,
-				over_time = 0,
-				id = var_1_3,
-				ship_id_list = {},
-				activity_id = arg_1_0.id
-			}))
-		end
-	end
 end
 
 function var_0_0.getDayIndex(arg_2_0)
@@ -41,6 +22,27 @@ function var_0_0.getDayIndex(arg_2_0)
 end
 
 function var_0_0.GetCollectionList(arg_3_0)
+	local var_3_0 = arg_3_0:getConfig("config_data")
+	local var_3_1 = arg_3_0:getDayIndex()
+
+	if #arg_3_0.collections > 0 and var_3_1 > table.indexof(var_3_0, arg_3_0.collections[1].id) then
+		table.remove(arg_3_0.collections, 1)
+	end
+
+	if #arg_3_0.collections == 0 and var_3_1 > 0 and var_3_1 <= #var_3_0 then
+		local var_3_2 = var_3_0[var_3_1]
+
+		if not table.contains(arg_3_0.data1_list, var_3_2) then
+			table.insert(arg_3_0.collections, EventInfo.New({
+				finish_time = 0,
+				over_time = 0,
+				id = var_3_2,
+				ship_id_list = {},
+				activity_id = arg_3_0.id
+			}))
+		end
+	end
+
 	return arg_3_0.collections
 end
 

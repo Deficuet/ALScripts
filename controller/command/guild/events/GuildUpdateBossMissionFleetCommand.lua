@@ -57,8 +57,8 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 			end
 		end
 
-		iter_1_1:ClearInvaildShip()
-		iter_1_1:RemoveInvaildCommanders()
+		iter_1_1:ClearInvalidShip()
+		iter_1_1:RemoveInvalidCommanders()
 
 		local var_1_8 = arg_1_0:WarpData(iter_1_1)
 

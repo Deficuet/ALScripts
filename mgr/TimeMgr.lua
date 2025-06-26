@@ -129,7 +129,7 @@ function var_0_1.RemoveAllBattleTimer(arg_15_0)
 end
 
 function var_0_1.RealtimeSinceStartup(arg_16_0)
-	return math.ceil(Time.realtimeSinceStartup)
+	return math.floor(Time.realtimeSinceStartup)
 end
 
 function var_0_1.SetServerTime(arg_17_0, arg_17_1, arg_17_2)

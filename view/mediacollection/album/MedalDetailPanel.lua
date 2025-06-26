@@ -41,7 +41,7 @@ function var_0_0.Ctor(arg_2_0, arg_2_1, arg_2_2)
 		arg_2_0:UpdateMedal()
 	end)
 	onButton(arg_2_0, arg_2_0._nextBtn, function()
-		arg_2_0._currentIndex = math.min(arg_2_0._currentIndex + 1, #arg_2_0._medalGroup:getConfig("activity_medal_ids"))
+		arg_2_0._currentIndex = math.min(arg_2_0._currentIndex + 1, #arg_2_0._medalGroup:GetMedalIds())
 
 		arg_2_0:UpdateMedal()
 	end)
@@ -56,7 +56,7 @@ function var_0_0.SetCurrentIndex(arg_8_0, arg_8_1)
 end
 
 function var_0_0.UpdateMedal(arg_9_0)
-	local var_9_0 = arg_9_0._medalGroup:getConfig("activity_medal_ids")[arg_9_0._currentIndex]
+	local var_9_0 = arg_9_0._medalGroup:GetMedalIds()[arg_9_0._currentIndex]
 
 	arg_9_0._medal = arg_9_0._medalGroup:GetMedalList()[var_9_0]
 
@@ -99,7 +99,7 @@ function var_0_0.UpdateMedal(arg_9_0)
 
 	SetActive(arg_9_0._stateText, var_9_3 ~= ActivityMedalGroup.STATE_ACTIVE)
 	SetActive(arg_9_0._prevBtn, arg_9_0._currentIndex ~= 1)
-	SetActive(arg_9_0._nextBtn, arg_9_0._currentIndex ~= #arg_9_0._medalGroup:getConfig("activity_medal_ids"))
+	SetActive(arg_9_0._nextBtn, arg_9_0._currentIndex ~= #arg_9_0._medalGroup:GetMedalIds())
 end
 
 function var_0_0.SetActive(arg_10_0, arg_10_1)

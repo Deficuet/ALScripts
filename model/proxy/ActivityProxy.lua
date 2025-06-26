@@ -65,13 +65,6 @@ function var_0_0.register(arg_1_0)
 
 		arg_1_0:refreshActivityBuffs()
 
-		for iter_2_4, iter_2_5 in pairs(arg_1_0.data) do
-			arg_1_0:sendNotification(GAME.ACTIVITY_BE_UPDATED, {
-				isInit = true,
-				activity = iter_2_5
-			})
-		end
-
 		local var_2_2 = arg_1_0:getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE)
 
 		if var_2_2 and not var_2_2:isEnd() then
@@ -102,6 +95,12 @@ function var_0_0.register(arg_1_0)
 
 			arg_1_0:sendNotification(GAME.REQUEST_ATELIER, var_3_0.id)
 		end)()
+
+		local var_2_6 = arg_1_0:getActivityByType(ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT)
+
+		if var_2_6 and not var_2_6:isEnd() then
+			getProxy(EventProxy):CheckAddActivityEvent()
+		end
 	end)
 	arg_1_0:on(11201, function(arg_4_0)
 		local var_4_0 = Activity.Create(arg_4_0.activity_info)

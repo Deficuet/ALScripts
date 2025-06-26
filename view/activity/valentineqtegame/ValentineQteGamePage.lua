@@ -396,7 +396,7 @@ function var_0_0.CheckAndGenItem(arg_46_0)
 	end
 end
 
-function var_0_0.IsVaildItemPos(arg_47_0, arg_47_1)
+function var_0_0.IsValidItemPos(arg_47_0, arg_47_1)
 	local var_47_0 = arg_47_0.slider.sizeDelta.x + 80
 
 	for iter_47_0, iter_47_1 in ipairs(arg_47_0.items) do
@@ -416,7 +416,7 @@ function var_0_0.RandomItemPosition(arg_48_0, arg_48_1)
 	local var_48_0 = math.random(1, 2) % 2 == 0 and arg_48_0.itemGenMinArea or arg_48_0.itemGenMaxArea
 	local var_48_1 = math.random(var_48_0.x, var_48_0.y)
 
-	if arg_48_0:IsVaildItemPos(var_48_1) then
+	if arg_48_0:IsValidItemPos(var_48_1) then
 		arg_48_0.genItemTime = arg_48_0.time
 
 		local var_48_2 = arg_48_0.itemPoolMgr:Dequeue()

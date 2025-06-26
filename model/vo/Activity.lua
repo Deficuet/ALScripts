@@ -878,19 +878,28 @@ function var_0_0.IsShowTipById(arg_73_0)
 end
 
 function var_0_0.isShow(arg_81_0)
-	local var_81_0 = arg_81_0:getConfig("page_info")
+	if LOCK_SKIN_US then
+		local var_81_0 = pg.gameset.levellimit_skinstory.key_value
+		local var_81_1 = pg.gameset.levellimit_skinstory.description
+
+		if var_81_0 >= getProxy(PlayerProxy):getRawData().level and table.contains(var_81_1, arg_81_0.id) then
+			return false
+		end
+	end
+
+	local var_81_2 = arg_81_0:getConfig("page_info")
 
 	if arg_81_0:getConfig("is_show") <= 0 then
 		return false
 	elseif underscore.any({
-		var_81_0.ui_name,
-		var_81_0.ui_name2
+		var_81_2.ui_name,
+		var_81_2.ui_name2
 	}, function(arg_82_0)
 		return not checkABExist(string.format("ui/%s", arg_82_0))
 	end) then
 		warning(string.format("activity:%d without ui:%s", arg_81_0.id, table.concat({
-			var_81_0.ui_name,
-			var_81_0.ui_name2
+			var_81_2.ui_name,
+			var_81_2.ui_name2
 		}, " or ")))
 
 		return false
@@ -899,30 +908,30 @@ function var_0_0.isShow(arg_81_0)
 	if arg_81_0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_RETURN_AWARD then
 		return arg_81_0.data1 ~= 0
 	elseif arg_81_0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_CLIENT_DISPLAY then
-		local var_81_1 = arg_81_0:getConfig("config_client").display_link
+		local var_81_3 = arg_81_0:getConfig("config_client").display_link
 
-		if var_81_1 then
-			return underscore.any(var_81_1, function(arg_83_0)
+		if var_81_3 then
+			return underscore.any(var_81_3, function(arg_83_0)
 				return arg_83_0[2] == 0 or pg.TimeMgr.GetInstance():inTime(pg.shop_template[arg_83_0[2]].time)
 			end)
 		end
 	elseif arg_81_0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_SURVEY then
-		local var_81_2 = getProxy(ActivityProxy)
-		local var_81_3 = var_81_2:isSurveyOpen()
-		local var_81_4 = var_81_2:isSurveyDone()
+		local var_81_4 = getProxy(ActivityProxy)
+		local var_81_5 = var_81_4:isSurveyOpen()
+		local var_81_6 = var_81_4:isSurveyDone()
 
-		return var_81_3 and not var_81_4
+		return var_81_5 and not var_81_6
 	elseif arg_81_0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_UR_EXCHANGE then
 		if getProxy(ShopsProxy):getActivityShops() == nil then
 			return false
 		end
 
-		local var_81_5 = arg_81_0:getConfig("config_client")
-		local var_81_6 = getProxy(PlayerProxy):getData():getResource(var_81_5.uPtId)
-		local var_81_7 = #var_81_5.goodsId + 1
+		local var_81_7 = arg_81_0:getConfig("config_client")
+		local var_81_8 = getProxy(PlayerProxy):getData():getResource(var_81_7.uPtId)
+		local var_81_9 = #var_81_7.goodsId + 1
 
-		return var_81_7 > var_81_7 - _.reduce(var_81_5.goodsId, 0, function(arg_84_0, arg_84_1)
-			return arg_84_0 + getProxy(ShopsProxy):getActivityShopById(var_81_5.shopId):GetCommodityById(arg_84_1):GetPurchasableCnt()
+		return var_81_9 > var_81_9 - _.reduce(var_81_7.goodsId, 0, function(arg_84_0, arg_84_1)
+			return arg_84_0 + getProxy(ShopsProxy):getActivityShopById(var_81_7.shopId):GetCommodityById(arg_84_1):GetPurchasableCnt()
 		end)
 	elseif arg_81_0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_TASK_RYZA and table.contains({
 		ActivityConst.DORM_SIGN_ID,

@@ -118,7 +118,13 @@ end
 
 function var_0_0.PlayEnterAnimation(arg_14_0, arg_14_1)
 	if not getProxy(SettingsProxy):IsDisplayResultPainting() then
-		arg_14_1()
+		if arg_14_0.resultPaintingData == nil then
+			arg_14_1()
+
+			return
+		end
+
+		arg_14_0.animation:ZoomPainting(arg_14_0.resultPaintingData, arg_14_1)
 
 		return
 	end

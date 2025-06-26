@@ -16,6 +16,7 @@ function var_0_0.Ctor(arg_1_0)
 	arg_1_0.timer = CoTimer.New(function()
 		arg_1_0:Dispatcher()
 	end, 1, -1)
+	arg_1_0.loginMark = nil
 end
 
 function var_0_0.AddProxy(arg_3_0, arg_3_1, arg_3_2, ...)
@@ -40,12 +41,16 @@ function var_0_0.RgisterProxy(arg_4_0, arg_4_1, arg_4_2)
 	for iter_4_2, iter_4_3 in ipairs(arg_4_0.data) do
 		arg_4_1:registerProxy(iter_4_3)
 	end
+
+	arg_4_0.loginMark = {}
 end
 
 function var_0_0.RemoveProxy(arg_5_0, arg_5_1)
 	for iter_5_0, iter_5_1 in ipairs(arg_5_0.data) do
 		arg_5_1:removeProxy(iter_5_1.__cname)
 	end
+
+	arg_5_0.loginMark = nil
 end
 
 function var_0_0.Start(arg_6_0)

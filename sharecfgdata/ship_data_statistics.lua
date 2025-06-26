@@ -219507,6 +219507,506 @@ _G.pg.base.ship_data_statistics[401114] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[401131] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Z13",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 401130,
+	english_name = "KMS Erich Koellner",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 401131,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		327,
+		15,
+		86,
+		33,
+		0,
+		77,
+		0,
+		68,
+		59,
+		43.2,
+		36,
+		50
+	},
+	attrs_growth = {
+		9192,
+		205,
+		1045,
+		718,
+		0,
+		534,
+		0,
+		1050,
+		1090,
+		0,
+		0,
+		568
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.2,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Z-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[401132] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Z13",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 401130,
+	english_name = "KMS Erich Koellner",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 401132,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		407,
+		19,
+		107,
+		41,
+		0,
+		77,
+		0,
+		68,
+		59,
+		43.2,
+		36,
+		62
+	},
+	attrs_growth = {
+		9192,
+		205,
+		1045,
+		718,
+		0,
+		534,
+		0,
+		1050,
+		1090,
+		0,
+		0,
+		568
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.25,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Z-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[401133] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Z13",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 401130,
+	english_name = "KMS Erich Koellner",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 401133,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		567,
+		26,
+		150,
+		57,
+		0,
+		77,
+		0,
+		68,
+		59,
+		43.2,
+		36,
+		87
+	},
+	attrs_growth = {
+		9192,
+		205,
+		1045,
+		718,
+		0,
+		534,
+		0,
+		1050,
+		1090,
+		0,
+		0,
+		568
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.35,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Z-Class"
+	}
+}
+
+_G.pg.base.ship_data_statistics[401134] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "Z13",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 401130,
+	english_name = "KMS Erich Koellner",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 401134,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		806,
+		37,
+		214,
+		81,
+		0,
+		77,
+		0,
+		68,
+		59,
+		43.2,
+		36,
+		124
+	},
+	attrs_growth = {
+		9192,
+		205,
+		1045,
+		718,
+		0,
+		534,
+		0,
+		1050,
+		1090,
+		0,
+		0,
+		568
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.4,
+		0.75
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Z-Class"
+	}
+}
+
 _G.pg.base.ship_data_statistics[401161] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -243951,6 +244451,502 @@ _G.pg.base.ship_data_statistics[404064] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[404071] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "曾克海军上将",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 404070,
+	english_name = "KMS Admiral Zenker",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 404071,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1219,
+		70,
+		44,
+		59,
+		0,
+		62,
+		0,
+		21,
+		9,
+		32,
+		50,
+		0
+	},
+	attrs_growth = {
+		32823,
+		897,
+		613,
+		1249,
+		0,
+		429,
+		0,
+		332,
+		238,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Admiral Zenker"
+	}
+}
+
+_G.pg.base.ship_data_statistics[404072] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "曾克海军上将",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 404070,
+	english_name = "KMS Admiral Zenker",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 404072,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1516,
+		87,
+		55,
+		73,
+		0,
+		62,
+		0,
+		21,
+		9,
+		32,
+		50,
+		0
+	},
+	attrs_growth = {
+		32823,
+		897,
+		613,
+		1249,
+		0,
+		429,
+		0,
+		332,
+		238,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Admiral Zenker"
+	}
+}
+
+_G.pg.base.ship_data_statistics[404073] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "曾克海军上将",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 404070,
+	english_name = "KMS Admiral Zenker",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 404073,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2111,
+		122,
+		77,
+		102,
+		0,
+		62,
+		0,
+		21,
+		9,
+		32,
+		50,
+		0
+	},
+	attrs_growth = {
+		32823,
+		897,
+		613,
+		1249,
+		0,
+		429,
+		0,
+		332,
+		238,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Admiral Zenker"
+	}
+}
+
+_G.pg.base.ship_data_statistics[404074] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "曾克海军上将",
+	type = 4,
+	oxy_cost = 0,
+	skin_id = 404070,
+	english_name = "KMS Admiral Zenker",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 404074,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3003,
+		174,
+		110,
+		145,
+		0,
+		62,
+		0,
+		21,
+		9,
+		32,
+		50,
+		0
+	},
+	attrs_growth = {
+		32823,
+		897,
+		613,
+		1249,
+		0,
+		429,
+		0,
+		332,
+		238,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Admiral Zenker"
+	}
+}
+
 _G.pg.base.ship_data_statistics[405011] = {
 	raid_distance = 0,
 	oxy_max = 0,
@@ -263491,6 +264487,1022 @@ _G.pg.base.ship_data_statistics[408134] = {
 			{
 				-2,
 				-2
+			},
+			{
+				-2,
+				2
+			}
+		}
+	},
+	tag_list = {
+		"U-boat"
+	}
+}
+
+_G.pg.base.ship_data_statistics[408141] = {
+	raid_distance = 30,
+	oxy_max = 188,
+	name = "U-552",
+	type = 8,
+	oxy_cost = 10,
+	skin_id = 408140,
+	english_name = "KMS U-552",
+	oxy_recovery_surface = 0,
+	attack_duration = 1,
+	star = 3,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 8,
+	ammo = 2,
+	armor_type = 1,
+	huntingrange_level = 1,
+	id = 408141,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		211,
+		11,
+		108,
+		0,
+		0,
+		41,
+		0,
+		69,
+		7,
+		14.4,
+		52,
+		0
+	},
+	attrs_growth = {
+		5999,
+		154,
+		1292,
+		0,
+		0,
+		282,
+		0,
+		1016,
+		239,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.05,
+		0.85
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-2,
+				0
+			},
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				-1,
+				2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				2,
+				-2
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				3,
+				-2
+			},
+			{
+				3,
+				2
+			}
+		},
+		{
+			{
+				-3,
+				0
+			},
+			{
+				-1,
+				-3
+			},
+			{
+				-1,
+				3
+			},
+			{
+				0,
+				-3
+			}
+		},
+		{
+			{
+				-3,
+				1
+			},
+			{
+				-2,
+				3
+			},
+			{
+				3,
+				1
+			}
+		},
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				3,
+				-3
+			}
+		},
+		{
+			{
+				-3,
+				-1
+			},
+			{
+				-2,
+				2
+			}
+		}
+	},
+	tag_list = {
+		"U-boat"
+	}
+}
+
+_G.pg.base.ship_data_statistics[408142] = {
+	raid_distance = 30,
+	oxy_max = 188,
+	name = "U-552",
+	type = 8,
+	oxy_cost = 10,
+	skin_id = 408140,
+	english_name = "KMS U-552",
+	oxy_recovery_surface = 0,
+	attack_duration = 1,
+	star = 4,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 8,
+	ammo = 2,
+	armor_type = 1,
+	huntingrange_level = 1,
+	id = 408142,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		262,
+		14,
+		135,
+		0,
+		0,
+		41,
+		0,
+		69,
+		7,
+		14.4,
+		52,
+		0
+	},
+	attrs_growth = {
+		5999,
+		154,
+		1292,
+		0,
+		0,
+		282,
+		0,
+		1016,
+		239,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.1,
+		0.85
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-2,
+				0
+			},
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				-1,
+				2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				2,
+				-2
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				3,
+				-2
+			},
+			{
+				3,
+				2
+			}
+		},
+		{
+			{
+				-3,
+				0
+			},
+			{
+				-1,
+				-3
+			},
+			{
+				-1,
+				3
+			},
+			{
+				0,
+				-3
+			}
+		},
+		{
+			{
+				-3,
+				1
+			},
+			{
+				-2,
+				3
+			},
+			{
+				3,
+				1
+			}
+		},
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				3,
+				-3
+			}
+		},
+		{
+			{
+				-3,
+				-1
+			},
+			{
+				-2,
+				2
+			}
+		}
+	},
+	tag_list = {
+		"U-boat"
+	}
+}
+
+_G.pg.base.ship_data_statistics[408143] = {
+	raid_distance = 30,
+	oxy_max = 188,
+	name = "U-552",
+	type = 8,
+	oxy_cost = 10,
+	skin_id = 408140,
+	english_name = "KMS U-552",
+	oxy_recovery_surface = 0,
+	attack_duration = 1,
+	star = 5,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 8,
+	ammo = 2,
+	armor_type = 1,
+	huntingrange_level = 2,
+	id = 408143,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		365,
+		19,
+		188,
+		0,
+		0,
+		41,
+		0,
+		69,
+		7,
+		14.4,
+		52,
+		0
+	},
+	attrs_growth = {
+		5999,
+		154,
+		1292,
+		0,
+		0,
+		282,
+		0,
+		1016,
+		239,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.1,
+		0.85
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-2,
+				0
+			},
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				-1,
+				2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				2,
+				-2
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				3,
+				-2
+			},
+			{
+				3,
+				2
+			}
+		},
+		{
+			{
+				-3,
+				0
+			},
+			{
+				-1,
+				-3
+			},
+			{
+				-1,
+				3
+			},
+			{
+				0,
+				-3
+			}
+		},
+		{
+			{
+				-3,
+				1
+			},
+			{
+				-2,
+				3
+			},
+			{
+				3,
+				1
+			}
+		},
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				3,
+				-3
+			}
+		},
+		{
+			{
+				-3,
+				-1
+			},
+			{
+				-2,
+				2
+			}
+		}
+	},
+	tag_list = {
+		"U-boat"
+	}
+}
+
+_G.pg.base.ship_data_statistics[408144] = {
+	raid_distance = 30,
+	oxy_max = 188,
+	name = "U-552",
+	type = 8,
+	oxy_cost = 10,
+	skin_id = 408140,
+	english_name = "KMS U-552",
+	oxy_recovery_surface = 0,
+	attack_duration = 1,
+	star = 6,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 4,
+	oxy_recovery_bench = 8,
+	ammo = 2,
+	armor_type = 1,
+	huntingrange_level = 2,
+	id = 408144,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		519,
+		28,
+		268,
+		0,
+		0,
+		41,
+		0,
+		69,
+		7,
+		14.4,
+		52,
+		0
+	},
+	attrs_growth = {
+		5999,
+		154,
+		1292,
+		0,
+		0,
+		282,
+		0,
+		1016,
+		239,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.2,
+		0.85
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-2,
+				0
+			},
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				-1,
+				2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				2,
+				-2
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				3,
+				-2
+			},
+			{
+				3,
+				2
+			}
+		},
+		{
+			{
+				-3,
+				0
+			},
+			{
+				-1,
+				-3
+			},
+			{
+				-1,
+				3
+			},
+			{
+				0,
+				-3
+			}
+		},
+		{
+			{
+				-3,
+				1
+			},
+			{
+				-2,
+				3
+			},
+			{
+				3,
+				1
+			}
+		},
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				3,
+				-3
+			}
+		},
+		{
+			{
+				-3,
+				-1
 			},
 			{
 				-2,

@@ -32,7 +32,7 @@ end
 
 function var_0_0.OnLoaded(arg_4_0)
 	arg_4_0.closeBtn = arg_4_0:findTF("top/close")
-	arg_4_0.sea = arg_4_0:findTF("sea"):GetComponent(typeof(RawImage))
+	arg_4_0.sea = arg_4_0:findTF("bg/sea"):GetComponent(typeof(RawImage))
 	arg_4_0.titleTxt = arg_4_0:findTF("top/title/Text"):GetComponent(typeof(Text))
 	arg_4_0.logBtn = arg_4_0:findTF("bottom/log_btn")
 	arg_4_0.formationBtn = arg_4_0:findTF("bottom/formationBtn")

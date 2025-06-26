@@ -4341,6 +4341,36 @@ _G.pg.base.shop_template[31080] = {
 	}
 }
 
+_G.pg.base.shop_template[31934] = {
+	type_order = 0,
+	collaboration_skin_time = "",
+	group = 0,
+	type = 2,
+	resource_type = 1,
+	genre = "shopping_street",
+	desc = "7000物资兑换1个铁道之旅外观设备箱",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 0,
+	order = 0,
+	akashi_pick = 0,
+	time = "always",
+	package_tag = "",
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 31934,
+	resource_num = 7000,
+	package_tag_open = 0,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		30369
+	}
+}
+
 _G.pg.base.shop_template[31935] = {
 	type_order = 0,
 	collaboration_skin_time = "",
@@ -20789,6 +20819,438 @@ _G.pg.base.shop_template[60643] = {
 				2025,
 				6,
 				25
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60644] = {
+	type_order = 0,
+	collaboration_skin_time = "",
+	group = 0,
+	type = 2,
+	resource_type = 14,
+	genre = "gift_package",
+	desc = "880钻石购买限时建造补给(0626曾克海军上将SP版本)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 0,
+	akashi_pick = 0,
+	package_tag = "",
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60644,
+	resource_num = 880,
+	package_tag_open = 0,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40138
+	},
+	time = {
+		{
+			{
+				2025,
+				6,
+				26
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				7,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60645] = {
+	type_order = 0,
+	collaboration_skin_time = "",
+	group = 0,
+	type = 2,
+	resource_type = 14,
+	genre = "gift_package",
+	desc = "120钻石购买限时攻略补给(0626曾克海军上将SP版本)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 0,
+	akashi_pick = 0,
+	package_tag = "",
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60645,
+	resource_num = 120,
+	package_tag_open = 0,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			5
+		}
+	},
+	effect_args = {
+		40117
+	},
+	time = {
+		{
+			{
+				2025,
+				6,
+				26
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				7,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60646] = {
+	type_order = 0,
+	collaboration_skin_time = "",
+	group = 0,
+	type = 2,
+	resource_type = 14,
+	genre = "gift_package",
+	desc = "500钻石购买家具币礼包(0626曾克海军上将SP版本)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 0,
+	akashi_pick = 0,
+	package_tag = "",
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60646,
+	resource_num = 500,
+	package_tag_open = 0,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40106
+	},
+	time = {
+		{
+			{
+				2025,
+				6,
+				26
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				7,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60647] = {
+	type_order = 0,
+	collaboration_skin_time = "",
+	group = 0,
+	type = 2,
+	resource_type = 14,
+	genre = "gift_package",
+	desc = "300钻石购买心智单元礼包(0626曾克海军上将SP版本)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 0,
+	akashi_pick = 0,
+	package_tag = "",
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60647,
+	resource_num = 300,
+	package_tag_open = 0,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40119
+	},
+	time = {
+		{
+			{
+				2025,
+				6,
+				26
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				7,
+				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60648] = {
+	type_order = 0,
+	collaboration_skin_time = "",
+	group = 0,
+	type = 2,
+	resource_type = 14,
+	genre = "gift_package",
+	desc = "300钻石购买换装抵扣礼包（曾克海军上将，曾克SP版本）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 0,
+	akashi_pick = 0,
+	package_tag = "",
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60648,
+	resource_num = 300,
+	package_tag_open = 0,
+	discount_time = {},
+	limit_args = {
+		{
+			"level",
+			80
+		},
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		68090
+	},
+	time = {
+		{
+			{
+				2025,
+				6,
+				26
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				6,
+				30
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60649] = {
+	type_order = 0,
+	collaboration_skin_time = "",
+	group = 0,
+	type = 2,
+	resource_type = 14,
+	genre = "gift_package",
+	desc = "300钻石购买换装抵扣礼包（Z13，曾克SP版本）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 0,
+	akashi_pick = 0,
+	package_tag = "",
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60649,
+	resource_num = 300,
+	package_tag_open = 0,
+	discount_time = {},
+	limit_args = {
+		{
+			"level",
+			80
+		},
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		68082
+	},
+	time = {
+		{
+			{
+				2025,
+				6,
+				26
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				6,
+				30
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60650] = {
+	type_order = 0,
+	collaboration_skin_time = "",
+	group = 0,
+	type = 2,
+	resource_type = 14,
+	genre = "gift_package",
+	desc = "300钻石购买换装抵扣礼包（吾妻，曾克SP版本）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 0,
+	akashi_pick = 0,
+	package_tag = "",
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60650,
+	resource_num = 300,
+	package_tag_open = 0,
+	discount_time = {},
+	limit_args = {
+		{
+			"level",
+			80
+		},
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		68083
+	},
+	time = {
+		{
+			{
+				2025,
+				6,
+				26
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				6,
+				30
 			},
 			{
 				23,
@@ -78004,6 +78466,391 @@ _G.pg.base.shop_template[71150] = {
 	}
 }
 
+_G.pg.base.shop_template[71151] = {
+	type_order = 0,
+	collaboration_skin_time = "",
+	group = 0,
+	type = 6,
+	resource_type = 14,
+	genre = "skin_shop",
+	desc = "购买皮肤:250626曾克海军上将换装L2D",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 3,
+	akashi_pick = 0,
+	package_tag = "",
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 71151,
+	resource_num = 1180,
+	package_tag_open = 0,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		404071
+	},
+	time = {
+		{
+			{
+				2025,
+				6,
+				26
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				6,
+				30
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[71152] = {
+	type_order = 0,
+	collaboration_skin_time = "",
+	group = 0,
+	type = 6,
+	resource_type = 14,
+	genre = "skin_shop",
+	desc = "购买皮肤:250626u-552换装",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 3,
+	akashi_pick = 0,
+	package_tag = "",
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 71152,
+	resource_num = 880,
+	package_tag_open = 0,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		408141
+	},
+	time = {
+		{
+			{
+				2025,
+				6,
+				26
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				6,
+				30
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[71153] = {
+	type_order = 0,
+	collaboration_skin_time = "",
+	group = 0,
+	type = 6,
+	resource_type = 14,
+	genre = "skin_shop",
+	desc = "购买皮肤:250626z13换装L2D",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 3,
+	akashi_pick = 0,
+	package_tag = "",
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 71153,
+	resource_num = 1080,
+	package_tag_open = 0,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		401131
+	},
+	time = {
+		{
+			{
+				2025,
+				6,
+				26
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				6,
+				30
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[71154] = {
+	type_order = 0,
+	collaboration_skin_time = "",
+	group = 0,
+	type = 6,
+	resource_type = 14,
+	genre = "skin_shop",
+	desc = "购买皮肤:250626吾妻换装L2D",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 2,
+	akashi_pick = 0,
+	package_tag = "",
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 71154,
+	resource_num = 1180,
+	package_tag_open = 0,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		399042
+	},
+	time = {
+		{
+			{
+				2025,
+				6,
+				26
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				6,
+				30
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[71155] = {
+	type_order = 0,
+	collaboration_skin_time = "",
+	group = 0,
+	type = 6,
+	resource_type = 14,
+	genre = "skin_shop",
+	desc = "购买皮肤:250626帝国换装",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 4,
+	akashi_pick = 0,
+	package_tag = "",
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 71155,
+	resource_num = 880,
+	package_tag_open = 0,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		607022
+	},
+	time = {
+		{
+			{
+				2025,
+				6,
+				26
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				6,
+				30
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[71156] = {
+	type_order = 0,
+	collaboration_skin_time = "",
+	group = 0,
+	type = 6,
+	resource_type = 14,
+	genre = "skin_shop",
+	desc = "购买皮肤:250626u-37换装",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 4,
+	akashi_pick = 0,
+	package_tag = "",
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 71156,
+	resource_num = 880,
+	package_tag_open = 0,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		408102
+	},
+	time = {
+		{
+			{
+				2025,
+				6,
+				26
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				6,
+				30
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[71157] = {
+	type_order = 0,
+	collaboration_skin_time = "",
+	group = 0,
+	type = 6,
+	resource_type = 14,
+	genre = "skin_shop",
+	desc = "购买皮肤:250626海王星换装",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 4,
+	akashi_pick = 0,
+	package_tag = "",
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 71157,
+	resource_num = 880,
+	package_tag_open = 0,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		299013
+	},
+	time = {
+		{
+			{
+				2025,
+				6,
+				26
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				6,
+				30
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.base.shop_template[90001] = {
 	type_order = 0,
 	collaboration_skin_time = "",
@@ -90959,6 +91806,171 @@ _G.pg.base.shop_template[90350] = {
 				2025,
 				5,
 				31
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[90360] = {
+	type_order = 0,
+	collaboration_skin_time = "",
+	group = 0,
+	type = 6,
+	resource_type = 519,
+	genre = "skin_shop_timelimit",
+	desc = "250626限时皮肤体验：曾克海军上将（国服）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 172800,
+	order = 1,
+	akashi_pick = 0,
+	package_tag = "",
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 90360,
+	resource_num = 1,
+	package_tag_open = 0,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		404071
+	},
+	time = {
+		{
+			{
+				2025,
+				6,
+				26
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				6,
+				30
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[90361] = {
+	type_order = 0,
+	collaboration_skin_time = "",
+	group = 0,
+	type = 6,
+	resource_type = 520,
+	genre = "skin_shop_timelimit",
+	desc = "250626限时皮肤体验：Z13（国服）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 172800,
+	order = 2,
+	akashi_pick = 0,
+	package_tag = "",
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 90361,
+	resource_num = 1,
+	package_tag_open = 0,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		401131
+	},
+	time = {
+		{
+			{
+				2025,
+				6,
+				26
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				6,
+				30
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[90362] = {
+	type_order = 0,
+	collaboration_skin_time = "",
+	group = 0,
+	type = 6,
+	resource_type = 521,
+	genre = "skin_shop_timelimit",
+	desc = "250626限时皮肤体验：吾妻教室（国服）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 172800,
+	order = 3,
+	akashi_pick = 0,
+	package_tag = "",
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 90362,
+	resource_num = 1,
+	package_tag_open = 0,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		399042
+	},
+	time = {
+		{
+			{
+				2025,
+				6,
+				26
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				6,
+				30
 			},
 			{
 				23,

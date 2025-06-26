@@ -451,6 +451,10 @@ function var_0_0.BlurCamera(arg_38_0, arg_38_1, arg_38_2, arg_38_3)
 			var_38_0.enabled = true
 			var_38_0.staticBlur = true
 		else
+			if var_38_0.enabled == true and var_38_0.staticBlur == true then
+				var_38_0.enabled = false
+			end
+
 			var_38_0.enabled = true
 			var_38_0.staticBlur = false
 		end

@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_650",
 			hidePaintObj = true,
 			say = "在TB开始调配资源准备进行算力压制时，密集的敌人像察觉到了什么，向着众人疯狂进攻而来。",
-			bgm = "battle-ods-onstage",
+			bgm = "battle-DOS-onstage",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

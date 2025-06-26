@@ -46,7 +46,7 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	arg_1_0.optionIndex = 0
 end
 
-function var_0_0.IsVaild(arg_2_0, arg_2_1)
+function var_0_0.IsValid(arg_2_0, arg_2_1)
 	if arg_2_0.code == -1 then
 		return true
 	end

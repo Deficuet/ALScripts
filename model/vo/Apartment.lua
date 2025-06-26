@@ -329,4 +329,67 @@ function var_0_0.GetAllModelIds(arg_45_0)
 	return pg.dorm3d_resource.get_id_list_by_ship_group[arg_45_0.configId] or {}
 end
 
+function var_0_0.CheckAllCollectionTrack()
+	if not getProxy(ApartmentProxy):CheckAllRoomInviteAll() then
+		return
+	end
+
+	local var_46_0 = 0
+	local var_46_1 = {}
+
+	for iter_46_0, iter_46_1 in ipairs(pg.dorm3d_recall.all) do
+		local var_46_2 = pg.dorm3d_recall[iter_46_1].story_id
+		local var_46_3 = pg.dorm3d_dialogue_group[var_46_2].char_id
+
+		if var_46_1[var_46_3] == nil then
+			var_46_1[var_46_3] = getProxy(ApartmentProxy):getApartment(var_46_3) or false
+		end
+
+		if not var_46_1[var_46_3] or not var_46_1[var_46_3].talkDic[var_46_2] then
+			var_46_0 = -1
+
+			break
+		else
+			var_46_0 = var_46_0 + 1
+		end
+	end
+
+	if var_46_0 < 0 then
+		return
+	end
+
+	local var_46_4 = getProxy(ApartmentProxy).shopCount
+
+	for iter_46_2, iter_46_3 in ipairs(pg.dorm3d_shop_template.all) do
+		local var_46_5 = pg.dorm3d_shop_template[iter_46_3]
+
+		if var_46_5.room_id ~= 0 then
+			if var_46_5.type == 2 then
+				if defaultValue(var_46_4.permanentGift[var_46_5.item_id], 0) > 0 then
+					var_46_0 = var_46_0 + 1
+				else
+					var_46_0 = -1
+
+					break
+				end
+			elseif var_46_5.type == 1 then
+				if defaultValue(var_46_4.permanentFurniture[var_46_5.item_id], 0) > 0 then
+					var_46_0 = var_46_0 + 1
+				else
+					var_46_0 = -1
+
+					break
+				end
+			end
+		end
+	end
+
+	local var_46_6 = getProxy(PlayerProxy):getRawData().id
+
+	if var_46_0 > PlayerPrefs.GetInt("APARTMENT_ALL_COLLECTION:" .. var_46_6, 0) then
+		PlayerPrefs.SetInt("APARTMENT_ALL_COLLECTION:" .. var_46_6, var_46_0)
+		pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildAllCollection(20002, var_46_0))
+	end
+end
+
 return var_0_0

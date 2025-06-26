@@ -971920,6 +971920,1021 @@ _G.pg.base.expedition_data_template[1929005] = {
 	}
 }
 
+_G.pg.base.expedition_data_template[1930101] = {
+	sink_limit = 1,
+	name = "敌方旗舰",
+	guide_desc = "",
+	type = 99,
+	ai_mov = 0,
+	dungeon_id = 1930101,
+	add_icon = "",
+	bgm = "story-spycity-fashion",
+	exp_commander = 0,
+	SLG_destroy_FX = "",
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	icon_type = 1,
+	icon = "bossicon",
+	difficulty = 2,
+	level = 20,
+	exp = 169,
+	limit_type = 1,
+	ai = 0,
+	time_limit = 120,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 1930101,
+	scale = 100,
+	map_id = {
+		{
+			50197,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200480,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54012,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+_G.pg.base.expedition_data_template[1930201] = {
+	sink_limit = 1,
+	name = "敌方旗舰",
+	guide_desc = "",
+	type = 99,
+	ai_mov = 0,
+	dungeon_id = 1930201,
+	add_icon = "",
+	bgm = "story-spycity-fashion",
+	exp_commander = 0,
+	SLG_destroy_FX = "",
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	icon_type = 1,
+	icon = "bossicon",
+	difficulty = 2,
+	level = 50,
+	exp = 286,
+	limit_type = 1,
+	ai = 0,
+	time_limit = 120,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 1930201,
+	scale = 100,
+	map_id = {
+		{
+			50197,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200481,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54017,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+_G.pg.base.expedition_data_template[1930202] = {
+	sink_limit = 1,
+	name = "敌方旗舰",
+	guide_desc = "",
+	type = 99,
+	ai_mov = 0,
+	dungeon_id = 1930202,
+	add_icon = "",
+	bgm = "story-spycity-fashion",
+	exp_commander = 0,
+	SLG_destroy_FX = "",
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	icon_type = 1,
+	icon = "bossicon",
+	difficulty = 2,
+	level = 50,
+	exp = 286,
+	limit_type = 1,
+	ai = 0,
+	time_limit = 120,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 1930202,
+	scale = 100,
+	map_id = {
+		{
+			50197,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200481,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54017,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+_G.pg.base.expedition_data_template[1930301] = {
+	sink_limit = 1,
+	name = "敌方旗舰",
+	guide_desc = "",
+	type = 99,
+	ai_mov = 0,
+	dungeon_id = 1930301,
+	add_icon = "",
+	bgm = "story-spycity-fashion",
+	exp_commander = 2,
+	SLG_destroy_FX = "",
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	icon_type = 1,
+	icon = "bossicon",
+	difficulty = 2,
+	level = 100,
+	exp = 470,
+	limit_type = 1,
+	ai = 0,
+	time_limit = 120,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 1930301,
+	scale = 100,
+	map_id = {
+		{
+			50197,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200482,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54017,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+_G.pg.base.expedition_data_template[1930302] = {
+	sink_limit = 1,
+	name = "敌方旗舰",
+	guide_desc = "",
+	type = 99,
+	ai_mov = 0,
+	dungeon_id = 1930302,
+	add_icon = "",
+	bgm = "story-spycity-fashion",
+	exp_commander = 2,
+	SLG_destroy_FX = "",
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	icon_type = 1,
+	icon = "bossicon",
+	difficulty = 2,
+	level = 100,
+	exp = 470,
+	limit_type = 1,
+	ai = 0,
+	time_limit = 120,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 1930302,
+	scale = 100,
+	map_id = {
+		{
+			50197,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200482,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54017,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+_G.pg.base.expedition_data_template[1930303] = {
+	sink_limit = 1,
+	name = "敌方旗舰",
+	guide_desc = "",
+	type = 99,
+	ai_mov = 0,
+	dungeon_id = 1930303,
+	add_icon = "",
+	bgm = "story-spycity-fashion",
+	exp_commander = 2,
+	SLG_destroy_FX = "",
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	icon_type = 1,
+	icon = "bossicon",
+	difficulty = 2,
+	level = 100,
+	exp = 470,
+	limit_type = 1,
+	ai = 0,
+	time_limit = 120,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 1930303,
+	scale = 100,
+	map_id = {
+		{
+			50198,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200482,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54017,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+_G.pg.base.expedition_data_template[1930401] = {
+	sink_limit = 1,
+	name = "敌方旗舰",
+	guide_desc = "",
+	type = 99,
+	ai_mov = 0,
+	dungeon_id = 1930401,
+	add_icon = "",
+	bgm = "story-spycity-fashion",
+	exp_commander = 4,
+	SLG_destroy_FX = "",
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	icon_type = 1,
+	icon = "bossicon",
+	difficulty = 2,
+	level = 110,
+	exp = 500,
+	limit_type = 1,
+	ai = 0,
+	time_limit = 120,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 1930401,
+	scale = 100,
+	map_id = {
+		{
+			50197,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200483,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54016,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+_G.pg.base.expedition_data_template[1930402] = {
+	sink_limit = 1,
+	name = "敌方旗舰",
+	guide_desc = "",
+	type = 99,
+	ai_mov = 0,
+	dungeon_id = 1930402,
+	add_icon = "",
+	bgm = "story-spycity-fashion",
+	exp_commander = 4,
+	SLG_destroy_FX = "",
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	icon_type = 1,
+	icon = "bossicon",
+	difficulty = 2,
+	level = 110,
+	exp = 500,
+	limit_type = 1,
+	ai = 0,
+	time_limit = 120,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 1930402,
+	scale = 100,
+	map_id = {
+		{
+			50197,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200483,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54016,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+_G.pg.base.expedition_data_template[1930403] = {
+	sink_limit = 1,
+	name = "敌方旗舰",
+	guide_desc = "",
+	type = 99,
+	ai_mov = 0,
+	dungeon_id = 1930403,
+	add_icon = "",
+	bgm = "story-spycity-fashion",
+	exp_commander = 4,
+	SLG_destroy_FX = "",
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	icon_type = 1,
+	icon = "bossicon",
+	difficulty = 2,
+	level = 110,
+	exp = 500,
+	limit_type = 1,
+	ai = 0,
+	time_limit = 120,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 1930403,
+	scale = 100,
+	map_id = {
+		{
+			50198,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200483,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54016,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+_G.pg.base.expedition_data_template[1930404] = {
+	sink_limit = 1,
+	name = "敌方旗舰",
+	guide_desc = "",
+	type = 99,
+	ai_mov = 0,
+	dungeon_id = 1930404,
+	add_icon = "",
+	bgm = "story-spycity-fashion",
+	exp_commander = 4,
+	SLG_destroy_FX = "",
+	exp_commander_ratio = 50,
+	expose_speed = 15,
+	icon_type = 1,
+	icon = "bossicon",
+	difficulty = 2,
+	level = 110,
+	exp = 500,
+	limit_type = 1,
+	ai = 0,
+	time_limit = 120,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 1930404,
+	scale = 100,
+	map_id = {
+		{
+			50198,
+			1
+		}
+	},
+	award_display = {
+		{
+			2,
+			200483,
+			1
+		},
+		{
+			2,
+			59001,
+			1
+		},
+		{
+			2,
+			54016,
+			1
+		}
+	},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+_G.pg.base.expedition_data_template[1930501] = {
+	sink_limit = 1,
+	name = "敌方旗舰",
+	guide_desc = "",
+	type = 99,
+	ai_mov = 0,
+	dungeon_id = 1930501,
+	add_icon = "",
+	bgm = "story-spycity-fashion",
+	exp_commander = 0,
+	SLG_destroy_FX = "",
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	icon_type = 1,
+	icon = "bossicon",
+	difficulty = 2,
+	level = 125,
+	exp = 0,
+	limit_type = 1,
+	ai = 0,
+	time_limit = 120,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 1930501,
+	scale = 100,
+	map_id = {
+		{
+			50197,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+_G.pg.base.expedition_data_template[1930502] = {
+	sink_limit = 1,
+	name = "敌方旗舰",
+	guide_desc = "",
+	type = 99,
+	ai_mov = 0,
+	dungeon_id = 1930502,
+	add_icon = "",
+	bgm = "story-spycity-fashion",
+	exp_commander = 0,
+	SLG_destroy_FX = "",
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	icon_type = 1,
+	icon = "bossicon",
+	difficulty = 2,
+	level = 125,
+	exp = 0,
+	limit_type = 1,
+	ai = 0,
+	time_limit = 120,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 1930502,
+	scale = 100,
+	map_id = {
+		{
+			50197,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+_G.pg.base.expedition_data_template[1930503] = {
+	sink_limit = 1,
+	name = "敌方旗舰",
+	guide_desc = "",
+	type = 99,
+	ai_mov = 0,
+	dungeon_id = 1930503,
+	add_icon = "",
+	bgm = "story-spycity-fashion",
+	exp_commander = 0,
+	SLG_destroy_FX = "",
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	icon_type = 1,
+	icon = "bossicon",
+	difficulty = 2,
+	level = 125,
+	exp = 0,
+	limit_type = 1,
+	ai = 0,
+	time_limit = 120,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 1930503,
+	scale = 100,
+	map_id = {
+		{
+			50198,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+_G.pg.base.expedition_data_template[1930504] = {
+	sink_limit = 1,
+	name = "敌方旗舰",
+	guide_desc = "",
+	type = 99,
+	ai_mov = 0,
+	dungeon_id = 1930504,
+	add_icon = "",
+	bgm = "story-spycity-fashion",
+	exp_commander = 0,
+	SLG_destroy_FX = "",
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	icon_type = 1,
+	icon = "bossicon",
+	difficulty = 2,
+	level = 125,
+	exp = 0,
+	limit_type = 1,
+	ai = 0,
+	time_limit = 120,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 1930504,
+	scale = 100,
+	map_id = {
+		{
+			50198,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
+_G.pg.base.expedition_data_template[1930505] = {
+	sink_limit = 1,
+	name = "敌方旗舰",
+	guide_desc = "",
+	type = 99,
+	ai_mov = 0,
+	dungeon_id = 1930505,
+	add_icon = "",
+	bgm = "story-spycity-fashion",
+	exp_commander = 0,
+	SLG_destroy_FX = "",
+	exp_commander_ratio = 0,
+	expose_speed = 15,
+	icon_type = 1,
+	icon = "bossicon",
+	difficulty = 2,
+	level = 125,
+	exp = 0,
+	limit_type = 1,
+	ai = 0,
+	time_limit = 120,
+	effect_prefab = "",
+	plot_type = 0,
+	id = 1930505,
+	scale = 100,
+	map_id = {
+		{
+			50198,
+			1
+		}
+	},
+	award_display = {},
+	objective_1 = {
+		1
+	},
+	objective_2 = {
+		2
+	},
+	objective_3 = {
+		5,
+		120
+	},
+	bufficon = {},
+	expose_line = {},
+	horizon_line = {
+		[1] = -50
+	},
+	aircraft_expose = {
+		15,
+		10
+	},
+	ship_expose = {
+		30,
+		10
+	}
+}
+
 _G.pg.base.expedition_data_template[5000001] = {
 	sink_limit = 1,
 	name = "小型侦查舰队",

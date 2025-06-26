@@ -133,6 +133,10 @@ function var_0_0.OnInit(arg_15_0)
 		arg_15_0:OnUpdateItem(arg_17_0, arg_17_1)
 	end
 
+	function arg_15_0.scolrect.onReturnItem(arg_18_0, arg_18_1)
+		arg_15_0:OnReturnItem(arg_18_0, arg_18_1)
+	end
+
 	arg_15_0.cards = {}
 
 	local var_15_0 = arg_15_0:findTF("desc_panel")
@@ -141,122 +145,126 @@ function var_0_0.OnInit(arg_15_0)
 	arg_15_0.totalCount = arg_15_0:findTF("total_count/Text"):GetComponent(typeof(Text))
 end
 
-function var_0_0.OnInitItem(arg_18_0, arg_18_1)
+function var_0_0.OnInitItem(arg_19_0, arg_19_1)
 	assert(false)
 end
 
-function var_0_0.OnUpdateItem(arg_19_0, arg_19_1, arg_19_2)
-	local var_19_0 = arg_19_0.cards[arg_19_2]
+function var_0_0.OnUpdateItem(arg_20_0, arg_20_1, arg_20_2)
+	local var_20_0 = arg_20_0.cards[arg_20_2]
 
-	if not var_19_0 then
-		arg_19_0:OnInitItem(arg_19_2)
+	if not var_20_0 then
+		arg_20_0:OnInitItem(arg_20_2)
 
-		var_19_0 = arg_19_0.cards[arg_19_2]
+		var_20_0 = arg_20_0.cards[arg_20_2]
 	end
 
-	local var_19_1 = arg_19_0.displayVOs[arg_19_1 + 1]
-	local var_19_2 = arg_19_0.scolrect.content:GetComponent(typeof(GridLayoutGroup))
-	local var_19_3 = arg_19_1 < var_19_2.constraintCount
+	local var_20_1 = arg_20_0.displayVOs[arg_20_1 + 1]
+	local var_20_2 = arg_20_0.scolrect.content:GetComponent(typeof(GridLayoutGroup))
+	local var_20_3 = arg_20_1 < var_20_2.constraintCount
 
-	var_19_0:Update(var_19_1, arg_19_0.playerVO, var_19_3, arg_19_1, var_19_2.constraintCount)
+	var_20_0:Update(var_20_1, arg_20_0.playerVO, var_20_3, arg_20_1, var_20_2.constraintCount)
 end
 
-function var_0_0.Update(arg_20_0, arg_20_1, arg_20_2)
-	arg_20_0.playerVO = arg_20_2
-	arg_20_0.rawAttireVOs = arg_20_1
-
-	local var_20_0, var_20_1 = arg_20_0:GetDisplayVOs()
-
-	arg_20_0.displayVOs = var_20_0
-
-	arg_20_0:Filter()
-
-	arg_20_0.totalCount.text = var_20_1
+function var_0_0.OnReturnItem(arg_21_0, arg_21_1, arg_21_2)
+	return
 end
 
-function var_0_0.GetDisplayVOs(arg_21_0)
-	local var_21_0 = {}
-	local var_21_1 = 0
+function var_0_0.Update(arg_22_0, arg_22_1, arg_22_2)
+	arg_22_0.playerVO = arg_22_2
+	arg_22_0.rawAttireVOs = arg_22_1
 
-	for iter_21_0, iter_21_1 in pairs(arg_21_0:GetData()) do
-		table.insert(var_21_0, iter_21_1)
+	local var_22_0, var_22_1 = arg_22_0:GetDisplayVOs()
 
-		if iter_21_1:getState() == AttireFrame.STATE_UNLOCK and iter_21_1.id > 0 then
-			var_21_1 = var_21_1 + 1
+	arg_22_0.displayVOs = var_22_0
+
+	arg_22_0:Filter()
+
+	arg_22_0.totalCount.text = var_22_1
+end
+
+function var_0_0.GetDisplayVOs(arg_23_0)
+	local var_23_0 = {}
+	local var_23_1 = 0
+
+	for iter_23_0, iter_23_1 in pairs(arg_23_0:GetData()) do
+		table.insert(var_23_0, iter_23_1)
+
+		if iter_23_1:getState() == AttireFrame.STATE_UNLOCK and iter_23_1.id > 0 then
+			var_23_1 = var_23_1 + 1
 		end
 	end
 
-	return var_21_0, var_21_1
+	return var_23_0, var_23_1
 end
 
-function var_0_0.Filter(arg_22_0)
-	if #arg_22_0.displayVOs == 0 then
+function var_0_0.Filter(arg_24_0)
+	if #arg_24_0.displayVOs == 0 then
 		return
 	end
 
-	local var_22_0 = arg_22_0.playerVO:getAttireByType(arg_22_0.displayVOs[1]:getType())
+	local var_24_0 = arg_24_0.playerVO:getAttireByType(arg_24_0.displayVOs[1]:getType())
 
-	table.sort(arg_22_0.displayVOs, function(arg_23_0, arg_23_1)
-		local var_23_0 = var_22_0 == arg_23_0.id and 1 or 0
-		local var_23_1 = var_22_0 == arg_23_1.id and 1 or 0
+	table.sort(arg_24_0.displayVOs, function(arg_25_0, arg_25_1)
+		local var_25_0 = var_24_0 == arg_25_0.id and 1 or 0
+		local var_25_1 = var_24_0 == arg_25_1.id and 1 or 0
 
-		if var_23_0 == 1 then
+		if var_25_0 == 1 then
 			return true
-		elseif var_23_1 == 1 then
+		elseif var_25_1 == 1 then
 			return false
 		end
 
-		local var_23_2 = arg_23_0:getState()
-		local var_23_3 = arg_23_1:getState()
+		local var_25_2 = arg_25_0:getState()
+		local var_25_3 = arg_25_1:getState()
 
-		if var_23_2 == var_23_3 then
-			return arg_23_0.id < arg_23_1.id
+		if var_25_2 == var_25_3 then
+			return arg_25_0.id < arg_25_1.id
 		else
-			return var_23_3 < var_23_2
+			return var_25_3 < var_25_2
 		end
 	end)
 
-	local var_22_1 = arg_22_0.scolrect.content:GetComponent(typeof(GridLayoutGroup)).constraintCount
-	local var_22_2 = var_22_1 - #arg_22_0.displayVOs % var_22_1
+	local var_24_1 = arg_24_0.scolrect.content:GetComponent(typeof(GridLayoutGroup)).constraintCount
+	local var_24_2 = var_24_1 - #arg_24_0.displayVOs % var_24_1
 
-	if var_22_2 == var_22_1 then
-		var_22_2 = 0
+	if var_24_2 == var_24_1 then
+		var_24_2 = 0
 	end
 
-	local var_22_3 = var_22_1 * arg_22_0:GetColumn()
+	local var_24_3 = var_24_1 * arg_24_0:GetColumn()
 
-	if var_22_3 > #arg_22_0.displayVOs then
-		var_22_2 = var_22_3 - #arg_22_0.displayVOs
+	if var_24_3 > #arg_24_0.displayVOs then
+		var_24_2 = var_24_3 - #arg_24_0.displayVOs
 	end
 
-	for iter_22_0 = 1, var_22_2 do
-		table.insert(arg_22_0.displayVOs, {
+	for iter_24_0 = 1, var_24_2 do
+		table.insert(arg_24_0.displayVOs, {
 			id = -1
 		})
 	end
 
-	arg_22_0.scolrect:SetTotalCount(#arg_22_0.displayVOs, 0)
+	arg_24_0.scolrect:SetTotalCount(#arg_24_0.displayVOs, 0)
 end
 
-function var_0_0.UpdateDesc(arg_24_0, arg_24_1)
-	if arg_24_1:isEmpty() then
+function var_0_0.UpdateDesc(arg_26_0, arg_26_1)
+	if arg_26_1:isEmpty() then
 		return
 	end
 
-	if not arg_24_0.descPanel then
-		arg_24_0.descPanel = AttireDescPanel.New(arg_24_0.descPanelTF)
+	if not arg_26_0.descPanel then
+		arg_26_0.descPanel = AttireDescPanel.New(arg_26_0.descPanelTF)
 	end
 
-	arg_24_0.descPanel:Update(arg_24_1.attireFrame, arg_24_0.playerVO)
-	onButton(arg_24_0, arg_24_0.descPanel.applyBtn, function()
-		local var_25_0 = arg_24_1.attireFrame:getType()
+	arg_26_0.descPanel:Update(arg_26_1.attireFrame, arg_26_0.playerVO)
+	onButton(arg_26_0, arg_26_0.descPanel.applyBtn, function()
+		local var_27_0 = arg_26_1.attireFrame:getType()
 
-		arg_24_0:emit(AttireMediator.ON_APPLY, var_25_0, arg_24_1.attireFrame.id)
+		arg_26_0:emit(AttireMediator.ON_APPLY, var_27_0, arg_26_1.attireFrame.id)
 	end, SFX_PANEL)
 end
 
-function var_0_0.OnDestroy(arg_26_0)
-	arg_26_0.descPanel:Dispose()
+function var_0_0.OnDestroy(arg_28_0)
+	arg_28_0.descPanel:Dispose()
 end
 
 return var_0_0

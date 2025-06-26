@@ -43,12 +43,13 @@ function var_0_0.UpdateTime(arg_3_0)
 	end
 
 	local var_3_0 = pg.TimeMgr.GetInstance():GetServerTime()
+	local var_3_1 = arg_3_0.event:GetState()
 
-	if arg_3_0.event.state == EventInfo.StateNone then
+	if var_3_1 == EventInfo.StateNone then
 		arg_3_0.labelTime.gameObject:SetActive(true)
 
 		arg_3_0.labelTime.text = pg.TimeMgr.GetInstance():DescCDTime(arg_3_0.event.template.collect_time)
-	elseif arg_3_0.event.state == EventInfo.StateActive then
+	elseif var_3_1 == EventInfo.StateActive then
 		arg_3_0.labelTime.gameObject:SetActive(true)
 
 		if var_3_0 <= arg_3_0.event.finishTime then
@@ -56,28 +57,28 @@ function var_0_0.UpdateTime(arg_3_0)
 		else
 			arg_3_0.labelTime.text = "00:00:00"
 		end
-	elseif arg_3_0.event.state == EventInfo.StateFinish then
+	elseif var_3_1 == EventInfo.StateFinish then
 		arg_3_0.labelTime.gameObject:SetActive(false)
 	end
 
-	local var_3_1 = arg_3_0.event:GetCountDownTime()
+	local var_3_2 = arg_3_0.event:GetCountDownTime()
 
-	if var_3_1 and var_3_1 >= 0 then
+	if var_3_2 and var_3_2 >= 0 then
 		arg_3_0.timeLimit:SetActive(true)
 
-		arg_3_0.labelLimitTime.text = pg.TimeMgr.GetInstance():DescCDTime(var_3_1)
+		arg_3_0.labelLimitTime.text = pg.TimeMgr.GetInstance():DescCDTime(var_3_2)
 	else
 		arg_3_0.timeLimit:SetActive(false)
 	end
 
-	SetActive(arg_3_0.mark, arg_3_0.event.state == EventInfo.StateFinish)
+	SetActive(arg_3_0.mark, var_3_1 == EventInfo.StateFinish)
 end
 
 function var_0_0.Flush(arg_4_0)
 	arg_4_0.bgNormal:SetActive(arg_4_0.event.template.type ~= 2)
 	arg_4_0.bgEmergence:SetActive(arg_4_0.event.template.type == 2)
 
-	if arg_4_0.event.state == EventInfo.StateFinish then
+	if arg_4_0.event:GetState() == EventInfo.StateFinish then
 		arg_4_0.iconTip:SetActive(true)
 	else
 		arg_4_0.iconTip:SetActive(false)
@@ -96,7 +97,7 @@ function var_0_0.Flush(arg_4_0)
 	arg_4_0.label.color = var_4_0 and Color.New(0.9411764705882353, 0.803921568627451, 1, 1) or Color.New(0.6431372549019608, 0.8117647058823529, 0.9725490196078431, 1)
 
 	eachChild(arg_4_0.iconState, function(arg_5_0)
-		setActive(arg_5_0, arg_5_0.gameObject.name == tostring(arg_4_0.event.state))
+		setActive(arg_5_0, arg_5_0.gameObject.name == tostring(arg_4_0.event:GetState()))
 	end)
 
 	arg_4_0.labelLv.text = "" .. arg_4_0.event.template.lv

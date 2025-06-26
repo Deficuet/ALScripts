@@ -36,176 +36,191 @@ function var_0_0.ResUISettings(arg_3_0)
 end
 
 function var_0_0.GetAllCommodity(arg_4_0)
-	return (getProxy(ShipSkinProxy):GetAllSkins())
+	local var_4_0 = getProxy(ShipSkinProxy):GetAllSkins()
+
+	if LOCK_SKIN_US then
+		local var_4_1 = pg.gameset.levellimit_skintype.key_value
+		local var_4_2 = pg.gameset.levellimit_skintype.description
+
+		if var_4_1 >= getProxy(PlayerProxy):getData().level then
+			var_4_0 = _.filter(var_4_0, function(arg_5_0)
+				local var_5_0 = pg.ship_skin_template[arg_5_0:getSkinId()].shop_type_id
+
+				return table.contains(var_4_2, var_5_0)
+			end)
+		end
+	end
+
+	return var_4_0
 end
 
-function var_0_0.GetPlayer(arg_5_0)
+function var_0_0.GetPlayer(arg_6_0)
 	return (getProxy(PlayerProxy):getRawData())
 end
 
-function var_0_0.GetShopTypeIdBySkinId(arg_6_0, arg_6_1)
-	local var_6_0 = pg.ship_skin_template.get_id_list_by_shop_type_id
+function var_0_0.GetShopTypeIdBySkinId(arg_7_0, arg_7_1)
+	local var_7_0 = pg.ship_skin_template.get_id_list_by_shop_type_id
 
 	if not var_0_0.shopTypeIdList then
 		var_0_0.shopTypeIdList = {}
 	end
 
-	if var_0_0.shopTypeIdList[arg_6_1] then
-		return var_0_0.shopTypeIdList[arg_6_1]
+	if var_0_0.shopTypeIdList[arg_7_1] then
+		return var_0_0.shopTypeIdList[arg_7_1]
 	end
 
-	for iter_6_0, iter_6_1 in pairs(var_6_0) do
-		for iter_6_2, iter_6_3 in ipairs(iter_6_1) do
-			var_0_0.shopTypeIdList[iter_6_3] = iter_6_0
+	for iter_7_0, iter_7_1 in pairs(var_7_0) do
+		for iter_7_2, iter_7_3 in ipairs(iter_7_1) do
+			var_0_0.shopTypeIdList[iter_7_3] = iter_7_0
 
-			if iter_6_3 == arg_6_1 then
-				return iter_6_0
+			if iter_7_3 == arg_7_1 then
+				return iter_7_0
 			end
 		end
 	end
 end
 
-function var_0_0.GetSkinClassify(arg_7_0, arg_7_1, arg_7_2)
-	local var_7_0 = {}
-	local var_7_1 = {}
+function var_0_0.GetSkinClassify(arg_8_0, arg_8_1, arg_8_2)
+	local var_8_0 = {}
+	local var_8_1 = {}
 
-	for iter_7_0, iter_7_1 in ipairs(arg_7_1) do
-		local var_7_2 = arg_7_0:GetShopTypeIdBySkinId(iter_7_1:getSkinId())
-		local var_7_3 = var_7_2 == 0 and var_0_5 or var_7_2
+	for iter_8_0, iter_8_1 in ipairs(arg_8_1) do
+		local var_8_2 = arg_8_0:GetShopTypeIdBySkinId(iter_8_1:getSkinId())
+		local var_8_3 = var_8_2 == 0 and var_0_5 or var_8_2
 
-		var_7_1[var_7_3] = (var_7_1[var_7_3] or 0) + 1
+		var_8_1[var_8_3] = (var_8_1[var_8_3] or 0) + 1
 	end
 
-	local var_7_4 = {}
+	local var_8_4 = {}
 
-	for iter_7_2, iter_7_3 in ipairs(arg_7_0:GetReturnSkins()) do
-		var_7_4[iter_7_3] = true
+	for iter_8_2, iter_8_3 in ipairs(arg_8_0:GetReturnSkins()) do
+		var_8_4[iter_8_3] = true
 	end
 
-	if underscore.any(arg_7_1, function(arg_8_0)
-		return var_7_4[arg_8_0.id]
+	if underscore.any(arg_8_1, function(arg_9_0)
+		return var_8_4[arg_9_0.id]
 	end) then
-		table.insert(var_7_0, var_0_3)
+		table.insert(var_8_0, var_0_3)
 	end
 
-	for iter_7_4, iter_7_5 in ipairs(pg.skin_page_template.all) do
-		if iter_7_5 ~= var_0_6 and iter_7_5 ~= var_0_7 and (var_7_1[iter_7_5] or 0) > 0 then
-			table.insert(var_7_0, iter_7_5)
+	for iter_8_4, iter_8_5 in ipairs(pg.skin_page_template.all) do
+		if iter_8_5 ~= var_0_6 and iter_8_5 ~= var_0_7 and (var_8_1[iter_8_5] or 0) > 0 then
+			table.insert(var_8_0, iter_8_5)
 		end
 	end
 
-	if arg_7_2 == var_0_0.MODE_EXPERIENCE then
-		table.insert(var_7_0, 1, var_0_2)
+	if arg_8_2 == var_0_0.MODE_EXPERIENCE then
+		table.insert(var_8_0, 1, var_0_2)
 	end
 
-	if arg_7_2 == var_0_0.MODE_EXPERIENCE_FOR_ITEM then
-		table.insert(var_7_0, 1, var_0_4)
+	if arg_8_2 == var_0_0.MODE_EXPERIENCE_FOR_ITEM then
+		table.insert(var_8_0, 1, var_0_4)
 	end
 
-	table.insert(var_7_0, 1, var_0_1)
+	table.insert(var_8_0, 1, var_0_1)
 
-	return var_7_0
+	return var_8_0
 end
 
-function var_0_0.GetReturnSkins(arg_9_0)
-	if not arg_9_0.returnSkins then
-		arg_9_0.returnSkins = getProxy(ShipSkinProxy):GetEncoreSkins()
+function var_0_0.GetReturnSkins(arg_10_0)
+	if not arg_10_0.returnSkins then
+		arg_10_0.returnSkins = getProxy(ShipSkinProxy):GetEncoreSkins()
 	end
 
-	return arg_9_0.returnSkins
+	return arg_10_0.returnSkins
 end
 
-function var_0_0.GetReturnSkinMap(arg_10_0)
-	if not arg_10_0.encoreSkinMap then
-		arg_10_0.encoreSkinMap = {}
+function var_0_0.GetReturnSkinMap(arg_11_0)
+	if not arg_11_0.encoreSkinMap then
+		arg_11_0.encoreSkinMap = {}
 
-		local var_10_0 = arg_10_0:GetReturnSkins()
+		local var_11_0 = arg_11_0:GetReturnSkins()
 
-		for iter_10_0, iter_10_1 in ipairs(var_10_0) do
-			arg_10_0.encoreSkinMap[iter_10_1] = true
+		for iter_11_0, iter_11_1 in ipairs(var_11_0) do
+			arg_11_0.encoreSkinMap[iter_11_1] = true
 		end
 	end
 
-	return arg_10_0.encoreSkinMap
+	return arg_11_0.encoreSkinMap
 end
 
-function var_0_0.OnFurnitureUpdate(arg_11_0, arg_11_1)
-	if not arg_11_0.mainView.commodity then
-		return
-	end
-
-	local var_11_0 = arg_11_0.mainView.commodity.id
-
-	if Goods.ExistFurniture(var_11_0) and Goods.Id2FurnitureId(var_11_0) == arg_11_1 then
-		arg_11_0.mainView:Flush(arg_11_0.mainView.commodity)
-	end
-end
-
-function var_0_0.OnShopping(arg_12_0, arg_12_1)
+function var_0_0.OnFurnitureUpdate(arg_12_0, arg_12_1)
 	if not arg_12_0.mainView.commodity then
 		return
 	end
 
-	arg_12_0.mainView:ClosePurchaseView()
+	local var_12_0 = arg_12_0.mainView.commodity.id
 
-	if arg_12_0.mainView.commodity.id == arg_12_1 then
-		local var_12_0 = arg_12_0:GetAllCommodity()
-		local var_12_1 = _.detect(var_12_0, function(arg_13_0)
-			return arg_13_0.id == arg_12_1
-		end)
-
-		if var_12_1 then
-			arg_12_0.mainView:Flush(var_12_1)
-		end
-
-		arg_12_0:UpdateCouponBtn()
-		arg_12_0:UpdateVoucherBtn()
-		arg_12_0:UpdateCommodities(var_12_0, false)
-
-		arg_12_0.commodities = var_12_0
+	if Goods.ExistFurniture(var_12_0) and Goods.Id2FurnitureId(var_12_0) == arg_12_1 then
+		arg_12_0.mainView:Flush(arg_12_0.mainView.commodity)
 	end
 end
 
-function var_0_0.init(arg_14_0)
-	arg_14_0.cgGroup = arg_14_0._tf:GetComponent(typeof(CanvasGroup))
-	arg_14_0.backBtn = arg_14_0:findTF("overlay/blur_panel/adapt/top/back_btn")
-	arg_14_0.atlasBtn = arg_14_0:findTF("overlay/bottom/bg/atlas")
-	arg_14_0.prevBtn = arg_14_0:findTF("overlay/bottom/bg/left_arr")
-	arg_14_0.nextBtn = arg_14_0:findTF("overlay/bottom/bg/right_arr")
-	arg_14_0.live2dFilter = arg_14_0:findTF("overlay/blur_panel/adapt/top/live2d")
-	arg_14_0.live2dFilterSel = arg_14_0.live2dFilter:Find("selected")
-	arg_14_0.indexBtn = arg_14_0:findTF("overlay/blur_panel/adapt/top/index_btn")
-	arg_14_0.indexBtnSel = arg_14_0.indexBtn:Find("sel")
-	arg_14_0.inptuTr = arg_14_0:findTF("overlay/blur_panel/adapt/top/search")
-	arg_14_0.changeBtn = arg_14_0:findTF("overlay/blur_panel/adapt/top/change_btn")
-
-	setText(arg_14_0.inptuTr:Find("holder"), i18n("skinatlas_search_holder"))
-
-	arg_14_0.couponTr = arg_14_0:findTF("overlay/blur_panel/adapt/top/discount/coupon")
-	arg_14_0.couponSelTr = arg_14_0.couponTr:Find("selected")
-	arg_14_0.voucherTr = arg_14_0:findTF("overlay/blur_panel/adapt/top/discount/voucher")
-	arg_14_0.voucherSelTr = arg_14_0.voucherTr:Find("selected")
-	arg_14_0.rollingCircleRect = RollingCircleRect.New(arg_14_0:findTF("overlay/left/mask/content/0"), arg_14_0:findTF("overlay/left"))
-
-	arg_14_0.rollingCircleRect:SetCallback(arg_14_0, var_0_0.OnSelectSkinPage, var_0_0.OnConfirmSkinPage)
-
-	arg_14_0.rollingCircleMaskTr = arg_14_0:findTF("overlay/left")
-	arg_14_0.mainView = NewSkinShopMainView.New(arg_14_0._tf, arg_14_0.event, arg_14_0.contextData)
-	arg_14_0.title = arg_14_0:findTF("overlay/blur_panel/adapt/top/title"):GetComponent(typeof(Image))
-	arg_14_0.titleEn = arg_14_0:findTF("overlay/blur_panel/adapt/top/title_en"):GetComponent(typeof(Image))
-	arg_14_0.scrollrect = arg_14_0:findTF("overlay/bottom/scroll"):GetComponent("LScrollRect")
-	arg_14_0.scrollrect.isNewLoadingMethod = true
-
-	function arg_14_0.scrollrect.onInitItem(arg_15_0)
-		arg_14_0:OnInitItem(arg_15_0)
+function var_0_0.OnShopping(arg_13_0, arg_13_1)
+	if not arg_13_0.mainView.commodity then
+		return
 	end
 
-	function arg_14_0.scrollrect.onUpdateItem(arg_16_0, arg_16_1)
-		arg_14_0:OnUpdateItem(arg_16_0, arg_16_1)
+	arg_13_0.mainView:ClosePurchaseView()
+
+	if arg_13_0.mainView.commodity.id == arg_13_1 then
+		local var_13_0 = arg_13_0:GetAllCommodity()
+		local var_13_1 = _.detect(var_13_0, function(arg_14_0)
+			return arg_14_0.id == arg_13_1
+		end)
+
+		if var_13_1 then
+			arg_13_0.mainView:Flush(var_13_1)
+		end
+
+		arg_13_0:UpdateCouponBtn()
+		arg_13_0:UpdateVoucherBtn()
+		arg_13_0:UpdateCommodities(var_13_0, false)
+
+		arg_13_0.commodities = var_13_0
+	end
+end
+
+function var_0_0.init(arg_15_0)
+	arg_15_0.cgGroup = arg_15_0._tf:GetComponent(typeof(CanvasGroup))
+	arg_15_0.backBtn = arg_15_0:findTF("overlay/blur_panel/adapt/top/back_btn")
+	arg_15_0.atlasBtn = arg_15_0:findTF("overlay/bottom/bg/atlas")
+	arg_15_0.prevBtn = arg_15_0:findTF("overlay/bottom/bg/left_arr")
+	arg_15_0.nextBtn = arg_15_0:findTF("overlay/bottom/bg/right_arr")
+	arg_15_0.live2dFilter = arg_15_0:findTF("overlay/blur_panel/adapt/top/live2d")
+	arg_15_0.live2dFilterSel = arg_15_0.live2dFilter:Find("selected")
+	arg_15_0.indexBtn = arg_15_0:findTF("overlay/blur_panel/adapt/top/index_btn")
+	arg_15_0.indexBtnSel = arg_15_0.indexBtn:Find("sel")
+	arg_15_0.inptuTr = arg_15_0:findTF("overlay/blur_panel/adapt/top/search")
+	arg_15_0.changeBtn = arg_15_0:findTF("overlay/blur_panel/adapt/top/change_btn")
+
+	setText(arg_15_0.inptuTr:Find("holder"), i18n("skinatlas_search_holder"))
+
+	arg_15_0.couponTr = arg_15_0:findTF("overlay/blur_panel/adapt/top/discount/coupon")
+	arg_15_0.couponSelTr = arg_15_0.couponTr:Find("selected")
+	arg_15_0.voucherTr = arg_15_0:findTF("overlay/blur_panel/adapt/top/discount/voucher")
+	arg_15_0.voucherSelTr = arg_15_0.voucherTr:Find("selected")
+	arg_15_0.rollingCircleRect = RollingCircleRect.New(arg_15_0:findTF("overlay/left/mask/content/0"), arg_15_0:findTF("overlay/left"))
+
+	arg_15_0.rollingCircleRect:SetCallback(arg_15_0, var_0_0.OnSelectSkinPage, var_0_0.OnConfirmSkinPage)
+
+	arg_15_0.rollingCircleMaskTr = arg_15_0:findTF("overlay/left")
+	arg_15_0.mainView = NewSkinShopMainView.New(arg_15_0._tf, arg_15_0.event, arg_15_0.contextData)
+	arg_15_0.title = arg_15_0:findTF("overlay/blur_panel/adapt/top/title"):GetComponent(typeof(Image))
+	arg_15_0.titleEn = arg_15_0:findTF("overlay/blur_panel/adapt/top/title_en"):GetComponent(typeof(Image))
+	arg_15_0.scrollrect = arg_15_0:findTF("overlay/bottom/scroll"):GetComponent("LScrollRect")
+	arg_15_0.scrollrect.isNewLoadingMethod = true
+
+	function arg_15_0.scrollrect.onInitItem(arg_16_0)
+		arg_15_0:OnInitItem(arg_16_0)
 	end
 
-	arg_14_0.emptyTr = arg_14_0:findTF("bgs/empty")
-	arg_14_0.defaultIndex = {
+	function arg_15_0.scrollrect.onUpdateItem(arg_17_0, arg_17_1)
+		arg_15_0:OnUpdateItem(arg_17_0, arg_17_1)
+	end
+
+	arg_15_0.emptyTr = arg_15_0:findTF("bgs/empty")
+	arg_15_0.defaultIndex = {
 		typeIndex = ShipIndexConst.TypeAll,
 		campIndex = ShipIndexConst.CampAll,
 		rarityIndex = ShipIndexConst.RarityAll,
@@ -214,528 +229,528 @@ function var_0_0.init(arg_14_0)
 	Input.multiTouchEnabled = false
 end
 
-function var_0_0.didEnter(arg_17_0)
-	onButton(arg_17_0, arg_17_0.backBtn, function()
-		arg_17_0:emit(var_0_0.ON_BACK)
+function var_0_0.didEnter(arg_18_0)
+	onButton(arg_18_0, arg_18_0.backBtn, function()
+		arg_18_0:emit(var_0_0.ON_BACK)
 	end, SFX_CANCEL)
-	onButton(arg_17_0, arg_17_0.atlasBtn, function()
-		arg_17_0:emit(NewSkinShopMediator.ON_ATLAS)
+	onButton(arg_18_0, arg_18_0.atlasBtn, function()
+		arg_18_0:emit(NewSkinShopMediator.ON_ATLAS)
 	end, SFX_PANEL)
-	onButton(arg_17_0, arg_17_0.prevBtn, function()
-		arg_17_0:OnPrevCommodity()
+	onButton(arg_18_0, arg_18_0.prevBtn, function()
+		arg_18_0:OnPrevCommodity()
 	end, SFX_PANEL)
-	onButton(arg_17_0, arg_17_0.nextBtn, function()
-		arg_17_0:OnNextCommodity()
+	onButton(arg_18_0, arg_18_0.nextBtn, function()
+		arg_18_0:OnNextCommodity()
 	end, SFX_PANEL)
-	onButton(arg_17_0, arg_17_0.indexBtn, function()
-		arg_17_0:emit(NewSkinShopMediator.ON_INDEX, {
-			OnFilter = function(arg_23_0)
-				arg_17_0:OnFilter(arg_23_0)
+	onButton(arg_18_0, arg_18_0.indexBtn, function()
+		arg_18_0:emit(NewSkinShopMediator.ON_INDEX, {
+			OnFilter = function(arg_24_0)
+				arg_18_0:OnFilter(arg_24_0)
 			end,
-			defaultIndex = arg_17_0.defaultIndex
+			defaultIndex = arg_18_0.defaultIndex
 		})
 	end, SFX_PANEL)
-	onInputChanged(arg_17_0, arg_17_0.inptuTr, function()
-		arg_17_0:OnSearch()
+	onInputChanged(arg_18_0, arg_18_0.inptuTr, function()
+		arg_18_0:OnSearch()
 	end)
-	onToggle(arg_17_0, arg_17_0.changeBtn, function(arg_25_0)
-		if arg_25_0 and getInputText(arg_17_0.inptuTr) ~= "" then
-			setInputText(arg_17_0.inptuTr, "")
+	onToggle(arg_18_0, arg_18_0.changeBtn, function(arg_26_0)
+		if arg_26_0 and getInputText(arg_18_0.inptuTr) ~= "" then
+			setInputText(arg_18_0.inptuTr, "")
 		end
 	end, SFX_PANEL)
-	onButton(arg_17_0, arg_17_0.live2dFilter, function()
-		arg_17_0.defaultIndex.extraIndex = arg_17_0.defaultIndex.extraIndex == SkinIndexLayer.ExtraL2D and SkinIndexLayer.ExtraALL or SkinIndexLayer.ExtraL2D
+	onButton(arg_18_0, arg_18_0.live2dFilter, function()
+		arg_18_0.defaultIndex.extraIndex = arg_18_0.defaultIndex.extraIndex == SkinIndexLayer.ExtraL2D and SkinIndexLayer.ExtraALL or SkinIndexLayer.ExtraL2D
 
-		arg_17_0:OnFilter(arg_17_0.defaultIndex)
+		arg_18_0:OnFilter(arg_18_0.defaultIndex)
 	end, SFX_PANEL)
 
-	arg_17_0.isFilterCoupon = false
+	arg_18_0.isFilterCoupon = false
 
-	onButton(arg_17_0, arg_17_0.couponTr, function()
+	onButton(arg_18_0, arg_18_0.couponTr, function()
 		if not SkinCouponActivity.StaticExistActivityAndCoupon() then
-			arg_17_0.isFilterCoupon = false
+			arg_18_0.isFilterCoupon = false
 
-			arg_17_0:UpdateCouponBtn()
+			arg_18_0:UpdateCouponBtn()
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
 			return
 		end
 
-		arg_17_0.isFilterCoupon = not arg_17_0.isFilterCoupon
+		arg_18_0.isFilterCoupon = not arg_18_0.isFilterCoupon
 
-		setActive(arg_17_0.couponSelTr, arg_17_0.isFilterCoupon)
-		arg_17_0:OnFilter(arg_17_0.defaultIndex)
+		setActive(arg_18_0.couponSelTr, arg_18_0.isFilterCoupon)
+		arg_18_0:OnFilter(arg_18_0.defaultIndex)
 	end, SFX_PANEL)
 
-	arg_17_0.isFilterVoucher = false
+	arg_18_0.isFilterVoucher = false
 
-	onButton(arg_17_0, arg_17_0.voucherTr, function()
-		arg_17_0.isFilterVoucher = not arg_17_0.isFilterVoucher
+	onButton(arg_18_0, arg_18_0.voucherTr, function()
+		arg_18_0.isFilterVoucher = not arg_18_0.isFilterVoucher
 
-		setActive(arg_17_0.voucherSelTr, arg_17_0.isFilterVoucher)
-		arg_17_0:OnFilter(arg_17_0.defaultIndex)
+		setActive(arg_18_0.voucherSelTr, arg_18_0.isFilterVoucher)
+		arg_18_0:OnFilter(arg_18_0.defaultIndex)
 	end, SFX_PANEL)
-	arg_17_0:SetUp()
+	arg_18_0:SetUp()
 	getProxy(CommanderManualProxy):TaskProgressAdd(2021, 1)
 end
 
-function var_0_0.UpdateCouponBtn(arg_29_0)
-	local var_29_0 = SkinCouponActivity.StaticExistActivityAndCoupon() and (not arg_29_0.contextData.mode or arg_29_0.contextData.mode == var_0_0.MODE_OVERVIEW)
+function var_0_0.UpdateCouponBtn(arg_30_0)
+	local var_30_0 = SkinCouponActivity.StaticExistActivityAndCoupon() and (not arg_30_0.contextData.mode or arg_30_0.contextData.mode == var_0_0.MODE_OVERVIEW)
 
-	arg_29_0.isFilterCoupon = tobool(arg_29_0.isFilterCoupon) and var_29_0
-	arg_29_0.couponTr.localScale = var_29_0 and Vector3(1, 1, 1) or Vector3(0, 0, 0)
+	arg_30_0.isFilterCoupon = tobool(arg_30_0.isFilterCoupon) and var_30_0
+	arg_30_0.couponTr.localScale = var_30_0 and Vector3(1, 1, 1) or Vector3(0, 0, 0)
 end
 
-function var_0_0.UpdateVoucherBtn(arg_30_0)
-	local var_30_0 = #getProxy(BagProxy):GetSkinShopDiscountItemList() > 0 and (not arg_30_0.contextData.mode or arg_30_0.contextData.mode == var_0_0.MODE_OVERVIEW)
+function var_0_0.UpdateVoucherBtn(arg_31_0)
+	local var_31_0 = #getProxy(BagProxy):GetSkinShopDiscountItemList() > 0 and (not arg_31_0.contextData.mode or arg_31_0.contextData.mode == var_0_0.MODE_OVERVIEW)
 
-	arg_30_0.isFilterVoucher = tobool(arg_30_0.isFilterVoucher) and var_30_0
-	arg_30_0.voucherTr.localScale = var_30_0 and Vector3(1, 1, 1) or Vector3(0, 0, 0)
+	arg_31_0.isFilterVoucher = tobool(arg_31_0.isFilterVoucher) and var_31_0
+	arg_31_0.voucherTr.localScale = var_31_0 and Vector3(1, 1, 1) or Vector3(0, 0, 0)
 end
 
-function var_0_0.OnSelectSkinPage(arg_31_0, arg_31_1)
-	if arg_31_0.selectedSkinPageItem then
-		setActive(arg_31_0.selectedSkinPageItem._tr:Find("selected"), false)
-		setActive(arg_31_0.selectedSkinPageItem._tr:Find("name"), true)
+function var_0_0.OnSelectSkinPage(arg_32_0, arg_32_1)
+	if arg_32_0.selectedSkinPageItem then
+		setActive(arg_32_0.selectedSkinPageItem._tr:Find("selected"), false)
+		setActive(arg_32_0.selectedSkinPageItem._tr:Find("name"), true)
 	end
 
-	setActive(arg_31_1._tr:Find("selected"), true)
-	setActive(arg_31_1._tr:Find("name"), false)
+	setActive(arg_32_1._tr:Find("selected"), true)
+	setActive(arg_32_1._tr:Find("name"), false)
 
-	arg_31_0.selectedSkinPageItem = arg_31_1
+	arg_32_0.selectedSkinPageItem = arg_32_1
 end
 
-function var_0_0.OnConfirmSkinPage(arg_32_0, arg_32_1)
-	local var_32_0 = arg_32_1:GetID()
+function var_0_0.OnConfirmSkinPage(arg_33_0, arg_33_1)
+	local var_33_0 = arg_33_1:GetID()
 
-	if arg_32_0.skinPageID ~= var_32_0 then
-		arg_32_0.skinPageID = var_32_0
+	if arg_33_0.skinPageID ~= var_33_0 then
+		arg_33_0.skinPageID = var_33_0
 
-		if arg_32_0.commodities then
-			arg_32_0:UpdateCommodities(arg_32_0.commodities, true)
+		if arg_33_0.commodities then
+			arg_33_0:UpdateCommodities(arg_33_0.commodities, true)
 		end
 	end
 end
 
-function var_0_0.OnFilter(arg_33_0, arg_33_1)
-	arg_33_0.defaultIndex = {
-		typeIndex = arg_33_1.typeIndex,
-		campIndex = arg_33_1.campIndex,
-		rarityIndex = arg_33_1.rarityIndex,
-		extraIndex = arg_33_1.extraIndex
+function var_0_0.OnFilter(arg_34_0, arg_34_1)
+	arg_34_0.defaultIndex = {
+		typeIndex = arg_34_1.typeIndex,
+		campIndex = arg_34_1.campIndex,
+		rarityIndex = arg_34_1.rarityIndex,
+		extraIndex = arg_34_1.extraIndex
 	}
 
-	setActive(arg_33_0.live2dFilterSel, arg_33_1.extraIndex == SkinIndexLayer.ExtraL2D)
+	setActive(arg_34_0.live2dFilterSel, arg_34_1.extraIndex == SkinIndexLayer.ExtraL2D)
 
-	if arg_33_0.commodities then
-		arg_33_0:UpdateCommodities(arg_33_0.commodities, true)
-	end
-
-	setActive(arg_33_0.indexBtnSel, arg_33_1.typeIndex ~= ShipIndexConst.TypeAll or arg_33_1.campIndex ~= ShipIndexConst.CampAll or arg_33_1.rarityIndex ~= ShipIndexConst.RarityAll or arg_33_1.extraIndex ~= SkinIndexLayer.ExtraALL)
-end
-
-function var_0_0.OnSearch(arg_34_0)
 	if arg_34_0.commodities then
 		arg_34_0:UpdateCommodities(arg_34_0.commodities, true)
 	end
+
+	setActive(arg_34_0.indexBtnSel, arg_34_1.typeIndex ~= ShipIndexConst.TypeAll or arg_34_1.campIndex ~= ShipIndexConst.CampAll or arg_34_1.rarityIndex ~= ShipIndexConst.RarityAll or arg_34_1.extraIndex ~= SkinIndexLayer.ExtraALL)
 end
 
-function var_0_0.GetDefaultPage(arg_35_0, arg_35_1)
-	if arg_35_1 == var_0_0.MODE_EXPERIENCE then
-		return var_0_2
-	elseif arg_35_1 == var_0_0.MODE_EXPERIENCE_FOR_ITEM then
-		return var_0_4
-	else
-		return arg_35_0.contextData.page and arg_35_0.contextData.page or var_0_1
+function var_0_0.OnSearch(arg_35_0)
+	if arg_35_0.commodities then
+		arg_35_0:UpdateCommodities(arg_35_0.commodities, true)
 	end
 end
 
-function var_0_0.SetUp(arg_36_0)
-	local var_36_0 = arg_36_0.contextData.mode or var_0_0.MODE_OVERVIEW
+function var_0_0.GetDefaultPage(arg_36_0, arg_36_1)
+	if arg_36_1 == var_0_0.MODE_EXPERIENCE then
+		return var_0_2
+	elseif arg_36_1 == var_0_0.MODE_EXPERIENCE_FOR_ITEM then
+		return var_0_4
+	else
+		return arg_36_0.contextData.page and arg_36_0.contextData.page or var_0_1
+	end
+end
 
-	arg_36_0.mode = var_36_0
+function var_0_0.SetUp(arg_37_0)
+	local var_37_0 = arg_37_0.contextData.mode or var_0_0.MODE_OVERVIEW
 
-	local var_36_1 = arg_36_0:GetAllCommodity()
+	arg_37_0.mode = var_37_0
 
-	arg_36_0.cgGroup.blocksRaycasts = false
+	local var_37_1 = arg_37_0:GetAllCommodity()
 
-	arg_36_0:UpdateTitle(var_36_0)
-	arg_36_0:UpdateCouponBtn()
-	arg_36_0:UpdateVoucherBtn()
-	setActive(arg_36_0.rollingCircleMaskTr, var_36_0 == var_0_0.MODE_OVERVIEW)
+	arg_37_0.cgGroup.blocksRaycasts = false
 
-	if var_36_0 == var_0_0.MODE_EXPERIENCE or var_36_0 == var_0_0.MODE_EXPERIENCE_FOR_ITEM then
+	arg_37_0:UpdateTitle(var_37_0)
+	arg_37_0:UpdateCouponBtn()
+	arg_37_0:UpdateVoucherBtn()
+	setActive(arg_37_0.rollingCircleMaskTr, var_37_0 == var_0_0.MODE_OVERVIEW)
+
+	if var_37_0 == var_0_0.MODE_EXPERIENCE or var_37_0 == var_0_0.MODE_EXPERIENCE_FOR_ITEM then
 		getProxy(SettingsProxy):SetNextTipTimeLimitSkinShop()
 	end
 
-	arg_36_0.skinPageID = arg_36_0:GetDefaultPage(var_36_0)
+	arg_37_0.skinPageID = arg_37_0:GetDefaultPage(var_37_0)
 
 	parallelAsync({
-		function(arg_37_0)
-			arg_36_0:InitSkinClassify(var_36_1, var_36_0, arg_37_0)
-		end,
 		function(arg_38_0)
+			arg_37_0:InitSkinClassify(var_37_1, var_37_0, arg_38_0)
+		end,
+		function(arg_39_0)
 			seriesAsync({
-				function(arg_39_0)
-					onNextTick(arg_39_0)
-				end,
 				function(arg_40_0)
-					if arg_36_0.exited then
+					onNextTick(arg_40_0)
+				end,
+				function(arg_41_0)
+					if arg_37_0.exited then
 						return
 					end
 
-					arg_36_0:UpdateCommodities(var_36_1, true, arg_40_0)
+					arg_37_0:UpdateCommodities(var_37_1, true, arg_41_0)
 				end
-			}, arg_38_0)
+			}, arg_39_0)
 		end
 	}, function()
-		arg_36_0.commodities = var_36_1
-		arg_36_0.cgGroup.blocksRaycasts = true
+		arg_37_0.commodities = var_37_1
+		arg_37_0.cgGroup.blocksRaycasts = true
 	end)
 end
 
-function var_0_0.UpdateTitle(arg_42_0, arg_42_1)
-	local var_42_0 = {
+function var_0_0.UpdateTitle(arg_43_0, arg_43_1)
+	local var_43_0 = {
 		"huanzhuangshagndian",
 		"title_01",
 		"title_01"
 	}
 
-	arg_42_0.title.sprite = GetSpriteFromAtlas("ui/SkinShopUI_atlas", var_42_0[arg_42_1])
+	arg_43_0.title.sprite = GetSpriteFromAtlas("ui/SkinShopUI_atlas", var_43_0[arg_43_1])
 
-	arg_42_0.title:SetNativeSize()
+	arg_43_0.title:SetNativeSize()
 
-	local var_42_1 = {
+	local var_43_1 = {
 		"huanzhuangshagndian_en",
 		"title_en_01",
 		"title_en_01"
 	}
 
-	arg_42_0.titleEn.sprite = GetSpriteFromAtlas("ui/SkinShopUI_atlas", var_42_1[arg_42_1])
+	arg_43_0.titleEn.sprite = GetSpriteFromAtlas("ui/SkinShopUI_atlas", var_43_1[arg_43_1])
 
-	arg_42_0.titleEn:SetNativeSize()
+	arg_43_0.titleEn:SetNativeSize()
 end
 
-local function var_0_8(arg_43_0, arg_43_1)
-	local var_43_0 = pg.skin_page_template
-	local var_43_1 = arg_43_1:GetID()
-	local var_43_2
-	local var_43_3
+local function var_0_8(arg_44_0, arg_44_1)
+	local var_44_0 = pg.skin_page_template
+	local var_44_1 = arg_44_1:GetID()
+	local var_44_2
+	local var_44_3
 
-	if var_43_1 == var_0_1 or var_43_1 == var_0_2 or var_43_1 == var_0_4 then
-		var_43_2, var_43_3 = "text_all", "ALL"
-	elseif var_43_1 == var_0_3 then
-		var_43_2, var_43_3 = "text_fanchang", "RETURN"
+	if var_44_1 == var_0_1 or var_44_1 == var_0_2 or var_44_1 == var_0_4 then
+		var_44_2, var_44_3 = "text_all", "ALL"
+	elseif var_44_1 == var_0_3 then
+		var_44_2, var_44_3 = "text_fanchang", "RETURN"
 	else
-		var_43_2, var_43_3 = "text_" .. var_43_0[var_43_1].res, var_43_0[var_43_1].english_name
+		var_44_2, var_44_3 = "text_" .. var_44_0[var_44_1].res, var_44_0[var_44_1].english_name
 	end
 
-	LoadSpriteAtlasAsync("SkinClassified", var_43_2 .. "01", function(arg_44_0)
-		if arg_43_0.exited then
+	LoadSpriteAtlasAsync("SkinClassified", var_44_2 .. "01", function(arg_45_0)
+		if arg_44_0.exited then
 			return
 		end
 
-		local var_44_0 = arg_43_1._tr:Find("name"):GetComponent(typeof(Image))
-
-		var_44_0.sprite = arg_44_0
-
-		var_44_0:SetNativeSize()
-	end)
-	LoadSpriteAtlasAsync("SkinClassified", var_43_2, function(arg_45_0)
-		if arg_43_0.exited then
-			return
-		end
-
-		local var_45_0 = arg_43_1._tr:Find("selected/Image"):GetComponent(typeof(Image))
+		local var_45_0 = arg_44_1._tr:Find("name"):GetComponent(typeof(Image))
 
 		var_45_0.sprite = arg_45_0
 
 		var_45_0:SetNativeSize()
 	end)
-	setText(arg_43_1._tr:Find("eng"), var_43_3)
+	LoadSpriteAtlasAsync("SkinClassified", var_44_2, function(arg_46_0)
+		if arg_44_0.exited then
+			return
+		end
+
+		local var_46_0 = arg_44_1._tr:Find("selected/Image"):GetComponent(typeof(Image))
+
+		var_46_0.sprite = arg_46_0
+
+		var_46_0:SetNativeSize()
+	end)
+	setText(arg_44_1._tr:Find("eng"), var_44_3)
 end
 
-function var_0_0.InitSkinClassify(arg_46_0, arg_46_1, arg_46_2, arg_46_3)
-	local var_46_0 = arg_46_0:GetSkinClassify(arg_46_1, arg_46_2)
-	local var_46_1 = {}
+function var_0_0.InitSkinClassify(arg_47_0, arg_47_1, arg_47_2, arg_47_3)
+	local var_47_0 = arg_47_0:GetSkinClassify(arg_47_1, arg_47_2)
+	local var_47_1 = {}
 
-	for iter_46_0, iter_46_1 in ipairs(var_46_0) do
-		table.insert(var_46_1, function(arg_47_0)
-			if arg_46_0.exited then
+	for iter_47_0, iter_47_1 in ipairs(var_47_0) do
+		table.insert(var_47_1, function(arg_48_0)
+			if arg_47_0.exited then
 				return
 			end
 
-			local var_47_0 = arg_46_0.rollingCircleRect:AddItem(iter_46_1)
+			local var_48_0 = arg_47_0.rollingCircleRect:AddItem(iter_47_1)
 
-			var_0_8(arg_46_0, var_47_0)
+			var_0_8(arg_47_0, var_48_0)
 
-			if (iter_46_0 - 1) % 5 == 0 or iter_46_0 == #var_46_0 then
-				onNextTick(arg_47_0)
+			if (iter_47_0 - 1) % 5 == 0 or iter_47_0 == #var_47_0 then
+				onNextTick(arg_48_0)
 			else
-				arg_47_0()
+				arg_48_0()
 			end
 		end)
 	end
 
-	seriesAsync(var_46_1, function()
-		if arg_46_0.exited then
+	seriesAsync(var_47_1, function()
+		if arg_47_0.exited then
 			return
 		end
 
-		arg_46_0.rollingCircleRect:ScrollTo(arg_46_0.skinPageID)
-		arg_46_3()
+		arg_47_0.rollingCircleRect:ScrollTo(arg_47_0.skinPageID)
+		arg_47_3()
 	end)
 end
 
-local function var_0_9(arg_49_0)
+local function var_0_9(arg_50_0)
 	if not var_0_0.cacheSkinExperienceItems then
 		var_0_0.cacheSkinExperienceItems = getProxy(BagProxy):GetSkinExperienceItems()
 	end
 
-	return _.any(var_0_0.cacheSkinExperienceItems, function(arg_50_0)
-		return arg_50_0:CanUseForShop(arg_49_0)
+	return _.any(var_0_0.cacheSkinExperienceItems, function(arg_51_0)
+		return arg_51_0:CanUseForShop(arg_50_0)
 	end)
 end
 
-function var_0_0.IsType(arg_51_0, arg_51_1, arg_51_2)
-	if arg_51_2:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
-		if arg_51_0.mode == var_0_0.MODE_EXPERIENCE_FOR_ITEM then
-			return arg_51_1 == var_0_4 and var_0_9(arg_51_2.id)
+function var_0_0.IsType(arg_52_0, arg_52_1, arg_52_2)
+	if arg_52_2:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
+		if arg_52_0.mode == var_0_0.MODE_EXPERIENCE_FOR_ITEM then
+			return arg_52_1 == var_0_4 and var_0_9(arg_52_2.id)
 		else
-			return arg_51_1 == var_0_2
+			return arg_52_1 == var_0_2
 		end
-	elseif arg_51_1 == var_0_1 then
+	elseif arg_52_1 == var_0_1 then
 		return true
-	elseif arg_51_1 == var_0_3 and arg_51_0:GetReturnSkinMap()[arg_51_2.id] then
+	elseif arg_52_1 == var_0_3 and arg_52_0:GetReturnSkinMap()[arg_52_2.id] then
 		return true
 	else
-		local var_51_0 = arg_51_0:GetShopTypeIdBySkinId(arg_51_2:getSkinId())
+		local var_52_0 = arg_52_0:GetShopTypeIdBySkinId(arg_52_2:getSkinId())
 
-		return (var_51_0 == 0 and var_0_5 or var_51_0) == arg_51_1
+		return (var_52_0 == 0 and var_0_5 or var_52_0) == arg_52_1
 	end
 
 	return false
 end
 
-function var_0_0.ToVShip(arg_52_0, arg_52_1)
-	if not arg_52_0.vship then
-		arg_52_0.vship = {}
+function var_0_0.ToVShip(arg_53_0, arg_53_1)
+	if not arg_53_0.vship then
+		arg_53_0.vship = {}
 
-		function arg_52_0.vship.getNation()
-			return arg_52_0.vship.config.nationality
+		function arg_53_0.vship.getNation()
+			return arg_53_0.vship.config.nationality
 		end
 
-		function arg_52_0.vship.getShipType()
-			return arg_52_0.vship.config.type
+		function arg_53_0.vship.getShipType()
+			return arg_53_0.vship.config.type
 		end
 
-		function arg_52_0.vship.getTeamType()
-			return TeamType.GetTeamFromShipType(arg_52_0.vship.config.type)
+		function arg_53_0.vship.getTeamType()
+			return TeamType.GetTeamFromShipType(arg_53_0.vship.config.type)
 		end
 
-		function arg_52_0.vship.getRarity()
-			return arg_52_0.vship.config.rarity
+		function arg_53_0.vship.getRarity()
+			return arg_53_0.vship.config.rarity
 		end
 	end
 
-	arg_52_0.vship.config = arg_52_1
+	arg_53_0.vship.config = arg_53_1
 
-	return arg_52_0.vship
+	return arg_53_0.vship
 end
 
-function var_0_0.IsAllFilter(arg_57_0, arg_57_1)
-	return arg_57_1.typeIndex == ShipIndexConst.TypeAll and arg_57_1.campIndex == ShipIndexConst.CampAll and arg_57_1.rarityIndex == ShipIndexConst.RarityAll and arg_57_1.extraIndex == SkinIndexLayer.ExtraALL
+function var_0_0.IsAllFilter(arg_58_0, arg_58_1)
+	return arg_58_1.typeIndex == ShipIndexConst.TypeAll and arg_58_1.campIndex == ShipIndexConst.CampAll and arg_58_1.rarityIndex == ShipIndexConst.RarityAll and arg_58_1.extraIndex == SkinIndexLayer.ExtraALL
 end
 
-function var_0_0.IsFilterType(arg_58_0, arg_58_1, arg_58_2)
-	if arg_58_0:IsAllFilter(arg_58_1) then
-		return true
-	end
-
-	local var_58_0 = arg_58_2:getSkinId()
-	local var_58_1 = ShipSkin.New({
-		id = var_58_0
-	})
-	local var_58_2 = var_58_1:GetDefaultShipConfig()
-
-	if not var_58_2 then
-		return false
-	end
-
-	local var_58_3 = arg_58_0:ToVShip(var_58_2)
-	local var_58_4 = ShipIndexConst.filterByType(var_58_3, arg_58_1.typeIndex)
-	local var_58_5 = ShipIndexConst.filterByCamp(var_58_3, arg_58_1.campIndex)
-	local var_58_6 = ShipIndexConst.filterByRarity(var_58_3, arg_58_1.rarityIndex)
-	local var_58_7 = SkinIndexLayer.filterByExtra(var_58_1, arg_58_1.extraIndex)
-
-	return var_58_4 and var_58_5 and var_58_6 and var_58_7
-end
-
-function var_0_0.IsSearchType(arg_59_0, arg_59_1, arg_59_2)
-	if not arg_59_1 or arg_59_1 == "" then
+function var_0_0.IsFilterType(arg_59_0, arg_59_1, arg_59_2)
+	if arg_59_0:IsAllFilter(arg_59_1) then
 		return true
 	end
 
 	local var_59_0 = arg_59_2:getSkinId()
+	local var_59_1 = ShipSkin.New({
+		id = var_59_0
+	})
+	local var_59_2 = var_59_1:GetDefaultShipConfig()
+
+	if not var_59_2 then
+		return false
+	end
+
+	local var_59_3 = arg_59_0:ToVShip(var_59_2)
+	local var_59_4 = ShipIndexConst.filterByType(var_59_3, arg_59_1.typeIndex)
+	local var_59_5 = ShipIndexConst.filterByCamp(var_59_3, arg_59_1.campIndex)
+	local var_59_6 = ShipIndexConst.filterByRarity(var_59_3, arg_59_1.rarityIndex)
+	local var_59_7 = SkinIndexLayer.filterByExtra(var_59_1, arg_59_1.extraIndex)
+
+	return var_59_4 and var_59_5 and var_59_6 and var_59_7
+end
+
+function var_0_0.IsSearchType(arg_60_0, arg_60_1, arg_60_2)
+	if not arg_60_1 or arg_60_1 == "" then
+		return true
+	end
+
+	local var_60_0 = arg_60_2:getSkinId()
 
 	return ShipSkin.New({
-		id = var_59_0
-	}):IsMatchKey(arg_59_1)
+		id = var_60_0
+	}):IsMatchKey(arg_60_1)
 end
 
-local function var_0_10(arg_60_0, arg_60_1, arg_60_2)
-	local var_60_0 = arg_60_2[arg_60_0.id]
-	local var_60_1 = arg_60_2[arg_60_1.id]
-
-	if var_60_0 == var_60_1 then
-		return arg_60_0.id < arg_60_1.id
-	else
-		return var_60_1 < var_60_0
-	end
-end
-
-function var_0_0.Sort(arg_61_0, arg_61_1, arg_61_2, arg_61_3)
-	local var_61_0 = arg_61_1.buyCount == 0 and 1 or 0
-	local var_61_1 = arg_61_2.buyCount == 0 and 1 or 0
+local function var_0_10(arg_61_0, arg_61_1, arg_61_2)
+	local var_61_0 = arg_61_2[arg_61_0.id]
+	local var_61_1 = arg_61_2[arg_61_1.id]
 
 	if var_61_0 == var_61_1 then
-		local var_61_2 = arg_61_1:getConfig("order")
-		local var_61_3 = arg_61_2:getConfig("order")
-
-		if var_61_2 == var_61_3 then
-			return var_0_10(arg_61_1, arg_61_2, arg_61_3)
-		else
-			return var_61_2 < var_61_3
-		end
+		return arg_61_0.id < arg_61_1.id
 	else
 		return var_61_1 < var_61_0
 	end
 end
 
-function var_0_0.IsCouponType(arg_62_0, arg_62_1, arg_62_2)
-	if arg_62_1 and not SkinCouponActivity.StaticIsShop(arg_62_2.id) then
+function var_0_0.Sort(arg_62_0, arg_62_1, arg_62_2, arg_62_3)
+	local var_62_0 = arg_62_1.buyCount == 0 and 1 or 0
+	local var_62_1 = arg_62_2.buyCount == 0 and 1 or 0
+
+	if var_62_0 == var_62_1 then
+		local var_62_2 = arg_62_1:getConfig("order")
+		local var_62_3 = arg_62_2:getConfig("order")
+
+		if var_62_2 == var_62_3 then
+			return var_0_10(arg_62_1, arg_62_2, arg_62_3)
+		else
+			return var_62_2 < var_62_3
+		end
+	else
+		return var_62_1 < var_62_0
+	end
+end
+
+function var_0_0.IsCouponType(arg_63_0, arg_63_1, arg_63_2)
+	if arg_63_1 and not SkinCouponActivity.StaticIsShop(arg_63_2.id) then
 		return false
 	end
 
 	return true
 end
 
-function var_0_0.IsVoucherType(arg_63_0, arg_63_1, arg_63_2)
-	if arg_63_1 and not arg_63_2 then
+function var_0_0.IsVoucherType(arg_64_0, arg_64_1, arg_64_2)
+	if arg_64_1 and not arg_64_2 then
 		return false
 	end
 
 	return true
 end
 
-function var_0_0.UpdateCommodities(arg_64_0, arg_64_1, arg_64_2, arg_64_3)
-	arg_64_0:ClearCards()
+function var_0_0.UpdateCommodities(arg_65_0, arg_65_1, arg_65_2, arg_65_3)
+	arg_65_0:ClearCards()
 
-	arg_64_0.cards = {}
-	arg_64_0.displays = {}
-	arg_64_0.canUseVoucherCache = {}
+	arg_65_0.cards = {}
+	arg_65_0.displays = {}
+	arg_65_0.canUseVoucherCache = {}
 
-	local var_64_0 = getInputText(arg_64_0.inptuTr)
-	local var_64_1 = getProxy(BagProxy):GetSkinShopDiscountItemList()
+	local var_65_0 = getInputText(arg_65_0.inptuTr)
+	local var_65_1 = getProxy(BagProxy):GetSkinShopDiscountItemList()
 
-	for iter_64_0, iter_64_1 in ipairs(arg_64_1) do
-		local var_64_2 = iter_64_1:StaticCanUseVoucherType(var_64_1)
+	for iter_65_0, iter_65_1 in ipairs(arg_65_1) do
+		local var_65_2 = iter_65_1:StaticCanUseVoucherType(var_65_1)
 
-		if arg_64_0:IsType(arg_64_0.skinPageID, iter_64_1) and arg_64_0:IsFilterType(arg_64_0.defaultIndex, iter_64_1) and arg_64_0:IsSearchType(var_64_0, iter_64_1) and arg_64_0:IsCouponType(arg_64_0.isFilterCoupon, iter_64_1) and arg_64_0:IsVoucherType(arg_64_0.isFilterVoucher, var_64_2) then
-			table.insert(arg_64_0.displays, iter_64_1)
+		if arg_65_0:IsType(arg_65_0.skinPageID, iter_65_1) and arg_65_0:IsFilterType(arg_65_0.defaultIndex, iter_65_1) and arg_65_0:IsSearchType(var_65_0, iter_65_1) and arg_65_0:IsCouponType(arg_65_0.isFilterCoupon, iter_65_1) and arg_65_0:IsVoucherType(arg_65_0.isFilterVoucher, var_65_2) then
+			table.insert(arg_65_0.displays, iter_65_1)
 		end
 
-		arg_64_0.canUseVoucherCache[iter_64_1.id] = var_64_2
+		arg_65_0.canUseVoucherCache[iter_65_1.id] = var_65_2
 	end
 
-	local var_64_3 = {}
+	local var_65_3 = {}
 
-	for iter_64_2, iter_64_3 in ipairs(arg_64_0.displays) do
-		local var_64_4 = iter_64_3.type == Goods.TYPE_ACTIVITY or iter_64_3.type == Goods.TYPE_ACTIVITY_EXTRA
-		local var_64_5 = 0
+	for iter_65_2, iter_65_3 in ipairs(arg_65_0.displays) do
+		local var_65_4 = iter_65_3.type == Goods.TYPE_ACTIVITY or iter_65_3.type == Goods.TYPE_ACTIVITY_EXTRA
+		local var_65_5 = 0
 
-		if not var_64_4 then
-			var_64_5 = iter_64_3:GetPrice()
+		if not var_65_4 then
+			var_65_5 = iter_65_3:GetPrice()
 		end
 
-		var_64_3[iter_64_3.id] = var_64_5
+		var_65_3[iter_65_3.id] = var_65_5
 	end
 
-	table.sort(arg_64_0.displays, function(arg_65_0, arg_65_1)
-		return arg_64_0:Sort(arg_65_0, arg_65_1, var_64_3)
+	table.sort(arg_65_0.displays, function(arg_66_0, arg_66_1)
+		return arg_65_0:Sort(arg_66_0, arg_66_1, var_65_3)
 	end)
 
-	if arg_64_2 then
-		arg_64_0.triggerFirstCard = true
+	if arg_65_2 then
+		arg_65_0.triggerFirstCard = true
 
-		arg_64_0.scrollrect:SetTotalCount(#arg_64_0.displays, 0)
+		arg_65_0.scrollrect:SetTotalCount(#arg_65_0.displays, 0)
 	else
-		arg_64_0.scrollrect:SetTotalCount(#arg_64_0.displays)
+		arg_65_0.scrollrect:SetTotalCount(#arg_65_0.displays)
 	end
 
-	local var_64_6 = #arg_64_0.displays <= 0
+	local var_65_6 = #arg_65_0.displays <= 0
 
-	setActive(arg_64_0.emptyTr, var_64_6)
+	setActive(arg_65_0.emptyTr, var_65_6)
 
-	if var_64_6 then
-		arg_64_0.mainView:Flush(nil)
+	if var_65_6 then
+		arg_65_0.mainView:Flush(nil)
 	end
 
-	if arg_64_3 then
-		arg_64_3()
+	if arg_65_3 then
+		arg_65_3()
 	end
 end
 
-function var_0_0.OnInitItem(arg_66_0, arg_66_1)
-	local var_66_0 = NewShopSkinCard.New(arg_66_1)
+function var_0_0.OnInitItem(arg_67_0, arg_67_1)
+	local var_67_0 = NewShopSkinCard.New(arg_67_1)
 
-	onButton(arg_66_0, var_66_0._go, function()
-		if not var_66_0.commodity then
+	onButton(arg_67_0, var_67_0._go, function()
+		if not var_67_0.commodity then
 			return
 		end
 
-		for iter_67_0, iter_67_1 in pairs(arg_66_0.cards) do
-			iter_67_1:UpdateSelected(false)
+		for iter_68_0, iter_68_1 in pairs(arg_67_0.cards) do
+			iter_68_1:UpdateSelected(false)
 		end
 
-		arg_66_0.selectedId = var_66_0.commodity.id
+		arg_67_0.selectedId = var_67_0.commodity.id
 
-		var_66_0:UpdateSelected(true)
-		arg_66_0:UpdateMainView(var_66_0.commodity)
-		arg_66_0:GCHandle()
+		var_67_0:UpdateSelected(true)
+		arg_67_0:UpdateMainView(var_67_0.commodity)
+		arg_67_0:GCHandle()
 	end, SFX_PANEL)
 
-	arg_66_0.cards[arg_66_1] = var_66_0
+	arg_67_0.cards[arg_67_1] = var_67_0
 end
 
-function var_0_0.OnUpdateItem(arg_68_0, arg_68_1, arg_68_2)
-	local var_68_0 = arg_68_0.cards[arg_68_2]
+function var_0_0.OnUpdateItem(arg_69_0, arg_69_1, arg_69_2)
+	local var_69_0 = arg_69_0.cards[arg_69_2]
 
-	if not var_68_0 then
-		arg_68_0:OnInitItem(arg_68_2)
+	if not var_69_0 then
+		arg_69_0:OnInitItem(arg_69_2)
 
-		var_68_0 = arg_68_0.cards[arg_68_2]
+		var_69_0 = arg_69_0.cards[arg_69_2]
 	end
 
-	local var_68_1 = arg_68_0.displays[arg_68_1 + 1]
+	local var_69_1 = arg_69_0.displays[arg_69_1 + 1]
 
-	if not var_68_1 then
+	if not var_69_1 then
 		return
 	end
 
-	local var_68_2 = arg_68_0.selectedId == var_68_1.id
-	local var_68_3 = arg_68_0:GetReturnSkinMap()[var_68_1.id]
+	local var_69_2 = arg_69_0.selectedId == var_69_1.id
+	local var_69_3 = arg_69_0:GetReturnSkinMap()[var_69_1.id]
 
-	var_68_0:Update(var_68_1, var_68_2, var_68_3)
+	var_69_0:Update(var_69_1, var_69_2, var_69_3)
 
-	if arg_68_0.triggerFirstCard and arg_68_1 == 0 then
-		arg_68_0.triggerFirstCard = nil
+	if arg_69_0.triggerFirstCard and arg_69_1 == 0 then
+		arg_69_0.triggerFirstCard = nil
 
-		triggerButton(var_68_0._go)
+		triggerButton(var_69_0._go)
 	end
 end
 
-function var_0_0.GCHandle(arg_69_0)
+function var_0_0.GCHandle(arg_70_0)
 	var_0_0.GCCNT = (var_0_0.GCCNT or 0) + 1
 
 	if var_0_0.GCCNT == 3 then
@@ -745,119 +760,119 @@ function var_0_0.GCHandle(arg_69_0)
 	end
 end
 
-function var_0_0.UpdateMainView(arg_70_0, arg_70_1)
-	arg_70_0.mainView:Flush(arg_70_1)
+function var_0_0.UpdateMainView(arg_71_0, arg_71_1)
+	arg_71_0.mainView:Flush(arg_71_1)
 end
 
-function var_0_0.GetCommodityIndex(arg_71_0, arg_71_1)
-	for iter_71_0, iter_71_1 in ipairs(arg_71_0.displays) do
-		if iter_71_1.id == arg_71_1 then
-			return iter_71_0
+function var_0_0.GetCommodityIndex(arg_72_0, arg_72_1)
+	for iter_72_0, iter_72_1 in ipairs(arg_72_0.displays) do
+		if iter_72_1.id == arg_72_1 then
+			return iter_72_0
 		end
 	end
 end
 
-function var_0_0.OnPrevCommodity(arg_72_0)
-	if not arg_72_0.selectedId then
-		return
-	end
-
-	local var_72_0 = arg_72_0:GetCommodityIndex(arg_72_0.selectedId)
-
-	if var_72_0 - 1 > 0 then
-		arg_72_0:TriggerCommodity(var_72_0, -1)
-	end
-end
-
-function var_0_0.OnNextCommodity(arg_73_0)
+function var_0_0.OnPrevCommodity(arg_73_0)
 	if not arg_73_0.selectedId then
 		return
 	end
 
 	local var_73_0 = arg_73_0:GetCommodityIndex(arg_73_0.selectedId)
 
-	if var_73_0 + 1 <= #arg_73_0.displays then
-		arg_73_0:TriggerCommodity(var_73_0, 1)
+	if var_73_0 - 1 > 0 then
+		arg_73_0:TriggerCommodity(var_73_0, -1)
 	end
 end
 
-function var_0_0.CheckCardBound(arg_74_0, arg_74_1, arg_74_2, arg_74_3, arg_74_4)
-	local var_74_0 = getBounds(arg_74_0.scrollrect.gameObject.transform)
+function var_0_0.OnNextCommodity(arg_74_0)
+	if not arg_74_0.selectedId then
+		return
+	end
 
-	if arg_74_3 then
-		local var_74_1 = getBounds(arg_74_2._tf)
-		local var_74_2 = getBounds(arg_74_1._tf)
+	local var_74_0 = arg_74_0:GetCommodityIndex(arg_74_0.selectedId)
 
-		if math.ceil(var_74_2:GetMax().x - var_74_0:GetMax().x) > var_74_1.size.x then
-			local var_74_3 = arg_74_0.scrollrect:HeadIndexToValue(arg_74_4 - 1) - arg_74_0.scrollrect:HeadIndexToValue(arg_74_4)
-			local var_74_4 = arg_74_0.scrollrect.value - var_74_3
+	if var_74_0 + 1 <= #arg_74_0.displays then
+		arg_74_0:TriggerCommodity(var_74_0, 1)
+	end
+end
 
-			arg_74_0.scrollrect:SetNormalizedPosition(var_74_4, 0)
+function var_0_0.CheckCardBound(arg_75_0, arg_75_1, arg_75_2, arg_75_3, arg_75_4)
+	local var_75_0 = getBounds(arg_75_0.scrollrect.gameObject.transform)
+
+	if arg_75_3 then
+		local var_75_1 = getBounds(arg_75_2._tf)
+		local var_75_2 = getBounds(arg_75_1._tf)
+
+		if math.ceil(var_75_2:GetMax().x - var_75_0:GetMax().x) > var_75_1.size.x then
+			local var_75_3 = arg_75_0.scrollrect:HeadIndexToValue(arg_75_4 - 1) - arg_75_0.scrollrect:HeadIndexToValue(arg_75_4)
+			local var_75_4 = arg_75_0.scrollrect.value - var_75_3
+
+			arg_75_0.scrollrect:SetNormalizedPosition(var_75_4, 0)
 		end
 	else
-		local var_74_5 = getBounds(arg_74_1._tf)
+		local var_75_5 = getBounds(arg_75_1._tf)
 
-		if getBounds(arg_74_1._tf.parent):GetMin().x < var_74_0:GetMin().x and var_74_5:GetMin().x < var_74_0:GetMin().x then
-			local var_74_6 = arg_74_0.scrollrect:HeadIndexToValue(arg_74_4 - 1)
+		if getBounds(arg_75_1._tf.parent):GetMin().x < var_75_0:GetMin().x and var_75_5:GetMin().x < var_75_0:GetMin().x then
+			local var_75_6 = arg_75_0.scrollrect:HeadIndexToValue(arg_75_4 - 1)
 
-			arg_74_0.scrollrect:SetNormalizedPosition(var_74_6, 0)
+			arg_75_0.scrollrect:SetNormalizedPosition(var_75_6, 0)
 		end
 	end
 end
 
-function var_0_0.TriggerCommodity(arg_75_0, arg_75_1, arg_75_2)
-	local var_75_0 = arg_75_0.displays[arg_75_1]
-	local var_75_1 = arg_75_0.displays[arg_75_1 + arg_75_2]
-	local var_75_2
-	local var_75_3
+function var_0_0.TriggerCommodity(arg_76_0, arg_76_1, arg_76_2)
+	local var_76_0 = arg_76_0.displays[arg_76_1]
+	local var_76_1 = arg_76_0.displays[arg_76_1 + arg_76_2]
+	local var_76_2
+	local var_76_3
 
-	for iter_75_0, iter_75_1 in pairs(arg_75_0.cards) do
-		if iter_75_1._tf.gameObject.name ~= "-1" then
-			if iter_75_1.commodity.id == var_75_1.id then
-				var_75_2 = iter_75_1
-			elseif iter_75_1.commodity.id == var_75_0.id then
-				var_75_3 = iter_75_1
+	for iter_76_0, iter_76_1 in pairs(arg_76_0.cards) do
+		if iter_76_1._tf.gameObject.name ~= "-1" then
+			if iter_76_1.commodity.id == var_76_1.id then
+				var_76_2 = iter_76_1
+			elseif iter_76_1.commodity.id == var_76_0.id then
+				var_76_3 = iter_76_1
 			end
 		end
 	end
 
-	if var_75_2 then
-		triggerButton(var_75_2._tf)
+	if var_76_2 then
+		triggerButton(var_76_2._tf)
 	end
 
-	if var_75_2 and var_75_3 then
-		arg_75_0:CheckCardBound(var_75_2, var_75_3, arg_75_2 > 0, arg_75_1 + arg_75_2)
+	if var_76_2 and var_76_3 then
+		arg_76_0:CheckCardBound(var_76_2, var_76_3, arg_76_2 > 0, arg_76_1 + arg_76_2)
 	end
 end
 
-function var_0_0.ClearCards(arg_76_0)
-	if not arg_76_0.cards then
+function var_0_0.ClearCards(arg_77_0)
+	if not arg_77_0.cards then
 		return
 	end
 
-	for iter_76_0, iter_76_1 in pairs(arg_76_0.cards) do
-		iter_76_1:Dispose()
+	for iter_77_0, iter_77_1 in pairs(arg_77_0.cards) do
+		iter_77_1:Dispose()
 	end
 
-	arg_76_0.cards = nil
+	arg_77_0.cards = nil
 end
 
-function var_0_0.willExit(arg_77_0)
-	arg_77_0:ClearCards()
-	ClearLScrollrect(arg_77_0.scrollrect)
+function var_0_0.willExit(arg_78_0)
+	arg_78_0:ClearCards()
+	ClearLScrollrect(arg_78_0.scrollrect)
 
-	if arg_77_0.rollingCircleRect then
-		arg_77_0.rollingCircleRect:Dispose()
+	if arg_78_0.rollingCircleRect then
+		arg_78_0.rollingCircleRect:Dispose()
 
-		arg_77_0.rollingCircleRect = nil
+		arg_78_0.rollingCircleRect = nil
 	end
 
 	Input.multiTouchEnabled = true
 
-	if arg_77_0.mainView then
-		arg_77_0.mainView:Dispose()
+	if arg_78_0.mainView then
+		arg_78_0.mainView:Dispose()
 
-		arg_77_0.mainView = nil
+		arg_78_0.mainView = nil
 	end
 
 	var_0_0.shopTypeIdList = nil

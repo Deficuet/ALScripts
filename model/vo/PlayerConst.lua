@@ -389,4 +389,29 @@ function var_0_0.MergeSameDrops(arg_25_0)
 	return var_25_0
 end
 
+function var_0_0.CheckMedalAllCollectionTrack()
+	local var_26_0, var_26_1 = unpack(getGameset("live_streaming26_data2")[2])
+	local var_26_2 = 0
+	local var_26_3 = getProxy(PlayerProxy):getRawData()
+
+	for iter_26_0, iter_26_1 in pairs(pg.activity_medal_template.get_id_list_by_group) do
+		if iter_26_0 == math.clamp(iter_26_0, var_26_0, var_26_1) then
+			if not var_26_3.activityMedalGroupList[iter_26_0] or not var_26_3.activityMedalGroupList[iter_26_0]:GetAll() then
+				var_26_2 = -1
+
+				break
+			else
+				var_26_2 = var_26_2 + 1
+			end
+		end
+	end
+
+	local var_26_4 = getProxy(PlayerProxy):getRawData().id
+
+	if var_26_2 > PlayerPrefs.GetInt("MEDAL_ALL_COLLECTION:" .. var_26_4, 0) then
+		PlayerPrefs.SetInt("MEDAL_ALL_COLLECTION:" .. var_26_4, var_26_2)
+		pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildAllCollection(20001, var_26_2))
+	end
+end
+
 return var_0_0

@@ -29214,3 +29214,7 @@ _G.pg.base.gametip.battleui_display3 = {
 	tip = "暂停栏"
 }
 
+_G.pg.base.gametip.zengke_series_serverinfo = {
+	tip = "服务器："
+}
+

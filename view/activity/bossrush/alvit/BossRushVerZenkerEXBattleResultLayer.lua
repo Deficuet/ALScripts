@@ -110,6 +110,7 @@ function var_0_0.loadUI(arg_12_0)
 	local var_12_5 = arg_12_0._tf:Find("share")
 
 	setText(var_12_5:Find("name/value"), var_12_3)
+	setText(var_12_5:Find("server"), i18n("zengke_series_serverinfo"))
 	setText(var_12_5:Find("server/value"), var_12_4)
 	setText(var_12_5:Find("lv/value"), var_12_0.level)
 end

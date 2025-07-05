@@ -313,24 +313,29 @@ local function var_0_8(arg_16_0, arg_16_1)
 	SetActive(arg_16_0._sigleItemPanel:Find("ship_group"), false)
 	SetActive(arg_16_0._singleItemshipTypeTF, false)
 	SetActive(arg_16_0._sigleItemPanel:Find("left/detail"), false)
+	setActive(arg_16_0._sigleItemPanel:Find("combat_skin"), false)
 
-	local var_16_0 = arg_16_0.singleItemIntro
+	local var_16_0 = arg_16_0._sigleItemPanel:Find("display_panel"):GetComponent(typeof(RectTransform))
 
-	SetActive(var_16_0, true)
-	setText(var_16_0, arg_16_1.content or "")
+	var_16_0.sizeDelta = Vector2(var_16_0.sizeDelta.x, -114.5)
 
-	local var_16_1 = arg_16_0._sigleItemPanel:Find("left/IconTpl")
+	local var_16_1 = arg_16_0.singleItemIntro
 
-	setText(var_16_1:Find("icon_bg/count"), "")
-	SetActive(var_16_1:Find("icon_bg/startpl"), false)
-	SetCompomentEnabled(var_16_1:Find("icon_bg"), typeof(Image), not arg_16_1.hideIconBG)
-	SetCompomentEnabled(var_16_1:Find("icon_bg/frame"), typeof(Image), not arg_16_1.hideIconBG)
+	SetActive(var_16_1, true)
+	setText(var_16_1, arg_16_1.content or "")
 
-	local var_16_2 = var_16_1:Find("icon_bg/frame")
+	local var_16_2 = arg_16_0._sigleItemPanel:Find("left/IconTpl")
 
-	setFrame(var_16_2, arg_16_1.frame or 1)
-	GetImageSpriteFromAtlasAsync("weaponframes", "bg" .. (arg_16_1.frame or 1), var_16_1:Find("icon_bg"))
-	GetImageSpriteFromAtlasAsync(arg_16_1.iconPath[1], arg_16_1.iconPath[2] or "", var_16_1:Find("icon_bg/icon"))
+	setText(var_16_2:Find("icon_bg/count"), "")
+	SetActive(var_16_2:Find("icon_bg/startpl"), false)
+	SetCompomentEnabled(var_16_2:Find("icon_bg"), typeof(Image), not arg_16_1.hideIconBG)
+	SetCompomentEnabled(var_16_2:Find("icon_bg/frame"), typeof(Image), not arg_16_1.hideIconBG)
+
+	local var_16_3 = var_16_2:Find("icon_bg/frame")
+
+	setFrame(var_16_3, arg_16_1.frame or 1)
+	GetImageSpriteFromAtlasAsync("weaponframes", "bg" .. (arg_16_1.frame or 1), var_16_2:Find("icon_bg"))
+	GetImageSpriteFromAtlasAsync(arg_16_1.iconPath[1], arg_16_1.iconPath[2] or "", var_16_2:Find("icon_bg/icon"))
 	setText(arg_16_0._sigleItemPanel:Find("display_panel/name_container/name/Text"), arg_16_1.name or "")
 	arg_16_0:Loaded(arg_16_1)
 end

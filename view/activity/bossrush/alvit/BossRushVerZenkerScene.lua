@@ -211,8 +211,9 @@ function var_0_0.UpdateView(arg_21_0)
 		arg_21_0:UpdateBattle()
 	else
 		arg_21_0:UpdateStory()
-		arg_21_0:UpdateStoryTask()
 	end
+
+	arg_21_0:UpdateStoryTask()
 
 	local var_21_1 = arg_21_0:getBG()
 
@@ -220,6 +221,8 @@ function var_0_0.UpdateView(arg_21_0)
 		setActive(arg_22_0, arg_22_0.name == var_21_1 or arg_22_0.name == "FX")
 	end)
 	arg_21_0:PlayBGM()
+	setText(arg_21_0.ptText, arg_21_0.ptActivity.data1)
+	setActive(arg_21_0.ptTip, Activity.IsActivityReady(arg_21_0.ptActivity))
 
 	local var_21_2 = arg_21_0.contextData.displayMode
 
@@ -342,10 +345,6 @@ function var_0_0.UpdateBattle(arg_25_0)
 			arg_25_0:emit(BossRushVerZenkerMediator.ON_FLEET_SELECT, var_25_2)
 		end, SFX_PANEL)
 	end
-
-	setText(arg_25_0.ptText, arg_25_0.ptActivity.data1)
-	setActive(arg_25_0.ptTip, Activity.IsActivityReady(arg_25_0.ptActivity))
-	setActive(arg_25_0.switchToggle:Find("Story/new"), arg_25_0.storyTask and arg_25_0.storyTask:getTaskStatus() ~= 2)
 end
 
 function var_0_0.UpdateStory(arg_32_0)
@@ -457,6 +456,7 @@ function var_0_0.UpdateStoryTask(arg_40_0)
 		id = var_40_0
 	})
 
+	setActive(arg_40_0.switchToggle:Find("Story/new"), arg_40_0.storyTask and arg_40_0.storyTask:getTaskStatus() ~= 2)
 	setActive(arg_40_0.taskTip, Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.ZENGKEHAIJUNSHANGJIANG_TASK_ACT_ID)))
 
 	local var_40_1 = arg_40_0.storyTask:getConfig("award_display")

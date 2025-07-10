@@ -32,7 +32,7 @@ function var_0_0.register(arg_1_0)
 		end
 
 		arg_1_0.data:updateAttireFrame(AttireConst.TYPE_COMBAT_UI_STYLE, arg_3_0.battle_ui or 0)
-		arg_1_0:SetDeviceMaxPlayerLevel(var_3_0.level)
+		var_0_0.SetDeviceMaxPlayerLevel(var_3_0.level)
 	end)
 	arg_1_0:on(11004, function(arg_4_0)
 		if not arg_1_0.data then
@@ -269,14 +269,14 @@ function var_0_0.IsShowCommssionTip(arg_25_0)
 	return var_25_16 or var_25_0 or var_25_6 or var_25_7 or var_25_10 ~= 0 and var_25_8 > var_25_10 - 10 or var_25_11 or var_25_13 > 0 or var_25_14 > 0 or var_25_18
 end
 
-function var_0_0.SetDeviceMaxPlayerLevel(arg_28_0, arg_28_1)
-	if arg_28_1 > arg_28_0:GetDeviceMaxPlayerLevel() then
-		PlayerPrefs.SetInt("DeviceMaxPlayerLevel", arg_28_1)
+function var_0_0.SetDeviceMaxPlayerLevel(arg_28_0)
+	if arg_28_0 > var_0_0.GetDeviceMaxPlayerLevel() then
+		PlayerPrefs.SetInt("DeviceMaxPlayerLevel", arg_28_0)
 		PlayerPrefs.Save()
 	end
 end
 
-function var_0_0.GetDeviceMaxPlayerLevel(arg_29_0)
+function var_0_0.GetDeviceMaxPlayerLevel()
 	return PlayerPrefs.GetInt("DeviceMaxPlayerLevel", 0)
 end
 

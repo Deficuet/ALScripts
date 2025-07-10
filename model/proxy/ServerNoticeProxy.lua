@@ -95,7 +95,7 @@ function var_0_0.getServerNotices(arg_4_0, arg_4_1)
 	local var_4_0 = {}
 
 	for iter_4_0, iter_4_1 in ipairs(arg_4_0.data) do
-		if not arg_4_1 or not iter_4_1.isRead then
+		if iter_4_1:ShouldShow() and (not arg_4_1 or not iter_4_1.isRead) then
 			table.insert(var_4_0, iter_4_1)
 		end
 	end

@@ -891,7 +891,9 @@ function var_0_8.fireChargeWeapon(arg_80_0, arg_80_1, arg_80_2, arg_80_3)
 		arg_80_1:DispatchBlink(var_81_0)
 	end
 
-	if arg_80_2 then
+	if arg_80_1:GetType() == var_0_4.EquipmentType.POINT_AIR_STRIKE then
+		arg_80_1:Fire(arg_80_3)
+	elseif arg_80_2 then
 		if arg_80_0._IFF == var_0_5.FRIENDLY_CODE then
 			arg_80_0._chargeWeaponVO:PlayCutIn(var_80_0, 1 / var_0_5.FOCUS_MAP_RATE)
 		end

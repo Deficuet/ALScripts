@@ -1225,6 +1225,9 @@ function temp()
 					this = true
 				}
 			}
+		},
+		狮 = {
+			this = true
 		}
 	}
 end
@@ -4675,6 +4678,18 @@ function temp()
 	var_0_1.梅 = {
 		this = {
 			this = true
+		},
+		克 = {
+			伦 = {
+				堡 = {
+					this = true
+				}
+			},
+			琳 = {
+				达 = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -7247,6 +7262,17 @@ function temp()
 									this = true
 								}
 							}
+						},
+						库 = {
+							尼 = {
+								贝 = {
+									尔 = {
+										蒂 = {
+											this = true
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -7741,6 +7767,23 @@ function temp()
 					}
 				}
 			}
+		},
+		米 = {
+			特 = {
+				里 = {
+					· = {
+						顿 = {
+							斯 = {
+								科 = {
+									伊 = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -8070,6 +8113,18 @@ function temp()
 				斯 = {
 					this = true
 				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	var_0_1.堪 = {
+		萨 = {
+			斯 = {
+				this = true
 			}
 		}
 	}

@@ -253,7 +253,7 @@ function var_0_7.AddWeapon(arg_23_0, arg_23_1, arg_23_2, arg_23_3, arg_23_4, arg
 
 	local var_23_1 = var_23_0:GetTemplateData().type
 
-	if var_23_1 == var_0_5.POINT_HIT_AND_LOCK or var_23_1 == var_0_5.MANUAL_METEOR or var_23_1 == var_0_5.MANUAL_MISSILE then
+	if var_23_1 == var_0_5.POINT_HIT_AND_LOCK or var_23_1 == var_0_5.MANUAL_METEOR or var_23_1 == var_0_5.MANUAL_MISSILE or var_23_1 == var_0_5.POINT_AIR_STRIKE then
 		arg_23_0._chargeList[#arg_23_0._chargeList + 1] = var_23_0
 
 		arg_23_0._weaponQueue:AppendChargeWeapon(var_23_0)
@@ -597,4 +597,22 @@ function var_0_7.InitCldComponent(arg_48_0)
 	}
 
 	arg_48_0._cldComponent:SetCldData(var_48_0)
+end
+
+function var_0_7.AddPointAirStrike(arg_49_0, arg_49_1, arg_49_2, arg_49_3)
+	local var_49_0 = arg_49_0:AddWeapon(arg_49_1, {}, nil, 1, -1)
+
+	arg_49_0:GetFleetVO():GetChargeWeaponVO():AppendWeapon(var_49_0)
+
+	if arg_49_3 then
+		var_49_0:OverHeat()
+		var_49_0:EnterCoolDown()
+	end
+
+	arg_49_0:GetFleetVO():GetChargeWeaponVO():DispatchCountChange()
+	arg_49_0:DispatchEvent(var_0_0.Event.New(var_0_0.Battle.BattleUnitEvent.CREATE_POINT_AIR_STRIKE, {
+		weapon = var_49_0
+	}))
+
+	return var_49_0
 end

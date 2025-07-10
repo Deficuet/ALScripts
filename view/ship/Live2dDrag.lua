@@ -1025,7 +1025,7 @@ function var_0_0.updateTrigger(arg_46_0)
 		if arg_46_0._active then
 			arg_46_0:setAbleWithFlag(true)
 
-			if var_46_2 <= Time.time - arg_46_0.mouseInputDownTime then
+			if var_46_2 <= Time.time - arg_46_0.mouseInputDownTime and not arg_46_0.l2dIsPlaying then
 				print("触发按压动作")
 				arg_46_0:setAbleWithFlag(false)
 				arg_46_0:onEventCallback(Live2D.EVENT_ACTION_APPLY, {}, function(arg_51_0)

@@ -14,6 +14,11 @@ local var_0_6 = var_0_1.UnitDir.RIGHT
 function var_0_4.CreateBattleBulletData(arg_1_0, arg_1_1, arg_1_2, arg_1_3, arg_1_4)
 	local var_1_0 = var_0_4.GetBulletTmpDataFromID(arg_1_1)
 	local var_1_1 = var_1_0.type
+
+	if var_1_0.extra_param.currentdrop then
+		arg_1_4 = arg_1_2:GetPosition()
+	end
+
 	local var_1_2, var_1_3 = var_0_4.generateBulletFuncs[var_1_1](arg_1_0, var_1_0, arg_1_2, arg_1_3, arg_1_4)
 
 	var_1_2:SetTemplateData(var_1_0)

@@ -476,6 +476,7 @@ function var_0_0.nextPage(arg_48_0, arg_48_1, arg_48_2)
 			-- block empty
 		end
 
+		arg_48_0.viewComponent:gotoPage(var_48_6)
 		arg_48_0.viewComponent:switchToPage(var_48_6, true)
 	end
 

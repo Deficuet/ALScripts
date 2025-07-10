@@ -167,6 +167,10 @@ pg.pay_data_display = setmetatable({
 		2050,
 		2051,
 		2052,
+		2053,
+		2054,
+		2055,
+		2056,
 		5001,
 		5002,
 		5003,
@@ -16390,6 +16394,256 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40061,
+				1
+			}
+		}
+	},
+	[2053] = {
+		descrip = "可获得最高方案快速研发券·五期*1、定向蓝图·五期*343",
+		name = "最高方案研发礼包(五期)",
+		descrip_extra = "此处不会被看到",
+		type = 0,
+		limit_group = 5,
+		type_order = 0,
+		subject = "最高方案研发礼包(五期)",
+		tip = "",
+		tip_open = 0,
+		id = 2053,
+		money = 108,
+		name_display = "最高方案研发礼包(五期)",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "tech",
+		limit_type = 3,
+		time = "always",
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "tech5_display",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.keyan",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 0,
+		airijp_id = "com.yostarjp.azurlane.tech",
+		extra_service_item = {
+			{
+				2,
+				40140,
+				1
+			},
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40140,
+				1
+			},
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {}
+	},
+	[2054] = {
+		descrip = "礼包内容",
+		name = "最高方案研发礼包(五期)高级版",
+		descrip_extra = "*最高方案快速研发券·五期奖励可能发生变化，点击道具查看详情",
+		type = 0,
+		limit_group = 5,
+		type_order = 0,
+		subject = "最高方案研发礼包(五期)高级版",
+		tip = "",
+		tip_open = 0,
+		id = 2054,
+		money = 108,
+		name_display = "高级版",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "tech",
+		limit_type = 3,
+		time = "always",
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "tech5_promotion",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.keyan13",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostarjp.azurlane.tech13",
+		extra_service_item = {
+			{
+				2,
+				40140,
+				1
+			},
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40140,
+				1
+			},
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40062,
+				1
+			}
+		}
+	},
+	[2055] = {
+		descrip = "礼包内容",
+		name = "最高方案研发礼包(五期)标准版",
+		descrip_extra = "*最高方案快速研发券·五期奖励可能发生变化，点击道具查看详情",
+		type = 0,
+		limit_group = 5,
+		type_order = 0,
+		subject = "最高方案研发礼包(五期)标准版",
+		tip = "",
+		tip_open = 0,
+		id = 2055,
+		money = 68,
+		name_display = "标准版",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "tech",
+		limit_type = 3,
+		time = "always",
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "tech5_normal",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.keyan14",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 2,
+		airijp_id = "com.yostarjp.azurlane.tech14",
+		extra_service_item = {
+			{
+				2,
+				40140,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				40140,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40063,
+				1
+			}
+		}
+	},
+	[2056] = {
+		descrip = "礼包内容",
+		name = "最高方案研发礼包(五期)升级版",
+		descrip_extra = "升级为高级版后可获得定向蓝图·五期x343",
+		type = 0,
+		limit_group = 5,
+		type_order = 0,
+		subject = "最高方案研发礼包(五期)升级版",
+		tip = "",
+		tip_open = 0,
+		id = 2056,
+		money = 40,
+		name_display = "高级版",
+		tag = 2,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "tech",
+		limit_type = 3,
+		time = "always",
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "tech5_promotion",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.keyan15",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 3,
+		airijp_id = "com.yostarjp.azurlane.tech15",
+		extra_service_item = {
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40064,
 				1
 			}
 		}

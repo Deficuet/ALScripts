@@ -71,20 +71,20 @@ function var_0_0.init(arg_12_0)
 		SettingsOtherPage.New(var_12_0, arg_12_0.event, arg_12_0.contextData),
 		SettingsOptionPage.New(var_12_0, arg_12_0.event, arg_12_0.contextData),
 		SettingsBattlePage.New(var_12_0, arg_12_0.event, arg_12_0.contextData),
-		SettingsResPage.New(var_12_0, arg_12_0.event, arg_12_0.contextData),
-		Settings3DPage.New(var_12_0, arg_12_0.event, arg_12_0.contextData)
+		SettingsResPage.New(var_12_0, arg_12_0.event, arg_12_0.contextData)
 	}
 	arg_12_0.toggles = {
 		arg_12_0:findTF("blur_panel/adapt/left_length/other"),
 		arg_12_0:findTF("blur_panel/adapt/left_length/options"),
 		arg_12_0:findTF("blur_panel/adapt/left_length/battle_ui"),
-		arg_12_0:findTF("blur_panel/adapt/left_length/resources"),
-		arg_12_0:findTF("blur_panel/adapt/left_length/threeD")
+		arg_12_0:findTF("blur_panel/adapt/left_length/resources")
 	}
 	arg_12_0.otherTip = arg_12_0.toggles[1]:Find("tip")
 	arg_12_0.logoutBtn = arg_12_0:findTF("blur_panel/adapt/left_length/logout")
 	arg_12_0.helpBtn = arg_12_0:findTF("blur_panel/adapt/left_length/help_us")
 	arg_12_0.descWindow = SettingsMsgBosPage.New(arg_12_0._tf, arg_12_0.event)
+
+	setActive(arg_12_0:findTF("blur_panel/adapt/left_length/threeD"), false)
 end
 
 function var_0_0.didEnter(arg_13_0)

@@ -408,6 +408,7 @@ var_0_0.FLEET_ATTR_CAP = {
 	shenpanzhijian = 6,
 	yuanchou = 9,
 	ReisalinAP = 99,
+	KansasSP = 3,
 	Judgement = 12,
 	huohun = 5
 }

@@ -8,6 +8,12 @@ local var_0_2 = {
 	N = "N"
 }
 local var_0_3 = {
+	N = "N",
+	SR = "SR",
+	R = "R",
+	SSR = "SSR"
+}
+local var_0_4 = {
 	[var_0_2.N] = {
 		1,
 		2
@@ -29,7 +35,7 @@ local var_0_3 = {
 		5
 	}
 }
-local var_0_4 = {
+local var_0_5 = {
 	ALL = 3,
 	PART = 2,
 	GREY = 0,
@@ -151,19 +157,19 @@ function var_0_0.didEnter(arg_6_0)
 		onButton(arg_6_0, arg_17_0, function()
 			local var_18_0 = arg_17_0.name
 			local var_18_1 = arg_6_0.optionStatus[var_18_0]
-			local var_18_2 = var_0_3[var_18_0]
+			local var_18_2 = var_0_4[var_18_0]
 
 			switch(var_18_1, {
-				[var_0_4.GREY] = function()
+				[var_0_5.GREY] = function()
 					return
 				end,
-				[var_0_4.NONE] = function()
+				[var_0_5.NONE] = function()
 					arg_6_0:selAllEquipsByRaritys(var_18_2)
 				end,
-				[var_0_4.PART] = function()
+				[var_0_5.PART] = function()
 					arg_6_0:unselAllEquipsByRaritys(var_18_2)
 				end,
-				[var_0_4.ALL] = function()
+				[var_0_5.ALL] = function()
 					arg_6_0:unselAllEquipsByRaritys(var_18_2)
 				end
 			})
@@ -176,19 +182,19 @@ function var_0_0.HideDestroyCondirm(arg_23_0)
 end
 
 function var_0_0.OnResolveEquipDone(arg_24_0)
-	if arg_24_0.optionStatus[var_0_2.ALL] == var_0_4.ALL then
+	for iter_24_0, iter_24_1 in pairs(var_0_3) do
+		local var_24_0 = arg_24_0.optionStatus[iter_24_1]
+
+		if var_24_0 == var_0_5.ALL then
+			arg_24_0:SetLocalDataByOption(iter_24_1, 1)
+		elseif var_24_0 == var_0_5.NONE then
+			arg_24_0:SetLocalDataByOption(iter_24_1, 0)
+		end
+	end
+
+	if arg_24_0.optionStatus[var_0_2.ALL] == var_0_5.ALL then
 		arg_24_0:emit(var_0_0.ON_CLOSE)
 	else
-		for iter_24_0, iter_24_1 in pairs(var_0_2) do
-			local var_24_0 = arg_24_0.optionStatus[iter_24_1]
-
-			if var_24_0 == var_0_4.ALL then
-				arg_24_0:SetLocalDataByOption(iter_24_1, 1)
-			elseif var_24_0 == var_0_4.NONE then
-				arg_24_0:SetLocalDataByOption(iter_24_1, 0)
-			end
-		end
-
 		setActive(arg_24_0.mainPanel, true)
 
 		local function var_24_1(arg_25_0)
@@ -235,9 +241,9 @@ end
 function var_0_0.selectedLocalRecordEquipment(arg_27_0)
 	arg_27_0.selectedIds = {}
 
-	for iter_27_0, iter_27_1 in pairs(var_0_2) do
+	for iter_27_0, iter_27_1 in pairs(var_0_3) do
 		if arg_27_0:GetLocalDataByOption(iter_27_1) == 1 then
-			local var_27_0 = var_0_3[iter_27_1]
+			local var_27_0 = var_0_4[iter_27_1]
 
 			arg_27_0:selAllEquipsByRaritys(var_27_0)
 		end
@@ -535,33 +541,33 @@ function var_0_0.updateOptionsStatus(arg_50_0)
 
 		arg_50_0.optionStatus[iter_50_1] = var_50_1
 
-		setGray(var_50_0, var_50_1 == var_0_4.GREY, true)
+		setGray(var_50_0, var_50_1 == var_0_5.GREY, true)
 
-		GetOrAddComponent(var_50_0, "CanvasGroup").alpha = var_50_1 == var_0_4.GREY and 0.4 or 1
+		GetOrAddComponent(var_50_0, "CanvasGroup").alpha = var_50_1 == var_0_5.GREY and 0.4 or 1
 
-		setActive(var_50_0:Find("Background/Checkmark"), var_50_1 == var_0_4.ALL)
-		setActive(var_50_0:Find("Background/Part"), var_50_1 == var_0_4.PART)
+		setActive(var_50_0:Find("Background/Checkmark"), var_50_1 == var_0_5.ALL)
+		setActive(var_50_0:Find("Background/Part"), var_50_1 == var_0_5.PART)
 	end
 end
 
 function var_0_0.GetOptionStatus(arg_51_0, arg_51_1)
 	if arg_51_1 == var_0_2.ALL then
 		if #arg_51_0.selectedIds == 0 then
-			return var_0_4.NONE
+			return var_0_5.NONE
 		elseif arg_51_0:isSelectedAll() then
-			return var_0_4.ALL
+			return var_0_5.ALL
 		else
-			return var_0_4.PART
+			return var_0_5.PART
 		end
 	else
-		local var_51_0 = var_0_3[arg_51_1]
+		local var_51_0 = var_0_4[arg_51_1]
 
 		if not underscore.any(arg_51_0.equipmentVOs, function(arg_52_0)
 			local var_52_0 = arg_52_0:getConfig("rarity")
 
 			return table.contains(var_51_0, var_52_0)
 		end) then
-			return var_0_4.GREY
+			return var_0_5.GREY
 		end
 
 		local var_51_1 = underscore.any(arg_51_0.selectedIds, function(arg_53_0)
@@ -570,7 +576,7 @@ function var_0_0.GetOptionStatus(arg_51_0, arg_51_1)
 			return table.contains(var_51_0, var_53_0)
 		end)
 
-		return arg_51_0:isSelectedAllRaritys(var_51_0) and var_0_4.ALL or var_51_1 and var_0_4.PART or var_0_4.NONE
+		return arg_51_0:isSelectedAllRaritys(var_51_0) and var_0_5.ALL or var_51_1 and var_0_5.PART or var_0_5.NONE
 	end
 end
 

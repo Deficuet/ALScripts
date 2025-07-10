@@ -9521,7 +9521,7 @@ pg.dorm3d_dialogue_group = {
 	},
 	[110543] = {
 		reward = 0,
-		type = 200,
+		type = 600,
 		trigger_config = "",
 		trigger_area = "",
 		performance_type = 0,

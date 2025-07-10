@@ -452,7 +452,7 @@ function var_0_0.createLive2D(arg_34_0)
 end
 
 function var_0_0.checkBuyDone(arg_36_0, arg_36_1)
-	if not arg_36_0.live2dChar or arg_36_0.live2dChar:IsLoaded() then
+	if not arg_36_0.live2dChar or not arg_36_0.live2dChar:IsLoaded() then
 		return
 	end
 

@@ -183,12 +183,19 @@ function var_0_0.updateSettlementUI(arg_22_0)
 	GetComponent(findTF(arg_22_0.settlementUI, "ad"), typeof(Animator)):Play("settlement", -1, 0)
 
 	local var_22_0 = arg_22_0._gameVo.scoreNum
-	local var_22_1 = getProxy(MiniGameProxy):GetHighScore(arg_22_0._gameVo.gameId)
-	local var_22_2 = var_22_1 and #var_22_1 > 0 and var_22_1[1] or 0
+	local var_22_1
 
-	setActive(findTF(arg_22_0.settlementUI, "ad/new"), var_22_2 < var_22_0)
+	if arg_22_0._gameVo.mgData:getConfig("game_room") > 0 then
+		var_22_1 = getProxy(GameRoomProxy):getRoomScore(arg_22_0._gameVo.mgData:getConfig("game_room"))
+	else
+		local var_22_2 = getProxy(MiniGameProxy):GetHighScore(arg_22_0._gameVo.gameId)
 
-	if var_22_0 > 0 and var_22_2 < var_22_0 then
+		var_22_1 = var_22_2 and #var_22_2 > 0 and var_22_2[1] or 0
+	end
+
+	setActive(findTF(arg_22_0.settlementUI, "ad/new"), var_22_1 < var_22_0)
+
+	if var_22_0 > 0 and var_22_1 < var_22_0 then
 		arg_22_0._event:emit(WatermelonGameEvent.STORE_SERVER, {
 			var_22_0,
 			1
@@ -199,8 +206,8 @@ function var_0_0.updateSettlementUI(arg_22_0)
 	local var_22_4 = findTF(arg_22_0.settlementUI, "ad/currentText")
 
 	setText(var_22_4, var_22_0)
-	setText(var_22_3, var_22_2)
-	arg_22_0._event:emit(WatermelonGameEvent.SUBMIT_GAME_SUCCESS)
+	setText(var_22_3, var_22_1)
+	arg_22_0._event:emit(WatermelonGameEvent.SUBMIT_GAME_SUCCESS, var_22_0)
 end
 
 function var_0_0.backPressed(arg_23_0)

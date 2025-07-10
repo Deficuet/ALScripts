@@ -28,6 +28,10 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 		end
 	end
 
+	table.sort(arg_1_0.gameRoomDatas, function(arg_2_0, arg_2_1)
+		return arg_2_0.order < arg_2_1.order
+	end)
+
 	for iter_1_2 = 1, #arg_1_0.gameRoomDatas do
 		local var_1_1 = tf(instantiate(go(arg_1_0.listTpl)))
 		local var_1_2 = arg_1_0.gameRoomDatas[iter_1_2]
@@ -63,37 +67,37 @@ function var_0_0.Ctor(arg_1_0, arg_1_1, arg_1_2)
 	end
 end
 
-function var_0_0.setVisible(arg_3_0, arg_3_1)
-	setActive(arg_3_0._tf, arg_3_1)
+function var_0_0.setVisible(arg_4_0, arg_4_1)
+	setActive(arg_4_0._tf, arg_4_1)
 
-	if arg_3_1 then
-		local var_3_0 = getProxy(GameRoomProxy):ticketMaxTip()
+	if arg_4_1 then
+		local var_4_0 = getProxy(GameRoomProxy):ticketMaxTip()
 
-		if var_3_0 and not GameRoomProxy.ticket_remind then
+		if var_4_0 and not GameRoomProxy.ticket_remind then
 			GameRoomProxy.ticket_remind = true
 
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = var_3_0,
+				content = var_4_0,
 				onYes = function()
 					return
 				end,
 				onNo = function()
-					arg_3_0:setVisible(false)
+					arg_4_0:setVisible(false)
 				end
 			})
 		end
 
 		if var_0_0.ScrollPosition then
-			arg_3_0.content.anchoredPosition = var_0_0.ScrollPosition
+			arg_4_0.content.anchoredPosition = var_0_0.ScrollPosition
 		end
 	end
 end
 
-function var_0_0.getVisible(arg_6_0)
-	return isActive(arg_6_0._tf)
+function var_0_0.getVisible(arg_7_0)
+	return isActive(arg_7_0._tf)
 end
 
-function var_0_0.dispose(arg_7_0)
+function var_0_0.dispose(arg_8_0)
 	return
 end
 

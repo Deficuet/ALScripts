@@ -40,7 +40,7 @@ function var_0_0.initOpenUISwich(arg_7_0)
 		result = function()
 			local var_11_0 = arg_7_0:GetMGData():GetRuntimeData("elements") or {}
 			local var_11_1 = arg_7_0.gameController.point
-			local var_11_2 = var_11_0[1] or 0
+			local var_11_2 = getProxy(GameRoomProxy):getRoomScore(arg_7_0:getGameRoomData().id)
 			local var_11_3 = arg_7_0.rtTitlePage:Find("result")
 
 			setActive(var_11_3:Find("window/now/new"), var_11_2 < var_11_1)
@@ -50,15 +50,15 @@ function var_0_0.initOpenUISwich(arg_7_0)
 				var_11_0[1] = var_11_1
 			end
 
-			arg_7_0:SaveDataChange(var_11_0)
+			arg_7_0:StoreDataToServer({
+				var_11_2
+			})
 			setText(var_11_3:Find("window/high/Text"), var_11_2)
 			setText(var_11_3:Find("window/now/Text"), var_11_1)
 
 			local var_11_4 = arg_7_0:GetMGHubData()
 
-			if (not arg_7_0:getShowSide() or arg_7_0.stageIndex == var_11_4.usedtime + 1) and var_11_4.count > 0 then
-				arg_7_0:SendSuccess(var_11_1)
-			end
+			arg_7_0:SendSuccess(var_11_1)
 		end
 	}
 end

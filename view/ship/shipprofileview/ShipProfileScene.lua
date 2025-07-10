@@ -340,7 +340,7 @@ function var_0_0.LoadSkinBg(arg_28_0, arg_28_1)
 				local var_31_0 = arg_31_0:GetComponent("Canvas")
 
 				if var_31_0 then
-					var_31_0.sortingOrder = -90
+					var_31_0.sortingOrder = LayerWeightConst.PAINTING_RARITY_DESIGN_LAYER
 				end
 
 				setActive(arg_31_0, true)

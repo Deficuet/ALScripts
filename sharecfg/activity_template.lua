@@ -25484,52 +25484,27 @@ pg.activity_template = {
 	},
 	[50012] = {
 		mark = 20250626,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 50012,
 		page_core = "",
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					6,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					7,
-					10
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
+		config_data = {}
 	},
 	[50013] = {
 		mark = 20250626,
-		id = 50013,
 		title_res_tag = "zengke",
+		time = "stop",
 		type = 93,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 48,
+		id = 50013,
 		page_core = "",
 		config_data = {
 			3001,
@@ -25537,33 +25512,6 @@ pg.activity_template = {
 			3003,
 			3004,
 			3005
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					6,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					7,
-					10
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		},
 		page_info = {
 			class_name = "ZengKeMainPage",
@@ -25745,12 +25693,13 @@ pg.activity_template = {
 	},
 	[50016] = {
 		mark = 20250626,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 50016,
 		page_core = "",
@@ -25759,43 +25708,17 @@ pg.activity_template = {
 			571,
 			572,
 			573
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					6,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					7,
-					10
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		}
 	},
 	[50017] = {
 		mark = 20250626,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 50017,
 		page_core = "",
@@ -25811,33 +25734,6 @@ pg.activity_template = {
 			23891,
 			23892,
 			23893
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					6,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					7,
-					10
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
 		}
 	},
 	[50019] = {
@@ -25882,7 +25778,7 @@ pg.activity_template = {
 	},
 	[50020] = {
 		mark = 20250626,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 27,
 		login_pop = 0,
@@ -25890,35 +25786,9 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "[{31934,100}]",
 		config_client = "",
+		title_res_tag = "",
 		id = 50020,
-		page_core = "",
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					6,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					7,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		page_core = ""
 	},
 	[50021] = {
 		mark = 20250626,

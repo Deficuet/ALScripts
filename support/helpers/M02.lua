@@ -4125,6 +4125,10 @@ function DropResultIntegration(arg_270_0)
 end
 
 function getLoginConfig()
+	if LOGIN_HX and PlayerProxy.GetDeviceMaxPlayerLevel() <= pg.gameset.LOGIN_HX_LV.key_value then
+		return false, "login", "", false, ""
+	end
+
 	local var_274_0 = pg.TimeMgr.GetInstance():GetServerTime()
 	local var_274_1 = 1
 

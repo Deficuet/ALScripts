@@ -11284,6 +11284,26 @@ _G.pg.base.gametip.blueprint_simulation_confirm_79902 = {
 	tip = "<size=28>\n是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，\n<color=#ff5c5c>实际性能以获得舰船为准</color>）\n使用装备：<color=#92fc63>\n试作舰载型La-9\n试作舰载型La-9\n试作型VIT-2（模式调整）\n</color></size>"
 }
 
+_G.pg.base.gametip.blueprint_simulation_confirm_19906 = {
+	tip = "<size=28>\n是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，\n<color=#ff5c5c>实际性能以获得舰船为准</color>）\n使用装备：<color=#92fc63>\n试作型三联装406mm/45主炮Mk7\n双联装127mm高平两用炮Mk12\n四联40mm博福斯对空机炮\n</color></size>"
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49910 = {
+	tip = "<size=28>\n是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，\n<color=#ff5c5c>实际性能以获得舰船为准</color>）\n使用装备：<color=#92fc63>\n试作型四联装305mmSKC39主炮\n双联装127mmKM40主炮\n试作型55mm Gerät 58防空炮\n</color></size>"
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_69903 = {
+	tip = "<size=28>\n是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，\n<color=#ff5c5c>实际性能以获得舰船为准</color>）\n使用装备：<color=#92fc63>\n双联装135mm主炮Model1938\n试作型四联装533毫米鱼雷Si 270\n试作型六联装Scotti20mm机炮Model1941\n</color></size>"
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_79903 = {
+	tip = "<size=28>\n是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，\n<color=#ff5c5c>实际性能以获得舰船为准</color>）\n使用装备：<color=#92fc63>\n试作型B-1-P 三联装180mm主炮Model1932改\n三联装550mm鱼雷\n双联装57mm/L60博福斯对空机炮Mle1951\n</color></size>"
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_119901 = {
+	tip = "<size=28>\n是否开始战术模拟？(模拟中我方舰船将受到某些特殊加成影响，\n<color=#ff5c5c>实际性能以获得舰船为准</color>）\n使用装备：<color=#92fc63>\n试作型三联装283mm/54.5主炮\n双联100mm98式高射炮改\n双联装57mm/L60博福斯对空机炮Mle1951\n</color></size>"
+}
+
 _G.pg.base.gametip.electrotherapy_wanning = {
 	tip = "镜面海域扩展中"
 }
@@ -29216,5 +29236,17 @@ _G.pg.base.gametip.battleui_display3 = {
 
 _G.pg.base.gametip.zengke_series_serverinfo = {
 	tip = "服务器："
+}
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom = {
+	tip = "画面质感"
+}
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_optionname0 = {
+	tip = "强"
+}
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_optionname1 = {
+	tip = "弱"
 }
 

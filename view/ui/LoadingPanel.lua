@@ -30,7 +30,9 @@ function var_0_0.preload(arg_5_0, arg_5_1)
 			end
 		end)
 	else
-		LoadSpriteAsync("loadingbg/" .. arg_5_0.bgPath, function(arg_7_0)
+		local var_5_0 = LOGIN_HX and PlayerProxy.GetDeviceMaxPlayerLevel() <= pg.gameset.LOGIN_HX_LV.key_value and "loadingbg_hx/" or "loadingbg/"
+
+		LoadSpriteAsync(var_5_0 .. arg_5_0.bgPath, function(arg_7_0)
 			arg_5_0.staticBgSprite = arg_7_0
 
 			if arg_5_1 then

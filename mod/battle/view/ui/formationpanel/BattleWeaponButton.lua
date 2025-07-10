@@ -16,7 +16,8 @@ var_0_1.ICON_BY_INDEX = {
 	"switch",
 	"special",
 	"aamissile",
-	"meteor"
+	"meteor",
+	"pointairstrike"
 }
 
 function var_0_1.Ctor(arg_1_0)

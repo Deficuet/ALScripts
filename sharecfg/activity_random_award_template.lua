@@ -2,7 +2,7 @@ pg = pg or {}
 pg.activity_random_award_template = {
 	{
 		resource_category = 1,
-		activity = 76,
+		activity = 10048,
 		resource_type = 105,
 		id = 1,
 		resource_num = 60,
@@ -167,7 +167,7 @@ pg.activity_random_award_template = {
 	},
 	{
 		resource_category = 1,
-		activity = 76,
+		activity = 10048,
 		resource_type = 105,
 		id = 2,
 		resource_num = 60,
@@ -323,7 +323,7 @@ pg.activity_random_award_template = {
 	},
 	{
 		resource_category = 1,
-		activity = 76,
+		activity = 10048,
 		resource_type = 105,
 		id = 3,
 		resource_num = 60,
@@ -484,7 +484,7 @@ pg.activity_random_award_template = {
 	},
 	{
 		resource_category = 1,
-		activity = 76,
+		activity = 10048,
 		resource_type = 105,
 		id = 4,
 		resource_num = 60,
@@ -641,7 +641,7 @@ pg.activity_random_award_template = {
 	},
 	[9] = {
 		resource_category = 1,
-		activity = 176,
+		activity = 10142,
 		resource_type = 114,
 		id = 9,
 		resource_num = 15,
@@ -758,7 +758,7 @@ pg.activity_random_award_template = {
 	},
 	[10] = {
 		resource_category = 1,
-		activity = 176,
+		activity = 10142,
 		resource_type = 114,
 		id = 10,
 		resource_num = 15,
@@ -975,7 +975,7 @@ pg.activity_random_award_template = {
 	},
 	[11] = {
 		resource_category = 1,
-		activity = 176,
+		activity = 10142,
 		resource_type = 114,
 		id = 11,
 		resource_num = 15,
@@ -1148,7 +1148,7 @@ pg.activity_random_award_template = {
 	},
 	[12] = {
 		resource_category = 1,
-		activity = 176,
+		activity = 10142,
 		resource_type = 114,
 		id = 12,
 		resource_num = 15,
@@ -1345,7 +1345,7 @@ pg.activity_random_award_template = {
 	},
 	[13] = {
 		resource_category = 1,
-		activity = 230,
+		activity = 10196,
 		resource_type = 119,
 		id = 13,
 		resource_num = 15,
@@ -1462,7 +1462,7 @@ pg.activity_random_award_template = {
 	},
 	[14] = {
 		resource_category = 1,
-		activity = 230,
+		activity = 10196,
 		resource_type = 119,
 		id = 14,
 		resource_num = 15,
@@ -1679,7 +1679,7 @@ pg.activity_random_award_template = {
 	},
 	[15] = {
 		resource_category = 1,
-		activity = 230,
+		activity = 10196,
 		resource_type = 119,
 		id = 15,
 		resource_num = 15,
@@ -1852,7 +1852,7 @@ pg.activity_random_award_template = {
 	},
 	[16] = {
 		resource_category = 1,
-		activity = 230,
+		activity = 10196,
 		resource_type = 119,
 		id = 16,
 		resource_num = 15,

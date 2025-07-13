@@ -55,28 +55,33 @@ function var_0_0.OnFirstFlush(arg_3_0)
 			setActive(arg_3_0.pageSignUpTF, arg_6_0.y < 0.99)
 		end)
 	end
+
+	onScroll(arg_3_0, arg_3_0.scrollTF, function(arg_7_0)
+		setActive(arg_3_0.pageSignDownTF, arg_7_0.y > 0.01)
+		setActive(arg_3_0.pageSignUpTF, arg_7_0.y < 0.99)
+	end)
 end
 
-function var_0_0.OnUpdateFlush(arg_7_0)
-	for iter_7_0 = 1, #arg_7_0.config.front_drops do
-		local var_7_0 = arg_7_0.config.front_drops[iter_7_0]
-		local var_7_1 = arg_7_0:findTF("award" .. tostring(iter_7_0), arg_7_0.content)
-		local var_7_2 = arg_7_0:findTF("btnAchieve", var_7_1)
-		local var_7_3 = arg_7_0:findTF("achieve_sign", var_7_1)
-		local var_7_4 = _.include(arg_7_0.activity.data1_list, var_7_0[1])
+function var_0_0.OnUpdateFlush(arg_8_0)
+	for iter_8_0 = 1, #arg_8_0.config.front_drops do
+		local var_8_0 = arg_8_0.config.front_drops[iter_8_0]
+		local var_8_1 = arg_8_0:findTF("award" .. tostring(iter_8_0), arg_8_0.content)
+		local var_8_2 = arg_8_0:findTF("btnAchieve", var_8_1)
+		local var_8_3 = arg_8_0:findTF("achieve_sign", var_8_1)
+		local var_8_4 = _.include(arg_8_0.activity.data1_list, var_8_0[1])
 
-		if var_7_4 then
-			var_7_1.transform:SetAsLastSibling()
+		if var_8_4 then
+			var_8_1.transform:SetAsLastSibling()
 		end
 
-		setGray(arg_7_0:findTF("limit_label", var_7_1), var_7_4)
-		setGray(arg_7_0:findTF("items", var_7_1), var_7_4)
-		setActive(var_7_3, var_7_4)
-		setActive(var_7_2, arg_7_0.shareData.player.level >= var_7_0[1] and not var_7_4)
+		setGray(arg_8_0:findTF("limit_label", var_8_1), var_8_4)
+		setGray(arg_8_0:findTF("items", var_8_1), var_8_4)
+		setActive(var_8_3, var_8_4)
+		setActive(var_8_2, arg_8_0.shareData.player.level >= var_8_0[1] and not var_8_4)
 	end
 end
 
-function var_0_0.OnDestroy(arg_8_0)
+function var_0_0.OnDestroy(arg_9_0)
 	return
 end
 

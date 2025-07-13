@@ -42,7 +42,7 @@ pg.activity_clue_group = setmetatable({
 pg.base = pg.base or {}
 pg.base.activity_clue_group = {
 	{
-		title = "深谷病院·上",
+		title = "バレー病院・上",
 		type = 1,
 		id = 1,
 		task_id = "21613",
@@ -55,7 +55,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "深谷病院·下",
+		title = "バレー病院・下",
 		type = 1,
 		id = 2,
 		task_id = "21613",
@@ -68,7 +68,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "诊疗中心",
+		title = "診療センター",
 		type = 1,
 		id = 3,
 		task_id = "21613",
@@ -81,7 +81,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "医生办公室",
+		title = "オフィス",
 		type = 1,
 		id = 4,
 		task_id = "21612",
@@ -99,7 +99,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "诊疗中心(地下)",
+		title = "診療センター（地下）",
 		type = 1,
 		id = 5,
 		task_id = "21612",
@@ -117,7 +117,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "住院大楼",
+		title = "入院棟",
 		type = 1,
 		id = 6,
 		task_id = "21606",
@@ -133,7 +133,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "护士站",
+		title = "控え室",
 		type = 1,
 		id = 7,
 		task_id = "21606",
@@ -150,7 +150,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "病房",
+		title = "病室",
 		type = 1,
 		id = 8,
 		task_id = "21606",
@@ -167,7 +167,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "住院大楼(地下)",
+		title = "入院棟（地下）",
 		type = 1,
 		id = 9,
 		task_id = "21607",
@@ -184,7 +184,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "研究中心",
+		title = "研究センター",
 		type = 1,
 		id = 10,
 		task_id = "21609",
@@ -200,7 +200,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "研究中心(地下)",
+		title = "研究センター（地下）",
 		type = 1,
 		id = 11,
 		task_id = "21610",
@@ -218,7 +218,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "疗养中心",
+		title = "療養センター",
 		type = 1,
 		id = 12,
 		task_id = "21607",
@@ -234,7 +234,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "疗养中心(地下)",
+		title = "療養センター（地下）",
 		type = 1,
 		id = 13,
 		task_id = "21607",
@@ -252,7 +252,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "后勤中心",
+		title = "物流センター",
 		type = 1,
 		id = 14,
 		task_id = "21608",
@@ -268,7 +268,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "后勤中心(地下)",
+		title = "物流センター（地下）",
 		type = 1,
 		id = 15,
 		task_id = "21608",
@@ -284,7 +284,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "停车场",
+		title = "駐車場",
 		type = 1,
 		id = 16,
 		task_id = "21610",
@@ -301,7 +301,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "停车场(地下)",
+		title = "駐車場（地下）",
 		type = 1,
 		id = 17,
 		task_id = "21610",
@@ -319,7 +319,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "门卫亭",
+		title = "守衛室",
 		type = 1,
 		id = 18,
 		task_id = "21611",
@@ -336,7 +336,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "古典长廊",
+		title = "廊下",
 		type = 1,
 		id = 19,
 		task_id = "21612",
@@ -354,7 +354,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "庭院",
+		title = "庭園",
 		type = 1,
 		id = 20,
 		task_id = "21609",
@@ -372,7 +372,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "樱花树",
+		title = "桜の木",
 		type = 1,
 		id = 21,
 		task_id = "21609",
@@ -390,7 +390,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "小树林",
+		title = "小さな森",
 		type = 1,
 		id = 22,
 		task_id = "21608",
@@ -408,7 +408,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "正门",
+		title = "正門",
 		type = 1,
 		id = 23,
 		task_id = "21611",
@@ -424,7 +424,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "后门",
+		title = "裏口",
 		type = 1,
 		id = 24,
 		task_id = "21611",
@@ -442,7 +442,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "莫加多尔",
+		title = "モガドール",
 		type = 2,
 		id = 25,
 		task_id = "21614",
@@ -455,7 +455,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "富兰克林",
+		title = "フランクリン",
 		type = 2,
 		id = 26,
 		task_id = "21615",
@@ -470,7 +470,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "华盛顿",
+		title = "ワシントン",
 		type = 2,
 		id = 27,
 		task_id = "21616",
@@ -488,7 +488,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "{namecode:59}",
+		title = "鈴谷",
 		type = 2,
 		id = 28,
 		task_id = "21617",
@@ -503,7 +503,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "伏罗希洛夫",
+		title = "ヴォロシーロフ",
 		type = 2,
 		id = 29,
 		task_id = "21618",
@@ -521,7 +521,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "鹰",
+		title = "イーグル",
 		type = 2,
 		id = 30,
 		task_id = "21619",
@@ -537,7 +537,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "神速",
+		title = "ストレミテルヌイ",
 		type = 2,
 		id = 31,
 		task_id = "21620",
@@ -552,7 +552,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "圣塔菲",
+		title = "サンタフェ",
 		type = 2,
 		id = 32,
 		task_id = "21621",
@@ -567,7 +567,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "米勒",
+		title = "ミラー",
 		type = 2,
 		id = 33,
 		task_id = "21622",
@@ -585,7 +585,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "哈尔福德",
+		title = "ハルフォード",
 		type = 2,
 		id = 34,
 		task_id = "21623",
@@ -598,7 +598,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		title = "{namecode:91}",
+		title = "赤城",
 		type = 2,
 		id = 35,
 		task_id = "21624",

@@ -357,7 +357,7 @@ function var_0_0.flushDetail(arg_14_0)
 			local var_14_10 = var_14_7:GetChild(1):GetComponent("Text")
 
 			var_14_9.alignment = TextAnchor.MiddleLeft
-			var_14_10.alignment = TextAnchor.MiddleRight
+			var_14_10.alignment = TextAnchor.LowerRight
 
 			local var_14_11 = var_14_3[arg_14_0.detailType][iter_14_0]
 

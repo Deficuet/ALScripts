@@ -1,13 +1,8 @@
 local var_0_0 = class("LotteryLayer", import("..base.BaseUI"))
 local var_0_1 = pg.activity_random_award_template
-local var_0_2 = true
 
 function var_0_0.getUIName(arg_1_0)
-	if var_0_2 then
-		return "LotteryForCHTUI"
-	else
-		return "LotteryUI"
-	end
+	return "LotteryUI"
 end
 
 function var_0_0.setPlayerVO(arg_2_0, arg_2_1)
@@ -61,13 +56,11 @@ function var_0_0.init(arg_7_0)
 	arg_7_0.attrs = arg_7_0:findTF("left_panel/pool_list/arrs")
 	arg_7_0.mainItenContainer = arg_7_0:findTF("right_panel/main_item_list/content")
 	arg_7_0.mainItenTpl = arg_7_0:findTF("equipmenttpl", arg_7_0.mainItenContainer)
-	arg_7_0.resource = arg_7_0:findTF("left_panel/resource")
+	arg_7_0.resource = arg_7_0:findTF("right_panel/resource")
 	arg_7_0.launchOneBtn = arg_7_0:findTF("left_panel/launch_one_btn")
 	arg_7_0.launchOneBtnTxt = arg_7_0:findTF("res/Text", arg_7_0.launchOneBtn):GetComponent(typeof(Text))
 	arg_7_0.launchTenBtn = arg_7_0:findTF("left_panel/launch_ten_btn")
 	arg_7_0.launchTenBtnTxt = arg_7_0:findTF("res/Text", arg_7_0.launchTenBtn):GetComponent(typeof(Text))
-	arg_7_0.launchMaxBtn = arg_7_0:findTF("left_panel/launch_max_btn")
-	arg_7_0.launchMaxBtnTxt = arg_7_0:findTF("res/Text", arg_7_0.launchMaxBtn):GetComponent(typeof(Text))
 	arg_7_0.awardsCounttxt = arg_7_0:findTF("right_panel/count_container/Text"):GetComponent(typeof(Text))
 	arg_7_0.bgTF = arg_7_0:findTF("right_panel"):GetComponent(typeof(Image))
 	arg_7_0.descBtn = arg_7_0:findTF("right_panel/desc_btn")
@@ -79,7 +72,7 @@ function var_0_0.init(arg_7_0)
 end
 
 function var_0_0.didEnter(arg_8_0)
-	onButton(arg_8_0, arg_8_0:findTF("top/back_btn"), function()
+	onButton(arg_8_0, arg_8_0:findTF("top/back"), function()
 		arg_8_0:emit(var_0_0.ON_CLOSE)
 	end, SOUND_BACK)
 
@@ -226,11 +219,6 @@ function var_0_0.updateActivityPoolState(arg_21_0)
 		setActive(var_21_0:Find("selected/unlock"), var_21_1)
 		setActive(var_21_0:Find("selected/lock"), not var_21_1)
 
-		if var_0_2 then
-			setActive(var_21_0:Find("icon"), var_21_1)
-			setActive(var_21_0:Find("icon_g"), not var_21_1)
-		end
-
 		local var_21_2 = iter_21_1:getleftItemCount()
 
 		setActive(var_21_0:Find("finish"), var_21_2 == 0)
@@ -251,12 +239,7 @@ function var_0_0.switchToPool(arg_22_0, arg_22_1)
 	local var_22_2 = arg_22_0.bgs[arg_22_1]
 
 	if not var_22_2 then
-		if var_0_2 then
-			var_22_2 = LoadSprite("lotterybg/cht_" .. var_22_0.index)
-		else
-			var_22_2 = LoadSprite("lotterybg/kr_re_" .. var_22_0.index)
-		end
-
+		var_22_2 = LoadSprite("lotterybg/kr_re_" .. var_22_0.index)
 		arg_22_0.bgs[arg_22_1] = var_22_2
 	end
 

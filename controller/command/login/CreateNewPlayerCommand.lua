@@ -17,6 +17,7 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		if arg_2_0.result == 0 then
 			print("created new player: " .. arg_2_0.user_id)
 			pg.TrackerMgr.GetInstance():Tracking(TRACKING_ROLE_CREATE, nil, arg_2_0.user_id)
+			pg.TrackerMgr.GetInstance():Tracking(TRACKING_ROLE_CREATE)
 			getProxy(SettingsProxy):SetSelectedShipId(var_1_2)
 			arg_1_0:sendNotification(GAME.CREATE_NEW_PLAYER_DONE, arg_2_0.user_id)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("create_player_success"))

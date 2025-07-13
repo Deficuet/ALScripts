@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "请点击空白处",
+				text = "画面をタップし戻りましょう",
 				mode = 2,
 				posY = -350,
 				char = 1,
@@ -23,7 +23,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "请打开<color=#39bfff>行程计划</color>",
+				text = "「今週の予定」をタップしてください",
 				mode = 2,
 				posY = -401.4,
 				char = 1,
@@ -42,7 +42,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击空白行程格。",
+				text = "予定枠をタップし、予定を追加してください",
 				mode = 2,
 				posY = -146.57,
 				char = 1,
@@ -61,7 +61,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "新的行程解锁了。",
+				text = "新しい予定が開放されました。",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -79,7 +79,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "完成课程可提升相应的属性，当完成一定次数后可以解锁<color=#39bfff>该课程的更高等级</color>。",
+				text = "授業を受けるとTBの属性が上昇し、さらに一定回数をこなすと上位の予定を解放できます",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -99,7 +99,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "从现在开始，直至9月的第4周为止，领航员-TB的个性将受到行程内容的影响。",
+				text = "9月の四週目まで、「予定」でTBの「個性」について育成できます",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -117,7 +117,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "领航员-TB的个性将会影响到养成计划的结局，还请好好把握这段时间哦~",
+				text = "TBの「個性」は到達できるエンディングに影響します",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -135,7 +135,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "请合理规划课程，培养出更优秀的领航员吧~",
+				text = "予定を設定し、引き続きTBを育成しましょう",
 				mode = 2,
 				dir = -1,
 				char = 1,

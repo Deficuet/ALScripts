@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "随机事件功能已解锁！",
+				text = "ランダムイベント機能が解放されました",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击「出行」按钮，即可查看可触发的随机事件",
+				text = "「お出かけ」ボタンをタップすると、発生可能なランダムイベントを確認できます",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -45,7 +45,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "在这里你可以查看随机事件，并选择是否消耗行动力来激活它们",
+				text = "ここでランダムイベントを確認し、行動力を消費して開始させるかどうかを選択できます",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -58,7 +58,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "通过参与随机事件，可以获得各种状态效果",
+				text = "ランダムイベントでは、様々な「状態」効果、バフを獲得できます",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -71,7 +71,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击此处可随时查看获得的状态详情",
+				text = "ここをタップすると、獲得した「状態」の詳細をいつでも確認できます",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -94,7 +94,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "包括效果说明和持续时间等",
+				text = "効果の説明や持続時間もここに表示されます",
 				mode = 2,
 				dir = 1,
 				char = 1,

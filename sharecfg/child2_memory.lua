@@ -1,175 +1,175 @@
 pg = pg or {}
 pg.child2_memory = {
 	[101] = {
-		desc = "初次见面……？",
+		desc = "初めまして……？",
 		character = 1,
 		id = 101,
 		pic = "bg_project_oceana_cg1",
 		lua = "LINGYANGZHEYANGCHENGJIHUA3"
 	},
 	[102] = {
-		desc = "她的另一面",
+		desc = "彼女のもう一つの顔",
 		character = 1,
 		id = 102,
 		pic = "bg_project_oceana_cg2",
 		lua = "LINGYANGZHEYANGCHENGJIHUA6"
 	},
 	[103] = {
-		desc = "新的爱好？I",
+		desc = "新しい趣味？I",
 		character = 1,
 		id = 103,
 		pic = "bg_project_oceana_cg3",
 		lua = "LINGYANGZHEYANGCHENGJIHUA8"
 	},
 	[104] = {
-		desc = "新的爱好？II",
+		desc = "新しい趣味？Ⅱ",
 		character = 1,
 		id = 104,
 		pic = "bg_project_oceana_cg4",
 		lua = "LINGYANGZHEYANGCHENGJIHUA9"
 	},
 	[105] = {
-		desc = "去室外运动吧！I",
+		desc = "アウトドアアクティビティ！Ⅰ",
 		character = 1,
 		id = 105,
 		pic = "bg_project_oceana_cg5",
 		lua = "LINGYANGZHEYANGCHENGJIHUA10"
 	},
 	[106] = {
-		desc = "去室外运动吧！II",
+		desc = "アウトドアアクティビティ！Ⅱ",
 		character = 1,
 		id = 106,
 		pic = "bg_project_oceana_cg6",
 		lua = "LINGYANGZHEYANGCHENGJIHUA11"
 	},
 	[107] = {
-		desc = "课余生活？I",
+		desc = "課外活動？Ⅰ",
 		character = 1,
 		id = 107,
 		pic = "bg_project_oceana_cg7",
 		lua = "LINGYANGZHEYANGCHENGJIHUA12"
 	},
 	[108] = {
-		desc = "课余生活？II",
+		desc = "課外活動？Ⅱ",
 		character = 1,
 		id = 108,
 		pic = "bg_project_oceana_cg7",
 		lua = "LINGYANGZHEYANGCHENGJIHUA13"
 	},
 	[109] = {
-		desc = "充实的陪伴时光！I",
+		desc = "二人きりの時間Ⅰ",
 		character = 1,
 		id = 109,
 		pic = "bg_project_oceana_cg8",
 		lua = "LINGYANGZHEYANGCHENGJIHUA14"
 	},
 	[110] = {
-		desc = "充实的陪伴时光！II",
+		desc = "二人きりの時間Ⅱ",
 		character = 1,
 		id = 110,
 		pic = "bg_project_oceana_cg9",
 		lua = "LINGYANGZHEYANGCHENGJIHUA15"
 	},
 	[111] = {
-		desc = "平衡大师？",
+		desc = "バランスマスター？",
 		character = 1,
 		id = 111,
 		pic = "bg_project_oceana_cg10",
 		lua = "LINGYANGZHEYANGCHENGJIHUA16"
 	},
 	[112] = {
-		desc = "整理旧物",
+		desc = "古物整理",
 		character = 1,
 		id = 112,
 		pic = "bg_project_oceana_cg11",
 		lua = "LINGYANGZHEYANGCHENGJIHUA17"
 	},
 	[113] = {
-		desc = "球场交锋",
+		desc = "テニス対決",
 		character = 1,
 		id = 113,
 		pic = "bg_project_oceana_cg12",
 		lua = "LINGYANGZHEYANGCHENGJIHUA18"
 	},
 	[114] = {
-		desc = "少女心事？",
+		desc = "秘めた思い？",
 		character = 1,
 		id = 114,
 		pic = "bg_project_oceana_cg13",
 		lua = "LINGYANGZHEYANGCHENGJIHUA19"
 	},
 	[115] = {
-		desc = "未来的方向I",
+		desc = "未来の方向Ⅰ",
 		character = 1,
 		id = 115,
 		pic = "bg_project_oceana_cg14",
 		lua = "LINGYANGZHEYANGCHENGJIHUA20"
 	},
 	[116] = {
-		desc = "未来的方向II",
+		desc = "未来の方向Ⅱ",
 		character = 1,
 		id = 116,
 		pic = "bg_project_oceana_cg14",
 		lua = "LINGYANGZHEYANGCHENGJIHUA21"
 	},
 	[117] = {
-		desc = "良好的开始",
+		desc = "新しい始まり",
 		character = 1,
 		id = 117,
 		pic = "bg_project_oceana_cg15",
 		lua = "LINGYANGZHEYANGCHENGJIHUA22"
 	},
 	[118] = {
-		desc = "饮料风波",
+		desc = "ドリンク・アクシデント",
 		character = 1,
 		id = 118,
 		pic = "bg_project_oceana_cg16",
 		lua = "LINGYANGZHEYANGCHENGJIHUA23"
 	},
 	[119] = {
-		desc = "创作之日",
+		desc = "クリエイティブデイ",
 		character = 1,
 		id = 119,
 		pic = "bg_project_oceana_cg17",
 		lua = "LINGYANGZHEYANGCHENGJIHUA24"
 	},
 	[120] = {
-		desc = "美食的秘密配方",
+		desc = "シークレット・レシピ",
 		character = 1,
 		id = 120,
 		pic = "bg_project_oceana_cg18",
 		lua = "LINGYANGZHEYANGCHENGJIHUA25"
 	},
 	[121] = {
-		desc = "两人的生活",
+		desc = "二人の日常",
 		character = 1,
 		id = 121,
 		pic = "bg_project_oceana_cg19",
 		lua = "LINGYANGZHEYANGCHENGJIHUA26"
 	},
 	[122] = {
-		desc = "深夜的努力",
+		desc = "深夜の努力",
 		character = 1,
 		id = 122,
 		pic = "bg_project_oceana_cg20",
 		lua = "LINGYANGZHEYANGCHENGJIHUA27"
 	},
 	[123] = {
-		desc = "认真的她",
+		desc = "努力家",
 		character = 1,
 		id = 123,
 		pic = "bg_project_oceana_cg21",
 		lua = "LINGYANGZHEYANGCHENGJIHUA28"
 	},
 	[124] = {
-		desc = "有你的未来I",
+		desc = "あなたがいる未来Ⅰ",
 		character = 1,
 		id = 124,
 		pic = "bg_project_oceana_cg22",
 		lua = "LINGYANGZHEYANGCHENGJIHUA29"
 	},
 	[125] = {
-		desc = "有你的未来II",
+		desc = "あなたがいる未来Ⅱ",
 		character = 1,
 		id = 125,
 		pic = "bg_project_oceana_cg22",

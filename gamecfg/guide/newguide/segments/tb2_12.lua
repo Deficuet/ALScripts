@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "第一次考核开启！",
+				text = "第一回成長判定が開始されました",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "娜比娅将根据自身的属性数值对课程怪物发起挑战，数值越高攻击越奏效",
+				text = "ナビィは自身のパラメータ値に基づいて「授業モンスター」に挑戦します。パラメータが高いほど攻撃が効果的です",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -31,7 +31,20 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "而最终击杀的速度越快，娜比娅所获得的考核评价也就越高",
+				text = "モンスターを倒すスピードが速いほど、ナビィの判定評価も高くなります",
+				mode = 2,
+				dir = 1,
+				char = 1,
+				posY = 0,
+				posX = 0,
+				uiset = {}
+			}
+		},
+		{
+			is3dDorm = false,
+			alpha = 0.4,
+			style = {
+				text = "倒せなくても育成は継続しますが、エンディングの達成条件にはナビィのパラメータが関係しますので、ご注意ください",
 				mode = 2,
 				dir = 1,
 				char = 1,

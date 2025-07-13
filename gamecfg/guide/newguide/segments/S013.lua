@@ -1,7 +1,7 @@
 local var_0_0 = {
-	"前往<color=#ff7d36>仓库</color>界面",
-	"点击<color=#ff7d36>选择科技箱</color>",
-	"点击<color=#ff7d36>使用</color>打开科技箱"
+	"<color=#ff7d36>倉庫</color>を確認するわ",
+	"<color=#ff7d36>装備箱</color>を選んでね",
+	"<color=#ff7d36>使う</color>で装備箱を開けるのよ"
 }
 
 return {

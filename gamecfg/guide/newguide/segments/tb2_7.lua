@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "现在，来看看「 养成计划2.0」中关于日程的部分吧",
+				text = "では、ナビィ育成のスケジュール部分を見てみましょう",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "请点击「行程计划」，开始本回合的日程安排吧",
+				text = "「予定」をタップして、このターンの予定の調整を始めましょう",
 				mode = 2,
 				dir = 1,
 				char = 1,

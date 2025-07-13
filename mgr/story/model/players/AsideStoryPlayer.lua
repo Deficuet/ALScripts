@@ -125,7 +125,7 @@ function var_0_0.PlayBubbleAside(arg_10_0, arg_10_1, arg_10_2)
 		table.insert(var_10_4, function(arg_11_0)
 			local var_11_0 = cloneTplTo(var_10_0.item, var_10_0.container, iter_10_1)
 
-			setText(var_11_0, HXSet.hxLan(var_10_2[iter_10_1][1]))
+			setText(var_11_0, var_10_2[iter_10_1][1])
 
 			local var_11_1 = GetOrAddComponent(var_11_0, typeof(Typewriter))
 

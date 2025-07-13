@@ -1,9 +1,9 @@
 pg = pg or {}
 pg.activity_template_headhunting = {
-	[300] = {
+	[10251] = {
 		man_num = 2,
 		pt = 124,
-		id = 300,
+		id = 10251,
 		level = 15,
 		target = {
 			25,
@@ -2870,7 +2870,7 @@ pg.activity_template_headhunting = {
 		}
 	},
 	all = {
-		300,
+		10251,
 		369,
 		590,
 		687,

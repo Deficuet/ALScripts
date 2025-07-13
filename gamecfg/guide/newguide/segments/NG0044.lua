@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "在次活动中，分为【剧情模式】与【作战模式】",
+				text = "【バトル】と【ストーリー】でモードを切り替えられるわ！",
 				mode = 1,
 				dir = 1,
 				char = "char",
@@ -16,7 +16,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击【剧情模式】按钮来进入剧情模式吧",
+				text = "【ストーリー】をタップするとイベントストーリーを確認できる！",
 				mode = 1,
 				posY = 0,
 				char = "char",
@@ -32,7 +32,7 @@ return {
 			delay = 2.3,
 			alpha = 0.4,
 			style = {
-				text = "在剧情模式中让我们一起在异世界冒险吧！",
+				text = "【ストーリー】を最後まで読むと、SPステージを開放可能！",
 				mode = 1,
 				dir = 1,
 				char = "char",
@@ -44,7 +44,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "有关本次活动的特殊机制可以随时点击问号查看哦",
+				text = "イベントの仕様については「ヘルプ」で確認してね！",
 				mode = 1,
 				dir = -1,
 				char = "char",

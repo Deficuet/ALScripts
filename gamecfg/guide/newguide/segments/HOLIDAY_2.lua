@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.5,
 			style = {
-				text = "完成重建任务可以获得更多运力",
+				text = "再建任務を完了すると、輸送力をもっと入手できるようになるわ",
 				mode = 2,
 				dir = 1,
 				char = "char",
@@ -24,7 +24,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.5,
 			style = {
-				text = "前往运输码头，消耗运力获取重建物资",
+				text = "輸送埠頭をタップし、輸送力を消費して物資を調達して！",
 				mode = 2,
 				dir = 1,
 				char = "char",
@@ -43,7 +43,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.64,
 			style = {
-				text = "推进别墅岛重建进度，解锁更多功能",
+				text = "リゾート島の再建が進むと、色んな機能が開放されるわ",
 				mode = 2,
 				dir = -1,
 				char = "char",

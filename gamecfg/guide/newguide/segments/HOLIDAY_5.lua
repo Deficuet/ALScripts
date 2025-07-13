@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.6,
 			style = {
-				text = "海滩区重建完成，解锁小游戏「啾啾打捞团」  ",
+				text = "ビーチエリアの再建が完了したわ！ミニゲーム「饅頭サルベージ」が開放されたわよ  ",
 				mode = 2,
 				dir = -1,
 				char = "char",

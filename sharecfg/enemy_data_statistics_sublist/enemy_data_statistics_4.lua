@@ -444,7 +444,7 @@ pg.enemy_data_statistics_4 = {
 	},
 	[90070] = {
 		cannon = 0,
-		name = "鱼雷艇",
+		name = "量産型PTボート",
 		type = 14,
 		speed_growth = 0,
 		air_growth = 0,
@@ -604,7 +604,7 @@ pg.enemy_data_statistics_4 = {
 	},
 	[90080] = {
 		cannon = 0,
-		name = "自爆船",
+		name = "量産型自爆ボート",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -750,7 +750,7 @@ pg.enemy_data_statistics_4 = {
 	},
 	[90090] = {
 		cannon = 0,
-		name = "物资船",
+		name = "輸送艦",
 		type = 15,
 		speed_growth = 0,
 		air_growth = 0,
@@ -910,7 +910,7 @@ pg.enemy_data_statistics_4 = {
 	},
 	[90100] = {
 		cannon = 0,
-		name = "马汉级量产型",
+		name = "量産型マハン級",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1070,7 +1070,7 @@ pg.enemy_data_statistics_4 = {
 	},
 	[90101] = {
 		cannon = 0,
-		name = "睦月级量产型",
+		name = "量産型ムツキ級",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1225,7 +1225,7 @@ pg.enemy_data_statistics_4 = {
 	},
 	[90102] = {
 		cannon = 0,
-		name = "吹雪级量产型",
+		name = "量産型フブキ級",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1378,7 +1378,7 @@ pg.enemy_data_statistics_4 = {
 	},
 	[90103] = {
 		cannon = 0,
-		name = "白露级量产型",
+		name = "量産型シラツユ級",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1531,7 +1531,7 @@ pg.enemy_data_statistics_4 = {
 	},
 	[90104] = {
 		cannon = 0,
-		name = "夕云级量产型",
+		name = "量産型ユウグモ級",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1686,7 +1686,7 @@ pg.enemy_data_statistics_4 = {
 	},
 	[90105] = {
 		cannon = 0,
-		name = "阳炎级量产型",
+		name = "量産型カゲロウ級",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1839,7 +1839,7 @@ pg.enemy_data_statistics_4 = {
 	},
 	[90106] = {
 		cannon = 0,
-		name = "Z艇量产型",
+		name = "量産型Zボート",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2001,7 +2001,7 @@ pg.enemy_data_statistics_4 = {
 	},
 	[90107] = {
 		cannon = 0,
-		name = "长良级量产型",
+		name = "量産型ナガラ級",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2161,7 +2161,7 @@ pg.enemy_data_statistics_4 = {
 	},
 	[90108] = {
 		cannon = 0,
-		name = "五十铃量产型",
+		name = "量産型イスズ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,

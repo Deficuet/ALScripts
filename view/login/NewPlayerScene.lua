@@ -6,7 +6,7 @@ local var_0_4 = 19
 local var_0_5 = {
 	101171,
 	201211,
-	401231
+	301051
 }
 local var_0_6 = {
 	[401231] = "z23",
@@ -17,7 +17,7 @@ local var_0_6 = {
 local var_0_7 = {
 	[101171] = i18n("login_newPlayerScene_word_laFei"),
 	[201211] = i18n("login_newPlayerScene_word_biaoqiang"),
-	[401231] = i18n("login_newPlayerScene_word_z23")
+	[301051] = i18n("login_newPlayerScene_word_lingBo")
 }
 
 function var_0_0.getUIName(arg_1_0)

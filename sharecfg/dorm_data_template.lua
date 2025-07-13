@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.dorm_data_template = {
 	{
-		name = "一级房间",
+		name = "寮舎lv1",
 		training_ship_number = 6,
 		time = 15,
 		exp = 1,
@@ -50,7 +50,7 @@ pg.dorm_data_template = {
 		}
 	},
 	{
-		name = "二级房间",
+		name = "寮舎lv2",
 		training_ship_number = 6,
 		time = 15,
 		exp = 1,
@@ -99,7 +99,7 @@ pg.dorm_data_template = {
 		}
 	},
 	{
-		name = "三级房间",
+		name = "寮舎lv3",
 		training_ship_number = 6,
 		time = 15,
 		exp = 1,
@@ -148,7 +148,7 @@ pg.dorm_data_template = {
 		}
 	},
 	{
-		name = "四级房间",
+		name = "寮舎lv4",
 		training_ship_number = 6,
 		time = 15,
 		exp = 1,

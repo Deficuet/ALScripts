@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "像这样，完成日常交流可提升与娜比娅的好感度",
+				text = "日常会話をすると、ナビィの好感度が上昇します",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -29,7 +29,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "点击此处可确认当前好感度等级",
+				text = "タップすると現在の好感度レベルを確認できます",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -49,7 +49,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "此后每升一级，都可以获取额外奖励",
+				text = "以降、レベルが1つ上がるごとに追加報酬が獲得できます",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -62,7 +62,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "现在，请点击空白处关闭弹窗吧",
+				text = "画面をタップして戻りましょう",
 				mode = 2,
 				dir = 1,
 				char = 1,

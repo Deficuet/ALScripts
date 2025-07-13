@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "根据指挥官对娜比娅的培养选择，她将迎来不同的成长结局",
+				text = "指揮官のナビィへの育成次第で、異なる成長エンディングを迎えます",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "请点击此处查看结局和要求",
+				text = "タップして、エンディングの必要条件を確認しましょう",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -41,7 +41,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击「结局」",
+				text = "「エンディング」をタップ",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -64,7 +64,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "娜比娅共有15种不同的成长结局",
+				text = "ナビィには15種類の異なる成長エンディングがあります",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -77,7 +77,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击此处查看各结局的解锁条件",
+				text = "各エンディングの解放条件を確認できます",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -104,7 +104,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "达成相应的数值条件即可解锁结局，若同时满足多个结局条件，则可同时解锁多个结局",
+				text = "対応する数値条件を達成するとエンディングが解放され、複数のエンディング条件を同時に満たした場合は、複数のエンディングを同時に解放できます",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -117,7 +117,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击空白处关闭",
+				text = "空白部分をタップし、画面を閉じましょう",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -138,7 +138,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击返回主页",
+				text = "タップしてメイン画面に戻りましょう",
 				mode = 2,
 				dir = -1,
 				char = 1,

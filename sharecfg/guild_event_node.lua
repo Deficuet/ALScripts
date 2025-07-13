@@ -2,10 +2,10 @@ pg = pg or {}
 pg.guild_event_node = {
 	{
 		item = "sairendanchuan",
-		success_describe = "轻松歼灭了出现的零星塞壬，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		id = 1,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -28,10 +28,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "轻松歼灭了出现的零星塞壬，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		id = 2,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -54,10 +54,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "轻松歼灭了出现的零星塞壬，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		id = 3,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -80,10 +80,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "轻松歼灭了出现的零星塞壬，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		id = 4,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -106,10 +106,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "轻松歼灭了出现的零星塞壬，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		id = 5,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -132,10 +132,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "轻松歼灭了出现的零星塞壬，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		id = 6,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -158,10 +158,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "轻松歼灭了出现的零星塞壬，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		id = 7,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -184,10 +184,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "轻松歼灭了出现的零星塞壬，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		id = 8,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -210,10 +210,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "轻松歼灭了出现的零星塞壬，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		id = 9,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -236,10 +236,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "轻松歼灭了出现的零星塞壬，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		id = 10,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -262,10 +262,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 11,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -288,10 +288,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 12,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -314,10 +314,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 13,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -340,10 +340,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 14,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -366,10 +366,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 15,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -392,10 +392,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 16,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -418,10 +418,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 17,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -444,10 +444,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 18,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -470,10 +470,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 19,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -496,10 +496,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 20,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -522,10 +522,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "轻松歼灭了出现的零星塞壬，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		id = 21,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -548,10 +548,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "轻松歼灭了出现的零星塞壬，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		id = 22,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -574,10 +574,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "轻松歼灭了出现的零星塞壬，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		id = 23,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -600,10 +600,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "轻松歼灭了出现的零星塞壬，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		id = 24,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -626,10 +626,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "轻松歼灭了出现的零星塞壬，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		id = 25,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -652,10 +652,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "轻松歼灭了出现的零星塞壬，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		id = 26,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -678,10 +678,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "轻松歼灭了出现的零星塞壬，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		id = 27,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -704,10 +704,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "轻松歼灭了出现的零星塞壬，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		id = 28,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -730,10 +730,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "轻松歼灭了出现的零星塞壬，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		id = 29,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -756,10 +756,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "轻松歼灭了出现的零星塞壬，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊がはぐれたセイレーンを撃破し、戦利品として$1を手に入れた",
 		id = 30,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -782,10 +782,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "经过激战，消灭了中型塞壬舰队，$2舰队在打扫战场时获得了$1",
+		success_describe = "$2の艦隊が激戦で中規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 31,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -808,10 +808,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "经过激战，消灭了中型塞壬舰队，$2舰队在打扫战场时获得了$1",
+		success_describe = "$2の艦隊が激戦で中規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 32,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -834,10 +834,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "经过激战，消灭了中型塞壬舰队，$2舰队在打扫战场时获得了$1",
+		success_describe = "$2の艦隊が激戦で中規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 33,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -860,10 +860,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "经过激战，消灭了中型塞壬舰队，$2舰队在打扫战场时获得了$1",
+		success_describe = "$2の艦隊が激戦で中規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 34,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -886,10 +886,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "经过激战，消灭了中型塞壬舰队，$2舰队在打扫战场时获得了$1",
+		success_describe = "$2の艦隊が激戦で中規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 35,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -912,10 +912,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "经过激战，消灭了中型塞壬舰队，$2舰队在打扫战场时获得了$1",
+		success_describe = "$2の艦隊が激戦で中規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 36,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -938,10 +938,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "经过激战，消灭了中型塞壬舰队，$2舰队在打扫战场时获得了$1",
+		success_describe = "$2の艦隊が激戦で中規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 37,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -964,10 +964,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "经过激战，消灭了中型塞壬舰队，$2舰队在打扫战场时获得了$1",
+		success_describe = "$2の艦隊が激戦で中規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 38,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -990,10 +990,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "经过激战，消灭了中型塞壬舰队，$2舰队在打扫战场时获得了$1",
+		success_describe = "$2の艦隊が激戦で中規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 39,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1016,10 +1016,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "经过激战，消灭了中型塞壬舰队，$2舰队在打扫战场时获得了$1",
+		success_describe = "$2の艦隊が激戦で中規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 40,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1042,10 +1042,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 41,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1068,10 +1068,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 42,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1094,10 +1094,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 43,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1120,10 +1120,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 44,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1146,10 +1146,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 45,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1172,10 +1172,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 46,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1198,10 +1198,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 47,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1224,10 +1224,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 48,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1250,10 +1250,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 49,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1276,10 +1276,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 50,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1302,10 +1302,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭了包含主力舰在内的多支塞壬舰队，$2舰队在打扫战场时获得了$1",
+		success_describe = "$2の艦隊が全力で大規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 51,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1331,7 +1331,7 @@ pg.guild_event_node = {
 		success_describe = "成功消灭了包含主力舰在内的多支塞壬舰队，$2舰队在打扫战场时获得了$1",
 		id = 52,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1357,7 +1357,7 @@ pg.guild_event_node = {
 		success_describe = "成功消灭了包含主力舰在内的多支塞壬舰队，$2舰队在打扫战场时获得了$1",
 		id = 53,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1383,7 +1383,7 @@ pg.guild_event_node = {
 		success_describe = "成功消灭了包含主力舰在内的多支塞壬舰队，$2舰队在打扫战场时获得了$1",
 		id = 54,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1409,7 +1409,7 @@ pg.guild_event_node = {
 		success_describe = "成功消灭了包含主力舰在内的多支塞壬舰队，$2舰队在打扫战场时获得了$1",
 		id = 55,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1435,7 +1435,7 @@ pg.guild_event_node = {
 		success_describe = "成功消灭了包含主力舰在内的多支塞壬舰队，$2舰队在打扫战场时获得了$1",
 		id = 56,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1461,7 +1461,7 @@ pg.guild_event_node = {
 		success_describe = "成功消灭了包含主力舰在内的多支塞壬舰队，$2舰队在打扫战场时获得了$1",
 		id = 57,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1487,7 +1487,7 @@ pg.guild_event_node = {
 		success_describe = "成功消灭了包含主力舰在内的多支塞壬舰队，$2舰队在打扫战场时获得了$1",
 		id = 58,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1513,7 +1513,7 @@ pg.guild_event_node = {
 		success_describe = "成功消灭了包含主力舰在内的多支塞壬舰队，$2舰队在打扫战场时获得了$1",
 		id = 59,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1539,7 +1539,7 @@ pg.guild_event_node = {
 		success_describe = "成功消灭了包含主力舰在内的多支塞壬舰队，$2舰队在打扫战场时获得了$1",
 		id = 60,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1562,10 +1562,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 61,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1588,10 +1588,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 62,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1614,10 +1614,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 63,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1640,10 +1640,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 64,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1666,10 +1666,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 65,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1692,10 +1692,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 66,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1718,10 +1718,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 67,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1744,10 +1744,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 68,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1770,10 +1770,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 69,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1796,10 +1796,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "成功消灭小型塞壬舰队，$2舰队在搜索战场时获得了$1",
+		success_describe = "$2の艦隊が小規模のセイレーン艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 70,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1822,10 +1822,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "经过苦战，消灭了塞壬主力舰队，$2舰队在打扫战场时获得了$1",
+		success_describe = "$2の艦隊が主力艦多数のセイレーンの中核艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 71,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1848,10 +1848,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "经过苦战，消灭了塞壬主力舰队，$2舰队在打扫战场时获得了$1",
+		success_describe = "$2の艦隊が主力艦多数のセイレーンの中核艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 72,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1874,10 +1874,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "经过苦战，消灭了塞壬主力舰队，$2舰队在打扫战场时获得了$1",
+		success_describe = "$2の艦隊が主力艦多数のセイレーンの中核艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 73,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1900,10 +1900,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "经过苦战，消灭了塞壬主力舰队，$2舰队在打扫战场时获得了$1",
+		success_describe = "$2の艦隊が主力艦多数のセイレーンの中核艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 74,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1926,10 +1926,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "经过苦战，消灭了塞壬主力舰队，$2舰队在打扫战场时获得了$1",
+		success_describe = "$2の艦隊が主力艦多数のセイレーンの中核艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 75,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1952,10 +1952,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "经过苦战，消灭了塞壬主力舰队，$2舰队在打扫战场时获得了$1",
+		success_describe = "$2の艦隊が主力艦多数のセイレーンの中核艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 76,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -1978,10 +1978,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "经过苦战，消灭了塞壬主力舰队，$2舰队在打扫战场时获得了$1",
+		success_describe = "$2の艦隊が主力艦多数のセイレーンの中核艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 77,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2004,10 +2004,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "经过苦战，消灭了塞壬主力舰队，$2舰队在打扫战场时获得了$1",
+		success_describe = "$2の艦隊が主力艦多数のセイレーンの中核艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 78,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2030,10 +2030,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "经过苦战，消灭了塞壬主力舰队，$2舰队在打扫战场时获得了$1",
+		success_describe = "$2の艦隊が主力艦多数のセイレーンの中核艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 79,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2056,10 +2056,10 @@ pg.guild_event_node = {
 	},
 	{
 		item = "sairendanchuan",
-		success_describe = "经过苦战，消灭了塞壬主力舰队，$2舰队在打扫战场时获得了$1",
+		success_describe = "$2の艦隊が主力艦多数のセイレーンの中核艦隊を撃破し、戦利品として$1を手に入れた",
 		id = 80,
 		icon = "battle",
-		fail_describe = "$2舰队报告，敌人逃离了战场，未能取得有效战果，获得了$1",
+		fail_describe = "$2の艦隊はセイレーン艦隊を果敢に追撃したが逃げられ、戦利品として$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2082,10 +2082,10 @@ pg.guild_event_node = {
 	},
 	[1001] = {
 		item = "box",
-		success_describe = "$2舰队发现了一些塞壬的储备物资，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1001,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2108,10 +2108,10 @@ pg.guild_event_node = {
 	},
 	[1002] = {
 		item = "box",
-		success_describe = "$2舰队发现了一些塞壬的储备物资，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1002,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2134,10 +2134,10 @@ pg.guild_event_node = {
 	},
 	[1003] = {
 		item = "box",
-		success_describe = "$2舰队发现了一些塞壬的储备物资，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1003,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2160,10 +2160,10 @@ pg.guild_event_node = {
 	},
 	[1004] = {
 		item = "box",
-		success_describe = "$2舰队发现了一些塞壬的储备物资，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1004,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2186,10 +2186,10 @@ pg.guild_event_node = {
 	},
 	[1005] = {
 		item = "box",
-		success_describe = "$2舰队发现了一些塞壬的储备物资，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1005,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2212,10 +2212,10 @@ pg.guild_event_node = {
 	},
 	[1006] = {
 		item = "box",
-		success_describe = "$2舰队发现了一些塞壬的储备物资，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1006,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2238,10 +2238,10 @@ pg.guild_event_node = {
 	},
 	[1007] = {
 		item = "box",
-		success_describe = "$2舰队发现了一些塞壬的储备物资，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1007,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2264,10 +2264,10 @@ pg.guild_event_node = {
 	},
 	[1008] = {
 		item = "box",
-		success_describe = "$2舰队发现了一些塞壬的储备物资，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1008,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2290,10 +2290,10 @@ pg.guild_event_node = {
 	},
 	[1009] = {
 		item = "box",
-		success_describe = "$2舰队发现了一些塞壬的储备物资，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1009,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2316,10 +2316,10 @@ pg.guild_event_node = {
 	},
 	[1010] = {
 		item = "box",
-		success_describe = "$2舰队发现了一些塞壬的储备物资，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1010,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2342,10 +2342,10 @@ pg.guild_event_node = {
 	},
 	[1011] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1011,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2368,10 +2368,10 @@ pg.guild_event_node = {
 	},
 	[1012] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1012,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2394,10 +2394,10 @@ pg.guild_event_node = {
 	},
 	[1013] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1013,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2420,10 +2420,10 @@ pg.guild_event_node = {
 	},
 	[1014] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1014,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2446,10 +2446,10 @@ pg.guild_event_node = {
 	},
 	[1015] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1015,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2472,10 +2472,10 @@ pg.guild_event_node = {
 	},
 	[1016] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1016,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2498,10 +2498,10 @@ pg.guild_event_node = {
 	},
 	[1017] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1017,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2524,10 +2524,10 @@ pg.guild_event_node = {
 	},
 	[1018] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1018,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2550,10 +2550,10 @@ pg.guild_event_node = {
 	},
 	[1019] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1019,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2576,10 +2576,10 @@ pg.guild_event_node = {
 	},
 	[1020] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1020,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2602,10 +2602,10 @@ pg.guild_event_node = {
 	},
 	[1021] = {
 		item = "box",
-		success_describe = "$2舰队发现了一些塞壬的储备物资，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1021,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2628,10 +2628,10 @@ pg.guild_event_node = {
 	},
 	[1022] = {
 		item = "box",
-		success_describe = "$2舰队发现了一些塞壬的储备物资，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1022,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2654,10 +2654,10 @@ pg.guild_event_node = {
 	},
 	[1023] = {
 		item = "box",
-		success_describe = "$2舰队发现了一些塞壬的储备物资，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1023,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2680,10 +2680,10 @@ pg.guild_event_node = {
 	},
 	[1024] = {
 		item = "box",
-		success_describe = "$2舰队发现了一些塞壬的储备物资，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1024,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2706,10 +2706,10 @@ pg.guild_event_node = {
 	},
 	[1025] = {
 		item = "box",
-		success_describe = "$2舰队发现了一些塞壬的储备物资，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1025,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2732,10 +2732,10 @@ pg.guild_event_node = {
 	},
 	[1026] = {
 		item = "box",
-		success_describe = "$2舰队发现了一些塞壬的储备物资，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1026,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2758,10 +2758,10 @@ pg.guild_event_node = {
 	},
 	[1027] = {
 		item = "box",
-		success_describe = "$2舰队发现了一些塞壬的储备物资，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1027,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2784,10 +2784,10 @@ pg.guild_event_node = {
 	},
 	[1028] = {
 		item = "box",
-		success_describe = "$2舰队发现了一些塞壬的储备物资，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1028,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2810,10 +2810,10 @@ pg.guild_event_node = {
 	},
 	[1029] = {
 		item = "box",
-		success_describe = "$2舰队发现了一些塞壬的储备物资，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1029,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2836,10 +2836,10 @@ pg.guild_event_node = {
 	},
 	[1030] = {
 		item = "box",
-		success_describe = "$2舰队发现了一些塞壬的储备物资，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された一般物資を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1030,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2862,10 +2862,10 @@ pg.guild_event_node = {
 	},
 	[1031] = {
 		item = "box",
-		success_describe = "$2舰队发现了完整的常规塞壬设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された特殊設備を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1031,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2888,10 +2888,10 @@ pg.guild_event_node = {
 	},
 	[1032] = {
 		item = "box",
-		success_describe = "$2舰队发现了完整的常规塞壬设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された特殊設備を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1032,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2914,10 +2914,10 @@ pg.guild_event_node = {
 	},
 	[1033] = {
 		item = "box",
-		success_describe = "$2舰队发现了完整的常规塞壬设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された特殊設備を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1033,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2940,10 +2940,10 @@ pg.guild_event_node = {
 	},
 	[1034] = {
 		item = "box",
-		success_describe = "$2舰队发现了完整的常规塞壬设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された特殊設備を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1034,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2966,10 +2966,10 @@ pg.guild_event_node = {
 	},
 	[1035] = {
 		item = "box",
-		success_describe = "$2舰队发现了完整的常规塞壬设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された特殊設備を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1035,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -2992,10 +2992,10 @@ pg.guild_event_node = {
 	},
 	[1036] = {
 		item = "box",
-		success_describe = "$2舰队发现了完整的常规塞壬设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された特殊設備を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1036,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3018,10 +3018,10 @@ pg.guild_event_node = {
 	},
 	[1037] = {
 		item = "box",
-		success_describe = "$2舰队发现了完整的常规塞壬设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された特殊設備を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1037,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3044,10 +3044,10 @@ pg.guild_event_node = {
 	},
 	[1038] = {
 		item = "box",
-		success_describe = "$2舰队发现了完整的常规塞壬设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された特殊設備を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1038,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3070,10 +3070,10 @@ pg.guild_event_node = {
 	},
 	[1039] = {
 		item = "box",
-		success_describe = "$2舰队发现了完整的常规塞壬设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された特殊設備を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1039,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3096,10 +3096,10 @@ pg.guild_event_node = {
 	},
 	[1040] = {
 		item = "box",
-		success_describe = "$2舰队发现了完整的常规塞壬设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された特殊設備を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1040,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3122,10 +3122,10 @@ pg.guild_event_node = {
 	},
 	[1041] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1041,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3148,10 +3148,10 @@ pg.guild_event_node = {
 	},
 	[1042] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1042,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3174,10 +3174,10 @@ pg.guild_event_node = {
 	},
 	[1043] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1043,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3200,10 +3200,10 @@ pg.guild_event_node = {
 	},
 	[1044] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1044,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3226,10 +3226,10 @@ pg.guild_event_node = {
 	},
 	[1045] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1045,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3252,10 +3252,10 @@ pg.guild_event_node = {
 	},
 	[1046] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1046,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3278,10 +3278,10 @@ pg.guild_event_node = {
 	},
 	[1047] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1047,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3304,10 +3304,10 @@ pg.guild_event_node = {
 	},
 	[1048] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1048,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3330,10 +3330,10 @@ pg.guild_event_node = {
 	},
 	[1049] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1049,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3356,10 +3356,10 @@ pg.guild_event_node = {
 	},
 	[1050] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1050,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3382,10 +3382,10 @@ pg.guild_event_node = {
 	},
 	[1051] = {
 		item = "box",
-		success_describe = "$2舰队发现了型号未知的塞壬设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された技術結晶を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1051,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3408,10 +3408,10 @@ pg.guild_event_node = {
 	},
 	[1052] = {
 		item = "box",
-		success_describe = "$2舰队发现了型号未知的塞壬设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された技術結晶を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1052,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3434,10 +3434,10 @@ pg.guild_event_node = {
 	},
 	[1053] = {
 		item = "box",
-		success_describe = "$2舰队发现了型号未知的塞壬设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された技術結晶を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1053,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3460,10 +3460,10 @@ pg.guild_event_node = {
 	},
 	[1054] = {
 		item = "box",
-		success_describe = "$2舰队发现了型号未知的塞壬设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された技術結晶を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1054,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3486,10 +3486,10 @@ pg.guild_event_node = {
 	},
 	[1055] = {
 		item = "box",
-		success_describe = "$2舰队发现了型号未知的塞壬设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された技術結晶を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1055,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3512,10 +3512,10 @@ pg.guild_event_node = {
 	},
 	[1056] = {
 		item = "box",
-		success_describe = "$2舰队发现了型号未知的塞壬设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された技術結晶を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1056,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3538,10 +3538,10 @@ pg.guild_event_node = {
 	},
 	[1057] = {
 		item = "box",
-		success_describe = "$2舰队发现了型号未知的塞壬设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された技術結晶を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1057,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3564,10 +3564,10 @@ pg.guild_event_node = {
 	},
 	[1058] = {
 		item = "box",
-		success_describe = "$2舰队发现了型号未知的塞壬设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された技術結晶を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1058,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3590,10 +3590,10 @@ pg.guild_event_node = {
 	},
 	[1059] = {
 		item = "box",
-		success_describe = "$2舰队发现了型号未知的塞壬设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された技術結晶を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1059,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3616,10 +3616,10 @@ pg.guild_event_node = {
 	},
 	[1060] = {
 		item = "box",
-		success_describe = "$2舰队发现了型号未知的塞壬设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された技術結晶を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1060,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3642,10 +3642,10 @@ pg.guild_event_node = {
 	},
 	[1061] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1061,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3668,10 +3668,10 @@ pg.guild_event_node = {
 	},
 	[1062] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1062,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3694,10 +3694,10 @@ pg.guild_event_node = {
 	},
 	[1063] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1063,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3720,10 +3720,10 @@ pg.guild_event_node = {
 	},
 	[1064] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1064,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3746,10 +3746,10 @@ pg.guild_event_node = {
 	},
 	[1065] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1065,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3772,10 +3772,10 @@ pg.guild_event_node = {
 	},
 	[1066] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1066,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3798,10 +3798,10 @@ pg.guild_event_node = {
 	},
 	[1067] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1067,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3824,10 +3824,10 @@ pg.guild_event_node = {
 	},
 	[1068] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1068,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3850,10 +3850,10 @@ pg.guild_event_node = {
 	},
 	[1069] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1069,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3876,10 +3876,10 @@ pg.guild_event_node = {
 	},
 	[1070] = {
 		item = "box",
-		success_describe = "$2舰队发现了遗留的塞壬科技部件，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された装備部品を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1070,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3902,10 +3902,10 @@ pg.guild_event_node = {
 	},
 	[1071] = {
 		item = "box",
-		success_describe = "$2舰队发现了难以解读的信息存储设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された危険装置を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1071,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3928,10 +3928,10 @@ pg.guild_event_node = {
 	},
 	[1072] = {
 		item = "box",
-		success_describe = "$2舰队发现了难以解读的信息存储设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された危険装置を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1072,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3954,10 +3954,10 @@ pg.guild_event_node = {
 	},
 	[1073] = {
 		item = "box",
-		success_describe = "$2舰队发现了难以解读的信息存储设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された危険装置を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1073,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -3980,10 +3980,10 @@ pg.guild_event_node = {
 	},
 	[1074] = {
 		item = "box",
-		success_describe = "$2舰队发现了难以解读的信息存储设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された危険装置を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1074,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -4006,10 +4006,10 @@ pg.guild_event_node = {
 	},
 	[1075] = {
 		item = "box",
-		success_describe = "$2舰队发现了难以解读的信息存储设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された危険装置を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1075,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -4032,10 +4032,10 @@ pg.guild_event_node = {
 	},
 	[1076] = {
 		item = "box",
-		success_describe = "$2舰队发现了难以解读的信息存储设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された危険装置を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1076,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -4058,10 +4058,10 @@ pg.guild_event_node = {
 	},
 	[1077] = {
 		item = "box",
-		success_describe = "$2舰队发现了难以解读的信息存储设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された危険装置を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1077,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -4084,10 +4084,10 @@ pg.guild_event_node = {
 	},
 	[1078] = {
 		item = "box",
-		success_describe = "$2舰队发现了难以解读的信息存储设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された危険装置を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1078,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -4110,10 +4110,10 @@ pg.guild_event_node = {
 	},
 	[1079] = {
 		item = "box",
-		success_describe = "$2舰队发现了难以解读的信息存储设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された危険装置を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1079,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,
@@ -4136,10 +4136,10 @@ pg.guild_event_node = {
 	},
 	[1080] = {
 		item = "box",
-		success_describe = "$2舰队发现了难以解读的信息存储设备，指挥部回收后，获得了$1",
+		success_describe = "$2の艦隊はセイレーンに隠された危険装置を発見し本部に回収させ、補給物資として$1を手に入れた",
 		id = 1080,
 		icon = "box",
-		fail_describe = "虽然$2舰队进行了全面的搜索，但并没有获得太有价值的东西，获得了$1",
+		fail_describe = "$2の艦隊はセイレーンの出現海域に捜索を行い、$1を手に入れた",
 		success_award = {
 			{
 				1,

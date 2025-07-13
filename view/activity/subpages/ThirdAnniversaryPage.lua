@@ -69,7 +69,6 @@ end
 function var_0_0.OnFirstFlush(arg_7_0)
 	arg_7_0:initPaint()
 	arg_7_0:initBtnList(arg_7_0.btnList1)
-	arg_7_0:initBtnList(arg_7_0.btnList2)
 	arg_7_0:initTimer()
 end
 
@@ -92,67 +91,44 @@ function var_0_0.initBtnList(arg_9_0, arg_9_1)
 		arg_9_0:emit(ActivityMediator.GO_PRAY_POOL)
 	end, SFX_PANEL)
 	onButton(arg_9_0, arg_9_1[2], function()
-		arg_9_0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SUMMARY)
-	end, SFX_PANEL)
-	onButton(arg_9_0, arg_9_1[3], function()
 		arg_9_0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.ACTIVITY_TYPE_RETURN_AWARD_ID3)
 	end, SFX_PANEL)
-	onButton(arg_9_0, arg_9_1[4], function()
-		arg_9_0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.CHARGE, {
-			wrap = ChargeScene.TYPE_DIAMOND
-		})
-	end, SFX_PANEL)
-	onButton(arg_9_0, arg_9_1[5], function()
+	onButton(arg_9_0, arg_9_1[3], function()
 		arg_9_0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.THIRD_ANNIVERSARY_AKIBA)
 	end, SFX_PANEL)
-	onButton(arg_9_0, arg_9_1[6], function()
-		arg_9_0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.PIZZAHUT_PT_PAGE)
-	end, SFX_PANEL)
-	onButton(arg_9_0, arg_9_1[7], function()
+	onButton(arg_9_0, arg_9_1[4], function()
 		arg_9_0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SKINSHOP)
 	end, SFX_PANEL)
 end
 
-function var_0_0.initTimer(arg_17_0)
-	local var_17_0 = 0.016666666666666666
+function var_0_0.initTimer(arg_14_0)
+	local var_14_0 = 0.016666666666666666
 
-	arg_17_0.paintStaticCountValue = 0
-	arg_17_0.frameTimer = Timer.New(function()
-		arg_17_0.paintStaticCountValue = arg_17_0.paintStaticCountValue + var_17_0
+	arg_14_0.paintStaticCountValue = 0
+	arg_14_0.frameTimer = Timer.New(function()
+		arg_14_0.paintStaticCountValue = arg_14_0.paintStaticCountValue + var_14_0
 
-		if arg_17_0.paintStaticCountValue >= arg_17_0.paintStaticTime then
-			arg_17_0.paintStaticCountValue = 0
+		if arg_14_0.paintStaticCountValue >= arg_14_0.paintStaticTime then
+			arg_14_0.paintStaticCountValue = 0
 
-			arg_17_0:switchNextPaint()
+			arg_14_0:switchNextPaint()
 		end
-	end, var_17_0, -1, false)
+	end, var_14_0, -1, false)
 
-	arg_17_0.frameTimer:Start()
-
-	arg_17_0.frameTimer2 = Timer.New(function()
-		local var_19_0 = arg_17_0.btnContainer.anchoredPosition.x - arg_17_0.btnSpeed * var_17_0
-
-		if arg_17_0.startAnchoredPosX - var_19_0 >= arg_17_0.moveLength then
-			var_19_0 = arg_17_0.btnContainer.anchoredPosition.x + arg_17_0.moveLength
-		end
-
-		arg_17_0.btnContainer.anchoredPosition = Vector3(var_19_0, 0, 0)
-	end, var_17_0, -1, false)
-
-	arg_17_0.frameTimer2:Start()
+	arg_14_0.frameTimer:Start()
 end
 
-function var_0_0.OnDestroy(arg_20_0)
-	if arg_20_0.frameTimer then
-		arg_20_0.frameTimer:Stop()
+function var_0_0.OnDestroy(arg_16_0)
+	if arg_16_0.frameTimer then
+		arg_16_0.frameTimer:Stop()
 
-		arg_20_0.frameTimer = nil
+		arg_16_0.frameTimer = nil
 	end
 
-	if arg_20_0.frameTimer2 then
-		arg_20_0.frameTimer2:Stop()
+	if arg_16_0.frameTimer2 then
+		arg_16_0.frameTimer2:Stop()
 
-		arg_20_0.frameTimer2 = nil
+		arg_16_0.frameTimer2 = nil
 	end
 end
 

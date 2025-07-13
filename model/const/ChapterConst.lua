@@ -284,17 +284,17 @@ function var_0_0.GetAchieveDesc(arg_8_0, arg_8_1)
 	end)
 
 	if var_8_1.type == var_0_0.AchieveType1 then
-		return "击破敌方旗舰"
+		return "敵中枢艦隊撃破"
 	elseif var_8_1.type == var_0_0.AchieveType2 then
-		return string.format("击破护卫舰队（%d/%d）", math.min(var_8_1.count, var_8_1.config), var_8_1.config)
+		return string.format("護衛艦隊撃破（%d/%d）", math.min(var_8_1.count, var_8_1.config), var_8_1.config)
 	elseif var_8_1.type == var_0_0.AchieveType3 then
-		return "击破所有敌舰"
+		return "全敵艦を撃破"
 	elseif var_8_1.type == var_0_0.AchieveType4 then
-		return string.format("出击人数不多于%d", var_8_1.config)
+		return string.format("出撃人数<=%d", var_8_1.config)
 	elseif var_8_1.type == var_0_0.AchieveType5 then
 		return string.format("出击舰娘不包含XX", ShipType.Type2Name(var_8_1.config))
 	elseif var_8_1.type == var_0_0.AchieveType6 then
-		return "Full Combo完成关卡"
+		return "FULLCOMBO達成"
 	end
 
 	return var_8_0
@@ -427,6 +427,7 @@ function var_0_0.GetAmbushDisplay(arg_12_0)
 	return var_12_0, var_12_1
 end
 
+var_0_0.EnemyAttackDisplay = "接敵"
 var_0_0.ShipMoveAction = "move"
 var_0_0.ShipIdleAction = "normal"
 var_0_0.ShipSwimAction = "swim"

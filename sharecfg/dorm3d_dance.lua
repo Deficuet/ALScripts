@@ -6,7 +6,7 @@ pg.dorm3d_dance = {
 		timeline_scene = "Dance",
 		finish_anim = "weixiao",
 		id = 10517,
-		song_name = "迷乱奇遇",
+		song_name = "魅惑的な奇遇",
 		cucoloris_group = {
 			{
 				101,
@@ -30,9 +30,9 @@ pg.dorm3d_dance = {
 			"dance_camera3"
 		},
 		camera_names = {
-			"镜头1",
-			"镜头2",
-			"镜头3"
+			"カット1",
+			"カット2",
+			"カット3"
 		}
 	},
 	all = {

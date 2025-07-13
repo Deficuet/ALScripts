@@ -2,7 +2,7 @@ pg = pg or {}
 pg.dorm3d_accompany = {
 	{
 		ship_id = 20220,
-		name = "日常相伴",
+		name = "ビーチ",
 		resource_room = 1,
 		performance_time = 20,
 		id = 1,
@@ -22,7 +22,7 @@ pg.dorm3d_accompany = {
 	},
 	{
 		ship_id = 20220,
-		name = "休闲相伴",
+		name = "寝室",
 		resource_room = 4,
 		performance_time = 20,
 		id = 2,
@@ -46,7 +46,7 @@ pg.dorm3d_accompany = {
 	},
 	[21] = {
 		ship_id = 30221,
-		name = "日常相伴",
+		name = "ビーチ",
 		resource_room = 2,
 		performance_time = 20,
 		id = 21,
@@ -66,7 +66,7 @@ pg.dorm3d_accompany = {
 	},
 	[22] = {
 		ship_id = 30221,
-		name = "休闲相伴",
+		name = "寝室",
 		resource_room = 4,
 		performance_time = 20,
 		id = 22,
@@ -90,7 +90,7 @@ pg.dorm3d_accompany = {
 	},
 	[31] = {
 		ship_id = 19903,
-		name = "日常相伴",
+		name = "ビーチ",
 		resource_room = 3,
 		performance_time = 20,
 		id = 31,
@@ -110,7 +110,7 @@ pg.dorm3d_accompany = {
 	},
 	[32] = {
 		ship_id = 19903,
-		name = "休闲相伴",
+		name = "寝室",
 		resource_room = 4,
 		performance_time = 20,
 		id = 32,
@@ -134,7 +134,7 @@ pg.dorm3d_accompany = {
 	},
 	[111] = {
 		ship_id = 10517,
-		name = "日常相伴",
+		name = "ビーチ",
 		resource_room = 11,
 		performance_time = 20,
 		id = 111,
@@ -154,7 +154,7 @@ pg.dorm3d_accompany = {
 	},
 	[112] = {
 		ship_id = 10517,
-		name = "休闲相伴",
+		name = "寝室",
 		resource_room = 16,
 		performance_time = 20,
 		id = 112,

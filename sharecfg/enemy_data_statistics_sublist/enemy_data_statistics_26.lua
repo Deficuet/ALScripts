@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_26 = {
 	[90778] = {
 		cannon = 0,
-		name = "戴拿赛诺",
+		name = "ダイナゼノン",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -148,7 +148,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90779] = {
 		cannon = 0,
-		name = "古立特（宇宙斗士）",
+		name = "グリッドマン(Universe Fighter)",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -294,7 +294,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90780] = {
 		cannon = 0,
-		name = "亚历克西斯·凯利夫（新秩序）",
+		name = "アレクシス・ケリヴ(ニューオーダー)",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -440,7 +440,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90781] = {
 		cannon = 0,
-		name = "审判型驱逐舰",
+		name = "審判型量産駆逐艦",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -602,7 +602,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90782] = {
 		cannon = 0,
-		name = "审判型轻巡洋舰",
+		name = "審判型量産軽巡洋艦",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -762,7 +762,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90783] = {
 		cannon = 0,
-		name = "审判型重巡洋舰",
+		name = "審判型量産重巡洋艦",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -942,7 +942,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90784] = {
 		cannon = 0,
-		name = "审判型战列舰",
+		name = "審判型量産戦艦",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1122,7 +1122,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90785] = {
 		cannon = 0,
-		name = "审判型航空母舰",
+		name = "審判型量産空母",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1289,7 +1289,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90786] = {
 		cannon = 0,
-		name = "审判型突袭舰 ",
+		name = "審判型量産突撃艦",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1435,7 +1435,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90787] = {
 		cannon = 0,
-		name = "审判型潜水艇",
+		name = "審判型量産潜水艦",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1586,7 +1586,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90788] = {
 		cannon = 0,
-		name = "█X█ █「传播」",
+		name = "█X█ █「伝播」",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1748,7 +1748,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90789] = {
 		cannon = 0,
-		name = "█X█ █「扩散」",
+		name = "█X█ █「拡散」",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2555,7 +2555,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90794] = {
 		cannon = 0,
-		name = "█X█ █「增殖」",
+		name = "█X█ █「増殖」",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3018,7 +3018,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90797] = {
 		cannon = 0,
-		name = "迪洛伊",
+		name = "偽神機ドロイド",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3181,7 +3181,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90798] = {
 		cannon = 0,
-		name = "马可波罗~Incarnation Of Hierophant",
+		name = "マルコ・ポーロ~Incarnation Of Hierophant",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3338,7 +3338,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90799] = {
 		cannon = 0,
-		name = "审判型机甲武装-支配",
+		name = "審判型武装機構・Blanc",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3658,7 +3658,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90801] = {
 		cannon = 0,
-		name = "窥探之眼",
+		name = "ゲージング・アイ",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3779,7 +3779,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90802] = {
 		cannon = 0,
-		name = "凯尔圣",
+		name = "ケルサン",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3935,7 +3935,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90803] = {
 		cannon = 0,
-		name = "可怖",
+		name = "ル·テリブル",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4091,7 +4091,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90804] = {
 		cannon = 0,
-		name = "香槟",
+		name = "シャンパーニュ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4248,7 +4248,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90805] = {
 		cannon = 0,
-		name = "神通·META",
+		name = "神通(META)",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4405,7 +4405,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90806] = {
 		cannon = 0,
-		name = "「无形之息-海洋」",
+		name = "「穢れの影-潮波」",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4563,7 +4563,7 @@ pg.enemy_data_statistics_26 = {
 	},
 	[90807] = {
 		cannon = 0,
-		name = "「无形之息-信风」",
+		name = "「穢れの影-信風」",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,

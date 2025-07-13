@@ -44,6 +44,10 @@ function var_0_0.AddPlan(arg_4_0, arg_4_1)
 		end
 
 		arg_4_0.timer = Timer.New(function()
+			if arg_4_0.exited then
+				return
+			end
+
 			var_4_4:Hide()
 			arg_4_0:Hide()
 		end, 0.5, 1)

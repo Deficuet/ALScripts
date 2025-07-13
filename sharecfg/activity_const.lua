@@ -7,10 +7,10 @@ pg.activity_const = {
 		act_id = 7
 	},
 	ANNIVERSARY_TASK_LIST_ID = {
-		act_id = 116
+		act_id = 10122
 	},
 	CHANGMENLUAO_BATTLE_ACTIVITY_ID = {
-		act_id = 114
+		act_id = 10083
 	},
 	CHANGMEN_7DAYS_LOGIN = {
 		act_id = 122
@@ -19,16 +19,16 @@ pg.activity_const = {
 		act_id = 118
 	},
 	ACT_BOSS_TASK_LIST = {
-		act_id = 171
+		act_id = 10137
 	},
 	ACT_NPC_SHIP_ID = {
 		act_id = 5995
 	},
 	SANLI_7DAYS_LOGIN = {
-		act_id = 274
+		act_id = 10232
 	},
 	SNALI_MAIN = {
-		act_id = 270
+		act_id = 10228
 	},
 	ACTIVITY_PRAY_POOL = {
 		act_id = 5957
@@ -55,175 +55,160 @@ pg.activity_const = {
 		act_id = 0
 	},
 	XIAOTIANE_ACTIVITY_ID = {
-		act_id = 80
+		act_id = 10052
 	},
 	KELEIWEN_ACTIVITY_ID = {
-		act_id = 86
+		act_id = 10057
 	},
 	Z23_ACTIVITY_ID = {
-		act_id = 101
+		act_id = 10069
 	},
 	GR_ACTIVITY_ID = {
-		act_id = 107
+		act_id = 10077
 	},
 	WOWS_ACTIVITY_ID = {
 		act_id = 10088
 	},
-	BILI_ACTIVITY_ID = {
-		act_id = 125
-	},
-	BILI_TASK_LIST_PT_ID = {
-		act_id = 124
-	},
 	RUYUE_ACTIVITY_ID = {
-		act_id = 109
+		act_id = 10078
 	},
 	AOERLIANG_TASK_ID = {
-		act_id = 135
+		act_id = 10096
 	},
 	AOERLIANG_SIGN_ID = {
-		act_id = 136
+		act_id = 10097
 	},
 	ACTIVITY_TYPE_TASK_RES_ID = {
-		act_id = 146
+		act_id = 10109
 	},
 	VAMPIRE_SIGN_ID = {
-		act_id = 147
+		act_id = 10110
 	},
 	CENTAUR_ACTIVITY_ID = {
-		act_id = 148
+		act_id = 10112
 	},
 	XIAOBEIFA_ACTIVITY_PT_ID = {
-		act_id = 151
+		act_id = 10113
 	},
 	MIKASA_MUSEUM_DAILY_TASK_ID = {
-		act_id = 271
+		act_id = 10229
 	},
 	MIKASA_MUSEUM_ACTIVITY_ID = {
-		act_id = 273
+		act_id = 10231
 	},
 	LINK_RES_GOLD_ID = {
-		act_id = 157
+		act_id = 10120
 	},
 	LINE_SIGN_ID = {
-		act_id = 158
+		act_id = 10121
 	},
 	LOGIN_YEAR_ID = {
-		act_id = 161
+		act_id = 10128
 	},
 	SHOW_DRESS_ACTIVITY_ID = {
-		act_id = 159
+		act_id = 10126
 	},
 	SKIN_YAMASHIRO = {
-		act_id = 166
+		act_id = 10132
 	},
 	BOSS_BATTLE_PT = {
-		act_id = 171
+		act_id = 10137
 	},
 	SKIN_BEILI = {
-		act_id = 180
+		act_id = 10146
 	},
 	UTAWARERU_ACTIVITY_PT_ID = {
-		act_id = 181
+		act_id = 10147
 	},
 	UTAWARERU_PREVIEW_ID = {
-		act_id = 185
+		act_id = 10151
 	},
 	UTAWARERU_TASK_LIST_ID = {
-		act_id = 187
+		act_id = 10153
 	},
 	SIPEI_RERE_ACTIVITY_ID = {
-		act_id = 195
-	},
-	LONGXIANG_ACTIVITY_PT_ID = {
-		act_id = 522
+		act_id = 10161
 	},
 	SKIN_OSHIO = {
-		act_id = 204
+		act_id = 10170
 	},
 	LOGIN_SANTA = {
-		act_id = 206
+		act_id = 10172
 	},
 	AMAGI_PREVIEW_ID = {
-		act_id = 207
+		act_id = 10173
 	},
 	AMAGI_ACTIVITY_PT_ID = {
-		act_id = 212
+		act_id = 10178
 	},
 	OMIKUJI_LOTTERY_AWARD_ID = {
-		act_id = 215
+		act_id = 10181
 	},
 	LINK_RES_RE = {
-		act_id = 217
+		act_id = 10183
 	},
 	LINK_RES = {
-		act_id = 218
+		act_id = 10184
 	},
 	LINE_SIGN_ID_RE = {
-		act_id = 219
+		act_id = 10185
 	},
 	AOERLIANG_RE_PREVIEW_ID = {
-		act_id = 220
+		act_id = 10186
 	},
 	AOERLIANG_RE_TASK_ID = {
-		act_id = 222
+		act_id = 10188
 	},
 	AOERLIANG_RE_SIGN_ID = {
-		act_id = 223
+		act_id = 10189
 	},
 	WINTER_RE_PREVIEW_ID = {
-		act_id = 224
-	},
-	PIG_YEAR_RED_POCKET_SHIP_ID = {
-		act_id = 232
-	},
-	PIG_YEAR_RED_POCKET_SHIP_ID_RETRO = {
-		act_id = 445
+		act_id = 10190
 	},
 	NEW_YEAR_OVERVIEW = {
-		act_id = 234
+		act_id = 10200
+	},
+	PIG_YEAR_RED_POCKET_SHIP_ID = {
+		act_id = 10198
 	},
 	BOSS_BATTLE_AISAIKESI = {
-		act_id = 243
+		act_id = 10209
 	},
 	NARVIK_PREVIEW_ID = {
-		act_id = 251
+		act_id = 10217
 	},
 	HUNTER_PT_ID = {
-		act_id = 253
+		act_id = 10220
 	},
 	MORAN_RE_PREVIEW_ID = {
-		act_id = 263
+		act_id = 10224
 	},
 	MORAN_RE_PT_ID = {
-		act_id = 264
-	},
-	XIAOJIAJIA_PREVIEW_ID = {
-		act_id = 267
+		act_id = 10225
 	},
 	BANAI_MAIN_ID = {
-		act_id = 280
+		act_id = 10234
 	},
 	BANAI_4DAYS_LOGIN = {
-		act_id = 286
+		act_id = 10240
 	},
 	BANAI_TASK_LIST_ID = {
-		act_id = 288
+		act_id = 10242
 	},
 	BANAI_TASK_DAILY_ID = {
-		act_id = 284
+		act_id = 10238
 	},
 	BANAI_PT_SHOP_ID = {
-		act_id = 285
+		act_id = 10239
 	},
 	SUB_RED_POCKET = {
-		act_id = 294
+		act_id = 10248
 	},
 	MING_PAINT = {
-		act_id = 299
+		act_id = 10250
 	},
 	ACTIVITY_TYPE_RETURN_AWARD_ID = {
-		act_id = 300
+		act_id = 10251
 	},
 	ACTIVITY_TYPE_RETURN_AWARD_ID2 = {
 		act_id = 369
@@ -238,40 +223,43 @@ pg.activity_const = {
 		act_id = 4526
 	},
 	BISMARCK_CHAPTER_ID = {
-		act_id = 314
+		act_id = 10264
 	},
 	SKIN_U73 = {
-		act_id = 308
+		act_id = 10258
 	},
 	BISMARCK_PT_ID = {
-		act_id = 312
+		act_id = 10262
 	},
 	BUILD_BISMARCK_ID = {
-		act_id = 313
-	},
-	SKIN_Z23 = {
-		act_id = 532
+		act_id = 10263
 	},
 	BISMARCK_PT_SHOP_ID = {
-		act_id = 309
+		act_id = 10259
 	},
 	BILIBILI_PT_SHOP_ID = {
 		act_id = 320
 	},
 	XIMU_LOGIN_ID = {
-		act_id = 315
+		act_id = 10265
 	},
 	SANDIEGO_PT_ID = {
-		act_id = 316
-	},
-	ANNIVERSARY_ID = {
-		act_id = 318
+		act_id = 10266
 	},
 	SIPEI_PAGE_ID = {
 		act_id = 0
 	},
 	GLORY_PAGE_ID = {
 		act_id = 0
+	},
+	HONGRAN_RE_PREVIEW_ID = {
+		act_id = 0
+	},
+	HONGRAN_RE_PT_ID = {
+		act_id = 0
+	},
+	PINTU_TASK_ID = {
+		act_id = 10000
 	},
 	ACTIVITY_ID_CHALLENGE_RANK = {
 		act_id = 302
@@ -282,11 +270,11 @@ pg.activity_const = {
 	FRANCE_RE_BUILD = {
 		act_id = 335
 	},
-	ACTIVITY_ID_US_SKIRMISH = {
-		act_id = 337
-	},
 	FRANCE_RE_MAIN = {
 		act_id = 326
+	},
+	FRANCE_RE_OIL = {
+		act_id = 330
 	},
 	FRANCE_RE_PT = {
 		act_id = 331
@@ -294,20 +282,14 @@ pg.activity_const = {
 	FRANCE_RE_PT_SHOP = {
 		act_id = 332
 	},
-	FRANCE_RE_OIL = {
-		act_id = 330
-	},
 	JAVELIN_COMIC_NINE_DAY_TASK = {
 		act_id = 958
 	},
 	JAVELIN_COMIC_PUZZLE_TASK = {
 		act_id = 959
 	},
-	HONGRAN_RE_PREVIEW_ID = {
-		act_id = 0
-	},
-	HONGRAN_RE_PT_ID = {
-		act_id = 0
+	ACTIVITY_ID_US_SKIRMISH = {
+		act_id = 337
 	},
 	I56_SKIN_ACTIVITY_ID = {
 		act_id = 338
@@ -321,11 +303,11 @@ pg.activity_const = {
 	US_DEFENCE_OIL_ID = {
 		act_id = 348
 	},
-	SARATOGA_WF_SKIN_ID = {
-		act_id = 350
-	},
 	SKIN_XIXUEGUI = {
 		act_id = 355
+	},
+	SARATOGA_WF_SKIN_ID = {
+		act_id = 350
 	},
 	SUMMER_FEAST_ID = {
 		act_id = 356
@@ -341,6 +323,9 @@ pg.activity_const = {
 	},
 	ACTIVITY_ID_STORY_AWARD = {
 		act_id = 368
+	},
+	ANNIVERSARY_LOGIN_ID = {
+		act_id = 371
 	},
 	YIDALI_PT_ID = {
 		act_id = 373
@@ -444,6 +429,9 @@ pg.activity_const = {
 	SHIO_SKIN_RE_ID = {
 		act_id = 440
 	},
+	PIG_YEAR_RED_POCKET_SHIP_ID_RETRO = {
+		act_id = 445
+	},
 	JP_SKIRMISH_EXP_ID = {
 		act_id = 449
 	},
@@ -451,7 +439,7 @@ pg.activity_const = {
 		act_id = 450
 	},
 	WAKABA_CHRIS_SKIN_ID = {
-		act_id = 467
+		act_id = 451
 	},
 	JAPANESE_NEWYEAR = {
 		act_id = 452
@@ -483,8 +471,53 @@ pg.activity_const = {
 	ACTIVITY_478 = {
 		act_id = 478
 	},
+	BEAT_MONSTER_NIAN_2020 = {
+		act_id = 470
+	},
+	MONOPOLY_2020 = {
+		act_id = 473
+	},
+	SICHUANOPERA = {
+		act_id = 485
+	},
+	LANTERNFESTIVAL = {
+		act_id = 5803
+	},
+	VALENTINE = {
+		act_id = 491
+	},
+	MAOZI_PT = {
+		act_id = 493
+	},
+	SANDIEGO_REFORM_RE = {
+		act_id = 494
+	},
+	SN_MAIN_PAGE = {
+		act_id = 500
+	},
+	SN_PT_PAGE = {
+		act_id = 506
+	},
+	LONGXIANG_ACTIVITY_PT_ID = {
+		act_id = 522
+	},
 	SOFMAP_PT_PAGE = {
 		act_id = 525
+	},
+	MATCH3_PAGE = {
+		act_id = 526
+	},
+	SARATOGA_SKIN = {
+		act_id = 530
+	},
+	SKIN_Z23 = {
+		act_id = 532
+	},
+	OUTPOST_PT = {
+		act_id = 534
+	},
+	OUTPOST_TASK = {
+		act_id = 4073
 	},
 	AMERICAN_MAIN = {
 		act_id = 541
@@ -525,6 +558,24 @@ pg.activity_const = {
 	ESKI_PT_PAGE = {
 		act_id = 614
 	},
+	APRILFOOL_DISCOVERY = {
+		act_id = 549
+	},
+	APRILFOOL_DISCOVERY_RE = {
+		act_id = 935
+	},
+	LEMARS_RE_OIL_PAGE = {
+		act_id = 582
+	},
+	TOWERCLIMBING_SIGN = {
+		act_id = 603
+	},
+	THIRD_ANNIVERSARY_PAGE = {
+		act_id = 609
+	},
+	JIQILIFU_SKIN = {
+		act_id = 606
+	},
 	MONOPOLY_CAR_PAGE = {
 		act_id = 620
 	},
@@ -563,69 +614,6 @@ pg.activity_const = {
 	},
 	VOTE_ORDER_BOOK_PHASE_9 = {
 		act_id = 1057
-	},
-	ANNIVERSARY_LOGIN_ID = {
-		act_id = 371
-	},
-	AVRORA_TW_CBT = {
-		act_id = 40001
-	},
-	BEAT_MONSTER_NIAN_2020 = {
-		act_id = 470
-	},
-	MONOPOLY_2020 = {
-		act_id = 473
-	},
-	SICHUANOPERA = {
-		act_id = 485
-	},
-	LANTERNFESTIVAL = {
-		act_id = 5803
-	},
-	VALENTINE = {
-		act_id = 491
-	},
-	MAOZI_PT = {
-		act_id = 493
-	},
-	SANDIEGO_REFORM_RE = {
-		act_id = 494
-	},
-	SN_MAIN_PAGE = {
-		act_id = 500
-	},
-	SN_PT_PAGE = {
-		act_id = 506
-	},
-	MATCH3_PAGE = {
-		act_id = 526
-	},
-	SARATOGA_SKIN = {
-		act_id = 531
-	},
-	OUTPOST_PT = {
-		act_id = 534
-	},
-	OUTPOST_TASK = {
-		act_id = 4073
-	},
-	APRILFOOL_DISCOVERY = {
-		act_id = 549
-	},
-	APRILFOOL_DISCOVERY_RE = {
-		act_id = 935
-	},
-	LEMARS_RE_OIL_PAGE = {
-		act_id = 582
-	},
-	TOWERCLIMBING_SIGN = {
-		act_id = 603
-	},
-	THIRD_ANNIVERSARY_PAGE = {
-		act_id = 609
-	},
-	JIQILIFU_SKIN = {
-		act_id = 606
 	},
 	ACTIVITY_BOSS_AISAIKESI_PT = {
 		act_id = 623
@@ -696,6 +684,9 @@ pg.activity_const = {
 	CARD_PAIR_FX_PAGE = {
 		act_id = 40050
 	},
+	AVRORA_TW_CBT = {
+		act_id = 40001
+	},
 	MORAN_KR_PT_ID = {
 		act_id = 20346
 	},
@@ -716,9 +707,6 @@ pg.activity_const = {
 	},
 	CYGENT_SWIMSUIT = {
 		act_id = 40016
-	},
-	BAILEY_HALLOWEEN = {
-		act_id = 123456
 	},
 	ZPROJECT_TW = {
 		act_id = 40028
@@ -757,7 +745,7 @@ pg.activity_const = {
 		act_id = 4775
 	},
 	ELITE_AWARD_ACTIVITY_ID = {
-		act_id = 40
+		act_id = 10056
 	},
 	NEWYEAR_SNACKSTREET_MINIGAME = {
 		act_id = 831

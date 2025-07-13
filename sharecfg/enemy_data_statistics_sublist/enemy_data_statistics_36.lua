@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_36 = {
 	[91080] = {
 		cannon = 0,
-		name = "鹰",
+		name = "イーグル",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -158,7 +158,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91081] = {
 		cannon = 0,
-		name = "哈尔福德",
+		name = "ハルフォード",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -293,7 +293,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91082] = {
 		cannon = 0,
-		name = "超级AI-TC",
+		name = "スーパーAI-TC",
 		type = 12,
 		speed_growth = 0,
 		air_growth = 0,
@@ -439,7 +439,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91083] = {
 		cannon = 0,
-		name = "超·无畏级根除武装「福尔尼德」",
+		name = "超・弩級根絶武装「スフィルニダエ」",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -596,7 +596,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91084] = {
 		cannon = 0,
-		name = "伏尔加级量产型",
+		name = "量産型ヴォルガ級",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -763,7 +763,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91085] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-ĐĄÍĂ×Ó",
+		name = "偽相体-コウサギ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -893,7 +893,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91086] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-Ňő°ľĹŔĐĐ",
+		name = "偽相体-暗所匍匐種",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1023,7 +1023,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91087] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-Čý˛ćĘ÷",
+		name = "偽相体-三分探索木",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1153,7 +1153,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91088] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-ËťĂůźâĐĽ",
+		name = "偽相体-ハウリングロア",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1283,7 +1283,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91089] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-´óşŁšÖ",
+		name = "偽相体-巨大水生怪異",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1420,7 +1420,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91090] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-śŠĘéś¤",
+		name = "偽相体-ホッチキス",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1543,7 +1543,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91091] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-ÓĐ¸ůÓăŔ×",
+		name = "偽相体-根部付き魚雷",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1680,7 +1680,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91092] = {
 		cannon = 0,
-		name = "ÄâĚŹĘŢ-ËťĂůźâĐĽ´óşŁšÖ",
+		name = "偽相体-怪異ハウリングロア",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1803,7 +1803,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91093] = {
 		cannon = 0,
-		name = "光荣·META",
+		name = "グロリアス(META)",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1959,7 +1959,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91094] = {
 		cannon = 0,
-		name = "狮",
+		name = "ライオン",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2115,7 +2115,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91095] = {
 		cannon = 0,
-		name = "辉翼狮",
+		name = "光翼の獅子",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2236,7 +2236,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91096] = {
 		cannon = 0,
-		name = "皇家橡树",
+		name = "ロイヤル・オーク",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2393,7 +2393,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91097] = {
 		cannon = 0,
-		name = "伊丽莎白女王",
+		name = "クイーン・エリザベス",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2565,7 +2565,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91098] = {
 		cannon = 0,
-		name = "特拉法尔加",
+		name = "トラファルガー",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2721,7 +2721,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91099] = {
 		cannon = 0,
-		name = "江风·META",
+		name = "江風(META)",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2868,7 +2868,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91100] = {
 		cannon = 0,
-		name = "血影",
+		name = "「血の影」",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2987,7 +2987,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91101] = {
 		cannon = 0,
-		name = "BLACK★ROCK SHOOTER",
+		name = "ブラック★ロックシューター",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3143,7 +3143,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91102] = {
 		cannon = 0,
-		name = "DEAD MASTER",
+		name = "デッドマスター",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3299,7 +3299,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91103] = {
 		cannon = 0,
-		name = "都市帮派型直升机",
+		name = "都市ギャングヘリ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3454,7 +3454,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91104] = {
 		cannon = 0,
-		name = "都市帮派型巡洋舰",
+		name = "都市ギャング巡洋艦",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3616,7 +3616,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91105] = {
 		cannon = 0,
-		name = "都市帮派型障碍舰",
+		name = "都市ギャング戦艦",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3784,7 +3784,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91106] = {
 		cannon = 0,
-		name = "都市帮派型火力舰",
+		name = "都市ギャング火力艦",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3952,7 +3952,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91107] = {
 		cannon = 0,
-		name = "都市帮派型飞行器母舰",
+		name = "都市ギャング飛行母艦",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4121,7 +4121,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91108] = {
 		cannon = 0,
-		name = "都市帮派型自爆船",
+		name = "都市ギャング自爆艇",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4269,7 +4269,7 @@ pg.enemy_data_statistics_36 = {
 	},
 	[91109] = {
 		cannon = 0,
-		name = "都市帮派型潜航器",
+		name = "都市ギャング潜航艦",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,

@@ -2,7 +2,7 @@ pg = pg or {}
 pg.activity_dreamland_event = {
 	{
 		icon = "tag_story_main",
-		name = "梦境的入口",
+		name = "夢境の入口",
 		id = 1,
 		bg = 1,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI1",
@@ -13,7 +13,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "来一杯冰牛奶吧~",
+		name = "冷えた牛乳を…召し上がれ？",
 		id = 2,
 		bg = 1,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI13",
@@ -24,7 +24,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "一日之计在于晨？",
+		name = "一日の計は朝にあり？",
 		id = 3,
 		bg = 1,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI2",
@@ -35,7 +35,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "通往心房的钥匙",
+		name = "心の鍵",
 		id = 4,
 		bg = 1,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI14",
@@ -46,7 +46,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "闪耀的魔法表演",
+		name = "キラキラアイドルショー",
 		id = 5,
 		bg = 1,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI7",
@@ -57,7 +57,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "泳装女仆与冰镇汽水",
+		name = "メイドと水着とドリンクと",
 		id = 6,
 		bg = 1,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI15",
@@ -68,7 +68,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "特别的花车巡游",
+		name = "スペシャルパレード",
 		id = 7,
 		bg = 1,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI8",
@@ -79,7 +79,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "正中靶心的甜蜜赌局",
+		name = "ターゲット・ギャンブル",
 		id = 8,
 		bg = 1,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI16",
@@ -90,7 +90,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "换上纯白礼服吧！",
+		name = "ドレスに着替えよう！",
 		id = 9,
 		bg = 1,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI17",
@@ -101,7 +101,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "逢魔之时",
+		name = "逢魔が時",
 		id = 10,
 		bg = 2,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI3",
@@ -112,7 +112,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "迷宫之中",
+		name = "迷路の中",
 		id = 11,
 		bg = 2,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI10",
@@ -123,7 +123,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "缠绕的黑暗",
+		name = "まとわりつく闇",
 		id = 12,
 		bg = 2,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI11",
@@ -134,7 +134,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "特殊时刻",
+		name = "特別な時間",
 		id = 13,
 		bg = 3,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI12",
@@ -145,7 +145,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "夜晚的游乐时间",
+		name = "夜の遊興タイム",
 		id = 14,
 		bg = 3,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI4",
@@ -156,7 +156,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "烟花与回忆",
+		name = "花火と思い出",
 		id = 15,
 		bg = 3,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI9",
@@ -167,7 +167,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "美梦落幕之时",
+		name = "最後まで良き夢を",
 		id = 16,
 		bg = 3,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI5",
@@ -178,7 +178,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "梦幻的烟火",
+		name = "夢の花火",
 		id = 17,
 		bg = 3,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI18",
@@ -189,7 +189,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "特别的睡前服务",
+		name = "寝る前のスペシャルサービス",
 		id = 18,
 		bg = 1,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI19",
@@ -200,7 +200,7 @@ pg.activity_dreamland_event = {
 	},
 	{
 		icon = "tag_story_main",
-		name = "后日谈",
+		name = "エピローグ",
 		id = 19,
 		bg = 1,
 		story = "MENGHUANLEYUANDEMENGHUANJIARI6",

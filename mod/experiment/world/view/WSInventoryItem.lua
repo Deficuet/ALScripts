@@ -15,7 +15,7 @@ function var_0_0.update(arg_2_0, arg_2_1)
 	arg_2_0.go.name = tostring(arg_2_1.id)
 
 	setText(arg_2_0.countTF, arg_2_1.count > 0 and arg_2_1.count or "")
-	setText(arg_2_0.nameTF, shortenString(getText(findTF(arg_2_0.bg, "name")), 7))
+	setText(arg_2_0.nameTF, shortenString(getText(findTF(arg_2_0.bg, "name")), 5))
 end
 
 function var_0_0.clear(arg_3_0)

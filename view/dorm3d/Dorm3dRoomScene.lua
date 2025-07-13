@@ -2604,7 +2604,7 @@ function var_0_0.PopFavorTrigger(arg_310_0, arg_310_1)
 		local var_310_5, var_310_6 = var_310_3:getFavor()
 		local var_310_7 = var_310_5 + var_310_1
 
-		setText(arg_310_0.rtFavorUpDaily:Find("bg/Text"), string.format("<size=48>+%d</size>", math.min(9999, var_310_1)))
+		setText(arg_310_0.rtFavorUpDaily:Find("bg/Text"), string.format("<size=30>+%d</size>", math.min(9999, var_310_1)))
 		setSlider(arg_310_0.rtFavorUpDaily:Find("bg/slider"), 0, var_310_6, var_310_5)
 		setAnchoredPosition(arg_310_0.rtFavorUpDaily:Find("bg"), arg_310_1.isGift and NewPos(-354, 223) or NewPos(-208, 105))
 

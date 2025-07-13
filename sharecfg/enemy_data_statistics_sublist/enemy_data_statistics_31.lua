@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_31 = {
 	[90930] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-şÜśŕ´ĽĐë",
+		name = "偽相体-群れる触腕",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -132,7 +132,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90931] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-ÄÜĹŔÄÜ´ň",
+		name = "偽相体-殴打及び匍匐移動能力を有する",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -262,7 +262,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90932] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-ÂÝĐý´óĹÚ",
+		name = "偽相体-スパイラリーガン",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -392,7 +392,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90933] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-ĹŕľĂşÜżě",
+		name = "偽相体-高速爬行種",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -529,7 +529,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90934] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-´ó×ŞÂÖ",
+		name = "偽相体-回転リング",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -652,7 +652,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90935] = {
 		cannon = 0,
-		name = "ÄâĚŹÎď-ľĆÁýÓă",
+		name = "偽相体-チョウチンアンコウ",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -789,7 +789,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90936] = {
 		cannon = 0,
-		name = "ÄâĚŹĘŢ-śúĚý°Ëˇ˝",
+		name = "偽相獣・八方聴かす耳",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1035,7 +1035,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90938] = {
 		cannon = 0,
-		name = "死神之影",
+		name = "デスシャドウ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1171,7 +1171,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90939] = {
 		cannon = 0,
-		name = "掠影·XIII",
+		name = "絡め取る影·XIII",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1292,7 +1292,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90940] = {
 		cannon = 0,
-		name = "樋·META~Shadow Of Hierophant~",
+		name = "旗風·META~Shadow Of Hierophant~",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1436,7 +1436,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90941] = {
 		cannon = 0,
-		name = "威奇塔·META",
+		name = "ウィチタ(META)",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1596,7 +1596,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90942] = {
 		cannon = 0,
-		name = "童心喵石驱逐舰",
+		name = "リトルオフニャ・駆逐",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1751,7 +1751,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90943] = {
 		cannon = 0,
-		name = "童心喵石轻巡洋舰",
+		name = "リトルオフニャ・軽巡",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1913,7 +1913,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90944] = {
 		cannon = 0,
-		name = "童心喵石重巡洋舰",
+		name = "リトルオフニャ・重巡",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2081,7 +2081,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90945] = {
 		cannon = 0,
-		name = "童心喵石战列舰",
+		name = "リトルオフニャ・戦艦",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2249,7 +2249,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90946] = {
 		cannon = 0,
-		name = "童心喵石航空母舰",
+		name = "リトルオフニャ・空母",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2418,7 +2418,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90947] = {
 		cannon = 0,
-		name = "童心喵石爆炸船",
+		name = "リトルオフニャ・爆発",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2566,7 +2566,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90948] = {
 		cannon = 0,
-		name = "健康活力·石膏喵",
+		name = "健康運動・石膏オフニャ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2688,7 +2688,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90949] = {
 		cannon = 0,
-		name = "永葆童心·石膏喵",
+		name = "純真無垢・石膏オフニャ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2810,7 +2810,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90950] = {
 		cannon = 0,
-		name = "兴趣培养·石膏喵",
+		name = "趣味嗜好・石膏オフニャ",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2932,7 +2932,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90951] = {
 		cannon = 0,
-		name = "理性思维·石膏喵",
+		name = "座学勉強・石膏オフニャ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3054,7 +3054,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90952] = {
 		cannon = 0,
-		name = "趣味玩乐·石膏喵",
+		name = "おあそび・石膏オフニャ",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3176,7 +3176,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90953] = {
 		cannon = 0,
-		name = "赫敏",
+		name = "ハーマイオニー",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3332,7 +3332,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90954] = {
 		cannon = 0,
-		name = "天狼星",
+		name = "シリアス",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3488,7 +3488,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90955] = {
 		cannon = 0,
-		name = "妮米改",
+		name = "Z23改",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3644,7 +3644,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90956] = {
 		cannon = 0,
-		name = "莉普莎改",
+		name = "ライプツィヒ改",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3800,7 +3800,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90957] = {
 		cannon = 0,
-		name = "克劳迪亚改",
+		name = "ケルン改",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3956,7 +3956,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90958] = {
 		cannon = 0,
-		name = "庞培·马格诺",
+		name = "ポンペオ·マーニョ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4112,7 +4112,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90959] = {
 		cannon = 0,
-		name = "阿尔弗雷多·奥里亚尼",
+		name = "アルフレード・オリアーニ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,

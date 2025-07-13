@@ -1,10 +1,10 @@
 local var_0_0 = class("RecordShipEquipmentCommand", pm.SimpleCommand)
 local var_0_1 = {
-	"#FFFFFF",
-	"#60a9ff",
-	"#966af6",
-	"#fff157",
-	"#EE799F"
+	"#CFCFCF",
+	"#9FECFF",
+	"#B8CFF9",
+	"#FDF3AA",
+	"#8EA7EB"
 }
 
 function var_0_0.execute(arg_1_0, arg_1_1)

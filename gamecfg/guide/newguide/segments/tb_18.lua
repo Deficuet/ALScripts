@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "请点击任务",
+				text = "ここをタップすると、現在の育成目標任務を確認できます",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -25,7 +25,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "请点击按钮领取奖励",
+				text = "请ボタンをタップし報酬を受け取ってください",
 				mode = 2,
 				delay = 0.3,
 				char = 1,
@@ -43,7 +43,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "点击空白处关闭",
+				text = "画面をタップして戻りましょう",
 				mode = 2,
 				delay = 0.5,
 				char = 1,
@@ -64,7 +64,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "点击返回主界面",
+				text = "TB育成に戻りましょう",
 				mode = 2,
 				posY = -350,
 				char = 1,

@@ -2,19 +2,19 @@ pg = pg or {}
 pg.roll_attr = {
 	{
 		ID = 1,
-		name = "姓名",
+		name = "名前",
 		default_value = "",
 		random_value = {}
 	},
 	{
 		ID = 2,
-		name = "职业",
-		default_value = "调查员",
+		name = "職業",
+		default_value = "探索者",
 		random_value = {}
 	},
 	{
 		ID = 3,
-		name = "力量",
+		name = "筋力",
 		default_value = "25",
 		random_value = {
 			0,
@@ -23,7 +23,7 @@ pg.roll_attr = {
 	},
 	{
 		ID = 4,
-		name = "体质",
+		name = "体力",
 		default_value = "15",
 		random_value = {
 			0,
@@ -32,7 +32,7 @@ pg.roll_attr = {
 	},
 	{
 		ID = 5,
-		name = "意志",
+		name = "精神力",
 		default_value = "45",
 		random_value = {
 			0,
@@ -41,7 +41,7 @@ pg.roll_attr = {
 	},
 	{
 		ID = 6,
-		name = "敏捷",
+		name = "敏捷性",
 		default_value = "70",
 		random_value = {
 			0,
@@ -50,7 +50,7 @@ pg.roll_attr = {
 	},
 	{
 		ID = 7,
-		name = "外貌",
+		name = "外見",
 		default_value = "85",
 		random_value = {
 			0,
@@ -68,7 +68,7 @@ pg.roll_attr = {
 	},
 	{
 		ID = 9,
-		name = "智力",
+		name = "知性",
 		default_value = "90",
 		random_value = {
 			0,
@@ -77,8 +77,8 @@ pg.roll_attr = {
 	},
 	{
 		ID = 10,
-		name = "体型",
-		default_value = "80",
+		name = "体格",
+		default_value = "90",
 		random_value = {
 			0,
 			99
@@ -86,101 +86,101 @@ pg.roll_attr = {
 	},
 	{
 		ID = 11,
-		name = "观察力",
-		default_value = "熟练",
+		name = "目星",
+		default_value = "普通",
 		random_value = {
-			"糟糕",
-			"入门",
-			"熟练",
-			"精通"
+			"下手",
+			"初心者",
+			"普通",
+			"専門家"
 		}
 	},
 	{
 		ID = 12,
-		name = "民俗研究",
-		default_value = "入门",
+		name = "民族研究",
+		default_value = "初心者",
 		random_value = {
-			"糟糕",
-			"入门",
-			"熟练",
-			"精通"
+			"下手",
+			"初心者",
+			"普通",
+			"専門家"
 		}
 	},
 	{
 		ID = 13,
-		name = "射击",
-		default_value = "入门",
+		name = "射撃",
+		default_value = "初心者",
 		random_value = {
-			"糟糕",
-			"入门",
-			"熟练",
-			"精通"
+			"下手",
+			"初心者",
+			"普通",
+			"専門家"
 		}
 	},
 	{
 		ID = 14,
-		name = "魅惑术",
-		default_value = "精通",
+		name = "魅惑",
+		default_value = "専門家",
 		random_value = {
-			"糟糕",
-			"入门",
-			"熟练",
-			"精通"
+			"下手",
+			"初心者",
+			"普通",
+			"専門家"
 		}
 	},
 	{
 		ID = 15,
-		name = "开锁",
-		default_value = "精通",
+		name = "鍵開け",
+		default_value = "専門家",
 		random_value = {
-			"糟糕",
-			"入门",
-			"熟练",
-			"精通"
+			"下手",
+			"初心者",
+			"普通",
+			"専門家"
 		}
 	},
 	{
 		ID = 16,
-		name = "陷阱制作",
-		default_value = "入门",
+		name = "罠作成",
+		default_value = "初心者",
 		random_value = {
-			"糟糕",
-			"入门",
-			"熟练",
-			"精通"
+			"下手",
+			"初心者",
+			"普通",
+			"専門家"
 		}
 	},
 	{
 		ID = 17,
-		name = "投掷",
-		default_value = "精通",
+		name = "投擲",
+		default_value = "専門家",
 		random_value = {
-			"糟糕",
-			"入门",
-			"熟练",
-			"精通"
+			"下手",
+			"初心者",
+			"普通",
+			"専門家"
 		}
 	},
 	{
 		ID = 18,
-		name = "快速阅读",
-		default_value = "入门",
+		name = "高速閲覧",
+		default_value = "初心者",
 		random_value = {
-			"糟糕",
-			"入门",
-			"熟练",
-			"精通"
+			"下手",
+			"初心者",
+			"普通",
+			"専門家"
 		}
 	},
 	[1001] = {
 		ID = 1001,
-		name = "姓名",
+		name = "名前",
 		default_value = "",
 		random_value = ""
 	},
 	[1002] = {
 		ID = 1002,
-		name = "等级",
+		name = "LV",
 		default_value = "1",
 		random_value = {
 			1,
@@ -189,96 +189,96 @@ pg.roll_attr = {
 	},
 	[1003] = {
 		ID = 1003,
-		name = "职业",
-		default_value = "指挥官",
+		name = "職業",
+		default_value = "指揮官",
 		random_value = {
-			"猎魔人",
-			"光之战士",
-			"法师",
-			"战士",
-			"猎人",
+			"悪魔狩り",
+			"光の戦士",
+			"メイジ",
+			"ウォリアー",
+			"レンジャー",
 			"勇者",
-			"骑士",
-			"龙骑士",
-			"巨盾骑士",
-			"狮鹫骑士",
-			"火枪手",
-			"德鲁伊",
-			"盗贼",
-			"赏金猎人",
-			"刺客",
-			"炼金术师",
-			"指挥官",
+			"ナイト",
+			"ドラゴンナイト",
+			"シールドナイト",
+			"グリフォンナイト",
+			"マスケッティア",
+			"ドルイド",
+			"シーフ",
+			"賞金稼ぎ",
+			"アサシン",
+			"アルケミスト",
+			"指揮官",
 			"商人",
-			"领主",
-			"将军",
-			"村民",
-			"教师",
+			"ロード",
+			"ジェネラル",
+			"村人",
+			"教師",
 			"魔王",
-			"魔将军",
-			"死灵法师",
-			"黑暗骑士",
-			"恶魔召唤师",
-			"纯路人",
-			"拳击手",
-			"武术大师",
-			"铁匠",
-			"铸剑大师",
-			"死亡骑士",
-			"狙击手",
-			"神圣骑士",
-			"战争统帅",
-			"舞者",
-			"魔剑士",
-			"大魔导师",
-			"药剂师",
-			"国王",
-			"世界守护者",
-			"钓鱼大师",
-			"特级厨师",
-			"海盗船长",
-			"情报商",
-			"守望者",
-			"外星王族",
-			"剑圣",
-			"摔跤手",
-			"神官",
-			"武僧",
-			"异世界访客",
-			"龙骑士",
-			"吟游诗人",
-			"调查员",
-			"弓箭手",
-			"长矛手",
-			"弩手",
-			"圣骑士"
+			"魔将軍",
+			"ネクロマンサー",
+			"ダークナイト",
+			"デビルサマナー",
+			"通行人",
+			"バウンサー",
+			"ファイター",
+			"鍛冶屋",
+			"名刀工",
+			"デスナイト",
+			"スナイパー",
+			"ホーリーナイト",
+			"ウォーロード",
+			"ダンサー",
+			"魔剣士",
+			"アークメイジ",
+			"薬師",
+			"エンペラー",
+			"ワールドガーディアン",
+			"釣りマスター",
+			"特急コック",
+			"パイレーツ船長",
+			"情報屋",
+			"防人",
+			"エーリアン",
+			"ソードマスター",
+			"グラップラー",
+			"プリースト",
+			"モンク",
+			"ストレンジャー",
+			"ドラゴンナイト",
+			"吟遊詩人",
+			"探索者",
+			"アーチャー",
+			"ランサー",
+			"ボウガンナー",
+			"パラディン"
 		}
 	},
 	[1004] = {
 		ID = 1004,
-		name = "守护神",
-		default_value = "幸运与财富之神",
+		name = "加護",
+		default_value = "幸運と富の神",
 		random_value = {
-			"起始与终焉之神",
-			"茶会与点心之神",
-			"钢铁与巨龙之神",
-			"火焰与净化之神",
-			"光明与正义之神",
-			"黑暗与诡计之神",
-			"坚韧与团结之神",
-			"平安与守护之神",
-			"复兴与浴室之神",
-			"开拓与冒险之神",
-			"幸运与财富之神",
-			"秩序与规则之神",
-			"智慧之神",
-			"战争之神",
-			"欢愉之神"
+			"始まりと終わりの神",
+			"お茶会とお菓子の神",
+			"鋼鉄と巨竜の神",
+			"炎と浄化の神",
+			"光と正義の神",
+			"闇と陰謀の神",
+			"団結と強靭の神",
+			"平安と守護の神",
+			"復興と風呂の神",
+			"開拓と冒険の神",
+			"幸運と富の神",
+			"秩序と規則の神",
+			"知恵の神",
+			"戦争の神",
+			"愉悦の神"
 		}
 	},
 	[2001] = {
 		ID = 2001,
-		name = "生命值",
+		name = "HP",
 		default_value = "100",
 		random_value = {
 			1,
@@ -287,7 +287,7 @@ pg.roll_attr = {
 	},
 	[2002] = {
 		ID = 2002,
-		name = "魔法值",
+		name = "MP",
 		default_value = "50",
 		random_value = {
 			1,
@@ -296,7 +296,7 @@ pg.roll_attr = {
 	},
 	[2003] = {
 		ID = 2003,
-		name = "攻击力",
+		name = "ATK",
 		default_value = "11",
 		random_value = {
 			0,
@@ -305,7 +305,7 @@ pg.roll_attr = {
 	},
 	[2004] = {
 		ID = 2004,
-		name = "防御力",
+		name = "DEF",
 		default_value = "9",
 		random_value = {
 			0,
@@ -314,7 +314,7 @@ pg.roll_attr = {
 	},
 	[2005] = {
 		ID = 2005,
-		name = "速度",
+		name = "SPD",
 		default_value = "12",
 		random_value = {
 			1,
@@ -323,7 +323,7 @@ pg.roll_attr = {
 	},
 	[2006] = {
 		ID = 2006,
-		name = "幸运",
+		name = "LUC",
 		default_value = "750",
 		random_value = {
 			0,
@@ -332,7 +332,7 @@ pg.roll_attr = {
 	},
 	[3000] = {
 		ID = 3000,
-		name = "投掷",
+		name = "投擲",
 		default_value = "C",
 		random_value = {
 			"F",
@@ -348,7 +348,7 @@ pg.roll_attr = {
 	},
 	[3001] = {
 		ID = 3001,
-		name = "奔跑",
+		name = "走行",
 		default_value = "B",
 		random_value = {
 			"F",
@@ -364,7 +364,7 @@ pg.roll_attr = {
 	},
 	[3002] = {
 		ID = 3002,
-		name = "海潮号角",
+		name = "海潮のホーン",
 		default_value = "SSS",
 		random_value = {
 			"F",
@@ -380,7 +380,7 @@ pg.roll_attr = {
 	},
 	[3003] = {
 		ID = 3003,
-		name = "战场指挥",
+		name = "戦場指揮",
 		default_value = "SSS",
 		random_value = {
 			"F",
@@ -396,7 +396,7 @@ pg.roll_attr = {
 	},
 	[3004] = {
 		ID = 3004,
-		name = "情报记录",
+		name = "情報記録",
 		default_value = "SSS",
 		random_value = {
 			"F",
@@ -412,7 +412,7 @@ pg.roll_attr = {
 	},
 	[3005] = {
 		ID = 3005,
-		name = "情报分析",
+		name = "情報分析",
 		default_value = "SSS",
 		random_value = {
 			"F",
@@ -428,7 +428,7 @@ pg.roll_attr = {
 	},
 	[3006] = {
 		ID = 3006,
-		name = "炎爆术",
+		name = "フレイムブラスト",
 		default_value = "",
 		random_value = {
 			"F",
@@ -444,7 +444,7 @@ pg.roll_attr = {
 	},
 	[3007] = {
 		ID = 3007,
-		name = "寒冰术",
+		name = "アイシクルクラッシュ",
 		default_value = "",
 		random_value = {
 			"F",
@@ -460,7 +460,7 @@ pg.roll_attr = {
 	},
 	[3008] = {
 		ID = 3008,
-		name = "风刃术",
+		name = "ウィンドエッジ",
 		default_value = "",
 		random_value = {
 			"F",
@@ -476,7 +476,7 @@ pg.roll_attr = {
 	},
 	[3009] = {
 		ID = 3009,
-		name = "激流术",
+		name = "スプラッシュ",
 		default_value = "",
 		random_value = {
 			"F",
@@ -492,7 +492,7 @@ pg.roll_attr = {
 	},
 	[3010] = {
 		ID = 3010,
-		name = "沙暴术",
+		name = "サンドストーム",
 		default_value = "",
 		random_value = {
 			"F",
@@ -508,7 +508,7 @@ pg.roll_attr = {
 	},
 	[3011] = {
 		ID = 3011,
-		name = "雾隐术",
+		name = "ミストクローク",
 		default_value = "",
 		random_value = {
 			"F",
@@ -524,7 +524,7 @@ pg.roll_attr = {
 	},
 	[3012] = {
 		ID = 3012,
-		name = "气浪术",
+		name = "エアウェーブ",
 		default_value = "",
 		random_value = {
 			"F",
@@ -540,7 +540,7 @@ pg.roll_attr = {
 	},
 	[3013] = {
 		ID = 3013,
-		name = "毒烟术",
+		name = "ポイズンクラウド",
 		default_value = "",
 		random_value = {
 			"F",
@@ -556,7 +556,7 @@ pg.roll_attr = {
 	},
 	[3014] = {
 		ID = 3014,
-		name = "雷击术",
+		name = "サンダー",
 		default_value = "",
 		random_value = {
 			"F",
@@ -572,7 +572,7 @@ pg.roll_attr = {
 	},
 	[3015] = {
 		ID = 3015,
-		name = "时间停滞",
+		name = "タイムストップ",
 		default_value = "",
 		random_value = {
 			"F",
@@ -588,7 +588,7 @@ pg.roll_attr = {
 	},
 	[3016] = {
 		ID = 3016,
-		name = "陨石术",
+		name = "メテオフォール",
 		default_value = "",
 		random_value = {
 			"F",
@@ -604,7 +604,7 @@ pg.roll_attr = {
 	},
 	[3017] = {
 		ID = 3017,
-		name = "魅惑术",
+		name = "テンプテーション",
 		default_value = "",
 		random_value = {
 			"F",
@@ -620,7 +620,7 @@ pg.roll_attr = {
 	},
 	[3018] = {
 		ID = 3018,
-		name = "催眠术",
+		name = "ヒュプノス",
 		default_value = "",
 		random_value = {
 			"F",
@@ -636,7 +636,7 @@ pg.roll_attr = {
 	},
 	[3019] = {
 		ID = 3019,
-		name = "死灵术",
+		name = "アニメイトデッド",
 		default_value = "",
 		random_value = {
 			"F",
@@ -652,7 +652,7 @@ pg.roll_attr = {
 	},
 	[3020] = {
 		ID = 3020,
-		name = "巨剑术",
+		name = "サモンソード",
 		default_value = "",
 		random_value = {
 			"F",
@@ -668,7 +668,7 @@ pg.roll_attr = {
 	},
 	[3021] = {
 		ID = 3021,
-		name = "御剑术",
+		name = "御剣の術",
 		default_value = "",
 		random_value = {
 			"F",
@@ -684,7 +684,7 @@ pg.roll_attr = {
 	},
 	[3022] = {
 		ID = 3022,
-		name = "神圣之光",
+		name = "ホーリーライト",
 		default_value = "",
 		random_value = {
 			"F",
@@ -700,7 +700,7 @@ pg.roll_attr = {
 	},
 	[3023] = {
 		ID = 3023,
-		name = "空间封锁",
+		name = "空間封鎖",
 		default_value = "",
 		random_value = {
 			"F",
@@ -716,7 +716,7 @@ pg.roll_attr = {
 	},
 	[3024] = {
 		ID = 3024,
-		name = "传送术",
+		name = "テレポート",
 		default_value = "",
 		random_value = {
 			"F",
@@ -732,7 +732,7 @@ pg.roll_attr = {
 	},
 	[3025] = {
 		ID = 3025,
-		name = "神行术",
+		name = "クイックステップ",
 		default_value = "",
 		random_value = {
 			"F",
@@ -748,7 +748,7 @@ pg.roll_attr = {
 	},
 	[3026] = {
 		ID = 3026,
-		name = "穿墙术",
+		name = "壁抜けの術",
 		default_value = "",
 		random_value = {
 			"F",
@@ -764,7 +764,7 @@ pg.roll_attr = {
 	},
 	[3027] = {
 		ID = 3027,
-		name = "潜行术",
+		name = "ステルスムーブ",
 		default_value = "",
 		random_value = {
 			"F",
@@ -780,7 +780,7 @@ pg.roll_attr = {
 	},
 	[3028] = {
 		ID = 3028,
-		name = "消音术",
+		name = "音消しの術",
 		default_value = "",
 		random_value = {
 			"F",
@@ -796,7 +796,7 @@ pg.roll_attr = {
 	},
 	[3029] = {
 		ID = 3029,
-		name = "闪电链",
+		name = "チェインライトニング",
 		default_value = "",
 		random_value = {
 			"F",
@@ -812,7 +812,7 @@ pg.roll_attr = {
 	},
 	[3030] = {
 		ID = 3030,
-		name = "治愈之光",
+		name = "キュアライト",
 		default_value = "",
 		random_value = {
 			"F",
@@ -828,7 +828,7 @@ pg.roll_attr = {
 	},
 	[3031] = {
 		ID = 3031,
-		name = "幻术",
+		name = "幻惑の術",
 		default_value = "",
 		random_value = {
 			"F",
@@ -844,7 +844,7 @@ pg.roll_attr = {
 	},
 	[3032] = {
 		ID = 3032,
-		name = "灵魂汲取",
+		name = "ソウルスティール",
 		default_value = "",
 		random_value = {
 			"F",
@@ -860,7 +860,7 @@ pg.roll_attr = {
 	},
 	[3033] = {
 		ID = 3033,
-		name = "大地之力",
+		name = "アースフォース",
 		default_value = "",
 		random_value = {
 			"F",
@@ -876,7 +876,7 @@ pg.roll_attr = {
 	},
 	[3034] = {
 		ID = 3034,
-		name = "精神冲击",
+		name = "マインドクラッシュ",
 		default_value = "",
 		random_value = {
 			"F",
@@ -892,7 +892,7 @@ pg.roll_attr = {
 	},
 	[3035] = {
 		ID = 3035,
-		name = "巨剑冲击",
+		name = "ソードスマッシュ",
 		default_value = "",
 		random_value = {
 			"F",
@@ -908,7 +908,7 @@ pg.roll_attr = {
 	},
 	[3036] = {
 		ID = 3036,
-		name = "召唤术",
+		name = "レッサーサモン",
 		default_value = "",
 		random_value = {
 			"F",
@@ -924,7 +924,7 @@ pg.roll_attr = {
 	},
 	[3037] = {
 		ID = 3037,
-		name = "人偶操控",
+		name = "人形操術",
 		default_value = "",
 		random_value = {
 			"F",
@@ -940,7 +940,7 @@ pg.roll_attr = {
 	},
 	[3038] = {
 		ID = 3038,
-		name = "狼人化",
+		name = "ワーウルフ変身",
 		default_value = "",
 		random_value = {
 			"F",
@@ -956,7 +956,7 @@ pg.roll_attr = {
 	},
 	[3039] = {
 		ID = 3039,
-		name = "吸血鬼化",
+		name = "ヴァンパイア変身",
 		default_value = "",
 		random_value = {
 			"F",
@@ -972,7 +972,7 @@ pg.roll_attr = {
 	},
 	[3040] = {
 		ID = 3040,
-		name = "结界",
+		name = "結界術",
 		default_value = "",
 		random_value = {
 			"F",
@@ -988,7 +988,7 @@ pg.roll_attr = {
 	},
 	[3041] = {
 		ID = 3041,
-		name = "魔法结界",
+		name = "マジックバリア",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1004,7 +1004,7 @@ pg.roll_attr = {
 	},
 	[3042] = {
 		ID = 3042,
-		name = "杀伤术",
+		name = "理力の術",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1020,7 +1020,7 @@ pg.roll_attr = {
 	},
 	[3043] = {
 		ID = 3043,
-		name = "读心术",
+		name = "テレパシー",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1036,7 +1036,7 @@ pg.roll_attr = {
 	},
 	[3044] = {
 		ID = 3044,
-		name = "潜入梦境",
+		name = "夢潜り",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1052,7 +1052,7 @@ pg.roll_attr = {
 	},
 	[3045] = {
 		ID = 3045,
-		name = "制造分身",
+		name = "分身の術",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1068,7 +1068,7 @@ pg.roll_attr = {
 	},
 	[3046] = {
 		ID = 3046,
-		name = "野性解放",
+		name = "ワイルド",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1084,7 +1084,7 @@ pg.roll_attr = {
 	},
 	[3047] = {
 		ID = 3047,
-		name = "意识交换",
+		name = "マインドチェンジ",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1100,7 +1100,7 @@ pg.roll_attr = {
 	},
 	[3048] = {
 		ID = 3048,
-		name = "快速愈合",
+		name = "クイックキュア",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1116,7 +1116,7 @@ pg.roll_attr = {
 	},
 	[3049] = {
 		ID = 3049,
-		name = "刚体术",
+		name = "スーパーアーマー",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1148,7 +1148,7 @@ pg.roll_attr = {
 	},
 	[3051] = {
 		ID = 3051,
-		name = "缩小化",
+		name = "収縮",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1164,7 +1164,7 @@ pg.roll_attr = {
 	},
 	[3052] = {
 		ID = 3052,
-		name = "狂化",
+		name = "来化",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1180,7 +1180,7 @@ pg.roll_attr = {
 	},
 	[3053] = {
 		ID = 3053,
-		name = "时间操控",
+		name = "時間操作",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1196,7 +1196,7 @@ pg.roll_attr = {
 	},
 	[3054] = {
 		ID = 3054,
-		name = "伤害转移",
+		name = "ダメージ転移",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1212,7 +1212,7 @@ pg.roll_attr = {
 	},
 	[3055] = {
 		ID = 3055,
-		name = "强制恐惧",
+		name = "フォースドホラー",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1228,7 +1228,7 @@ pg.roll_attr = {
 	},
 	[3056] = {
 		ID = 3056,
-		name = "灵魂抽取",
+		name = "ソウルドレイン",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1244,7 +1244,7 @@ pg.roll_attr = {
 	},
 	[3057] = {
 		ID = 3057,
-		name = "诅咒术",
+		name = "呪い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1260,7 +1260,7 @@ pg.roll_attr = {
 	},
 	[3058] = {
 		ID = 3058,
-		name = "沉默术",
+		name = "サイレント",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1276,7 +1276,7 @@ pg.roll_attr = {
 	},
 	[3059] = {
 		ID = 3059,
-		name = "动物交流",
+		name = "アニマルスピーク",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1292,7 +1292,7 @@ pg.roll_attr = {
 	},
 	[3060] = {
 		ID = 3060,
-		name = "千里眼",
+		name = "ファーサイト",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1308,7 +1308,7 @@ pg.roll_attr = {
 	},
 	[3061] = {
 		ID = 3061,
-		name = "透视术",
+		name = "透視",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1324,7 +1324,7 @@ pg.roll_attr = {
 	},
 	[3062] = {
 		ID = 3062,
-		name = "夜视术",
+		name = "ナイトアイ",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1356,7 +1356,7 @@ pg.roll_attr = {
 	},
 	[3064] = {
 		ID = 3064,
-		name = "记忆修改",
+		name = "記憶操作",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1372,7 +1372,7 @@ pg.roll_attr = {
 	},
 	[3065] = {
 		ID = 3065,
-		name = "净化术",
+		name = "ピュリファイング",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1388,7 +1388,7 @@ pg.roll_attr = {
 	},
 	[3066] = {
 		ID = 3066,
-		name = "黑洞术",
+		name = "ブラックホール",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1404,7 +1404,7 @@ pg.roll_attr = {
 	},
 	[3067] = {
 		ID = 3067,
-		name = "石化",
+		name = "石化の術",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1420,7 +1420,7 @@ pg.roll_attr = {
 	},
 	[3068] = {
 		ID = 3068,
-		name = "召唤坐骑",
+		name = "騎乗物召喚",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1452,7 +1452,7 @@ pg.roll_attr = {
 	},
 	[3070] = {
 		ID = 3070,
-		name = "格斗",
+		name = "格闘",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1468,7 +1468,7 @@ pg.roll_attr = {
 	},
 	[3071] = {
 		ID = 3071,
-		name = "交涉",
+		name = "交渉",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1484,7 +1484,7 @@ pg.roll_attr = {
 	},
 	[3072] = {
 		ID = 3072,
-		name = "急救",
+		name = "救急救命",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1500,7 +1500,7 @@ pg.roll_attr = {
 	},
 	[3073] = {
 		ID = 3073,
-		name = "骑乘",
+		name = "騎乗",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1516,7 +1516,7 @@ pg.roll_attr = {
 	},
 	[3074] = {
 		ID = 3074,
-		name = "养生术",
+		name = "養生スキル",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1548,7 +1548,7 @@ pg.roll_attr = {
 	},
 	[3076] = {
 		ID = 3076,
-		name = "法律学",
+		name = "法学",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1564,7 +1564,7 @@ pg.roll_attr = {
 	},
 	[3077] = {
 		ID = 3077,
-		name = "药理学",
+		name = "薬理学",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1580,7 +1580,7 @@ pg.roll_attr = {
 	},
 	[3078] = {
 		ID = 3078,
-		name = "药剂学",
+		name = "薬剤学",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1596,7 +1596,7 @@ pg.roll_attr = {
 	},
 	[3079] = {
 		ID = 3079,
-		name = "机械维修",
+		name = "機械修理",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1612,7 +1612,7 @@ pg.roll_attr = {
 	},
 	[3080] = {
 		ID = 3080,
-		name = "钓鱼",
+		name = "釣り",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1644,7 +1644,7 @@ pg.roll_attr = {
 	},
 	[3082] = {
 		ID = 3082,
-		name = "皇室礼仪",
+		name = "貴族作法",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1660,7 +1660,7 @@ pg.roll_attr = {
 	},
 	[3083] = {
 		ID = 3083,
-		name = "游泳",
+		name = "水泳",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1676,7 +1676,7 @@ pg.roll_attr = {
 	},
 	[3084] = {
 		ID = 3084,
-		name = "兵器保养",
+		name = "武器手入れ",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1692,7 +1692,7 @@ pg.roll_attr = {
 	},
 	[3085] = {
 		ID = 3085,
-		name = "法杖保养",
+		name = "魔法具手入れ",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1708,7 +1708,7 @@ pg.roll_attr = {
 	},
 	[3086] = {
 		ID = 3086,
-		name = "盔甲保养",
+		name = "防具手入れ",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1724,7 +1724,7 @@ pg.roll_attr = {
 	},
 	[3087] = {
 		ID = 3087,
-		name = "武器制造",
+		name = "武器制作",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1740,7 +1740,7 @@ pg.roll_attr = {
 	},
 	[3088] = {
 		ID = 3088,
-		name = "宝石鉴定",
+		name = "宝石鑑定",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1756,7 +1756,7 @@ pg.roll_attr = {
 	},
 	[3089] = {
 		ID = 3089,
-		name = "卷轴制造",
+		name = "巻物制作",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1772,7 +1772,7 @@ pg.roll_attr = {
 	},
 	[3090] = {
 		ID = 3090,
-		name = "药剂制造",
+		name = "ポーション制作",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1788,7 +1788,7 @@ pg.roll_attr = {
 	},
 	[3091] = {
 		ID = 3091,
-		name = "快速交谈",
+		name = "高速会話",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1804,7 +1804,7 @@ pg.roll_attr = {
 	},
 	[3092] = {
 		ID = 3092,
-		name = "箭矢制造",
+		name = "矢制作",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1820,7 +1820,7 @@ pg.roll_attr = {
 	},
 	[3093] = {
 		ID = 3093,
-		name = "硬化术",
+		name = "かたくなる",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1836,7 +1836,7 @@ pg.roll_attr = {
 	},
 	[3094] = {
 		ID = 3094,
-		name = "音爆术",
+		name = "ソニックブーム",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1852,7 +1852,7 @@ pg.roll_attr = {
 	},
 	[3095] = {
 		ID = 3095,
-		name = "影遁术",
+		name = "影遁の術",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1868,7 +1868,7 @@ pg.roll_attr = {
 	},
 	[3096] = {
 		ID = 3096,
-		name = "魔弹术",
+		name = "マジックミサイル",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1884,7 +1884,7 @@ pg.roll_attr = {
 	},
 	[3097] = {
 		ID = 3097,
-		name = "附魔术",
+		name = "マジックエンハンス",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1900,7 +1900,7 @@ pg.roll_attr = {
 	},
 	[3098] = {
 		ID = 3098,
-		name = "面包烘焙",
+		name = "パン作り",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1916,7 +1916,7 @@ pg.roll_attr = {
 	},
 	[3099] = {
 		ID = 3099,
-		name = "死者苏生",
+		name = "死者蘇生",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1932,7 +1932,7 @@ pg.roll_attr = {
 	},
 	[3100] = {
 		ID = 3100,
-		name = "恶灵操控",
+		name = "悪霊操術",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1948,7 +1948,7 @@ pg.roll_attr = {
 	},
 	[3101] = {
 		ID = 3101,
-		name = "血蚀术",
+		name = "ブラッドエンクローチ",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1964,7 +1964,7 @@ pg.roll_attr = {
 	},
 	[3102] = {
 		ID = 3102,
-		name = "谈判技巧",
+		name = "ネゴシエート",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1980,7 +1980,7 @@ pg.roll_attr = {
 	},
 	[3103] = {
 		ID = 3103,
-		name = "格斗技术",
+		name = "格闘スキル",
 		default_value = "",
 		random_value = {
 			"F",
@@ -1996,7 +1996,7 @@ pg.roll_attr = {
 	},
 	[3104] = {
 		ID = 3104,
-		name = "驯兽技巧",
+		name = "野獣使いスキル",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2012,7 +2012,7 @@ pg.roll_attr = {
 	},
 	[3105] = {
 		ID = 3105,
-		name = "绘画能力",
+		name = "絵描きスキル",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2028,7 +2028,7 @@ pg.roll_attr = {
 	},
 	[3106] = {
 		ID = 3106,
-		name = "园艺技术",
+		name = "園芸スキル",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2044,7 +2044,7 @@ pg.roll_attr = {
 	},
 	[3107] = {
 		ID = 3107,
-		name = "开锁",
+		name = "ピッキングスキル",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2060,7 +2060,7 @@ pg.roll_attr = {
 	},
 	[3108] = {
 		ID = 3108,
-		name = "陷阱设置",
+		name = "罠設置",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2092,7 +2092,7 @@ pg.roll_attr = {
 	},
 	[3110] = {
 		ID = 3110,
-		name = "建筑学",
+		name = "建築学",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2108,7 +2108,7 @@ pg.roll_attr = {
 	},
 	[3111] = {
 		ID = 3111,
-		name = "历史学",
+		name = "歴史学",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2124,7 +2124,7 @@ pg.roll_attr = {
 	},
 	[3112] = {
 		ID = 3112,
-		name = "语言学",
+		name = "言語学",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2140,7 +2140,7 @@ pg.roll_attr = {
 	},
 	[3113] = {
 		ID = 3113,
-		name = "乐器演奏",
+		name = "楽器演奏",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2156,7 +2156,7 @@ pg.roll_attr = {
 	},
 	[3114] = {
 		ID = 3114,
-		name = "雕刻技术",
+		name = "彫刻スキル",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2172,7 +2172,7 @@ pg.roll_attr = {
 	},
 	[3115] = {
 		ID = 3115,
-		name = "缝纫制造",
+		name = "裁縫スキル",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2188,7 +2188,7 @@ pg.roll_attr = {
 	},
 	[3116] = {
 		ID = 3116,
-		name = "情报收集",
+		name = "情報収集",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2204,7 +2204,7 @@ pg.roll_attr = {
 	},
 	[3117] = {
 		ID = 3117,
-		name = "陶器制造",
+		name = "陶芸スキル",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2220,7 +2220,7 @@ pg.roll_attr = {
 	},
 	[3118] = {
 		ID = 3118,
-		name = "预言术",
+		name = "予言",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2236,7 +2236,7 @@ pg.roll_attr = {
 	},
 	[3119] = {
 		ID = 3119,
-		name = "抗性提升",
+		name = "耐性上昇",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2252,7 +2252,7 @@ pg.roll_attr = {
 	},
 	[3120] = {
 		ID = 3120,
-		name = "意识稳定",
+		name = "鋼のメンタル",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2268,7 +2268,7 @@ pg.roll_attr = {
 	},
 	[3121] = {
 		ID = 3121,
-		name = "液体操控",
+		name = "液体操作",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2284,7 +2284,7 @@ pg.roll_attr = {
 	},
 	[3122] = {
 		ID = 3122,
-		name = "金属操控",
+		name = "金属操作",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2300,7 +2300,7 @@ pg.roll_attr = {
 	},
 	[3123] = {
 		ID = 3123,
-		name = "物体复制",
+		name = "コピー作成",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2316,7 +2316,7 @@ pg.roll_attr = {
 	},
 	[3124] = {
 		ID = 3124,
-		name = "赌运",
+		name = "ギャンブルスキル",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2332,7 +2332,7 @@ pg.roll_attr = {
 	},
 	[3125] = {
 		ID = 3125,
-		name = "领域展开",
+		name = "領域展開",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2348,7 +2348,7 @@ pg.roll_attr = {
 	},
 	[3126] = {
 		ID = 3126,
-		name = "板甲操控",
+		name = "プレートアーマー適応",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2364,7 +2364,7 @@ pg.roll_attr = {
 	},
 	[3127] = {
 		ID = 3127,
-		name = "布甲操控",
+		name = "レッサーアーマー適応",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2380,7 +2380,7 @@ pg.roll_attr = {
 	},
 	[3128] = {
 		ID = 3128,
-		name = "重甲操控",
+		name = "ヘヴィアーマー適応",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2396,7 +2396,7 @@ pg.roll_attr = {
 	},
 	[3129] = {
 		ID = 3129,
-		name = "长剑操控",
+		name = "長剣使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2412,7 +2412,7 @@ pg.roll_attr = {
 	},
 	[3130] = {
 		ID = 3130,
-		name = "弓操控",
+		name = "弓使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2428,7 +2428,7 @@ pg.roll_attr = {
 	},
 	[3131] = {
 		ID = 3131,
-		name = "弩操控",
+		name = "ボウガン使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2444,7 +2444,7 @@ pg.roll_attr = {
 	},
 	[3132] = {
 		ID = 3132,
-		name = "长枪操控",
+		name = "長槍使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2460,7 +2460,7 @@ pg.roll_attr = {
 	},
 	[3133] = {
 		ID = 3133,
-		name = "魔杖操控",
+		name = "スタッフ使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2476,7 +2476,7 @@ pg.roll_attr = {
 	},
 	[3134] = {
 		ID = 3134,
-		name = "斧操控",
+		name = "斧使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2492,7 +2492,7 @@ pg.roll_attr = {
 	},
 	[3135] = {
 		ID = 3135,
-		name = "双手剑操控",
+		name = "両手剣使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2508,7 +2508,7 @@ pg.roll_attr = {
 	},
 	[3136] = {
 		ID = 3136,
-		name = "匕首操控",
+		name = "ダガー使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2524,7 +2524,7 @@ pg.roll_attr = {
 	},
 	[3137] = {
 		ID = 3137,
-		name = "铁爪操控",
+		name = "クロー使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2540,7 +2540,7 @@ pg.roll_attr = {
 	},
 	[3138] = {
 		ID = 3138,
-		name = "战锤操控",
+		name = "ハンマー使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2556,7 +2556,7 @@ pg.roll_attr = {
 	},
 	[3139] = {
 		ID = 3139,
-		name = "钉锤操控",
+		name = "モーニングスター使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2572,7 +2572,7 @@ pg.roll_attr = {
 	},
 	[3140] = {
 		ID = 3140,
-		name = "镰刀操控",
+		name = "シザー使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2588,7 +2588,7 @@ pg.roll_attr = {
 	},
 	[3141] = {
 		ID = 3141,
-		name = "长棍操控",
+		name = "長棍使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2604,7 +2604,7 @@ pg.roll_attr = {
 	},
 	[3142] = {
 		ID = 3142,
-		name = "火枪操控",
+		name = "マスケット使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2620,7 +2620,7 @@ pg.roll_attr = {
 	},
 	[3143] = {
 		ID = 3143,
-		name = "十字弓操控",
+		name = "クロスボウ使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2636,7 +2636,7 @@ pg.roll_attr = {
 	},
 	[3144] = {
 		ID = 3144,
-		name = "战戟操控",
+		name = "ハルバート使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2652,7 +2652,7 @@ pg.roll_attr = {
 	},
 	[3145] = {
 		ID = 3145,
-		name = "刺剑操控",
+		name = "レイピア使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2668,7 +2668,7 @@ pg.roll_attr = {
 	},
 	[3146] = {
 		ID = 3146,
-		name = "剑鞘操控",
+		name = "鞘使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2684,7 +2684,7 @@ pg.roll_attr = {
 	},
 	[3147] = {
 		ID = 3147,
-		name = "绷带操控",
+		name = "包帯使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2700,7 +2700,7 @@ pg.roll_attr = {
 	},
 	[3148] = {
 		ID = 3148,
-		name = "鱼竿操控",
+		name = "釣り竿使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2716,7 +2716,7 @@ pg.roll_attr = {
 	},
 	[3149] = {
 		ID = 3149,
-		name = "动力锯操控",
+		name = "チェインソード使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2732,7 +2732,7 @@ pg.roll_attr = {
 	},
 	[3150] = {
 		ID = 3150,
-		name = "角盔操控",
+		name = "ホーンヘルム使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2748,7 +2748,7 @@ pg.roll_attr = {
 	},
 	[3151] = {
 		ID = 3151,
-		name = "头发操控",
+		name = "髪使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2764,7 +2764,7 @@ pg.roll_attr = {
 	},
 	[3152] = {
 		ID = 3152,
-		name = "钝器操控",
+		name = "鈍器使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2780,7 +2780,7 @@ pg.roll_attr = {
 	},
 	[3153] = {
 		ID = 3153,
-		name = "弹弓操控",
+		name = "パチンコ使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2796,7 +2796,7 @@ pg.roll_attr = {
 	},
 	[3154] = {
 		ID = 3154,
-		name = "树枝操控",
+		name = "木の枝使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2812,7 +2812,7 @@ pg.roll_attr = {
 	},
 	[3155] = {
 		ID = 3155,
-		name = "海军刀操控",
+		name = "海軍軍刀使い",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2828,7 +2828,7 @@ pg.roll_attr = {
 	},
 	[3156] = {
 		ID = 3156,
-		name = "投掷",
+		name = "投擲",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2844,7 +2844,7 @@ pg.roll_attr = {
 	},
 	[3157] = {
 		ID = 3157,
-		name = "奔跑",
+		name = "走行",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2860,7 +2860,7 @@ pg.roll_attr = {
 	},
 	[3158] = {
 		ID = 3158,
-		name = "战场指挥",
+		name = "戦場指揮",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2876,7 +2876,7 @@ pg.roll_attr = {
 	},
 	[3159] = {
 		ID = 3159,
-		name = "情报记录",
+		name = "情報記録",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2892,7 +2892,7 @@ pg.roll_attr = {
 	},
 	[3160] = {
 		ID = 3160,
-		name = "情报分析",
+		name = "情報分析",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2908,7 +2908,7 @@ pg.roll_attr = {
 	},
 	[3161] = {
 		ID = 3161,
-		name = "毒抗性",
+		name = "毒耐性",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2924,7 +2924,7 @@ pg.roll_attr = {
 	},
 	[3162] = {
 		ID = 3162,
-		name = "诅咒抗性",
+		name = "呪い耐性",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2940,7 +2940,7 @@ pg.roll_attr = {
 	},
 	[3163] = {
 		ID = 3163,
-		name = "巨龙化",
+		name = "ドラゴン変身",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2956,7 +2956,7 @@ pg.roll_attr = {
 	},
 	[3164] = {
 		ID = 3164,
-		name = "起始之加护",
+		name = "始まりの加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2972,7 +2972,7 @@ pg.roll_attr = {
 	},
 	[3165] = {
 		ID = 3165,
-		name = "终焉之加护",
+		name = "終焉の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -2988,7 +2988,7 @@ pg.roll_attr = {
 	},
 	[3166] = {
 		ID = 3166,
-		name = "茶会之加护",
+		name = "お茶会の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3004,7 +3004,7 @@ pg.roll_attr = {
 	},
 	[3167] = {
 		ID = 3167,
-		name = "点心之加护",
+		name = "お菓子の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3020,7 +3020,7 @@ pg.roll_attr = {
 	},
 	[3168] = {
 		ID = 3168,
-		name = "钢铁之加护",
+		name = "鋼鉄の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3036,7 +3036,7 @@ pg.roll_attr = {
 	},
 	[3169] = {
 		ID = 3169,
-		name = "巨龙之加护",
+		name = "ドラゴンの加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3052,7 +3052,7 @@ pg.roll_attr = {
 	},
 	[3170] = {
 		ID = 3170,
-		name = "火焰之加护",
+		name = "炎の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3068,7 +3068,7 @@ pg.roll_attr = {
 	},
 	[3171] = {
 		ID = 3171,
-		name = "净化之加护",
+		name = "浄化の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3084,7 +3084,7 @@ pg.roll_attr = {
 	},
 	[3172] = {
 		ID = 3172,
-		name = "光明之加护",
+		name = "光の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3100,7 +3100,7 @@ pg.roll_attr = {
 	},
 	[3173] = {
 		ID = 3173,
-		name = "正义之加护",
+		name = "正義の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3116,7 +3116,7 @@ pg.roll_attr = {
 	},
 	[3174] = {
 		ID = 3174,
-		name = "黑暗之加护",
+		name = "闇の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3132,7 +3132,7 @@ pg.roll_attr = {
 	},
 	[3175] = {
 		ID = 3175,
-		name = "诡计之加护",
+		name = "陰謀の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3148,7 +3148,7 @@ pg.roll_attr = {
 	},
 	[3176] = {
 		ID = 3176,
-		name = "坚韧之加护",
+		name = "強靭の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3164,7 +3164,7 @@ pg.roll_attr = {
 	},
 	[3177] = {
 		ID = 3177,
-		name = "团结之加护",
+		name = "団結の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3180,7 +3180,7 @@ pg.roll_attr = {
 	},
 	[3178] = {
 		ID = 3178,
-		name = "平安之加护",
+		name = "平安の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3196,7 +3196,7 @@ pg.roll_attr = {
 	},
 	[3179] = {
 		ID = 3179,
-		name = "守护之加护",
+		name = "守護の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3212,7 +3212,7 @@ pg.roll_attr = {
 	},
 	[3180] = {
 		ID = 3180,
-		name = "复兴之加护",
+		name = "復興の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3228,7 +3228,7 @@ pg.roll_attr = {
 	},
 	[3181] = {
 		ID = 3181,
-		name = "浴室之加护",
+		name = "風呂の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3244,7 +3244,7 @@ pg.roll_attr = {
 	},
 	[3182] = {
 		ID = 3182,
-		name = "开拓之加护",
+		name = "開拓の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3260,7 +3260,7 @@ pg.roll_attr = {
 	},
 	[3183] = {
 		ID = 3183,
-		name = "冒险之加护",
+		name = "冒険の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3276,7 +3276,7 @@ pg.roll_attr = {
 	},
 	[3184] = {
 		ID = 3184,
-		name = "幸运之加护",
+		name = "幸運の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3292,7 +3292,7 @@ pg.roll_attr = {
 	},
 	[3185] = {
 		ID = 3185,
-		name = "财富之加护",
+		name = "富の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3308,7 +3308,7 @@ pg.roll_attr = {
 	},
 	[3186] = {
 		ID = 3186,
-		name = "秩序之加护",
+		name = "秩序の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3324,7 +3324,7 @@ pg.roll_attr = {
 	},
 	[3187] = {
 		ID = 3187,
-		name = "规则之加护",
+		name = "規則の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3340,7 +3340,7 @@ pg.roll_attr = {
 	},
 	[3188] = {
 		ID = 3188,
-		name = "智慧之加护",
+		name = "知恵の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3356,7 +3356,7 @@ pg.roll_attr = {
 	},
 	[3189] = {
 		ID = 3189,
-		name = "战争之加护",
+		name = "戦争の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3372,7 +3372,7 @@ pg.roll_attr = {
 	},
 	[3190] = {
 		ID = 3190,
-		name = "欢愉之加护",
+		name = "愉悦の加護",
 		default_value = "",
 		random_value = {
 			"F",
@@ -3388,7 +3388,7 @@ pg.roll_attr = {
 	},
 	[3192] = {
 		ID = 3192,
-		name = "时之笛",
+		name = "時のフルート",
 		default_value = "C",
 		random_value = {
 			"F",
@@ -3404,7 +3404,7 @@ pg.roll_attr = {
 	},
 	[3193] = {
 		ID = 3193,
-		name = "光明之加护",
+		name = "光の加護",
 		default_value = "SSS",
 		random_value = {
 			"F",

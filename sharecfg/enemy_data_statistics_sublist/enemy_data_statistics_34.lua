@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_34 = {
 	[91020] = {
 		cannon = 0,
-		name = "斯库拉",
+		name = "シラ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -158,7 +158,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91021] = {
 		cannon = 0,
-		name = "德文郡",
+		name = "デヴォンシャー",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -314,7 +314,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91022] = {
 		cannon = 0,
-		name = "努比亚人",
+		name = "ヌビアン",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -470,7 +470,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91023] = {
 		cannon = 0,
-		name = "利物浦",
+		name = "リヴァプール",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -626,7 +626,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91024] = {
 		cannon = 0,
-		name = "金色暗影",
+		name = "金色の闇",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -782,7 +782,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91025] = {
 		cannon = 0,
-		name = "大凤·META",
+		name = "大鳳(META)",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -932,7 +932,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91026] = {
 		cannon = 0,
-		name = "天外之兽-奇虾式合成舰",
+		name = "外なる獣-合成艦アノマロカリス",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1055,7 +1055,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91027] = {
 		cannon = 0,
-		name = "天外之兽-三叶虫式合成舰",
+		name = "外なる獣-合成艦トライロバイト",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1178,7 +1178,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91028] = {
 		cannon = 0,
-		name = "天外之兽-软舌螺式合成舰",
+		name = "外なる獣-合成艦ヒオリテス",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1301,7 +1301,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91029] = {
 		cannon = 0,
-		name = "天外之兽-怪诞虫式合成舰",
+		name = "外なる獣-合成艦ハルキゲニア",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1424,7 +1424,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91030] = {
 		cannon = 0,
-		name = "天外之兽-飞螅式合成舰",
+		name = "外なる獣-合成艦ヒドラ",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1554,7 +1554,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91031] = {
 		cannon = 0,
-		name = "天外之兽-鹦鹉螺式合成舰",
+		name = "外なる獣-合成艦アンモナイト",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1677,7 +1677,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91032] = {
 		cannon = 0,
-		name = "天外之兽-班府虫式合成舰",
+		name = "外なる獣-合成艦バンフィア",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1800,7 +1800,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91033] = {
 		cannon = 0,
-		name = "星之兽",
+		name = "星の獣",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1953,7 +1953,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91034] = {
 		cannon = 0,
-		name = "“飞剑龙”式双翼无人机",
+		name = "オーニソプター・プテラ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2099,7 +2099,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91035] = {
 		cannon = 0,
-		name = "希佩尔海军上将·META",
+		name = "アドミラル・ヒッパー(META)",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2266,7 +2266,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91036] = {
 		cannon = 0,
-		name = "抚顺改",
+		name = "撫順改",
 		type = 20,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2734,7 +2734,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91039] = {
 		cannon = 0,
-		name = "神光型驱逐舰",
+		name = "神光型駆逐艦",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2896,7 +2896,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91040] = {
 		cannon = 0,
-		name = "神光型轻巡洋舰",
+		name = "神光型軽巡洋艦",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3056,7 +3056,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91041] = {
 		cannon = 0,
-		name = "神光型重巡洋舰",
+		name = "神光型重巡洋艦",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3236,7 +3236,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91042] = {
 		cannon = 0,
-		name = "神光型战列舰",
+		name = "神光型戦艦",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3416,7 +3416,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91043] = {
 		cannon = 0,
-		name = "神光型航空母舰",
+		name = "神光型空母",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3583,7 +3583,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91044] = {
 		cannon = 0,
-		name = "神光型突袭舰 ",
+		name = "神光型突撃艦",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3729,7 +3729,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91045] = {
 		cannon = 0,
-		name = "神光型潜水艇",
+		name = "神光型潜水艦",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3880,7 +3880,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91046] = {
 		cannon = 0,
-		name = "审判机·「战车」",
+		name = "メカアービトレイター「戦車」",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4033,7 +4033,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91047] = {
 		cannon = 0,
-		name = "超级马可波罗",
+		name = "超マルコ・ポーロ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4190,7 +4190,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91048] = {
 		cannon = 0,
-		name = "巴托洛梅奥·科莱奥尼",
+		name = "バルトロメオ。コレオーニ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4346,7 +4346,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[91049] = {
 		cannon = 0,
-		name = "阿布鲁齐公爵",
+		name = "ドゥーカ・デッリ・アブルッツィ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_town_work_level = {
 	{
-		name = "小型牧场LV.0",
+		name = "小型牧場LV.0",
 		exp_display = 10,
 		group = 1,
 		type = 1,
@@ -13,7 +13,7 @@ pg.activity_town_work_level = {
 		level = 0
 	},
 	{
-		name = "小型牧场LV.1",
+		name = "小型牧場LV.1",
 		exp_display = 10,
 		group = 1,
 		type = 1,
@@ -25,7 +25,7 @@ pg.activity_town_work_level = {
 		level = 1
 	},
 	{
-		name = "中型牧场LV.2",
+		name = "中型牧場LV.2",
 		exp_display = 10,
 		group = 1,
 		type = 1,
@@ -37,7 +37,7 @@ pg.activity_town_work_level = {
 		level = 2
 	},
 	{
-		name = "中型牧场LV.3",
+		name = "中型牧場LV.3",
 		exp_display = 10,
 		group = 1,
 		type = 1,
@@ -49,7 +49,7 @@ pg.activity_town_work_level = {
 		level = 3
 	},
 	{
-		name = "大型牧场LV.4",
+		name = "大型牧場LV.4",
 		exp_display = 20,
 		group = 1,
 		type = 1,
@@ -61,7 +61,7 @@ pg.activity_town_work_level = {
 		level = 4
 	},
 	{
-		name = "大型牧场LV.5",
+		name = "大型牧場LV.5",
 		exp_display = 0,
 		group = 1,
 		type = 1,
@@ -73,7 +73,7 @@ pg.activity_town_work_level = {
 		level = 5
 	},
 	[11] = {
-		name = "小型农场LV.0",
+		name = "小型農場LV.0",
 		exp_display = 15,
 		group = 2,
 		type = 1,
@@ -85,7 +85,7 @@ pg.activity_town_work_level = {
 		level = 0
 	},
 	[12] = {
-		name = "小型农场LV.1",
+		name = "小型農場LV.1",
 		exp_display = 15,
 		group = 2,
 		type = 1,
@@ -97,7 +97,7 @@ pg.activity_town_work_level = {
 		level = 1
 	},
 	[13] = {
-		name = "中型农场LV.2",
+		name = "中型農場LV.2",
 		exp_display = 15,
 		group = 2,
 		type = 1,
@@ -109,7 +109,7 @@ pg.activity_town_work_level = {
 		level = 2
 	},
 	[14] = {
-		name = "中型农场LV.3",
+		name = "中型農場LV.3",
 		exp_display = 15,
 		group = 2,
 		type = 1,
@@ -121,7 +121,7 @@ pg.activity_town_work_level = {
 		level = 3
 	},
 	[15] = {
-		name = "大型农场LV.4",
+		name = "大型農場LV.4",
 		exp_display = 20,
 		group = 2,
 		type = 1,
@@ -133,7 +133,7 @@ pg.activity_town_work_level = {
 		level = 4
 	},
 	[16] = {
-		name = "大型农场LV.5",
+		name = "大型農場LV.5",
 		exp_display = 0,
 		group = 2,
 		type = 1,
@@ -145,7 +145,7 @@ pg.activity_town_work_level = {
 		level = 5
 	},
 	[21] = {
-		name = "小型矿场LV.0",
+		name = "小型鉱山LV.0",
 		exp_display = 20,
 		group = 3,
 		type = 1,
@@ -157,7 +157,7 @@ pg.activity_town_work_level = {
 		level = 0
 	},
 	[22] = {
-		name = "小型矿场LV.1",
+		name = "小型鉱山LV.1",
 		exp_display = 20,
 		group = 3,
 		type = 1,
@@ -169,7 +169,7 @@ pg.activity_town_work_level = {
 		level = 1
 	},
 	[23] = {
-		name = "中型矿场LV.2",
+		name = "中型鉱山LV.2",
 		exp_display = 20,
 		group = 3,
 		type = 1,
@@ -181,7 +181,7 @@ pg.activity_town_work_level = {
 		level = 2
 	},
 	[24] = {
-		name = "中型矿场LV.3",
+		name = "中型鉱山LV.3",
 		exp_display = 20,
 		group = 3,
 		type = 1,
@@ -193,7 +193,7 @@ pg.activity_town_work_level = {
 		level = 3
 	},
 	[25] = {
-		name = "大型矿场LV.4",
+		name = "大型鉱山LV.4",
 		exp_display = 30,
 		group = 3,
 		type = 1,
@@ -205,7 +205,7 @@ pg.activity_town_work_level = {
 		level = 4
 	},
 	[26] = {
-		name = "大型矿场LV.5",
+		name = "大型鉱山LV.5",
 		exp_display = 0,
 		group = 3,
 		type = 1,
@@ -217,7 +217,7 @@ pg.activity_town_work_level = {
 		level = 5
 	},
 	[31] = {
-		name = "小型摄影棚LV.0",
+		name = "小スタジオLV.0",
 		exp_display = 20,
 		group = 4,
 		type = 1,
@@ -229,7 +229,7 @@ pg.activity_town_work_level = {
 		level = 0
 	},
 	[32] = {
-		name = "小型摄影棚LV.1",
+		name = "小スタジオLV.1",
 		exp_display = 20,
 		group = 4,
 		type = 1,
@@ -241,7 +241,7 @@ pg.activity_town_work_level = {
 		level = 1
 	},
 	[33] = {
-		name = "中型摄影棚LV.2",
+		name = "中スタジオLV.2",
 		exp_display = 20,
 		group = 4,
 		type = 1,
@@ -253,7 +253,7 @@ pg.activity_town_work_level = {
 		level = 2
 	},
 	[34] = {
-		name = "中型摄影棚LV.3",
+		name = "中スタジオLV.3",
 		exp_display = 20,
 		group = 4,
 		type = 1,
@@ -265,7 +265,7 @@ pg.activity_town_work_level = {
 		level = 3
 	},
 	[35] = {
-		name = "大型摄影棚LV.4",
+		name = "大スタジオLV.4",
 		exp_display = 20,
 		group = 4,
 		type = 1,
@@ -277,7 +277,7 @@ pg.activity_town_work_level = {
 		level = 4
 	},
 	[36] = {
-		name = "大型摄影棚LV.5",
+		name = "大スタジオLV.5",
 		exp_display = 0,
 		group = 4,
 		type = 1,
@@ -289,7 +289,7 @@ pg.activity_town_work_level = {
 		level = 5
 	},
 	[101] = {
-		name = "小镇车站LV.0",
+		name = "町の駅LV.0",
 		exp_display = 40,
 		group = 5,
 		type = 2,
@@ -301,7 +301,7 @@ pg.activity_town_work_level = {
 		level = 0
 	},
 	[102] = {
-		name = "小镇车站LV.1",
+		name = "町の駅LV.1",
 		exp_display = 40,
 		group = 5,
 		type = 2,
@@ -313,7 +313,7 @@ pg.activity_town_work_level = {
 		level = 1
 	},
 	[103] = {
-		name = "小镇车站LV.2",
+		name = "町の駅LV.2",
 		exp_display = 40,
 		group = 5,
 		type = 2,
@@ -325,7 +325,7 @@ pg.activity_town_work_level = {
 		level = 2
 	},
 	[104] = {
-		name = "小镇车站LV.3",
+		name = "町の駅LV.3",
 		exp_display = 40,
 		group = 5,
 		type = 2,
@@ -337,7 +337,7 @@ pg.activity_town_work_level = {
 		level = 3
 	},
 	[105] = {
-		name = "小镇车站LV.4",
+		name = "町の駅LV.4",
 		exp_display = 40,
 		group = 5,
 		type = 2,
@@ -349,7 +349,7 @@ pg.activity_town_work_level = {
 		level = 4
 	},
 	[106] = {
-		name = "小镇车站LV.5",
+		name = "町の駅LV.5",
 		exp_display = 0,
 		group = 5,
 		type = 2,
@@ -361,7 +361,7 @@ pg.activity_town_work_level = {
 		level = 5
 	},
 	[111] = {
-		name = "小镇旅店LV.0",
+		name = "町の宿屋LV.0",
 		exp_display = 40,
 		group = 6,
 		type = 2,
@@ -373,7 +373,7 @@ pg.activity_town_work_level = {
 		level = 0
 	},
 	[112] = {
-		name = "小镇旅店LV.1",
+		name = "町の宿屋LV.1",
 		exp_display = 40,
 		group = 6,
 		type = 2,
@@ -385,7 +385,7 @@ pg.activity_town_work_level = {
 		level = 1
 	},
 	[113] = {
-		name = "小镇旅店LV.2",
+		name = "町の宿屋LV.2",
 		exp_display = 40,
 		group = 6,
 		type = 2,
@@ -397,7 +397,7 @@ pg.activity_town_work_level = {
 		level = 2
 	},
 	[114] = {
-		name = "小镇旅店LV.3",
+		name = "町の宿屋LV.3",
 		exp_display = 40,
 		group = 6,
 		type = 2,
@@ -409,7 +409,7 @@ pg.activity_town_work_level = {
 		level = 3
 	},
 	[115] = {
-		name = "小镇旅店LV.4",
+		name = "町の宿屋LV.4",
 		exp_display = 40,
 		group = 6,
 		type = 2,
@@ -421,7 +421,7 @@ pg.activity_town_work_level = {
 		level = 4
 	},
 	[116] = {
-		name = "小镇旅店LV.5",
+		name = "町の宿屋LV.5",
 		exp_display = 0,
 		group = 6,
 		type = 2,
@@ -433,7 +433,7 @@ pg.activity_town_work_level = {
 		level = 5
 	},
 	[121] = {
-		name = "小镇酒馆LV.0",
+		name = "町の酒場LV.0",
 		exp_display = 10,
 		group = 7,
 		type = 2,
@@ -445,7 +445,7 @@ pg.activity_town_work_level = {
 		level = 0
 	},
 	[122] = {
-		name = "小镇酒馆LV.1",
+		name = "町の酒場LV.1",
 		exp_display = 10,
 		group = 7,
 		type = 2,
@@ -457,7 +457,7 @@ pg.activity_town_work_level = {
 		level = 1
 	},
 	[123] = {
-		name = "小镇酒馆LV.2",
+		name = "町の酒場LV.2",
 		exp_display = 10,
 		group = 7,
 		type = 2,
@@ -469,7 +469,7 @@ pg.activity_town_work_level = {
 		level = 2
 	},
 	[124] = {
-		name = "小镇酒馆LV.3",
+		name = "町の酒場LV.3",
 		exp_display = 10,
 		group = 7,
 		type = 2,
@@ -481,7 +481,7 @@ pg.activity_town_work_level = {
 		level = 3
 	},
 	[125] = {
-		name = "小镇酒馆LV.4",
+		name = "町の酒場LV.4",
 		exp_display = 10,
 		group = 7,
 		type = 2,
@@ -493,7 +493,7 @@ pg.activity_town_work_level = {
 		level = 4
 	},
 	[126] = {
-		name = "小镇酒馆LV.5",
+		name = "町の酒場LV.5",
 		exp_display = 0,
 		group = 7,
 		type = 2,
@@ -505,7 +505,7 @@ pg.activity_town_work_level = {
 		level = 5
 	},
 	[131] = {
-		name = "小镇办公厅LV.0",
+		name = "町役場LV.0",
 		exp_display = 50,
 		group = 8,
 		type = 2,
@@ -517,7 +517,7 @@ pg.activity_town_work_level = {
 		level = 0
 	},
 	[132] = {
-		name = "小镇办公厅LV.1",
+		name = "町役場LV.1",
 		exp_display = 50,
 		group = 8,
 		type = 2,
@@ -529,7 +529,7 @@ pg.activity_town_work_level = {
 		level = 1
 	},
 	[133] = {
-		name = "小镇办公厅LV.2",
+		name = "町役場LV.2",
 		exp_display = 60,
 		group = 8,
 		type = 2,
@@ -541,7 +541,7 @@ pg.activity_town_work_level = {
 		level = 2
 	},
 	[134] = {
-		name = "小镇办公厅LV.3",
+		name = "町役場LV.3",
 		exp_display = 60,
 		group = 8,
 		type = 2,
@@ -553,7 +553,7 @@ pg.activity_town_work_level = {
 		level = 3
 	},
 	[135] = {
-		name = "小镇办公厅LV.4",
+		name = "町役場LV.4",
 		exp_display = 70,
 		group = 8,
 		type = 2,
@@ -565,7 +565,7 @@ pg.activity_town_work_level = {
 		level = 4
 	},
 	[136] = {
-		name = "小镇办公厅LV.5",
+		name = "町役場LV.5",
 		exp_display = 80,
 		group = 8,
 		type = 2,
@@ -577,7 +577,7 @@ pg.activity_town_work_level = {
 		level = 5
 	},
 	[137] = {
-		name = "小镇办公厅LV.6",
+		name = "町役場LV.6",
 		exp_display = 90,
 		group = 8,
 		type = 2,
@@ -589,7 +589,7 @@ pg.activity_town_work_level = {
 		level = 6
 	},
 	[138] = {
-		name = "小镇办公厅LV.7",
+		name = "町役場LV.7",
 		exp_display = 100,
 		group = 8,
 		type = 2,
@@ -601,7 +601,7 @@ pg.activity_town_work_level = {
 		level = 7
 	},
 	[139] = {
-		name = "小镇办公厅LV.8",
+		name = "町役場LV.8",
 		exp_display = 100,
 		group = 8,
 		type = 2,
@@ -613,7 +613,7 @@ pg.activity_town_work_level = {
 		level = 8
 	},
 	[140] = {
-		name = "小镇办公厅LV.9",
+		name = "町役場LV.9",
 		exp_display = 100,
 		group = 8,
 		type = 2,
@@ -625,7 +625,7 @@ pg.activity_town_work_level = {
 		level = 9
 	},
 	[141] = {
-		name = "小镇办公厅LV.10",
+		name = "町役場LV.10",
 		exp_display = 0,
 		group = 8,
 		type = 2,

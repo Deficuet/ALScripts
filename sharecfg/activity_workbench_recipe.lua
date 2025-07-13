@@ -2,8 +2,8 @@ pg = pg or {}
 pg.activity_workbench_recipe = {
 	{
 		id = 1,
-		name = "优选木料",
-		lock_display = "海岛制作台Lv.2解锁",
+		name = "良質な木材",
+		lock_display = "クラフトLv.2で開放",
 		item_num = 750,
 		recipe_lock = {
 			1,
@@ -25,8 +25,8 @@ pg.activity_workbench_recipe = {
 	},
 	[3] = {
 		id = 3,
-		name = "红宝石",
-		lock_display = "海岛制作台Lv.2解锁",
+		name = "輝く宝石（赤）",
+		lock_display = "クラフトLv.2で開放",
 		item_num = 40,
 		recipe_lock = {
 			1,
@@ -48,8 +48,8 @@ pg.activity_workbench_recipe = {
 	},
 	[4] = {
 		id = 4,
-		name = "黄宝石",
-		lock_display = "海岛制作台Lv.2解锁",
+		name = "輝く宝石（黄）",
+		lock_display = "クラフトLv.2で開放",
 		item_num = 40,
 		recipe_lock = {
 			1,
@@ -71,8 +71,8 @@ pg.activity_workbench_recipe = {
 	},
 	[5] = {
 		id = 5,
-		name = "温泉石板",
-		lock_display = "海岛制作台Lv.3解锁",
+		name = "温泉施設：施設内装",
+		lock_display = "クラフトLv.3で開放",
 		item_num = 20,
 		recipe_lock = {
 			1,
@@ -94,8 +94,8 @@ pg.activity_workbench_recipe = {
 	},
 	[6] = {
 		id = 6,
-		name = "温泉出水口",
-		lock_display = "海岛制作台Lv.3解锁",
+		name = "温泉施設：給湯",
+		lock_display = "クラフトLv.3で開放",
 		item_num = 2,
 		recipe_lock = {
 			1,
@@ -122,8 +122,8 @@ pg.activity_workbench_recipe = {
 	},
 	[7] = {
 		id = 7,
-		name = "团子牛奶套装",
-		lock_display = "海岛制作台Lv.3解锁",
+		name = "温泉施設：湯上がりお菓子",
+		lock_display = "クラフトLv.3で開放",
 		item_num = 1,
 		recipe_lock = {
 			1,
@@ -145,8 +145,8 @@ pg.activity_workbench_recipe = {
 	},
 	[8] = {
 		id = 8,
-		name = "温泉栅栏",
-		lock_display = "海岛制作台Lv.3解锁",
+		name = "温泉施設：施設外装",
+		lock_display = "クラフトLv.3で開放",
 		item_num = 4,
 		recipe_lock = {
 			1,
@@ -168,8 +168,8 @@ pg.activity_workbench_recipe = {
 	},
 	[9] = {
 		id = 9,
-		name = "“温泉打包”服务",
-		lock_display = "海岛制作台Lv.3解锁",
+		name = "温泉施設：入浴セット",
+		lock_display = "クラフトLv.3で開放",
 		item_num = 1,
 		recipe_lock = {
 			1,
@@ -191,8 +191,8 @@ pg.activity_workbench_recipe = {
 	},
 	[100] = {
 		id = 100,
-		name = "漫花庄园地板",
-		lock_display = "海岛制作台Lv.4解锁",
+		name = "饅頭別荘の床",
+		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
 			1,
@@ -219,8 +219,8 @@ pg.activity_workbench_recipe = {
 	},
 	[101] = {
 		id = 101,
-		name = "漫花庄园墙纸",
-		lock_display = "海岛制作台Lv.4解锁",
+		name = "饅頭別荘の壁",
+		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
 			1,
@@ -252,8 +252,8 @@ pg.activity_workbench_recipe = {
 	},
 	[102] = {
 		id = 102,
-		name = "庄园长椅",
-		lock_display = "海岛制作台Lv.4解锁",
+		name = "別荘ロングベンチ",
+		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
 			1,
@@ -285,8 +285,8 @@ pg.activity_workbench_recipe = {
 	},
 	[103] = {
 		id = 103,
-		name = "庄园花床",
-		lock_display = "海岛制作台Lv.4解锁",
+		name = "別荘フラワーベッド",
+		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
 			1,
@@ -318,8 +318,8 @@ pg.activity_workbench_recipe = {
 	},
 	[104] = {
 		id = 104,
-		name = "庄园小屋",
-		lock_display = "海岛制作台Lv.4解锁",
+		name = "別荘小屋",
+		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
 			1,
@@ -351,8 +351,8 @@ pg.activity_workbench_recipe = {
 	},
 	[105] = {
 		id = 105,
-		name = "庄园画板",
-		lock_display = "海岛制作台Lv.4解锁",
+		name = "別荘画板",
+		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
 			1,
@@ -384,8 +384,8 @@ pg.activity_workbench_recipe = {
 	},
 	[106] = {
 		id = 106,
-		name = "庄园花车",
-		lock_display = "海岛制作台Lv.4解锁",
+		name = "別荘フラワーカート",
+		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
 			1,
@@ -417,8 +417,8 @@ pg.activity_workbench_recipe = {
 	},
 	[107] = {
 		id = 107,
-		name = "庄园花灯",
-		lock_display = "海岛制作台Lv.4解锁",
+		name = "別荘フラワーランプ",
+		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
 			1,
@@ -450,8 +450,8 @@ pg.activity_workbench_recipe = {
 	},
 	[108] = {
 		id = 108,
-		name = "庄园花棚",
-		lock_display = "海岛制作台Lv.4解锁",
+		name = "別荘フラワーハウス",
+		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
 			1,
@@ -483,8 +483,8 @@ pg.activity_workbench_recipe = {
 	},
 	[109] = {
 		id = 109,
-		name = "庄园花田",
-		lock_display = "海岛制作台Lv.4解锁",
+		name = "別荘フラワーガーデン",
+		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
 			1,
@@ -516,8 +516,8 @@ pg.activity_workbench_recipe = {
 	},
 	[110] = {
 		id = 110,
-		name = "庄园木桥",
-		lock_display = "海岛制作台Lv.4解锁",
+		name = "別荘ウッドブリッジ",
+		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
 			1,
@@ -544,8 +544,8 @@ pg.activity_workbench_recipe = {
 	},
 	[111] = {
 		id = 111,
-		name = "庄园秋千",
-		lock_display = "海岛制作台Lv.4解锁",
+		name = "別荘ブランコ",
+		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
 			1,
@@ -577,8 +577,8 @@ pg.activity_workbench_recipe = {
 	},
 	[112] = {
 		id = 112,
-		name = "庄园水井",
-		lock_display = "海岛制作台Lv.4解锁",
+		name = "別荘ウェール",
+		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
 			1,
@@ -610,8 +610,8 @@ pg.activity_workbench_recipe = {
 	},
 	[113] = {
 		id = 113,
-		name = "庄园竖琴",
-		lock_display = "海岛制作台Lv.4解锁",
+		name = "別荘ハープ",
+		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
 			1,
@@ -643,8 +643,8 @@ pg.activity_workbench_recipe = {
 	},
 	[114] = {
 		id = 114,
-		name = "庄园梳妆台",
-		lock_display = "海岛制作台Lv.4解锁",
+		name = "別荘化粧台",
+		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
 			1,
@@ -676,8 +676,8 @@ pg.activity_workbench_recipe = {
 	},
 	[115] = {
 		id = 115,
-		name = "庄园书桌",
-		lock_display = "海岛制作台Lv.4解锁",
+		name = "別荘テーブル",
+		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
 			1,
@@ -709,8 +709,8 @@ pg.activity_workbench_recipe = {
 	},
 	[116] = {
 		id = 116,
-		name = "庄园小亭",
-		lock_display = "海岛制作台Lv.4解锁",
+		name = "別荘小亭",
+		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
 			1,
@@ -742,8 +742,8 @@ pg.activity_workbench_recipe = {
 	},
 	[117] = {
 		id = 117,
-		name = "庄园小灯",
-		lock_display = "海岛制作台Lv.4解锁",
+		name = "別荘リトルランプ",
+		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
 			1,
@@ -775,8 +775,8 @@ pg.activity_workbench_recipe = {
 	},
 	[118] = {
 		id = 118,
-		name = "庄园邮箱",
-		lock_display = "海岛制作台Lv.4解锁",
+		name = "別荘郵便受け",
+		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
 			1,
@@ -808,8 +808,8 @@ pg.activity_workbench_recipe = {
 	},
 	[119] = {
 		id = 119,
-		name = "庄园浴池",
-		lock_display = "海岛制作台Lv.4解锁",
+		name = "別荘バスタブ",
+		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
 			1,
@@ -841,8 +841,8 @@ pg.activity_workbench_recipe = {
 	},
 	[120] = {
 		id = 120,
-		name = "庄园落地钟",
-		lock_display = "海岛制作台Lv.4解锁",
+		name = "別荘置時計",
+		lock_display = "クラフトLv.4で開放",
 		item_num = 1,
 		recipe_lock = {
 			1,
@@ -874,8 +874,8 @@ pg.activity_workbench_recipe = {
 	},
 	[121] = {
 		id = 121,
-		name = "庄园花栏",
-		lock_display = "海岛制作台Lv.4解锁",
+		name = "別荘フラワーバスケット",
+		lock_display = "クラフトLv.4で開放",
 		item_num = 3,
 		recipe_lock = {
 			1,
@@ -907,8 +907,8 @@ pg.activity_workbench_recipe = {
 	},
 	[122] = {
 		id = 122,
-		name = "绽放刹那",
-		lock_display = "海岛制作台Lv.4解锁",
+		name = "咲き誇る一瞬",
+		lock_display = "クラフトLv.4で開放",
 		item_num = 4,
 		recipe_lock = {
 			1,

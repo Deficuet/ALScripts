@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "拜访功能已解锁！",
+				text = "「艦船交流」機能が解放されました",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击「出行」按钮，即可查看可触发的拜访事件",
+				text = "「お出かけ」ボタンをタップすると、発生可能な「艦船交流」を確認できます",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -45,7 +45,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "可以带领娜比娅前往与熟悉的舰船们进行交谈",
+				text = "ナビィを連れて、仲間の艦船たちと会話することができます",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -64,7 +64,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "拜访不同的舰船展开独特的故事，娜比娅也会在交流中受到来自舰船们的性格倾向影响",
+				text = "艦船それぞれでイベントが発生し、展開次第でナビィの性格変化に影響を与えます",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -77,7 +77,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "最多可与每位舰船同伴互动3次，每位舰船最多在小镇停留5个回合",
+				text = "各艦船との交流は最大3回まで可能で、また各艦船は最大5ターンまで町に滞在します",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -90,7 +90,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "需要注意的是：每次拜访需消耗1点行动力，所以请善用这段与同伴们相处的时光",
+				text = "「艦船交流」は行動力を1ポイント消費します。仲間たちとの大切な時間を有効的に使いましょう",
 				mode = 2,
 				dir = 1,
 				char = 1,

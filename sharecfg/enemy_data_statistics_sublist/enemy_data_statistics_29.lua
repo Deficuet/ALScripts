@@ -149,7 +149,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90869] = {
 		cannon = 0,
-		name = "夕烧",
+		name = "夕焼",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -305,7 +305,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90870] = {
 		cannon = 0,
-		name = "雪不归",
+		name = "雪不帰",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -459,7 +459,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90871] = {
 		cannon = 0,
-		name = "基洛夫·META",
+		name = "キーロフ(META)",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -616,7 +616,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90872] = {
 		cannon = 0,
-		name = "闪流",
+		name = "フスプィーシカ",
 		type = 25,
 		speed_growth = 0,
 		air_growth = 0,
@@ -772,7 +772,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90873] = {
 		cannon = 0,
-		name = "彗星",
+		name = "カミエータ",
 		type = 25,
 		speed_growth = 0,
 		air_growth = 0,
@@ -921,7 +921,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90874] = {
 		cannon = 0,
-		name = "掠食者型浮空炮艇",
+		name = "「ラプター」級浮遊ガンシップ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1074,7 +1074,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90875] = {
 		cannon = 0,
-		name = "共赴级浮空护卫舰",
+		name = "「アンサンブル」級浮遊コルベット",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1227,7 +1227,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90876] = {
 		cannon = 0,
-		name = "联盟级浮空护卫舰",
+		name = "「アライアンス」級浮遊コルペット",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1387,7 +1387,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90877] = {
 		cannon = 0,
-		name = "誓言级浮空战舰",
+		name = "「クリャートヴァ」級浮遊戦艦",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1547,7 +1547,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90878] = {
 		cannon = 0,
-		name = "长空级浮空航母",
+		name = "「長空」級浮遊空母",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1714,7 +1714,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90879] = {
 		cannon = 0,
-		name = "使命级浮空指挥舰",
+		name = "「エランド」級浮遊コマンドシップ",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1874,7 +1874,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90880] = {
 		cannon = 0,
-		name = "伊克西翁级维修中心",
+		name = "「イクシオン」級リペアラー",
 		type = 12,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2034,7 +2034,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90881] = {
 		cannon = 0,
-		name = "旗舰「卡拉布里亚之骄傲」",
+		name = "旗艦「カラブリア・プライド」",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2208,7 +2208,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90882] = {
 		cannon = 0,
-		name = "战争协议-堡垒",
+		name = "プロトコルウォーフェア「フォートレス」",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2353,7 +2353,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90883] = {
 		cannon = 0,
-		name = "战争协议-堡垒",
+		name = "プロトコルウォーフェア「フォートレス」",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2505,7 +2505,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90884] = {
 		cannon = 0,
-		name = "战争协议-堡垒",
+		name = "プロトコルウォーフェア「フォートレス」",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2657,7 +2657,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90885] = {
 		cannon = 0,
-		name = "水星纪念",
+		name = "パーミャチ·メルクーリヤ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2814,7 +2814,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90886] = {
 		cannon = 0,
-		name = "水星纪念改",
+		name = "パーミャチ·メルクーリヤ改",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2971,7 +2971,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90887] = {
 		cannon = 0,
-		name = "水星纪念·META",
+		name = "パーミャチ・メルクーリヤ(META)",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3128,7 +3128,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90888] = {
 		cannon = 0,
-		name = "罗德尼·META",
+		name = "ロドニー(META)",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3285,7 +3285,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90891] = {
 		cannon = 0,
-		name = "飞云",
+		name = "飛雲",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3441,7 +3441,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90892] = {
 		cannon = 0,
-		name = "济安",
+		name = "済安",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3598,7 +3598,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90893] = {
 		cannon = 0,
-		name = "龙武",
+		name = "龍武",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3754,7 +3754,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90894] = {
 		cannon = 0,
-		name = "虎贲",
+		name = "虎賁",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4066,7 +4066,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90896] = {
 		cannon = 0,
-		name = "锦鲤礼花",
+		name = "錦鯉の花火",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4195,7 +4195,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90897] = {
 		cannon = 0,
-		name = "仙鹤礼花",
+		name = "仙鶴の花火",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4445,7 +4445,7 @@ pg.enemy_data_statistics_29 = {
 	},
 	[90899] = {
 		cannon = 0,
-		name = "宝箱啾莱姆",
+		name = "ミミック饅頭スライム",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,

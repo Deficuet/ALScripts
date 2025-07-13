@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_22 = {
 	[90658] = {
 		cannon = 0,
-		name = "朱萨诺级量产型-灵魂态？",
+		name = "量産型ドゥーカ・デッリ・アブルッツィ級の幻？",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -155,7 +155,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90659] = {
 		cannon = 0,
-		name = "扎拉级量产型-灵魂态？",
+		name = "量産型ザラ級の幻？",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -323,7 +323,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90660] = {
 		cannon = 0,
-		name = "加富尔伯爵级量产型-灵魂态？",
+		name = "量産型コンテ・ディ・カブールの幻？",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -489,7 +489,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90661] = {
 		cannon = 0,
-		name = "天鹰级量产型-灵魂态？",
+		name = "量産型アクィラ級の幻？",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -658,7 +658,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90662] = {
 		cannon = 0,
-		name = "自爆船-灵魂态？",
+		name = "量産型自爆ボートの幻？",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -804,7 +804,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90663] = {
 		cannon = 0,
-		name = "马可尼级量产型-灵魂态？",
+		name = "量産型グリエルモ・マルコーニ級の幻？",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -955,7 +955,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90664] = {
 		cannon = 0,
-		name = "女灶神~Shadow Of Vesta~",
+		name = "ヴェスタルの影？",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1124,7 +1124,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90665] = {
 		cannon = 0,
-		name = "丘比特~Shadow Of Jupiter~",
+		name = "ジュピターの影？",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1293,7 +1293,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90666] = {
 		cannon = 0,
-		name = "天后~Shadow Of Juno~ ",
+		name = "ジュノーの影？",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1462,7 +1462,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90667] = {
 		cannon = 0,
-		name = "海王星~Shadow Of Neptune~",
+		name = "ネプチューンの影？",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1618,7 +1618,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90668] = {
 		cannon = 0,
-		name = "勒马尔~Shadow Of Mars~",
+		name = "ル·マルスの影？",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1774,7 +1774,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90669] = {
 		cannon = 0,
-		name = "竞技神~Shadow Of Mercury~",
+		name = "ハーミーズの影？",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1923,7 +1923,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90670] = {
 		cannon = 0,
-		name = "罗马~Incarnation Of Roma Gods~",
+		name = "ローマの影？",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2073,7 +2073,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90671] = {
 		cannon = 0,
-		name = "马格德堡",
+		name = "マクデブルク",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2229,7 +2229,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90672] = {
 		cannon = 0,
-		name = "阿达尔伯特亲王",
+		name = "プリンツ·アーダルベルト",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2385,7 +2385,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90673] = {
 		cannon = 0,
-		name = "布伦希尔德",
+		name = "ブリュンヒルデ",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2554,7 +2554,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90674] = {
 		cannon = 0,
-		name = "乌尔里希·冯·胡滕",
+		name = "ウルリッヒ·フォン·フッテン",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2710,7 +2710,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90675] = {
 		cannon = 0,
-		name = "声望·META",
+		name = "レナウン(META)",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2859,7 +2859,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90676] = {
 		cannon = 0,
-		name = "仲裁者·赫米忒·IX",
+		name = "アビータ・HermitⅨ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3011,7 +3011,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90677] = {
 		cannon = 0,
-		name = "夕云级量产型T2",
+		name = "量産型夕雲級T2",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3166,7 +3166,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90678] = {
 		cannon = 0,
-		name = "川内级量产型T2",
+		name = "量産型川内級T2",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3321,7 +3321,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90679] = {
 		cannon = 0,
-		name = "最上级量产型T2",
+		name = "量産型最上級T2",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3489,7 +3489,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90680] = {
 		cannon = 0,
-		name = "扶桑级量产型T2",
+		name = "量産型扶桑級T2",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3657,7 +3657,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90681] = {
 		cannon = 0,
-		name = "赤城级量产型T2",
+		name = "量産型赤城級T2",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3826,7 +3826,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90682] = {
 		cannon = 0,
-		name = "自爆船T2",
+		name = "自爆ボートT2",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3972,7 +3972,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90683] = {
 		cannon = 0,
-		name = "潜艇量产型T2",
+		name = "量産型潜水艦 T2",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4272,7 +4272,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90685] = {
 		cannon = 0,
-		name = "凉月",
+		name = "涼月",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4585,7 +4585,7 @@ pg.enemy_data_statistics_22 = {
 	},
 	[90687] = {
 		cannon = 0,
-		name = "千岁",
+		name = "千歳",
 		type = 6,
 		speed_growth = 0,
 		air_growth = 0,

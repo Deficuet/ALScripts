@@ -7,7 +7,7 @@ return {
 				"clickBtn"
 			},
 			style = {
-				text = "点击打开储物仓。",
+				text = "アイテム一覧を開いてください。",
 				mode = 2,
 				posY = -229.8,
 				char = "1",
@@ -35,7 +35,7 @@ return {
 				"openBox"
 			},
 			style = {
-				text = "点击战役信息记录仪。",
+				text = "次は「セイレーン海域情報」をタップしてください。",
 				mode = 2,
 				posY = -229.8,
 				char = "1",
@@ -63,7 +63,7 @@ return {
 		{
 			alpha = 0.3,
 			style = {
-				text = "点击使用。",
+				text = "「使用」をタップして、エリアを解放しましょう。",
 				mode = 2,
 				posY = -229.8,
 				char = "1",

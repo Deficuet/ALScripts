@@ -1,0 +1,85 @@
+return {
+	fadeOut = 1.5,
+	dialogbox = 2,
+	hideRecord = true,
+	mode = 2,
+	alpha = 0,
+	id = "DORM3DDAILYCONVERSATION35",
+	hideSkip = true,
+	hideAuto = true,
+	placeholder = {
+		"dorm3d"
+	},
+	scripts = {
+		{
+			actor = 0,
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			say = "――シリアスは好きな音楽ってある？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = 20220,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "いえ……実は昔からなかなかゆっくり楽しめる機会がなくて……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							param = "Play",
+							name = "shy",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = false,
+							time = 1,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
+			}
+		},
+		{
+			side = 2,
+			actorName = 20220,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "だから音楽に関して「好き」とか「嫌い」とかは特にありません",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = 20220,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "ううん、今この瞬間、シリウスのことをもっと知りたいという{dorm3d}の声こそ、大好きな「音楽」です！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		}
+	}
+}

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.navalacademy_data_template = {
 	{
-		name = "大讲堂",
+		name = "大講堂",
 		slot = 0,
 		painting = 0,
 		information = "",
@@ -9,7 +9,7 @@ pg.navalacademy_data_template = {
 		schedule = {}
 	},
 	{
-		name = "体育馆",
+		name = "体育館",
 		slot = 0,
 		painting = 0,
 		information = "",
@@ -17,7 +17,7 @@ pg.navalacademy_data_template = {
 		schedule = {}
 	},
 	{
-		name = "小卖部",
+		name = "海軍売店",
 		slot = 0,
 		painting = 0,
 		information = "",
@@ -25,7 +25,7 @@ pg.navalacademy_data_template = {
 		schedule = {}
 	},
 	{
-		name = "海军食堂",
+		name = "海軍食堂",
 		slot = 0,
 		painting = 0,
 		information = "",
@@ -33,7 +33,7 @@ pg.navalacademy_data_template = {
 		schedule = {}
 	},
 	{
-		name = "补给商店",
+		name = "購買部",
 		slot = 0,
 		painting = 0,
 		information = "",
@@ -41,7 +41,7 @@ pg.navalacademy_data_template = {
 		schedule = {}
 	},
 	{
-		name = "战术学院",
+		name = "戦術教室",
 		slot = 0,
 		painting = 0,
 		information = "",

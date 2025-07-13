@@ -128,7 +128,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[800] = {
 		cannon = 25,
-		name = "新手护卫舰",
+		name = "護衛コルベットTrainee ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		reload = 150,
@@ -197,7 +197,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[801] = {
 		cannon = 0,
-		name = "运输舰",
+		name = "輸送艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		fog_fx = "",
@@ -343,7 +343,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[810] = {
 		cannon = 35,
-		name = "标准护卫舰",
+		name = "護衛コルベットBasic",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		reload = 150,
@@ -412,7 +412,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[811] = {
 		cannon = 50,
-		name = "标准巡逻舰",
+		name = "護衛フリゲートBasic",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		reload = 150,
@@ -484,7 +484,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[812] = {
 		cannon = 0,
-		name = "运输舰",
+		name = "輸送艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		fog_fx = "",
@@ -630,7 +630,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[820] = {
 		cannon = 45,
-		name = "熟练护卫舰",
+		name = "護衛コルベットPowered",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		reload = 150,
@@ -699,7 +699,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[821] = {
 		cannon = 65,
-		name = "熟练巡逻舰",
+		name = "護衛フリゲートPowered",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		reload = 150,
@@ -771,7 +771,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[822] = {
 		cannon = 0,
-		name = "运输舰",
+		name = "輸送艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		fog_fx = "",
@@ -955,7 +955,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[830] = {
 		cannon = 55,
-		name = "精锐护卫舰",
+		name = "護衛コルベットElite",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		reload = 150,
@@ -1024,7 +1024,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[831] = {
 		cannon = 80,
-		name = "精锐巡逻舰",
+		name = "護衛フリゲートElite",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		reload = 150,
@@ -1096,7 +1096,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[832] = {
 		cannon = 0,
-		name = "运输舰",
+		name = "輸送艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		fog_fx = "",
@@ -1318,7 +1318,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[840] = {
 		cannon = 65,
-		name = "王牌护卫舰",
+		name = "護衛コルベットAce",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		reload = 150,
@@ -1387,7 +1387,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[841] = {
 		cannon = 95,
-		name = "王牌巡逻舰",
+		name = "護衛フリゲートAce",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		reload = 150,
@@ -1459,7 +1459,7 @@ pg.enemy_data_statistics_39 = {
 	},
 	[842] = {
 		cannon = 0,
-		name = "运输舰",
+		name = "輸送艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		fog_fx = "",

@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_27 = {
 	[90808] = {
 		cannon = 0,
-		name = "「无形之息-环流」",
+		name = "「穢れの影-還流」",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -173,7 +173,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90809] = {
 		cannon = 0,
-		name = "「无形之息-大地」",
+		name = "「穢れの影-地塊」",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -344,7 +344,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90810] = {
 		cannon = 0,
-		name = "「无形之息-天空」",
+		name = "「穢れの影-蒼穹」",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -516,7 +516,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90811] = {
 		cannon = 0,
-		name = "「无形之息-火山」",
+		name = "「穢れの影-火山」",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -667,7 +667,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90812] = {
 		cannon = 0,
-		name = "「无形之息-深渊」",
+		name = "「穢れの影-深淵」",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -816,7 +816,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90813] = {
 		cannon = 0,
-		name = "「无形之息-X半影」",
+		name = "「穢れの影-半影のエックス」",
 		type = 18,
 		speed_growth = 0,
 		air_growth = 0,
@@ -955,7 +955,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90814] = {
 		cannon = 0,
-		name = "「无形投影-驱逐舰」",
+		name = "「穢れの影-駆逐艦」",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1112,7 +1112,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90815] = {
 		cannon = 0,
-		name = "「无形投影-轻巡洋舰」",
+		name = "「穢れの影-軽巡洋艦」",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1269,7 +1269,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90816] = {
 		cannon = 0,
-		name = "「无形投影-重巡洋舰」",
+		name = "「穢れの影-重巡洋艦」",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1426,7 +1426,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90817] = {
 		cannon = 0,
-		name = "「无形投影-战列舰」",
+		name = "「穢れの影-戦艦」",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1583,7 +1583,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90818] = {
 		cannon = 0,
-		name = "「无形投影-航空母舰」",
+		name = "「穢れの影-空母」",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1733,7 +1733,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90819] = {
 		cannon = 0,
-		name = "「无形投影-暗面」",
+		name = "「穢れの影-闇刻の裏」",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2202,7 +2202,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90822] = {
 		cannon = 0,
-		name = "瑞凤",
+		name = "瑞鳳",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2351,7 +2351,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90823] = {
 		cannon = 0,
-		name = "企业",
+		name = "エンタープライズ",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2504,7 +2504,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90824] = {
 		cannon = 0,
-		name = "平衡砝码",
+		name = "均衡の分銅",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2673,7 +2673,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90825] = {
 		cannon = 0,
-		name = "平衡砝码",
+		name = "均衡の分銅",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2842,7 +2842,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90826] = {
 		cannon = 0,
-		name = "伊势改",
+		name = "伊勢改",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3155,7 +3155,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90828] = {
 		cannon = 0,
-		name = "伊势级量产型",
+		name = "量産型伊勢級",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3323,7 +3323,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90829] = {
 		cannon = 0,
-		name = "秋月级量产型",
+		name = "量産型秋月級",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3478,7 +3478,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90830] = {
 		cannon = 0,
-		name = "阳炎级量产型",
+		name = "量産型陽炎級",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3789,7 +3789,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90832] = {
 		cannon = 0,
-		name = "科律治城邦-护卫舰",
+		name = "カレッジポリス-コルベット",
 		type = 23,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3942,7 +3942,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90833] = {
 		cannon = 0,
-		name = "繁星城邦-巡航舰",
+		name = "ステラポリス-フリゲート",
 		type = 23,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4095,7 +4095,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90834] = {
 		cannon = 0,
-		name = "别兰特城邦-战列舰",
+		name = "プラントポリス-シップ・オブ・ザ・ライン",
 		type = 24,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4263,7 +4263,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90835] = {
 		cannon = 0,
-		name = "王座城邦-大型战列舰",
+		name = "クラウンポリス-マン・オブ・ウォー",
 		type = 24,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4429,7 +4429,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90836] = {
 		cannon = 0,
-		name = "新世界-快速帆船",
+		name = "新世界-クリッパー",
 		type = 15,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4589,7 +4589,7 @@ pg.enemy_data_statistics_27 = {
 	},
 	[90837] = {
 		cannon = 0,
-		name = "新世界-火攻船",
+		name = "新世界-ファイアシップ",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,

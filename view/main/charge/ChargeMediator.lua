@@ -79,7 +79,7 @@ function var_0_0.register(arg_1_0)
 			mediator = ChargeJPUserAgreeMediator,
 			viewComponent = ChargeJPUserAgreeLayer,
 			data = {
-				contentStr = arg_12_1
+				contentStr = arg_12_1.content
 			}
 		}))
 	end)

@@ -1,8 +1,8 @@
 local var_0_0 = {
-	"前往<color=#ff7d36>仓库</color>界面",
-	"去看看现有的<color=#ff7d36>设计图纸</color>吧",
-	"点击制作按钮<color=#ff7d36>制作装备</color>吧！",
-	"就决定是你啦！点击确定按钮"
+	"<color=#ff7d36>倉庫</color>をタップするわ",
+	"次は<color=#ff7d36>設計図</color>を確認するね",
+	"<color=#ff7d36>製作</color>で装備を製作するわよ！",
+	"これに決めた！確定ボタンをタップしてみて"
 }
 
 return {

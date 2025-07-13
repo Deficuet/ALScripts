@@ -2,7 +2,7 @@ pg = pg or {}
 pg.activity_series_enemy = {
 	[1001] = {
 		pre_chapter = 0,
-		name = "压制：格陵兰 ",
+		name = "EASY：撹乱阻止",
 		chapter_name = "TC1",
 		type = 1,
 		pos_x = "0.10703125",
@@ -13,7 +13,7 @@ pg.activity_series_enemy = {
 		id = 1001,
 		ex_count = "",
 		oil = 0,
-		profiles = "任务目标：压制塞壬格陵兰要塞，解除清除者对极地海域的电磁压制，为全局战场提供支援。 ",
+		profiles = "作戦目標：西部にあるセイレーン要塞を制圧し、ジャミング装置を破壊し基幹通信回線を回復せよ！",
 		limitation = {},
 		expedition_id = {
 			1719101
@@ -57,7 +57,7 @@ pg.activity_series_enemy = {
 	},
 	[1002] = {
 		pre_chapter = 1001,
-		name = "夺回：北地群岛",
+		name = "NORMAL：気象復元",
 		chapter_name = "TC2",
 		type = 1,
 		pos_x = "0.34609375",
@@ -67,7 +67,7 @@ pg.activity_series_enemy = {
 		whether_singlefight = 1,
 		ex_count = "",
 		oil = 0,
-		profiles = "任务目标：夺回曾经的前进基地，如今的塞壬北地群岛要塞，削弱清除者对于极地的控制力。 ",
+		profiles = "作戦目標：東部にあるセイレーン防衛線を突破し、気象制御装置を破壊して各海域の異常気象を復元せよ！",
 		limitation = {},
 		expedition_id = {
 			1719201,
@@ -127,7 +127,7 @@ pg.activity_series_enemy = {
 	},
 	[1003] = {
 		pre_chapter = 1002,
-		name = "侦察：北极点",
+		name = "HARD：基地奪還",
 		chapter_name = "TC3",
 		type = 1,
 		pos_x = "0.50546875",
@@ -137,7 +137,7 @@ pg.activity_series_enemy = {
 		whether_singlefight = 1,
 		ex_count = "",
 		oil = 0,
-		profiles = "任务目标：对塞壬北极点要塞进行抵近侦察，尽可能收集数据以协助对于清除者战略意图的研究。 ",
+		profiles = "作戦目標：北部の調査基地を奪還し、周辺にあるセイレーン生産施設を破壊して敵援軍の増勢を阻止せよ！",
 		limitation = {},
 		expedition_id = {
 			1719301,
@@ -202,7 +202,7 @@ pg.activity_series_enemy = {
 	},
 	[1004] = {
 		pre_chapter = 1003,
-		name = "突破：楚科奇海 ",
+		name = "SP：拠点威力偵察",
 		chapter_name = "SP",
 		type = 2,
 		pos_x = "0.60546875",
@@ -213,7 +213,7 @@ pg.activity_series_enemy = {
 		id = 1004,
 		ex_count = "",
 		oil = 0,
-		profiles = "任务目标：突破塞壬尚未完工的楚科奇海要塞防线，并摧毁清除者位于该处的气象武器基地。 ",
+		profiles = "作戦目標：北極点にあるセイレーン拠点を威力偵察し、敵作戦計画及び上位個体主機存在の可能性を調査せよ！",
 		limitation = {},
 		expedition_id = {
 			1719401,
@@ -272,7 +272,7 @@ pg.activity_series_enemy = {
 	},
 	[1005] = {
 		pre_chapter = 1004,
-		name = "牵制：王冠",
+		name = "EX：上位個体牽制",
 		chapter_name = "EX",
 		type = 3,
 		pos_x = "0.6265625",
@@ -283,7 +283,7 @@ pg.activity_series_enemy = {
 		pass_awards_display = "",
 		id = 1005,
 		oil = 0,
-		profiles = "任务目标：牵制位于“王冠”的塞壬舰队，吸引清除者的舰队主力，减轻其他战线的作战压力。 ",
+		profiles = "作戦目標：特異点「王冠」近くで陽動を行い、オミッター本体を含む敵戦力を牽制し、他の分艦隊の戦闘を支援せよ！",
 		limitation = {},
 		expedition_id = {
 			1719501,
@@ -330,8 +330,8 @@ pg.activity_series_enemy = {
 	},
 	[2001] = {
 		pre_chapter = 0,
-		name = "理性办公楼",
-		chapter_name = "简单",
+		name = "事務棟",
+		chapter_name = "簡単",
 		type = 1,
 		pos_x = "0.10703125",
 		count = 0,
@@ -341,7 +341,7 @@ pg.activity_series_enemy = {
 		id = 2001,
 		ex_count = "",
 		oil = 0,
-		profiles = "「欢迎来到理性办公楼。」\n「愿你在这里度过便捷高效的一天。」\n「愿你不为光阴所扰。」\n「愿童心永驻。」",
+		profiles = "「事務棟へようこそ」\n「プログレッシブな毎日を過ごせるように」\n「限られた時間に困らないように」\n「童心を永遠に忘れないように」",
 		limitation = {},
 		expedition_id = {
 			1819101
@@ -383,7 +383,7 @@ pg.activity_series_enemy = {
 	},
 	[2002] = {
 		pre_chapter = 2001,
-		name = "童心教学楼",
+		name = "教室棟",
 		chapter_name = "普通",
 		type = 1,
 		pos_x = "0.34609375",
@@ -393,7 +393,7 @@ pg.activity_series_enemy = {
 		whether_singlefight = 1,
 		ex_count = "",
 		oil = 0,
-		profiles = "「欢迎来到童心教学楼。」\n「愿你在这里度过无忧无虑的一天。」\n「愿你畅游知识海洋。」\n「愿童心永驻。」",
+		profiles = "「教室棟へようこそ」\n「ストレスレスな毎日を過ごせるように」\n「知識の海を思いっきり楽しめるように」\n「童心を永遠に忘れないように」",
 		limitation = {},
 		expedition_id = {
 			1819201,
@@ -452,8 +452,8 @@ pg.activity_series_enemy = {
 	},
 	[2003] = {
 		pre_chapter = 2002,
-		name = "童趣艺术楼",
-		chapter_name = "困难",
+		name = "芸術棟",
+		chapter_name = "難しい",
 		type = 1,
 		pos_x = "0.50546875",
 		count = 0,
@@ -462,7 +462,7 @@ pg.activity_series_enemy = {
 		whether_singlefight = 1,
 		ex_count = "",
 		oil = 0,
-		profiles = "「欢迎来到童趣艺体楼。」\n「愿你在这里度过丰富多彩的一天。」\n「愿你坚持心中所向。」\n「愿童心永驻。」",
+		profiles = "「芸術棟へようこそ」\n「カラフルな毎日を過ごせるように」\n「初心のままでいられるように」\n「童心を永遠に忘れないように」",
 		limitation = {},
 		expedition_id = {
 			1819301,
@@ -526,7 +526,7 @@ pg.activity_series_enemy = {
 	},
 	[2004] = {
 		pre_chapter = 2003,
-		name = "健康活力操场",
+		name = "運動場",
 		chapter_name = "SP",
 		type = 2,
 		pos_x = "0.60546875",
@@ -536,7 +536,7 @@ pg.activity_series_enemy = {
 		whether_singlefight = 0,
 		ex_count = "",
 		oil = 0,
-		profiles = "「欢迎来到健康活力操场。」\n「愿你在这里度过朝气蓬勃的一天。」\n「愿你活力满满」\n「愿童心永驻。」",
+		profiles = "「運動場へようこそ」\n「エネルギッシュな毎日を過ごせるように」\n「元気いっぱいであるように」\n「童心を永遠に忘れないように」",
 		limitation = {},
 		expedition_id = {
 			1819401,
@@ -605,7 +605,7 @@ pg.activity_series_enemy = {
 	},
 	[2005] = {
 		pre_chapter = 2004,
-		name = "童真森林",
+		name = "裏山の森",
 		chapter_name = "EX",
 		type = 3,
 		pos_x = "0.6265625",
@@ -616,7 +616,7 @@ pg.activity_series_enemy = {
 		pass_awards_display = "",
 		id = 2005,
 		oil = 0,
-		profiles = "「欢迎来到童真森林。」\n「愿你在这里度过自由美好的一天。」\n「愿你亲近自然。」\n「愿童心永驻。」",
+		profiles = "「裏山の森へようこそ」\n「マイペースな毎日を過ごせるように」\n「美しい自然と触れ合うように」\n「童心を永遠に忘れないように」",
 		limitation = {},
 		expedition_id = {
 			1819501,
@@ -663,8 +663,8 @@ pg.activity_series_enemy = {
 	},
 	[3001] = {
 		pre_chapter = 0,
-		name = "拍摄地：主干道",
-		chapter_name = "简单",
+		name = "撮影地：幹線道路",
+		chapter_name = "簡単",
 		type = 1,
 		pos_x = "0.10703125",
 		count = 0,
@@ -674,7 +674,7 @@ pg.activity_series_enemy = {
 		id = 3001,
 		ex_count = "",
 		oil = 0,
-		profiles = "【拍摄地：主干道】主要用于拍摄飙车的片段，偶尔也会上演激烈的枪战——只要握紧油门，道路就会不断延伸。",
+		profiles = "【撮影地：幹線道路】主にカーチェイス、時には激しい銃撃戦シーンにも使われる──スロットルレバーを手放さねぇ限り、道は続く。",
 		limitation = {},
 		expedition_id = {
 			1930101
@@ -716,7 +716,7 @@ pg.activity_series_enemy = {
 	},
 	[3002] = {
 		pre_chapter = 3001,
-		name = "拍摄地：商业街",
+		name = "撮影地：商店街",
 		chapter_name = "普通",
 		type = 1,
 		pos_x = "0.34609375",
@@ -726,7 +726,7 @@ pg.activity_series_enemy = {
 		whether_singlefight = 1,
 		ex_count = "",
 		oil = 0,
-		profiles = "【拍摄地：商业街】主要用于拍摄美食与逛街的片段，偶尔也会布置成惊险的凶杀现场——美食戏是好文明，请多来一些。",
+		profiles = "【撮影地：商店街】主にグルメやショッピングシーン、時にはスリリングなマーダーシーンにも使われる──グルメシーンはいい文明！もっと増やせ！",
 		limitation = {},
 		expedition_id = {
 			1930201,
@@ -785,8 +785,8 @@ pg.activity_series_enemy = {
 	},
 	[3003] = {
 		pre_chapter = 3002,
-		name = "拍摄地：轨道车",
-		chapter_name = "困难",
+		name = "撮影地：軌道車両",
+		chapter_name = "難しい",
 		type = 1,
 		pos_x = "0.50546875",
 		count = 0,
@@ -795,7 +795,7 @@ pg.activity_series_enemy = {
 		whether_singlefight = 1,
 		ex_count = "",
 		oil = 0,
-		profiles = "【拍摄地：轨道车】主要用于拍摄旅行与风光的片段，偶尔也会有刺激的拆弹环节——红色和蓝色，选你喜欢的剪吧。",
+		profiles = "【撮影地：軌道車両】主に旅行や風景、時には緊迫の爆弾処理のシーンも──赤と青、好きな方を切ってみて？",
 		limitation = {},
 		expedition_id = {
 			1930301,
@@ -859,8 +859,8 @@ pg.activity_series_enemy = {
 	},
 	[3004] = {
 		pre_chapter = 3003,
-		name = "拍摄地：闹市区",
-		chapter_name = "S.P",
+		name = "撮影地：繁華街",
+		chapter_name = "SP",
 		type = 2,
 		pos_x = "0.60546875",
 		count = 1,
@@ -870,7 +870,7 @@ pg.activity_series_enemy = {
 		id = 3004,
 		ex_count = "",
 		oil = 0,
-		profiles = "【拍摄地：闹市区】主要用于拍摄日常的片段，偶尔也会来段紧张的追踪戏——收手吧，外面都是警察。",
+		profiles = "【撮影地：繁華街】主に日常シーン、時にはハラハラの追跡劇が始まることも──やめとけ、外は警察だらけだ。",
 		limitation = {},
 		expedition_id = {
 			1930401,
@@ -927,8 +927,8 @@ pg.activity_series_enemy = {
 	},
 	[3005] = {
 		pre_chapter = 3004,
-		name = "拍摄地：警视厅",
-		chapter_name = "E.X",
+		name = "撮影地：警察機構",
+		chapter_name = "EX",
 		type = 3,
 		pos_x = "0.6265625",
 		count = 0,
@@ -938,7 +938,7 @@ pg.activity_series_enemy = {
 		pass_awards_display = "",
 		id = 3005,
 		oil = 0,
-		profiles = "【拍摄地：警视厅】主要用于拍摄刑侦与审讯的片段，偶尔也会上演诡谲的谍战——你是卧底吗？",
+		profiles = "【撮影地：警察署】主に捜査や取り調べ、時には謀略うごめくスパイ劇が始まることも──お前が潜伏者なのか？",
 		limitation = {},
 		expedition_id = {
 			1930501,

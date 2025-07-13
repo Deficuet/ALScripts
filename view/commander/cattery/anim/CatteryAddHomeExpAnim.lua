@@ -167,6 +167,8 @@ function var_0_0.Clear(arg_16_0)
 end
 
 function var_0_0.Hide(arg_17_0)
+	arg_17_0.callback = nil
+
 	arg_17_0:Clear()
 	setActive(arg_17_0._tf, false)
 end

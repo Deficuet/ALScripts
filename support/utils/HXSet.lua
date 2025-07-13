@@ -15,7 +15,7 @@ end
 var_0_0.nameCodeMap = {}
 var_0_0.nameEquipCodeMap = {}
 var_0_0.nameCodeMap_EN = {
-	IJN = "IRN"
+	IJN = "IJN"
 }
 
 function var_0_0.init()

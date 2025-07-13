@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "现在，可以查看各项课程的升级条件",
+				text = "各授業予定のレベルアップ条件を確認できます",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击此处按钮，可切换显示该课程的升级条件",
+				text = "ボタンをタップすると、その授業のレベルアップ条件の表示を切り替えられます",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -49,7 +49,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "当升级条件达成时，该课程将会自动升级",
+				text = "レベルアップ条件が達成されると、次のレベルの授業は自動的に開放されます",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -62,7 +62,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "升级后的课程可以获得更多属性数值",
+				text = "レベルの高い授業では、より多くのパラメータを獲得できます",
 				mode = 2,
 				dir = -1,
 				char = 1,

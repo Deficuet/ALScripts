@@ -5,7 +5,7 @@ return {
 			alpha = 0.4,
 			delay = 0.5,
 			style = {
-				text = "点击可以切换该关卡的简单模式与困难模式",
+				text = "ここをタップすると、ノーマルとハードを切り替えられるわ",
 				mode = 1,
 				dir = -1,
 				char = "char",

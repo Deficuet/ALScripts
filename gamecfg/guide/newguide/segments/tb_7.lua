@@ -6,7 +6,7 @@ return {
 			delay = 1,
 			alpha = 0.4,
 			style = {
-				text = "在养成过程内获取到的CG，会保存在<color=#39bfff>记忆</color>中。",
+				text = "TB育成で解放したスチルは「回想」でいつでも閲覧できます",
 				mode = 2,
 				posY = -369.3,
 				char = 1,
@@ -24,7 +24,7 @@ return {
 			delay = 0.4,
 			alpha = 0.4,
 			style = {
-				text = "除此之外的剧情内容，则会保存在<color=#39bfff>回忆列表</color>中。",
+				text = "TB育成で解放したストーリーは「思い出」で閲覧できます",
 				mode = 2,
 				posY = -349.6,
 				char = 1,

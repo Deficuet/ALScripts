@@ -131,6 +131,7 @@ function var_0_0.didEnter(arg_14_0)
 		weight = LayerWeightConst.LOWER_LAYER
 	})
 	arg_14_0:addDragListenter()
+	checkFirstHelpShow("help_shipinfo_upgrate")
 	onButton(arg_14_0, arg_14_0.seaLoading, function()
 		if not arg_14_0.previewer then
 			arg_14_0:showBarrage()
@@ -335,6 +336,7 @@ function var_0_0.updateBattleView(arg_27_0)
 end
 
 local var_0_2 = {
+	"level",
 	"durability",
 	"cannon",
 	"torpedo",
@@ -402,6 +404,9 @@ function var_0_0.updateBreakOutView(arg_35_0, arg_35_1)
 	end
 
 	local var_35_0 = arg_35_1:getShipProperties()
+
+	var_35_0.level = arg_35_1:getMaxLevel()
+
 	local var_35_1 = Clone(arg_35_1)
 
 	var_35_1.configId = arg_35_0.breakCfg.breakout_id
@@ -423,16 +428,17 @@ function var_0_0.updateBreakOutView(arg_35_0, arg_35_1)
 
 		setText(var_35_7, i18n("word_level_upperLimit"))
 	else
-		var_35_6 = arg_35_0.shipTempCfg[arg_35_0.breakCfg.breakout_id].max_level
+		local var_35_9 = arg_35_0.shipTempCfg[arg_35_0.breakCfg.breakout_id].max_level
+
 		var_35_2 = var_35_1:getShipProperties()
-		var_35_2.level = var_35_6 >= arg_35_1:getMaxLevel() and var_35_6 or arg_35_1:getMaxLevel()
+		var_35_2.level = var_35_9 >= arg_35_1:getMaxLevel() and var_35_9 or arg_35_1:getMaxLevel()
 		var_35_5 = var_35_1:getBattleTotalExpend()
 
 		setColorCount(var_35_8, arg_35_0.shipVO.level, arg_35_0.breakCfg.level)
 		setText(var_35_7, i18n("word_level_require"))
 	end
 
-	local function var_35_9(arg_36_0, arg_36_1)
+	local function var_35_10(arg_36_0, arg_36_1)
 		setText(arg_36_0:Find("name"), arg_36_1.name)
 		setText(arg_36_0:Find("value"), arg_36_1.preAttr)
 
@@ -451,40 +457,28 @@ function var_0_0.updateBreakOutView(arg_35_0, arg_35_1)
 		setText(var_36_1, "(+" .. arg_36_1.afterAttr - arg_36_1.preAttr .. ")")
 	end
 
-	local var_35_10 = 0
-
-	if var_35_6 and var_35_6 ~= arg_35_0.shipTempCfg[arg_35_1.configId].max_level then
-		local var_35_11 = arg_35_0:findTF("attr_1", arg_35_0.attrs)
-
-		var_35_9(var_35_11, {
-			preAttr = arg_35_0.shipTempCfg[arg_35_1.configId].max_level,
-			afterAttr = var_35_6,
-			name = i18n("word_level_upperLimit")
-		})
-
-		var_35_10 = 1
-	end
+	local var_35_11 = 0
 
 	for iter_35_2 = 1, #var_0_2 do
-		local var_35_12 = arg_35_0:findTF("attr_" .. var_35_10 + iter_35_2, arg_35_0.attrs)
+		local var_35_12 = arg_35_0:findTF("attr_" .. var_35_11 + iter_35_2, arg_35_0.attrs)
 
 		setActive(var_35_12, true)
 
 		local var_35_13 = math.floor(var_35_0[var_0_2[iter_35_2]])
 		local var_35_14 = math.floor(var_35_2[var_0_2[iter_35_2]])
 
-		var_35_9(var_35_12, {
+		var_35_10(var_35_12, {
 			preAttr = var_35_13,
 			afterAttr = var_35_14,
 			name = i18n("word_attr_" .. var_0_2[iter_35_2])
 		})
 	end
 
-	local var_35_15 = var_35_10 + #var_0_2 + 1
+	local var_35_15 = var_35_11 + #var_0_2 + 1
 	local var_35_16 = arg_35_0:findTF("attr_" .. var_35_15, arg_35_0.attrs)
 
 	setActive(var_35_16, true)
-	var_35_9(var_35_16, {
+	var_35_10(var_35_16, {
 		preAttr = var_35_4,
 		afterAttr = var_35_5,
 		name = i18n("word_attr_luck")

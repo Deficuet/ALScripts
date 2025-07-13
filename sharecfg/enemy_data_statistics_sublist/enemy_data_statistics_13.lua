@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_13 = {
 	[90356] = {
 		cannon = 0,
-		name = "绊爱（伪）",
+		name = "ニセキズナアイ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -149,7 +149,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90357] = {
 		cannon = 0,
-		name = "绊爱（伪）",
+		name = "ニセキズナアイ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -296,7 +296,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90358] = {
 		cannon = 0,
-		name = "绊爱（伪）",
+		name = "ニセキズナアイ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -443,7 +443,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90359] = {
 		cannon = 0,
-		name = "绊爱（伪）",
+		name = "ニセキズナアイ",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -590,7 +590,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90360] = {
 		cannon = 0,
-		name = "绊爱",
+		name = "キズナアイ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -737,7 +737,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90361] = {
 		cannon = 0,
-		name = "多塞特郡",
+		name = "ドーセットシャー",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -904,7 +904,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90362] = {
 		cannon = 0,
-		name = "克利夫兰",
+		name = "クリーブランド",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1074,7 +1074,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90363] = {
 		cannon = 0,
-		name = "巴尔的摩",
+		name = "ボルチモア",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1388,7 +1388,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90365] = {
 		cannon = 0,
-		name = "波特兰",
+		name = "ポートランド",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1548,7 +1548,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90366] = {
 		cannon = 0,
-		name = "亚利桑那",
+		name = "アリゾナ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1718,7 +1718,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90367] = {
 		cannon = 0,
-		name = "列克星敦",
+		name = "レキシントン",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1897,7 +1897,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90368] = {
 		cannon = 0,
-		name = "光辉",
+		name = "イラストリアス",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2050,7 +2050,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90369] = {
 		cannon = 0,
-		name = "鲦鱼",
+		name = "デイス",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2194,7 +2194,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90370] = {
 		cannon = 0,
-		name = "布鲁克林",
+		name = "ブルックリン",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2364,7 +2364,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90371] = {
 		cannon = 0,
-		name = "菲尼克斯",
+		name = "フェニックス",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2534,7 +2534,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90372] = {
 		cannon = 0,
-		name = "约克",
+		name = "ヨーク",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2701,7 +2701,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90373] = {
 		cannon = 0,
-		name = "扎拉",
+		name = "ザラ",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2855,7 +2855,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90374] = {
 		cannon = 0,
-		name = "波拉",
+		name = "ポーラ",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3009,7 +3009,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90375] = {
 		cannon = 0,
-		name = "龙骑兵",
+		name = "カラビニエーレ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3163,7 +3163,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90376] = {
 		cannon = 0,
-		name = "朱利奥·凯撒",
+		name = "ジュリオ・チェザーレ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3317,7 +3317,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90377] = {
 		cannon = 0,
-		name = "加富尔伯爵",
+		name = "コンテ・ディ・カブール",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3471,7 +3471,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90378] = {
 		cannon = 0,
-		name = "特伦托",
+		name = "トレント",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3625,7 +3625,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90379] = {
 		cannon = 0,
-		name = "利托里奥",
+		name = "リットリオ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3779,7 +3779,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90380] = {
 		cannon = 0,
-		name = "骏河",
+		name = "駿河",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3933,7 +3933,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90381] = {
 		cannon = 0,
-		name = "U110",
+		name = "U-110",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4077,7 +4077,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90382] = {
 		cannon = 0,
-		name = "女将",
+		name = "アマゾン",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4244,7 +4244,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90383] = {
 		cannon = 0,
-		name = "U556",
+		name = "U-556",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4388,7 +4388,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90384] = {
 		cannon = 0,
-		name = "加斯科涅(μ兵装)",
+		name = "ガスコーニュ(μ兵装)",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4542,7 +4542,7 @@ pg.enemy_data_statistics_13 = {
 	},
 	[90385] = {
 		cannon = 0,
-		name = "拉菲",
+		name = "ラフィー",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,

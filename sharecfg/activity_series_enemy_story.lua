@@ -295,7 +295,7 @@ pg.activity_series_enemy_story = {
 		type = 4,
 		story = "",
 		line = 0,
-		trigger_type = "0",
+		trigger_type = "",
 		pos_y = "0.347916667",
 		pass_awards = 0,
 		id = 17,
@@ -308,7 +308,7 @@ pg.activity_series_enemy_story = {
 		type = 4,
 		story = "",
 		line = 1,
-		trigger_type = "0",
+		trigger_type = "",
 		pos_y = "0.347916667",
 		pass_awards = 0,
 		id = 18,
@@ -321,7 +321,7 @@ pg.activity_series_enemy_story = {
 		type = 4,
 		story = "",
 		line = 3,
-		trigger_type = "0",
+		trigger_type = "",
 		pos_y = "0.347916667",
 		pass_awards = 0,
 		id = 19,
@@ -334,7 +334,7 @@ pg.activity_series_enemy_story = {
 		type = 4,
 		story = "",
 		line = 5,
-		trigger_type = "0",
+		trigger_type = "",
 		pos_y = "0.347916667",
 		pass_awards = 0,
 		id = 20,
@@ -347,14 +347,14 @@ pg.activity_series_enemy_story = {
 		type = 4,
 		story = "",
 		line = 11,
-		trigger_type = "0",
+		trigger_type = "",
 		pos_y = "0.347916667",
 		pass_awards = 0,
 		id = 21,
 		icon = "base5"
 	},
 	[31] = {
-		name = "叛恶者之歌",
+		name = "裏切りし者の歌",
 		pos_x = "0.10703125",
 		story = "HUANYINLAIDAOTONGXINXUEYUAN2",
 		type = 1,
@@ -371,7 +371,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[32] = {
-		name = "组成乐队吧♪",
+		name = "ユニット組もうよ♪",
 		pos_x = "0.34609375",
 		story = "1819601",
 		type = 3,
@@ -388,7 +388,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[33] = {
-		name = "巨大指挥官",
+		name = "デカ指揮官、登場！",
 		pos_x = "0.50546875",
 		story = "1819602",
 		type = 3,
@@ -405,7 +405,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[34] = {
-		name = "健康活力Fight",
+		name = "運動場ファイト！",
 		pos_x = "0.60546875",
 		story = "1819603",
 		type = 3,
@@ -422,7 +422,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[35] = {
-		name = "拯救老师大作战",
+		name = "先生たちを助けよう！",
 		pos_x = "0.6265625",
 		story = "HUANYINLAIDAOTONGXINXUEYUAN6",
 		type = 1,
@@ -439,7 +439,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[36] = {
-		name = "与童心重逢之时",
+		name = "わんぱくになろう！",
 		pos_x = "1.10703125",
 		story = "1819604",
 		type = 3,
@@ -456,7 +456,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[37] = {
-		name = "失控的童心",
+		name = "無邪気に大暴走！",
 		pos_x = "1.34609375",
 		story = "1819605",
 		type = 3,
@@ -473,7 +473,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[38] = {
-		name = "愿童心永驻",
+		name = "童心よ、永遠に",
 		pos_x = "1.50546875",
 		story = "HUANYINLAIDAOTONGXINXUEYUAN9",
 		type = 1,
@@ -490,7 +490,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[39] = {
-		name = "CH-1 爆炸疑云",
+		name = "CH-1 不穏な爆発",
 		pos_x = "",
 		story = "MICAIDUSHIDEXUNZONGZHE2",
 		type = 1,
@@ -507,7 +507,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[40] = {
-		name = "CH-2 兔警官探案中",
+		name = "CH-2 ウサウサ巡査調査中",
 		pos_x = "",
 		story = "MICAIDUSHIDEXUNZONGZHE3",
 		type = 1,
@@ -524,7 +524,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[41] = {
-		name = "CH-3 战略性约会进行时",
+		name = "CH-3 戦略的デート",
 		pos_x = "",
 		story = "MICAIDUSHIDEXUNZONGZHE4",
 		type = 1,
@@ -541,7 +541,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[42] = {
-		name = "CH-4 公路维和组，出击！",
+		name = "CH-4 ロードセキュリティ",
 		pos_x = "",
 		story = "MICAIDUSHIDEXUNZONGZHE5",
 		type = 1,
@@ -558,7 +558,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[43] = {
-		name = "CH-5 问题的关键",
+		name = "CH-5 問題の核心",
 		pos_x = "",
 		story = "MICAIDUSHIDEXUNZONGZHE6",
 		type = 1,
@@ -575,7 +575,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[44] = {
-		name = "CH-6 说来话长",
+		name = "CH-6 かくかくしかじか",
 		pos_x = "",
 		story = "MICAIDUSHIDEXUNZONGZHE7",
 		type = 1,
@@ -592,7 +592,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[45] = {
-		name = "CH-7 谈心教室",
+		name = "CH-7 相談教室",
 		pos_x = "",
 		story = "MICAIDUSHIDEXUNZONGZHE8",
 		type = 1,
@@ -609,7 +609,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[46] = {
-		name = "CH-8 迷彩都市之夜",
+		name = "CH-8 ネオンシティの夜",
 		pos_x = "",
 		story = "MICAIDUSHIDEXUNZONGZHE9",
 		type = 1,
@@ -626,7 +626,7 @@ pg.activity_series_enemy_story = {
 		}
 	},
 	[47] = {
-		name = "CH-9 谁是卧底？",
+		name = "CH-9 潜伏者は誰だ？",
 		pos_x = "",
 		story = "MICAIDUSHIDEXUNZONGZHE10",
 		type = 1,

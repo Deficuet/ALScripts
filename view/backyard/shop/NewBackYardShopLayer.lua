@@ -218,7 +218,6 @@ function var_0_0.InitPageFooter(arg_19_0)
 		arg_19_0.btns[iter_19_0] = var_19_0
 	end
 
-	arg_19_0:UpdateSpecialPageFooter()
 	setActive(arg_19_0.btnTpl, false)
 end
 

@@ -82,6 +82,7 @@ function var_0_0.updateSkin(arg_3_0)
 		type = DROP_TYPE_EQUIPMENT_SKIN,
 		count = var_3_0.count
 	})
+	setActive(arg_3_0.nameTF, true)
 
 	arg_3_0.nameTF.text = shortenString(getText(arg_3_0.nameTF), 5)
 end

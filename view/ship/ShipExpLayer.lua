@@ -159,7 +159,7 @@ function var_0_0.display(arg_5_0)
 					end
 
 					arg_5_0.timerId[iter_5_3.id] = pg.TimeMgr.GetInstance():AddTimer("delayTimer", var_11_2, 0, function()
-						if var_5_5.level == var_5_5:getMaxLevel() then
+						if var_5_5.level == pg.ship_level[#pg.ship_level].level then
 							var_5_15:GetComponent(typeof(Image)).fillAmount = 1
 							arg_5_0._skipExp[iter_5_2] = false
 

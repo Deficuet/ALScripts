@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "每个信标存在挑战人数上限（最多30人）。",
+				text = "META戦では最大30人まで参加できます。",
 				mode = 2,
 				posY = 370.1,
 				char = "1",
@@ -19,7 +19,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "当信标HP归零后，视为战斗胜利。指挥官可以领取对应的信标·META作战奖励。",
+				text = "META艦船の耐久を0にすると、戦闘が終了し、参加した指揮官に「解析Pt」が配布されます。",
 				mode = 2,
 				posY = -218.3,
 				char = "1",
@@ -33,7 +33,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "每个被解析的信标只会存在一定时间，到期后将会消失。记得向其他指挥官请求支援哦。",
+				text = "また、META艦船を倒さなくても、一定の時間が過ぎてしまうと一覧から消えてなくなります。",
 				mode = 2,
 				posY = -421.9,
 				char = "1",
@@ -47,7 +47,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击开始挑战即可开始进行作战。",
+				text = "ここをタップすると、戦闘が開始します。",
 				mode = 2,
 				posY = -398.6,
 				char = "1",
@@ -72,7 +72,7 @@ return {
 			alpha = 0.4,
 			waitScene = "WorldBossFormationLayer",
 			style = {
-				text = "对于每处信标的首次挑战不会消耗石油，从第二次开始，每次挑战会消耗少量石油。",
+				text = "一回目の挑戦は資源を消費しません。二回目以降は少し燃料を消費します。",
 				mode = 2,
 				posY = -192.03,
 				char = "1",

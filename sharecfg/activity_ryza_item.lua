@@ -2,8 +2,8 @@ pg = pg or {}
 pg.activity_ryza_item = {
 	{
 		rarity = 4,
-		display = "钓鱼竿的强化版。经过强化后，会让鱼失去戒心主动靠近。",
-		name = "神杆慈悲",
+		display = "釣り竿の強化版。強化したことにより、魚が警戒せずに寄ってくるように改良されている",
+		name = "神竿バルムヘル",
 		type = 6,
 		benefit_buff = "",
 		prop_level = 1,
@@ -17,14 +17,14 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"入手方法 調合システムで獲得",
 			recipeid = 4
 		}
 	},
 	{
 		rarity = 4,
-		display = "炎烧杖的强化版。前端的宝玉更换为蓝色，因此能更有效率地破坏岩石和水晶。",
-		name = "蓝炎烧杖",
+		display = "フラムロッドの強化版。先端の宝玉を青い物に変えたため、以前よりも効率的に岩や水晶を破壊することが可能となった",
+		name = "ブルーフラムロッド",
 		type = 6,
 		benefit_buff = "",
 		prop_level = 1,
@@ -37,14 +37,14 @@ pg.activity_ryza_item = {
 			2
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"入手方法 調合システムで獲得",
 			recipeid = 3
 		}
 	},
 	{
 		rarity = 4,
-		display = "因为经过改良，仔细调整了锋利度和重量，采集木材和木柴会比一般斧头更轻松。",
-		name = "黄金之斧",
+		display = "切れ味や重さを細かく調整し改良を施されたため、普通の斧よりもラクに木材も薪も作れる",
+		name = "ゴールデンアックス",
 		type = 6,
 		benefit_buff = "",
 		prop_level = 2,
@@ -58,14 +58,14 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"入手方法 調合システムで獲得",
 			recipeid = 2
 		}
 	},
 	{
 		rarity = 4,
-		display = "这把镰刀被改良得更方便采集，可以像风一样安静轻巧地割下花草。",
-		name = "寂静镰刀",
+		display = "採取しやすいように改良されたこの鎌は、まるで風のように静かに軽やかに草や花を刈り取る",
+		name = "サイレントシックル",
 		type = 6,
 		benefit_buff = "",
 		prop_level = 2,
@@ -79,14 +79,14 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"入手方法 調合システムで獲得",
 			recipeid = 1
 		}
 	},
 	{
 		rarity = 4,
-		display = "拥有强大的握力和推力的塞壬机械臂，还能发射灼热的开采激光——用来进行炼金术素材的采集似乎是个不错的选择？",
-		name = "激光切割器",
+		display = "強大な握力と推力、そして灼熱の採掘レーザーを発射できるセイレーンのメカニカルアーム――錬金術の素材を採取するのに使えるかも？",
+		name = "レーザーアーム",
 		type = 6,
 		benefit_buff = "",
 		prop_level = 2,
@@ -102,14 +102,14 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"入手方法 調合システムで獲得",
 			recipeid = 5
 		}
 	},
 	{
 		rarity = 2,
-		display = "在沙滩相对容易发现的贝类。含有适量的盐分，直接烤一下就很好吃。",
-		name = "普鲁姆鲁螺",
+		display = "砂浜に行けば比較的簡単に発見できる貝。程よい塩分があるため、そのまま火にかけるだけでも美味しく食べられる",
+		name = "プルムル",
 		type = 1,
 		id = 6,
 		icon = "ryza_item_6",
@@ -119,7 +119,7 @@ pg.activity_ryza_item = {
 			2
 		},
 		get_access = {
-			"产出途径：采集地- 「TH4-失落之都」",
+			"入手方法 採取地- 「TH4-滅失の都」",
 			chapterid = 1690024
 		},
 		got_voice = {
@@ -151,8 +151,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 3,
-		display = "栖息在河川和湖泊中的淡水鱼，是常见鱼类之一。",
-		name = "沙丁鱼",
+		display = "川や湖に囲まれた場所に生息している淡水魚。一般的な魚の一種",
+		name = "サルディン",
 		type = 1,
 		id = 7,
 		icon = "ryza_item_7",
@@ -162,7 +162,7 @@ pg.activity_ryza_item = {
 			2
 		},
 		get_access = {
-			"产出途径：采集地- 「TH4-失落之都」",
+			"入手方法 採取地- 「TH4-滅失の都」",
 			chapterid = 1690024
 		},
 		got_voice = {
@@ -194,8 +194,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "据说栖息于湖底最深处，是湖中的鱼类之主。",
-		name = "湖底之主",
+		display = "湖の最も深い場所に住むとされている、湖に住む魚たちのぬし",
+		name = "湖底のぬし",
 		type = 1,
 		id = 8,
 		icon = "ryza_item_8",
@@ -205,7 +205,7 @@ pg.activity_ryza_item = {
 			2
 		},
 		get_access = {
-			"产出途径：采集地- 「TH4-失落之都」",
+			"入手方法 採取地- 「TH4-滅失の都」",
 			chapterid = 1690024
 		},
 		got_voice = {
@@ -242,8 +242,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 2,
-		display = "如结晶般透明的石头碎片。碎片种类包罗万象，从普通石头到矿石都有，甚至会有高级宝石混在其中。",
-		name = "小晶石",
+		display = "結晶のような、透明な石のかけら。様々な種類があり、ただの石から鉱石、中には高級な宝石が混ざっていることもある",
+		name = "小さな晶石",
 		type = 1,
 		benefit_buff = "",
 		prop_level = 1,
@@ -254,7 +254,7 @@ pg.activity_ryza_item = {
 			1
 		},
 		get_access = {
-			"产出途径：采集地- 「TH3-争斗之城」",
+			"入手方法 採取地- 「TH3-紛争の城」",
 			chapterid = 1690023
 		},
 		got_voice = {
@@ -284,8 +284,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 3,
-		display = "敲碎岩石时可采集到的砂，散发出挥发性气体的气味，一点火就会燃烧。",
-		name = "可燃之砂",
+		display = "岩などを壊した際に採取できる砂。揮発性のガスの匂いを漂わせ、火をつけると燃え上がる",
+		name = "燃える砂",
 		type = 1,
 		id = 10,
 		icon = "ryza_item_10",
@@ -295,7 +295,7 @@ pg.activity_ryza_item = {
 			1
 		},
 		get_access = {
-			"产出途径：采集地- 「TH3-争斗之城」",
+			"入手方法 採取地- 「TH3-紛争の城」",
 			chapterid = 1690023
 		},
 		got_voice = {
@@ -327,8 +327,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "由熔岩矿粉碎而成的粉末状物质。虽为粉末，但仍具有熔岩特质，因此仅是闲置在旁就有发热或起火的危险。要是被风吹走，估计会酿成悲剧。",
-		name = "岩浆粉",
+		display = "溶岩鉱を砕き、粉末状にしたもの。粉末とはいえ溶岩であることに変わりないため、放置しているだけで発熱や発火の危険性がある。風に飛ばされたりすれば大惨事になるだろう",
+		name = "マグマパウダー",
 		type = 1,
 		id = 11,
 		icon = "ryza_item_11",
@@ -338,7 +338,7 @@ pg.activity_ryza_item = {
 			1
 		},
 		get_access = {
-			"产出途径：采集地- 「TH3-争斗之城」",
+			"入手方法 採取地- 「TH3-紛争の城」",
 			chapterid = 1690023
 		},
 		got_voice = {
@@ -370,8 +370,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 2,
-		display = "只是杂草。唯一的特点就是无所不在，所以只被称为杂草。由于太常见，因此也常被列入炼金术的配方。",
-		name = "无名草",
+		display = "ただの雑草。どこにでも生息しているということ以外に何の特徴もないため、雑草としか呼ばれていない。あまりに一般的なため、錬金術のレシピにもたびたび顔を見せる",
+		name = "ナナシ草",
 		type = 1,
 		benefit_buff = "",
 		prop_level = 1,
@@ -382,7 +382,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：采集地- 「TH1-起始之地」",
+			"入手方法 採取地- 「TH1-始まりの地」",
 			chapterid = 1690021
 		},
 		got_voice = {
@@ -407,8 +407,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 3,
-		display = "形状像鸟类翅膀的叶片。因为很轻，只要风一吹就会打转飘走。",
-		name = "翼叶草",
+		display = "鳥の翼のような形の葉っぱ。とても軽いため、風が吹くと簡単にくるくると飛んでしまう",
+		name = "ウィングプラント",
 		type = 1,
 		id = 13,
 		icon = "ryza_item_13",
@@ -418,7 +418,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：采集地- 「TH1-起始之地」",
+			"入手方法 採取地- 「TH1-始まりの地」",
 			chapterid = 1690021
 		},
 		got_voice = {
@@ -450,8 +450,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "和一般通草不同，是红黑色的。通常认为是因生长在含有铁质的土壤中才会变成这个颜色。特征是即使刚砍下来尚未干燥，一旦靠近火源也会烧得很旺。",
-		name = "血红通草",
+		display = "普通のものと違い、赤黒い色をしているトーン。鉄分を含む土壌で生育していたためこの色になったと考えられている。生木であっても火に近づけるとよく燃えるという特徴がある",
+		name = "ブラッドトーン",
 		type = 1,
 		id = 14,
 		icon = "ryza_item_14",
@@ -461,7 +461,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：采集地- 「TH1-起始之地」",
+			"入手方法 採取地- 「TH1-始まりの地」",
 			chapterid = 1690021
 		},
 		got_voice = {
@@ -498,8 +498,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 2,
-		display = "拥有雷之力的矿石。经常在雷雨多发之地、山丘等高处挖掘到。据说是因落雷导致岩石变质，进而产生这种矿石。",
-		name = "闪电矿",
+		display = "雷の力を有している鉱石。雷雨の多い場所や、山などの高所で採掘されることが多い。落雷によって岩が変質し生まれた鉱石だと言われている",
+		name = "イナズマ鉱",
 		type = 1,
 		benefit_buff = "",
 		prop_level = 1,
@@ -510,7 +510,7 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"产出途径：采集地- 「TH2-异界之森」",
+			"入手方法 採取地- 「TH2-異界の森」",
 			chapterid = 1690022
 		},
 		got_voice = {
@@ -535,8 +535,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 3,
-		display = "巨大陨石的碎片。这种碎片必定成对存在，而且两者之间有着无论相隔多远都能超越空间相系的连结。只要利用这点就能进行空间移动……也说不定。",
-		name = "引导之星碎片",
+		display = "巨大隕石の欠片。この欠片には必ずつがいとなる欠片が存在し、どれだけ離れていようと空間を超えた結びつきを持っている。これを利用すれば、空間転移も可能……かもしれない",
+		name = "導きの星の欠片",
 		type = 1,
 		id = 16,
 		icon = "ryza_item_16",
@@ -546,7 +546,7 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"产出途径：采集地- 「TH2-异界之森」",
+			"入手方法 採取地- 「TH2-異界の森」",
 			chapterid = 1690022
 		},
 		got_voice = {
@@ -583,8 +583,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "内部闪耀七彩光辉且带有透明感的矿石。强度与其他矿石天差地别，据说无法使用正常方法进行加工。",
-		name = "圣石",
+		display = "七色の光を内部に持つ、透明感のある鉱石。その強度は他の鉱石とは一線を画し、正攻法では加工そのものが不可能と言われている",
+		name = "セプトリエン",
 		type = 1,
 		id = 17,
 		icon = "ryza_item_17",
@@ -594,7 +594,7 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"产出途径：采集地- 「TH2-异界之森」",
+			"入手方法 採取地- 「TH2-異界の森」",
 			chapterid = 1690022
 		},
 		got_voice = {
@@ -626,8 +626,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 2,
-		display = "从核心区挖掘获得的未知结晶。质地坚硬，其中融合了各种元素的能量，或许是不错的炼金素材？",
-		name = "未知结晶矿",
+		display = "中枢エリアで採取した謎の結晶体。硬質であらゆるエレメントのエネルギーがその中に含まれている。いい調合素材になるかも？",
+		name = "謎の結晶鉱",
 		type = 4,
 		id = 18,
 		icon = "ryza_item_18",
@@ -640,7 +640,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：采集地- 「TH5-核心之所」",
+			"入手方法 採取地- 「TH5-中枢の拠」",
 			chapterid = 1690025
 		},
 		got_voice = {
@@ -687,8 +687,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 3,
-		display = "拆解核心区残骸获得的神秘装甲板，坚韧光洁的白色外壳显然经过各种元素的淬炼，似乎可以作为高阶炼金素材来使用。",
-		name = "未知装甲板",
+		display = "中枢エリアにある残骸を分解して手に入れた装甲材。固くてきらびやかな表面を持つ白色の外殻はあらゆるエレメントから精錬されたと見られ、上級の調合素材として使用できるかもしれない",
+		name = "謎の装甲材",
 		type = 4,
 		id = 19,
 		icon = "ryza_item_19",
@@ -701,7 +701,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：采集地- 「TH5-核心之所」",
+			"入手方法 採取地- 「TH5-中枢の拠」",
 			chapterid = 1690025
 		},
 		got_voice = {
@@ -748,8 +748,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "古代遗迹守护者的动力来源。即使离开了守护者的躯体，依然在向外散发着仿佛无穷无尽的能量。",
-		name = "未知能源核心",
+		display = "古代遺跡の守護者の動力源。守護者の本体から離れても、無尽蔵にエネルギーを放ち続けている",
+		name = "謎のエナジーコア",
 		type = 4,
 		id = 20,
 		icon = "ryza_item_20",
@@ -762,7 +762,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：采集地- 「TH5-核心之所」",
+			"入手方法 採取地- 「TH5-中枢の拠」",
 			chapterid = 1690025
 		},
 		got_voice = {
@@ -809,8 +809,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 2,
-		display = "小瓶中封存了以炼金术人工制造的精灵之力。可适应任何属性，却不易使用。",
-		name = "精灵的小瓶",
+		display = "錬金術により人工的に造りだされた精霊の力を、封じ込めた小瓶。あらゆる属性に対して適性を持つ反面、扱うには高い技術が必要とされる",
+		name = "精霊の小瓶",
 		type = 2,
 		benefit_buff = "",
 		prop_level = 1,
@@ -825,7 +825,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"入手方法 調合システムで獲得",
 			recipeid = 210
 		},
 		normal_circle = {
@@ -838,8 +838,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 3,
-		display = "频繁出现在炼金术调合中的基础药剂。为红色液体，与火属性素材的契合度高。",
-		name = "中和剂·红",
+		display = "錬金術の調合に頻繁に出てくる基本薬。赤い液体で、火属性の素材と相性がよい",
+		name = "中和剤・赤",
 		type = 2,
 		benefit_buff = "",
 		prop_level = 2,
@@ -851,7 +851,7 @@ pg.activity_ryza_item = {
 			1
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"入手方法 調合システムで獲得",
 			recipeid = 220
 		},
 		normal_circle = {
@@ -864,8 +864,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 3,
-		display = "频繁出现在炼金术调合中的基础药剂。为蓝色液体，与冰属性素材的契合度高。",
-		name = "中和剂·蓝",
+		display = "錬金術の調合に頻繁に出てくる基本薬。青い液体で、氷属性の素材と相性がよい",
+		name = "中和剤・青",
 		type = 2,
 		benefit_buff = "",
 		prop_level = 2,
@@ -877,7 +877,7 @@ pg.activity_ryza_item = {
 			2
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"入手方法 調合システムで獲得",
 			recipeid = 230
 		},
 		normal_circle = {
@@ -890,8 +890,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 3,
-		display = "频繁出现在炼金术调合中的基础药剂。为黄色液体，与雷属性素材的契合度高。",
-		name = "中和剂·黄",
+		display = "錬金術の調合に頻繁に出てくる基本薬。黄色い液体で、雷属性の素材と相性がよい",
+		name = "中和剤・黄",
 		type = 2,
 		benefit_buff = "",
 		prop_level = 2,
@@ -903,7 +903,7 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"入手方法 調合システムで獲得",
 			recipeid = 240
 		},
 		normal_circle = {
@@ -916,8 +916,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 3,
-		display = "频繁出现在炼金术调合中的基础药剂。为绿色液体，与风属性素材的契合度高",
-		name = "中和剂·绿",
+		display = "錬金術の調合に頻繁に出てくる基本薬。緑の液体で、風属性の素材と相性がよい",
+		name = "中和剤・緑",
 		type = 2,
 		benefit_buff = "",
 		prop_level = 2,
@@ -929,7 +929,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"入手方法 調合システムで獲得",
 			recipeid = 250
 		},
 		normal_circle = {
@@ -942,8 +942,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "从四种元素核心制作而成的最高阶素材之一。具备全属性与高属性值，进行高阶调合时可派上用场。",
-		name = "核水晶元素",
+		display = "４種のエレメントコアから作られる最上位素材の一つ。全属性と高い属性値を持ち、高度な調合をする際に役に立つ",
+		name = "クリスタルエレメント",
 		type = 2,
 		benefit_buff = "",
 		prop_level = 3,
@@ -958,7 +958,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"入手方法 調合システムで獲得",
 			recipeid = 260
 		},
 		normal_circle = {
@@ -971,8 +971,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "代表异界之森的遗迹之钥，匙柄上镶嵌有粉色的托帕石。握在手中，会让人想起这片森林曾经葳蕤的岁月。",
-		name = "遗迹之钥·异界之森",
+		display = "異界の森を表す遺跡の鍵。柄には薄紅のトパーズが装飾されており、かつての鬱蒼たる森の姿を思い出させてくれる",
+		name = "遺跡の鍵・異界の森",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 2,
@@ -985,14 +985,14 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56202
 		}
 	},
 	{
 		rarity = 4,
-		display = "代表起始之地的遗迹之钥，匙柄上镶嵌有无暇的钻石。愿冒险之人的本心始终如钻石般洁白无暇。",
-		name = "遗迹之钥·起始之地",
+		display = "始まりの地を表す遺跡の鍵。柄には無瑕なダイヤモンドが装飾されている。冒険に踏み出す人々の心が、いつまでもダイヤモンドのように高潔であるように",
+		name = "遺跡の鍵・始まりの地",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 2,
@@ -1005,14 +1005,14 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56201
 		}
 	},
 	{
 		rarity = 4,
-		display = "代表失落之都的遗迹之钥，匙柄上镶嵌有青翠的祖母绿。比起宝藏本身，寻找宝藏的过程才是冒险者真正的财富。",
-		name = "遗迹之钥·失落之都",
+		display = "滅失の都を表す遺跡の鍵。柄には青緑のエメラルドが装飾されている。お宝そのものより、探し求める旅こそ冒険者の宝なり",
+		name = "遺跡の鍵・滅失の都",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 2,
@@ -1025,14 +1025,14 @@ pg.activity_ryza_item = {
 			2
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56204
 		}
 	},
 	{
 		rarity = 4,
-		display = "代表争斗之城的遗迹之钥，匙柄上镶嵌有绚烂的红宝石。往昔的残酷真相，或许已经伴着时间溶解在其中。",
-		name = "遗迹之钥·争斗之城",
+		display = "紛争の城を表す遺跡の鍵。柄には絢爛なルビーが装飾されている。古の残酷な真実はすでに、時間の大河に溶けてなくなっていたのかもしれない",
+		name = "遺跡の鍵・紛争の城",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 2,
@@ -1045,14 +1045,14 @@ pg.activity_ryza_item = {
 			1
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56203
 		}
 	},
 	{
 		rarity = 5,
-		display = "借助炼金术融合四把钥匙之后形成的类似门卡的装置，形状似乎能与核心之所大门上的凹槽完美对应。",
-		name = "遗迹之钥·核心之所",
+		display = "錬金術で4本の鍵を融合させて作り出した、カードキーのような装置。中枢エリアの「扉」にある挿入口に差し込められそうだ",
+		name = "遺跡の鍵・中枢の拠",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1068,14 +1068,14 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"入手方法 調合システムで獲得",
 			recipeid = 190
 		}
 	},
 	{
 		rarity = 4,
-		display = "累计收集「遗迹水晶簇」10000点获得的纪念徽章，用来调合「遗迹冒险之证」的必要素材",
-		name = "徽章·遗迹水晶簇",
+		display = "遺跡水晶クラスターを10000集めると入手できる記念バッジ。イベント記念アイテムの調合素材",
+		name = "バッジ・遺跡水晶クラスター",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1089,14 +1089,14 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56217
 		}
 	},
 	{
 		rarity = 4,
-		display = "成功开发温泉获得的纪念徽章，用来调合「遗迹冒险之证」的必要素材",
-		name = "徽章·温泉开发战",
+		display = "温泉開発戦を7日間プレイすると入手できる記念バッジ。イベント記念アイテムの調合素材",
+		name = "バッジ・温泉開発戦",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1110,14 +1110,14 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56228
 		}
 	},
 	{
 		rarity = 4,
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得炮击、航空、雷击属性提高的效果",
-		name = "输出提升核心",
+		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「火力・航空・雷装ステータスUP」効果が付与される",
+		name = "攻撃力向上コア",
 		type = 5,
 		prop_level = 2,
 		base_circle = "",
@@ -1132,7 +1132,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"入手方法 調合システムで獲得",
 			recipeid = 270
 		},
 		benefit_buff = {
@@ -1143,8 +1143,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得伤害降低的效果",
-		name = "防御提升核心",
+		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「受けるダメージを軽減する」効果が付与される",
+		name = "防御力向上コア",
 		type = 5,
 		prop_level = 2,
 		base_circle = "",
@@ -1159,7 +1159,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"入手方法 調合システムで獲得",
 			recipeid = 280
 		},
 		benefit_buff = {
@@ -1170,8 +1170,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得恢复耐久的效果",
-		name = "缓慢修复核心",
+		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「戦闘中、耐久がゆっくり回復する」効果が付与される",
+		name = "自動回復コア",
 		type = 5,
 		prop_level = 2,
 		base_circle = "",
@@ -1186,7 +1186,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"入手方法 調合システムで獲得",
 			recipeid = 290
 		},
 		benefit_buff = {
@@ -1197,8 +1197,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得损伤管控的效果",
-		name = "损伤管控核心",
+		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「味方艦船の耐久が20％を下回った場合一度だけ回復する」効果が付与される",
+		name = "緊急回復コア",
 		type = 5,
 		prop_level = 2,
 		base_circle = "",
@@ -1213,7 +1213,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"入手方法 調合システムで獲得",
 			recipeid = 300
 		},
 		benefit_buff = {
@@ -1224,8 +1224,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得点燃弹幕支援的效果",
-		name = "点燃支援核心",
+		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「戦闘中、敵を炎上させる支援弾幕が出現する」効果が付与される",
+		name = "爆燃支援攻撃コア",
 		type = 5,
 		prop_level = 2,
 		base_circle = "",
@@ -1240,7 +1240,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"入手方法 調合システムで獲得",
 			recipeid = 310
 		},
 		benefit_buff = {
@@ -1251,8 +1251,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得易伤弹幕支援的效果",
-		name = "易伤支援核心",
+		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「戦闘中、命中した敵の被ダメージを一定時間UPさせる支援弾幕が出現する」効果が付与される",
+		name = "破砕支援攻撃コア",
 		type = 5,
 		prop_level = 2,
 		base_circle = "",
@@ -1267,7 +1267,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"入手方法 調合システムで獲得",
 			recipeid = 320
 		},
 		benefit_buff = {
@@ -1278,8 +1278,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得经验提升的效果",
-		name = "经验提升核心",
+		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「戦闘で獲得する経験値がUP」効果が付与される",
+		name = "経験値効率向上コア",
 		type = 5,
 		prop_level = 2,
 		base_circle = "",
@@ -1294,7 +1294,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"入手方法 調合システムで獲得",
 			recipeid = 330
 		},
 		benefit_buff = {
@@ -1305,8 +1305,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "于「炼金术士与遗迹群岛」控制中心中使用。使用后，在活动关卡中可以获得好感提升的效果",
-		name = "好感提升核心",
+		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「戦闘での好感度上昇値がUP」効果が付与される",
+		name = "好感度上昇率向上コア",
 		type = 5,
 		prop_level = 2,
 		base_circle = "",
@@ -1321,7 +1321,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：炼金工房调合获得",
+			"入手方法 調合システムで獲得",
 			recipeid = 340
 		},
 		benefit_buff = {
@@ -1330,8 +1330,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "特殊兵装「闪耀梦想」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「闪耀梦想」的调合。",
-		name = "模块-闪耀梦想",
+		display = "特殊装備「スパークルレヴァリエ」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
+		name = "モジュールスパークルレヴァリエ",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1344,7 +1344,7 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56201
 		},
 		base_circle = {
@@ -1357,8 +1357,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "特殊兵装「暗夜星矢」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「暗夜星矢」的调合。",
-		name = "模块-暗夜星矢",
+		display = "特殊装備「アストルムノクス」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
+		name = "モジュールアストルムノクス",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1371,7 +1371,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56202
 		},
 		base_circle = {
@@ -1384,8 +1384,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "特殊兵装「百花盛开」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「百花盛开」的调合。",
-		name = "模块-百花盛开",
+		display = "特殊装備「グランデフロラシオン」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
+		name = "モジュールグランデフロラシオン",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1398,7 +1398,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56204
 		},
 		base_circle = {
@@ -1411,8 +1411,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "特殊兵装「爱瑟尔剑」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「爱瑟尔剑」的调合。",
-		name = "模块-爱瑟尔剑",
+		display = "特殊装備「エーデルシュヴァルト」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
+		name = "モジュールエーデルシュヴァルト",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1425,7 +1425,7 @@ pg.activity_ryza_item = {
 			2
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56203
 		},
 		base_circle = {
@@ -1438,8 +1438,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "特殊兵装「百合长老」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「百合长老」的调合。",
-		name = "模块-百合长老",
+		display = "特殊装備「エルダーリリー」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
+		name = "モジュールエルダーリリー",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 2,
@@ -1452,7 +1452,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56213
 		},
 		base_circle = {
@@ -1465,8 +1465,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "特殊兵装「幽兰爪」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「幽兰爪」的调合。",
-		name = "模块-幽兰爪",
+		display = "特殊装備「オーレンへルディン」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
+		name = "モジュールオーレンへルディン",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1479,7 +1479,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56223
 		},
 		base_circle = {
@@ -1492,8 +1492,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "设备装备「炙烈炎烧」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「炙烈炎烧」的调合。",
-		name = "模块-炙烈炎烧",
+		display = "特殊装備「グランフラム」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
+		name = "モジュールグランフラム",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1505,7 +1505,7 @@ pg.activity_ryza_item = {
 			1
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56208
 		},
 		base_circle = {
@@ -1518,8 +1518,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "设备装备「结晶冰精」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「结晶冰精」的调合。",
-		name = "模块-结晶冰精",
+		display = "特殊装備「クライスタルレヘルン」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
+		name = "モジュールクライスタルレヘルン",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1531,7 +1531,7 @@ pg.activity_ryza_item = {
 			2
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56209
 		},
 		base_circle = {
@@ -1544,8 +1544,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "设备装备「震耳雷球」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「震耳雷球」的调合。",
-		name = "模块-震耳雷球",
+		display = "特殊装備「ラウトプラジグ」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
+		name = "モジュールラウトプラジグ",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1557,7 +1557,7 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56207
 		},
 		base_circle = {
@@ -1570,8 +1570,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "设备装备「涡旋风精」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「涡旋风精」的调合。",
-		name = "模块-涡旋风精",
+		display = "特殊装備「ヴィアベールルフト」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
+		name = "モジュールヴィアベールルフト",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1583,7 +1583,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56206
 		},
 		base_circle = {
@@ -1596,8 +1596,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "设备装备「创世之槌」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「创世之槌」的调合。",
-		name = "模块-创世之槌",
+		display = "特殊装備「創世の槌」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
+		name = "モジュール創世の槌",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 2,
@@ -1610,7 +1610,7 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"产出途径：港区委托板第二日任务奖励",
+			"入手方法：母港依頼2日目任務報酬で獲得",
 			taskid = 56230
 		},
 		base_circle = {
@@ -1623,8 +1623,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "设备装备「泡云弹车」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「泡云弹车」的调合。",
-		name = "模块-泡云弹车",
+		display = "特殊装備「泡雲の弾丸」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
+		name = "モジュール泡雲の弾丸",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 2,
@@ -1637,7 +1637,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：港区委托板第二日任务奖励",
+			"入手方法：母港依頼2日目任務報酬で獲得",
 			taskid = 56231
 		},
 		base_circle = {
@@ -1650,8 +1650,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "设备装备「Ｎ／Ａ」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「Ｎ／Ａ」的调合。",
-		name = "模块-Ｎ／Ａ",
+		display = "特殊装備「Ｎ／Ａ」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
+		name = "モジュールＮ／Ａ",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1664,7 +1664,7 @@ pg.activity_ryza_item = {
 			3
 		},
 		get_access = {
-			"产出途径：港区委托板第三日任务奖励",
+			"入手方法：母港依頼3日目任務報酬で獲得",
 			taskid = 56232
 		},
 		base_circle = {
@@ -1677,8 +1677,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "设备装备「默示录」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「默示录」的调合。",
-		name = "模块-默示录",
+		display = "特殊装備「アポカリプス」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
+		name = "モジュールアポカリプス",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1693,7 +1693,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：港区委托板第三日任务奖励",
+			"入手方法：母港依頼3日目任務報酬で獲得",
 			taskid = 56233
 		},
 		base_circle = {
@@ -1706,8 +1706,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "设备装备「神秘的羽衣」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「神秘的羽衣」的调合。",
-		name = "模块-神秘的羽衣",
+		display = "特殊装備「神秘の羽衣」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
+		name = "モジュール神秘の羽衣",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 2,
@@ -1720,7 +1720,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56228
 		},
 		base_circle = {
@@ -1733,8 +1733,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "设备装备「万灵药剂」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「万灵药剂」的调合。",
-		name = "模块-万灵药剂",
+		display = "特殊装備「エリキシル剤」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
+		name = "モジュールエリキシル剤",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 3,
@@ -1747,7 +1747,7 @@ pg.activity_ryza_item = {
 			2
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56227
 		},
 		base_circle = {
@@ -1760,8 +1760,8 @@ pg.activity_ryza_item = {
 	},
 	{
 		rarity = 4,
-		display = "设备装备「形意口琴」的核心模块。作为配方中不可或缺的素材，可在炼金工房中用于「形意口琴」的调合。",
-		name = "模块-形意口琴",
+		display = "特殊装備「エネルジアニカ」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
+		name = "モジュールエネルジアニカ",
 		type = 3,
 		benefit_buff = "",
 		prop_level = 2,
@@ -1774,7 +1774,7 @@ pg.activity_ryza_item = {
 			4
 		},
 		get_access = {
-			"产出途径：港区委托板任务奖励",
+			"入手方法 母港依頼任務の報酬で獲得",
 			taskid = 56229
 		},
 		base_circle = {

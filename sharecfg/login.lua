@@ -315,13 +315,13 @@ pg.login = {
 			}
 		}
 	},
-	[11] = {
-		id = 11,
-		login_static = "",
+	[12] = {
+		id = 12,
+		login_static = "login_0401",
 		op_play = 0,
 		op_time = "",
-		login_cri = "loginbg_0401",
-		bgm = "login_0401",
+		login_cri = "",
+		bgm = "login-2022401jp",
 		date = {
 			"timer",
 			{
@@ -490,20 +490,20 @@ pg.login = {
 			}
 		}
 	},
-	[19] = {
-		id = 19,
-		login_static = "login_ryza",
+	[17] = {
+		id = 17,
+		login_static = "login",
 		op_play = 0,
 		op_time = "",
 		login_cri = "",
-		bgm = "ryza-1",
+		bgm = "",
 		date = {
 			"timer",
 			{
 				{
 					2022,
-					11,
-					24
+					9,
+					15
 				},
 				{
 					0,
@@ -514,8 +514,8 @@ pg.login = {
 			{
 				{
 					2022,
-					12,
-					9
+					10,
+					13
 				},
 				{
 					23,
@@ -669,8 +669,8 @@ pg.login = {
 			{
 				{
 					2023,
-					1,
-					22
+					2,
+					2
 				},
 				{
 					23,
@@ -740,21 +740,47 @@ pg.login = {
 			}
 		}
 	},
-	[24] = {
-		id = 24,
-		login_static = "login",
-		date = "stop",
+	[26] = {
+		id = 26,
+		login_static = "login_0401",
 		op_play = 0,
 		op_time = "",
-		login_cri = "loginbg_230401",
-		bgm = "login-2022401jp"
+		login_cri = "",
+		bgm = "login-2022401jp",
+		date = {
+			"timer",
+			{
+				{
+					2023,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2023,
+					4,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[27] = {
 		id = 27,
 		login_static = "login",
 		date = "stop",
-		op_play = 0,
-		op_time = "",
+		op_play = 1,
+		op_time = "stop",
 		login_cri = "",
 		bgm = "doa_guanqia"
 	},
@@ -890,70 +916,19 @@ pg.login = {
 	},
 	[31] = {
 		id = 31,
-		op_play = 1,
 		login_static = "login_0817_2",
+		date = "stop",
+		op_play = 0,
+		op_time = "stop",
 		login_cri = "loginbg",
-		bgm = "story-musicanniversary-gorgeous",
-		date = {
-			"timer",
-			{
-				{
-					2023,
-					8,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
-			{
-				{
-					2023,
-					8,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					8,
-					31
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		bgm = "story-musicanniversary-gorgeous"
 	},
 	[32] = {
 		id = 32,
 		login_static = "login_0817_1",
 		date = "stop",
-		op_play = 0,
-		op_time = "",
+		op_play = 1,
+		op_time = "stop",
 		login_cri = "",
 		bgm = ""
 	},
@@ -1003,37 +978,11 @@ pg.login = {
 	},
 	[35] = {
 		id = 35,
+		date = "stop",
 		op_play = 1,
 		login_static = "login_0921",
 		login_cri = "",
-		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2023,
-					9,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					9,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
+		bgm = "login-jp-20230914",
 		op_time = {
 			{
 				{
@@ -1066,7 +1015,7 @@ pg.login = {
 		op_play = 1,
 		login_static = "login",
 		login_cri = "",
-		bgm = "",
+		bgm = "login-jp-20230914",
 		date = {
 			"timer",
 			{
@@ -1126,7 +1075,7 @@ pg.login = {
 		op_play = 1,
 		login_static = "login_0929",
 		login_cri = "",
-		bgm = "",
+		bgm = "login-jp-20230914",
 		date = {
 			"timer",
 			{
@@ -1187,7 +1136,7 @@ pg.login = {
 		op_play = 1,
 		login_static = "login",
 		login_cri = "",
-		bgm = "",
+		bgm = "login-jp-20230914",
 		op_time = {
 			{
 				{
@@ -1588,13 +1537,13 @@ pg.login = {
 			}
 		}
 	},
-	[49] = {
-		id = 49,
+	[50] = {
+		id = 50,
 		login_static = "login_0401",
 		op_play = 0,
 		op_time = "",
 		login_cri = "",
-		bgm = "votefes-start",
+		bgm = "login-20240401jp",
 		date = {
 			"timer",
 			{
@@ -1798,19 +1747,19 @@ pg.login = {
 			}
 		}
 	},
-	[57] = {
-		id = 57,
+	[58] = {
+		id = 58,
 		op_play = 1,
 		login_static = "login",
 		login_cri = "",
-		bgm = "",
+		bgm = "login-JP7th",
 		date = {
 			"timer",
 			{
 				{
 					2024,
 					9,
-					12
+					19
 				},
 				{
 					0,
@@ -1836,7 +1785,7 @@ pg.login = {
 				{
 					2024,
 					9,
-					12
+					19
 				},
 				{
 					0,
@@ -2330,17 +2279,17 @@ pg.login = {
 		8,
 		9,
 		10,
-		11,
+		12,
 		13,
 		14,
 		15,
 		16,
-		19,
+		17,
 		20,
 		21,
 		22,
 		23,
-		24,
+		26,
 		27,
 		28,
 		29,
@@ -2363,13 +2312,13 @@ pg.login = {
 		46,
 		47,
 		48,
-		49,
+		50,
 		52,
 		53,
 		54,
 		55,
 		56,
-		57,
+		58,
 		59,
 		60,
 		61,

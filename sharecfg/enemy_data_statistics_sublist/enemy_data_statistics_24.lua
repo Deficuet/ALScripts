@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_24 = {
 	[90718] = {
 		cannon = 0,
-		name = "亚利桑那·META",
+		name = "アリゾナ(META)",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -174,7 +174,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90719] = {
 		cannon = 0,
-		name = "OFS.轻型护卫舰",
+		name = "OFS.量産型小型コルベット",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -336,7 +336,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90720] = {
 		cannon = 0,
-		name = "OFS.导弹驱逐舰",
+		name = "OFS.量産型ミサイル駆逐艦",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -505,7 +505,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90721] = {
 		cannon = 0,
-		name = "OFS.导弹巡洋舰",
+		name = "OFS.量産型ミサイル巡洋艦",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -681,7 +681,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90722] = {
 		cannon = 0,
-		name = "OFS.重型驱逐舰",
+		name = "OFS.量産型重装駆逐艦",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -857,7 +857,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90723] = {
 		cannon = 0,
-		name = "OFS.导弹战列舰",
+		name = "OFS.量産型ミサイリアー戦艦",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1033,7 +1033,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90724] = {
 		cannon = 0,
-		name = "OFS.无人机母舰",
+		name = "OFS.量産型ドローンキャリア",
 		type = 6,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1202,7 +1202,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90725] = {
 		cannon = 0,
-		name = "OFS.航空母舰",
+		name = "OFS.量産型空母",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1371,7 +1371,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90726] = {
 		cannon = 0,
-		name = "OFS.自动化水下航行器",
+		name = "OFS.自律潜航機",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1523,7 +1523,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90727] = {
 		cannon = 0,
-		name = "OFS.攻击潜艇",
+		name = "OFS.量産型攻撃潜水艦",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1683,7 +1683,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90728] = {
 		cannon = 0,
-		name = "OFS.防空快艇",
+		name = "OFS.量産型対空ボート",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1838,7 +1838,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90729] = {
 		cannon = 0,
-		name = "OFS.快速战斗支援舰",
+		name = "OFS.量産型高速支援艦",
 		type = 12,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1993,7 +1993,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90730] = {
 		cannon = 0,
-		name = "代行者XV「Temptation」",
+		name = "エンフォーサーXV「Temptation」",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2149,7 +2149,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90731] = {
 		cannon = 0,
-		name = "代行者XV「Restriction」",
+		name = "エンフォーサーXV「Restriction」",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2305,7 +2305,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90732] = {
 		cannon = 0,
-		name = "仲裁者·迪贝路·XV",
+		name = "アビータ・DevilXV",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2457,7 +2457,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90733] = {
 		cannon = 0,
-		name = "Devil.压制模块",
+		name = "Devil-制圧ドローン",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2578,7 +2578,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90734] = {
 		cannon = 0,
-		name = "Devil.狙击模块",
+		name = "Devil-狙撃ドローン",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2699,7 +2699,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90735] = {
 		cannon = 0,
-		name = "OFS.深水情报舰「厄庇墨透斯」",
+		name = "OFS.大型深海探査情報収集潜航艦「エピメテウス」",
 		type = 17,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2879,7 +2879,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90736] = {
 		cannon = 0,
-		name = "阿芙乐尔",
+		name = "アヴローラ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3048,7 +3048,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90737] = {
 		cannon = 0,
-		name = "甘古特",
+		name = "ガングート",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3204,7 +3204,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90738] = {
 		cannon = 0,
-		name = "忒修斯",
+		name = "シーシュース",
 		type = 6,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3367,7 +3367,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90739] = {
 		cannon = 0,
-		name = "古比雪夫",
+		name = "クイビシェフ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3523,7 +3523,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90740] = {
 		cannon = 0,
-		name = "审判型机甲武装-战争",
+		name = "審判型武装機構・Rouge",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3686,7 +3686,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90741] = {
 		cannon = 0,
-		name = "审判型机甲武装-饥荒",
+		name = "審判型武装機構・Noir",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3849,7 +3849,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90742] = {
 		cannon = 0,
-		name = "埃米尔·贝尔汀",
+		name = "「エミール・ベルタン」",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4005,7 +4005,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90743] = {
 		cannon = 0,
-		name = "狂风级量产型",
+		name = "ブーラスク級量産型",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4167,7 +4167,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90744] = {
 		cannon = 0,
-		name = "埃米尔·贝尔汀级量产型",
+		name = "エミールベルタン級量産型",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4329,7 +4329,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90745] = {
 		cannon = 0,
-		name = "阿尔及利亚级量产型",
+		name = "アルジェリー級量産型",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4498,7 +4498,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90746] = {
 		cannon = 0,
-		name = "布列塔尼级量产型",
+		name = "プロヴァンス級量産型",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4667,7 +4667,7 @@ pg.enemy_data_statistics_24 = {
 	},
 	[90747] = {
 		cannon = 0,
-		name = "贝亚恩级量产型",
+		name = "ベアルン級量産型",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,

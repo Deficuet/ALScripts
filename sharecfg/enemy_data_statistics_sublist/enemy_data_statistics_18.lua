@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_18 = {
 	[90512] = {
 		cannon = 0,
-		name = "纽伦堡",
+		name = "ニュルンベルク",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -171,7 +171,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90513] = {
 		cannon = 0,
-		name = "海因里希亲王",
+		name = "プリンツ・ハインリヒ",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -338,7 +338,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90514] = {
 		cannon = 0,
-		name = "彼得·史特拉塞",
+		name = "ペーター・シュトラッサー",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -491,7 +491,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90515] = {
 		cannon = 0,
-		name = "威悉",
+		name = "ヴェーザー",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -644,7 +644,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90516] = {
 		cannon = 0,
-		name = "英王乔治五世",
+		name = "キング・ジョージV",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -794,7 +794,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90517] = {
 		cannon = 0,
-		name = "Z艇量产型·改I",
+		name = "量産型Zクラス・改Ⅰ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -956,7 +956,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90518] = {
 		cannon = 0,
-		name = "自爆船「Buster」",
+		name = "セイレーン自爆ボート",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1102,7 +1102,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90519] = {
 		cannon = 0,
-		name = "代行者III「Harvest」",
+		name = "エンフォーサーⅢ「Harvest」",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1393,7 +1393,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90521] = {
 		cannon = 0,
-		name = "皇家方舟·META",
+		name = "アーク・ロイヤル(META)",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1544,7 +1544,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90522] = {
 		cannon = 0,
-		name = "特装型布里MKIII ",
+		name = "特装型ブリMKIII",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1691,7 +1691,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90523] = {
 		cannon = 0,
-		name = "驱逐「Pawn」-R",
+		name = "駆逐「Pawn」-R",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1853,7 +1853,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90524] = {
 		cannon = 0,
-		name = "轻巡「Knight」-R",
+		name = "軽巡「Knight」-R",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2193,7 +2193,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90526] = {
 		cannon = 0,
-		name = "战舰「Rook」-R",
+		name = "戦艦「Rook」-R",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2373,7 +2373,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90527] = {
 		cannon = 0,
-		name = "航母「Queen」-R",
+		name = "空母「Queen」-R",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2540,7 +2540,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90528] = {
 		cannon = 0,
-		name = "自爆船「Buster」-R",
+		name = "量産型自爆ボート「Buster」-R",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2686,7 +2686,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90529] = {
 		cannon = 0,
-		name = "潜艇「Assassin」-R",
+		name = "潜水艦「Assassin」-R",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2837,7 +2837,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90530] = {
 		cannon = 0,
-		name = "阿贾克斯",
+		name = "エイジャックス",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3006,7 +3006,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90531] = {
 		cannon = 0,
-		name = "厌战",
+		name = "ウォースパイト",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3178,7 +3178,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90532] = {
 		cannon = 0,
-		name = "可畏",
+		name = "フォーミダブル",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3325,7 +3325,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90533] = {
 		cannon = 0,
-		name = "欧若拉",
+		name = "オーロラ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3481,7 +3481,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90534] = {
 		cannon = 0,
-		name = "格罗斯特",
+		name = "グロスター",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3763,7 +3763,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90536] = {
 		cannon = 0,
-		name = "蛟·META",
+		name = "蒼龍(META)",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3914,7 +3914,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90537] = {
 		cannon = 0,
-		name = "杜威",
+		name = "デューイ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4063,7 +4063,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90538] = {
 		cannon = 0,
-		name = "亚特兰大",
+		name = "アトランタ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4230,7 +4230,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90539] = {
 		cannon = 0,
-		name = "北安普顿",
+		name = "ノーザンプトン",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4392,7 +4392,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90540] = {
 		cannon = 0,
-		name = "哈曼",
+		name = "ハムマン",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4561,7 +4561,7 @@ pg.enemy_data_statistics_18 = {
 	},
 	[90541] = {
 		cannon = 0,
-		name = "海伦娜·META",
+		name = "ヘレナ(META)",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,

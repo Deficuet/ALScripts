@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_19 = {
 	[90542] = {
 		cannon = 0,
-		name = "满潮",
+		name = "ミチシオ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -158,7 +158,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90543] = {
 		cannon = 0,
-		name = "扶桑改",
+		name = "フソウ改",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,
@@ -314,7 +314,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90570] = {
 		cannon = 0,
-		name = "量产型驱逐舰(IDOL) ",
+		name = "量産型駆逐艦(IDOL)",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -469,7 +469,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90571] = {
 		cannon = 0,
-		name = "量产型轻巡洋舰(IDOL) ",
+		name = "量産型軽巡洋艦(IDOL)",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -631,7 +631,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90572] = {
 		cannon = 0,
-		name = "量产型重巡洋舰(IDOL) ",
+		name = "量産型重巡洋艦(IDOL)",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -799,7 +799,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90573] = {
 		cannon = 0,
-		name = "量产型战列舰(IDOL) ",
+		name = "量産型戦艦(IDOL)",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -967,7 +967,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90574] = {
 		cannon = 0,
-		name = "量产型航空母舰(IDOL) ",
+		name = "量産型空母(IDOL)",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1136,7 +1136,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90575] = {
 		cannon = 0,
-		name = "自爆船(IDOL) ",
+		name = "自爆ボート(IDOL)",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1282,7 +1282,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90576] = {
 		cannon = 0,
-		name = "模拟·亚美 ",
+		name = "ホログラフィック・アミ",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1428,7 +1428,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90577] = {
 		cannon = 0,
-		name = "模拟·真美 ",
+		name = "ホログラフィック・マミ",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1574,7 +1574,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90578] = {
 		cannon = 0,
-		name = "模拟·春香 ",
+		name = "ホログラフィック・ハルカ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1730,7 +1730,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90579] = {
 		cannon = 0,
-		name = "模拟·梓 ",
+		name = "ホログラフィック・アズサ",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1879,7 +1879,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90580] = {
 		cannon = 0,
-		name = "模拟·伊织 ",
+		name = "ホログラフィック・イオリ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2035,7 +2035,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90581] = {
 		cannon = 0,
-		name = "模拟·千早 ",
+		name = "ホログラフィック・チハヤ",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2190,7 +2190,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90582] = {
 		cannon = 0,
-		name = "龙宫城机关要塞",
+		name = "竜宮仕掛",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2356,7 +2356,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90583] = {
 		cannon = 0,
-		name = "白龙",
+		name = "白龍",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2506,7 +2506,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90584] = {
 		cannon = 0,
-		name = "狮级量产型",
+		name = "量産型ライオン級",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2661,7 +2661,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90585] = {
 		cannon = 0,
-		name = "加富尔伯爵级量产型",
+		name = "量産型コンテ・ディ・カブール",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3948,7 +3948,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90593] = {
 		cannon = 0,
-		name = "探索者武装:「漫游」",
+		name = "スカベンジャー特殊兵装：「Wander」",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4104,7 +4104,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90594] = {
 		cannon = 0,
-		name = "追迹者武装:「铁卫」",
+		name = "チェイサー特殊兵装：「Guard」",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4260,7 +4260,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90595] = {
 		cannon = 0,
-		name = "领洋者武装:「侵袭」",
+		name = "ナビゲーター特殊兵装：「Invade」",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4416,7 +4416,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90596] = {
 		cannon = 0,
-		name = "破局者武装:「毁灭」",
+		name = "スマッシャー特殊兵装：「Blast」",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4586,7 +4586,7 @@ pg.enemy_data_statistics_19 = {
 	},
 	[90597] = {
 		cannon = 0,
-		name = "执棋者武装:「宿主」",
+		name = "コンダクター特殊兵装：「Moderate」",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,

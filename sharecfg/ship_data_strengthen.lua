@@ -2482,7 +2482,7 @@ pg.ship_data_strengthen = {
 			36
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -2506,7 +2506,7 @@ pg.ship_data_strengthen = {
 			36
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -2530,7 +2530,7 @@ pg.ship_data_strengthen = {
 			38
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -2554,7 +2554,7 @@ pg.ship_data_strengthen = {
 			38
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -2578,7 +2578,7 @@ pg.ship_data_strengthen = {
 			38
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -2602,7 +2602,7 @@ pg.ship_data_strengthen = {
 			38
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -2746,7 +2746,7 @@ pg.ship_data_strengthen = {
 			44
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -2818,7 +2818,7 @@ pg.ship_data_strengthen = {
 			43
 		},
 		level_exp = {
-			20,
+			25,
 			0,
 			0,
 			0,
@@ -2965,7 +2965,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -2989,7 +2989,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -3037,7 +3037,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -3061,7 +3061,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -3085,7 +3085,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -5554,7 +5554,7 @@ pg.ship_data_strengthen = {
 			43
 		},
 		level_exp = {
-			15,
+			30,
 			0,
 			0,
 			0,
@@ -5578,7 +5578,7 @@ pg.ship_data_strengthen = {
 			42
 		},
 		level_exp = {
-			15,
+			30,
 			0,
 			0,
 			0,
@@ -5602,7 +5602,7 @@ pg.ship_data_strengthen = {
 			44
 		},
 		level_exp = {
-			15,
+			30,
 			0,
 			0,
 			0,
@@ -5650,7 +5650,7 @@ pg.ship_data_strengthen = {
 			40
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -5674,7 +5674,7 @@ pg.ship_data_strengthen = {
 			44
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -5698,7 +5698,7 @@ pg.ship_data_strengthen = {
 			41
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -5722,7 +5722,7 @@ pg.ship_data_strengthen = {
 			41
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -5770,7 +5770,7 @@ pg.ship_data_strengthen = {
 			43
 		},
 		level_exp = {
-			10,
+			25,
 			0,
 			0,
 			0,
@@ -6181,7 +6181,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -6205,7 +6205,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -6779,7 +6779,7 @@ pg.ship_data_strengthen = {
 		},
 		level_exp = {
 			40,
-			10,
+			15,
 			0,
 			0,
 			15
@@ -9034,7 +9034,7 @@ pg.ship_data_strengthen = {
 			38
 		},
 		level_exp = {
-			12,
+			25,
 			0,
 			0,
 			0,
@@ -9058,7 +9058,7 @@ pg.ship_data_strengthen = {
 			38
 		},
 		level_exp = {
-			12,
+			25,
 			0,
 			0,
 			0,
@@ -9565,7 +9565,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -9589,7 +9589,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -9613,7 +9613,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -9637,7 +9637,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -10090,7 +10090,7 @@ pg.ship_data_strengthen = {
 			38
 		},
 		level_exp = {
-			12,
+			25,
 			0,
 			0,
 			35,
@@ -10234,7 +10234,7 @@ pg.ship_data_strengthen = {
 			43
 		},
 		level_exp = {
-			15,
+			30,
 			0,
 			0,
 			0,
@@ -10258,7 +10258,7 @@ pg.ship_data_strengthen = {
 			43
 		},
 		level_exp = {
-			15,
+			30,
 			0,
 			0,
 			0,
@@ -11434,7 +11434,7 @@ pg.ship_data_strengthen = {
 			43
 		},
 		level_exp = {
-			15,
+			30,
 			35,
 			0,
 			0,
@@ -11458,7 +11458,7 @@ pg.ship_data_strengthen = {
 			43
 		},
 		level_exp = {
-			15,
+			30,
 			35,
 			0,
 			0,
@@ -11626,7 +11626,7 @@ pg.ship_data_strengthen = {
 			41
 		},
 		level_exp = {
-			10,
+			25,
 			35,
 			0,
 			0,
@@ -11821,7 +11821,7 @@ pg.ship_data_strengthen = {
 			0,
 			0,
 			0,
-			20,
+			25,
 			40
 		},
 		attr_exp = {
@@ -16008,54 +16008,6 @@ pg.ship_data_strengthen = {
 			8
 		}
 	},
-	[1020001] = {
-		id = 1020001,
-		durability = {
-			10,
-			37,
-			0,
-			0,
-			49
-		},
-		level_exp = {
-			35,
-			20,
-			0,
-			0,
-			15
-		},
-		attr_exp = {
-			3,
-			12,
-			0,
-			0,
-			12
-		}
-	},
-	[1020002] = {
-		id = 1020002,
-		durability = {
-			7,
-			46,
-			0,
-			0,
-			47
-		},
-		level_exp = {
-			35,
-			20,
-			0,
-			0,
-			15
-		},
-		attr_exp = {
-			2,
-			15,
-			0,
-			0,
-			12
-		}
-	},
 	[1030001] = {
 		id = 1030001,
 		durability = {
@@ -17578,11 +17530,11 @@ pg.ship_data_strengthen = {
 			45
 		},
 		level_exp = {
-			100,
-			100,
-			100,
-			100,
-			100
+			30,
+			25,
+			0,
+			0,
+			15
 		},
 		attr_exp = {
 			0,
@@ -17602,11 +17554,11 @@ pg.ship_data_strengthen = {
 			46
 		},
 		level_exp = {
-			100,
-			100,
-			100,
-			100,
-			100
+			15,
+			0,
+			0,
+			0,
+			35
 		},
 		attr_exp = {
 			0,
@@ -17626,11 +17578,11 @@ pg.ship_data_strengthen = {
 			51
 		},
 		level_exp = {
-			100,
-			100,
-			100,
-			100,
-			100
+			25,
+			30,
+			0,
+			0,
+			25
 		},
 		attr_exp = {
 			0,
@@ -17650,11 +17602,11 @@ pg.ship_data_strengthen = {
 			40
 		},
 		level_exp = {
-			100,
-			100,
-			100,
-			100,
-			100
+			15,
+			0,
+			0,
+			0,
+			35
 		},
 		attr_exp = {
 			0,
@@ -17674,11 +17626,11 @@ pg.ship_data_strengthen = {
 			47
 		},
 		level_exp = {
-			100,
-			100,
-			100,
-			100,
-			100
+			25,
+			30,
+			0,
+			0,
+			25
 		},
 		attr_exp = {
 			0,
@@ -17698,11 +17650,11 @@ pg.ship_data_strengthen = {
 			52
 		},
 		level_exp = {
-			100,
-			100,
-			100,
-			100,
-			100
+			25,
+			30,
+			0,
+			0,
+			25
 		},
 		attr_exp = {
 			0,
@@ -19244,8 +19196,6 @@ pg.ship_data_strengthen = {
 		1010006,
 		1010007,
 		1010008,
-		1020001,
-		1020002,
 		1030001,
 		1030002,
 		1030003,

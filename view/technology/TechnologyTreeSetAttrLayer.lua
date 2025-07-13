@@ -247,7 +247,7 @@ function var_0_0.updateAttrTF(arg_32_0, arg_32_1, arg_32_2)
 	onInputEndEdit(arg_32_0, var_32_7, function(arg_36_0)
 		local var_36_0 = tonumber(arg_36_0)
 
-		if var_36_0 then
+		if var_36_0 and var_36_0 > 0 then
 			if var_36_0 < 0 then
 				var_36_0 = nil
 			else

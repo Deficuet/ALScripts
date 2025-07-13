@@ -349,12 +349,12 @@ function var_0_33.CreateWeaponUnit(arg_8_0, arg_8_1, arg_8_2, arg_8_3, arg_8_4)
 		var_8_1 = var_0_0.Battle.BattleRepeaterAntiAirUnit.New()
 	elseif var_8_3 == var_0_1.EquipmentType.DISPOSABLE_TORPEDO then
 		var_8_1 = var_0_0.Battle.BattleDisposableTorpedoUnit.New()
+	elseif var_8_3 == var_0_1.EquipmentType.MANUAL_AAMISSILE then
+		var_8_1 = var_0_0.Battle.BattleManualAAMissileUnit.New()
 	elseif var_8_3 == var_0_1.EquipmentType.SPACE_LASER then
 		var_8_1 = var_0_0.Battle.BattleSpaceLaserWeaponUnit.New()
 	elseif var_8_3 == var_0_1.EquipmentType.MISSILE then
 		var_8_1 = var_0_0.Battle.BattleMissileWeaponUnit.New()
-	elseif var_8_3 == var_0_1.EquipmentType.MANUAL_AAMISSILE then
-		var_8_1 = var_0_0.Battle.BattleManualAAMissileUnit.New()
 	elseif var_8_3 == var_0_1.EquipmentType.AUTO_MISSILE then
 		var_8_1 = var_0_0.Battle.BattleAutoMissileUnit.New()
 	end

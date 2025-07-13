@@ -30,10 +30,6 @@ function var_0_0.Ctor(arg_4_0, arg_4_1)
 	arg_4_0.externalAssaultFleet = GuildAssaultFleet.New({
 		user_id = arg_4_0.id
 	})
-
-	if arg_4_0.icon == 1 then
-		arg_4_0.icon = 101171
-	end
 end
 
 function var_0_0.GetLiveness(arg_5_0)

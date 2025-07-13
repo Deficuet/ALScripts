@@ -284,13 +284,13 @@ pg.base = pg.base or {}
 pg.base.dorm3d_collection_template = {
 	{
 		text = "dorm3d_sirius_table",
-		name = "微波炉",
+		name = "電子レンジ",
 		award = 0,
 		time = 0,
 		id = 1,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item5",
-		desc = "天狼星自备的微波炉，本该因长时间使用而留下使用痕迹，但不知为何每次看到都是完全崭新的模样。",
+		desc = "シリアスが自ら用意した電子レンジ。長期間使っているのに、使い古された感じが一切なく、何故か見るたびに、新品同様の状態になっている。",
 		model = {
 			"fbx/litmap_04/pre_db_electrical01"
 		},
@@ -305,13 +305,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_table",
-		name = "咖啡机",
+		name = "コーヒーマシン",
 		award = 0,
 		time = 0,
 		id = 2,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item6",
-		desc = "天狼星每天早晨都会用它准备咖啡。机器上还留有她手指触碰过的痕迹。",
+		desc = "シリアスが毎朝のコーヒーを用意するのに使うコーヒーマシン。機械には彼女の指が触れた痕跡が残っている。",
 		model = {
 			"fbx/litmap_04/pre_db_electrical07"
 		},
@@ -326,13 +326,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_table",
-		name = "玛丽珍鞋",
+		name = "メリージェーン靴",
 		award = 0,
 		time = 1,
 		id = 3,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item2",
-		desc = "天狼星日常行动时所穿的高跟玛丽珍鞋，皮面因被悉心保养而散发着柔润的光。",
+		desc = "シリアスが普段から愛用しているヒールのメリージェーン。丁寧に手入れされているため、革は柔らかな光を纏っている。",
 		model = {
 			"fbx/litmap_01/pre_db_shoe01"
 		},
@@ -347,13 +347,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_table",
-		name = "装饰挂画",
+		name = "装飾用の壁掛け",
 		award = 0,
 		time = 0,
 		id = 4,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item8",
-		desc = "戴着蓝色领结的橘猫。优雅之余又透露着几分憨态，也许房间的主人很喜欢这种可爱的东西？",
+		desc = "青いネクタイをつけている茶トラ。滲み出る優雅さには、愛嬌のある間抜けさも混じっている。おそらく部屋の主はこのような可愛らしいものが好きなのだろう。",
 		model = {
 			"fbx/litmap_03/pre_db_billboard06d"
 		},
@@ -368,13 +368,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_chair",
-		name = "烤吐司机",
+		name = "トースター",
 		award = 0,
 		time = 1,
 		id = 5,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item9",
-		desc = "对于厨房新手而言非常实用的早餐工具。只需轻轻一按，即可得到微热松软的吐司。——当然，前提是学会调整档位和火候。",
+		desc = "料理初心者に実用的なブレックファスト・マシン。ポチっと押すだけで、温かくて柔らかいトーストが出来上がり。——もちろん、ちゃんと焼き加減の設定ができるようになってから。",
 		model = {
 			"no_bake_prop/pre_db_electrical02"
 		},
@@ -389,13 +389,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_chair",
-		name = "垃圾桶",
+		name = "ゴミ箱",
 		award = 0,
 		time = 1,
 		id = 6,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item10",
-		desc = "随处可见的普通垃圾桶。………………再怎么看来看去，都只是最普通的垃圾桶。",
+		desc = "どこにでもある、何の変哲もない、ただのゴミ箱。……。…………。やはりどう見ても、それ以上でもそれ以下でもない、普通のゴミ箱だ。",
 		model = {
 			"no_bake_prop/pre_db_pail01"
 		},
@@ -410,13 +410,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_chair",
-		name = "相框",
+		name = "空の額縁",
 		award = 0,
 		time = 0,
 		id = 7,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item17",
-		desc = "还未放入相片的空相框，仅有简单的图案让其看上去不那么单调。",
+		desc = "まだ写真が入っていない空の額縁。シンプルだが一応柄があり、そこまで地味に見えない。",
 		model = {
 			"fbx/litmap_03/pre_db_billboard02"
 		},
@@ -431,13 +431,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_chair",
-		name = "蝴蝶标本",
+		name = "蝶の標本",
 		award = 0,
 		time = 0,
 		id = 8,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item12",
-		desc = "蓝色翅面上的花纹一如海面上翻涌起的海浪。也像天狼星驰行于海上时，被风扬起的发丝。工作不忙的时候，陪天狼星去海边走走吧。",
+		desc = "青い翅にある模様は、打ち寄せる波のようでありながら、海を駆け巡るシリアスの、風になびく髪のようでもある。今度暇なときに、シリアスを誘って浜辺の散策に出掛けよう。",
 		model = {
 			"fbx/litmap_03/pre_db_billboard03 (1)"
 		},
@@ -452,13 +452,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_chair",
-		name = "落地灯",
+		name = "フロアランプ",
 		award = 0,
 		time = 0,
 		id = 9,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item15",
-		desc = "放置在沙发旁的落地灯，灯泡被天狼星特意换成了护眼的类型。偶尔也在这里处理一下文件吧。",
+		desc = "ソファの横に置かれたフロアランプ。シリアスの気配りによって電球は目に優しいタイプに。たまにはここで書類仕事をしてみよう。",
 		model = {
 			"fbx/litmap_03/pre_db_chandelier06"
 		},
@@ -473,13 +473,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_bed",
-		name = "面包组合？",
+		name = "パンのセット",
 		award = 0,
 		time = 1,
 		id = 10,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item16",
-		desc = "疑似为天狼星亲手制作的可颂与三明治尽管色泽与气味都十分正常，但在天狼星发出邀请之前，还是先不主动品尝了……",
+		desc = "シリアスの手作りと思しきクロワッサンとサンドイッチ。見た目も香りも至って普通だが、シリアスに勧められるまで、こちらからは味見しないでおこう……",
 		model = {
 			"fbx/litmap_04/pre_db_food01b"
 		},
@@ -494,13 +494,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_bed",
-		name = "休闲读物",
+		name = "カジュアルな読み物",
 		award = 0,
 		time = 1,
 		id = 11,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item25",
-		desc = "茶几上摊开的小说，似乎是天狼星近期的休闲读物。粗略翻了几页，小说是在讲述一位女仆与她的主人之间的禁忌之恋。",
+		desc = "サイドテーブルの上に開かれた一冊の本。どうやらシリアスの最近の愛読書らしい。ざっと数ページめくってみると、あるメイドとその主人の間の禁断の恋を描いている小説のようだった。",
 		model = {
 			"no_bake_prop/pre_db_book01"
 		},
@@ -515,13 +515,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_bath",
-		name = "高脚杯",
+		name = "ワイングラス",
 		award = 0,
 		time = 1,
 		id = 12,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item14",
-		desc = "用高脚杯盛着的饮用水，确实能体现出天狼星身为女仆的服侍态度……不过“用高脚杯优雅地喝水”多少有些麻烦。还是准备几个普通的玻璃杯吧。",
+		desc = "ワイングラス、そして飲料水。シリアスのメイドのご奉仕が如実に伝わっている。「ワイングラスで優雅に水を召し上がる」のはさすがに面倒だ。今度はやはり普通のグラスをいくつか用意させよう。",
 		model = {
 			"no_bake_prop/pre_db_tableware07"
 		},
@@ -536,13 +536,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_bath",
-		name = "勇者之剑模型",
+		name = "勇者の剣のレプリカ",
 		award = 0,
 		time = 0,
 		id = 13,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item11",
-		desc = "因大型港区虚拟现实体验而火爆起来的周边商品。模型底座上有着“厨具版”的字样。难怪天狼星摆在房间里的这一把摸起来份量更重……",
+		desc = "母港バーチャルリアリティ大冒険で大ヒットしたコラボグッズ。台座には「台所用」と書いてある。なるほど、道理でシリアスが部屋に置いてあるやつと重さがまるで違うわけだ…",
 		model = {
 			"no_bake_prop/pre_db_decoration02"
 		},
@@ -557,13 +557,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_bath",
-		name = "插花练习作品·I",
+		name = "生け花の習作・I",
 		award = 0,
 		time = 0,
 		id = 14,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item19",
-		desc = "天狼星的插花练习作品。虽然只有纯色的花卉，但也算是错落有致。之后帮她放到比较开阔的位置会比较好吧？",
+		desc = "シリアスの生け花の習作。花は一色のみだがバランスよく配置されている。後で少し広い場所に移動させよう。",
 		model = {
 			"fbx/litmap_04/pre_db_ceram05 (1)"
 		},
@@ -578,13 +578,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_bed",
-		name = "床头书堆",
+		name = "枕辺の本",
 		award = 0,
 		time = 1,
 		id = 15,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item20",
-		desc = "天狼星放在床头的书堆。出乎意料的是，这些并非料理相关的书籍，而是战略及侍奉技巧相关。其中还夹杂着天狼星的读书笔记，从内容上看，她似乎是在钻研如何将二者相结合，好成为一名更优秀的女仆。",
+		desc = "ベッドサイドに置かれている本の山。意外なことに料理本ではなく、戦略と奉仕の技術に関する本だらけだ。中にはシリアスの読書ノートも挟まれており、内容からするとこの2つをうまく組み合わせて、より優秀なメイドになれるよう研究に励んでいるようだ。",
 		model = {
 			"fbx/litmap_01/pre_db_book08"
 		},
@@ -599,13 +599,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_bed",
-		name = "梳妆台",
+		name = "ドレッサー",
 		award = 0,
 		time = 0,
 		id = 16,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item22",
-		desc = "大概是急着迎接的缘故，口红盖都没来得及合上。还是帮她收起来吧！",
+		desc = "シリアスがこちらの出迎えに急いでいたせいか、リップのフタを閉めるのを忘れている。閉めておいてあげよう！",
 		model = {
 			"no_bake_prop/pre_db_dressingtablecomponents01"
 		},
@@ -620,13 +620,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_bed",
-		name = "珠宝展示盒",
+		name = "ジュエリーボックス",
 		award = 0,
 		time = 0,
 		id = 17,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item18",
-		desc = "价值不菲的皇家珠宝，天狼星一直将其收纳在展示盒中，不曾佩戴。",
+		desc = "高価なロイヤルジュエリー。シリアスが身につけたことは一度もなく、ずっと展示ケースに大切に保管している。",
 		model = {
 			"no_bake_prop/pre_db_jewelrybox01"
 		},
@@ -641,13 +641,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_bed",
-		name = "插花练习作品·II",
+		name = "生け花の習作・II",
 		award = 0,
 		time = 0,
 		id = 18,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item26",
-		desc = "简单朴素的黄色玫瑰，作为桌上的点缀而言，这一抹亮色足矣。就是不知道天狼星她自己更喜欢哪种花呢？",
+		desc = "質素な黄色いバラ。テーブルの飾りとして明るい雰囲気を与えてくれている。結局シリアスは、どの花が好きなんだろう。",
 		model = {
 			"fbx/litmap_02/pre_db_ceram10_01"
 		},
@@ -662,13 +662,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_bed",
-		name = "侦探小说",
+		name = "ミステリー小説",
 		award = 0,
 		time = 1,
 		id = 19,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item28",
-		desc = "尚未被拆封的侦探小说。看来天狼星近期的阅读兴趣不是这个题材。",
+		desc = "まだ開封されていないミステリー小説。どうやらシリアスは最近、このジャンルに興味がないようだ。",
 		model = {
 			"fbx/litmap_02/pre_db_book02"
 		},
@@ -683,13 +683,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_bed",
-		name = "柴犬玩偶",
+		name = "柴犬のぬいぐるみ",
 		award = 0,
 		time = 1,
 		id = 20,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item29",
-		desc = "玩偶的肚皮上有着“{namecode:98}出品，匠心制造”的字样。看来天狼星自己平时也会去光顾{namecode:98}的生意。",
+		desc = "ぬいぐるみのお腹の部分に「明石製・匠の技」と書かれている。シリアス自身も普段から明石の店に通っているようだ。",
 		model = {
 			"fbx/litmap_03/pre_db_toy03"
 		},
@@ -704,13 +704,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_bath",
-		name = "盛夏的纪念",
+		name = "夏の思い出",
 		award = 0,
 		time = 0,
 		id = 21,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item30",
-		desc = "之前在海边和天狼星游泳时，她所使用的泳圈。被放在房间十分显眼的位置。或许是碍于女仆的身份而不主动提出想要游泳的请求，下次就主动邀请她去海边吧。",
+		desc = "先日シリアスと一緒に海で行った時、彼女が使っていた浮き輪。部屋のとても目立った場所に置かれている。メイドだから自ら泳ぎに行きたいと申し出ることも憚られるかもしれないが…今度はこちらから誘ってみよう。",
 		model = {
 			"no_bake_prop/pre_db_toy02"
 		},
@@ -725,13 +725,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_bath",
-		name = "日程本收纳箱",
+		name = "予定帳ボックス",
 		award = 0,
 		time = 0,
 		id = 22,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item31",
-		desc = "常见的工作文档收纳箱。据天狼星说其中的记事本上都是女仆工作的日程规划。能看到封面的分类标签上半褪色的字迹。——“想要和主人进行的◼◼◼◼”后半的字迹因彻底褪色而无法辨认。",
+		desc = "よくある仕事用の書類収納ボックス。シリアスによると、中のスケジュール帳にはメイドの仕事の予定がびっしりと書き込まれているそうだ。カバーに付けられているタグには半分消えかかった筆跡が見える。――「ご主人様としたい■■■■」後半の文字はほぼ完全に消えている。",
 		model = {
 			"no_bake_prop/pre_db_paperskin01"
 		},
@@ -746,13 +746,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_bath",
-		name = "浇水壶",
+		name = "水やりポット",
 		award = 0,
 		time = 0,
 		id = 23,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item27",
-		desc = "让室内的绿植和花卉保持生机的浇水壶。但无论怎么看都更像是用来倒茶的热水壶……天狼星是在什么情况下开始用它浇水的呢？",
+		desc = "部屋の観葉植物や花を元気にするじょうろ。…ではなく、どう見えてもティーポットだ。シリアスは一体どのような経緯でこれで水をやり始めたのだろう？",
 		model = {
 			"no_bake_prop/pre_db_smalltool02"
 		},
@@ -767,13 +767,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_bed",
-		name = "小夜灯",
+		name = "ナイトライト",
 		award = 0,
 		time = 2,
 		id = 24,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item32",
-		desc = "造型可爱的温馨小夜灯。是天狼星防止半夜起来时摔倒而特意准备的。温暖的光芒让人联想到她的笑容。",
+		desc = "可愛らしいデザインのナイトライト。夜中に起きた時にうっかり転ばないよう、シリアスが特別に用意したもの。温かい光は彼女の笑顔を思い浮かべさせる。",
 		model = {
 			"no_bake_prop/pre_db_desklamp02"
 		},
@@ -788,13 +788,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_bed",
-		name = "太阳镜",
+		name = "サングラス",
 		award = 0,
 		time = 2,
 		id = 25,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item33",
-		desc = "之前在海边和天狼星游泳时，她所使用的太阳镜。被她放在随手就能拿到的位置。",
+		desc = "シリアスと泳ぎに海辺に行った時、彼女がかけていたサングラス。手の届くところに置かれている。",
 		model = {
 			"no_bake_prop/pre_db_glasses01"
 		},
@@ -809,13 +809,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_bath",
-		name = "身体乳",
+		name = "ボディローション",
 		award = 0,
 		time = 2,
 		id = 26,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item34",
-		desc = "天狼星在沐浴后使用的身体乳。有时能在房间门口闻到这股淡淡的香味。",
+		desc = "シリアスがお風呂上がりに使うボディローション。その淡い香りは時々、部屋の入口にも漂っている。",
 		model = {
 			"no_bake_prop/pre_db_cosmetic15"
 		},
@@ -830,13 +830,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_bed",
-		name = "室内香薰",
+		name = "アロマ",
 		award = 0,
 		time = 2,
 		id = 27,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item35",
-		desc = "天狼星精心挑选的室内香薰，散发着淡雅的花香。据她说这种香气有助于放松精神，缓解压力。",
+		desc = "優しい花の香りを漂わせている、シリアスが丁寧に選んだ室内用アロマディフューザー。精神をリラックスさせ、ストレスを和らげる効果があるそうだ。",
 		model = {
 			"no_bake_prop/pre_db_cosmetic14"
 		},
@@ -851,13 +851,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_chair",
-		name = "使用过的白色毛巾",
+		name = "白いタオル",
 		award = 0,
 		time = 2,
 		id = 28,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item36",
-		desc = "随意披散的白色毛巾，还残留着些许潮湿的气息。或许……是天狼星刚从浴室出来？",
+		desc = "まだ少し湿った感じが残っている、無造作に置かれた白いタオル。もしかして…シリアスはバスルームから出たばかり…？",
 		model = {
 			"no_bake_prop/pre_db_towel10"
 		},
@@ -872,13 +872,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_bed",
-		name = "如何俘获指挥官的心·第二册",
+		name = "指揮官の心を掴む方法・Ⅱ",
 		award = 0,
 		time = 2,
 		id = 29,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item37",
-		desc = "被天狼星放在床头的书籍。……不过，为什么会在这里看到这本书？……甚至还有第二册？",
+		desc = "シリアスがベッドサイドに置いている本。…それにしても、なぜここでこの本を見かけるのだろう。…2作目なんてあったの？",
 		model = {
 			"no_bake_prop/pre_db_book10"
 		},
@@ -893,13 +893,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_sirius_chair",
-		name = "喝了一半的牛奶",
+		name = "飲みかけミルク",
 		award = 0,
 		time = 2,
 		id = 30,
 		room_id = 1,
 		icon = "3Ddrom_tianlangxing_item38",
-		desc = "放在桌面上的玻璃杯，里面还剩下半杯牛奶。杯口边缘有一个淡淡的唇印。",
+		desc = "テーブルの上に置かれた、まだ半分ほどミルクが残っているグラス。グラスの縁には薄い唇の跡が付いている。",
 		model = {
 			"no_bake_prop/pre_db_drink01"
 		},
@@ -914,13 +914,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_collection_beach",
-		name = "华丽沙雕城堡",
+		name = "華麗な砂のお城",
 		award = 0,
 		time = 0,
 		id = 31,
 		room_id = 4,
 		icon = "3Ddrom_beach_item1",
-		desc = "这座沙雕城堡在阳光下闪烁着金色的光芒，每个细节都透露出建造者的努力。可以想象建造者对它投入了多少心血。希望它不会被涨潮毁坏。",
+		desc = "日光の下で金色に輝く砂の城は、その細部に至るまで作り手の頑張りが表れている。どれほどの心血を注いだかが想像できる。潮が満ちて壊されないことを願うばかりだ。",
 		model = {
 			"no_bake_prop/pre_dp_toy05_01"
 		},
@@ -935,13 +935,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_collection_beach",
-		name = "沙雕玩具套组",
+		name = "砂遊びセット",
 		award = 0,
 		time = 0,
 		id = 32,
 		room_id = 4,
 		icon = "3Ddrom_beach_item2",
-		desc = "铲子和桶散落在沙滩上，看来不久前有人在这里制作沙雕。也许下次可以邀请某人一起来进行沙雕制作比赛。",
+		desc = "砂浜に落ちていたシャベルとバケツ。つい先ほどまで誰かがここで砂遊びをしていたようだ。今度誰かを誘って砂の彫刻大会をやってるのも良いかもしれない。",
 		model = {
 			"no_bake_prop/pre_db_smalltool09_01"
 		},
@@ -956,13 +956,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_collection_beach",
-		name = "海风气息的吉他",
+		name = "海風を感じるギター",
 		award = 0,
 		time = 0,
 		id = 33,
 		room_id = 4,
 		icon = "3Ddrom_beach_item3",
-		desc = "一把被主人遗落在沙滩上的木吉他，琴身残留着海风咸咸的气息，拨动琴弦，似乎还能听到海浪的和声。",
+		desc = "持ち主に忘れ去られた木製のギター。ギターの胴体に海風の塩気が残っている。弦を弾くとまるで波の音が和音のように聞こえる。",
 		model = {
 			"no_bake_prop/pre_guitar02"
 		},
@@ -977,13 +977,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_collection_beach",
-		name = "不知何人的饮料",
+		name = "誰かの飲みかけ",
 		award = 0,
 		time = 0,
 		id = 34,
 		room_id = 4,
 		icon = "3Ddrom_beach_item4",
-		desc = "一杯半满的饮料，似乎还残留着冷感，外壁上的水珠正在缓缓滑落，不管它曾经属于谁，现在它属于这篇海滩了。",
+		desc = "半分ほど飲み物が残っているグラス。まだ冷たさが残っているようで、外側の水滴がゆっくりと滴り落ちている。誰のものだったにせよ、今はこの砂浜のものになった。",
 		model = {
 			"no_bake_prop/pre_db_drink06_01"
 		},
@@ -998,13 +998,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_collection_beach",
-		name = "冲浪板",
+		name = "サーフボード",
 		award = 0,
 		time = 0,
 		id = 35,
 		room_id = 4,
 		icon = "3Ddrom_beach_item5",
-		desc = "数只随意放置的冲浪板，板身的划痕诉说着与海浪的激情碰撞，也许下次也可以邀请某人一起试试冲浪。",
+		desc = "無造作に置かれた数枚のサーフボード。ボードの擦り傷は波とのぶつかりあった過去を物語っている。今度は誰かを誘ってサーフィンを一緒にやってみるのもいいかもしれない。",
 		model = {
 			"no_bake_prop/pre_db_sportinggoods04a_01"
 		},
@@ -1019,13 +1019,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_collection_beach",
-		name = "迷你冰箱",
+		name = "クーラーボックス",
 		award = 0,
 		time = 0,
 		id = 36,
 		room_id = 4,
 		icon = "3Ddrom_beach_item6",
-		desc = "一台小巧可爱的便携冰箱，里面塞满了各式饮料和点心，应该是为了某个聚会而准备，但它的主人又去哪了呢？",
+		desc = "小さくて可愛らしいクーラーボックス。中には何かのパーティーのためのものなのか、様々な飲み物やおやつがぎっちりと詰め込まれている。それにしても持ち主はどこに行ったのだろう。",
 		model = {
 			"fbx/litmap06/box/pre_plasticbox01_2"
 		},
@@ -1040,13 +1040,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_collection_beach",
-		name = "救生圈",
+		name = "浮き輪",
 		award = 0,
 		time = 0,
 		id = 37,
 		room_id = 4,
 		icon = "3Ddrom_beach_item7",
-		desc = "明黄色和蓝色的救生圈静静躺在沙滩上，虽然有些旧了，但作为救生圈的功能可是一点都不含糊。",
+		desc = "砂浜に静かに横たわっている明るい黄色と青色の浮き輪。少し古びているが、浮き輪としての機能は全く損なわれていない。",
 		model = {
 			"no_bake_prop/pre_db_sportinggoods02_01"
 		},
@@ -1061,13 +1061,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_collection_beach",
-		name = "垃圾桶",
+		name = "ゴミ箱",
 		award = 0,
 		time = 0,
 		id = 38,
 		room_id = 4,
 		icon = "3Ddrom_beach_item8",
-		desc = "造型朴素的垃圾桶，即使是海滩上也不能乱丢垃圾。为了这片蔚蓝的海洋，也必须好好爱护海滩呢。",
+		desc = "シンプルなデザインのゴミ箱。ビーチでもゴミを適当に捨ててはならない。青い海だけでなく砂浜も大切に守らないと。",
 		model = {
 			"no_bake_prop/pre_db_trashcan02"
 		},
@@ -1082,13 +1082,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	{
 		text = "dorm3d_collection_beach",
-		name = "轻巧提灯",
+		name = "ランタン",
 		award = 0,
 		time = 0,
 		id = 39,
 		room_id = 4,
 		icon = "3Ddrom_beach_item9",
-		desc = "一盏造型简约的提灯，似乎在夜晚就会亮起，为夜晚的海滩增添一抹温馨的光芒，仿佛在邀请人们来一场浪漫的夜游。",
+		desc = "シンプルなデザインのランタン。夜になると灯りがともされ、夜のビーチに温かな光を添えてくれる。まるで人々を幻想的な夜の散歩に誘っているかのようだ。",
 		model = {
 			"fbx/litmap04/pre_desklamp01"
 		},
@@ -1103,13 +1103,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[51] = {
 		text = "dorm3d_noshiro_chair",
-		name = "花见团子",
+		name = "花見団子",
 		award = 0,
 		time = 0,
 		id = 51,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item1",
-		desc = "粉嫩的花见团子静静躺在瓷碟上，和桌布的样式相得益彰。\n等下就坐下来和她一起品尝吧。",
+		desc = "美味しそうなお団子が陶製の小皿に置かれ、\nテーブルクロスの柄と見事に調和している。\n後で彼女と一緒に味わおう。",
 		model = {
 			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware14"
 		},
@@ -1124,13 +1124,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[52] = {
 		text = "dorm3d_noshiro_chair",
-		name = "菱饼",
+		name = "菱餅",
 		award = 0,
 		time = 0,
 		id = 52,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item2",
-		desc = "青草、白雪、桃花，\n健康、纯洁、驱邪，\n软糯的口感中包含着她心中的期待……",
+		desc = "草、雪、桃の花\n 健康、純潔、厄除け\n もっちりとした食感の中に、彼女の想いが込められて……",
 		model = {
 			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware15"
 		},
@@ -1145,13 +1145,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[53] = {
 		text = "dorm3d_noshiro_bed",
-		name = "打开的书",
+		name = "開かれた本",
 		award = 0,
 		time = 1,
 		id = 53,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item3",
-		desc = "一本关于传统茶道礼仪的典籍，书页的边角已经略显陈旧。\n她似乎经常翻阅这些内容，后面几页还留有她工整的笔记。",
+		desc = "重桜伝統の茶道作法について書かれた本。\nページの角は少し古びている。\n能代はよくこの本を読み返しているようで、\n後ろのページには几帳面なメモが残されている。",
 		model = {
 			"fbx/litmap_03/day/pre_db_book01"
 		},
@@ -1166,13 +1166,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[54] = {
 		text = "dorm3d_noshiro_bed",
-		name = "被褥",
+		name = "寝具",
 		award = 0,
 		time = 0,
 		id = 54,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item4",
-		desc = "叠放整齐的被褥,压着角的方式透露出主人极强的规整意识。",
+		desc = "きちんと畳まれた寝具。\n角の揃え方が持ち主の真面目さをよく表している。",
 		model = {
 			"fbx/litmap_04/pre_db_quilt01"
 		},
@@ -1193,7 +1193,7 @@ pg.base.dorm3d_collection_template = {
 		id = 55,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item5",
-		desc = "挂在墙上的制服，与她身上穿的分毫不差。\n看来她还是最喜欢这样的打扮",
+		desc = "壁に飾っている制服。\n普段着ているのと寸分違わず、\n能代にとってお気に入りのようだ。",
 		model = {
 			"fbx/litmap_03/pre_db_cloth02_01"
 		},
@@ -1208,13 +1208,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[56] = {
 		text = "dorm3d_noshiro_chair",
-		name = "和果子",
+		name = "重桜菓子",
 		award = 0,
 		time = 0,
 		id = 56,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item6",
-		desc = "包装精美的和果子礼盒，每一块点心都由她亲手制作。\n为了不辜负这份心意，之后就全吃掉吧！",
+		desc = "美しく盛り付けられた重桜菓子の詰め合わせ。\n一つ一つが能代の手作り。\n彼女の想いに応えるよう、後でしっかり頂こう！",
 		model = {
 			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware13"
 		},
@@ -1229,13 +1229,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[57] = {
 		text = "dorm3d_noshiro_chair",
-		name = "风铃",
+		name = "風鈴",
 		award = 0,
 		time = 0,
 		id = 57,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item7",
-		desc = "挂在窗边的风铃，随着微风发出清脆悦耳的声响。\n她说这是夏日里最好的解暑方式之一。",
+		desc = "窓辺に飾られている風鈴。\nそよ風に揺られて涼やかな音色を奏でている。\n能代曰く、夏の暑さを紛らわす最高の方法の一つだそうだ。",
 		model = {
 			"fbx/litmap_03/pre_db_curtain04"
 		},
@@ -1250,13 +1250,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[58] = {
 		text = "dorm3d_noshiro_table",
-		name = "风铃·II",
+		name = "風鈴・II",
 		award = 0,
 		time = 0,
 		id = 58,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item8",
-		desc = "发出的声音比玻璃风铃更加浑厚。\n她特意将它挂在不同的位置，两种声音交织，别有一番风情。",
+		desc = "ガラスの風鈴より深みのある音色を奏でる。\n能代が意図的に別々の場所に飾ったのは、\n二つの音色それぞれの風情を出すため。",
 		model = {
 			"fbx/litmap_03/pre_db_decoration06"
 		},
@@ -1271,13 +1271,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[59] = {
 		text = "dorm3d_noshiro_table",
-		name = "购物袋",
+		name = "ショッピングバッグ",
 		award = 0,
 		time = 0,
 		id = 59,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item9",
-		desc = "咖啡店纸袋，上面印着标志性的商标。\n虽然只是普通购物袋，但她还是把它好好地收在了一旁。",
+		desc = "コーヒーショップのロゴが印刷された紙袋。\nただの買い物袋に過ぎないにしても、\n能代はそれを大切にしているようだ。",
 		model = {
 			"fbx/litmap_03/pre_db_bag01"
 		},
@@ -1292,13 +1292,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[60] = {
 		text = "dorm3d_noshiro_bed",
-		name = "和服",
+		name = "重桜着物",
 		award = 0,
 		time = 0,
 		id = 60,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item10",
-		desc = "绣着金线的振袖，即便是挂着的时候也能感受到其端庄优雅。\n似乎是她最喜欢的一件和服，毕竟，每次她穿着它外出时都会格外小心。",
+		desc = "金糸の刺繍が施された振袖、\n衣桁に飾っているだけでも上品さが伝わってくる。\n能代のお気に入りの衣装のようで、\n着て外出する時はいつも細心の注意を払っている。",
 		model = {
 			"fbx/litmap_03/pre_db_frame06"
 		},
@@ -1313,13 +1313,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[61] = {
 		text = "dorm3d_noshiro_chair",
-		name = "永生花",
+		name = "プリザーブドフラワー",
 		award = 0,
 		time = 0,
 		id = 61,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item11",
-		desc = "被精心保存在玻璃罩中的玫瑰。\n花瓣的色泽依然鲜艳如初。",
+		desc = "ガラスドームに保管されているバラ。\n花弁は鮮やかな色合いを保っている。",
 		model = {
 			"fbx/litmap_03/day/pre_db_decoration07"
 		},
@@ -1334,13 +1334,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[62] = {
 		text = "dorm3d_noshiro_chair",
-		name = "景观树",
+		name = "盆栽",
 		award = 0,
 		time = 0,
 		id = 62,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item12",
-		desc = "小巧的松树盆景，枝干的走向简约又不失情致。\n她这些天以来每天都会花些时间修剪养护,让这份自然的艺术保持最佳的状态。",
+		desc = "小さな松の盆栽。\nシンプルながら趣がある枝ぶり。\n能代は毎日時間をかけて手入れをし、\nこの自然の芸術を最高の状態に保っている。",
 		model = {
 			"fbx/litmap_03/pre_db_bonsai03_01"
 		},
@@ -1355,13 +1355,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[63] = {
 		text = "dorm3d_noshiro_chair",
-		name = "流水造景",
+		name = "水琴窟",
 		award = 0,
 		time = 0,
 		id = 63,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item13",
-		desc = "精致的竹制添水装置立在房间一角，当水流注满时会发出清脆的碰撞声。",
+		desc = "竹製のししおどしが部屋の隅に佇んでおり、\n竹筒に水が溜まった時、澄んだ音を奏でる。",
 		model = {
 			"fbx/litmap_03/pre_db_noshirohostel01_02"
 		},
@@ -1376,13 +1376,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[64] = {
 		text = "dorm3d_noshiro_table",
-		name = "和伞",
+		name = "重桜傘",
 		award = 0,
 		time = 0,
 		id = 64,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item14",
-		desc = "收起的和伞斜靠在房间的角落，浅色的伞身安静地合拢着。\n是她外出时常用的随身之物。\n当然，前提是下雨天。",
+		desc = "畳まれた重桜傘が壁に立て掛けられている。\n能代が外出時によく持ち歩く。\nもちろん、雨の日に限るが。",
 		model = {
 			"fbx/litmap_03/pre_db_decoration05_01"
 		},
@@ -1397,13 +1397,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[65] = {
 		text = "dorm3d_noshiro_chair",
-		name = "蒲团",
+		name = "座蒲",
 		award = 0,
 		time = 0,
 		id = 65,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item15",
-		desc = "浅色的圆形坐垫。\n看上去很硬，但坐起来意外地很舒适。\n是不是该在指挥室也放一个……？",
+		desc = "薄い色の丸い座蒲。\n見た目は硬そうだが、座ると意外と快適。\n執務室にも一つ置いてみようかな……？",
 		model = {
 			"fbx/no_bake_pay_prop/livingroom/table/pre_db_chair08"
 		},
@@ -1418,13 +1418,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[66] = {
 		text = "dorm3d_noshiro_table",
-		name = "寿司拼盘",
+		name = "寿司盛り合わせ",
 		award = 0,
 		time = 0,
 		id = 66,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item16",
-		desc = "精心摆盘的寿司,每一块都显示出她的细致心思。\n连装饰用的部分也经过精心修剪。\n只是这盘里还有反卷寿司……\n没想到她居然不是寿司原教旨主义者。",
+		desc = "盛り付けられた寿司…とその他色々。\nバランも繊細に仕上げられており、\n能代の細やかな心遣いが感じ取れる。\nしかしまさか裏巻きまで……\nそこまで伝統に拘っていないのはちょっと意外だ。",
 		model = {
 			"fbx/no_bake_pay_prop/diningroom/pre_db_tableware12_01"
 		},
@@ -1439,13 +1439,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[67] = {
 		text = "dorm3d_noshiro_chair",
-		name = "樱花",
+		name = "桜の小枝",
 		award = 0,
 		time = 0,
 		id = 67,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item17",
-		desc = "摆在桌上的一支樱花，粉色的花朵衬着枝条，为桌面增添了一丝淡雅的春意。",
+		desc = "テーブルに置かれている桜の小枝。\nピンクの花が枝に寄り添い、\n春の趣を出してくれる。",
 		model = {
 			"fbx/no_bake_pay_prop/livingroom/table/pre_db_flowers04"
 		},
@@ -1460,13 +1460,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[68] = {
 		text = "dorm3d_noshiro_bed",
-		name = "书堆",
+		name = "本の山",
 		award = 0,
 		time = 0,
 		id = 68,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item18",
-		desc = "整齐摞放的书籍,除了茶道典籍外，还有不少花道与传统礼仪的书籍。\n从夹着的书签来看,她似乎正在研习新的插花技法。",
+		desc = "積み上げられている本。\n茶道以外にも、華道や礼儀作法の本がある。\n挟まれた栞から判断するに、\n能代は新しい生け花の技法を学んでいるようだ。",
 		model = {
 			"fbx/litmap_03/pre_db_book04_01"
 		},
@@ -1481,13 +1481,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[70] = {
 		text = "dorm3d_noshiro_bed",
-		name = "水壶",
+		name = "やかん",
 		award = 0,
 		time = 0,
 		id = 70,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item19",
-		desc = "普通的金属水壶。\n经常看到她用它来烧水泡茶，器具本身似乎已经用了很长时间，但一直保养得很好。",
+		desc = "普通のやかん。\n能代がよくお茶を淹れる時に使っているもの。\n長く使われているようだが、いい感じに手入れされている。",
 		model = {
 			"fbx/litmap_02/pre_db_tableware09"
 		},
@@ -1502,13 +1502,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[72] = {
 		text = "dorm3d_noshiro_bed",
-		name = "卷轴",
+		name = "掛け軸",
 		award = 0,
 		time = 0,
 		id = 72,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item20",
-		desc = "捆扎整齐的卷轴静静地放在书房的一角，绳结一丝不苟地系着。\n虽然没有展开，但从收纳它的方式也能看出她的细心之处。",
+		desc = "巻物が書斎の隅に置かれ、\n紐は几帳面に結ばれている。\n広げられてはいないが、\n能代の細やかさが伝わってくる。\n",
 		model = {
 			"fbx/litmap_03/pre_db_cupboard08_01"
 		},
@@ -1523,13 +1523,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[71] = {
 		text = "dorm3d_sirius_chair",
-		name = "石灯",
+		name = "石灯籠",
 		award = 0,
 		time = 1,
 		id = 71,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item21",
-		desc = "摆在角落的仿石材地灯，造型源自重樱传统庭院石灯。\n让房间里多了一份惬意悠闲的氛围。",
+		desc = "重桜の伝統的な庭園灯籠をモチーフとした石材調のフロアライト。\n落ち着いた雰囲気を醸し出してくれる。",
 		model = {
 			"fbx/litmap_03/day/pre_db_noshirohostel01_lamp02"
 		},
@@ -1544,13 +1544,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[76] = {
 		text = "dorm3d_noshiro_bed",
-		name = "空气加湿器",
+		name = "加湿器",
 		award = 0,
 		time = 2,
 		id = 76,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item24",
-		desc = "白色的空气净化器安静地运转着，偶尔会发出轻微的嗡鸣声。\n她把它放在房间的一角，让湿润的水汽慢慢弥散。\n她说，这样对皮肤更好。",
+		desc = "白い加湿器が静かに動いており、\n時折かすかな振動音を立てている。\n能代が部屋の隅に置いたおかげで、湿った空気をゆっくりと広げている。\n彼女曰く、肌にいいのだそうだ。",
 		model = {
 			"fbx/litmap_03/night/pre_db_electrical08"
 		},
@@ -1565,13 +1565,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[77] = {
 		text = "dorm3d_noshiro_bed",
-		name = "护肤精油",
+		name = "スキンケアオイル",
 		award = 0,
 		time = 2,
 		id = 77,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item25",
-		desc = "玻璃瓶中的精油散发着淡淡的香气，她说这是由山茶花提炼而成。\n也是她护理肌肤时喜欢使用的单品之一。",
+		desc = "ガラス瓶の中のオイルが淡い香りを漂わせている。\n能代によると、椿から抽出されたものだという。\n彼女のお気に入りの一品でもある。",
 		model = {
 			"fbx/litmap_03/night/pre_db_cosmetic10"
 		},
@@ -1592,7 +1592,7 @@ pg.base.dorm3d_collection_template = {
 		id = 78,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item26",
-		desc = "造型简约的香水瓶，玻璃瓶身反射着柔和的光泽。\n仔细一看，正是之前送给她的那一瓶。",
+		desc = "シンプルなデザインの香水瓶。\nガラスから柔らかな光を反射している。\nよく見ると、以前能代にプレゼントしたものだ。",
 		model = {
 			"fbx/litmap_03/night/pre_db_cosmetic01_01/pre_db_cosmetic01c"
 		},
@@ -1607,13 +1607,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[79] = {
 		text = "dorm3d_noshiro_bed",
-		name = "香薰",
+		name = "アロマディフューザー",
 		award = 0,
 		time = 2,
 		id = 79,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item27",
-		desc = "玻璃瓶中的香薰缓缓散发，清淡的香气弥漫在房间。\n是和她身上的气息接近的味道。",
+		desc = "ふんわりと香りが広がり、\n繊細な芳香が部屋に満ちている。\n能代からいつも感じる香りだ。",
 		model = {
 			"fbx/litmap_04/night/pre_db_cosmetic02a_01"
 		},
@@ -1628,13 +1628,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[74] = {
 		text = "dorm3d_noshiro_bed",
-		name = "夜灯",
+		name = "行灯",
 		award = 0,
 		time = 2,
 		id = 74,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item23",
-		desc = "方形的木制灯立在角落，灯芯散发的光透过纸罩映出柔和的光晕。\n是她精心挑选的房间装饰。",
+		desc = "角に置かれている四角い木製の行灯。\n灯心からの光が障子紙を通して柔らかさを演出する。\n能代が心を込めて選んだ部屋のインテリアの一つ。",
 		model = {
 			"fbx/litmap_03/night/pre_db_chandelier11_on"
 		},
@@ -1649,13 +1649,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[75] = {
 		text = "dorm3d_noshiro_chair",
-		name = "台灯",
+		name = "フロアスタンド",
 		award = 0,
 		time = 2,
 		id = 75,
 		room_id = 2,
 		icon = "3Ddrom_nengdai_item22",
-		desc = "简约的和式落地灯散发着柔和的光芒，灯罩下悬挂着一个小巧的风铃样装饰。\n陪伴着和她在这里度过的每段平静时光。",
+		desc = "柔らかな光を放つシンプルな重桜風フロアスタンド。\nカバーの下には小さな風鈴の飾りが吊り下げられており、\n能代と一緒にここで静かな時間を過ごしている。",
 		model = {
 			"fbx/no_bake_pay_prop/livingroom/pre_db_chandelier08_on"
 		},
@@ -1670,13 +1670,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[101] = {
 		text = "dorm3d_Ankeleiqi_chair",
-		name = "温馨映像",
+		name = "風船と額縁",
 		award = 0,
 		time = 0,
 		id = 101,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item1",
-		desc = "精心挑选的气球装饰着银色相框，安克雷奇似乎很喜欢这种搭配。\n相框上小兔子的蝴蝶结还带着她整理时留下的褶皱。",
+		desc = "選ばれた風船に飾られた銀色の額縁。\nアンカレッジはこの組み合わせをとても気に入っているようだ。\nウサギのリボンには、彼女が整理した時についたシワが残っている。",
 		model = {
 			"fbx/litmap_02/pre_db_billboard14"
 		},
@@ -1691,13 +1691,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[102] = {
 		text = "dorm3d_Ankeleiqi_chair",
-		name = "童话茶时",
+		name = "御伽ティーセット",
 		award = 0,
 		time = 0,
 		id = 102,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item2",
-		desc = "兔子造型的茶壶配着小巧的茶杯，安克雷奇总是小心翼翼地摆弄着它们。",
+		desc = "ウサギの形のティーポットと小さなティーカップ。\nアンカレッジはいつも大事に使っている。",
 		model = {
 			"fbx/litmap_02/pre_db_ceram11_group01"
 		},
@@ -1712,13 +1712,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[103] = {
 		text = "dorm3d_Ankeleiqi_chair",
-		name = "心愿菜单",
+		name = "願いのボード",
 		award = 0,
 		time = 0,
 		id = 103,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item3",
-		desc = "挂在墙上的粉笔小黑板，安克雷奇时常会在上面写下新的小目标。\n偶尔还能看到她画下的可爱涂鸦。",
+		desc = "壁に掛けられたチョークボード。\nアンカレッジはよくそこに小さな目標を書き込んでいる。\n時々、可愛らしい落書きの跡も見かける。",
 		model = {
 			"fbx/litmap_02/pre_db_blackboard01"
 		},
@@ -1733,13 +1733,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[104] = {
 		text = "dorm3d_Ankeleiqi_chair",
-		name = "知识宝库",
+		name = "知識の宝庫",
 		award = 0,
 		time = 0,
 		id = 104,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item4",
-		desc = "整齐摆放在书柜中的童话故事书，每本书的书角都被安克雷奇贴心地包好，还标注着她独创的分类标签。",
+		desc = "本棚にきちんと並べられたおとぎ話の本。\nすべての本はカバーで丁寧に覆われ、\nアンカレッジ独自に分類したラベルも付けられている。",
 		model = {
 			"fbx/litmap_02/pre_db_book15_group01"
 		},
@@ -1754,13 +1754,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[105] = {
 		text = "dorm3d_Ankeleiqi_chair",
-		name = "文件收纳架",
+		name = "お城の収納",
 		award = 0,
 		time = 0,
 		id = 105,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item5",
-		desc = "童话城堡造型的文件收纳架，安克雷奇会将各式各样的记事本和重要文件放在其中。",
+		desc = "おとぎ話の城をモチーフとした書類用収納。\nアンカレッジはさまざまなノートや大事な書類をそこに保管している。",
 		model = {
 			"fbx/litmap_02/pre_db_cupboard18"
 		},
@@ -1775,13 +1775,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[106] = {
 		text = "dorm3d_Ankeleiqi_chair",
-		name = "古典钢琴",
+		name = "古いピアノ",
 		award = 0,
 		time = 0,
 		id = 106,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item6",
-		desc = "房间一角的古典钢琴，琴盖上摆着安克雷奇正在练习的乐谱，谱面上还留有她认真做的标记。",
+		desc = "部屋の片隅にあるクラシックピアノ。\nアンカレッジが練習中の楽譜が置かれており、\n譜面には彼女がまじめに付けたメモが残っている。",
 		model = {
 			"fbx/litmap_02/pre_db_musicalInstrument02"
 		},
@@ -1796,13 +1796,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[107] = {
 		text = "dorm3d_Ankeleiqi_entertainmentarea",
-		name = "蜡笔画作",
+		name = "クレヨン絵",
 		award = 0,
 		time = 0,
 		id = 107,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item7",
-		desc = "放在桌上的蜡笔画作，画的是安克雷奇眼中的最美好的场景，这图中的人看起来……是我……？",
+		desc = "机の上に置かれたクレヨン絵。\nアンカレッジの目に映った最も美しい景色が描かれ、\nこの絵の中の人物は⋯指揮官⋯？",
 		model = {
 			"fbx/litmap_02/pre_db_paper02_group01"
 		},
@@ -1817,13 +1817,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[108] = {
 		text = "dorm3d_Ankeleiqi_bed",
-		name = "闹钟",
+		name = "目覚まし時計",
 		award = 0,
 		time = 0,
 		id = 108,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item8",
-		desc = "造型简约的闹钟，被安克雷奇摆在床头的位置，似乎在提醒她不要错过每天的重要时刻。",
+		desc = "シンプルなデザインの目覚まし時計。\nアンカレッジはそれをベッドサイドに置き、\n毎日の大切な時間を逃さないよう気をつけている。",
 		model = {
 			"fbx/no_bake_pay_prop/bedroom/pre_db_clock02"
 		},
@@ -1838,13 +1838,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[109] = {
 		text = "dorm3d_Ankeleiqi_bed",
-		name = "收纳箱",
+		name = "おもちゃ箱",
 		award = 0,
 		time = 0,
 		id = 109,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item9",
-		desc = "造型可爱的收纳箱，安克雷奇会把各种零碎的东西放在其中。",
+		desc = "可愛らしいデザインの収納ボックス。\nアンカレッジは様々な小物をその中に収めている。",
 		model = {
 			"fbx/litmap_02/pre_db_basket04_group01"
 		},
@@ -1859,13 +1859,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[110] = {
 		text = "dorm3d_Ankeleiqi_chair",
-		name = "夏日浮圈",
+		name = "夏の浮き輪",
 		award = 0,
 		time = 0,
 		id = 110,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item10",
-		desc = "装饰着星星图案的游泳圈，是安克雷奇挑选的夏日必需品。",
+		desc = "星のシンボルが飾られている浮き輪。\nアンカレッジが選んだ夏の必需品。",
 		model = {
 			"fbx/litmap_02/pre_db_toy07"
 		},
@@ -1880,13 +1880,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[111] = {
 		text = "dorm3d_Ankeleiqi_chair",
-		name = "启蒙厨刀",
+		name = "初心者の包丁",
 		award = 0,
 		time = 0,
 		id = 111,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item11",
-		desc = "不会割伤手的特殊启蒙厨刀，安克雷奇最近总是认真地演练着切菜的动作，在憧憬着未来能做出美味料理。",
+		desc = "手を切らない特殊な初心者向け包丁。\n最近アンカレッジは野菜を切る動作を真剣に練習していて、\n将来美味しい料理が作れるようになることを夢見ているようだ。",
 		model = {
 			"fbx/litmap_02/pre_db_kitchenware08_group01"
 		},
@@ -1901,13 +1901,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[112] = {
 		text = "dorm3d_Ankeleiqi_chair",
-		name = "童话绘本",
+		name = "御伽の絵本",
 		award = 0,
 		time = 0,
 		id = 112,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item12",
-		desc = "精装的童话绘本，被安克雷奇小心翼翼地保管着，尽管如此，依然能看出她留在书页间的爱不释手的痕迹。",
+		desc = "ハードカバーのおとぎ話の絵本。\nアンカレッジが大切に保管している。\nページに彼女が愛読した形跡が見られる。",
 		model = {
 			"fbx/no_bake_pay_prop/livingroom/pre_db_book11a"
 		},
@@ -1922,13 +1922,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[113] = {
 		text = "dorm3d_Ankeleiqi_chair",
-		name = "毛绒玩具",
+		name = "モフモフぬい",
 		award = 0,
 		time = 0,
 		id = 113,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item13",
-		desc = "戴着睡帽的企鹅玩偶，被安克雷奇放在沙发上最为显眼的位置，希望在小企鹅的守护下，她能做一个美梦。",
+		desc = "ナイトキャップをかぶっているペンギンのぬいぐるみ。\nアンカレッジはソファの最も目立つ場所に置き、\n小さなペンギンが見守ってくれる中で、良い夢を見られるように願っているようだ。",
 		model = {
 			"fbx/no_bake_pay_prop/livingroom/pre_db_toy06"
 		},
@@ -1943,13 +1943,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[114] = {
 		text = "dorm3d_Ankeleiqi_chair",
-		name = "绿意相伴",
+		name = "サボテン",
 		award = 0,
 		time = 0,
 		id = 114,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item14",
-		desc = "小巧可爱的仙人掌，安克雷奇给它换上了色彩明亮的底座，为这个倔强的小生命增添了几分温馨。",
+		desc = "可愛らしいサボテン。\n植木鉢には鮮やかな色のものが選ばれ、\n小さくも元気な命に温もりを添えている。",
 		model = {
 			"fbx/litmap_02/pre_db_flowerpot10"
 		},
@@ -1964,13 +1964,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[115] = {
 		text = "dorm3d_Ankeleiqi_chair",
-		name = "厨具套组",
+		name = "キッチンセット",
 		award = 0,
 		time = 0,
 		id = 115,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item15",
-		desc = "一套不具备实际使用功能的厨具玩具，被安克雷奇整齐地排列在专属的架子上。\n嗯……下厨对她现在来说还是有些太早了……",
+		desc = "おままごと用の調理器具セット。\nアンカレッジはそれを専用の棚に整然と並べている。\nうーん⋯料理は彼女にはまだ少し早いようだ⋯",
 		model = {
 			"fbx/litmap_02/pre_db_kitchenware01"
 		},
@@ -1985,13 +1985,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[116] = {
 		text = "dorm3d_Ankeleiqi_chair",
-		name = "海洋摇篮",
+		name = "シャチチェア",
 		award = 0,
 		time = 0,
 		id = 116,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item16",
-		desc = "虎鲸造型的摇摇椅，是安克雷奇最喜欢的休息场所之一。",
+		desc = "シャチをモチーフとしたロッキングチェア。\nアンカレッジのお気に入りの場所の一つ。",
 		model = {
 			"fbx/no_bake_pay_prop/livingroom/pre_db_chair16"
 		},
@@ -2006,13 +2006,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[117] = {
 		text = "dorm3d_Ankeleiqi_bed",
-		name = "储物篮",
+		name = "物入れ",
 		award = 0,
 		time = 0,
 		id = 117,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item17",
-		desc = "编织精美的藤制储物篮，安克雷奇用它收纳着日常用品。",
+		desc = "籐で編まれた収納かご。\nアンカレッジは日用品をそこに収納している。",
 		model = {
 			"fbx/litmap_02/pre_db_basket05"
 		},
@@ -2027,13 +2027,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[118] = {
 		text = "dorm3d_Ankeleiqi_bed",
-		name = "海洋伙伴",
+		name = "クジラぬいぐるみ",
 		award = 0,
 		time = 0,
 		id = 118,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item18",
-		desc = "蓝白相间的鱼鱼玩偶，有着圆圆的眼睛和友善的微笑，嗯……安克雷奇似乎很喜欢收集这类玩偶，下次再送她几个吧！",
+		desc = "青いクジラのぬいぐるみ。まんまるな目とフレンドリーな笑顔がチャームポイント。\nこういうぬいぐるみを集めるのが好きなようだ。今度また何個か贈ってあげよう！",
 		model = {
 			"fbx/no_bake_pay_prop/bedroom/pre_db_toy10"
 		},
@@ -2048,13 +2048,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[119] = {
 		text = "dorm3d_Ankeleiqi_entertainmentarea",
-		name = "小黑板",
+		name = "小さな黒板",
 		award = 0,
 		time = 0,
 		id = 119,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item19",
-		desc = "粉笔小黑板上画着相当童趣的内容，1+1=♡\n这是什么意思呢？",
+		desc = "黒板に子供らしい文字が書かれている。\n1+1=♡\nこれはどういう意味なんだろう⋯？",
 		model = {
 			"fbx/no_bake_pay_prop/entertainmentarea/pre_db_blackboard02"
 		},
@@ -2069,13 +2069,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[120] = {
 		text = "dorm3d_Ankeleiqi_entertainmentarea",
-		name = "方块抱枕",
+		name = "サイコロクッション",
 		award = 0,
 		time = 0,
 		id = 120,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item20",
-		desc = "浅色的方块抱枕，其中一面印着温和可爱的鳐鱼图案，轻柔的色调带来了不一样的安宁感。",
+		desc = "サイコロの形をした淡い色のクッション。\nかわいいエイのシンボルがあり、\n柔らかなカラーリングとも違った安らぎをもたらしている。",
 		model = {
 			"fbx/no_bake_pay_prop/entertainmentarea/pre_db_toy12"
 		},
@@ -2090,13 +2090,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[121] = {
 		text = "dorm3d_Ankeleiqi_entertainmentarea",
-		name = "回忆相册",
+		name = "思い出の写真",
 		award = 0,
 		time = 0,
 		id = 121,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item21",
-		desc = "悬挂的绳网编织成格，木质夹子固定着珍贵的照片，每一格都是和安克雷奇的温暖回忆。",
+		desc = "ロープネットと木製のクリップで、大切な写真が飾られている。\nそれぞれの格子にはアンカレッジとの愛おしい思い出が詰まっている。",
 		model = {
 			"fbx/litmap_02/pre_db_decoration12"
 		},
@@ -2111,13 +2111,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[122] = {
 		text = "dorm3d_Ankeleiqi_chair",
-		name = "雨伞收纳",
+		name = "傘入れ",
 		award = 0,
 		time = 1,
 		id = 122,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item22",
-		desc = "造型简约的雨伞收纳桶，安克雷奇总会把伞整齐地放置其中，为了随时应对突如其来的雨天。",
+		desc = "簡素な造形の傘入れ。\nアンカレッジはきっちりと傘を中に入れ、\n雨に備えている。",
 		model = {
 			"fbx/litmap_02/day/pre_db_decoration11"
 		},
@@ -2132,13 +2132,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[123] = {
 		text = "dorm3d_Ankeleiqi_chair",
-		name = "暖心相随",
+		name = "魔法瓶",
 		award = 0,
 		time = 1,
 		id = 123,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item23",
-		desc = "浅色调的保温杯，天气冷的时候，安克雷奇会用它装些温热的饮品。",
+		desc = "明るい色の魔法瓶。\nアンカレッジは、寒い日に温かい飲み物を入れて使っている。",
 		model = {
 			"fbx/litmap_02/day/pre_db_tableware26"
 		},
@@ -2153,13 +2153,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[124] = {
 		text = "dorm3d_Ankeleiqi_chair",
-		name = "欢乐印记",
+		name = "ステッカー",
 		award = 0,
 		time = 1,
 		id = 124,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item24",
-		desc = "可爱的啾啾造型贴纸和星星造型贴纸，被安克雷奇贴在不起眼的角落，为房间增添了几分活泼的气息。",
+		desc = "可愛い饅頭と星のステッカー。\nあまり目立たない場所に貼られていて、\n部屋にちょっとした活気を添えている。",
 		model = {
 			"fbx/litmap_02/day/pre_db_cupboard19_01"
 		},
@@ -2174,13 +2174,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[125] = {
 		text = "dorm3d_Ankeleiqi_bed",
-		name = "温柔光影",
+		name = "ベッドライト",
 		award = 0,
 		time = 2,
 		id = 125,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item25",
-		desc = "精致小巧的床头台灯，安克雷奇会在入睡前调至最柔和的亮度，让温暖的光芒守护她的梦。",
+		desc = "精緻な作りのベッドライト。\nアンカレッジは寝る前にいつも柔らかい明るさに調節し、\nその温かな光が心地よい夢を届けてくれる。",
 		model = {
 			"fbx/no_bake_pay_prop/bedroom/pre_db_desklamp03"
 		},
@@ -2195,13 +2195,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[126] = {
 		text = "dorm3d_Ankeleiqi_bed",
-		name = "深海幻境",
+		name = "クジラライト",
 		award = 0,
 		time = 2,
 		id = 126,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item26",
-		desc = "座头鲸造型的天花板吊灯，安克雷奇躺在床上时总会凝视着它，仿佛置身于梦幻的海底世界。",
+		desc = "ザトウクジラの形をした天井照明。\nアンカレッジはベッドに横たわる時によくそれを見つめ、\n夢の海底世界にいるかのような雰囲気がある。",
 		model = {
 			"fbx/no_bake/pre_db_anchoragehostel01_lamp01_night"
 		},
@@ -2216,13 +2216,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[127] = {
 		text = "dorm3d_Ankeleiqi_chair",
-		name = "啾啾马克杯",
+		name = "饅頭マグカップ",
 		award = 0,
 		time = 2,
 		id = 127,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item27",
-		desc = "啾啾造型的马克杯，被安克雷奇放在最显眼的地方，显然能看出她喜爱的程度。",
+		desc = "饅頭をモチーフとしたマグカップ。\nアンカレッジにとって最も目立つ場所に置かれており、\n彼女の愛着をはっきりと感じられる。",
 		model = {
 			"fbx/no_bake_pay_prop/livingroom/pre_db_tableware24"
 		},
@@ -2237,13 +2237,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[128] = {
 		text = "dorm3d_Ankeleiqi_chair",
-		name = "浴巾",
+		name = "バスタオル",
 		award = 0,
 		time = 2,
 		id = 128,
 		room_id = 3,
 		icon = "3Ddrom_ankeleiqi_item28",
-		desc = "整齐叠放的浴巾卷，安克雷奇将它们卷成圆润的造型，像是两朵蓬松的云彩静静相依。",
+		desc = "きれいに畳まれたバスタオル。\nタオルをぐるぐると巻きつけたアンカレッジの姿は、\nふわふわとした雲を思わせる。",
 		model = {
 			"fbx/litmap_02/night/pre_db_towel01_group01"
 		},
@@ -2258,13 +2258,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1101] = {
 		text = "dorm3d_xinzexi_table",
-		name = "焦糖爆米花",
+		name = "キャラメルポップコーン",
 		award = 0,
 		time = 0,
 		id = 1101,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item1",
-		desc = "刚从微波炉中取出的焦糖爆米花，裹着琥珀色的甜蜜糖衣，是她看电影时必备的零食。",
+		desc = "電子レンジから取り出したばかりのキャラメルポップコーン。\n琥珀色の甘いキャラメルがたっぷりかかっていて、\n彼女が映画を見るときに必携するおやつ。",
 		model = {
 			"fbx/litmap_01/pre_db_electrical18"
 		},
@@ -2279,13 +2279,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1102] = {
 		text = "dorm3d_xinzexi_table",
-		name = "爱心围裙",
+		name = "ハートエプロン",
 		award = 0,
 		time = 0,
 		id = 1102,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item2",
-		desc = "挂在厨房角落的围裙，正面点缀着可爱的兔头图案，款式简约休闲。\n无论是做饭还是打扫，她总是一副元气满满的样子。",
+		desc = "キッチンの隅に掛けられたエプロン。\n正面にはシンプルながらもポップで可愛いウサギが飾られている。\n料理も掃除も、彼女はいつも元気いっぱいの姿でこなしている。",
 		model = {
 			"fbx/litmap_01/pre_db_cloth05"
 		},
@@ -2300,13 +2300,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1103] = {
 		text = "dorm3d_xinzexi_table",
-		name = "榨汁机",
+		name = "ジューサー",
 		award = 0,
 		time = 0,
 		id = 1103,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item3",
-		desc = "一台动力十足的榨汁机，每天清晨，她都会把各色水果投进去，转眼就变出色彩缤纷的新鲜果汁。",
+		desc = "パワフルなジューサー。\n毎朝、彼女は色とりどりのフルーツを放り込み、\nあっという間にカラフルでフレッシュなジュースを作り出す。",
 		model = {
 			"fbx/litmap_01/pre_db_electrical13"
 		},
@@ -2321,13 +2321,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1104] = {
 		text = "dorm3d_xinzexi_table",
-		name = "一碗草莓",
+		name = "いちごのボウル",
 		award = 0,
 		time = 0,
 		id = 1104,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item4",
-		desc = "水果碗里盛满了个头饱满的新鲜草莓，每一颗都挂满了晶莹的水珠，她的指尖悬在半空，在品尝前，先收藏这一刻的心动吧~",
+		desc = "ボウルの中には、大粒で瑞々しいいちごがたっぷり。\n一粒一粒がキラキラとした雫をまとっている。\n彼女の指先がいちごへと伸び——\nひと口食べるその前に、ときめきをそっと収めておこう。",
 		model = {
 			"fbx/litmap_01/pre_db_fruit01"
 		},
@@ -2342,13 +2342,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1105] = {
 		text = "dorm3d_xinzexi_table",
-		name = "油烟机",
+		name = "レンジフード",
 		award = 0,
 		time = 0,
 		id = 1105,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item5",
-		desc = "厨房里最不可或缺的油烟机，每当那熟悉的轰鸣声响起，就说明{namecode:199}正在大展厨艺。",
+		desc = "キッチンに欠かせないレンジフード。\nあのおなじみのゴォーっという音は、\nニュージャージーが腕をふるっている証拠なのだ！",
 		model = {
 			"fbx/litmap_01/pre_db_newjerseyhostel01_cupboard01"
 		},
@@ -2363,13 +2363,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1106] = {
 		text = "dorm3d_xinzexi_table",
-		name = "清新柠檬水",
+		name = "レモンウォーター",
 		award = 0,
 		time = 0,
 		id = 1106,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item6",
-		desc = "一瓶清凉解暑的柠檬水，酸甜恰好的滋味里，藏着几颗方糖的温柔。",
+		desc = "ひんやり爽やかなレモンウォーター入りのピッチャー。\n甘さと酸っぱさがちょうどいいバランスで、\n角砂糖のような優しさがそっと溶け込んでいる。",
 		model = {
 			"no_bake_pay_prop/kitchen/pre_db_tableware28_group"
 		},
@@ -2384,13 +2384,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1107] = {
 		text = "dorm3d_xinzexi_table",
-		name = "日常外衣",
+		name = "デイリージャケット",
 		award = 0,
 		time = 0,
 		id = 1107,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item7",
-		desc = "一件轻薄优雅的外套，{namecode:199}的日常着装。\n脱下外套丢在椅背上，永远是{namecode:199}回家后做的第一件事。",
+		desc = "ニュージャージーの普段着。軽くて上品なジャケット。\nジャケットを脱いで、椅子の背にさっとかける——\nそれこそ彼女のただいまの合図なのだ。",
 		model = {
 			"fbx/litmap_01/pre_db_cloth06"
 		},
@@ -2405,13 +2405,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1108] = {
 		text = "dorm3d_xinzexi_table",
-		name = "烤面包机",
+		name = "トースター",
 		award = 0,
 		time = 0,
 		id = 1108,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item8",
-		desc = "印有可爱图案的烤面包机，轻轻拨动按钮，就会跳出一片金黄的脆吐司。\n再涂上果酱、蜂蜜或者黄油……\n最完美的早餐就完成了~！",
+		desc = "キュートな柄が入ったトースター。\nスイッチをポンと押せば、きつね色のサクサクトーストがポンと飛び出す。\nジャム、はちみつ、バターをのせれば……\nパーフェクトな朝ごはんのできあがり！",
 		model = {
 			"fbx/litmap_01/pre_db_electrical10_01"
 		},
@@ -2426,13 +2426,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1109] = {
 		text = "dorm3d_xinzexi_table",
-		name = "丛林风潮",
+		name = "ジャングルブリーズ",
 		award = 0,
 		time = 0,
 		id = 1109,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item9",
-		desc = "一株挺拔的虎尾兰，在角落里静静舒展叶片。\n每一次呼吸间，都能感受到它带来的清新生机。",
+		desc = "すっと背を伸ばすサンスベリアの鉢植え。\n部屋の隅で静かに葉を広げ、\n深呼吸するたびに、みずみずしい生命の気配が感じられる。",
 		model = {
 			"fbx/litmap_01/pre_db_bonsai13"
 		},
@@ -2447,13 +2447,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1110] = {
 		text = "dorm3d_xinzexi_table",
-		name = "甜甜圈",
+		name = "りんごタルト",
 		award = 0,
 		time = 0,
 		id = 1110,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item10",
-		desc = "{namecode:199}为下午茶准备的甜甜圈。\n“在和Honey分享前，当然要尝尝味道怎么样嘛~”\n她这么说着，舔了舔嘴角的糖霜。",
+		desc = "ニュージャージーがティータイム用に用意したりんごタルト。\n「ハニーと一緒に食べる前に、まずは味見しないとね〜」\nそう言いながら、彼女は口元についたアイシングをペロッと舐めた。",
 		model = {
 			"fbx/litmap_01/pre_db_food16_group"
 		},
@@ -2468,13 +2468,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1111] = {
 		text = "dorm3d_xinzexi_chair",
-		name = "扫地机器人",
+		name = "掃除ロボット",
 		award = 0,
 		time = 0,
 		id = 1111,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item11",
-		desc = "一台可爱的扫地机器人，是她打扫房间的好帮手，除了灰尘，还收集着整个家的生活痕迹。",
+		desc = "部屋をきれいにしてくれる、かわいい掃除ロボット。\nホコリだけじゃなく、日々の暮らしの痕跡もまでもコツコツ集めてくれる。",
 		model = {
 			"fbx/litmap_01/pre_db_electrical17"
 		},
@@ -2489,13 +2489,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1112] = {
 		text = "dorm3d_xinzexi_chair",
-		name = "超清大电视",
+		name = "ウルトラHDテレビ",
 		award = 0,
 		time = 0,
 		id = 1112,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item12",
-		desc = "当55英寸屏幕亮起，她就拥有了穿越到任何世界的任意门——\n今天是要去观赏爆炸的艺术，还是看白鹰街头的雨中拥吻？",
+		desc = "55インチのスクリーンが光れば、\nそれは彼女にとって、どこへでも行けるドア。\n今日はド派手な爆発アクション？\nそれともユニオンの街角での、雨の中のキスシーン？",
 		model = {
 			"fbx/litmap_01/pre_db_appliances06"
 		},
@@ -2510,13 +2510,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1113] = {
 		text = "dorm3d_xinzexi_chair",
-		name = "时尚杂志",
+		name = "ファッション雑誌",
 		award = 0,
 		time = 0,
 		id = 1113,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item13",
-		desc = "几本似乎翻阅过许多次的时尚杂志，正懒懒地躺在茶几上。\n这就是她的时尚补给站，灵感总是不期而遇。",
+		desc = "何度も読み返されたような数冊のファッション雑誌が、\nリビングのテーブルの上で重なっている。\nここは彼女の「おしゃれ補給所」。\nインスピレーションはいつだって突然に。",
 		model = {
 			"no_bake_pay_prop/livingroom/pre_db_book05_group"
 		},
@@ -2531,13 +2531,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1114] = {
 		text = "dorm3d_xinzexi_chair",
-		name = "手包",
+		name = "ハンドバッグ",
 		award = 0,
 		time = 0,
 		id = 1114,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item14",
-		desc = "被随手丢在一边的精致手包，装满了各种有用的小物件。\n今天也带它闯荡了不少地方呢……",
+		desc = "無造作に置かれた上品なハンドバッグ。\n中には小物がぎっしり。\n今日もこの子と一緒に、たくさんの場所へ冒険に出かけたみたい。",
 		model = {
 			"no_bake_pay_prop/livingroom/pre_db_bag05"
 		},
@@ -2552,13 +2552,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1115] = {
 		text = "dorm3d_xinzexi_bed",
-		name = "室外运动套装",
+		name = "アウトドアウェア",
 		award = 0,
 		time = 0,
 		id = 1115,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item15",
-		desc = "配置齐全的室外运动套装，活力四射的{namecode:199}已经准备好要来一场激烈的有氧运动了。",
+		desc = "屋外スポーツウェア一式。\n元気いっぱいのニュージャージーは、\nすぐにでもハードな有酸素運動に挑む勢いだ！",
 		model = {
 			"fbx/litmap_01/pre_db_bag03_group"
 		},
@@ -2573,13 +2573,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1116] = {
 		text = "dorm3d_xinzexi_bed",
-		name = "Big J门牌",
+		name = "Big Jプレート",
 		award = 0,
 		time = 0,
 		id = 1116,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item16",
-		desc = "内有恶龙！\n未经允许，请勿擅闯哦！\n“……欸？是Honey来了吗？！快进来吧——”",
+		desc = "中にはドラゴンがいる！\n無許可での立ち入りは禁止だ！\n「……ん？ハニー、来てくれたの！？さ、早く入って入って〜！」",
 		model = {
 			"fbx/litmap_01/pre_db_newjerseyhostel01_billboard01_1"
 		},
@@ -2594,13 +2594,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1117] = {
 		text = "dorm3d_xinzexi_bed",
-		name = "衣帽架",
+		name = "ハンガーラック",
 		award = 0,
 		time = 0,
 		id = 1117,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item17",
-		desc = "站在为约会而准备的衣物前，每件衣服似乎都在对她说：选我！选我！\n这个甜蜜的选择题，比想象中更难作答。",
+		desc = "デートのための服を選ぶ時、\nどの服も「あたしを選んで！」と訴えかけてくるようだ。\n甘い選択問題は、思ったよりもずっと難しい。",
 		model = {
 			"fbx/litmap_01/pre_db_cloth07_group"
 		},
@@ -2615,13 +2615,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1118] = {
 		text = "dorm3d_xinzexi_bed",
-		name = "透明手提包",
+		name = "クリアトートバッグ",
 		award = 0,
 		time = 0,
 		id = 1118,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item18",
-		desc = "装有各种化妆品和补妆灯的透明手提包，是她日常通勤和外出旅行的必备搭档，随时随地满足补妆的需求。",
+		desc = "コスメやメイクライトが入った透明なトートバッグ。\n彼女の日々の通勤や旅行でのマストアイテムであり、\nいつでもどこでもメイク直しをサポートしてくれる！",
 		model = {
 			"fbx/litmap_01/pre_db_bag06"
 		},
@@ -2636,13 +2636,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1119] = {
 		text = "dorm3d_xinzexi_bed",
-		name = "灵动兔耳",
+		name = "ぴょこぴょこウサ耳",
 		award = 0,
 		time = 0,
 		id = 1119,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item19",
-		desc = "一副颇具个性的兔耳朵头饰，会随着佩戴者的心情灵活摆动，是她最喜欢的装饰品。",
+		desc = "着ける人の気分にあわせて、ぴょこぴょこ動く個性的なウサ耳アクセ。\n彼女のお気に入りアクセサリーのひとつ。",
 		model = {
 			"fbx/litmap_01/pre_db_headgear01"
 		},
@@ -2657,13 +2657,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1120] = {
 		text = "dorm3d_xinzexi_bed",
-		name = "空调",
+		name = "エアコン",
 		award = 0,
 		time = 0,
 		id = 1120,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item21",
-		desc = "看出人类历史最伟大的发明之一，它总能让室温变得恰到好处，营造出最治愈的舒适角落。",
+		desc = "人類史上、最高の発明のひとつと称される存在。\n室温を快適な温度に整え、\n心と体を癒す最高のくつろぎコーナーを作り出してくれる。",
 		model = {
 			"fbx/litmap_01/pre_db_appliances01"
 		},
@@ -2678,13 +2678,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1121] = {
 		text = "dorm3d_xinzexi_bed",
-		name = "空气净化器",
+		name = "空気清浄機",
 		award = 0,
 		time = 0,
 		id = 1121,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item22",
-		desc = "安静待在房间一角的净化器，用持续可靠的运转，让每个深呼吸都变成享受。",
+		desc = "部屋の隅で静かに働く空気清浄機。\nその止まることのない安定した稼働で、\nひとつひとつの深呼吸が、贅沢な時間に変わる。",
 		model = {
 			"fbx/litmap_01/pre_db_appliances03"
 		},
@@ -2699,13 +2699,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1122] = {
 		text = "dorm3d_xinzexi_bed",
-		name = "冷冻饮品",
+		name = "クールドリンク",
 		award = 0,
 		time = 0,
 		id = 1122,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item23",
-		desc = "两杯正冒着冷气的冰淇淋和冷饮，无论是独自慢慢品尝，还是与重要的人分享，每一口都是幸福的形状。",
+		desc = "ひんやりと冷気をまとった2つのアイスとドリンク。\n一人でゆっくり味わっても、\n大切な人と分け合っても——\nその一口一口が、幸せのカタチ。",
 		model = {
 			"fbx/litmap_01/pre_db_food03_group"
 		},
@@ -2720,13 +2720,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1123] = {
 		text = "dorm3d_xinzexi_bed",
-		name = "音响",
+		name = "オーディオ機器",
 		award = 0,
 		time = 0,
 		id = 1123,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item24",
-		desc = "一台轻便时髦的音响，装着从古典乐到摇滚的万千旋律。\n无论何时，总有恰到好处的音符在等候。",
+		desc = "スタイリッシュで持ち運びも楽々なスピーカー。\nクラシックからロックまで数々の音楽が内蔵されていて、\nいつでもどこでも、ぴったりなメロディがあなたを待っている。",
 		model = {
 			"fbx/litmap_01/pre_db_electrical03"
 		},
@@ -2741,13 +2741,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1124] = {
 		text = "dorm3d_xinzexi_bed",
-		name = "兔子夜灯",
+		name = "うさぎナイトライト",
 		award = 0,
 		time = 2,
 		id = 1124,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item25",
-		desc = "融合了兔兔造型的小夜灯，在黑暗中投下柔和的蓝晕，为{namecode:199}夜行的脚步，画出一条安全的路径。",
+		desc = "うさぎモチーフの小さなかわいいらしいナイトライト。\nほのかに青い光を灯しながら、\n暗がりの中でもニュージャージーの足元を優しく照らし、\n夜をそっと導いてくれる。",
 		model = {
 			"fbx/litmap_01/night/pre_db_newjerseyhostel01_lamp01a_on"
 		},
@@ -2762,13 +2762,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1125] = {
 		text = "dorm3d_xinzexi_bed",
-		name = "哑铃",
+		name = "ダンベル",
 		award = 0,
 		time = 0,
 		id = 1125,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item26",
-		desc = "一对重量适中的哑铃，完美贴合她的运动需求。\n在汗水折射出的彩虹里，藏着比昨天更优秀的自己。",
+		desc = "程よい重さのダンベル一組。\n彼女のトレーニングニーズにぴったりのアイテム。\nしたたる汗の一滴一滴に、\n昨日よりちょっと成長した自分の姿が見える。",
 		model = {
 			"no_bake_pay_prop/livingroom/pre_db_sportinggoods06_group"
 		},
@@ -2783,13 +2783,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1126] = {
 		text = "dorm3d_xinzexi_bed",
-		name = "卷发棒",
+		name = "カールアイロン",
 		award = 0,
 		time = 0,
 		id = 1126,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item27",
-		desc = "造型时尚的卷发棒，打理发型时的好帮手。\n使用完一定要拔掉电源哦！",
+		desc = "スタイリッシュなデザインのカールアイロン。\nヘアセット時の頼れる相棒。\n……使い終わったら、ちゃんと電源を抜くのを忘れずに！",
 		model = {
 			"fbx/litmap_01/pre_db_electrical15"
 		},
@@ -2804,13 +2804,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1127] = {
 		text = "dorm3d_xinzexi_bed",
-		name = "黑色丝袜",
+		name = "黒ストッキング",
 		award = 0,
 		time = 2,
 		id = 1127,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item28",
-		desc = "在她房间，每只丝袜都有自己想去的地方。\n这是她这个月弄丢的第7.5双了。",
+		desc = "彼女の部屋には、行きたい場所を持つストッキングたちがいる。\nこれは今月、彼女がなくした「7足目」のストッキングらしい。",
 		model = {
 			"fbx/litmap_01/night/pre_db_sock01"
 		},
@@ -2825,13 +2825,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1128] = {
 		text = "dorm3d_xinzexi_bed",
-		name = "护肤套装",
+		name = "スキンケアセット",
 		award = 0,
 		time = 2,
 		id = 1128,
 		room_id = 11,
 		icon = "3Ddrom_xinzexi_item29",
-		desc = "这套功能全面的护肤产品，是{namecode:199}专属的美容试验场。\n在奇妙的碰撞中，总能调配出令人惊喜的焕肤配方。",
+		desc = "機能性バツグンのスキンケアアイテム一式。\nニュージャージーの美肌実験場とも言えるセット。\nいろんなアイテムを組み合わせて、\n思いがけないツヤ肌レシピが誕生することも。",
 		model = {
 			"fbx/litmap_01/night/pre_db_cosmetic17"
 		},
@@ -2846,13 +2846,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1601] = {
 		text = "dorm3d_collection_cafe",
-		name = "招牌菜单",
+		name = "看板メニュー",
 		award = 0,
 		time = 0,
 		id = 1601,
 		room_id = 16,
 		icon = "3Ddrom_cafe_item1",
-		desc = "展示了丰富多样的饮品选择，可以快速了解咖啡店的特色~\n每一杯都充满创意与用心，可以满足各种独特口味~",
+		desc = "多彩なドリンクメニューで、カフェの特色が一目瞭然。\nオリジナリティ溢れる心が込められた一杯は、独特な好みでも満足できる。",
 		model = {
 			"fbx/litmap_03/pre_db_billboard16_2"
 		},
@@ -2867,13 +2867,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1602] = {
 		text = "dorm3d_collection_cafe",
-		name = "简约指引牌",
+		name = "案内ボード",
 		award = 0,
 		time = 0,
 		id = 1602,
 		room_id = 16,
 		icon = "3Ddrom_cafe_item2",
-		desc = "方便而简洁的指引，轻松找到温馨的咖啡角落，营造良好的第一印象~",
+		desc = "便利なシンボルが、カフェの温かい片隅へと案内してくれる。第一印象の演出は大事。",
 		model = {
 			"fbx/litmap_03/pre_db_billboard13"
 		},
@@ -2888,13 +2888,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1603] = {
 		text = "dorm3d_collection_cafe",
-		name = "暖光蜡烛",
+		name = "暖色キャンドル",
 		award = 0,
 		time = 0,
 		id = 1603,
 		room_id = 16,
 		icon = "3Ddrom_cafe_item3",
-		desc = "暖光柔和，温馨浪漫，为咖啡时光增添一份温暖。",
+		desc = "柔らかく優しい光で、心温まるロマンチックな雰囲気をもつ。カフェタイムに「ほっと」なフィーリング。",
 		model = {
 			"fbx/litmap_03/pre_db_desklamp06_1"
 		},
@@ -2909,13 +2909,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1604] = {
 		text = "dorm3d_collection_cafe",
-		name = "收银台",
+		name = "レジカウンター",
 		award = 0,
 		time = 0,
 		id = 1604,
 		room_id = 16,
 		icon = "3Ddrom_cafe_item4",
-		desc = "触摸式电子屏，设计简洁服务贴心，选单付款皆可快速完成。",
+		desc = "モニターはタッチパネル仕様で、シンプルながら機能的なデザイン。注文も会計もスピーディー。",
 		model = {
 			"fbx/litmap_03/pre_db_electrical19"
 		},
@@ -2930,13 +2930,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1605] = {
 		text = "dorm3d_collection_cafe",
-		name = "简约几何杯",
+		name = "幾何学ボトル",
 		award = 0,
 		time = 0,
 		id = 1605,
 		room_id = 16,
 		icon = "3Ddrom_cafe_item5",
-		desc = "每一瓶都精心设计，不论是外观还是实用性，都能为咖啡时光增添一份精致与享受。",
+		desc = "一本一本に匠の心が込められたボトル。見た目も実用性も、コーヒータイムをより上品に演出してくれる。",
 		model = {
 			"fbx/litmap_03/pre_db_drink03_1"
 		},
@@ -2951,13 +2951,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1606] = {
 		text = "dorm3d_collection_cafe",
-		name = "巧克力甜甜圈",
+		name = "チョコドーナツ",
 		award = 0,
 		time = 0,
 		id = 1606,
 		room_id = 16,
 		icon = "3Ddrom_cafe_item6",
-		desc = "外酥里嫩的甜甜圈，美味可口的经典甜点。\n每一口都让人回味无穷，为味蕾带来极大的享受~",
+		desc = "サクサクもちもちのドーナツ。美味しい定番スイーツ。\n一口ごとに後を引く美味しさで、味覚に最高の喜びを与えてくれる。",
 		model = {
 			"fbx/litmap_03/pre_db_food07"
 		},
@@ -2972,13 +2972,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1607] = {
 		text = "dorm3d_collection_cafe",
-		name = "调酒组合",
+		name = "カクテルセット",
 		award = 0,
 		time = 0,
 		id = 1607,
 		room_id = 16,
 		icon = "3Ddrom_cafe_item7",
-		desc = "专业调制各种酒品，为夜晚增添一抹色彩~",
+		desc = "プロの道具で作られたカクテルは、ナイトタイムを彩らせる。",
 		model = {
 			"fbx/litmap_03/pre_db_frame23_group"
 		},
@@ -2993,13 +2993,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1608] = {
 		text = "dorm3d_collection_cafe",
-		name = "餐巾纸",
+		name = "ナプキン",
 		award = 0,
 		time = 0,
 		id = 1608,
 		room_id = 16,
 		icon = "3Ddrom_cafe_item8",
-		desc = "干净柔软的餐巾纸，随时满足清洁需求。",
+		desc = "やわらかなナプキンで、いつでもニーズに答えてくれる。",
 		model = {
 			"fbx/litmap_03/pre_db_tableware30_4"
 		},
@@ -3014,13 +3014,13 @@ pg.base.dorm3d_collection_template = {
 	},
 	[1609] = {
 		text = "dorm3d_collection_cafe",
-		name = "招牌雕塑",
+		name = "マスコット彫刻",
 		award = 0,
 		time = 0,
 		id = 1609,
 		room_id = 16,
 		icon = "3Ddrom_cafe_item9",
-		desc = "可爱的吉祥物，咖啡店的标志性雕塑。",
+		desc = "カフェのマスコットの彫刻。",
 		model = {
 			"fbx/litmap_03/pre_db_publiccafe01_statue01"
 		},

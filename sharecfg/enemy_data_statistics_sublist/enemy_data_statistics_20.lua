@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_20 = {
 	[90598] = {
 		cannon = 0,
-		name = "巨构武装:「弧光」",
+		name = "メガアーマメント：「グリッダー」",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,
@@ -165,7 +165,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90599] = {
 		cannon = 0,
-		name = "貉",
+		name = "ムジナ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -315,7 +315,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90600] = {
 		cannon = 0,
-		name = "奥古斯塔·META",
+		name = "グナイゼナウ(META)",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -484,7 +484,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90601] = {
 		cannon = 0,
-		name = "潜航鱼雷",
+		name = "セイレーン重魚雷",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -621,7 +621,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90602] = {
 		cannon = 0,
-		name = "代行节点VI-01",
+		name = "エンフォーサーフェロー",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -777,7 +777,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90603] = {
 		cannon = 0,
-		name = "代行者VI「Combination」",
+		name = "エンフォーサーVI「Combination」",
 		type = 17,
 		speed_growth = 0,
 		air_growth = 0,
@@ -937,7 +937,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90604] = {
 		cannon = 0,
-		name = "代行者VI「Attraction」",
+		name = "エンフォーサーVI「Attraction」",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1093,7 +1093,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90605] = {
 		cannon = 0,
-		name = "驱逐「Pawn」IV型",
+		name = "駆逐「Pawn」IV型",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1255,7 +1255,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90606] = {
 		cannon = 0,
-		name = "轻巡「Knight」IV型",
+		name = "軽巡「Knight」IV型",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1586,7 +1586,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90608] = {
 		cannon = 0,
-		name = "战舰「Rook」IV型",
+		name = "戦艦「Rook」IV型",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1755,7 +1755,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90609] = {
 		cannon = 0,
-		name = "航母「Queen」IV型",
+		name = "空母「Queen」IV型",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1924,7 +1924,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90610] = {
 		cannon = 0,
-		name = "自爆船「Buster」IV型",
+		name = "自爆ボート「Buster」IV型",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2070,7 +2070,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90611] = {
 		cannon = 0,
-		name = "潜艇「Assassin」IV型",
+		name = "潜水艦「Assassin」IV型",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2221,7 +2221,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90612] = {
 		cannon = 0,
-		name = "探索者IV型",
+		name = "スカベンジャーIV型",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2378,7 +2378,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90613] = {
 		cannon = 0,
-		name = "追迹者IV型",
+		name = "チェイサーIV型",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2535,7 +2535,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90614] = {
 		cannon = 0,
-		name = "领洋者IV型",
+		name = "ナビゲーターIV型",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2692,7 +2692,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90615] = {
 		cannon = 0,
-		name = "破局者IV型",
+		name = "スマッシャーIV型",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2863,7 +2863,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90616] = {
 		cannon = 0,
-		name = "执棋者IV型",
+		name = "コンダクターIV型",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3020,7 +3020,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90617] = {
 		cannon = 0,
-		name = "布里斯托尔",
+		name = "ブリストル",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3169,7 +3169,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90618] = {
 		cannon = 0,
-		name = "基辅",
+		name = "キエフ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3338,7 +3338,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90619] = {
 		cannon = 0,
-		name = "灵敏",
+		name = "ソオブラジーテリヌイ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3507,7 +3507,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90620] = {
 		cannon = 0,
-		name = "喀琅施塔得",
+		name = "クロンシュタット",
 		type = 18,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3656,7 +3656,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90621] = {
 		cannon = 0,
-		name = "阿尔汉格尔斯克 ",
+		name = "アルハンゲリスク",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3805,7 +3805,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90622] = {
 		cannon = 0,
-		name = "伏尔加",
+		name = "ヴォルガ",
 		type = 6,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3954,7 +3954,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90623] = {
 		cannon = 0,
-		name = "格尔林德·META",
+		name = "シャルンホルスト(META)",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4123,7 +4123,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90624] = {
 		cannon = 0,
-		name = "驱逐「Pawn」-初始型",
+		name = "駆逐「Pawn」初期型",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4285,7 +4285,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90625] = {
 		cannon = 0,
-		name = "轻巡「Knight」-初始型",
+		name = "軽巡「Knight」初期型",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4447,7 +4447,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90626] = {
 		cannon = 0,
-		name = "重巡「Bishop」-初始型",
+		name = "重巡「Bishop」初期型",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4616,7 +4616,7 @@ pg.enemy_data_statistics_20 = {
 	},
 	[90627] = {
 		cannon = 0,
-		name = "战舰「Rook」-初始型",
+		name = "戦艦「Rook」初期型",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,

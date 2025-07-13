@@ -6,7 +6,7 @@ return {
 			delay = 0.5,
 			alpha = 0.3,
 			style = {
-				text = "这里是行程计划界面，指挥官每回合可为娜比娅安排最多5项课程",
+				text = "予定画面です。指揮官は各ターン、ナビィに最大5つの授業を設定できます",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -20,7 +20,7 @@ return {
 			delay = 0.5,
 			alpha = 0.3,
 			style = {
-				text = "完成安排后，点击此处即可上课并进入下一回合",
+				text = "設定が完了したら、ここをタップして授業を開始し、次のターンに進みます",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -39,7 +39,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "注意：此处显示本阶段的属性目标总值",
+				text = "ここには現段階のナビィのパラメータ目標合計値が表示されています",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -58,7 +58,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "各项属性之和达到此数值即为达成目标",
+				text = "各パラメータの合計がこの数値に達すると目標達成となります",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -77,7 +77,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "请根据娜比娅的天赋和您的规划选择合适的课程",
+				text = "ナビィのアビリティと育成方針に基づいて適切な授業を選択してください",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -96,7 +96,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "此外，娜比娅的心情将影响课程效果：心情越好，获得的数值越高",
+				text = "また、ナビィの「気分」は授業効果に影響します：高いほど得られる能力上昇値が高くなります",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -115,7 +115,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "而心情低落时，能从课程中获得的数值则会减少",
+				text = "反対に「気分」が低い時は、授業から得られる能力上昇値が減少します",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -134,7 +134,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "现在，试着为娜比娅安排课程吧！",
+				text = "では、ナビィの授業を設定してみましょう",
 				mode = 2,
 				dir = 1,
 				char = 1,

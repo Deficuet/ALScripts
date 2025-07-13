@@ -15,6 +15,13 @@ function var_0_0.Ctor(arg_1_0, arg_1_1)
 	}
 end
 
+var_0_0.Map = {
+	[TRACKING_TUTORIAL_COMPLETE_1] = "stdhour1",
+	[TRACKING_USER_LEVEL_THIRTY] = "stdlevel",
+	[TRACKING_USER_LEVEL_FORTY] = "stdlevel",
+	[TRACKING_PURCHASE_FIRST] = "stdrecharge"
+}
+
 function var_0_0.Tracking(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4)
 	if arg_2_0.mapping[arg_2_1] == nil then
 		return

@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "商店功能现已开启！",
+				text = "ショップ機能が解放されました",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击「出行」按钮，即可看到新增的商店地点",
+				text = "「お出かけ」ボタンをタップすると、マップに新しく追加されたショップの場所が表示されるようになります",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -45,7 +45,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "现在请点击「商店」",
+				text = "では「ショップ」をタップしてみましょう",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -68,7 +68,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "商店每回合会自动更新商品，这里出售各类增加属性和状态的道具",
+				text = "ショップは毎ターン商品が自動更新され、パラメータ上昇や状態変化など、様々なアイテムが販売されます",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -81,7 +81,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "在商店进行购物时，不会消耗行动力",
+				text = "ショップでの買い物は行動力を消費しません",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -94,7 +94,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "还请善用商店资源，更加有效地帮助娜比娅的成长吧",
+				text = "ショップを上手く活用して、ナビィの成長をより効果的に支援しましょう",
 				mode = 2,
 				dir = 1,
 				char = 1,

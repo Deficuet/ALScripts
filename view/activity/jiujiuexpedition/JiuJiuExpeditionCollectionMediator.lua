@@ -70,6 +70,10 @@ function var_0_0.GetCollectionData()
 		end
 	end
 
+	print("collection")
+	print(var_3_4)
+	print(var_3_4.data1)
+
 	local var_3_14 = var_3_4.data2_list[1] or var_3_11
 
 	return var_3_2, var_3_3, var_3_11, var_3_14

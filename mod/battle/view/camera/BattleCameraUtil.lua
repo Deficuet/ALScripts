@@ -26,6 +26,7 @@ function var_0_4.ActiveMainCamera(arg_2_0)
 end
 
 function var_0_4.Initialize(arg_3_0)
+	arg_3_0._cameraSpeed = nil
 	arg_3_0._cameraTF.localPosition = var_0_3.CAMERA_INIT_POS
 
 	pg.CameraFixMgr.GetInstance():SetCameraOrthographicSize(arg_3_0._camera, 20)
@@ -61,6 +62,7 @@ function var_0_4.Clear(arg_4_0)
 	pg.CameraFixMgr.GetInstance():SetCameraOrthographicSize(arg_4_0._camera, 20)
 
 	arg_4_0._uiMediator = nil
+	arg_4_0._cameraSpeed = nil
 end
 
 function var_0_4.SetMapData(arg_5_0, arg_5_1, arg_5_2, arg_5_3, arg_5_4)

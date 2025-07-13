@@ -1,15 +1,24 @@
 local var_0_0 = class("SpringFestivalMainPage", import(".TemplatePage.PreviewTemplatePage"))
 local var_0_1 = {
+	1,
 	2,
 	3,
 	4,
+	5,
+	6,
+	7,
 	8,
 	9,
 	10,
+	11,
+	12,
+	13,
 	14,
 	15,
+	16,
 	17,
-	18
+	18,
+	19
 }
 local var_0_2 = 1
 local var_0_3 = 3.5

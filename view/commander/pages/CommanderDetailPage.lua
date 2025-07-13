@@ -57,6 +57,8 @@ function var_0_0.OnLoaded(arg_11_0)
 	arg_11_0.statement.localScale = Vector3(1, 0, 1)
 	arg_11_0.talentSkill = arg_11_0:findTF("detail/talent_skill")
 
+	setActive(arg_11_0.talentSkill, false)
+
 	local var_11_0 = arg_11_0:findTF("talent/content", arg_11_0.talentSkill)
 
 	arg_11_0.talentList = UIItemList.New(var_11_0, var_11_0:GetChild(0))

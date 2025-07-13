@@ -177,7 +177,7 @@ function var_0_0.set(arg_9_0, arg_9_1, arg_9_2)
 			setImageSprite(arg_9_0.passState, GetSpriteFromAtlas("passstate", var_9_8), true)
 		end
 
-		setWidgetText(arg_9_0.progress, i18n("levelScene_threat_to_rule_out", ": "))
+		setWidgetText(arg_9_0.progress, i18n("levelScene_threat_to_rule_out", "："))
 		table.insert(arg_9_0.delayTween, LeanTween.value(go(arg_9_0.progress), 0, var_9_0.progress, 0.5):setDelay(0.15):setOnUpdate(System.Action_float(function(arg_12_0)
 			setSlider(arg_9_0.progress, 0, 100, arg_12_0)
 			setText(arg_9_0.txProgress, math.floor(arg_12_0) .. "%")

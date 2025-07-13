@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_8 = {
 	[90206] = {
 		cannon = 0,
-		name = "利根",
+		name = "トネ",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -162,7 +162,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90207] = {
 		cannon = 0,
-		name = "高雄",
+		name = "タカオ",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -339,7 +339,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90208] = {
 		cannon = 0,
-		name = "爱宕",
+		name = "アタゴ",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -516,7 +516,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90209] = {
 		cannon = 0,
-		name = "摩耶",
+		name = "マヤ",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -693,7 +693,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90210] = {
 		cannon = 0,
-		name = "最上",
+		name = "モガミ",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -853,7 +853,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90211] = {
 		cannon = 0,
-		name = "三隈",
+		name = "ミクマ",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1006,7 +1006,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90212] = {
 		cannon = 0,
-		name = "希佩尔海军上将",
+		name = "アドミラル・ヒッパー",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1173,7 +1173,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90213] = {
 		cannon = 0,
-		name = "欧根亲王",
+		name = "プリンツ・オイゲン",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1333,7 +1333,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90214] = {
 		cannon = 0,
-		name = "德意志",
+		name = "ドイッチュラント",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1500,7 +1500,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90215] = {
 		cannon = 0,
-		name = "斯佩伯爵海军上将",
+		name = "グラーフ・シュペー",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1656,7 +1656,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90216] = {
 		cannon = 0,
-		name = "声望",
+		name = "レナウン",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1818,7 +1818,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90217] = {
 		cannon = 0,
-		name = "反击",
+		name = "レパルス",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1980,7 +1980,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90218] = {
 		cannon = 0,
-		name = "胡德",
+		name = "フッド",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2143,7 +2143,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90219] = {
 		cannon = 0,
-		name = "金刚",
+		name = "コンゴウ",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2306,7 +2306,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90220] = {
 		cannon = 0,
-		name = "比叡",
+		name = "ヒエイ",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2459,7 +2459,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90221] = {
 		cannon = 0,
-		name = "榛名",
+		name = "ハルナ",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2622,7 +2622,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90222] = {
 		cannon = 0,
-		name = "雾岛",
+		name = "キリシマ",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2775,7 +2775,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90223] = {
 		cannon = 0,
-		name = "沙恩霍斯特",
+		name = "シャルンホルスト",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2942,7 +2942,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90224] = {
 		cannon = 0,
-		name = "格奈森瑙",
+		name = "グナイゼナウ",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3109,7 +3109,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90225] = {
 		cannon = 0,
-		name = "俄克拉荷马",
+		name = "オクラホマ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3262,7 +3262,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90226] = {
 		cannon = 0,
-		name = "罗德尼",
+		name = "ロドニー",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3422,7 +3422,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90227] = {
 		cannon = 0,
-		name = "威尔士亲王",
+		name = "プリンス・オブ・ウェールズ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3592,7 +3592,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90228] = {
 		cannon = 0,
-		name = "伊势",
+		name = "イセ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3749,7 +3749,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90229] = {
 		cannon = 0,
-		name = "日向",
+		name = "ヒュウガ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3906,7 +3906,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90230] = {
 		cannon = 0,
-		name = "长门",
+		name = "ナガト",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4059,7 +4059,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90231] = {
 		cannon = 0,
-		name = "陆奥",
+		name = "ムツ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4236,7 +4236,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90232] = {
 		cannon = 0,
-		name = "俾斯麦",
+		name = "ビスマルク",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4396,7 +4396,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90233] = {
 		cannon = 0,
-		name = "提尔比茨",
+		name = "ティルピッツ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4549,7 +4549,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90234] = {
 		cannon = 0,
-		name = "凤翔",
+		name = "ホウショウ",
 		type = 6,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4711,7 +4711,7 @@ pg.enemy_data_statistics_8 = {
 	},
 	[90235] = {
 		cannon = 0,
-		name = "龙骧",
+		name = "リュウジョウ",
 		type = 6,
 		speed_growth = 0,
 		air_growth = 0,

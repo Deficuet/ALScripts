@@ -103,31 +103,5 @@ return {
 			x = 17,
 			child = {}
 		}
-	},
-	furnitures_4 = {
-		{
-			id = 31101,
-			parent = 0,
-			y = 12,
-			dir = 1,
-			x = 10,
-			child = {}
-		},
-		{
-			id = 31103,
-			parent = 0,
-			y = 19,
-			dir = 1,
-			x = 10,
-			child = {}
-		},
-		{
-			id = 31102,
-			parent = 0,
-			y = 6,
-			dir = 1,
-			x = 17,
-			child = {}
-		}
 	}
 }

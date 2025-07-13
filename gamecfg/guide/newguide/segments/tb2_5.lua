@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "除了日常交流之外，娜比娅偶尔也会向指挥官寻求建议",
+				text = "日常会話の他に、ナビィは時々指揮官にアドバイスを求めることがあります",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "此时，指挥官的选择有可能将会影响娜比娅的性格发展",
+				text = "この時、指揮官の選択はナビィの性格形成に影響を与える可能性があります",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -31,7 +31,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "是会让娜比娅更加叛逆，还是会让娜比娅更加乖巧",
+				text = "ナビィがより「ワガママ」になるか、より「大人しい」になるか…",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -44,7 +44,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "都取决于指挥官做出的选择",
+				text = "それはすべて指揮官の選択次第です",
 				mode = 2,
 				dir = -1,
 				char = 1,

@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "出行功能现已开放！",
+				text = "お出かけ機能が解放されました",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击「出行」即可进入大地图",
+				text = "「お出かけ」をタップすると大地図に移動します",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -45,7 +45,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "「外出旅游」与「生活体验」功能均已解锁",
+				text = "「観光旅行」と「生活体験」機能が解放されました",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -58,7 +58,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "可在每次回合日程安排开始前，带娜比娅前来",
+				text = "各ターンの予定を決定する前に、ナビィを街に連れて行くことができます",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -71,7 +71,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "带娜比娅外出旅游，不仅能大幅提升她的心情，还有机会获得珍贵的「瞬间」",
+				text = "ナビィを「観光旅行」に連れて行くと、気分を大幅に上昇させられるだけでなく、貴重な「瞬間」を獲得するチャンスがあります",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -90,7 +90,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "而进行生活体验则能让娜比娅通过劳动获得报酬",
+				text = "一方、「生活体験」では、ナビィは労働を通じて報酬を得ることができます",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -109,7 +109,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "需要注意的是，在小镇中的活动都会消耗1点行动力，上限为3点，每回合都会自动补满",
+				text = "バーチャルタウンでの活動はすべて行動力を1ポイント消費します。行動力の上限は3ポイントで、各ターン自動的に補充されます",
 				mode = 2,
 				dir = 1,
 				char = 1,

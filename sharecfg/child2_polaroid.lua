@@ -6,8 +6,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_1_1_b",
 		id = 1,
 		group = 1,
-		title = "夏日庭院",
-		condition = "出行-外出旅游",
+		title = "夏の庭園",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1001,
 			1002
@@ -22,8 +22,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_1_2_b",
 		id = 2,
 		group = 1,
-		title = "夏日庭院",
-		condition = "出行-外出旅游",
+		title = "夏の庭園",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1001,
 			1002
@@ -38,8 +38,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_1_3_b",
 		id = 3,
 		group = 1,
-		title = "夏日庭院",
-		condition = "出行-外出旅游",
+		title = "夏の庭園",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1001,
 			1002
@@ -54,8 +54,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_2_1_b",
 		id = 4,
 		group = 2,
-		title = "白色的谜",
-		condition = "出行-外出旅游",
+		title = "白い謎",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1003,
 			1004
@@ -70,8 +70,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_2_2_b",
 		id = 5,
 		group = 2,
-		title = "白色的谜",
-		condition = "出行-外出旅游",
+		title = "白い謎",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1003,
 			1004
@@ -86,8 +86,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_2_3_b",
 		id = 6,
 		group = 2,
-		title = "白色的谜",
-		condition = "出行-外出旅游",
+		title = "白い謎",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1003,
 			1004
@@ -102,8 +102,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_3_1_b",
 		id = 7,
 		group = 3,
-		title = "远眺",
-		condition = "出行-外出旅游",
+		title = "遠望",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1005,
 			1006
@@ -118,8 +118,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_3_2_b",
 		id = 8,
 		group = 3,
-		title = "远眺",
-		condition = "出行-外出旅游",
+		title = "遠望",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1005,
 			1006
@@ -134,8 +134,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_3_3_b",
 		id = 9,
 		group = 3,
-		title = "远眺",
-		condition = "出行-外出旅游",
+		title = "遠望",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1005,
 			1006
@@ -150,8 +150,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_4_1_b",
 		id = 10,
 		group = 4,
-		title = "落樱小径",
-		condition = "出行-外出旅游",
+		title = "桜の並木道",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1007,
 			1008
@@ -166,8 +166,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_4_2_b",
 		id = 11,
 		group = 4,
-		title = "落樱小径",
-		condition = "出行-外出旅游",
+		title = "桜の並木道",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1007,
 			1008
@@ -182,8 +182,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_4_3_b",
 		id = 12,
 		group = 4,
-		title = "落樱小径",
-		condition = "出行-外出旅游",
+		title = "桜の並木道",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1007,
 			1008
@@ -198,8 +198,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_5_1_b",
 		id = 13,
 		group = 5,
-		title = "接住初雪",
-		condition = "出行-外出旅游",
+		title = "初雪を受けとめて",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1009,
 			1010
@@ -214,8 +214,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_5_2_b",
 		id = 14,
 		group = 5,
-		title = "接住初雪",
-		condition = "出行-外出旅游",
+		title = "初雪を受けとめて",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1009,
 			1010
@@ -230,8 +230,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_5_3_b",
 		id = 15,
 		group = 5,
-		title = "接住初雪",
-		condition = "出行-外出旅游",
+		title = "初雪を受けとめて",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1009,
 			1010
@@ -246,8 +246,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_6_1_b",
 		id = 16,
 		group = 6,
-		title = "鸟居通道",
-		condition = "出行-外出旅游",
+		title = "鳥居の道",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1011,
 			1012
@@ -262,8 +262,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_6_2_b",
 		id = 17,
 		group = 6,
-		title = "鸟居通道",
-		condition = "出行-外出旅游",
+		title = "鳥居の道",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1011,
 			1012
@@ -278,8 +278,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_6_3_b",
 		id = 18,
 		group = 6,
-		title = "鸟居通道",
-		condition = "出行-外出旅游",
+		title = "鳥居の道",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1011,
 			1012
@@ -294,8 +294,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_7_1_b",
 		id = 19,
 		group = 7,
-		title = "灯下",
-		condition = "出行-外出旅游",
+		title = "灯りの下",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1013,
 			1014
@@ -310,8 +310,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_7_2_b",
 		id = 20,
 		group = 7,
-		title = "灯下",
-		condition = "出行-外出旅游",
+		title = "灯りの下",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1013,
 			1014
@@ -326,8 +326,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_7_3_b",
 		id = 21,
 		group = 7,
-		title = "灯下",
-		condition = "出行-外出旅游",
+		title = "灯りの下",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1013,
 			1014
@@ -342,8 +342,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_8_1_b",
 		id = 22,
 		group = 8,
-		title = "林间漫步",
-		condition = "出行-外出旅游",
+		title = "林間散歩",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1015,
 			1016
@@ -358,8 +358,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_8_2_b",
 		id = 23,
 		group = 8,
-		title = "林间漫步",
-		condition = "出行-外出旅游",
+		title = "林間散歩",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1015,
 			1016
@@ -374,8 +374,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_8_3_b",
 		id = 24,
 		group = 8,
-		title = "林间漫步",
-		condition = "出行-外出旅游",
+		title = "林間散歩",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1015,
 			1016
@@ -390,8 +390,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_9_1_b",
 		id = 25,
 		group = 9,
-		title = "金色荒野",
-		condition = "出行-外出旅游",
+		title = "黄金の荒野",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1017,
 			1018,
@@ -407,8 +407,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_9_2_b",
 		id = 26,
 		group = 9,
-		title = "金色荒野",
-		condition = "出行-外出旅游",
+		title = "黄金の荒野",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1017,
 			1018,
@@ -424,8 +424,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_9_3_b",
 		id = 27,
 		group = 9,
-		title = "金色荒野",
-		condition = "出行-外出旅游",
+		title = "黄金の荒野",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1017,
 			1018,
@@ -441,8 +441,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_10_1_b",
 		id = 28,
 		group = 10,
-		title = "两条路",
-		condition = "出行-外出旅游",
+		title = "二つの道",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1020,
 			1021
@@ -457,8 +457,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_10_2_b",
 		id = 29,
 		group = 10,
-		title = "两条路",
-		condition = "出行-外出旅游",
+		title = "二つの道",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1020,
 			1021
@@ -473,8 +473,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_10_3_b",
 		id = 30,
 		group = 10,
-		title = "两条路",
-		condition = "出行-外出旅游",
+		title = "二つの道",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1020,
 			1021
@@ -489,8 +489,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_11_1_b",
 		id = 31,
 		group = 11,
-		title = "泛舟",
-		condition = "出行-外出旅游",
+		title = "舟遊び",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1022,
 			1023
@@ -505,8 +505,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_11_2_b",
 		id = 32,
 		group = 11,
-		title = "泛舟",
-		condition = "出行-外出旅游",
+		title = "舟遊び",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1022,
 			1023
@@ -521,8 +521,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_11_3_b",
 		id = 33,
 		group = 11,
-		title = "泛舟",
-		condition = "出行-外出旅游",
+		title = "舟遊び",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1022,
 			1023
@@ -537,8 +537,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_12_1_b",
 		id = 34,
 		group = 12,
-		title = "潮声",
-		condition = "出行-外出旅游",
+		title = "潮の音",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1024,
 			1025
@@ -553,8 +553,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_12_2_b",
 		id = 35,
 		group = 12,
-		title = "潮声",
-		condition = "出行-外出旅游",
+		title = "潮の音",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1024,
 			1025
@@ -569,8 +569,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_12_3_b",
 		id = 36,
 		group = 12,
-		title = "潮声",
-		condition = "出行-外出旅游",
+		title = "潮の音",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1024,
 			1025
@@ -585,8 +585,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_13_1_b",
 		id = 37,
 		group = 13,
-		title = "晨雾森林",
-		condition = "出行-外出旅游",
+		title = "朝霧の森",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1026,
 			1027
@@ -601,8 +601,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_13_2_b",
 		id = 38,
 		group = 13,
-		title = "晨雾森林",
-		condition = "出行-外出旅游",
+		title = "朝霧の森",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1026,
 			1027
@@ -617,8 +617,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_13_3_b",
 		id = 39,
 		group = 13,
-		title = "晨雾森林",
-		condition = "出行-外出旅游",
+		title = "朝霧の森",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1026,
 			1027
@@ -633,8 +633,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_14_1_b",
 		id = 40,
 		group = 14,
-		title = "老树与提灯",
-		condition = "出行-外出旅游",
+		title = "古木と提灯",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1028,
 			1029,
@@ -650,8 +650,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_14_2_b",
 		id = 41,
 		group = 14,
-		title = "老树与提灯",
-		condition = "出行-外出旅游",
+		title = "古木と提灯",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1028,
 			1029,
@@ -667,8 +667,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_14_3_b",
 		id = 42,
 		group = 14,
-		title = "老树与提灯",
-		condition = "出行-外出旅游",
+		title = "古木と提灯",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1028,
 			1029,
@@ -684,8 +684,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_15_1_b",
 		id = 43,
 		group = 15,
-		title = "捉迷藏的午后",
-		condition = "出行-外出旅游",
+		title = "かくれんぼの午後",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1031,
 			1032
@@ -700,8 +700,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_15_2_b",
 		id = 44,
 		group = 15,
-		title = "捉迷藏的午后",
-		condition = "出行-外出旅游",
+		title = "かくれんぼの午後",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1031,
 			1032
@@ -716,8 +716,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_15_3_b",
 		id = 45,
 		group = 15,
-		title = "捉迷藏的午后",
-		condition = "出行-外出旅游",
+		title = "かくれんぼの午後",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1031,
 			1032
@@ -732,8 +732,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_16_1_b",
 		id = 46,
 		group = 16,
-		title = "桥头望远",
-		condition = "出行-外出旅游",
+		title = "橋からの眺め",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1033,
 			1034
@@ -748,8 +748,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_16_2_b",
 		id = 47,
 		group = 16,
-		title = "桥头望远",
-		condition = "出行-外出旅游",
+		title = "橋からの眺め",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1033,
 			1034
@@ -764,8 +764,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_16_3_b",
 		id = 48,
 		group = 16,
-		title = "桥头望远",
-		condition = "出行-外出旅游",
+		title = "橋からの眺め",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1033,
 			1034
@@ -780,8 +780,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_18_1_b",
 		id = 52,
 		group = 18,
-		title = "湖光中的笑容",
-		condition = "出行-外出旅游",
+		title = "湖に映った笑顔",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1035,
 			1036,
@@ -797,8 +797,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_18_2_b",
 		id = 53,
 		group = 18,
-		title = "湖光中的笑容",
-		condition = "出行-外出旅游",
+		title = "湖に映った笑顔",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1035,
 			1036,
@@ -814,8 +814,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_18_3_b",
 		id = 54,
 		group = 18,
-		title = "湖光中的笑容",
-		condition = "出行-外出旅游",
+		title = "湖に映った笑顔",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1035,
 			1036,
@@ -831,8 +831,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_19_1_b",
 		id = 55,
 		group = 19,
-		title = "洞口疑问",
-		condition = "出行-外出旅游",
+		title = "洞口の疑問",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1038,
 			1039,
@@ -848,8 +848,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_19_2_b",
 		id = 56,
 		group = 19,
-		title = "洞口疑问",
-		condition = "出行-外出旅游",
+		title = "洞口の疑問",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1038,
 			1039,
@@ -865,8 +865,8 @@ pg.child2_polaroid = {
 		pic_2 = "polaroid_oceana_19_3_b",
 		id = 57,
 		group = 19,
-		title = "洞口疑问",
-		condition = "出行-外出旅游",
+		title = "洞口の疑問",
+		condition = "おでかけ・観光旅行",
 		desc = {
 			1038,
 			1039,

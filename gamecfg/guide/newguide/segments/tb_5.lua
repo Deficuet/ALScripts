@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "又可以领取任务奖励了。",
+				text = "予定を設定しましたので、報酬を受け取りに行きましょう",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -30,7 +30,7 @@ return {
 			alpha = 0.4,
 			waitScene = "EducateTargetLayer",
 			style = {
-				text = "又完成了一个目标呢。接下来可以继续进行行程规划了。",
+				text = "目標をまた一つ達成しました。それでは予定設定に戻りましょう",
 				mode = 2,
 				posY = 0,
 				char = 1,
@@ -52,7 +52,7 @@ return {
 			alpha = 0,
 			waitScene = "EducateAwardInfoLayer",
 			style = {
-				text = "点击空白处关闭",
+				text = "画面をタップして戻りましょう",
 				mode = 2,
 				posY = -350,
 				char = 1,
@@ -72,7 +72,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "点击空白处关闭",
+				text = "画面をタップして戻りましょう",
 				mode = 2,
 				posY = -350,
 				char = 1,
@@ -91,7 +91,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "请点打开<color=#39bfff>行程计划</color>",
+				text = "「今週の予定」をタップしてください",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -111,7 +111,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "勾选这里，可以跳过行程动画，但不会跳过行程中的特殊事件哦。",
+				text = "ONにすると、予定の動画演出をスキップできます（特殊イベントの演出はスキップされません）",
 				mode = 2,
 				dir = -1,
 				char = 1,

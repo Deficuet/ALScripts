@@ -1,152 +1,152 @@
 pg = pg or {}
 pg.dorm3d_ins_language = {
 	tianlangxing_1 = {
-		value = "为了给主人提供更好的体验，天狼星一直在学习新的技能，女仆的目标就是满足主人的一切。",
+		value = "ご主人様により快適なご奉仕をするために、シリアスは常に新しいスキルを学ばせていただいております。メイドはご主人様にご満足いただくためにいますから",
 		key = "tianlangxing_1",
 		is_active = "0"
 	},
 	nengdai_1 = {
-		value = "在这里……是只有你才能看到吗？",
+		value = "ここは……あなたしか見られないんですか？",
 		key = "nengdai_1",
 		is_active = "0"
 	},
 	ankeleiqi_1 = {
-		value = "好看……是童话的……样子",
+		value = "きれい……おとぎばなしみたい……！",
 		key = "ankeleiqi_1",
 		is_active = "0"
 	},
 	ankeleiqi_2 = {
-		value = "在云朵上……画梦里的……事情……想要……",
+		value = "くもさんのうえで……ゆめのなかのことを……かきたい……",
 		key = "ankeleiqi_2",
 		is_active = "0"
 	},
 	tianlangxing_1_1 = {
-		value = "希望我也能满足天狼星",
+		value = "満足してもらえたなら嬉しいな",
 		key = "tianlangxing_1_1",
 		is_active = "0"
 	},
 	tianlangxing_1_2 = {
-		value = "这是学到了什么新技能么？",
+		value = "それで、何か新しいスキルを習得したの？",
 		key = "tianlangxing_1_2",
 		is_active = "0"
 	},
 	nengdai_1_1 = {
-		value = "嗯，确实只有我能看到",
+		value = "ああ、そうだな",
 		key = "nengdai_1_1",
 		is_active = "0"
 	},
 	nengdai_1_2 = {
-		value = "很开心，能独享一些美好~",
+		value = "全然そんなことないよ。素敵なものを独り占めできるなんて、とても嬉しいことだ",
 		key = "nengdai_1_2",
 		is_active = "0"
 	},
 	ankeleiqi_1_1 = {
-		value = "童话里有可爱的公主哦",
+		value = "おとぎ話ならかわいいお姫様もいないとな",
 		key = "ankeleiqi_1_1",
 		is_active = "0"
 	},
 	ankeleiqi_1_2 = {
-		value = "有自己的童话世界啦！",
+		value = "アンカレッジだけのおとぎ話だ",
 		key = "ankeleiqi_1_2",
 		is_active = "0"
 	},
 	ankeleiqi_2_1 = {
-		value = "梦到什么了呢？",
+		value = "どんな夢を見たの？",
 		key = "ankeleiqi_2_1",
 		is_active = "0"
 	},
 	ankeleiqi_2_2 = {
-		value = "为什么是在云朵上画呢？",
+		value = "どうして雲さんの上で描くの？",
 		key = "ankeleiqi_2_2",
 		is_active = "0"
 	},
 	tianlangxing_1_1_1 = {
-		value = "主人想要满足天狼星？！那就拜托主人让天狼星将自己所学到的一切全部用在您那里。",
+		value = "シリアスを満足させたいとおっしゃるのですか？！では、シリアスが学んだすべてを誇らしきご主人様へのご奉仕に活用させていただければ…！",
 		key = "tianlangxing_1_1_1",
 		is_active = "0"
 	},
 	tianlangxing_1_2_1 = {
-		value = "是！是能将天狼星和我骄傲的主人永远绑定在一起的重要技能……！",
+		value = "はい！それもシリアスと誇らしきご主人様を永遠に結べる、とても大切なスキルです…！",
 		key = "tianlangxing_1_2_1",
 		is_active = "0"
 	},
 	nengdai_1_1_1 = {
-		value = "太好了，那之后我就可以给你分享一些我的日常了。对了……希望你不要觉得我有点无聊……",
+		value = "よかったです。ではこれから私の日常をシェアさせていただきます。……退屈でなければいいのですが……",
 		key = "nengdai_1_1_1",
 		is_active = "0"
 	},
 	nengdai_1_2_1 = {
-		value = "这样啊……如果每天都能在我身边的话，感觉应该会更好吧",
+		value = "そうですか……毎日来てくれたら、素敵なものをもっと独り占めできるんじゃなくて？",
 		key = "nengdai_1_2_1",
 		is_active = "0"
 	},
 	ankeleiqi_1_1_1 = {
-		value = "公主……是安克雷奇？",
+		value = "アンカレッジが……おひめさま……？",
 		key = "ankeleiqi_1_1_1",
 		is_active = "0"
 	},
 	ankeleiqi_1_2_1 = {
-		value = "老师……也要在……童话世界里",
+		value = "せんせいも……いっしょにおとぎばなしのせかいに……きてほしい…！",
 		key = "ankeleiqi_1_2_1",
 		is_active = "0"
 	},
 	ankeleiqi_2_1_1 = {
-		value = "老师……安克雷奇……牵手……吃糖……软软的",
+		value = "せんせいとアンカレッジ……てをつないで……あめをたべて……ふわふわ……",
 		key = "ankeleiqi_2_1_1",
 		is_active = "0"
 	},
 	ankeleiqi_2_2_1 = {
-		value = "好看……在云朵上……和老师一起……很幸福",
+		value = "きれい……くもさんのうえで……せんせいといっしょ……しあわせ……",
 		key = "ankeleiqi_2_2_1",
 		is_active = "0"
 	},
 	xinzexi_1 = {
-		value = "喝到了过于苦涩的东西，果然不该去尝试的！",
+		value = "うぇぇ～……めっちゃ苦いやつを飲んじゃった……やっぱり試すんじゃなかったよ〜！",
 		key = "xinzexi_1",
 		is_active = "0"
 	},
 	xinzexi_1_1 = {
-		value = "喝到了什么这么苦，人没事吧？",
+		value = "大丈夫？一体何がそんなに…？",
 		key = "xinzexi_1_1",
 		is_active = "0"
 	},
 	xinzexi_1_1_1 = {
-		value = "人有事，要被苦死了，需要Honey照顾我——",
+		value = "大丈夫じゃないよぉ……苦すぎて死んじゃいそう～！ハニーに看病してもらわないと～！",
 		key = "xinzexi_1_1_1",
 		is_active = "0"
 	},
 	xinzexi_1_2 = {
-		value = "有没有什么治疗苦涩的良药？",
+		value = "苦みを消すいい薬とかないかな？",
 		key = "xinzexi_1_2",
 		is_active = "0"
 	},
 	xinzexi_1_2_1 = {
-		value = "那当然是Honey带的果汁，只要喝一口就能把苦味都冲下去的！",
+		value = "もちろんあるよ！ハニーがフルーツジュースを持ってきてくれて、それを一口飲めれば、苦味がぜ〜んぶ吹き飛ぶから！",
 		key = "xinzexi_1_2_1",
 		is_active = "0"
 	},
 	xinzexi_2 = {
-		value = "该给Honey做点什么好呢~",
+		value = "ハニーに何かしてあげたいな～、何がいいかなぁ〜？",
 		key = "xinzexi_2",
 		is_active = "0"
 	},
 	xinzexi_2_1 = {
-		value = "做点自己喜欢做的事吧？",
+		value = "ニュージャージーが好きなこととか？",
 		key = "xinzexi_2_1",
 		is_active = "0"
 	},
 	xinzexi_2_1_1 = {
-		value = "自己想做的事以前都做过啦，现在和以后都是和Honey在一起的时间~",
+		value = "うーん……やりたいことは、もう全部やっちゃったし、今はハニーと一緒にいる時間だからね～",
 		key = "xinzexi_2_1_1",
 		is_active = "0"
 	},
 	xinzexi_2_2 = {
-		value = "能有你陪在身边已经很好了",
+		value = "そばにいてくれるだけで十分だよ",
 		key = "xinzexi_2_2",
 		is_active = "0"
 	},
 	xinzexi_2_2_1 = {
-		value = "只是陪伴可不够哦~应该做些更愉快、更有意义的事才对！比如双人旅行怎么样？",
+		value = "そばにいるだけじゃ全然足りないよ〜？もっと楽しくて、もっと意味のあることをしなくちゃ！たとえば…カップル旅行とか？",
 		key = "xinzexi_2_2_1",
 		is_active = "0"
 	},

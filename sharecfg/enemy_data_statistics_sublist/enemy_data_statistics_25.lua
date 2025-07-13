@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_25 = {
 	[90748] = {
 		cannon = 0,
-		name = "伊丽莎白·META",
+		name = "クイーン·エリザベス(META)",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -174,7 +174,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90749] = {
 		cannon = 0,
-		name = "领域骑士",
+		name = "幻影の騎士",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -330,7 +330,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90750] = {
 		cannon = 0,
-		name = "侵扰者IV型",
+		name = "オブストラクターⅣ型",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -494,7 +494,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90751] = {
 		cannon = 0,
-		name = "库尔斯克",
+		name = "クルスク",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -650,7 +650,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90752] = {
 		cannon = 0,
-		name = "伏罗希洛夫",
+		name = "ヴォロシーロフ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -806,7 +806,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90753] = {
 		cannon = 0,
-		name = "塞瓦斯托波尔",
+		name = "セヴァストポリ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -962,7 +962,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90754] = {
 		cannon = 0,
-		name = "环",
+		name = "たまき",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1118,7 +1118,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90755] = {
 		cannon = 0,
-		name = "露娜",
+		name = "ルナ",
 		type = 6,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1273,7 +1273,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90756] = {
 		cannon = 0,
-		name = "代行者IX「Concealment」",
+		name = "エンフォーサーIX「Concealment」",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1429,7 +1429,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90757] = {
 		cannon = 0,
-		name = "代行者IX「Exploration」",
+		name = "エンフォーサーIX「Exploration」",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1585,7 +1585,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90758] = {
 		cannon = 0,
-		name = "代行者IX「Concealment」/*0x0F*/",
+		name = "エンフォーサーIX「Concealment」/*0x0F*/",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1741,7 +1741,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90759] = {
 		cannon = 0,
-		name = "代行者IX「Exploration」/*0x0F*/",
+		name = "エンフォーサーIX「Exploration」/*0x0F*/",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1897,7 +1897,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90760] = {
 		cannon = 0,
-		name = "仲裁者·赫米忒·IX/*0x0F*/",
+		name = "アビータ·Hermit·IX/*0x0F*/",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2049,7 +2049,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90761] = {
 		cannon = 0,
-		name = "U-556.META？",
+		name = "U-556(META)？",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2193,7 +2193,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90762] = {
 		cannon = 0,
-		name = "女灶神·META",
+		name = "ヴェスタル(META)",
 		type = 12,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2362,7 +2362,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90763] = {
 		cannon = 0,
-		name = "俾斯麦Zwei",
+		name = "ビスマルクZwei",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2522,7 +2522,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90764] = {
 		cannon = 0,
-		name = "革律翁",
+		name = "自律型艤装「ゲリュオン」",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2668,7 +2668,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90765] = {
 		cannon = 0,
-		name = "阿尔及利亚·META",
+		name = "アルジェリー(META)",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2817,7 +2817,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90766] = {
 		cannon = 0,
-		name = "堕天之柱",
+		name = "ピラー・オブ・シン",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2973,7 +2973,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90767] = {
 		cannon = 0,
-		name = "华盛顿",
+		name = "ワシントン",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3120,7 +3120,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90768] = {
 		cannon = 0,
-		name = "南达科他",
+		name = "サウスダコタ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3267,7 +3267,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90769] = {
 		cannon = 0,
-		name = "安德烈亚·多利亚",
+		name = "アンドレア・ドーリア",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3423,7 +3423,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90770] = {
 		cannon = 0,
-		name = "阿蒂利奥·雷戈洛",
+		name = "アッティリオ・レゴロ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3579,7 +3579,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90771] = {
 		cannon = 0,
-		name = "戈里齐亚",
+		name = "ゴリツィア",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3735,7 +3735,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90772] = {
 		cannon = 0,
-		name = "爪子",
+		name = "カニツメ",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3881,7 +3881,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90773] = {
 		cannon = 0,
-		name = "南梦芽",
+		name = "南夢芽",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4179,7 +4179,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90775] = {
 		cannon = 0,
-		name = "新条茜",
+		name = "新条アカネ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4328,7 +4328,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90776] = {
 		cannon = 0,
-		name = "公主",
+		name = "ひめ",
 		type = 15,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4484,7 +4484,7 @@ pg.enemy_data_statistics_25 = {
 	},
 	[90777] = {
 		cannon = 0,
-		name = "第二代",
+		name = "2代目",
 		type = 10,
 		speed_growth = 0,
 		air_growth = 0,

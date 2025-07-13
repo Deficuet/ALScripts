@@ -109,6 +109,8 @@ function var_0_0.Type2BattlePrint(arg_3_0)
 			"battle_zhanlie",
 			"battle_hangmu",
 			"battle_zhanlie",
+			"battle_hangmu",
+			"battle_zhanlie",
 			"battle_weixiu",
 			"battle_zhanlie",
 			"battle_quzhu",

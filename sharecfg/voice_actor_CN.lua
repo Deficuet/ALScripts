@@ -2,11 +2,11 @@ pg = pg or {}
 pg.voice_actor_CN = {
 	{
 		code = 1,
-		actor_name = "Maia"
+		actor_name = "マイア"
 	},
 	{
 		code = 2,
-		actor_name = "杉冈洋美"
+		actor_name = "杉岡洋美"
 	},
 	{
 		code = 3,
@@ -14,15 +14,15 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 4,
-		actor_name = "绫宫由希子"
+		actor_name = "綾宮由希子"
 	},
 	{
 		code = 5,
-		actor_name = "伊藤明日香"
+		actor_name = "伊藤あすか"
 	},
 	{
 		code = 6,
-		actor_name = "雨宫天"
+		actor_name = "雨宮天"
 	},
 	{
 		code = 7,
@@ -34,11 +34,11 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 9,
-		actor_name = "茅野爱衣"
+		actor_name = "茅野愛衣"
 	},
 	{
 		code = 10,
-		actor_name = "吉冈香织"
+		actor_name = "吉岡香織"
 	},
 	{
 		code = 11,
@@ -46,19 +46,19 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 12,
-		actor_name = "桥本千波"
+		actor_name = "橋本ちなみ"
 	},
 	{
 		code = 13,
-		actor_name = "桑原由气"
+		actor_name = "桑原由気"
 	},
 	{
 		code = 14,
-		actor_name = "五十岚裕美"
+		actor_name = "五十嵐裕美"
 	},
 	{
 		code = 15,
-		actor_name = "御手洗果林"
+		actor_name = "御手洗かりん"
 	},
 	{
 		code = 16,
@@ -70,23 +70,23 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 18,
-		actor_name = "高田忧希"
+		actor_name = "高田憂希"
 	},
 	{
 		code = 19,
-		actor_name = "黑泽朋世"
+		actor_name = "黒沢ともよ"
 	},
 	{
 		code = 20,
-		actor_name = "佐久间比吕美"
+		actor_name = "佐久間比呂美"
 	},
 	{
 		code = 21,
-		actor_name = "佐仓绫音"
+		actor_name = "佐倉綾音"
 	},
 	{
 		code = 22,
-		actor_name = "三宅麻理惠"
+		actor_name = "三宅麻理恵"
 	},
 	{
 		code = 23,
@@ -98,23 +98,23 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 25,
-		actor_name = "篠原成美"
+		actor_name = "篠原なるみ"
 	},
 	{
 		code = 26,
-		actor_name = "篠田南"
+		actor_name = "篠田みなみ"
 	},
 	{
 		code = 27,
-		actor_name = "小泉乔生"
+		actor_name = "小泉喬生"
 	},
 	{
 		code = 28,
-		actor_name = "上坂堇"
+		actor_name = "上坂すみれ"
 	},
 	{
 		code = 29,
-		actor_name = "森田皐月"
+		actor_name = "森田さつき"
 	},
 	{
 		code = 30,
@@ -126,11 +126,11 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 32,
-		actor_name = "大地叶"
+		actor_name = "大地葉"
 	},
 	{
 		code = 33,
-		actor_name = "丹下樱"
+		actor_name = "丹下桜"
 	},
 	{
 		code = 34,
@@ -138,7 +138,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 35,
-		actor_name = "长绳麻理亚"
+		actor_name = "長縄まりあ"
 	},
 	{
 		code = 36,
@@ -150,7 +150,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 38,
-		actor_name = "福原绫香"
+		actor_name = "福原綾香"
 	},
 	{
 		code = 39,
@@ -158,19 +158,19 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 40,
-		actor_name = "堀笼沙耶"
+		actor_name = "堀籠沙耶"
 	},
 	{
 		code = 41,
-		actor_name = "野方小春"
+		actor_name = "野方こはる"
 	},
 	{
 		code = 42,
-		actor_name = "优木加奈"
+		actor_name = "優木かな"
 	},
 	{
 		code = 43,
-		actor_name = "hanser"
+		actor_name = "hancer"
 	},
 	{
 		code = 44,
@@ -182,11 +182,11 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 46,
-		actor_name = "种田梨沙"
+		actor_name = "種田梨沙"
 	},
 	{
 		code = 47,
-		actor_name = "大原沙耶香"
+		actor_name = "大原さやか"
 	},
 	{
 		code = 48,
@@ -198,7 +198,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 50,
-		actor_name = "佳村遥"
+		actor_name = "佳村はるか"
 	},
 	{
 		code = 51,
@@ -210,11 +210,11 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 53,
-		actor_name = "铃木实里"
+		actor_name = "鈴木みのり"
 	},
 	{
 		code = 54,
-		actor_name = "佐佐木望"
+		actor_name = "ささきのぞみ"
 	},
 	{
 		code = 55,
@@ -222,7 +222,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 56,
-		actor_name = "石见舞菜香"
+		actor_name = "石見舞菜香"
 	},
 	{
 		code = 57,
@@ -230,7 +230,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 58,
-		actor_name = "高桥智秋"
+		actor_name = "たかはし智秋"
 	},
 	{
 		code = 59,
@@ -238,11 +238,11 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 60,
-		actor_name = "茅原实里"
+		actor_name = "茅原実里"
 	},
 	{
 		code = 61,
-		actor_name = "山冈百合"
+		actor_name = "山岡ゆり"
 	},
 	{
 		code = 62,
@@ -250,7 +250,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 63,
-		actor_name = "铃木绘理"
+		actor_name = "鈴木絵理"
 	},
 	{
 		code = 64,
@@ -262,7 +262,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 66,
-		actor_name = "木户衣吹"
+		actor_name = "木戸衣吹"
 	},
 	{
 		code = 67,
@@ -270,11 +270,11 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 68,
-		actor_name = "渡边明乃"
+		actor_name = "渡辺明乃"
 	},
 	{
 		code = 69,
-		actor_name = "上原明里"
+		actor_name = "上原あかり"
 	},
 	{
 		code = 70,
@@ -282,7 +282,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 71,
-		actor_name = "小清水亚美"
+		actor_name = "小清水亜美"
 	},
 	{
 		code = 72,
@@ -290,7 +290,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 73,
-		actor_name = "内山夕实"
+		actor_name = "内山夕実"
 	},
 	{
 		code = 74,
@@ -298,7 +298,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 75,
-		actor_name = "后藤邑子"
+		actor_name = "後藤邑子"
 	},
 	{
 		code = 76,
@@ -310,11 +310,11 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 78,
-		actor_name = "小野凉子"
+		actor_name = "小野涼子"
 	},
 	{
 		code = 79,
-		actor_name = "田中理惠"
+		actor_name = "田中理恵"
 	},
 	{
 		code = 80,
@@ -326,27 +326,27 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 82,
-		actor_name = "鬼头明里"
+		actor_name = "鬼頭明里"
 	},
 	{
 		code = 83,
-		actor_name = "小仓唯"
+		actor_name = "小倉唯"
 	},
 	{
 		code = 84,
-		actor_name = "根本流风"
+		actor_name = "根本流風"
 	},
 	{
 		code = 85,
-		actor_name = "沼仓爱美"
+		actor_name = "沼倉愛美"
 	},
 	{
 		code = 86,
-		actor_name = "诹访彩花"
+		actor_name = "諏訪彩花"
 	},
 	{
 		code = 87,
-		actor_name = "大西沙织"
+		actor_name = "大西沙織"
 	},
 	{
 		code = 88,
@@ -354,11 +354,11 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 89,
-		actor_name = "钉宫理惠"
+		actor_name = "釘宮理恵"
 	},
 	{
 		code = 90,
-		actor_name = "榊原由依 "
+		actor_name = "榊原ゆい"
 	},
 	{
 		code = 91,
@@ -366,7 +366,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 92,
-		actor_name = "花守由美里"
+		actor_name = "花守ゆみり"
 	},
 	{
 		code = 93,
@@ -374,15 +374,15 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 94,
-		actor_name = "中村绘里子"
+		actor_name = "中村繪里子"
 	},
 	{
 		code = 95,
-		actor_name = "春村奈奈"
+		actor_name = "春村奈々"
 	},
 	{
 		code = 96,
-		actor_name = "新名彩乃 "
+		actor_name = "新名彩乃"
 	},
 	{
 		code = 97,
@@ -402,39 +402,39 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 101,
-		actor_name = "伊濑茉莉也"
+		actor_name = "伊瀬茉莉也"
 	},
 	{
 		code = 102,
-		actor_name = "高柳知叶"
+		actor_name = "高柳知葉"
 	},
 	{
 		code = 103,
-		actor_name = "井泽美香子"
+		actor_name = "井澤美香子"
 	},
 	{
 		code = 104,
-		actor_name = "泽城美雪 "
+		actor_name = "沢城みゆき"
 	},
 	{
 		code = 105,
-		actor_name = "长妻树里"
+		actor_name = "長妻樹里"
 	},
 	{
 		code = 106,
-		actor_name = "濑户麻沙美"
+		actor_name = "瀬戸麻沙美"
 	},
 	{
 		code = 107,
-		actor_name = "福圆美里"
+		actor_name = "福圓美里"
 	},
 	{
 		code = 108,
-		actor_name = "上田丽奈"
+		actor_name = "上田麗奈"
 	},
 	{
 		code = 109,
-		actor_name = "佐藤聪美"
+		actor_name = "佐藤聡美"
 	},
 	{
 		code = 110,
@@ -442,19 +442,19 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 111,
-		actor_name = "上仓万实"
+		actor_name = "上倉万実"
 	},
 	{
 		code = 112,
-		actor_name = "日冈夏海"
+		actor_name = "日岡なつみ"
 	},
 	{
 		code = 113,
-		actor_name = "下屋则子"
+		actor_name = "下屋則子"
 	},
 	{
 		code = 114,
-		actor_name = "日笠阳子"
+		actor_name = "日笠陽子"
 	},
 	{
 		code = 115,
@@ -466,7 +466,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 117,
-		actor_name = "小泽亚李"
+		actor_name = "小澤亜李"
 	},
 	{
 		code = 118,
@@ -482,23 +482,23 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 121,
-		actor_name = "石原夏织"
+		actor_name = "石原夏織"
 	},
 	{
 		code = 122,
-		actor_name = "稻村优奈"
+		actor_name = "稲村優奈"
 	},
 	{
 		code = 123,
-		actor_name = "大桥彩香"
+		actor_name = "大橋彩香"
 	},
 	{
 		code = 124,
-		actor_name = "长谷川明子"
+		actor_name = "長谷川明子"
 	},
 	{
 		code = 125,
-		actor_name = "樱咲千依"
+		actor_name = "桜咲千依"
 	},
 	{
 		code = 126,
@@ -506,23 +506,23 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 127,
-		actor_name = "原田彩枫"
+		actor_name = "原田彩楓"
 	},
 	{
 		code = 128,
-		actor_name = "松浦知惠"
+		actor_name = "松浦チエ"
 	},
 	{
 		code = 129,
-		actor_name = "楠木灯"
+		actor_name = "楠木ともり"
 	},
 	{
 		code = 130,
-		actor_name = "山崎遥"
+		actor_name = "山崎はるか"
 	},
 	{
 		code = 131,
-		actor_name = "高桥李依"
+		actor_name = "高橋李依"
 	},
 	{
 		code = 132,
@@ -538,11 +538,11 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 135,
-		actor_name = "苍乃辉"
+		actor_name = "蒼乃輝"
 	},
 	{
 		code = 136,
-		actor_name = "吉田圣子"
+		actor_name = "吉田聖子"
 	},
 	{
 		code = 137,
@@ -550,15 +550,15 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 138,
-		actor_name = "斋藤千和"
+		actor_name = "斎藤千和"
 	},
 	{
 		code = 139,
-		actor_name = "阳向溜"
+		actor_name = "ひなたたまり"
 	},
 	{
 		code = 140,
-		actor_name = "八卷安奈"
+		actor_name = "八巻 アンナ"
 	},
 	{
 		code = 141,
@@ -582,11 +582,11 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 146,
-		actor_name = "种崎敦美"
+		actor_name = "種﨑敦美"
 	},
 	{
 		code = 147,
-		actor_name = "伊波杏树"
+		actor_name = "伊波杏樹"
 	},
 	{
 		code = 148,
@@ -594,11 +594,11 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 149,
-		actor_name = "水桥香织"
+		actor_name = "水橋かおり"
 	},
 	{
 		code = 150,
-		actor_name = "后藤沙绪里"
+		actor_name = "後藤沙緒里"
 	},
 	{
 		code = 151,
@@ -606,7 +606,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 152,
-		actor_name = "末柄里惠"
+		actor_name = "末柄里恵"
 	},
 	{
 		code = 153,
@@ -618,27 +618,27 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 155,
-		actor_name = "礒部花凛"
+		actor_name = "礒部花凜"
 	},
 	{
 		code = 156,
-		actor_name = "仪武佑子"
+		actor_name = "儀武ゆう子"
 	},
 	{
 		code = 157,
-		actor_name = "水濑祈"
+		actor_name = "水瀬いのり"
 	},
 	{
 		code = 158,
-		actor_name = "后藤麻衣"
+		actor_name = "後藤麻衣"
 	},
 	{
 		code = 159,
-		actor_name = "椎名碧流"
+		actor_name = "椎名へきる"
 	},
 	{
 		code = 160,
-		actor_name = "浅仓杏美"
+		actor_name = "浅倉杏美"
 	},
 	{
 		code = 161,
@@ -646,11 +646,11 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 162,
-		actor_name = "斋藤绫"
+		actor_name = "齋藤綾"
 	},
 	{
 		code = 163,
-		actor_name = "洲崎绫"
+		actor_name = "洲崎綾"
 	},
 	{
 		code = 164,
@@ -658,11 +658,11 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 165,
-		actor_name = "田边留依"
+		actor_name = "田辺留依"
 	},
 	{
 		code = 166,
-		actor_name = "大龟明日香"
+		actor_name = "大亀あすか"
 	},
 	{
 		code = 167,
@@ -670,7 +670,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 168,
-		actor_name = "诸星堇"
+		actor_name = "諸星すみれ"
 	},
 	{
 		code = 169,
@@ -682,11 +682,11 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 171,
-		actor_name = "藤沢玲香"
+		actor_name = "藤沢れい香"
 	},
 	{
 		code = 172,
-		actor_name = "河濑茉希"
+		actor_name = "河瀬茉希"
 	},
 	{
 		code = 173,
@@ -702,19 +702,19 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 176,
-		actor_name = "绊爱"
+		actor_name = "キズナアイ"
 	},
 	{
 		code = 177,
-		actor_name = "嵩马美步"
+		actor_name = "嵩馬美歩"
 	},
 	{
 		code = 178,
-		actor_name = "岛袋美由利"
+		actor_name = "島袋美由利"
 	},
 	{
 		code = 179,
-		actor_name = "市之濑加那"
+		actor_name = "市ノ瀬加那"
 	},
 	{
 		code = 180,
@@ -722,7 +722,7 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 181,
-		actor_name = "和气杏未"
+		actor_name = "和氣あず未"
 	},
 	{
 		code = 182,
@@ -730,23 +730,23 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 183,
-		actor_name = "川澄绫子"
+		actor_name = "川澄綾子"
 	},
 	{
 		code = 184,
-		actor_name = "结名美月"
+		actor_name = "結名美月"
 	},
 	{
 		code = 185,
-		actor_name = "原纱友里"
+		actor_name = "原紗友里"
 	},
 	{
 		code = 186,
-		actor_name = "柳原可奈子"
+		actor_name = "柳原かなこ"
 	},
 	{
 		code = 187,
-		actor_name = "真野步"
+		actor_name = "真野あゆみ"
 	},
 	{
 		code = 188,
@@ -754,1117 +754,1029 @@ pg.voice_actor_CN = {
 	},
 	{
 		code = 189,
-		actor_name = "铃代纱弓"
+		actor_name = "鈴代紗弓"
 	},
 	{
 		code = 190,
-		actor_name = "山村响"
+		actor_name = "山村響"
 	},
 	{
 		code = 191,
-		actor_name = "高桥未奈美"
+		actor_name = "高橋ミナミ"
 	},
 	{
 		code = 192,
 		actor_name = "能登麻美子"
 	},
-	{
-		code = 193,
-		actor_name = "唐雅菁"
-	},
-	{
-		code = 194,
-		actor_name = "小N"
-	},
-	{
-		code = 195,
-		actor_name = "花玲"
-	},
-	{
-		code = 196,
-		actor_name = "王晓彤"
-	},
-	{
-		code = 197,
-		actor_name = "杜冥鸦"
-	},
-	{
+	[198] = {
 		code = 198,
-		actor_name = "大桥歩夕"
+		actor_name = "大橋歩夕"
 	},
-	{
+	[199] = {
 		code = 199,
-		actor_name = "久保由利香"
+		actor_name = "久保ユリカ"
 	},
-	{
+	[200] = {
 		code = 200,
-		actor_name = "长谷川里桃"
+		actor_name = "長谷川里桃"
 	},
-	{
+	[201] = {
 		code = 201,
 		actor_name = "清水彩香"
 	},
-	{
+	[202] = {
 		code = 202,
-		actor_name = "立花理香 "
+		actor_name = "立花理香"
 	},
-	{
+	[203] = {
 		code = 203,
-		actor_name = "渡部纱弓 "
+		actor_name = "渡部紗弓"
 	},
-	{
+	[204] = {
 		code = 204,
-		actor_name = "金子彩花 "
+		actor_name = "金子彩花"
 	},
-	{
+	[205] = {
 		code = 205,
 		actor_name = "紫苑雪"
 	},
-	{
+	[206] = {
 		code = 206,
-		actor_name = "白上吹雪"
+		actor_name = "白上フブキ"
 	},
-	{
+	[207] = {
 		code = 207,
-		actor_name = "夏色祭"
+		actor_name = "夏色まつり"
 	},
-	{
+	[208] = {
 		code = 208,
-		actor_name = "湊阿库娅"
+		actor_name = "湊あくあ"
 	},
-	{
+	[209] = {
 		code = 209,
-		actor_name = "大神澪"
+		actor_name = "大神ミオ"
 	},
-	{
+	[210] = {
 		code = 210,
-		actor_name = "百鬼绫目"
+		actor_name = "百鬼 あやめ"
 	},
-	{
+	[211] = {
 		code = 211,
-		actor_name = "时乃空"
+		actor_name = "ときのそら"
 	},
-	{
+	[212] = {
 		code = 212,
-		actor_name = "紫咲诗音"
+		actor_name = "紫咲シオン"
 	},
-	{
+	[213] = {
 		code = 213,
-		actor_name = "岩仓梓"
+		actor_name = "岩倉あずさ"
 	},
-	{
+	[214] = {
 		code = 214,
-		actor_name = "矢作纱友里"
+		actor_name = "矢作紗友里"
 	},
-	{
+	[215] = {
 		code = 215,
-		actor_name = "远藤绫"
+		actor_name = "遠藤綾"
 	},
-	{
+	[216] = {
 		code = 216,
-		actor_name = "武田麻里子"
+		actor_name = "たけだまりこ"
 	},
-	{
+	[217] = {
 		code = 217,
 		actor_name = "小松郁"
 	},
-	{
+	[218] = {
 		code = 218,
-		actor_name = "桃河里香"
+		actor_name = "桃河りか"
 	},
-	{
+	[219] = {
 		code = 219,
-		actor_name = "吉冈麻耶"
+		actor_name = "吉岡麻耶"
 	},
-	{
+	[220] = {
 		code = 220,
-		actor_name = "井泽诗织"
+		actor_name = "井澤詩織"
 	},
-	{
+	[221] = {
 		code = 221,
-		actor_name = "都丸千代"
+		actor_name = "都丸ちよ"
 	},
-	{
+	[222] = {
 		code = 222,
-		actor_name = "绪乃冬华"
+		actor_name = "緒乃冬華"
 	},
-	{
+	[223] = {
 		code = 223,
-		actor_name = "田泽茉纯"
+		actor_name = "田澤茉純"
 	},
-	{
+	[224] = {
 		code = 224,
-		actor_name = "中村樱"
+		actor_name = "中村桜"
 	},
-	{
+	[225] = {
 		code = 225,
-		actor_name = "法伊鲁兹·爱"
+		actor_name = "ファイルーズあい"
 	},
-	{
+	[226] = {
 		code = 226,
-		actor_name = "长谷川育美"
+		actor_name = "長谷川育美"
 	},
-	{
+	[227] = {
 		code = 227,
 		actor_name = "首藤志奈"
 	},
-	{
+	[228] = {
 		code = 228,
-		actor_name = "原优子"
+		actor_name = "原優子"
 	},
-	{
+	[229] = {
 		code = 229,
-		actor_name = "冈咲美保"
+		actor_name = "岡咲美保"
 	},
-	{
+	[230] = {
 		code = 230,
-		actor_name = "武田罗梨沙多胡"
+		actor_name = "武田羅梨沙多胡"
 	},
-	{
+	[231] = {
 		code = 231,
-		actor_name = "川崎芽衣子"
+		actor_name = "川﨑芽衣子"
 	},
-	{
+	[232] = {
 		code = 232,
-		actor_name = "黑木穗乃香"
+		actor_name = "黒木ほの香"
 	},
-	{
+	[233] = {
 		code = 233,
-		actor_name = "明日叶yomogi"
+		actor_name = "明日葉よもぎ"
 	},
-	{
+	[234] = {
 		code = 234,
-		actor_name = "幸村惠理"
+		actor_name = "幸村恵理"
 	},
-	{
+	[235] = {
 		code = 235,
-		actor_name = "高野麻美"
+		actor_name = "髙野麻美"
 	},
-	{
+	[236] = {
 		code = 236,
 		actor_name = "甲斐田裕子"
 	},
-	{
+	[237] = {
 		code = 237,
-		actor_name = "松冈由贵"
+		actor_name = "松岡由貴"
 	},
-	{
+	[238] = {
 		code = 238,
 		actor_name = "牧野由依"
 	},
-	{
+	[239] = {
 		code = 239,
-		actor_name = "水泽史绘 "
+		actor_name = "水沢史絵"
 	},
-	{
+	[240] = {
 		code = 240,
 		actor_name = "西明日香"
 	},
-	{
+	[241] = {
 		code = 241,
 		actor_name = "大空直美"
 	},
-	{
+	[242] = {
 		code = 242,
 		actor_name = "田口宏子"
 	},
-	{
+	[243] = {
 		code = 243,
 		actor_name = "近藤玲奈"
 	},
-	{
+	[244] = {
 		code = 244,
-		actor_name = "关根瞳"
+		actor_name = "関根瞳"
 	},
-	{
+	[245] = {
 		code = 245,
-		actor_name = "小岩井小鸟"
+		actor_name = "小岩井ことり"
 	},
-	{
+	[246] = {
 		code = 246,
-		actor_name = "峰田茉优"
+		actor_name = "峯田茉優"
 	},
-	{
+	[247] = {
 		code = 247,
-		actor_name = "天野聪美"
+		actor_name = "天野聡美"
 	},
-	{
+	[248] = {
 		code = 248,
-		actor_name = "高桥春香"
+		actor_name = "高橋春香"
 	},
-	{
+	[249] = {
 		code = 249,
-		actor_name = "汐见雪菜"
+		actor_name = "汐見雪菜"
 	},
-	{
+	[250] = {
 		code = 250,
-		actor_name = "桑岛法子"
+		actor_name = "桑島法子"
 	},
-	{
+	[251] = {
 		code = 251,
-		actor_name = "野中蓝"
+		actor_name = "野中藍"
 	},
-	{
+	[252] = {
 		code = 252,
-		actor_name = "相泽舞"
+		actor_name = "相沢舞"
 	},
-	{
+	[253] = {
 		code = 253,
 		actor_name = "佐藤朱"
 	},
-	{
+	[254] = {
 		code = 254,
-		actor_name = "原由实"
+		actor_name = "原由実"
 	},
-	{
+	[255] = {
 		code = 255,
-		actor_name = "新田日和"
+		actor_name = "新田ひより"
 	},
-	{
+	[256] = {
 		code = 256,
-		actor_name = "七濑彩夏"
+		actor_name = "七瀬彩夏"
 	},
-	{
+	[257] = {
 		code = 257,
 		actor_name = "木村千咲"
 	},
-	{
+	[258] = {
 		code = 258,
-		actor_name = "远野光"
+		actor_name = "遠野ひかる"
 	},
-	{
+	[259] = {
 		code = 259,
-		actor_name = "西本里美"
+		actor_name = "西本りみ"
 	},
-	{
+	[260] = {
 		code = 260,
-		actor_name = "森嶋优花"
+		actor_name = "森嶋優花"
 	},
-	{
+	[261] = {
 		code = 261,
 		actor_name = "藤本彩花"
 	},
-	{
+	[262] = {
 		code = 262,
-		actor_name = "吉冈美咲"
+		actor_name = "吉岡美咲"
 	},
-	{
+	[263] = {
 		code = 263,
 		actor_name = "柿村桃希"
 	},
-	{
+	[264] = {
 		code = 264,
 		actor_name = "山田麻莉奈"
 	},
-	{
+	[265] = {
 		code = 265,
-		actor_name = "小坂井祐莉绘"
+		actor_name = "小坂井祐莉絵"
 	},
-	{
+	[266] = {
 		code = 266,
-		actor_name = "荻野叶月"
+		actor_name = "荻野葉月"
 	},
-	{
+	[267] = {
 		code = 267,
-		actor_name = "杉浦诗织"
+		actor_name = "杉浦しおり"
 	},
-	{
+	[268] = {
 		code = 268,
-		actor_name = "永野爱理"
+		actor_name = "永野愛理"
 	},
-	{
+	[269] = {
 		code = 269,
-		actor_name = "古贺葵"
+		actor_name = "古賀葵"
 	},
-	{
+	[270] = {
 		code = 270,
 		actor_name = "平田宏美"
 	},
-	{
+	[271] = {
 		code = 271,
-		actor_name = "田中贵子"
+		actor_name = "田中貴子"
 	},
-	{
+	[272] = {
 		code = 272,
-		actor_name = "本渡枫"
+		actor_name = "本渡楓"
 	},
-	{
+	[273] = {
 		code = 273,
-		actor_name = "富田美忧 "
+		actor_name = "富田美憂"
 	},
-	{
+	[274] = {
 		code = 274,
-		actor_name = "赤尾光"
+		actor_name = "赤尾ひかる"
 	},
-	{
+	[275] = {
 		code = 275,
-		actor_name = "岭内知美"
+		actor_name = "嶺内ともみ"
 	},
-	{
+	[276] = {
 		code = 276,
-		actor_name = "筱原侑"
+		actor_name = "篠原侑"
 	},
-	{
+	[277] = {
 		code = 277,
-		actor_name = "並木樱"
+		actor_name = "並木さくら"
 	},
-	{
+	[278] = {
 		code = 278,
-		actor_name = "美波和嘉菜"
+		actor_name = "美波わかな"
 	},
-	{
+	[279] = {
 		code = 279,
 		actor_name = "伊藤彩沙"
 	},
-	{
+	[280] = {
 		code = 280,
-		actor_name = "三泽纱千香"
+		actor_name = "三澤紗千香"
 	},
-	{
+	[281] = {
 		code = 281,
 		actor_name = "若林直美"
 	},
-	{
+	[282] = {
 		code = 282,
-		actor_name = "河野日和"
+		actor_name = "河野ひより"
 	},
-	{
+	[283] = {
 		code = 283,
-		actor_name = "凉本秋穗"
+		actor_name = "涼本あきほ"
 	},
-	{
+	[284] = {
 		code = 284,
-		actor_name = "早见沙织"
+		actor_name = "早見沙織"
 	},
-	{
+	[285] = {
 		code = 285,
 		actor_name = "河井晴菜"
 	},
-	{
+	[286] = {
 		code = 286,
-		actor_name = "户田惠"
+		actor_name = "戸田めぐみ"
 	},
-	{
+	[287] = {
 		code = 287,
 		actor_name = "野口瑠璃子"
 	},
-	{
+	[288] = {
 		code = 288,
-		actor_name = "芹泽优"
+		actor_name = "芹澤優"
 	},
-	{
+	[289] = {
 		code = 289,
 		actor_name = "藤原夏海"
 	},
-	{
+	[290] = {
 		code = 290,
 		actor_name = "藤井美波"
 	},
-	{
+	[291] = {
 		code = 291,
-		actor_name = "前田佳织里"
+		actor_name = "前田佳織里"
 	},
-	{
+	[292] = {
 		code = 292,
-		actor_name = "岛田爱野"
+		actor_name = "島田愛野 "
 	},
-	{
+	[293] = {
 		code = 293,
-		actor_name = "宫本侑芽"
+		actor_name = "宮本侑芽"
 	},
-	{
+	[294] = {
 		code = 294,
-		actor_name = "三森铃子"
+		actor_name = "三森すずこ"
 	},
-	{
+	[295] = {
 		code = 295,
-		actor_name = "若山诗音"
+		actor_name = "若山詩音"
 	},
-	{
+	[296] = {
 		code = 296,
-		actor_name = "安济知佳"
+		actor_name = "安済知佳"
 	},
-	{
+	[297] = {
 		code = 297,
 		actor_name = "原奈津子"
 	},
-	{
+	[298] = {
 		code = 298,
-		actor_name = "松田飒水"
+		actor_name = "松田颯水"
 	},
-	{
+	[299] = {
 		code = 299,
-		actor_name = "稗田宁宁"
+		actor_name = "稗田寧々"
 	},
-	{
+	[300] = {
 		code = 300,
-		actor_name = "野村真悠华"
+		actor_name = "野村真悠華"
 	},
-	{
+	[301] = {
 		code = 301,
-		actor_name = "伊达朱里纱"
+		actor_name = "伊達朱里紗"
 	},
-	{
+	[302] = {
 		code = 302,
-		actor_name = "风间万裕子"
+		actor_name = "風間万裕子"
 	},
-	{
+	[303] = {
 		code = 303,
-		actor_name = "绫濑有"
+		actor_name = "綾瀬有"
 	},
-	{
+	[304] = {
 		code = 304,
 		actor_name = "花井美春"
 	},
-	{
+	[305] = {
 		code = 305,
 		actor_name = "茜屋日海夏"
 	},
-	{
+	[306] = {
 		code = 306,
-		actor_name = "久保田未梦"
+		actor_name = "久保田未夢"
 	},
-	{
+	[307] = {
 		code = 307,
 		actor_name = "芝崎典子"
 	},
-	{
+	[308] = {
 		code = 308,
-		actor_name = "会泽纱弥"
+		actor_name = "会沢紗弥"
 	},
-	{
+	[309] = {
 		code = 309,
 		actor_name = "大森日雅"
 	},
-	{
+	[310] = {
 		code = 310,
-		actor_name = "井上穗乃花"
+		actor_name = "井上ほの花"
 	},
-	{
+	[311] = {
 		code = 311,
-		actor_name = "田中有纪"
+		actor_name = "田中有紀"
 	},
-	{
+	[312] = {
 		code = 312,
-		actor_name = "三上枝织"
+		actor_name = "三上枝織"
 	},
-	{
+	[313] = {
 		code = 313,
-		actor_name = "关根明良"
+		actor_name = "関根明良"
 	},
-	{
+	[314] = {
 		code = 314,
-		actor_name = "杉山里穗"
+		actor_name = "杉山里穂"
 	},
-	{
+	[315] = {
 		code = 315,
-		actor_name = "中岛由贵"
+		actor_name = "中島由貴"
 	},
-	{
+	[316] = {
 		code = 316,
-		actor_name = "佐藤美由希"
+		actor_name = "佐藤みゆ希"
 	},
-	{
+	[317] = {
 		code = 317,
 		actor_name = "伊藤美来"
 	},
-	{
+	[318] = {
 		code = 318,
-		actor_name = "早濑莉花"
+		actor_name = "早瀬莉花"
 	},
-	{
+	[319] = {
 		code = 319,
-		actor_name = "东城日沙子"
+		actor_name = "東城日沙子"
 	},
-	{
-		code = 320,
-		actor_name = "宴宁"
-	},
-	{
-		code = 321,
-		actor_name = "多多poi"
-	},
-	{
-		code = 322,
-		actor_name = "陈阳"
-	},
-	{
-		code = 323,
-		actor_name = "菊花花"
-	},
-	{
-		code = 324,
-		actor_name = "龟娘"
-	},
-	{
+	[325] = {
 		code = 325,
-		actor_name = "辻步美"
+		actor_name = "辻あゆみ"
 	},
-	{
+	[326] = {
 		code = 326,
-		actor_name = "藤井雪代"
+		actor_name = "藤井ゆきよ"
 	},
-	{
+	[327] = {
 		code = 327,
-		actor_name = "村上真夏"
+		actor_name = "村上まなつ"
 	},
-	{
+	[328] = {
 		code = 328,
-		actor_name = "麻仓桃"
+		actor_name = "麻倉もも"
 	},
-	{
+	[329] = {
 		code = 329,
-		actor_name = "柚木凉香"
+		actor_name = "柚木涼香"
 	},
-	{
+	[330] = {
 		code = 330,
 		actor_name = "千本木彩花"
 	},
-	{
+	[331] = {
 		code = 331,
 		actor_name = "近藤唯"
 	},
-	{
+	[332] = {
 		code = 332,
-		actor_name = "丸冈和佳奈"
+		actor_name = "丸岡和佳奈"
 	},
-	{
+	[333] = {
 		code = 333,
-		actor_name = "指出毬亚"
+		actor_name = "指出毬亜"
 	},
-	{
+	[334] = {
 		code = 334,
-		actor_name = "夏吉优子"
+		actor_name = "夏吉ゆうこ"
 	},
-	{
+	[335] = {
 		code = 335,
-		actor_name = "前川凉子"
+		actor_name = "前川涼子"
 	},
-	{
+	[336] = {
 		code = 336,
 		actor_name = "法元明菜"
 	},
-	{
+	[337] = {
 		code = 337,
-		actor_name = "爱美"
+		actor_name = "愛美"
 	},
-	{
+	[338] = {
 		code = 338,
-		actor_name = "大木咲绘子"
+		actor_name = "大木咲絵子"
 	},
-	{
+	[339] = {
 		code = 339,
-		actor_name = "饭田光"
+		actor_name = "飯田ヒカル"
 	},
-	{
+	[340] = {
 		code = 340,
-		actor_name = "铃木爱奈"
+		actor_name = "鈴木愛奈"
 	},
-	{
+	[341] = {
 		code = 341,
 		actor_name = "菱川花菜"
 	},
-	{
+	[342] = {
 		code = 342,
 		actor_name = "和多田美咲"
 	},
-	{
+	[343] = {
 		code = 343,
-		actor_name = "相良茉优"
+		actor_name = "相良茉優"
 	},
-	{
+	[344] = {
 		code = 344,
-		actor_name = "白城奈央"
+		actor_name = "白城なお"
 	},
-	{
+	[345] = {
 		code = 345,
 		actor_name = "木野日菜"
 	},
-	{
+	[346] = {
 		code = 346,
-		actor_name = "田中爱美"
+		actor_name = "田中あいみ"
 	},
-	{
+	[347] = {
 		code = 347,
-		actor_name = "田中那实"
+		actor_name = "田中那実"
 	},
-	{
+	[348] = {
 		code = 348,
-		actor_name = "野口百合"
+		actor_name = "のぐちゆり"
 	},
-	{
+	[349] = {
 		code = 349,
 		actor_name = "照井春佳"
 	},
-	{
+	[350] = {
 		code = 350,
-		actor_name = "羊宫妃那"
+		actor_name = "羊宮妃那"
 	},
-	{
+	[351] = {
 		code = 351,
 		actor_name = "土屋李央"
 	},
-	{
+	[352] = {
 		code = 352,
-		actor_name = "村上奈津实"
+		actor_name = "村上奈津実"
 	},
-	{
+	[353] = {
 		code = 353,
-		actor_name = "田中千惠美"
+		actor_name = "田中ちえ美"
 	},
-	{
+	[354] = {
 		code = 354,
-		actor_name = "贯井柚佳"
+		actor_name = "貫井柚佳"
 	},
-	{
-		code = 355,
-		actor_name = "张琦"
-	},
-	{
+	[356] = {
 		code = 356,
-		actor_name = "Yukana"
+		actor_name = "ゆかな"
 	},
-	{
+	[357] = {
 		code = 357,
 		actor_name = "高木美佑"
 	},
-	{
+	[358] = {
 		code = 358,
-		actor_name = "樱庭有纱"
+		actor_name = "櫻庭有紗"
 	},
-	{
+	[359] = {
 		code = 359,
-		actor_name = "进藤天音"
+		actor_name = "進藤あまね"
 	},
-	{
+	[360] = {
 		code = 360,
-		actor_name = "春花兰"
+		actor_name = "春花らん"
 	},
-	{
+	[361] = {
 		code = 361,
 		actor_name = "衣川里佳"
 	},
-	{
+	[362] = {
 		code = 362,
-		actor_name = "冰青"
+		actor_name = "氷青"
 	},
-	{
+	[363] = {
 		code = 363,
-		actor_name = "爱原亚里沙"
+		actor_name = "愛原ありさ"
 	},
-	{
+	[364] = {
 		code = 364,
 		actor_name = "春野杏"
 	},
-	{
+	[365] = {
 		code = 365,
-		actor_name = "香月遥"
+		actor_name = "香月はるか"
 	},
-	{
-		code = 366,
-		actor_name = "村雨"
-	},
-	{
-		code = 367,
-		actor_name = "秦紫翼"
-	},
-	{
+	[368] = {
 		code = 368,
-		actor_name = "蓝原琴美"
+		actor_name = "藍原ことみ"
 	},
-	{
+	[369] = {
 		code = 369,
-		actor_name = "津田里穗"
+		actor_name = "津田里穂"
 	},
-	{
+	[370] = {
 		code = 370,
 		actor_name = "富士原晴乃"
 	},
-	{
+	[371] = {
 		code = 371,
 		actor_name = "青山吉能"
 	},
-	{
+	[372] = {
 		code = 372,
-		actor_name = "松井惠理子"
+		actor_name = "松井恵理子"
 	},
-	{
+	[373] = {
 		code = 373,
-		actor_name = "泽田姬"
+		actor_name = "澤田姫"
 	},
-	{
+	[374] = {
 		code = 374,
-		actor_name = "齐藤朱夏"
+		actor_name = "斉藤朱夏"
 	},
-	{
+	[375] = {
 		code = 375,
 		actor_name = "守屋亨香"
 	},
-	{
+	[376] = {
 		code = 376,
-		actor_name = "高桥花林"
+		actor_name = "高橋花林"
 	},
-	{
+	[377] = {
 		code = 377,
 		actor_name = "天海由梨奈"
 	},
-	{
+	[378] = {
 		code = 378,
-		actor_name = "山根绮"
+		actor_name = "山根綺"
 	},
-	{
+	[379] = {
 		code = 379,
-		actor_name = "和泉风花"
+		actor_name = "和泉風花"
 	},
-	{
+	[380] = {
 		code = 380,
-		actor_name = "岩桥由佳"
+		actor_name = "岩橋由佳"
 	},
-	{
+	[381] = {
 		code = 381,
 		actor_name = "Machico"
 	},
-	{
+	[382] = {
 		code = 382,
-		actor_name = "野中深爱"
+		actor_name = "野中深愛"
 	},
-	{
+	[383] = {
 		code = 383,
-		actor_name = "仓持若菜"
+		actor_name = "倉持若菜"
 	},
-	{
+	[384] = {
 		code = 384,
-		actor_name = "HINATA YUKA"
+		actor_name = "陽向葵ゅか"
 	},
-	{
+	[385] = {
 		code = 385,
 		actor_name = "佐藤日向"
 	},
-	{
+	[386] = {
 		code = 386,
 		actor_name = "川口莉奈"
 	},
-	{
+	[387] = {
 		code = 387,
-		actor_name = "叶山郁美"
+		actor_name = "葉山いくみ"
 	},
-	{
+	[388] = {
 		code = 388,
-		actor_name = "原田瞳"
+		actor_name = "原田ひとみ"
 	},
-	{
+	[389] = {
 		code = 389,
-		actor_name = "各务华梨"
+		actor_name = "各務華梨"
 	},
-	{
+	[390] = {
 		code = 390,
-		actor_name = "佐伯伊织"
+		actor_name = "佐伯伊織"
 	},
-	{
+	[391] = {
 		code = 391,
-		actor_name = "深川瑠华"
+		actor_name = "深川瑠華"
 	},
-	{
+	[392] = {
 		code = 392,
 		actor_name = "依田菜津"
 	},
-	{
+	[393] = {
 		code = 393,
-		actor_name = "佐土原香织"
+		actor_name = "佐土原かおり"
 	},
-	{
+	[394] = {
 		code = 394,
-		actor_name = "又吉爱"
+		actor_name = "又吉愛"
 	},
-	{
+	[395] = {
 		code = 395,
-		actor_name = "佐佐木未来"
+		actor_name = "佐々木未来"
 	},
-	{
+	[396] = {
 		code = 396,
 		actor_name = "牧野天音"
 	},
-	{
+	[397] = {
 		code = 397,
-		actor_name = "羽月理惠"
+		actor_name = "羽月理恵"
 	},
-	{
+	[398] = {
 		code = 398,
-		actor_name = "户松遥"
+		actor_name = "戸松遥"
 	},
-	{
+	[399] = {
 		code = 399,
-		actor_name = "佳穗成美"
+		actor_name = "佳穂成美"
 	},
-	{
+	[400] = {
 		code = 400,
 		actor_name = "Marika"
 	},
-	{
+	[401] = {
 		code = 401,
-		actor_name = "西田望见"
+		actor_name = "西田望見"
 	},
-	{
+	[402] = {
 		code = 402,
 		actor_name = "岩井映美里"
 	},
-	{
+	[403] = {
 		code = 403,
 		actor_name = "真野美月"
 	},
-	{
+	[404] = {
 		code = 404,
-		actor_name = "佐仓薰"
+		actor_name = "佐倉薫"
 	},
-	{
+	[405] = {
 		code = 405,
-		actor_name = "丰崎爱生"
+		actor_name = "豊崎愛生"
 	},
-	{
+	[406] = {
 		code = 406,
-		actor_name = "日野麻里"
+		actor_name = "日野まり"
 	},
-	{
+	[407] = {
 		code = 407,
-		actor_name = "菊池纱矢香"
+		actor_name = "菊池紗矢香"
 	},
-	{
+	[408] = {
 		code = 408,
-		actor_name = "高岸美里亚"
+		actor_name = "高岸美里亜"
 	},
-	{
+	[409] = {
 		code = 409,
 		actor_name = "栗坂南美"
 	},
-	{
-		code = 410,
-		actor_name = "杨梦露"
-	},
-	{
-		code = 411,
-		actor_name = "陈雨"
-	},
-	{
-		code = 412,
-		actor_name = "四白"
-	},
-	{
-		code = 413,
-		actor_name = "陈婷婷"
-	},
-	{
-		code = 414,
-		actor_name = "刘雯"
-	},
-	{
+	[415] = {
 		code = 415,
-		actor_name = "鹫见友美Jiena"
+		actor_name = "鷲見友美ジェナ"
 	},
-	{
+	[416] = {
 		code = 416,
-		actor_name = "伊驹百合绘"
+		actor_name = "伊駒ゆりえ"
 	},
-	{
+	[417] = {
 		code = 417,
 		actor_name = "立花日菜"
 	},
-	{
+	[418] = {
 		code = 418,
-		actor_name = "潘惠美"
+		actor_name = "潘めぐみ"
 	},
-	{
+	[419] = {
 		code = 419,
-		actor_name = "宫咲明里"
+		actor_name = "宮咲あかり"
 	},
-	{
+	[420] = {
 		code = 420,
 		actor_name = "平山笑美"
 	},
-	{
+	[421] = {
 		code = 421,
-		actor_name = "齐藤佑圭"
+		actor_name = "斉藤佑圭"
 	},
-	{
+	[422] = {
 		code = 422,
-		actor_name = "小市真琴"
+		actor_name = "小市眞琴"
 	},
-	{
+	[423] = {
 		code = 423,
 		actor_name = "美坂朱音"
 	},
-	{
+	[424] = {
 		code = 424,
-		actor_name = "伊藤结衣奈"
+		actor_name = "伊藤ゆいな"
 	},
-	{
+	[425] = {
 		code = 425,
 		actor_name = "月城日花"
 	},
-	{
+	[426] = {
 		code = 426,
-		actor_name = "直田姬奈"
+		actor_name = "直田姫奈"
 	},
-	{
+	[427] = {
 		code = 427,
-		actor_name = "涩谷彩乃"
+		actor_name = "渋谷彩乃"
 	},
-	{
+	[428] = {
 		code = 428,
-		actor_name = "德井青空"
+		actor_name = "徳井青空"
 	},
-	{
+	[429] = {
 		code = 429,
-		actor_name = "柚木燕"
+		actor_name = "柚木つばめ"
 	},
-	{
+	[430] = {
 		code = 430,
-		actor_name = "稻垣好"
+		actor_name = "稲垣好"
 	},
-	{
+	[431] = {
 		code = 431,
 		actor_name = "十二稜子"
 	},
-	{
+	[432] = {
 		code = 432,
-		actor_name = "汐入明日香"
+		actor_name = "汐入あすか"
 	},
-	{
+	[433] = {
 		code = 433,
-		actor_name = "伊藤加奈惠"
+		actor_name = "伊藤かな恵"
 	},
-	{
+	[434] = {
 		code = 434,
-		actor_name = "名冢佳织"
+		actor_name = "名塚佳織"
 	},
-	{
+	[435] = {
 		code = 435,
-		actor_name = "恒松步"
+		actor_name = "恒松あゆみ"
 	},
-	{
+	[436] = {
 		code = 436,
 		actor_name = "新井里美"
 	},
-	{
+	[437] = {
 		code = 437,
 		actor_name = "菅野真衣"
 	},
-	{
+	[438] = {
 		code = 438,
-		actor_name = "寺泽百花"
+		actor_name = "寺澤百花"
 	},
-	{
+	[439] = {
 		code = 439,
 		actor_name = "水野朔"
 	},
-	{
+	[440] = {
 		code = 440,
-		actor_name = "咲川雏乃"
+		actor_name = "咲川ひなの"
 	},
-	{
+	[441] = {
 		code = 441,
 		actor_name = "朝井彩加"
 	},
-	{
+	[442] = {
 		code = 442,
-		actor_name = "结川麻希"
+		actor_name = "結川あさき"
 	},
-	{
+	[443] = {
 		code = 443,
 		actor_name = "藤本侑里"
 	},
-	{
+	[444] = {
 		code = 444,
-		actor_name = "永濑安娜"
+		actor_name = "永瀬アンナ"
 	},
-	{
+	[445] = {
 		code = 445,
-		actor_name = "平塚纱依"
+		actor_name = "平塚紗依"
 	},
-	{
+	[446] = {
 		code = 446,
 		actor_name = "橘杏咲"
 	},
-	{
+	[447] = {
 		code = 447,
 		actor_name = "花岩香奈"
 	},
-	{
+	[448] = {
 		code = 448,
 		actor_name = "寺崎裕香"
 	},
-	{
+	[449] = {
 		code = 449,
-		actor_name = "三川华月"
+		actor_name = "三川華月"
 	},
-	{
+	[450] = {
 		code = 450,
-		actor_name = "内田爱美"
+		actor_name = "内田愛美"
 	},
-	{
+	[451] = {
 		code = 451,
-		actor_name = "金泽舞"
+		actor_name = "金澤まい"
 	},
-	{
+	[452] = {
 		code = 452,
-		actor_name = "米泽圆"
+		actor_name = "米澤円"
 	},
-	{
+	[453] = {
 		code = 453,
 		actor_name = "薄井友里"
 	},
-	{
+	[454] = {
 		code = 454,
-		actor_name = "樱木tsugumi"
+		actor_name = "桜木つぐみ"
 	},
-	{
-		code = 455,
-		actor_name = "徐慧"
-	},
-	{
-		code = 456,
-		actor_name = "阿妄"
-	},
-	{
-		code = 457,
-		actor_name = "一口井"
-	},
-	{
-		code = 458,
-		actor_name = "葛子瑞"
-	},
-	{
+	[459] = {
 		code = 459,
-		actor_name = "花泽香菜"
+		actor_name = "花澤香菜"
 	},
-	{
+	[460] = {
 		code = 460,
-		actor_name = "广濑有纪 "
+		actor_name = "広瀬ゆうき"
 	},
-	{
+	[461] = {
 		code = 461,
-		actor_name = "葵梓 "
+		actor_name = "葵あずさ"
 	},
-	{
+	[462] = {
 		code = 462,
-		actor_name = "引坂理绘 "
+		actor_name = "引坂理絵"
 	},
-	{
+	[463] = {
 		code = 463,
 		actor_name = "井上喜久子"
 	},
-	{
+	[464] = {
 		code = 464,
-		actor_name = "伊濑茉莉也"
+		actor_name = "伊瀬茉莉也"
 	},
-	{
+	[465] = {
 		code = 465,
 		actor_name = "根本京里"
 	},
-	{
+	[466] = {
 		code = 466,
 		actor_name = "松田利冴"
 	},
-	{
+	[467] = {
 		code = 467,
 		actor_name = "春咲暖"
 	}

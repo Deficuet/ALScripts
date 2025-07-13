@@ -21,7 +21,7 @@ function var_0_0.OnUpdateFlush(arg_3_0)
 	local var_3_0 = #arg_3_0.activity:getConfig("config_data")
 
 	if arg_3_0.dayTF then
-		setText(arg_3_0.dayTF, arg_3_0.nday .. "/" .. var_3_0)
+		setText(arg_3_0.dayTF, arg_3_0.nday .. " / " .. var_3_0)
 	end
 
 	local var_3_1 = arg_3_0.activity:getConfig("config_client").story

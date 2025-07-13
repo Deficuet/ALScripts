@@ -3,7 +3,7 @@ pg.world_target_data = {
 	[1101] = {
 		id = 1101,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				1101,
@@ -15,7 +15,7 @@ pg.world_target_data = {
 	[1102] = {
 		id = 1102,
 		target_name = "深度压制",
-		target_desc = "调查19处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				1102,
@@ -27,7 +27,7 @@ pg.world_target_data = {
 	[1103] = {
 		id = 1103,
 		target_name = "完全压制",
-		target_desc = "击败15支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				1103,
@@ -39,7 +39,7 @@ pg.world_target_data = {
 	[1104] = {
 		id = 1104,
 		target_name = "初步探索",
-		target_desc = "使用2次塞壬信息收集装置",
+		target_desc = "情報収集装置を使用する",
 		condition = {
 			{
 				1104,
@@ -51,7 +51,7 @@ pg.world_target_data = {
 	[1105] = {
 		id = 1105,
 		target_name = "深度探索",
-		target_desc = "复位3次能源矩阵",
+		target_desc = "エネルギー供給装置を格納する",
 		condition = {
 			{
 				1105,
@@ -63,7 +63,7 @@ pg.world_target_data = {
 	[1201] = {
 		id = 1201,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				1201,
@@ -75,7 +75,7 @@ pg.world_target_data = {
 	[1202] = {
 		id = 1202,
 		target_name = "深度压制",
-		target_desc = "调查19处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				1202,
@@ -87,7 +87,7 @@ pg.world_target_data = {
 	[1203] = {
 		id = 1203,
 		target_name = "完全压制",
-		target_desc = "击败12支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				1203,
@@ -99,7 +99,7 @@ pg.world_target_data = {
 	[1204] = {
 		id = 1204,
 		target_name = "初步探索",
-		target_desc = "进行16次指挥喵物资搜寻",
+		target_desc = "オフニャサルベージを行う",
 		condition = {
 			{
 				1204,
@@ -111,7 +111,7 @@ pg.world_target_data = {
 	[1205] = {
 		id = 1205,
 		target_name = "深度探索",
-		target_desc = "遭遇2次神秘商人",
+		target_desc = "謎の商人と遭遇する",
 		condition = {
 			{
 				1205,
@@ -123,7 +123,7 @@ pg.world_target_data = {
 	[1301] = {
 		id = 1301,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				1301,
@@ -135,7 +135,7 @@ pg.world_target_data = {
 	[1302] = {
 		id = 1302,
 		target_name = "深度压制",
-		target_desc = "调查19处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				1302,
@@ -147,7 +147,7 @@ pg.world_target_data = {
 	[1303] = {
 		id = 1303,
 		target_name = "完全压制",
-		target_desc = "取得150场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				1303,
@@ -159,7 +159,7 @@ pg.world_target_data = {
 	[1304] = {
 		id = 1304,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				1304,
@@ -171,7 +171,7 @@ pg.world_target_data = {
 	[1305] = {
 		id = 1305,
 		target_name = "深度探索",
-		target_desc = "遭遇2次神秘商人",
+		target_desc = "謎の商人と遭遇する",
 		condition = {
 			{
 				1305,
@@ -183,7 +183,7 @@ pg.world_target_data = {
 	[1401] = {
 		id = 1401,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				1401,
@@ -195,7 +195,7 @@ pg.world_target_data = {
 	[1402] = {
 		id = 1402,
 		target_name = "深度压制",
-		target_desc = "取得48场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				1402,
@@ -207,7 +207,7 @@ pg.world_target_data = {
 	[1403] = {
 		id = 1403,
 		target_name = "完全压制",
-		target_desc = "调查48处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				1403,
@@ -219,7 +219,7 @@ pg.world_target_data = {
 	[1404] = {
 		id = 1404,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				1404,
@@ -231,7 +231,7 @@ pg.world_target_data = {
 	[1405] = {
 		id = 1405,
 		target_name = "深度探索",
-		target_desc = "使用6次塞壬探测装置",
+		target_desc = "走査装置を使用する",
 		condition = {
 			{
 				1405,
@@ -243,7 +243,7 @@ pg.world_target_data = {
 	[2101] = {
 		id = 2101,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				2101,
@@ -255,7 +255,7 @@ pg.world_target_data = {
 	[2102] = {
 		id = 2102,
 		target_name = "深度压制",
-		target_desc = "取得16场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				2102,
@@ -267,7 +267,7 @@ pg.world_target_data = {
 	[2103] = {
 		id = 2103,
 		target_name = "完全压制",
-		target_desc = "击败3支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				2103,
@@ -279,7 +279,7 @@ pg.world_target_data = {
 	[2104] = {
 		id = 2104,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				2104,
@@ -291,7 +291,7 @@ pg.world_target_data = {
 	[2105] = {
 		id = 2105,
 		target_name = "深度探索",
-		target_desc = "使用4次塞壬探测装置",
+		target_desc = "走査装置を使用する",
 		condition = {
 			{
 				2105,
@@ -303,7 +303,7 @@ pg.world_target_data = {
 	[2201] = {
 		id = 2201,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				2201,
@@ -315,7 +315,7 @@ pg.world_target_data = {
 	[2202] = {
 		id = 2202,
 		target_name = "深度压制",
-		target_desc = "取得16场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				2202,
@@ -327,7 +327,7 @@ pg.world_target_data = {
 	[2203] = {
 		id = 2203,
 		target_name = "完全压制",
-		target_desc = "调查7处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				2203,
@@ -339,7 +339,7 @@ pg.world_target_data = {
 	[2204] = {
 		id = 2204,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				2204,
@@ -351,7 +351,7 @@ pg.world_target_data = {
 	[2205] = {
 		id = 2205,
 		target_name = "深度探索",
-		target_desc = "遭遇2次神秘商人",
+		target_desc = "謎の商人と遭遇する",
 		condition = {
 			{
 				2205,
@@ -363,7 +363,7 @@ pg.world_target_data = {
 	[2301] = {
 		id = 2301,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				2301,
@@ -375,7 +375,7 @@ pg.world_target_data = {
 	[2302] = {
 		id = 2302,
 		target_name = "深度压制",
-		target_desc = "调查3处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				2302,
@@ -387,7 +387,7 @@ pg.world_target_data = {
 	[2303] = {
 		id = 2303,
 		target_name = "完全压制",
-		target_desc = "调查18处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				2303,
@@ -399,7 +399,7 @@ pg.world_target_data = {
 	[2304] = {
 		id = 2304,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				2304,
@@ -411,7 +411,7 @@ pg.world_target_data = {
 	[2305] = {
 		id = 2305,
 		target_name = "深度探索",
-		target_desc = "破坏2次塞壬海况控制器",
+		target_desc = "気象操作装置を破壊する",
 		condition = {
 			{
 				2305,
@@ -423,7 +423,7 @@ pg.world_target_data = {
 	[2401] = {
 		id = 2401,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				2401,
@@ -435,7 +435,7 @@ pg.world_target_data = {
 	[2402] = {
 		id = 2402,
 		target_name = "深度压制",
-		target_desc = "调查3处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				2402,
@@ -447,7 +447,7 @@ pg.world_target_data = {
 	[2403] = {
 		id = 2403,
 		target_name = "完全压制",
-		target_desc = "击败3支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				2403,
@@ -459,7 +459,7 @@ pg.world_target_data = {
 	[2404] = {
 		id = 2404,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				2404,
@@ -471,7 +471,7 @@ pg.world_target_data = {
 	[2405] = {
 		id = 2405,
 		target_name = "深度探索",
-		target_desc = "激活1次机关",
+		target_desc = "スイッチを起動する",
 		condition = {
 			{
 				2405,
@@ -483,7 +483,7 @@ pg.world_target_data = {
 	[2501] = {
 		id = 2501,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				2501,
@@ -495,7 +495,7 @@ pg.world_target_data = {
 	[2502] = {
 		id = 2502,
 		target_name = "深度压制",
-		target_desc = "调查5处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				2502,
@@ -507,7 +507,7 @@ pg.world_target_data = {
 	[2503] = {
 		id = 2503,
 		target_name = "完全压制",
-		target_desc = "取得60场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				2503,
@@ -519,7 +519,7 @@ pg.world_target_data = {
 	[2504] = {
 		id = 2504,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				2504,
@@ -531,7 +531,7 @@ pg.world_target_data = {
 	[2505] = {
 		id = 2505,
 		target_name = "深度探索",
-		target_desc = "进行10次指挥喵物资搜寻",
+		target_desc = "オフニャサルベージを行う",
 		condition = {
 			{
 				2505,
@@ -543,7 +543,7 @@ pg.world_target_data = {
 	[3101] = {
 		id = 3101,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				3101,
@@ -555,7 +555,7 @@ pg.world_target_data = {
 	[3102] = {
 		id = 3102,
 		target_name = "深度压制",
-		target_desc = "调查3处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				3102,
@@ -567,7 +567,7 @@ pg.world_target_data = {
 	[3103] = {
 		id = 3103,
 		target_name = "完全压制",
-		target_desc = "取得36场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				3103,
@@ -579,7 +579,7 @@ pg.world_target_data = {
 	[3104] = {
 		id = 3104,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				3104,
@@ -591,7 +591,7 @@ pg.world_target_data = {
 	[3105] = {
 		id = 3105,
 		target_name = "深度探索",
-		target_desc = "复位1次能源矩阵",
+		target_desc = "エネルギー供給装置を格納する",
 		condition = {
 			{
 				3105,
@@ -603,7 +603,7 @@ pg.world_target_data = {
 	[3201] = {
 		id = 3201,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				3201,
@@ -615,7 +615,7 @@ pg.world_target_data = {
 	[3202] = {
 		id = 3202,
 		target_name = "深度压制",
-		target_desc = "调查18处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				3202,
@@ -627,7 +627,7 @@ pg.world_target_data = {
 	[3203] = {
 		id = 3203,
 		target_name = "完全压制",
-		target_desc = "击败6支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				3203,
@@ -639,7 +639,7 @@ pg.world_target_data = {
 	[3204] = {
 		id = 3204,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				3204,
@@ -651,7 +651,7 @@ pg.world_target_data = {
 	[3205] = {
 		id = 3205,
 		target_name = "深度探索",
-		target_desc = "使用2次塞壬信息收集装置",
+		target_desc = "情報収集装置を使用する",
 		condition = {
 			{
 				3205,
@@ -663,7 +663,7 @@ pg.world_target_data = {
 	[3301] = {
 		id = 3301,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				3301,
@@ -675,7 +675,7 @@ pg.world_target_data = {
 	[3302] = {
 		id = 3302,
 		target_name = "深度压制",
-		target_desc = "调查18处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				3302,
@@ -687,7 +687,7 @@ pg.world_target_data = {
 	[3303] = {
 		id = 3303,
 		target_name = "完全压制",
-		target_desc = "取得60场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				3303,
@@ -699,7 +699,7 @@ pg.world_target_data = {
 	[3304] = {
 		id = 3304,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				3304,
@@ -711,7 +711,7 @@ pg.world_target_data = {
 	[3305] = {
 		id = 3305,
 		target_name = "深度探索",
-		target_desc = "使用6次塞壬探测装置",
+		target_desc = "走査装置を使用する",
 		condition = {
 			{
 				3305,
@@ -723,7 +723,7 @@ pg.world_target_data = {
 	[3401] = {
 		id = 3401,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				3401,
@@ -735,7 +735,7 @@ pg.world_target_data = {
 	[3402] = {
 		id = 3402,
 		target_name = "深度压制",
-		target_desc = "调查18处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				3402,
@@ -747,7 +747,7 @@ pg.world_target_data = {
 	[3403] = {
 		id = 3403,
 		target_name = "完全压制",
-		target_desc = "调查10处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				3403,
@@ -759,7 +759,7 @@ pg.world_target_data = {
 	[3404] = {
 		id = 3404,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				3404,
@@ -771,7 +771,7 @@ pg.world_target_data = {
 	[3405] = {
 		id = 3405,
 		target_name = "深度探索",
-		target_desc = "破坏2次塞壬海况控制器",
+		target_desc = "気象操作装置を破壊する",
 		condition = {
 			{
 				3405,
@@ -783,7 +783,7 @@ pg.world_target_data = {
 	[4101] = {
 		id = 4101,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				4101,
@@ -795,7 +795,7 @@ pg.world_target_data = {
 	[4102] = {
 		id = 4102,
 		target_name = "深度压制",
-		target_desc = "击败4支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				4102,
@@ -807,7 +807,7 @@ pg.world_target_data = {
 	[4103] = {
 		id = 4103,
 		target_name = "完全压制",
-		target_desc = "取得60场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				4103,
@@ -819,7 +819,7 @@ pg.world_target_data = {
 	[4104] = {
 		id = 4104,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				4104,
@@ -831,7 +831,7 @@ pg.world_target_data = {
 	[4105] = {
 		id = 4105,
 		target_name = "深度探索",
-		target_desc = "激活1次机关",
+		target_desc = "スイッチを起動する",
 		condition = {
 			{
 				4105,
@@ -843,7 +843,7 @@ pg.world_target_data = {
 	[4201] = {
 		id = 4201,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				4201,
@@ -855,7 +855,7 @@ pg.world_target_data = {
 	[4202] = {
 		id = 4202,
 		target_name = "深度压制",
-		target_desc = "取得48场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				4202,
@@ -867,7 +867,7 @@ pg.world_target_data = {
 	[4203] = {
 		id = 4203,
 		target_name = "完全压制",
-		target_desc = "击败8支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				4203,
@@ -879,7 +879,7 @@ pg.world_target_data = {
 	[4204] = {
 		id = 4204,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				4204,
@@ -891,7 +891,7 @@ pg.world_target_data = {
 	[4205] = {
 		id = 4205,
 		target_name = "深度探索",
-		target_desc = "破坏2次塞壬海况控制器",
+		target_desc = "気象操作装置を破壊する",
 		condition = {
 			{
 				4205,
@@ -903,7 +903,7 @@ pg.world_target_data = {
 	[4301] = {
 		id = 4301,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				4301,
@@ -915,7 +915,7 @@ pg.world_target_data = {
 	[4302] = {
 		id = 4302,
 		target_name = "深度压制",
-		target_desc = "调查8处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				4302,
@@ -927,7 +927,7 @@ pg.world_target_data = {
 	[4303] = {
 		id = 4303,
 		target_name = "完全压制",
-		target_desc = "击败3支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				4303,
@@ -939,7 +939,7 @@ pg.world_target_data = {
 	[4304] = {
 		id = 4304,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				4304,
@@ -951,7 +951,7 @@ pg.world_target_data = {
 	[4305] = {
 		id = 4305,
 		target_name = "深度探索",
-		target_desc = "击败1次强化型「棋子」伏击",
+		target_desc = "強化型艦隊の待ち伏せを撃退",
 		condition = {
 			{
 				4305,
@@ -963,7 +963,7 @@ pg.world_target_data = {
 	[4401] = {
 		id = 4401,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				4401,
@@ -975,7 +975,7 @@ pg.world_target_data = {
 	[4402] = {
 		id = 4402,
 		target_name = "深度压制",
-		target_desc = "取得16场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				4402,
@@ -987,7 +987,7 @@ pg.world_target_data = {
 	[4403] = {
 		id = 4403,
 		target_name = "完全压制",
-		target_desc = "调查18处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				4403,
@@ -999,7 +999,7 @@ pg.world_target_data = {
 	[4404] = {
 		id = 4404,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				4404,
@@ -1011,7 +1011,7 @@ pg.world_target_data = {
 	[4405] = {
 		id = 4405,
 		target_name = "深度探索",
-		target_desc = "使用2次塞壬信息收集装置",
+		target_desc = "情報収集装置を使用する",
 		condition = {
 			{
 				4405,
@@ -1023,7 +1023,7 @@ pg.world_target_data = {
 	[5101] = {
 		id = 5101,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				5101,
@@ -1035,7 +1035,7 @@ pg.world_target_data = {
 	[5102] = {
 		id = 5102,
 		target_name = "深度压制",
-		target_desc = "调查10处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				5102,
@@ -1047,7 +1047,7 @@ pg.world_target_data = {
 	[5103] = {
 		id = 5103,
 		target_name = "完全压制",
-		target_desc = "调查48处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				5103,
@@ -1059,7 +1059,7 @@ pg.world_target_data = {
 	[5104] = {
 		id = 5104,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				5104,
@@ -1071,7 +1071,7 @@ pg.world_target_data = {
 	[5105] = {
 		id = 5105,
 		target_name = "深度探索",
-		target_desc = "激活2次机关",
+		target_desc = "スイッチを起動する",
 		condition = {
 			{
 				5105,
@@ -1083,7 +1083,7 @@ pg.world_target_data = {
 	[5201] = {
 		id = 5201,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				5201,
@@ -1095,7 +1095,7 @@ pg.world_target_data = {
 	[5202] = {
 		id = 5202,
 		target_name = "深度压制",
-		target_desc = "调查10处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				5202,
@@ -1107,7 +1107,7 @@ pg.world_target_data = {
 	[5203] = {
 		id = 5203,
 		target_name = "完全压制",
-		target_desc = "击败8支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				5203,
@@ -1119,7 +1119,7 @@ pg.world_target_data = {
 	[5204] = {
 		id = 5204,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				5204,
@@ -1131,7 +1131,7 @@ pg.world_target_data = {
 	[5205] = {
 		id = 5205,
 		target_name = "深度探索",
-		target_desc = "复位2次能源矩阵",
+		target_desc = "エネルギー供給装置を格納する",
 		condition = {
 			{
 				5205,
@@ -1143,7 +1143,7 @@ pg.world_target_data = {
 	[5301] = {
 		id = 5301,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				5301,
@@ -1155,7 +1155,7 @@ pg.world_target_data = {
 	[5302] = {
 		id = 5302,
 		target_name = "深度压制",
-		target_desc = "调查10处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				5302,
@@ -1167,7 +1167,7 @@ pg.world_target_data = {
 	[5303] = {
 		id = 5303,
 		target_name = "完全压制",
-		target_desc = "取得96场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				5303,
@@ -1179,7 +1179,7 @@ pg.world_target_data = {
 	[5304] = {
 		id = 5304,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				5304,
@@ -1191,7 +1191,7 @@ pg.world_target_data = {
 	[5305] = {
 		id = 5305,
 		target_name = "深度探索",
-		target_desc = "击败2次强化型「棋子」伏击",
+		target_desc = "強化型艦隊の待ち伏せを撃退",
 		condition = {
 			{
 				5305,
@@ -1203,7 +1203,7 @@ pg.world_target_data = {
 	[5401] = {
 		id = 5401,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				5401,
@@ -1215,7 +1215,7 @@ pg.world_target_data = {
 	[5402] = {
 		id = 5402,
 		target_name = "深度压制",
-		target_desc = "调查24处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				5402,
@@ -1227,7 +1227,7 @@ pg.world_target_data = {
 	[5403] = {
 		id = 5403,
 		target_name = "完全压制",
-		target_desc = "击败8支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				5403,
@@ -1239,7 +1239,7 @@ pg.world_target_data = {
 	[5404] = {
 		id = 5404,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				5404,
@@ -1251,7 +1251,7 @@ pg.world_target_data = {
 	[5405] = {
 		id = 5405,
 		target_name = "深度探索",
-		target_desc = "完成4次物资打捞",
+		target_desc = "強化型艦隊が落とした資源を回収",
 		condition = {
 			{
 				5405,
@@ -1263,7 +1263,7 @@ pg.world_target_data = {
 	[6101] = {
 		id = 6101,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				6101,
@@ -1275,7 +1275,7 @@ pg.world_target_data = {
 	[6102] = {
 		id = 6102,
 		target_name = "深度压制",
-		target_desc = "调查24处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				6102,
@@ -1287,7 +1287,7 @@ pg.world_target_data = {
 	[6103] = {
 		id = 6103,
 		target_name = "完全压制",
-		target_desc = "取得96场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				6103,
@@ -1299,7 +1299,7 @@ pg.world_target_data = {
 	[6104] = {
 		id = 6104,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				6104,
@@ -1311,7 +1311,7 @@ pg.world_target_data = {
 	[6105] = {
 		id = 6105,
 		target_name = "深度探索",
-		target_desc = "进行10次指挥喵物资搜寻",
+		target_desc = "オフニャサルベージを行う",
 		condition = {
 			{
 				6105,
@@ -1323,7 +1323,7 @@ pg.world_target_data = {
 	[6201] = {
 		id = 6201,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				6201,
@@ -1335,7 +1335,7 @@ pg.world_target_data = {
 	[6202] = {
 		id = 6202,
 		target_name = "深度压制",
-		target_desc = "击败4支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				6202,
@@ -1347,7 +1347,7 @@ pg.world_target_data = {
 	[6203] = {
 		id = 6203,
 		target_name = "完全压制",
-		target_desc = "调查10处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				6203,
@@ -1359,7 +1359,7 @@ pg.world_target_data = {
 	[6204] = {
 		id = 6204,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				6204,
@@ -1371,7 +1371,7 @@ pg.world_target_data = {
 	[6205] = {
 		id = 6205,
 		target_name = "深度探索",
-		target_desc = "复位1次能源矩阵",
+		target_desc = "エネルギー供給装置を格納する",
 		condition = {
 			{
 				6205,
@@ -1383,7 +1383,7 @@ pg.world_target_data = {
 	[6301] = {
 		id = 6301,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				6301,
@@ -1395,7 +1395,7 @@ pg.world_target_data = {
 	[6302] = {
 		id = 6302,
 		target_name = "深度压制",
-		target_desc = "调查24处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				6302,
@@ -1407,7 +1407,7 @@ pg.world_target_data = {
 	[6303] = {
 		id = 6303,
 		target_name = "完全压制",
-		target_desc = "调查19处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				6303,
@@ -1419,7 +1419,7 @@ pg.world_target_data = {
 	[6304] = {
 		id = 6304,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				6304,
@@ -1431,7 +1431,7 @@ pg.world_target_data = {
 	[6305] = {
 		id = 6305,
 		target_name = "深度探索",
-		target_desc = "遭遇2次神秘商人",
+		target_desc = "謎の商人と遭遇する",
 		condition = {
 			{
 				6305,
@@ -1443,7 +1443,7 @@ pg.world_target_data = {
 	[6401] = {
 		id = 6401,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				6401,
@@ -1455,7 +1455,7 @@ pg.world_target_data = {
 	[6402] = {
 		id = 6402,
 		target_name = "深度压制",
-		target_desc = "击败6支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				6402,
@@ -1467,7 +1467,7 @@ pg.world_target_data = {
 	[6403] = {
 		id = 6403,
 		target_name = "完全压制",
-		target_desc = "取得96场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				6403,
@@ -1479,7 +1479,7 @@ pg.world_target_data = {
 	[6404] = {
 		id = 6404,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				6404,
@@ -1491,7 +1491,7 @@ pg.world_target_data = {
 	[6405] = {
 		id = 6405,
 		target_name = "深度探索",
-		target_desc = "使用2次塞壬信息收集装置",
+		target_desc = "情報収集装置を使用する",
 		condition = {
 			{
 				6405,
@@ -1503,7 +1503,7 @@ pg.world_target_data = {
 	[6501] = {
 		id = 6501,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				6501,
@@ -1515,7 +1515,7 @@ pg.world_target_data = {
 	[6502] = {
 		id = 6502,
 		target_name = "深度压制",
-		target_desc = "击败4支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				6502,
@@ -1527,7 +1527,7 @@ pg.world_target_data = {
 	[6503] = {
 		id = 6503,
 		target_name = "完全压制",
-		target_desc = "调查36处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				6503,
@@ -1539,7 +1539,7 @@ pg.world_target_data = {
 	[6504] = {
 		id = 6504,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				6504,
@@ -1551,7 +1551,7 @@ pg.world_target_data = {
 	[6505] = {
 		id = 6505,
 		target_name = "深度探索",
-		target_desc = "击败1次强化型「棋子」伏击",
+		target_desc = "強化型艦隊の待ち伏せを撃退",
 		condition = {
 			{
 				6505,
@@ -1563,7 +1563,7 @@ pg.world_target_data = {
 	[6601] = {
 		id = 6601,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				6601,
@@ -1575,7 +1575,7 @@ pg.world_target_data = {
 	[6602] = {
 		id = 6602,
 		target_name = "深度压制",
-		target_desc = "取得30场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				6602,
@@ -1587,7 +1587,7 @@ pg.world_target_data = {
 	[6603] = {
 		id = 6603,
 		target_name = "完全压制",
-		target_desc = "调查10处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				6603,
@@ -1599,7 +1599,7 @@ pg.world_target_data = {
 	[6604] = {
 		id = 6604,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				6604,
@@ -1611,7 +1611,7 @@ pg.world_target_data = {
 	[6605] = {
 		id = 6605,
 		target_name = "深度探索",
-		target_desc = "完成3次物资打捞",
+		target_desc = "強化型艦隊が落とした資源を回収",
 		condition = {
 			{
 				6605,
@@ -1623,7 +1623,7 @@ pg.world_target_data = {
 	[7101] = {
 		id = 7101,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				7101,
@@ -1635,7 +1635,7 @@ pg.world_target_data = {
 	[7102] = {
 		id = 7102,
 		target_name = "深度压制",
-		target_desc = "调查40处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				7102,
@@ -1647,7 +1647,7 @@ pg.world_target_data = {
 	[7103] = {
 		id = 7103,
 		target_name = "完全压制",
-		target_desc = "击败12支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				7103,
@@ -1659,7 +1659,7 @@ pg.world_target_data = {
 	[7104] = {
 		id = 7104,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				7104,
@@ -1671,7 +1671,7 @@ pg.world_target_data = {
 	[7105] = {
 		id = 7105,
 		target_name = "深度探索",
-		target_desc = "使用2次塞壬信息收集装置",
+		target_desc = "情報収集装置を使用する",
 		condition = {
 			{
 				7105,
@@ -1683,7 +1683,7 @@ pg.world_target_data = {
 	[7201] = {
 		id = 7201,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				7201,
@@ -1695,7 +1695,7 @@ pg.world_target_data = {
 	[7202] = {
 		id = 7202,
 		target_name = "深度压制",
-		target_desc = "调查19处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				7202,
@@ -1707,7 +1707,7 @@ pg.world_target_data = {
 	[7203] = {
 		id = 7203,
 		target_name = "完全压制",
-		target_desc = "取得180场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				7203,
@@ -1719,7 +1719,7 @@ pg.world_target_data = {
 	[7204] = {
 		id = 7204,
 		target_name = "初步探索",
-		target_desc = "使用5次塞壬探测装置",
+		target_desc = "走査装置を使用する",
 		condition = {
 			{
 				7204,
@@ -1731,7 +1731,7 @@ pg.world_target_data = {
 	[7205] = {
 		id = 7205,
 		target_name = "深度探索",
-		target_desc = "完成8次物资打捞",
+		target_desc = "強化型艦隊が落とした資源を回収",
 		condition = {
 			{
 				7205,
@@ -1743,7 +1743,7 @@ pg.world_target_data = {
 	[7301] = {
 		id = 7301,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				7301,
@@ -1755,7 +1755,7 @@ pg.world_target_data = {
 	[7302] = {
 		id = 7302,
 		target_name = "深度压制",
-		target_desc = "调查40处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				7302,
@@ -1767,7 +1767,7 @@ pg.world_target_data = {
 	[7303] = {
 		id = 7303,
 		target_name = "完全压制",
-		target_desc = "取得150场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				7303,
@@ -1779,7 +1779,7 @@ pg.world_target_data = {
 	[7304] = {
 		id = 7304,
 		target_name = "初步探索",
-		target_desc = "遭遇2次神秘商人",
+		target_desc = "謎の商人と遭遇する",
 		condition = {
 			{
 				7304,
@@ -1791,7 +1791,7 @@ pg.world_target_data = {
 	[7305] = {
 		id = 7305,
 		target_name = "深度探索",
-		target_desc = "使用8次塞壬探测装置",
+		target_desc = "走査装置を使用する",
 		condition = {
 			{
 				7305,
@@ -1803,7 +1803,7 @@ pg.world_target_data = {
 	[8101] = {
 		id = 8101,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				8101,
@@ -1815,7 +1815,7 @@ pg.world_target_data = {
 	[8102] = {
 		id = 8102,
 		target_name = "深度压制",
-		target_desc = "调查8处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				8102,
@@ -1827,7 +1827,7 @@ pg.world_target_data = {
 	[8103] = {
 		id = 8103,
 		target_name = "完全压制",
-		target_desc = "取得36场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				8103,
@@ -1839,7 +1839,7 @@ pg.world_target_data = {
 	[8104] = {
 		id = 8104,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				8104,
@@ -1851,7 +1851,7 @@ pg.world_target_data = {
 	[8105] = {
 		id = 8105,
 		target_name = "深度探索",
-		target_desc = "完成2次物资打捞",
+		target_desc = "強化型艦隊が落とした資源を回収",
 		condition = {
 			{
 				8105,
@@ -1863,7 +1863,7 @@ pg.world_target_data = {
 	[8201] = {
 		id = 8201,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				8201,
@@ -1875,7 +1875,7 @@ pg.world_target_data = {
 	[8202] = {
 		id = 8202,
 		target_name = "深度压制",
-		target_desc = "击败6支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				8202,
@@ -1887,7 +1887,7 @@ pg.world_target_data = {
 	[8203] = {
 		id = 8203,
 		target_name = "完全压制",
-		target_desc = "调查19处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				8203,
@@ -1899,7 +1899,7 @@ pg.world_target_data = {
 	[8204] = {
 		id = 8204,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				8204,
@@ -1911,7 +1911,7 @@ pg.world_target_data = {
 	[8205] = {
 		id = 8205,
 		target_name = "深度探索",
-		target_desc = "使用6次塞壬探测装置",
+		target_desc = "走査装置を使用する",
 		condition = {
 			{
 				8205,
@@ -1923,7 +1923,7 @@ pg.world_target_data = {
 	[8301] = {
 		id = 8301,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				8301,
@@ -1935,7 +1935,7 @@ pg.world_target_data = {
 	[8302] = {
 		id = 8302,
 		target_name = "深度压制",
-		target_desc = "调查8处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				8302,
@@ -1947,7 +1947,7 @@ pg.world_target_data = {
 	[8303] = {
 		id = 8303,
 		target_name = "完全压制",
-		target_desc = "调查7处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				8303,
@@ -1959,7 +1959,7 @@ pg.world_target_data = {
 	[8304] = {
 		id = 8304,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				8304,
@@ -1971,7 +1971,7 @@ pg.world_target_data = {
 	[8305] = {
 		id = 8305,
 		target_name = "深度探索",
-		target_desc = "遭遇2次神秘商人",
+		target_desc = "謎の商人と遭遇する",
 		condition = {
 			{
 				8305,
@@ -1983,7 +1983,7 @@ pg.world_target_data = {
 	[8401] = {
 		id = 8401,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				8401,
@@ -1995,7 +1995,7 @@ pg.world_target_data = {
 	[8402] = {
 		id = 8402,
 		target_name = "深度压制",
-		target_desc = "击败2支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				8402,
@@ -2007,7 +2007,7 @@ pg.world_target_data = {
 	[8403] = {
 		id = 8403,
 		target_name = "完全压制",
-		target_desc = "取得36场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				8403,
@@ -2019,7 +2019,7 @@ pg.world_target_data = {
 	[8404] = {
 		id = 8404,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				8404,
@@ -2031,7 +2031,7 @@ pg.world_target_data = {
 	[8405] = {
 		id = 8405,
 		target_name = "深度探索",
-		target_desc = "使用2次塞壬信息收集装置",
+		target_desc = "情報収集装置を使用する",
 		condition = {
 			{
 				8405,
@@ -2043,7 +2043,7 @@ pg.world_target_data = {
 	[8501] = {
 		id = 8501,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				8501,
@@ -2055,7 +2055,7 @@ pg.world_target_data = {
 	[8502] = {
 		id = 8502,
 		target_name = "深度压制",
-		target_desc = "击败6支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				8502,
@@ -2067,7 +2067,7 @@ pg.world_target_data = {
 	[8503] = {
 		id = 8503,
 		target_name = "完全压制",
-		target_desc = "调查48处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				8503,
@@ -2079,7 +2079,7 @@ pg.world_target_data = {
 	[8504] = {
 		id = 8504,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				8504,
@@ -2091,7 +2091,7 @@ pg.world_target_data = {
 	[8505] = {
 		id = 8505,
 		target_name = "深度探索",
-		target_desc = "破坏2次塞壬海况控制器",
+		target_desc = "気象操作装置を破壊する",
 		condition = {
 			{
 				8505,
@@ -2103,7 +2103,7 @@ pg.world_target_data = {
 	[9101] = {
 		id = 9101,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				9101,
@@ -2115,7 +2115,7 @@ pg.world_target_data = {
 	[9102] = {
 		id = 9102,
 		target_name = "深度压制",
-		target_desc = "取得48场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				9102,
@@ -2127,7 +2127,7 @@ pg.world_target_data = {
 	[9103] = {
 		id = 9103,
 		target_name = "完全压制",
-		target_desc = "调查19处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				9103,
@@ -2139,7 +2139,7 @@ pg.world_target_data = {
 	[9104] = {
 		id = 9104,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				9104,
@@ -2151,7 +2151,7 @@ pg.world_target_data = {
 	[9105] = {
 		id = 9105,
 		target_name = "深度探索",
-		target_desc = "激活2次机关",
+		target_desc = "スイッチを起動する",
 		condition = {
 			{
 				9105,
@@ -2163,7 +2163,7 @@ pg.world_target_data = {
 	[9201] = {
 		id = 9201,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				9201,
@@ -2175,7 +2175,7 @@ pg.world_target_data = {
 	[9202] = {
 		id = 9202,
 		target_name = "深度压制",
-		target_desc = "击败2支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				9202,
@@ -2187,7 +2187,7 @@ pg.world_target_data = {
 	[9203] = {
 		id = 9203,
 		target_name = "完全压制",
-		target_desc = "调查7处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				9203,
@@ -2199,7 +2199,7 @@ pg.world_target_data = {
 	[9204] = {
 		id = 9204,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				9204,
@@ -2211,7 +2211,7 @@ pg.world_target_data = {
 	[9205] = {
 		id = 9205,
 		target_name = "深度探索",
-		target_desc = "使用4次塞壬探测装置",
+		target_desc = "走査装置を使用する",
 		condition = {
 			{
 				9205,
@@ -2223,7 +2223,7 @@ pg.world_target_data = {
 	[9301] = {
 		id = 9301,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				9301,
@@ -2235,7 +2235,7 @@ pg.world_target_data = {
 	[9302] = {
 		id = 9302,
 		target_name = "深度压制",
-		target_desc = "击败2支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				9302,
@@ -2247,7 +2247,7 @@ pg.world_target_data = {
 	[9303] = {
 		id = 9303,
 		target_name = "完全压制",
-		target_desc = "调查18处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				9303,
@@ -2259,7 +2259,7 @@ pg.world_target_data = {
 	[9304] = {
 		id = 9304,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				9304,
@@ -2271,7 +2271,7 @@ pg.world_target_data = {
 	[9305] = {
 		id = 9305,
 		target_name = "深度探索",
-		target_desc = "破坏2次塞壬海况控制器",
+		target_desc = "気象操作装置を破壊する",
 		condition = {
 			{
 				9305,
@@ -2283,7 +2283,7 @@ pg.world_target_data = {
 	[9401] = {
 		id = 9401,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				9401,
@@ -2295,7 +2295,7 @@ pg.world_target_data = {
 	[9402] = {
 		id = 9402,
 		target_name = "深度压制",
-		target_desc = "取得30场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				9402,
@@ -2307,7 +2307,7 @@ pg.world_target_data = {
 	[9403] = {
 		id = 9403,
 		target_name = "完全压制",
-		target_desc = "调查36处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				9403,
@@ -2319,7 +2319,7 @@ pg.world_target_data = {
 	[9404] = {
 		id = 9404,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				9404,
@@ -2331,7 +2331,7 @@ pg.world_target_data = {
 	[9405] = {
 		id = 9405,
 		target_name = "深度探索",
-		target_desc = "进行10次指挥喵物资搜寻",
+		target_desc = "オフニャサルベージを行う",
 		condition = {
 			{
 				9405,
@@ -2343,7 +2343,7 @@ pg.world_target_data = {
 	[9501] = {
 		id = 9501,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				9501,
@@ -2355,7 +2355,7 @@ pg.world_target_data = {
 	[9502] = {
 		id = 9502,
 		target_name = "深度压制",
-		target_desc = "取得30场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				9502,
@@ -2367,7 +2367,7 @@ pg.world_target_data = {
 	[9503] = {
 		id = 9503,
 		target_name = "完全压制",
-		target_desc = "击败6支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				9503,
@@ -2379,7 +2379,7 @@ pg.world_target_data = {
 	[9504] = {
 		id = 9504,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				9504,
@@ -2391,7 +2391,7 @@ pg.world_target_data = {
 	[9505] = {
 		id = 9505,
 		target_name = "深度探索",
-		target_desc = "遭遇2次神秘商人",
+		target_desc = "謎の商人と遭遇する",
 		condition = {
 			{
 				9505,
@@ -2403,7 +2403,7 @@ pg.world_target_data = {
 	[10101] = {
 		id = 10101,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				10101,
@@ -2415,7 +2415,7 @@ pg.world_target_data = {
 	[10102] = {
 		id = 10102,
 		target_name = "深度压制",
-		target_desc = "调查40处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				10102,
@@ -2427,7 +2427,7 @@ pg.world_target_data = {
 	[10103] = {
 		id = 10103,
 		target_name = "完全压制",
-		target_desc = "调查36处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				10103,
@@ -2439,7 +2439,7 @@ pg.world_target_data = {
 	[10104] = {
 		id = 10104,
 		target_name = "初步探索",
-		target_desc = "使用2次塞壬信息收集装置",
+		target_desc = "情報収集装置を使用する",
 		condition = {
 			{
 				10104,
@@ -2451,7 +2451,7 @@ pg.world_target_data = {
 	[10105] = {
 		id = 10105,
 		target_name = "深度探索",
-		target_desc = "激活2次机关",
+		target_desc = "スイッチを起動する",
 		condition = {
 			{
 				10105,
@@ -2463,7 +2463,7 @@ pg.world_target_data = {
 	[10201] = {
 		id = 10201,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				10201,
@@ -2475,7 +2475,7 @@ pg.world_target_data = {
 	[10202] = {
 		id = 10202,
 		target_name = "深度压制",
-		target_desc = "击败10支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				10202,
@@ -2487,7 +2487,7 @@ pg.world_target_data = {
 	[10203] = {
 		id = 10203,
 		target_name = "完全压制",
-		target_desc = "取得150场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				10203,
@@ -2499,7 +2499,7 @@ pg.world_target_data = {
 	[10204] = {
 		id = 10204,
 		target_name = "初步探索",
-		target_desc = "使用5次塞壬探测装置",
+		target_desc = "走査装置を使用する",
 		condition = {
 			{
 				10204,
@@ -2511,7 +2511,7 @@ pg.world_target_data = {
 	[10205] = {
 		id = 10205,
 		target_name = "深度探索",
-		target_desc = "击败2次强化型「棋子」伏击",
+		target_desc = "強化型艦隊の待ち伏せを撃退",
 		condition = {
 			{
 				10205,
@@ -2523,7 +2523,7 @@ pg.world_target_data = {
 	[10301] = {
 		id = 10301,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				10301,
@@ -2535,7 +2535,7 @@ pg.world_target_data = {
 	[10302] = {
 		id = 10302,
 		target_name = "深度压制",
-		target_desc = "取得48场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				10302,
@@ -2547,7 +2547,7 @@ pg.world_target_data = {
 	[10303] = {
 		id = 10303,
 		target_name = "完全压制",
-		target_desc = "调查48处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				10303,
@@ -2559,7 +2559,7 @@ pg.world_target_data = {
 	[10304] = {
 		id = 10304,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				10304,
@@ -2571,7 +2571,7 @@ pg.world_target_data = {
 	[10305] = {
 		id = 10305,
 		target_name = "深度探索",
-		target_desc = "复位2次能源矩阵",
+		target_desc = "エネルギー供給装置を格納する",
 		condition = {
 			{
 				10305,
@@ -2583,7 +2583,7 @@ pg.world_target_data = {
 	[10401] = {
 		id = 10401,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				10401,
@@ -2595,7 +2595,7 @@ pg.world_target_data = {
 	[10402] = {
 		id = 10402,
 		target_name = "深度压制",
-		target_desc = "取得48场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				10402,
@@ -2607,7 +2607,7 @@ pg.world_target_data = {
 	[10403] = {
 		id = 10403,
 		target_name = "完全压制",
-		target_desc = "击败8支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				10403,
@@ -2619,7 +2619,7 @@ pg.world_target_data = {
 	[10404] = {
 		id = 10404,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				10404,
@@ -2631,7 +2631,7 @@ pg.world_target_data = {
 	[10405] = {
 		id = 10405,
 		target_name = "深度探索",
-		target_desc = "击败2次强化型「棋子」伏击",
+		target_desc = "強化型艦隊の待ち伏せを撃退",
 		condition = {
 			{
 				10405,
@@ -2643,7 +2643,7 @@ pg.world_target_data = {
 	[10501] = {
 		id = 10501,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				10501,
@@ -2655,7 +2655,7 @@ pg.world_target_data = {
 	[10502] = {
 		id = 10502,
 		target_name = "深度压制",
-		target_desc = "调查5处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				10502,
@@ -2667,7 +2667,7 @@ pg.world_target_data = {
 	[10503] = {
 		id = 10503,
 		target_name = "完全压制",
-		target_desc = "调查36处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				10503,
@@ -2679,7 +2679,7 @@ pg.world_target_data = {
 	[10504] = {
 		id = 10504,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				10504,
@@ -2691,7 +2691,7 @@ pg.world_target_data = {
 	[10505] = {
 		id = 10505,
 		target_name = "深度探索",
-		target_desc = "使用2次塞壬信息收集装置",
+		target_desc = "情報収集装置を使用する",
 		condition = {
 			{
 				10505,
@@ -2703,7 +2703,7 @@ pg.world_target_data = {
 	[10601] = {
 		id = 10601,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				10601,
@@ -2715,7 +2715,7 @@ pg.world_target_data = {
 	[10602] = {
 		id = 10602,
 		target_name = "深度压制",
-		target_desc = "调查40处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				10602,
@@ -2727,7 +2727,7 @@ pg.world_target_data = {
 	[10603] = {
 		id = 10603,
 		target_name = "完全压制",
-		target_desc = "击败15支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				10603,
@@ -2739,7 +2739,7 @@ pg.world_target_data = {
 	[10604] = {
 		id = 10604,
 		target_name = "初步探索",
-		target_desc = "破坏2次塞壬海况控制器",
+		target_desc = "気象操作装置を破壊する",
 		condition = {
 			{
 				10604,
@@ -2751,7 +2751,7 @@ pg.world_target_data = {
 	[10605] = {
 		id = 10605,
 		target_name = "深度探索",
-		target_desc = "遭遇3次神秘商人",
+		target_desc = "謎の商人と遭遇する",
 		condition = {
 			{
 				10605,
@@ -2763,7 +2763,7 @@ pg.world_target_data = {
 	[11101] = {
 		id = 11101,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				11101,
@@ -2775,7 +2775,7 @@ pg.world_target_data = {
 	[11102] = {
 		id = 11102,
 		target_name = "深度压制",
-		target_desc = "调查5处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				11102,
@@ -2787,7 +2787,7 @@ pg.world_target_data = {
 	[11103] = {
 		id = 11103,
 		target_name = "完全压制",
-		target_desc = "击败6支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				11103,
@@ -2799,7 +2799,7 @@ pg.world_target_data = {
 	[11104] = {
 		id = 11104,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				11104,
@@ -2811,7 +2811,7 @@ pg.world_target_data = {
 	[11105] = {
 		id = 11105,
 		target_name = "深度探索",
-		target_desc = "使用6次塞壬探测装置",
+		target_desc = "走査装置を使用する",
 		condition = {
 			{
 				11105,
@@ -2823,7 +2823,7 @@ pg.world_target_data = {
 	[11201] = {
 		id = 11201,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				11201,
@@ -2835,7 +2835,7 @@ pg.world_target_data = {
 	[11202] = {
 		id = 11202,
 		target_name = "深度压制",
-		target_desc = "取得16场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				11202,
@@ -2847,7 +2847,7 @@ pg.world_target_data = {
 	[11203] = {
 		id = 11203,
 		target_name = "完全压制",
-		target_desc = "调查7处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				11203,
@@ -2859,7 +2859,7 @@ pg.world_target_data = {
 	[11204] = {
 		id = 11204,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				11204,
@@ -2871,7 +2871,7 @@ pg.world_target_data = {
 	[11205] = {
 		id = 11205,
 		target_name = "深度探索",
-		target_desc = "激活1次机关",
+		target_desc = "スイッチを起動する",
 		condition = {
 			{
 				11205,
@@ -2883,7 +2883,7 @@ pg.world_target_data = {
 	[11301] = {
 		id = 11301,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				11301,
@@ -2895,7 +2895,7 @@ pg.world_target_data = {
 	[11302] = {
 		id = 11302,
 		target_name = "深度压制",
-		target_desc = "调查5处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				11302,
@@ -2907,7 +2907,7 @@ pg.world_target_data = {
 	[11303] = {
 		id = 11303,
 		target_name = "完全压制",
-		target_desc = "取得60场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				11303,
@@ -2919,7 +2919,7 @@ pg.world_target_data = {
 	[11304] = {
 		id = 11304,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				11304,
@@ -2931,7 +2931,7 @@ pg.world_target_data = {
 	[11305] = {
 		id = 11305,
 		target_name = "深度探索",
-		target_desc = "破坏2次塞壬海况控制器",
+		target_desc = "気象操作装置を破壊する",
 		condition = {
 			{
 				11305,
@@ -2943,7 +2943,7 @@ pg.world_target_data = {
 	[11401] = {
 		id = 11401,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				11401,
@@ -2955,7 +2955,7 @@ pg.world_target_data = {
 	[11402] = {
 		id = 11402,
 		target_name = "深度压制",
-		target_desc = "调查18处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				11402,
@@ -2967,7 +2967,7 @@ pg.world_target_data = {
 	[11403] = {
 		id = 11403,
 		target_name = "完全压制",
-		target_desc = "击败6支强化型「棋子」舰队",
+		target_desc = "強化型艦隊撃破する",
 		condition = {
 			{
 				11403,
@@ -2979,7 +2979,7 @@ pg.world_target_data = {
 	[11404] = {
 		id = 11404,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				11404,
@@ -2991,7 +2991,7 @@ pg.world_target_data = {
 	[11405] = {
 		id = 11405,
 		target_name = "深度探索",
-		target_desc = "激活1次机关",
+		target_desc = "スイッチを起動する",
 		condition = {
 			{
 				11405,
@@ -3003,7 +3003,7 @@ pg.world_target_data = {
 	[12101] = {
 		id = 12101,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				12101,
@@ -3015,7 +3015,7 @@ pg.world_target_data = {
 	[12102] = {
 		id = 12102,
 		target_name = "深度压制",
-		target_desc = "调查40处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				12102,
@@ -3027,7 +3027,7 @@ pg.world_target_data = {
 	[12103] = {
 		id = 12103,
 		target_name = "完全压制",
-		target_desc = "取得180场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				12103,
@@ -3039,7 +3039,7 @@ pg.world_target_data = {
 	[12104] = {
 		id = 12104,
 		target_name = "初步探索",
-		target_desc = "激活2次机关",
+		target_desc = "スイッチを起動する",
 		condition = {
 			{
 				12104,
@@ -3051,7 +3051,7 @@ pg.world_target_data = {
 	[12105] = {
 		id = 12105,
 		target_name = "深度探索",
-		target_desc = "破坏3次塞壬海况控制器",
+		target_desc = "気象操作装置を破壊する",
 		condition = {
 			{
 				12105,
@@ -3063,7 +3063,7 @@ pg.world_target_data = {
 	[12201] = {
 		id = 12201,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				12201,
@@ -3075,7 +3075,7 @@ pg.world_target_data = {
 	[12202] = {
 		id = 12202,
 		target_name = "深度压制",
-		target_desc = "取得16场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				12202,
@@ -3087,7 +3087,7 @@ pg.world_target_data = {
 	[12203] = {
 		id = 12203,
 		target_name = "完全压制",
-		target_desc = "调查18处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				12203,
@@ -3099,7 +3099,7 @@ pg.world_target_data = {
 	[12204] = {
 		id = 12204,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				12204,
@@ -3111,7 +3111,7 @@ pg.world_target_data = {
 	[12205] = {
 		id = 12205,
 		target_name = "深度探索",
-		target_desc = "复位1次能源矩阵",
+		target_desc = "エネルギー供給装置を格納する",
 		condition = {
 			{
 				12205,
@@ -3123,7 +3123,7 @@ pg.world_target_data = {
 	[12301] = {
 		id = 12301,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				12301,
@@ -3135,7 +3135,7 @@ pg.world_target_data = {
 	[12302] = {
 		id = 12302,
 		target_name = "深度压制",
-		target_desc = "调查18处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				12302,
@@ -3147,7 +3147,7 @@ pg.world_target_data = {
 	[12303] = {
 		id = 12303,
 		target_name = "完全压制",
-		target_desc = "取得60场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				12303,
@@ -3159,7 +3159,7 @@ pg.world_target_data = {
 	[12304] = {
 		id = 12304,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				12304,
@@ -3171,7 +3171,7 @@ pg.world_target_data = {
 	[12305] = {
 		id = 12305,
 		target_name = "深度探索",
-		target_desc = "复位1次能源矩阵",
+		target_desc = "エネルギー供給装置を格納する",
 		condition = {
 			{
 				12305,
@@ -3183,7 +3183,7 @@ pg.world_target_data = {
 	[12401] = {
 		id = 12401,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				12401,
@@ -3195,7 +3195,7 @@ pg.world_target_data = {
 	[12402] = {
 		id = 12402,
 		target_name = "深度压制",
-		target_desc = "击败10支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				12402,
@@ -3207,7 +3207,7 @@ pg.world_target_data = {
 	[12403] = {
 		id = 12403,
 		target_name = "完全压制",
-		target_desc = "调查36处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				12403,
@@ -3219,7 +3219,7 @@ pg.world_target_data = {
 	[12404] = {
 		id = 12404,
 		target_name = "初步探索",
-		target_desc = "激活2次机关",
+		target_desc = "スイッチを起動する",
 		condition = {
 			{
 				12404,
@@ -3231,7 +3231,7 @@ pg.world_target_data = {
 	[12405] = {
 		id = 12405,
 		target_name = "深度探索",
-		target_desc = "进行25次指挥喵物资搜寻",
+		target_desc = "オフニャサルベージを行う",
 		condition = {
 			{
 				12405,
@@ -3243,7 +3243,7 @@ pg.world_target_data = {
 	[12501] = {
 		id = 12501,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				12501,
@@ -3255,7 +3255,7 @@ pg.world_target_data = {
 	[12502] = {
 		id = 12502,
 		target_name = "深度压制",
-		target_desc = "调查30处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				12502,
@@ -3267,7 +3267,7 @@ pg.world_target_data = {
 	[12503] = {
 		id = 12503,
 		target_name = "完全压制",
-		target_desc = "调查29处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				12503,
@@ -3279,7 +3279,7 @@ pg.world_target_data = {
 	[12504] = {
 		id = 12504,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				12504,
@@ -3291,7 +3291,7 @@ pg.world_target_data = {
 	[12505] = {
 		id = 12505,
 		target_name = "深度探索",
-		target_desc = "击败2次强化型「棋子」伏击",
+		target_desc = "強化型艦隊の待ち伏せを撃退",
 		condition = {
 			{
 				12505,
@@ -3303,7 +3303,7 @@ pg.world_target_data = {
 	[13101] = {
 		id = 13101,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				13101,
@@ -3315,7 +3315,7 @@ pg.world_target_data = {
 	[13102] = {
 		id = 13102,
 		target_name = "深度压制",
-		target_desc = "取得16场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				13102,
@@ -3327,7 +3327,7 @@ pg.world_target_data = {
 	[13103] = {
 		id = 13103,
 		target_name = "完全压制",
-		target_desc = "击败3支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				13103,
@@ -3339,7 +3339,7 @@ pg.world_target_data = {
 	[13104] = {
 		id = 13104,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				13104,
@@ -3351,7 +3351,7 @@ pg.world_target_data = {
 	[13105] = {
 		id = 13105,
 		target_name = "深度探索",
-		target_desc = "击败1次强化型「棋子」伏击",
+		target_desc = "強化型艦隊の待ち伏せを撃退",
 		condition = {
 			{
 				13105,
@@ -3363,7 +3363,7 @@ pg.world_target_data = {
 	[13201] = {
 		id = 13201,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				13201,
@@ -3375,7 +3375,7 @@ pg.world_target_data = {
 	[13202] = {
 		id = 13202,
 		target_name = "深度压制",
-		target_desc = "调查3处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				13202,
@@ -3387,7 +3387,7 @@ pg.world_target_data = {
 	[13203] = {
 		id = 13203,
 		target_name = "完全压制",
-		target_desc = "调查18处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				13203,
@@ -3399,7 +3399,7 @@ pg.world_target_data = {
 	[13204] = {
 		id = 13204,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				13204,
@@ -3411,7 +3411,7 @@ pg.world_target_data = {
 	[13205] = {
 		id = 13205,
 		target_name = "深度探索",
-		target_desc = "完成2次物资打捞",
+		target_desc = "強化型艦隊が落とした資源を回収",
 		condition = {
 			{
 				13205,
@@ -3423,7 +3423,7 @@ pg.world_target_data = {
 	[13301] = {
 		id = 13301,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				13301,
@@ -3435,7 +3435,7 @@ pg.world_target_data = {
 	[13302] = {
 		id = 13302,
 		target_name = "深度压制",
-		target_desc = "击败4支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				13302,
@@ -3447,7 +3447,7 @@ pg.world_target_data = {
 	[13303] = {
 		id = 13303,
 		target_name = "完全压制",
-		target_desc = "取得60场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				13303,
@@ -3459,7 +3459,7 @@ pg.world_target_data = {
 	[13304] = {
 		id = 13304,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				13304,
@@ -3471,7 +3471,7 @@ pg.world_target_data = {
 	[13305] = {
 		id = 13305,
 		target_name = "深度探索",
-		target_desc = "完成3次物资打捞",
+		target_desc = "強化型艦隊が落とした資源を回収",
 		condition = {
 			{
 				13305,
@@ -3483,7 +3483,7 @@ pg.world_target_data = {
 	[13401] = {
 		id = 13401,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				13401,
@@ -3495,7 +3495,7 @@ pg.world_target_data = {
 	[13402] = {
 		id = 13402,
 		target_name = "深度压制",
-		target_desc = "调查3处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				13402,
@@ -3507,7 +3507,7 @@ pg.world_target_data = {
 	[13403] = {
 		id = 13403,
 		target_name = "完全压制",
-		target_desc = "击败3支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				13403,
@@ -3519,7 +3519,7 @@ pg.world_target_data = {
 	[13404] = {
 		id = 13404,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				13404,
@@ -3531,7 +3531,7 @@ pg.world_target_data = {
 	[13405] = {
 		id = 13405,
 		target_name = "深度探索",
-		target_desc = "遭遇2次神秘商人",
+		target_desc = "謎の商人と遭遇する",
 		condition = {
 			{
 				13405,
@@ -3543,7 +3543,7 @@ pg.world_target_data = {
 	[13501] = {
 		id = 13501,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				13501,
@@ -3555,7 +3555,7 @@ pg.world_target_data = {
 	[13502] = {
 		id = 13502,
 		target_name = "深度压制",
-		target_desc = "击败4支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				13502,
@@ -3567,7 +3567,7 @@ pg.world_target_data = {
 	[13503] = {
 		id = 13503,
 		target_name = "完全压制",
-		target_desc = "调查10处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				13503,
@@ -3579,7 +3579,7 @@ pg.world_target_data = {
 	[13504] = {
 		id = 13504,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				13504,
@@ -3591,7 +3591,7 @@ pg.world_target_data = {
 	[13505] = {
 		id = 13505,
 		target_name = "深度探索",
-		target_desc = "进行10次指挥喵物资搜寻",
+		target_desc = "オフニャサルベージを行う",
 		condition = {
 			{
 				13505,
@@ -3603,7 +3603,7 @@ pg.world_target_data = {
 	[14101] = {
 		id = 14101,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				14101,
@@ -3615,7 +3615,7 @@ pg.world_target_data = {
 	[14102] = {
 		id = 14102,
 		target_name = "深度压制",
-		target_desc = "击败4支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				14102,
@@ -3627,7 +3627,7 @@ pg.world_target_data = {
 	[14103] = {
 		id = 14103,
 		target_name = "完全压制",
-		target_desc = "调查36处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				14103,
@@ -3639,7 +3639,7 @@ pg.world_target_data = {
 	[14104] = {
 		id = 14104,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				14104,
@@ -3651,7 +3651,7 @@ pg.world_target_data = {
 	[14105] = {
 		id = 14105,
 		target_name = "深度探索",
-		target_desc = "遭遇2次神秘商人",
+		target_desc = "謎の商人と遭遇する",
 		condition = {
 			{
 				14105,
@@ -3663,7 +3663,7 @@ pg.world_target_data = {
 	[14201] = {
 		id = 14201,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				14201,
@@ -3675,7 +3675,7 @@ pg.world_target_data = {
 	[14202] = {
 		id = 14202,
 		target_name = "深度压制",
-		target_desc = "调查10处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				14202,
@@ -3687,7 +3687,7 @@ pg.world_target_data = {
 	[14203] = {
 		id = 14203,
 		target_name = "完全压制",
-		target_desc = "调查48处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				14203,
@@ -3699,7 +3699,7 @@ pg.world_target_data = {
 	[14204] = {
 		id = 14204,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				14204,
@@ -3711,7 +3711,7 @@ pg.world_target_data = {
 	[14205] = {
 		id = 14205,
 		target_name = "深度探索",
-		target_desc = "完成4次物资打捞",
+		target_desc = "強化型艦隊が落とした資源を回収",
 		condition = {
 			{
 				14205,
@@ -3723,7 +3723,7 @@ pg.world_target_data = {
 	[14301] = {
 		id = 14301,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				14301,
@@ -3735,7 +3735,7 @@ pg.world_target_data = {
 	[14302] = {
 		id = 14302,
 		target_name = "深度压制",
-		target_desc = "取得30场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				14302,
@@ -3747,7 +3747,7 @@ pg.world_target_data = {
 	[14303] = {
 		id = 14303,
 		target_name = "完全压制",
-		target_desc = "调查10处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				14303,
@@ -3759,7 +3759,7 @@ pg.world_target_data = {
 	[14304] = {
 		id = 14304,
 		target_name = "初步探索",
-		target_desc = "回收1份档案",
+		target_desc = "記録を回収する",
 		condition = {
 			{
 				14304,
@@ -3771,7 +3771,7 @@ pg.world_target_data = {
 	[14305] = {
 		id = 14305,
 		target_name = "深度探索",
-		target_desc = "使用2次塞壬信息收集装置",
+		target_desc = "情報収集装置を使用する",
 		condition = {
 			{
 				14305,
@@ -3783,7 +3783,7 @@ pg.world_target_data = {
 	[14401] = {
 		id = 14401,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				14401,
@@ -3795,7 +3795,7 @@ pg.world_target_data = {
 	[14402] = {
 		id = 14402,
 		target_name = "深度压制",
-		target_desc = "击败10支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				14402,
@@ -3807,7 +3807,7 @@ pg.world_target_data = {
 	[14403] = {
 		id = 14403,
 		target_name = "完全压制",
-		target_desc = "调查75处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				14403,
@@ -3819,7 +3819,7 @@ pg.world_target_data = {
 	[14404] = {
 		id = 14404,
 		target_name = "初步探索",
-		target_desc = "复位2次能源矩阵",
+		target_desc = "エネルギー供給装置を格納する",
 		condition = {
 			{
 				14404,
@@ -3831,7 +3831,7 @@ pg.world_target_data = {
 	[14405] = {
 		id = 14405,
 		target_name = "深度探索",
-		target_desc = "使用2次塞壬信息收集装置",
+		target_desc = "情報収集装置を使用する",
 		condition = {
 			{
 				14405,
@@ -3843,7 +3843,7 @@ pg.world_target_data = {
 	[15101] = {
 		id = 15101,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				15101,
@@ -3855,7 +3855,7 @@ pg.world_target_data = {
 	[15102] = {
 		id = 15102,
 		target_name = "深度压制",
-		target_desc = "取得80场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				15102,
@@ -3867,7 +3867,7 @@ pg.world_target_data = {
 	[15103] = {
 		id = 15103,
 		target_name = "完全压制",
-		target_desc = "调查36处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				15103,
@@ -3879,7 +3879,7 @@ pg.world_target_data = {
 	[15104] = {
 		id = 15104,
 		target_name = "初步探索",
-		target_desc = "击败2次强化型「棋子」伏击",
+		target_desc = "強化型艦隊の待ち伏せを撃退",
 		condition = {
 			{
 				15104,
@@ -3891,7 +3891,7 @@ pg.world_target_data = {
 	[15105] = {
 		id = 15105,
 		target_name = "深度探索",
-		target_desc = "破坏2次塞壬海况控制器",
+		target_desc = "気象操作装置を破壊する",
 		condition = {
 			{
 				15105,
@@ -3903,7 +3903,7 @@ pg.world_target_data = {
 	[15201] = {
 		id = 15201,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				15201,
@@ -3915,7 +3915,7 @@ pg.world_target_data = {
 	[15202] = {
 		id = 15202,
 		target_name = "深度压制",
-		target_desc = "取得80场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				15202,
@@ -3927,7 +3927,7 @@ pg.world_target_data = {
 	[15203] = {
 		id = 15203,
 		target_name = "完全压制",
-		target_desc = "调查75处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				15203,
@@ -3939,7 +3939,7 @@ pg.world_target_data = {
 	[15204] = {
 		id = 15204,
 		target_name = "初步探索",
-		target_desc = "完成5次物资打捞",
+		target_desc = "強化型艦隊が落とした資源を回収",
 		condition = {
 			{
 				15204,
@@ -3951,7 +3951,7 @@ pg.world_target_data = {
 	[15205] = {
 		id = 15205,
 		target_name = "深度探索",
-		target_desc = "击败2次强化型「棋子」伏击",
+		target_desc = "強化型艦隊の待ち伏せを撃退",
 		condition = {
 			{
 				15205,
@@ -3963,7 +3963,7 @@ pg.world_target_data = {
 	[15301] = {
 		id = 15301,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				15301,
@@ -3975,7 +3975,7 @@ pg.world_target_data = {
 	[15302] = {
 		id = 15302,
 		target_name = "深度压制",
-		target_desc = "调查40处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				15302,
@@ -3987,7 +3987,7 @@ pg.world_target_data = {
 	[15303] = {
 		id = 15303,
 		target_name = "完全压制",
-		target_desc = "调查43处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				15303,
@@ -3999,7 +3999,7 @@ pg.world_target_data = {
 	[15304] = {
 		id = 15304,
 		target_name = "初步探索",
-		target_desc = "复位2次能源矩阵",
+		target_desc = "エネルギー供給装置を格納する",
 		condition = {
 			{
 				15304,
@@ -4011,7 +4011,7 @@ pg.world_target_data = {
 	[15305] = {
 		id = 15305,
 		target_name = "深度探索",
-		target_desc = "击败3次强化型「棋子」伏击",
+		target_desc = "強化型艦隊の待ち伏せを撃退",
 		condition = {
 			{
 				15305,
@@ -4023,7 +4023,7 @@ pg.world_target_data = {
 	[15401] = {
 		id = 15401,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				15401,
@@ -4035,7 +4035,7 @@ pg.world_target_data = {
 	[15402] = {
 		id = 15402,
 		target_name = "深度压制",
-		target_desc = "取得130场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				15402,
@@ -4047,7 +4047,7 @@ pg.world_target_data = {
 	[15403] = {
 		id = 15403,
 		target_name = "完全压制",
-		target_desc = "调查58处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				15403,
@@ -4059,7 +4059,7 @@ pg.world_target_data = {
 	[15404] = {
 		id = 15404,
 		target_name = "初步探索",
-		target_desc = "使用6次塞壬探测装置",
+		target_desc = "走査装置を使用する",
 		condition = {
 			{
 				15404,
@@ -4071,7 +4071,7 @@ pg.world_target_data = {
 	[15405] = {
 		id = 15405,
 		target_name = "深度探索",
-		target_desc = "完成9次物资打捞",
+		target_desc = "強化型艦隊が落とした資源を回収",
 		condition = {
 			{
 				15405,
@@ -4083,7 +4083,7 @@ pg.world_target_data = {
 	[15501] = {
 		id = 15501,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				15501,
@@ -4095,7 +4095,7 @@ pg.world_target_data = {
 	[15502] = {
 		id = 15502,
 		target_name = "深度压制",
-		target_desc = "击败10支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				15502,
@@ -4107,7 +4107,7 @@ pg.world_target_data = {
 	[15503] = {
 		id = 15503,
 		target_name = "完全压制",
-		target_desc = "取得180场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				15503,
@@ -4119,7 +4119,7 @@ pg.world_target_data = {
 	[15504] = {
 		id = 15504,
 		target_name = "初步探索",
-		target_desc = "击败2次强化型「棋子」伏击",
+		target_desc = "強化型艦隊の待ち伏せを撃退",
 		condition = {
 			{
 				15504,
@@ -4131,7 +4131,7 @@ pg.world_target_data = {
 	[15505] = {
 		id = 15505,
 		target_name = "深度探索",
-		target_desc = "使用3次塞壬信息收集装置",
+		target_desc = "情報収集装置を使用する",
 		condition = {
 			{
 				15505,
@@ -4143,7 +4143,7 @@ pg.world_target_data = {
 	[15601] = {
 		id = 15601,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				15601,
@@ -4155,7 +4155,7 @@ pg.world_target_data = {
 	[15602] = {
 		id = 15602,
 		target_name = "深度压制",
-		target_desc = "击败10支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				15602,
@@ -4167,7 +4167,7 @@ pg.world_target_data = {
 	[15603] = {
 		id = 15603,
 		target_name = "完全压制",
-		target_desc = "调查43处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				15603,
@@ -4179,7 +4179,7 @@ pg.world_target_data = {
 	[15604] = {
 		id = 15604,
 		target_name = "初步探索",
-		target_desc = "完成5次物资打捞",
+		target_desc = "強化型艦隊が落とした資源を回収",
 		condition = {
 			{
 				15604,
@@ -4191,7 +4191,7 @@ pg.world_target_data = {
 	[15605] = {
 		id = 15605,
 		target_name = "深度探索",
-		target_desc = "激活3次机关",
+		target_desc = "スイッチを起動する",
 		condition = {
 			{
 				15605,
@@ -4203,7 +4203,7 @@ pg.world_target_data = {
 	[15701] = {
 		id = 15701,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				15701,
@@ -4215,7 +4215,7 @@ pg.world_target_data = {
 	[15702] = {
 		id = 15702,
 		target_name = "深度压制",
-		target_desc = "击败10支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				15702,
@@ -4227,7 +4227,7 @@ pg.world_target_data = {
 	[15703] = {
 		id = 15703,
 		target_name = "完全压制",
-		target_desc = "调查90处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				15703,
@@ -4239,7 +4239,7 @@ pg.world_target_data = {
 	[15704] = {
 		id = 15704,
 		target_name = "初步探索",
-		target_desc = "复位2次能源矩阵",
+		target_desc = "エネルギー供給装置を格納する",
 		condition = {
 			{
 				15704,
@@ -4251,7 +4251,7 @@ pg.world_target_data = {
 	[15705] = {
 		id = 15705,
 		target_name = "深度探索",
-		target_desc = "进行30次指挥喵物资搜寻",
+		target_desc = "オフニャサルベージを行う",
 		condition = {
 			{
 				15705,
@@ -4263,7 +4263,7 @@ pg.world_target_data = {
 	[15801] = {
 		id = 15801,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				15801,
@@ -4275,7 +4275,7 @@ pg.world_target_data = {
 	[15802] = {
 		id = 15802,
 		target_name = "深度压制",
-		target_desc = "取得80场战斗胜利",
+		target_desc = "戦闘を勝利する",
 		condition = {
 			{
 				15802,
@@ -4287,7 +4287,7 @@ pg.world_target_data = {
 	[15803] = {
 		id = 15803,
 		target_name = "完全压制",
-		target_desc = "击败12支强化型「棋子」舰队",
+		target_desc = "強化型艦隊を撃破する",
 		condition = {
 			{
 				15803,
@@ -4299,7 +4299,7 @@ pg.world_target_data = {
 	[15804] = {
 		id = 15804,
 		target_name = "初步探索",
-		target_desc = "进行16次指挥喵物资搜寻",
+		target_desc = "オフニャサルベージを行う",
 		condition = {
 			{
 				15804,
@@ -4311,7 +4311,7 @@ pg.world_target_data = {
 	[15805] = {
 		id = 15805,
 		target_name = "深度探索",
-		target_desc = "使用2次塞壬信息收集装置",
+		target_desc = "情報収集装置を使用する",
 		condition = {
 			{
 				15805,
@@ -4323,7 +4323,7 @@ pg.world_target_data = {
 	[15901] = {
 		id = 15901,
 		target_name = "初步压制",
-		target_desc = "完成1处海域压制",
+		target_desc = "エリアを確保する",
 		condition = {
 			{
 				15901,
@@ -4335,7 +4335,7 @@ pg.world_target_data = {
 	[15902] = {
 		id = 15902,
 		target_name = "深度压制",
-		target_desc = "调查19处异常区域",
+		target_desc = "異常気象区域を調査する",
 		condition = {
 			{
 				15902,
@@ -4347,7 +4347,7 @@ pg.world_target_data = {
 	[15903] = {
 		id = 15903,
 		target_name = "完全压制",
-		target_desc = "调查75处资源点",
+		target_desc = "資源ポイントを回収する",
 		condition = {
 			{
 				15903,
@@ -4359,7 +4359,7 @@ pg.world_target_data = {
 	[15904] = {
 		id = 15904,
 		target_name = "初步探索",
-		target_desc = "遭遇2次神秘商人",
+		target_desc = "謎の商人と遭遇する",
 		condition = {
 			{
 				15904,
@@ -4371,7 +4371,7 @@ pg.world_target_data = {
 	[15905] = {
 		id = 15905,
 		target_name = "深度探索",
-		target_desc = "破坏2次塞壬海况控制器",
+		target_desc = "気象操作装置を破壊する",
 		condition = {
 			{
 				15905,

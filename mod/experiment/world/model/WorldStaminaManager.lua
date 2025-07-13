@@ -127,7 +127,7 @@ function var_0_0.Show(arg_13_0)
 
 		updateDrop(var_13_7:Find("IconTpl"), iter_13_1.drop)
 		setText(var_13_7:Find("IconTpl/icon_bg/count"), iter_13_1.drop.count and iter_13_1.drop.count or "")
-		setText(var_13_7:Find("name/Text"), shortenString(getText(var_13_7:Find("IconTpl/name")), 5))
+		setText(var_13_7:Find("name/Text"), shortenString(getText(var_13_7:Find("IconTpl/name")), 6))
 		onToggle(arg_13_0, var_13_7, function(arg_14_0)
 			if arg_14_0 then
 				arg_13_0.preSelectIndex = iter_13_0

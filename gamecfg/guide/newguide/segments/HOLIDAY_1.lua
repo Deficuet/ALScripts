@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.5,
 			style = {
-				text = "顺利抵达度假别墅岛，获得了部分重建物资",
+				text = "リゾート島に到着したわ。再建の物資も届いてるわね！",
 				mode = 2,
 				dir = 1,
 				char = "char",
@@ -24,7 +24,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.5,
 			style = {
-				text = "开始进行货物码头区的重建工作吧！",
+				text = "まずは埠頭エリアの再建から始めましょう！",
 				mode = 2,
 				dir = 1,
 				char = "char",

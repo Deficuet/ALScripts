@@ -5,12 +5,12 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "点击此处，可选择一起前往沙滩的角色",
+				text = "ここをタップするとキャラを配置できるわ",
 				mode = 4,
 				dir = 1,
 				char = "char",
 				posY = -300,
-				posX = 177,
+				posX = 70,
 				uiset = {}
 			},
 			ui = {
@@ -22,7 +22,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "目前尚未解锁该角色的邀约，请点击角色",
+				text = "キャラ配置はまだ開放されていないわね。まずはアイコンをタップよ",
 				mode = 4,
 				dir = 1,
 				char = "char",
@@ -45,12 +45,12 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "点击此处，即可解锁该角色的邀约",
+				text = "ここをタップすると、キャラを砂浜に配置できるようになるわ！",
 				mode = 4,
 				dir = 1,
 				char = "char",
 				posY = -435,
-				posX = 207,
+				posX = -80,
 				uiset = {}
 			},
 			ui = {
@@ -62,7 +62,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "现在，请点击天狼星，与她共同前往沙滩吧！",
+				text = "シリアスをタップして、一緒に砂浜に行きましょう！",
 				mode = 4,
 				dir = 1,
 				char = "char",

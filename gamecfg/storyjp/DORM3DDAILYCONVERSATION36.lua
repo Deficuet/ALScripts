@@ -1,0 +1,96 @@
+return {
+	fadeOut = 1.5,
+	dialogbox = 2,
+	hideRecord = true,
+	mode = 2,
+	alpha = 0,
+	id = "DORM3DDAILYCONVERSATION36",
+	hideSkip = true,
+	hideAuto = true,
+	placeholder = {
+		"dorm3d"
+	},
+	scripts = {
+		{
+			side = 2,
+			actorName = 20220,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "最近、シリアスは料理本以外の本も読むようになりました",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			options = {
+				{
+					content = "――料理本を読まない時がある…だと？",
+					flag = 1
+				},
+				{
+					content = "――どんな本を読んでいるのか？",
+					flag = 2
+				}
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							param = "Play",
+							name = "shy",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = false,
+							time = 1,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
+			}
+		},
+		{
+			side = 2,
+			actorName = 20220,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "はい、最近はもっぱら恋愛に関する雑誌や小説です",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = 20220,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "メイドとして{dorm3d}にお仕えするだけでも幸せですけど…欲張りなシリアスはもっと研鑽を積みたく存じます",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = 20220,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "どうかシリアスの今後の成長を見守ってくださいませ。シリアスの誇らしき{dorm3d}",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		}
+	}
+}

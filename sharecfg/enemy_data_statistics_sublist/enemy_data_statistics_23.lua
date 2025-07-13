@@ -305,7 +305,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90690] = {
 		cannon = 0,
-		name = "羽黑",
+		name = "羽黒",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -618,7 +618,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90692] = {
 		cannon = 0,
-		name = "武藏",
+		name = "武蔵",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -772,7 +772,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90693] = {
 		cannon = 0,
-		name = "测试者",
+		name = "テスター",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1096,7 +1096,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90695] = {
 		cannon = 0,
-		name = "纪伊",
+		name = "紀伊",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1557,7 +1557,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90698] = {
 		cannon = 0,
-		name = "小斯佩",
+		name = "シュペーちゃん",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1713,7 +1713,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90699] = {
 		cannon = 0,
-		name = "甜品运输船",
+		name = "お菓子輸送艦？",
 		type = 15,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1873,7 +1873,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90700] = {
 		cannon = 0,
-		name = "异世界自爆船",
+		name = "異世界自爆ボート？",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2019,7 +2019,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90701] = {
 		cannon = 0,
-		name = "雅努斯",
+		name = "ジェーナス",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2175,7 +2175,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90702] = {
 		cannon = 0,
-		name = "曼彻斯特",
+		name = "マンチェスター",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2331,7 +2331,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90703] = {
 		cannon = 0,
-		name = "阿尔比恩",
+		name = "アルビオン",
 		type = 6,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2480,7 +2480,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90704] = {
 		cannon = 0,
-		name = "菲尔弗萨级驱逐-「Pawn」",
+		name = "フィルフサ級量産駆逐-「Pawn」",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2642,7 +2642,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90705] = {
 		cannon = 0,
-		name = "菲尔弗萨级轻巡-「Knight」",
+		name = "フィルフサ級量産軽巡-「Knight」",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2804,7 +2804,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90706] = {
 		cannon = 0,
-		name = "菲尔弗萨级重巡-「Bishop」",
+		name = "フィルフサ級量産重巡-「Bishop」",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2973,7 +2973,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90707] = {
 		cannon = 0,
-		name = "菲尔弗萨级战舰-「Rook」",
+		name = "フィルフサ級量産戦艦-「Rook」",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3142,7 +3142,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90708] = {
 		cannon = 0,
-		name = "菲尔弗萨级航母-「Queen」",
+		name = "フィルフサ級量産空母-「Queen」",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3311,7 +3311,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90709] = {
 		cannon = 0,
-		name = "菲尔弗萨级自爆船「Buster」",
+		name = "フィルフサ級量産自爆ボート-「Buster」",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3457,7 +3457,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90710] = {
 		cannon = 0,
-		name = "菲尔弗萨级潜艇「Assassin」",
+		name = "フィルフサ級量産潜水艦-「Assassin」",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3608,7 +3608,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90711] = {
 		cannon = 0,
-		name = "古代遗迹探索者",
+		name = "古代遺跡スカベンジャー",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3764,7 +3764,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90712] = {
 		cannon = 0,
-		name = "古代遗迹追迹者",
+		name = "古代遺跡チェイサー",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3920,7 +3920,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90713] = {
 		cannon = 0,
-		name = "古代遗迹领洋者",
+		name = "古代遺跡ナビゲーター",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4076,7 +4076,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90714] = {
 		cannon = 0,
-		name = "古代遗迹破局者",
+		name = "古代遺跡スマッシャー",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4232,7 +4232,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90715] = {
 		cannon = 0,
-		name = "古代遗迹执棋者",
+		name = "古代遺跡コンダクター",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4388,7 +4388,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90716] = {
 		cannon = 0,
-		name = "古代遗迹守护者原型机",
+		name = "古代遺跡守護者プロトタイプ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4551,7 +4551,7 @@ pg.enemy_data_statistics_23 = {
 	},
 	[90717] = {
 		cannon = 0,
-		name = "古代遗迹守护者原型机-第二形态",
+		name = "古代遺跡守護者プロトタイプ・第二形態",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,

@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_10 = {
 	[90266] = {
 		cannon = 0,
-		name = "伊19",
+		name = "イ19",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -146,7 +146,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90267] = {
 		cannon = 0,
-		name = "伊26",
+		name = "イ26",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -290,7 +290,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90268] = {
 		cannon = 0,
-		name = "伊58",
+		name = "イ58",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -434,7 +434,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90269] = {
 		cannon = 0,
-		name = "宵月",
+		name = "ヨイヅキ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -581,7 +581,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90270] = {
 		cannon = 0,
-		name = "江风",
+		name = "カワカゼ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -728,7 +728,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90271] = {
 		cannon = 0,
-		name = "朝潮",
+		name = "アサシオ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -875,7 +875,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90272] = {
 		cannon = 0,
-		name = "春月",
+		name = "ハルツキ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1022,7 +1022,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90273] = {
 		cannon = 0,
-		name = "探索者II型",
+		name = "スカベンジャーⅡ型",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1178,7 +1178,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90274] = {
 		cannon = 0,
-		name = "追迹者II型",
+		name = "チェイサーⅡ型",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1334,7 +1334,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90275] = {
 		cannon = 0,
-		name = "领洋者II型",
+		name = "ナビゲーターⅡ型",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1490,7 +1490,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90276] = {
 		cannon = 0,
-		name = "破局者II型",
+		name = "スマッシャーⅡ型",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1660,7 +1660,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90277] = {
 		cannon = 0,
-		name = "执棋者II型",
+		name = "コンダクターⅡ型",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1816,7 +1816,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90278] = {
 		cannon = 0,
-		name = "敦刻尔克",
+		name = "ダンケルク ",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1970,7 +1970,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90279] = {
 		cannon = 0,
-		name = "勒马尔",
+		name = "ル・マルス ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2124,7 +2124,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90280] = {
 		cannon = 0,
-		name = "让巴尔",
+		name = "ジャン・バール ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2278,7 +2278,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90281] = {
 		cannon = 0,
-		name = "爱丁堡",
+		name = "エディンバラ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2447,7 +2447,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90282] = {
 		cannon = 0,
-		name = "贝尔法斯特",
+		name = "ベルファスト",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2616,7 +2616,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90283] = {
 		cannon = 0,
-		name = "纽卡斯尔",
+		name = "ニューカッスル",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2772,7 +2772,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90284] = {
 		cannon = 0,
-		name = "利安得级量产型",
+		name = "量産型リアンダー級",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2932,7 +2932,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90285] = {
 		cannon = 0,
-		name = "诺福克级量产型",
+		name = "量産型ノーフォーク級",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3098,7 +3098,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90286] = {
 		cannon = 0,
-		name = "谢菲尔德",
+		name = "シェフィールド",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3254,7 +3254,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90287] = {
 		cannon = 0,
-		name = "久远",
+		name = "クオン",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3403,7 +3403,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90288] = {
 		cannon = 0,
-		name = "猫音",
+		name = "ネコネ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3550,7 +3550,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90289] = {
 		cannon = 0,
-		name = "露露缇耶 ",
+		name = "ルルティエ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3699,7 +3699,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90290] = {
 		cannon = 0,
-		name = "乌璐露",
+		name = "ウルゥル",
 		type = 6,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3848,7 +3848,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90291] = {
 		cannon = 0,
-		name = "萨拉娜 ",
+		name = "サラァナ",
 		type = 6,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3997,7 +3997,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90292] = {
 		cannon = 0,
-		name = "芙米露露",
+		name = "フミルィル",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4144,7 +4144,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90293] = {
 		cannon = 0,
-		name = "富特",
+		name = "フート",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4304,7 +4304,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90294] = {
 		cannon = 0,
-		name = "斯彭斯",
+		name = "スペンス",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4464,7 +4464,7 @@ pg.enemy_data_statistics_10 = {
 	},
 	[90295] = {
 		cannon = 0,
-		name = "约克城",
+		name = "ヨークタウン",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,

@@ -60,7 +60,7 @@ pg.activity_banner = {
 					17
 				},
 				{
-					12,
+					16,
 					0,
 					0
 				}
@@ -115,7 +115,7 @@ pg.activity_banner = {
 					17
 				},
 				{
-					12,
+					16,
 					0,
 					0
 				}
@@ -153,7 +153,7 @@ pg.activity_banner = {
 					17
 				},
 				{
-					12,
+					16,
 					0,
 					0
 				}
@@ -188,8 +188,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					6,
-					30
+					7,
+					9
 				},
 				{
 					23,
@@ -215,20 +215,45 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
-		time = "stop",
-		type = 12,
 		id = 99,
-		pic = "limit_skin"
+		pic = "limit_skin",
+		type = 12,
+		time = {
+			{
+				{
+					2025,
+					6,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[100] = {
-		param = "饺子|广受欢迎的传统特色食物！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		param = "水餃子|東煌で有名な食べ物<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
 		time = "stop",
 		type = 10,
 		id = 100,
 		pic = "dumpling"
 	},
 	[101] = {
-		param = "镜饼|要开了才能吃哦？<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		param = "鏡餅|割ってから食べちゃうぞー<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
 		time = "stop",
 		type = 10,
 		id = 101,

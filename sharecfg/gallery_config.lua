@@ -1,6 +1,19 @@
 pg = pg or {}
 pg.gallery_config = {
-	[2] = {
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic1",
+		id = 1,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -13,7 +26,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[3] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -26,7 +39,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[4] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -39,7 +52,20 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[6] = {
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic5",
+		id = 5,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -52,7 +78,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[7] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -65,7 +91,20 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[9] = {
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic8",
+		id = 8,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -78,7 +117,20 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[11] = {
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic10",
+		id = 10,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -91,7 +143,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[12] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -104,7 +156,46 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[16] = {
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic13",
+		id = 13,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic14",
+		id = 14,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic15",
+		id = 15,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -117,7 +208,59 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[21] = {
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic17",
+		id = 17,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic18",
+		id = 18,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic19",
+		id = 19,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic20",
+		id = 20,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -130,7 +273,20 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[23] = {
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic22",
+		id = 22,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -143,7 +299,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[24] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -156,7 +312,46 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[28] = {
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic25",
+		id = 25,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic26",
+		id = 26,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic27",
+		id = 27,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -169,7 +364,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[29] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -182,7 +377,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[30] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -195,7 +390,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[31] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -208,7 +403,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[32] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -221,7 +416,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[33] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -234,7 +429,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[34] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -247,7 +442,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[35] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -260,7 +455,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[36] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -273,7 +468,46 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[40] = {
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic37",
+		id = 37,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic38",
+		id = 38,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		year = 1,
+		name = "",
+		unlock_other = 0,
+		illustration = "gallerypic39",
+		id = 39,
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -286,7 +520,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[41] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -299,7 +533,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[42] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -312,7 +546,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[43] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -325,7 +559,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[44] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -338,7 +572,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[45] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -351,7 +585,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[46] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -364,7 +598,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[47] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -377,7 +611,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[48] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -390,7 +624,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[49] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -403,7 +637,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[50] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -416,7 +650,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[51] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -429,7 +663,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[52] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -442,7 +676,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[53] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -455,7 +689,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[54] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -468,7 +702,7 @@ pg.gallery_config = {
 		},
 		unlock_cost = {}
 	},
-	[55] = {
+	{
 		year = 1,
 		name = "",
 		unlock_other = 0,
@@ -482,18 +716,33 @@ pg.gallery_config = {
 		unlock_cost = {}
 	},
 	all = {
+		1,
 		2,
 		3,
 		4,
+		5,
 		6,
 		7,
+		8,
 		9,
+		10,
 		11,
 		12,
+		13,
+		14,
+		15,
 		16,
+		17,
+		18,
+		19,
+		20,
 		21,
+		22,
 		23,
 		24,
+		25,
+		26,
+		27,
 		28,
 		29,
 		30,
@@ -503,6 +752,9 @@ pg.gallery_config = {
 		34,
 		35,
 		36,
+		37,
+		38,
+		39,
 		40,
 		41,
 		42,

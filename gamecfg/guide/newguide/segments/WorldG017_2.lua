@@ -65,7 +65,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击撤退",
+				text = "「撤退」をタップするわ",
 				mode = 2,
 				posY = -239.55,
 				dir = -1,

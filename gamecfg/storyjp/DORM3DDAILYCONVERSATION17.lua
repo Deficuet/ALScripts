@@ -1,0 +1,86 @@
+return {
+	fadeOut = 1.5,
+	dialogbox = 2,
+	hideRecord = true,
+	mode = 2,
+	alpha = 0,
+	id = "DORM3DDAILYCONVERSATION17",
+	hideSkip = true,
+	hideAuto = true,
+	placeholder = {
+		"dorm3d"
+	},
+	scripts = {
+		{
+			actor = 0,
+			side = 0,
+			say = "――シリアス、何か考え込んでいる？",
+			hidePaintObj = true
+		},
+		{
+			side = 2,
+			actorName = 20220,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "ええと…雲の形について考えています",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							param = "Play",
+							name = "sikao2",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = false,
+							time = 1,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
+			}
+		},
+		{
+			side = 2,
+			actorName = 20220,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "見えた雲の形は、心の中で最も期待していることを表している…と、仲間から聞きまして",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			options = {
+				{
+					content = "――じゃあシリアスが今一番期待していることは？",
+					flag = 1
+				}
+			}
+		},
+		{
+			side = 2,
+			actorName = 20220,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "{dorm3d}…わかっていて聞くのですね",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		}
+	}
+}

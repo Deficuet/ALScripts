@@ -106,16 +106,16 @@ function var_0_1.Send(arg_9_0, arg_9_1, arg_9_2, arg_9_3, arg_9_4, arg_9_5, arg_
 			var_9_2 = arg_9_3
 		end
 
+		local var_9_3
+
 		var_0_2[var_9_2] = function(arg_11_0)
 			arg_9_0.isSending = false
 
 			var_0_0.UIMgr.GetInstance():LoadingOff()
 			arg_9_0.connectionMgr:resetHBTimer()
 
-			if arg_9_0.timer then
-				arg_9_0.timer:Stop()
-
-				arg_9_0.timer = nil
+			if var_9_3 then
+				var_9_3:Stop()
 			end
 
 			arg_9_4(arg_11_0)
@@ -124,7 +124,7 @@ function var_0_1.Send(arg_9_0, arg_9_1, arg_9_2, arg_9_3, arg_9_4, arg_9_5, arg_
 				arg_9_0:StartSend()
 			end
 		end
-		arg_9_0.timer = Timer.New(function()
+		var_9_3 = Timer.New(function()
 			var_0_0.UIMgr.GetInstance():LoadingOff()
 
 			var_0_2[var_9_2] = nil
@@ -148,26 +148,26 @@ function var_0_1.Send(arg_9_0, arg_9_1, arg_9_2, arg_9_3, arg_9_4, arg_9_5, arg_
 			arg_9_0:StartSend()
 		end, arg_9_7, 1)
 
-		arg_9_0.timer:Start()
+		var_9_3:Start()
 	else
 		arg_9_5 = false
 	end
 
-	local var_9_3 = var_0_0.Packer.GetInstance():GetProtocolWithName("cs_" .. arg_9_1)
+	local var_9_4 = var_0_0.Packer.GetInstance():GetProtocolWithName("cs_" .. arg_9_1)
 
-	local function var_9_4(arg_13_0, arg_13_1)
+	local function var_9_5(arg_13_0, arg_13_1)
 		for iter_13_0, iter_13_1 in pairs(arg_13_1) do
 			if type(iter_13_1) == "table" then
 				if arg_13_0[iter_13_0].add then
 					for iter_13_2, iter_13_3 in ipairs(iter_13_1) do
-						var_9_4(arg_13_0[iter_13_0]:add(), iter_13_3)
+						var_9_5(arg_13_0[iter_13_0]:add(), iter_13_3)
 					end
 				elseif arg_13_0[iter_13_0].append then
 					for iter_13_4, iter_13_5 in ipairs(iter_13_1) do
 						arg_13_0[iter_13_0]:append(iter_13_5)
 					end
 				else
-					var_9_4(arg_13_0[iter_13_0], iter_13_1)
+					var_9_5(arg_13_0[iter_13_0], iter_13_1)
 				end
 			else
 				arg_13_0[iter_13_0] = iter_13_1
@@ -175,16 +175,16 @@ function var_0_1.Send(arg_9_0, arg_9_1, arg_9_2, arg_9_3, arg_9_4, arg_9_5, arg_
 		end
 	end
 
-	local var_9_5 = var_9_3:GetMessage()
+	local var_9_6 = var_9_4:GetMessage()
 
-	var_9_4(var_9_5, arg_9_2)
+	var_9_5(var_9_6, arg_9_2)
 
 	if arg_9_5 then
-		var_9_0:Send(var_0_0.Packer.GetInstance():Pack(var_9_1, var_9_3:GetId(), var_9_5))
+		var_9_0:Send(var_0_0.Packer.GetInstance():Pack(var_9_1, var_9_4:GetId(), var_9_6))
 		originalPrint("Network sent protocol: " .. arg_9_1 .. " with idx: " .. var_9_1)
 		arg_9_0:incPacketIdx()
 	else
-		var_9_0:Send(var_0_0.Packer.GetInstance():Pack(0, var_9_3:GetId(), var_9_5))
+		var_9_0:Send(var_0_0.Packer.GetInstance():Pack(0, var_9_4:GetId(), var_9_6))
 		originalPrint("Network sent protocol: " .. arg_9_1 .. " without idx")
 	end
 

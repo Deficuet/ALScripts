@@ -276,6 +276,7 @@ var_0_1.action2Words = {
 	"home",
 	"mail",
 	"touch",
+	"touch2",
 	"headtouch"
 }
 var_0_1.idleActions = {
@@ -314,7 +315,7 @@ end
 
 function var_0_1.getAssistantTouchEvents(arg_2_0, arg_2_1)
 	if var_0_1.enable() and var_0_1.assistantTouchParts[arg_2_0] == "TouchSpecial" then
-		arg_2_0 = 3
+		arg_2_0 = 1
 	end
 
 	if var_0_1.useNewTouchEventShip and var_0_1.useNewTouchEventShip[arg_2_1] then
@@ -326,7 +327,7 @@ end
 
 function var_0_1.getPaintingTouchEvents(arg_3_0)
 	if var_0_1.enable() and var_0_1.PaintingTouchParts[arg_3_0] == "TouchSpecial" then
-		arg_3_0 = "2"
+		arg_3_0 = "1"
 	end
 
 	return var_0_1.PaintingTouchParts[arg_3_0]
@@ -392,13 +393,12 @@ var_0_1.Expressions = {
 	xixuegui_3 = {
 		faces = {
 			touch2 = "3",
-			win_mvp = "1",
 			feeling5 = "1",
-			home = "2",
+			main_1 = "1",
+			win_mvp = "1",
 			main_2 = "1",
 			touch = "3",
-			main_3 = "2",
-			detail = "1"
+			home = "3"
 		}
 	},
 	safuke = {
@@ -482,6 +482,32 @@ var_0_1.Expressions = {
 			feeling1 = "2"
 		}
 	},
+	chuixue_4 = {
+		faces = {
+			login = "2",
+			main_2 = "1",
+			touch = "1",
+			expedition = "2",
+			home = "1",
+			feeling2 = "2",
+			mail = "2",
+			feeling1 = "3",
+			main_3 = "3",
+			detail = "3"
+		}
+	},
+	zaoshen_2 = {
+		faces = {
+			touch2 = "3",
+			feeling2 = "2",
+			touch = "3",
+			home = "2",
+			login = "1",
+			feeling1 = "3",
+			main_3 = "2",
+			detail = "1"
+		}
+	},
 	luodeni_3 = {
 		faces = {
 			touch2 = "1",
@@ -492,6 +518,11 @@ var_0_1.Expressions = {
 			feeling1 = "1",
 			main_3 = "1",
 			detail = "2"
+		}
+	},
+	ajiakesi_2 = {
+		faces = {
+			default = "0"
 		}
 	},
 	zaoshen_2 = {
@@ -1426,23 +1457,6 @@ var_0_1.Expressions = {
 			detail = "1"
 		}
 	},
-	sipeibojue_3 = {
-		faces = {
-			login = "1",
-			propose = "2",
-			main_1 = "1",
-			main_2 = "2",
-			touch = "2",
-			win_mvp = "4",
-			home = "2",
-			headtouch = "6",
-			touch2 = "2",
-			battle = "1",
-			mail = "5",
-			lose = "7",
-			main_3 = "4"
-		}
-	},
 	yanzhan_2 = {
 		faces = {
 			touch = "1",
@@ -1482,26 +1496,6 @@ var_0_1.Expressions = {
 			detail = "1"
 		}
 	},
-	huonululu_4 = {
-		faces = {
-			feeling1 = "5",
-			feeling3 = "2",
-			main_1 = "2",
-			win_mvp = "3",
-			feeling4 = "2",
-			profile = "2",
-			mission_complete = "3",
-			mission = "3",
-			feeling2 = "3",
-			login = "1",
-			touch = "2",
-			battle = "3",
-			mail = "2",
-			lose = "4",
-			feeling5 = "1",
-			propose = "2"
-		}
-	},
 	pufeng_2 = {
 		faces = {
 			touch = "1",
@@ -1538,6 +1532,19 @@ var_0_1.Expressions = {
 			feeling1 = "2",
 			main_3 = "4",
 			detail = "3"
+		}
+	},
+	yueke_g = {
+		faces = {
+			lose = "4",
+			touch2 = "4",
+			main_2 = "1",
+			touch = "1",
+			mission_complete = "2",
+			mission = "1",
+			feeling2 = "2",
+			mail = "1",
+			feeling1 = "3"
 		}
 	},
 	yueke_g = {
@@ -1613,16 +1620,18 @@ var_0_1.Expressions = {
 	},
 	jiahezhanlie = {
 		faces = {
-			feeling4 = "1",
-			feeling3 = "2",
-			touch2 = "2",
-			main_2 = "2",
-			feeling1 = "1",
 			profile = "2",
-			mission = "1",
-			feeling2 = "2",
+			feeling3 = "2",
+			main_2 = "2",
+			touch2 = "2",
+			feeling4 = "1",
+			upgrade = "1",
 			mail = "3",
+			mission = "3",
+			feeling2 = "2",
 			lose = "2",
+			login = "1",
+			feeling1 = "3",
 			detail = "2"
 		}
 	},
@@ -2151,6 +2160,45 @@ var_0_1.Expressions = {
 			hp_warning = "7",
 			login = "1",
 			detail = "5"
+		}
+	},
+	sipeibojue_3 = {
+		faces = {
+			login = "3",
+			upgrade = "5",
+			main_1 = "1",
+			main_2 = "3",
+			touch = "2",
+			win_mvp = "4",
+			home = "4",
+			headtouch = "6",
+			battle = "1",
+			propose = "2",
+			lose = "7",
+			main_3 = "4"
+		}
+	},
+	huonululu_4 = {
+		faces = {
+			touch = "2",
+			feeling3 = "2",
+			main_1 = "3",
+			feeling4 = "2",
+			propose = "2",
+			win_mvp = "3",
+			main_2 = "2",
+			mission = "3",
+			touch2 = "5",
+			lose = "4",
+			mail = "2",
+			feeling1 = "5",
+			main_3 = "2",
+			feeling5 = "2",
+			profile = "2",
+			mission_complete = "3",
+			feeling2 = "3",
+			battle = "3",
+			login = "3"
 		}
 	}
 }

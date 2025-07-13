@@ -9,7 +9,7 @@ PLATFORM_JP = 2
 PLATFORM_KR = 3
 PLATFORM_US = 4
 PLATFORM_CHT = 5
-PLATFORM_CODE = PLATFORM_CH
+PLATFORM_CODE = PLATFORM_JP
 IsUnityEditor = UnityEngine.Application.isEditor
 
 require("Include")
@@ -51,7 +51,7 @@ if IsUnityEditor then
 	end
 end
 
-if (PLATFORM_CODE == PLATFORM_CH and CSharpVersion < 48 or PLATFORM_CODE == PLATFORM_CHT) and PLATFORM == 8 then
+if PLATFORM_CODE == PLATFORM_CHT and PLATFORM == 8 then
 	pg.SdkMgr.GetInstance():InitSDK()
 end
 
@@ -199,6 +199,10 @@ function OnApplicationExit()
 		return
 	end
 
+	if pg.goldExchangeMgr then
+		pg.goldExchangeMgr:willExit()
+	end
+
 	local var_4_16 = checkExist(pg.NewStyleMsgboxMgr.GetInstance(), {
 		"_tf"
 	})
@@ -234,6 +238,8 @@ function PressBack()
 		})
 	end
 end
+
+pg.goldExchangeMgr = nil
 
 local function var_0_0(arg_8_0)
 	parallelAsync({

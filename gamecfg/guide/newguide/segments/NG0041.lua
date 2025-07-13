@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "在本章战斗中，可以使用\n「支援舰队」功能",
+				text = "ステージの出撃画面で【支援艦隊】を編成できるわ！",
 				mode = 1,
 				posY = 214,
 				dir = 1,
@@ -14,7 +14,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "在「支援舰队」栏位中设置需要编入支援舰队的角色吧",
+				text = "【支援艦隊】の枠をタップし、艦船を配置するわよ",
 				mode = 1,
 				posY = 3,
 				dir = 1,
@@ -30,7 +30,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "选择任意一名角色编入「支援舰队」",
+				text = "艦船を選択して艦隊に編入して！",
 				mode = 1,
 				posY = 289.2,
 				dir = -1,
@@ -44,7 +44,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击确认",
+				text = "確定",
 				mode = 1,
 				posY = -134,
 				dir = 1,
@@ -57,7 +57,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "有关支援舰队的机制说明可以随时在本界面点击问号查看哦",
+				text = "【支援艦隊】の特殊仕様は「？」ボタンタップで確認できるわ！",
 				mode = 1,
 				posY = 93.5,
 				dir = 1,

@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "解锁了新的地点，一起去看看吧",
+				text = "新しいロケーションが開放されました",
 				mode = 2,
 				posY = -406.14,
 				char = 1,
@@ -24,7 +24,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "请先前往度假庄园",
+				text = "今度は「リゾート」に行きましょう",
 				mode = 2,
 				posY = -290.9,
 				char = 1,
@@ -43,7 +43,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "就在度假庄园随便逛逛吧",
+				text = "「リゾート」で少し散策して気分転換しましょう",
 				mode = 2,
 				posY = -150.4,
 				char = 1,

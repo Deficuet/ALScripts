@@ -10,5 +10,6 @@ return {
 	"feijiyingzi",
 	"Darkness",
 	"hongsebuff",
+	"EVDdowm",
 	"Pojia01"
 }

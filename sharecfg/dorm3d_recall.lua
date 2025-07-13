@@ -2,12 +2,12 @@ pg = pg or {}
 pg.dorm3d_recall = {
 	{
 		story_id = 10010,
-		name = "欢迎光临 ",
-		unlock_text = "契合度1级后解锁",
+		name = "ようこそ宿舎へ",
+		unlock_text = "親愛度Lv1で開放",
 		type = 1,
 		id = 1,
 		image = "recall_01",
-		desc = "初次来到天狼星的宿舍，她所准备的是……",
+		desc = "初めてシリアスの部屋に訪れた時……",
 		unlock = {
 			1,
 			20220,
@@ -16,12 +16,12 @@ pg.dorm3d_recall = {
 	},
 	{
 		story_id = 10020,
-		name = "片刻温存",
-		unlock_text = "契合度4级后解锁",
+		name = "一時の憩い",
+		unlock_text = "親愛度Lv4で開放",
 		type = 1,
 		id = 2,
 		image = "recall_02",
-		desc = "在蒸腾的水汽之中，她所倾诉的是…… ",
+		desc = "湯気漂う中、シリアスが訴えかけたのは…",
 		unlock = {
 			1,
 			20220,
@@ -30,12 +30,12 @@ pg.dorm3d_recall = {
 	},
 	{
 		story_id = 10030,
-		name = "贴心准备",
-		unlock_text = "契合度7级后解锁",
+		name = "準備の気配り",
+		unlock_text = "親愛度Lv7で開放",
 		type = 1,
 		id = 3,
 		image = "recall_03",
-		desc = "在她偶尔犯迷糊时，能为她准备的是……",
+		desc = "ドジを踏んでしまったシリアス……",
 		unlock = {
 			1,
 			20220,
@@ -44,12 +44,12 @@ pg.dorm3d_recall = {
 	},
 	{
 		story_id = 10040,
-		name = "温柔关怀",
-		unlock_text = "契合度10级后解锁",
+		name = "優しいお世話",
+		unlock_text = "親愛度Lv10で開放",
 		type = 1,
 		id = 4,
 		image = "recall_04",
-		desc = "接受检查的天狼星，她所感受到的是……",
+		desc = "検査を受けたシリアスが感じたことは……",
 		unlock = {
 			1,
 			20220,
@@ -58,12 +58,12 @@ pg.dorm3d_recall = {
 	},
 	{
 		story_id = 10050,
-		name = "共舞一曲",
-		unlock_text = "契合度13级后解锁",
+		name = "一緒に踊りを",
+		unlock_text = "親愛度Lv13で開放",
 		type = 1,
 		id = 5,
 		image = "recall_05",
-		desc = "被邀请共舞的天狼星，她所希冀的是......",
+		desc = "踊りに誘われたシリアスの反応は……",
 		unlock = {
 			1,
 			20220,
@@ -72,12 +72,12 @@ pg.dorm3d_recall = {
 	},
 	{
 		story_id = 10060,
-		name = "清扫的诀窍",
-		unlock_text = "赠送清扫工具箱后解锁",
+		name = "掃除の秘訣",
+		unlock_text = "「清掃ツールボックス」をプレゼントして開放",
 		type = 1,
 		id = 6,
 		image = "gift_01",
-		desc = "就由天狼星来演示皇家女仆的清扫秘诀吧。",
+		desc = "シリアス、ロイヤルメイドの掃除の極意をお見せします",
 		unlock = {
 			3,
 			2022001
@@ -85,12 +85,12 @@ pg.dorm3d_recall = {
 	},
 	{
 		story_id = 10070,
-		name = "意外失误",
-		unlock_text = "赠送茶具套组后解锁",
+		name = "意外のトラブル",
+		unlock_text = "「ロイヤルティーセット」をプレゼントすることで解放",
 		type = 1,
 		id = 7,
 		image = "gift_02",
-		desc = "即使是优秀女仆，也会有意外失误的时刻。",
+		desc = "最も優秀なロイヤルメイドでも失敗する時はある",
 		unlock = {
 			3,
 			2022002
@@ -98,12 +98,12 @@ pg.dorm3d_recall = {
 	},
 	[21] = {
 		story_id = 20500,
-		name = "蒙眼惊喜",
-		unlock_text = "契合度4级后解锁",
+		name = "目隠しサプライズ",
+		unlock_text = "親愛度Lv4で開放",
 		type = 1,
 		id = 21,
 		image = "recall_21",
-		desc = "被她柔软的手掌覆上了眼睛，猜猜，是谁在身后呢？",
+		desc = "不意に、目が柔らかい感触で覆われた。「だーれだ？」",
 		unlock = {
 			1,
 			30221,
@@ -112,12 +112,12 @@ pg.dorm3d_recall = {
 	},
 	[22] = {
 		story_id = 20510,
-		name = "掌间温度",
-		unlock_text = "契合度8级后解锁",
+		name = "手のひらの暖かさ",
+		unlock_text = "親愛度Lv8で開放",
 		type = 1,
 		id = 22,
 		image = "recall_22",
-		desc = "临行前的亲密触碰，或许是同行时的最好序章……",
+		desc = "お出かけ前のスキンシップこそ、素敵な思い出の序章――",
 		unlock = {
 			1,
 			30221,
@@ -126,12 +126,12 @@ pg.dorm3d_recall = {
 	},
 	[23] = {
 		story_id = 20520,
-		name = "心跳触摸",
-		unlock_text = "契合度12级后解锁",
+		name = "ドキドキ触れ合い",
+		unlock_text = "親愛度Lv12で開放",
 		type = 1,
 		id = 23,
 		image = "recall_23",
-		desc = "感受到她的心跳了吗？那是四目相对时，才有的频率……",
+		desc = "目と目が合った時にしか感じられない、彼女のドキドキ",
 		unlock = {
 			1,
 			30221,
@@ -140,12 +140,12 @@ pg.dorm3d_recall = {
 	},
 	[31] = {
 		story_id = 29991,
-		name = "贴心协助",
-		unlock_text = "赠送素色物语后解锁",
+		name = "素直な手伝い",
+		unlock_text = "「素直ローファー」をプレゼントして開放",
 		type = 1,
 		id = 31,
 		image = "recall_31",
-		desc = "相处时刻，掌间纤细的触感，是刹那的心动……",
+		desc = "二人っきりの時間。繊細な肌触りがもてなす感動の刹那は…",
 		unlock = {
 			3,
 			3022101
@@ -153,12 +153,12 @@ pg.dorm3d_recall = {
 	},
 	[32] = {
 		story_id = 20530,
-		name = "能量修复仪",
-		unlock_text = "赠送能量修复仪后解锁",
+		name = "フットマッサージャー",
+		unlock_text = "「フットマッサージャー」をプレゼントして開放",
 		type = 1,
 		id = 32,
 		image = "recall_32",
-		desc = "修复心灵共振回忆， 探索能量注入动力。",
+		desc = "疲れを癒やし心を癒やす、日々の体にエネルギー充填！",
 		unlock = {
 			3,
 			3022102
@@ -166,12 +166,12 @@ pg.dorm3d_recall = {
 	},
 	[41] = {
 		story_id = 30520,
-		name = "想一起玩",
-		unlock_text = "契合度4级后解锁",
+		name = "一緒に遊びたい",
+		unlock_text = "親愛度Lv4で開放",
 		type = 1,
 		id = 41,
 		image = "recall_41",
-		desc = "平静的午后，正在放松的安克雷奇等待着……",
+		desc = "穏やかな午後。部屋でゆっくりしているアンカレッジが待っている……",
 		unlock = {
 			1,
 			19903,
@@ -180,12 +180,12 @@ pg.dorm3d_recall = {
 	},
 	[42] = {
 		story_id = 30530,
-		name = "一起捉迷藏",
-		unlock_text = "契合度8级后解锁",
+		name = "かくれんぼ",
+		unlock_text = "親愛度Lv8で開放",
 		type = 1,
 		id = 42,
 		image = "recall_42",
-		desc = "安克雷奇在哪里呢？那期待的身影似乎已经出卖了她……",
+		desc = "アンカレッジはどこにいるかな？期待でソワソワしている姿からもう丸わかりだ",
 		unlock = {
 			1,
 			19903,
@@ -194,12 +194,12 @@ pg.dorm3d_recall = {
 	},
 	[43] = {
 		story_id = 30540,
-		name = "晨间之吻",
-		unlock_text = "契合度12级后解锁",
+		name = "目覚めの朝",
+		unlock_text = "親愛度Lv12で開放",
 		type = 1,
 		id = 43,
 		image = "recall_43",
-		desc = "美好的早晨，安克雷奇在轻声呼唤你，一起享受清新的晨光……",
+		desc = "囁きの中で目覚める素晴らしい朝。アンカレッジと一緒に楽しむ新しい一日",
 		unlock = {
 			1,
 			19903,
@@ -208,12 +208,12 @@ pg.dorm3d_recall = {
 	},
 	[51] = {
 		story_id = 30510,
-		name = "绘制幸福 ",
-		unlock_text = "赠送彩虹心语后解锁",
+		name = "幸せを描き留めて",
+		unlock_text = "「キャンバス」をプレゼントして開放",
 		type = 1,
 		id = 51,
 		image = "recall_51",
-		desc = "安克雷奇在房间里画画，用颜料认真绘制着她心中的那一份幸福……",
+		desc = "部屋で絵を描いているアンカレッジ。絵の具と筆を使って、心に溢れる幸せを形に……",
 		unlock = {
 			3,
 			1990301
@@ -221,12 +221,12 @@ pg.dorm3d_recall = {
 	},
 	[101] = {
 		story_id = 110510,
-		name = "迷人装饰",
-		unlock_text = "契合度4级后解锁",
+		name = "魅力コーデ",
+		unlock_text = "親愛度Lv4で開放",
 		type = 1,
 		id = 101,
 		image = "recall_111",
-		desc = "在她的眼中，你戴什么都很迷人~",
+		desc = "彼女からすれば、あなたがどんなものを着飾っていても魅力的に映る",
 		unlock = {
 			1,
 			10517,
@@ -235,12 +235,12 @@ pg.dorm3d_recall = {
 	},
 	[102] = {
 		story_id = 110520,
-		name = "甜蜜恶作剧",
-		unlock_text = "契合度8级后解锁",
+		name = "甘いイタズラ",
+		unlock_text = "親愛度Lv8で開放",
 		type = 1,
 		id = 102,
 		image = "recall_112",
-		desc = "不用担心找不到她，她会一直在你身边。",
+		desc = "はぐれる心配はない。なぜなら彼女はいつもあなたのそばにいるから",
 		unlock = {
 			1,
 			10517,
@@ -249,12 +249,12 @@ pg.dorm3d_recall = {
 	},
 	[103] = {
 		story_id = 110530,
-		name = "冰凉味道",
-		unlock_text = "契合度12级后解锁",
+		name = "涼しい舌触り",
+		unlock_text = "親愛度Lv12で開放",
 		type = 1,
 		id = 103,
 		image = "recall_113",
-		desc = "藏起来的冰凉，是触碰过她唇角的甜蜜味道。",
+		desc = "ヒンヤリとした舌触りは、彼女が口づけた甘いフレーバー",
 		unlock = {
 			1,
 			10517,
@@ -263,12 +263,12 @@ pg.dorm3d_recall = {
 	},
 	[104] = {
 		story_id = 110541,
-		name = "甜蜜水晶",
-		unlock_text = "赠送水晶糖后解锁",
+		name = "味わうクリスタル",
+		unlock_text = "「水晶キャンディ」をプレゼントして開放",
 		type = 1,
 		id = 104,
 		image = "recall_114",
-		desc = "水晶般的糖果是什么味道呢？和她一起品尝一下吧~",
+		desc = "水晶のようなキャンディはどんな味だろう？彼女と一緒に味わってみよう",
 		unlock = {
 			3,
 			1051701

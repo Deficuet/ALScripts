@@ -6,7 +6,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "点击此处，打开契合度面板",
+				text = "ここをタップすると親愛度確認できるわ",
 				mode = 4,
 				dir = 1,
 				char = "char",
@@ -24,7 +24,7 @@ return {
 			delay = 0.8,
 			alpha = 0.4,
 			style = {
-				text = "点击此处，打开昼夜切换界面",
+				text = "ここをタップして、時間変更画面を開いて！",
 				mode = 4,
 				dir = 1,
 				char = "char",
@@ -52,7 +52,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点选后即可切换时间。在夜间，宿舍的物品摆设也会略有不同哦~",
+				text = "タップすると時間を切り替えられるわ。部屋のオブジェクトは昼夜違うみたい…？",
 				mode = 4,
 				dir = 1,
 				char = "char",

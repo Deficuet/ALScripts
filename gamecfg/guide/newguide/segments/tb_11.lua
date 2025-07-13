@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "行程会消耗心情值，点击查看不同心情对收益造成的影响 ",
+				text = "予定を進めると「気分」が増減することがあります。「気分」アイコンをタップし効果を確認しましょう ",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -31,7 +31,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "当心情值降低至一定程度后，<color=#39bfff>状态便会受到影响</color>，此时便需要外出来恢复心情值。",
+				text = "気分が一定値より下回ると、<color=#39bfff>育成の効果が落ちてしまいます</color>。予定の「お出かけ」などで回復しましょう",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -43,7 +43,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "请点击确定关闭弹窗",
+				text = "画面をタップし戻りましょう",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -59,7 +59,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "在每个周的周日点击<color=#39bfff>出行</color>，可以前往大地图。",
+				text = "毎週の日曜日は「おでかけ」することができます",
 				mode = 2,
 				posY = -206.2,
 				char = 1,
@@ -78,7 +78,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "随着时间的推移，今后还会解锁更多可以前往的地点。",
+				text = "時間が経つと、訪問できるロケーションが徐々に開放されます",
 				mode = 2,
 				posY = -290.3,
 				char = 1,
@@ -89,7 +89,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "现在，就先前往<color=#39bfff>游乐场</color>进行心情的回复吧。",
+				text = "今日は遊園地に行って「気分」を回復しましょう",
 				mode = 2,
 				posY = -300.18,
 				char = 1,
@@ -108,7 +108,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "在大地图上行动会消耗<color=#39bfff>行动力</color>，出行时还请注意，其它内容就请在今后自行探索啦。",
+				text = "ロケーションで行動を選択すると、「行動力」を消費し様々な効果を得られます",
 				mode = 2,
 				posY = -314.1,
 				char = 1,

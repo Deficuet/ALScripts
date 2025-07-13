@@ -8,7 +8,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.09,
 		ship_type = 1,
-		type_name = "驱逐",
+		type_name = "駆逐",
 		team_type = "vanguard",
 		strengthen_choose_type = {
 			1,
@@ -37,7 +37,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.12,
 		ship_type = 2,
-		type_name = "轻巡",
+		type_name = "軽巡",
 		team_type = "vanguard",
 		strengthen_choose_type = {
 			1,
@@ -95,7 +95,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.24,
 		ship_type = 4,
-		type_name = "战巡",
+		type_name = "巡戦",
 		team_type = "main",
 		strengthen_choose_type = {
 			5,
@@ -124,7 +124,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.3,
 		ship_type = 5,
-		type_name = "战列",
+		type_name = "戦艦",
 		team_type = "main",
 		strengthen_choose_type = {
 			5,
@@ -153,7 +153,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.18,
 		ship_type = 6,
-		type_name = "轻航",
+		type_name = "軽母",
 		team_type = "main",
 		strengthen_choose_type = {
 			7,
@@ -182,7 +182,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.27,
 		ship_type = 7,
-		type_name = "正航",
+		type_name = "空母",
 		team_type = "main",
 		strengthen_choose_type = {
 			7,
@@ -211,7 +211,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.06,
 		ship_type = 8,
-		type_name = "潜艇",
+		type_name = "潜水",
 		team_type = "submarine",
 		strengthen_choose_type = {
 			1,
@@ -267,7 +267,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.27,
 		ship_type = 10,
-		type_name = "航战",
+		type_name = "航戦",
 		team_type = "main",
 		strengthen_choose_type = {
 			7,
@@ -325,7 +325,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.15,
 		ship_type = 12,
-		type_name = "维修",
+		type_name = "工作",
 		team_type = "main",
 		strengthen_choose_type = {
 			1,
@@ -352,7 +352,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.12,
 		ship_type = 13,
-		type_name = "重炮",
+		type_name = "砲艦",
 		team_type = "main",
 		strengthen_choose_type = {
 			5,
@@ -379,7 +379,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.06,
 		ship_type = 17,
-		type_name = "潜母",
+		type_name = "潜母 ",
 		team_type = "submarine",
 		strengthen_choose_type = {
 			1,
@@ -435,7 +435,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.15,
 		ship_type = 19,
-		type_name = "运输",
+		type_name = "運送",
 		team_type = "vanguard",
 		strengthen_choose_type = {
 			1,
@@ -464,7 +464,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.09,
 		ship_type = 20,
-		type_name = "导驱",
+		type_name = "ミ駆",
 		team_type = "vanguard",
 		strengthen_choose_type = {
 			1,
@@ -493,7 +493,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.09,
 		ship_type = 21,
-		type_name = "导驱",
+		type_name = "ミ駆",
 		team_type = "main",
 		strengthen_choose_type = {
 			1,
@@ -522,7 +522,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.09,
 		ship_type = 22,
-		type_name = "风帆",
+		type_name = "風帆",
 		team_type = "submarine",
 		strengthen_choose_type = {
 			1,
@@ -549,7 +549,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.12,
 		ship_type = 23,
-		type_name = "风帆",
+		type_name = "風帆",
 		team_type = "vanguard",
 		strengthen_choose_type = {
 			1,
@@ -578,7 +578,7 @@ pg.ship_data_by_type = {
 		distory_resource_oil_ratio = 0,
 		energy_recover_food_ratio = 0.24,
 		ship_type = 24,
-		type_name = "风帆",
+		type_name = "風帆",
 		team_type = "main",
 		strengthen_choose_type = {
 			5,

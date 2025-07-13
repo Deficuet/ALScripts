@@ -11,6 +11,7 @@ pg.pay_data_display = setmetatable({
 		7,
 		8,
 		9,
+		10,
 		11,
 		12,
 		13,
@@ -57,7 +58,6 @@ pg.pay_data_display = setmetatable({
 		57,
 		58,
 		59,
-		60,
 		61,
 		62,
 		63,
@@ -74,11 +74,6 @@ pg.pay_data_display = setmetatable({
 		74,
 		75,
 		76,
-		77,
-		78,
-		79,
-		80,
-		81,
 		82,
 		83,
 		84,
@@ -126,8 +121,6 @@ pg.pay_data_display = setmetatable({
 		2009,
 		2010,
 		2011,
-		2012,
-		2013,
 		2014,
 		2015,
 		2016,
@@ -190,18 +183,18 @@ pg.pay_data_display = setmetatable({
 pg.base = pg.base or {}
 pg.base.pay_data_display = {
 	{
-		descrip = "购买后立即获得$1钻,30日内每天获得资源",
-		name = "贸易许可证（30日）",
+		descrip = "ダイヤ$1個+30日間毎日資源が貰える",
+		name = "貿易許可証（30日間）",
 		descrip_extra = "",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "贸易许可证",
+		subject = "貿易許可証（30日間）",
 		tip = "",
 		tip_open = 0,
 		id = 1,
-		money = 30,
-		name_display = "贸易许可证（30日）",
+		money = 1000,
+		name_display = "貿易許可証（30日間）",
 		tag = 2,
 		akashi_pick = 0,
 		gem = 500,
@@ -215,7 +208,7 @@ pg.base.pay_data_display = {
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi102",
 		first_pay_double = 0,
-		extra_gem = 0,
+		extra_gem = 10,
 		limit_arg = 7,
 		airijp_id = "com.yostarjp.azurlane.passport1",
 		extra_service_item = {
@@ -274,27 +267,27 @@ pg.base.pay_data_display = {
 		}
 	},
 	{
-		descrip = "购买礼包可获得建造及钻石资源",
-		name = "新手启航补给",
+		descrip = "ダイヤなどのアイテムを入手可能",
+		name = "新規着任パック",
 		descrip_extra = "",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "新手起航补给",
+		subject = "新規着任パック",
 		tip = "",
 		tip_open = 0,
 		id = 2,
-		money = 1,
-		name_display = "新手启航补给",
+		money = 160,
+		name_display = "新規着任パック",
 		tag = 1,
 		akashi_pick = 1,
-		gem = 30,
+		gem = 80,
 		extra_service = 3,
 		show_group = "",
 		limit_type = 2,
 		time = "always",
 		package_tag_open = 1,
-		package_tag = "新手\n推荐",
+		package_tag = "新人 ",
 		picture = "boxNewplayer",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi101",
@@ -316,6 +309,11 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
+				1,
+				4,
+				80
+			},
+			{
 				2,
 				15003,
 				2
@@ -324,11 +322,6 @@ pg.base.pay_data_display = {
 				2,
 				20001,
 				2
-			},
-			{
-				1,
-				4,
-				30
 			}
 		},
 		sub_display = {},
@@ -348,21 +341,21 @@ pg.base.pay_data_display = {
 		}
 	},
 	{
-		descrip = "额外赠送$1钻",
-		name = "几个钻石",
+		descrip = "+おまけ$1個",
+		name = "ダイヤ一摘み",
 		descrip_extra = "",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "钻石*60",
+		subject = "ダイヤ一摘み",
 		tip = "",
 		tip_open = 0,
 		id = 3,
-		money = 6,
-		name_display = "几个钻石",
+		money = 160,
+		name_display = "ダイヤ一摘み",
 		tag = 0,
 		akashi_pick = 0,
-		gem = 60,
+		gem = 80,
 		extra_service_item = "0",
 		extra_service = 0,
 		limit_type = 99,
@@ -384,21 +377,21 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	{
-		descrip = "额外赠送$1钻",
-		name = "一小堆钻石",
+		descrip = "+おまけ$1個",
+		name = "ダイヤ一握り",
 		descrip_extra = "",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "钻石*300",
+		subject = "ダイヤ一握り",
 		tip = "",
 		tip_open = 0,
 		id = 4,
-		money = 30,
-		name_display = "一小堆钻石",
+		money = 650,
+		name_display = "ダイヤ一握り",
 		tag = 0,
 		akashi_pick = 0,
-		gem = 300,
+		gem = 325,
 		extra_service_item = "0",
 		extra_service = 0,
 		limit_type = 99,
@@ -420,21 +413,21 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	{
-		descrip = "额外赠送$1钻",
-		name = "一大袋钻石",
+		descrip = "+おまけ$1個",
+		name = "ダイヤ一袋",
 		descrip_extra = "",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "钻石*980",
+		subject = "ダイヤ一袋",
 		tip = "",
 		tip_open = 0,
 		id = 5,
-		money = 98,
-		name_display = "一大袋钻石",
+		money = 1200,
+		name_display = "ダイヤ一袋",
 		tag = 0,
 		akashi_pick = 0,
-		gem = 980,
+		gem = 600,
 		extra_service_item = "0",
 		extra_service = 0,
 		limit_type = 0,
@@ -446,7 +439,7 @@ pg.base.pay_data_display = {
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi3",
 		first_pay_double = 1,
-		extra_gem = 120,
+		extra_gem = 145,
 		limit_arg = 0,
 		airijp_id = "com.yostarjp.azurlane.diamond3",
 		display = {},
@@ -456,21 +449,21 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	{
-		descrip = "额外赠送$1钻",
-		name = "一小箱钻石",
+		descrip = "+おまけ$1個",
+		name = "ダイヤ小箱",
 		descrip_extra = "",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "钻石*1980",
+		subject = "ダイヤ小箱",
 		tip = "",
 		tip_open = 0,
 		id = 6,
-		money = 198,
-		name_display = "一小箱钻石",
+		money = 2400,
+		name_display = "ダイヤ小箱",
 		tag = 0,
 		akashi_pick = 0,
-		gem = 1980,
+		gem = 1200,
 		extra_service_item = "0",
 		extra_service = 0,
 		limit_type = 0,
@@ -482,7 +475,7 @@ pg.base.pay_data_display = {
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi4",
 		first_pay_double = 1,
-		extra_gem = 300,
+		extra_gem = 350,
 		limit_arg = 0,
 		airijp_id = "com.yostarjp.azurlane.diamond4",
 		display = {},
@@ -492,21 +485,21 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	{
-		descrip = "额外赠送$1钻",
-		name = "一大箱钻石",
+		descrip = "+おまけ$1個",
+		name = "ダイヤ大箱",
 		descrip_extra = "",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "钻石*3280",
+		subject = "ダイヤ大箱",
 		tip = "",
 		tip_open = 0,
 		id = 7,
-		money = 328,
-		name_display = "一大箱钻石",
+		money = 4900,
+		name_display = "ダイヤ大箱",
 		tag = 0,
 		akashi_pick = 0,
-		gem = 3280,
+		gem = 2450,
 		extra_service_item = "0",
 		extra_service = 0,
 		limit_type = 0,
@@ -518,7 +511,7 @@ pg.base.pay_data_display = {
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi5",
 		first_pay_double = 1,
-		extra_gem = 720,
+		extra_gem = 880,
 		limit_arg = 0,
 		airijp_id = "com.yostarjp.azurlane.diamond5",
 		display = {},
@@ -528,21 +521,21 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	{
-		descrip = "额外赠送$1钻",
-		name = "一整船钻石",
+		descrip = "+おまけ$1個",
+		name = "ダイヤ一船",
 		descrip_extra = "",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "钻石*6480",
+		subject = "ダイヤ一船",
 		tip = "",
 		tip_open = 0,
 		id = 8,
-		money = 648,
-		name_display = "一整船钻石",
+		money = 10000,
+		name_display = "ダイヤ一船",
 		tag = 1,
 		akashi_pick = 0,
-		gem = 6480,
+		gem = 5000,
 		extra_service_item = "0",
 		extra_service = 0,
 		limit_type = 0,
@@ -554,7 +547,7 @@ pg.base.pay_data_display = {
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi6",
 		first_pay_double = 1,
-		extra_gem = 2400,
+		extra_gem = 2500,
 		limit_arg = 0,
 		airijp_id = "com.yostarjp.azurlane.diamond6",
 		display = {},
@@ -564,18 +557,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	{
-		descrip = "可获得一件角色新年换装，3个外观装备箱，和大量其他奖励",
-		name = "新年福袋",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。已获得的衣装将自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムに正月シリーズの着せ替え衣装を入手可能",
+		name = "福袋",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\n※すでに所有している衣装を入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "新年福袋",
+		subject = "福袋",
 		tip = "",
 		tip_open = 0,
 		id = 9,
-		money = 198,
-		name_display = "新年福袋",
+		money = 3800,
+		name_display = "福袋",
 		tag = 1,
 		akashi_pick = 1,
 		gem = 0,
@@ -677,19 +670,133 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[11] = {
-		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
-		name = "国庆福袋",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则会转化为对应原价9折的钻石。",
+	{
+		descrip = "など6つのアイテム",
+		name = "新生活キャンペｰン",
+		descrip_extra = "アプリストア新生活キャンペーン特典",
+		type = 0,
+		limit_group = 0,
+		type_order = 0,
+		subject = "新生活キャンペｰン",
+		tip = "",
+		tip_open = 0,
+		id = 10,
+		money = 1200,
+		name_display = "新生活キャンペｰン",
+		tag = 1,
+		akashi_pick = 1,
+		gem = 0,
+		extra_service = 3,
+		show_group = "",
+		limit_type = 2,
+		package_tag_open = 0,
+		package_tag = "",
+		picture = "box-act",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.zuanshi104",
+		first_pay_double = 0,
+		extra_gem = 0,
+		limit_arg = 1,
+		airijp_id = "com.yostarjp.azurlane.diamond104",
+		extra_service_item = {
+			{
+				1,
+				14,
+				700
+			},
+			{
+				1,
+				6,
+				100
+			},
+			{
+				1,
+				1,
+				3000
+			},
+			{
+				2,
+				20001,
+				6
+			},
+			{
+				2,
+				15003,
+				3
+			},
+			{
+				1,
+				2,
+				850
+			}
+		},
+		time = {
+			{
+				{
+					2018,
+					3,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2018,
+					3,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				700
+			},
+			{
+				1,
+				6,
+				100
+			},
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40901,
+				1
+			}
+		}
+	},
+	{
+		descrip = "アイテム・資源とランダムにドレスシリーズの着せ替え衣装を入手可能",
+		name = "一周年福袋",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の初回割引販売時の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "国庆福袋",
+		subject = "福袋",
 		tip = "",
 		tip_open = 0,
 		id = 11,
-		money = 198,
-		name_display = "国庆福袋",
+		money = 3800,
+		name_display = "一周年福袋",
 		tag = 1,
 		akashi_pick = 1,
 		gem = 0,
@@ -791,19 +898,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[12] = {
-		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
-		name = "2019新年福袋",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	{
+		descrip = "アイテム・資源とランダムにお正月シリーズの着せ替え衣装を入手可能",
+		name = "福袋2019",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "2019新年福袋",
+		subject = "福袋2019",
 		tip = "",
 		tip_open = 0,
 		id = 12,
-		money = 198,
-		name_display = "2019新年福袋",
+		money = 3800,
+		name_display = "福袋2019",
 		tag = 1,
 		akashi_pick = 1,
 		gem = 0,
@@ -905,19 +1012,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[13] = {
-		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
-		name = "2019春节福袋",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	{
+		descrip = "アイテム・資源とランダムに旧正月2019シリーズの着せ替え衣装を入手可能",
+		name = "春節福袋",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "2019春节福袋",
+		subject = "福袋",
 		tip = "",
 		tip_open = 0,
 		id = 13,
-		money = 198,
-		name_display = "2019春节福袋",
+		money = 3800,
+		name_display = "春節福袋",
 		tag = 1,
 		akashi_pick = 1,
 		gem = 0,
@@ -1019,19 +1126,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[14] = {
-		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
-		name = "二周年礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	{
+		descrip = "アイテム・資源とランダムにドレスシリーズの着せ替え衣装を入手可能",
+		name = "福袋",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "二周年礼盒",
+		subject = "福袋",
 		tip = "",
 		tip_open = 0,
 		id = 14,
-		money = 198,
-		name_display = "二周年礼盒",
+		money = 3800,
+		name_display = "福袋",
 		tag = 1,
 		akashi_pick = 1,
 		gem = 0,
@@ -1040,7 +1147,7 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		package_tag_open = 0,
 		package_tag = "",
-		picture = "lihe2_l",
+		picture = "lihe1_l",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi111",
 		first_pay_double = 0,
@@ -1133,19 +1240,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[15] = {
-		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
-		name = "2019国庆礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	{
+		descrip = "アイテム・資源とランダムにドレスシリーズの着せ替え衣装を入手可能",
+		name = "二週年福袋",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "2019国庆礼盒",
+		subject = "二週年福袋",
 		tip = "",
 		tip_open = 0,
 		id = 15,
-		money = 198,
-		name_display = "2019国庆礼盒",
+		money = 3800,
+		name_display = "二週年福袋",
 		tag = 1,
 		akashi_pick = 1,
 		gem = 0,
@@ -1154,7 +1261,7 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		package_tag_open = 0,
 		package_tag = "",
-		picture = "lihe1_l",
+		picture = "lihe2_l",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi113",
 		first_pay_double = 0,
@@ -1164,13 +1271,13 @@ pg.base.pay_data_display = {
 		extra_service_item = {
 			{
 				2,
-				69906,
+				69907,
 				1
 			},
 			{
 				1,
 				14,
-				2019
+				2059
 			},
 			{
 				2,
@@ -1222,13 +1329,13 @@ pg.base.pay_data_display = {
 		display = {
 			{
 				2,
-				69906,
+				69907,
 				1
 			},
 			{
 				1,
 				14,
-				2019
+				2059
 			},
 			{
 				2,
@@ -1247,10 +1354,10 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[16] = {
-		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
+	{
+		descrip = "アイテム・資源とランダムにお正月2020シリーズの着せ替え衣装を入手可能",
 		name = "新年福袋2020",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
@@ -1258,7 +1365,7 @@ pg.base.pay_data_display = {
 		tip = "",
 		tip_open = 0,
 		id = 16,
-		money = 198,
+		money = 3800,
 		name_display = "新年福袋2020",
 		tag = 2,
 		akashi_pick = 1,
@@ -1366,19 +1473,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[17] = {
-		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
-		name = "新年福袋复刻(2019)",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	{
+		descrip = "アイテム・資源とランダムにお正月2019シリーズの着せ替え衣装を入手可能",
+		name = "新年福袋復刻(2019)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "新年福袋复刻(2019)",
+		subject = "新年福袋復刻(2019)",
 		tip = "",
 		tip_open = 0,
 		id = 17,
-		money = 198,
-		name_display = "新年福袋复刻(2019)",
+		money = 3800,
+		name_display = "新年福袋復刻(2019)",
 		tag = 1,
 		akashi_pick = 1,
 		gem = 0,
@@ -1480,19 +1587,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[18] = {
-		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
-		name = "春节福袋2020",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	{
+		descrip = "アイテム・資源とランダムに旧正月2020シリーズの着せ替え衣装を入手可能",
+		name = "春節福袋2020",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "春节福袋2020",
+		subject = "春節福袋2020",
 		tip = "",
 		tip_open = 0,
 		id = 18,
-		money = 198,
-		name_display = "春节福袋2020",
+		money = 3800,
+		name_display = "春節福袋2020",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -1599,19 +1706,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[19] = {
-		descrip = "可获得一件角色换装，2019钻，和大量其他奖励",
-		name = "春节福袋复刻(2019)",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	{
+		descrip = "アイテム・資源とランダムに旧正月2019シリーズの着せ替え衣装を入手可能",
+		name = "春節福袋復刻(2019)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "春节福袋复刻(2019)",
+		subject = "春節福袋復刻(2019)",
 		tip = "",
 		tip_open = 0,
 		id = 19,
-		money = 198,
-		name_display = "春节福袋复刻(2019)",
+		money = 3800,
+		name_display = "春節福袋復刻(2019)",
 		tag = 1,
 		akashi_pick = 1,
 		gem = 0,
@@ -1713,19 +1820,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[20] = {
-		descrip = "可获得180钻，石油储备箱(1000)x2和其他奖励",
-		name = "新晋指挥官支援包·I",
-		descrip_extra = "*支援包将发送到邮箱，请注意查收。",
+	{
+		descrip = "ダイヤ×180、燃料貯蔵箱(1000)×2などのアイテムを入手可能",
+		name = "着任応援パック・Ⅰ",
+		descrip_extra = "お得パックのアイテムはメールボックスに送られます ",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "新晋指挥官支援包·I ",
+		subject = "着任応援パック・Ⅰ",
 		tip = "",
 		tip_open = 0,
 		id = 20,
-		money = 18,
-		name_display = "新晋指挥官支援包·I",
+		money = 320,
+		name_display = "着任応援パック・Ⅰ",
 		tag = 1,
 		akashi_pick = 1,
 		gem = 0,
@@ -1812,19 +1919,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[21] = {
-		descrip = "可获得780钻，定向装备箱·超稀有x2，石油储备箱(1000)x4和其他奖励",
-		name = "新晋指挥官支援包·II",
-		descrip_extra = "*支援包将发送到邮箱，请注意查收。",
+	{
+		descrip = "ダイヤ×780、SSR選択装備箱×2、燃料貯蔵箱(1000)×4などのアイテムを入手可能",
+		name = "着任応援パック・Ⅱ",
+		descrip_extra = "お得パックのアイテムはメールボックスに送られます ",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "新晋指挥官支援包·II ",
+		subject = "着任応援パック・Ⅱ",
 		tip = "",
 		tip_open = 0,
 		id = 21,
-		money = 78,
-		name_display = "新晋指挥官支援包·II",
+		money = 1500,
+		name_display = "着任応援パック・Ⅱ",
 		tag = 1,
 		akashi_pick = 1,
 		gem = 0,
@@ -1936,19 +2043,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[22] = {
-		descrip = "可获得1680钻，定向装备箱·超稀有x4，石油储备箱(1000)x8和其他奖励",
-		name = "新晋指挥官支援包·III",
-		descrip_extra = "*支援包将发送到邮箱，请注意查收。",
+	{
+		descrip = "ダイヤ×1680、SSR選択装備箱×4、燃料貯蔵箱(1000)×8などのアイテムを入手可能",
+		name = "着任応援パック・Ⅲ",
+		descrip_extra = "お得パックのアイテムはメールボックスに送られます ",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "新晋指挥官支援包·III ",
+		subject = "着任応援パック・Ⅲ",
 		tip = "",
 		tip_open = 0,
 		id = 22,
-		money = 168,
-		name_display = "新晋指挥官支援包·III",
+		money = 3000,
+		name_display = "着任応援パック・Ⅲ",
 		tag = 1,
 		akashi_pick = 1,
 		gem = 0,
@@ -2065,19 +2172,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[23] = {
-		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
-		name = "三周年礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	{
+		descrip = "アイテム・資源とランダムなドレス（夏2020）シリーズの着せ替え衣装を入手可能",
+		name = "福袋（夏2020）",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\n既に所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "三周年礼盒",
+		subject = "福袋（夏2020）",
 		tip = "",
 		tip_open = 0,
 		id = 23,
-		money = 198,
-		name_display = "三周年礼盒",
+		money = 3800,
+		name_display = "福袋（夏2020）",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -2086,7 +2193,7 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		package_tag_open = 0,
 		package_tag = "",
-		picture = "lihe4_l",
+		picture = "lihe3_l",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi122",
 		first_pay_double = 0,
@@ -2184,19 +2291,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[24] = {
-		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
-		name = "2020国庆礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	{
+		descrip = "アイテム・資源とランダムなドレスシリーズの着せ替え衣装を入手可能",
+		name = "三周年福袋",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "2020国庆礼盒",
+		subject = "三周年福袋",
 		tip = "",
 		tip_open = 0,
 		id = 24,
-		money = 198,
-		name_display = "2020国庆礼盒",
+		money = 3800,
+		name_display = "三周年福袋",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -2205,7 +2312,7 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		package_tag_open = 0,
 		package_tag = "",
-		picture = "lihe3_l",
+		picture = "lihe4_l",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi123",
 		first_pay_double = 0,
@@ -2303,10 +2410,10 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[25] = {
-		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
+	{
+		descrip = "アイテム・資源とランダムにお正月2021シリーズの着せ替え衣装を入手可能",
 		name = "新年福袋2021",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
@@ -2314,7 +2421,7 @@ pg.base.pay_data_display = {
 		tip = "",
 		tip_open = 0,
 		id = 25,
-		money = 198,
+		money = 3800,
 		name_display = "新年福袋2021",
 		tag = 2,
 		akashi_pick = 1,
@@ -2422,19 +2529,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[26] = {
-		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
-		name = "新年福袋复刻(2020)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	{
+		descrip = "アイテム・資源とランダムにお正月2020シリーズの着せ替え衣装を入手可能",
+		name = "新年福袋2020(復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "新年福袋复刻(2020)",
+		subject = "新年福袋2020(復刻)",
 		tip = "",
 		tip_open = 0,
 		id = 26,
-		money = 198,
-		name_display = "新年福袋复刻(2020)",
+		money = 3800,
+		name_display = "新年福袋2020(復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -2541,19 +2648,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[27] = {
-		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
-		name = "春节福袋2021",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	{
+		descrip = "アイテム・資源とランダムに旧正月2021シリーズの着せ替え衣装を入手可能",
+		name = "春節福袋2021",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "春节福袋2021",
+		subject = "春節福袋2021",
 		tip = "",
 		tip_open = 0,
 		id = 27,
-		money = 198,
-		name_display = "春节福袋2021",
+		money = 3800,
+		name_display = "春節福袋2021",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -2660,19 +2767,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[28] = {
-		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
-		name = "春节福袋复刻(2020)",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	{
+		descrip = "アイテム・資源とランダムに旧正月2020シリーズの着せ替え衣装を入手可能",
+		name = "春節福袋2020(復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "春节福袋复刻(2020)",
+		subject = "春節福袋2020(復刻)",
 		tip = "",
 		tip_open = 0,
 		id = 28,
-		money = 198,
-		name_display = "春节福袋复刻(2020)",
+		money = 3800,
+		name_display = "春節福袋2020(復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -2779,10 +2886,10 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[29] = {
-		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
-		name = "四周年礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	{
+		descrip = "アイテム・資源とランダムなドレス（夏2021）シリーズの着せ替え衣装を入手可能",
+		name = "福袋(夏2021)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
@@ -2790,8 +2897,8 @@ pg.base.pay_data_display = {
 		tip = "",
 		tip_open = 0,
 		id = 29,
-		money = 198,
-		name_display = "四周年礼盒",
+		money = 3800,
+		name_display = "福袋(夏2021)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -2800,7 +2907,7 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		package_tag_open = 0,
 		package_tag = "",
-		picture = "lihe5_l",
+		picture = "lihe6_l",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi128",
 		first_pay_double = 0,
@@ -2898,10 +3005,10 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[30] = {
-		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
-		name = "三周年礼盒复刻",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	{
+		descrip = "アイテム・資源とランダムなドレス（夏2020）シリーズの着せ替え衣装を入手可能",
+		name = "福袋(夏2020) (復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
@@ -2909,8 +3016,8 @@ pg.base.pay_data_display = {
 		tip = "",
 		tip_open = 0,
 		id = 30,
-		money = 198,
-		name_display = "三周年礼盒复刻",
+		money = 3800,
+		name_display = "福袋(夏2020) (復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -2919,7 +3026,7 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		package_tag_open = 0,
 		package_tag = "",
-		picture = "lihe4_l",
+		picture = "lihe3_l",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi129",
 		first_pay_double = 0,
@@ -3017,19 +3124,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[31] = {
-		descrip = "可获得1980钻，定向部件T4x35，定向装备箱·研发装备①x1和其他奖励",
-		name = "大型作战攻略支援包",
-		descrip_extra = "*支援包将发送到邮箱，请注意查收。",
+	{
+		descrip = "ダイヤ×1980、兵装開発専用①・選択装備箱×1などのアイテムを入手可能！",
+		name = "着任応援パック・Ⅳ",
+		descrip_extra = "※購入されたパックはメールに送られます。ご注意ください",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "大型作战攻略支援包",
+		subject = "着任応援パック・Ⅳ",
 		tip = "",
 		tip_open = 0,
 		id = 31,
-		money = 198,
-		name_display = "大型作战攻略支援包",
+		money = 3800,
+		name_display = "着任応援パック・Ⅳ",
 		tag = 1,
 		akashi_pick = 1,
 		gem = 0,
@@ -3136,19 +3243,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[32] = {
-		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
-		name = "2021国庆礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	{
+		descrip = "アイテム・資源とランダムなドレスシリーズの着せ替え衣装を入手可能",
+		name = "四周年福袋",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "2021国庆礼盒",
+		subject = "四周年福袋",
 		tip = "",
 		tip_open = 0,
 		id = 32,
-		money = 198,
-		name_display = "2021国庆礼盒",
+		money = 3800,
+		name_display = "四周年福袋",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -3255,19 +3362,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[33] = {
-		descrip = "可获得一件角色换装，2020钻，和大量其他奖励",
-		name = "国庆礼盒复刻（2020）",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	{
+		descrip = "アイテム・資源とランダムなドレスシリーズの着せ替え衣装を入手可能",
+		name = "三周年福袋 (復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "国庆礼盒复刻(2020)",
+		subject = "三周年福袋 (復刻)",
 		tip = "",
 		tip_open = 0,
 		id = 33,
-		money = 198,
-		name_display = "国庆礼盒复刻（2020）",
+		money = 3800,
+		name_display = "三周年福袋 (復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -3374,10 +3481,10 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[34] = {
-		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
+	{
+		descrip = "アイテム・資源とランダムにお正月2022シリーズの着せ替え衣装を入手可能",
 		name = "新年福袋2022",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
@@ -3385,7 +3492,7 @@ pg.base.pay_data_display = {
 		tip = "",
 		tip_open = 0,
 		id = 34,
-		money = 198,
+		money = 3800,
 		name_display = "新年福袋2022",
 		tag = 2,
 		akashi_pick = 1,
@@ -3493,19 +3600,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[35] = {
-		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
-		name = "新年福袋复刻(2021)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	{
+		descrip = "アイテム・資源とランダムにお正月2021シリーズの着せ替え衣装を入手可能",
+		name = "新年福袋2021(復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "新年福袋复刻(2021)",
+		subject = "新年福袋2021(復刻)",
 		tip = "",
 		tip_open = 0,
 		id = 35,
-		money = 198,
-		name_display = "新年福袋复刻(2021)",
+		money = 3800,
+		name_display = "新年福袋2021(復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -3612,19 +3719,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[36] = {
-		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
-		name = "春节福袋2022",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	{
+		descrip = "アイテム・資源とランダムに旧正月2022シリーズの着せ替え衣装を入手可能",
+		name = "春節福袋2022",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "春节福袋2022",
+		subject = "春節福袋2022",
 		tip = "",
 		tip_open = 0,
 		id = 36,
-		money = 198,
-		name_display = "春节福袋2022",
+		money = 3800,
+		name_display = "春節福袋2022",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -3731,19 +3838,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[37] = {
-		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
-		name = "春节福袋复刻(2021)",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	{
+		descrip = "アイテム・資源とランダムに旧正月2021シリーズの着せ替え衣装を入手可能",
+		name = "春節福袋2021(復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "春节福袋复刻(2021)",
+		subject = "春節福袋2021(復刻)",
 		tip = "",
 		tip_open = 0,
 		id = 37,
-		money = 198,
-		name_display = "春节福袋复刻(2021)",
+		money = 3800,
+		name_display = "春節福袋2021(復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -3850,19 +3957,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[38] = {
-		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
-		name = "五周年礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	{
+		descrip = "アイテム・資源とランダムなドレス（夏2022）シリーズの着せ替え衣装を入手可能",
+		name = "福袋(夏2022)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "五周年礼盒",
+		subject = "福袋(夏2022)",
 		tip = "",
 		tip_open = 0,
 		id = 38,
-		money = 198,
-		name_display = "五周年礼盒",
+		money = 3800,
+		name_display = "福袋(夏2022)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -3969,19 +4076,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[39] = {
-		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
-		name = "四周年礼盒复刻",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	{
+		descrip = "アイテム・資源とランダムなドレス（夏2021）シリーズの着せ替え衣装を入手可能",
+		name = "福袋(夏2021) (復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 0,
-		subject = "四周年礼盒复刻",
+		subject = "福袋(夏2021) (復刻)",
 		tip = "",
 		tip_open = 0,
 		id = 39,
-		money = 198,
-		name_display = "四周年礼盒复刻",
+		money = 3800,
+		name_display = "福袋(夏2021) (復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -4088,19 +4195,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[40] = {
-		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
-		name = "金秋庆典礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	{
+		descrip = "アイテム・資源とランダムなドレスシリーズの着せ替え衣装を入手可能",
+		name = "五周年福袋",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "金秋庆典礼盒",
+		subject = "五周年福袋",
 		tip = "",
 		tip_open = 0,
 		id = 40,
-		money = 198,
-		name_display = "金秋庆典礼盒",
+		money = 3800,
+		name_display = "五周年福袋",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -4109,7 +4216,7 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		package_tag_open = 0,
 		package_tag = "",
-		picture = "lihe8_l",
+		picture = "lihe7_l",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi139",
 		first_pay_double = 0,
@@ -4207,19 +4314,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[41] = {
-		descrip = "可获得一件角色换装，2021钻，和大量其他奖励",
-		name = "金秋庆典礼盒（2021）",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+	{
+		descrip = "アイテム・資源とランダムなドレスシリーズの着せ替え衣装を入手可能",
+		name = "四周年福袋 (復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "金秋庆典礼盒（2021）",
+		subject = "四周年福袋 (復刻)",
 		tip = "",
 		tip_open = 0,
 		id = 41,
-		money = 198,
-		name_display = "金秋庆典礼盒（2021）",
+		money = 3800,
+		name_display = "四周年福袋 (復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -4228,7 +4335,7 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		package_tag_open = 0,
 		package_tag = "",
-		picture = "lihe6_l",
+		picture = "lihe5_l",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.zuanshi140",
 		first_pay_double = 0,
@@ -4327,18 +4434,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[44] = {
-		descrip = "可获得大量材料奖励",
-		name = "回归礼包",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "購入すると材料を大量に入手可能",
+		name = "カムバックパック",
+		descrip_extra = "購入すると、アイテムはメールボックスに送られます",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "回归礼包",
+		subject = "カムバックパック",
 		tip = "",
 		tip_open = 0,
 		id = 44,
-		money = 128,
-		name_display = "回归礼包",
+		money = 2600,
+		name_display = "カムバックパック",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -4486,18 +4593,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[45] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "2023泳装礼盒·I",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな冬の水着2023シリーズの着せ替え衣装を入手可能",
+		name = "冬の水着福袋2023①",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2023泳装礼盒·I",
+		subject = "冬の水着福袋2023①",
 		tip = "",
 		tip_open = 0,
 		id = 45,
-		money = 198,
-		name_display = "2023泳装礼盒·I",
+		money = 3800,
+		name_display = "冬の水着福袋2023①",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -4605,18 +4712,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[46] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "2023泳装礼盒·II",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな冬の水着2023シリーズの着せ替え衣装を入手可能",
+		name = "冬の水着福袋2023②",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2023泳装礼盒·II",
+		subject = "冬の水着福袋2023②",
 		tip = "",
 		tip_open = 0,
 		id = 46,
-		money = 198,
-		name_display = "2023泳装礼盒·II",
+		money = 3800,
+		name_display = "冬の水着福袋2023②",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -4724,9 +4831,9 @@ pg.base.pay_data_display = {
 		}
 	},
 	[47] = {
-		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
-		name = "新年福袋复刻(2022)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムにお正月2022シリーズの着せ替え衣装を入手可能",
+		name = "新年福袋2022(復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
@@ -4734,8 +4841,8 @@ pg.base.pay_data_display = {
 		tip = "",
 		tip_open = 0,
 		id = 47,
-		money = 198,
-		name_display = "新年福袋复刻(2022)",
+		money = 3800,
+		name_display = "新年福袋2022(復刻) ",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -4843,18 +4950,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[48] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "2023年春节福袋·I",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムに旧正月2023シリーズの着せ替え衣装を入手可能",
+		name = "春節福袋2023・Ⅰ ",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2023年春节福袋·I",
+		subject = "春節福袋2023・Ⅰ ",
 		tip = "",
 		tip_open = 0,
 		id = 48,
-		money = 198,
-		name_display = "2023年春节福袋·I",
+		money = 3800,
+		name_display = "春節福袋2023・Ⅰ ",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -4962,18 +5069,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[49] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "2023年春节福袋·II",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムに旧正月2023シリーズの着せ替え衣装を入手可能",
+		name = "春節福袋2023・Ⅱ ",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2023年春节福袋·II",
+		subject = "春節福袋2023・Ⅱ ",
 		tip = "",
 		tip_open = 0,
 		id = 49,
-		money = 198,
-		name_display = "2023年春节福袋·II",
+		money = 3800,
+		name_display = "春節福袋2023・Ⅱ ",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -5081,18 +5188,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[50] = {
-		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
-		name = "春节福袋复刻(2022)",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムに旧正月2022シリーズの着せ替え衣装を入手可能",
+		name = "春節福袋2022(復刻) ",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "春节福袋复刻(2022)",
+		subject = "春節福袋2022(復刻) ",
 		tip = "",
 		tip_open = 0,
 		id = 50,
-		money = 198,
-		name_display = "春节福袋复刻(2022)",
+		money = 3800,
+		name_display = "春節福袋2022(復刻) ",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -5200,18 +5307,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[51] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "六周年泳装礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな夏の水着2023シリーズの着せ替え衣装を入手可能",
+		name = "夏の水着福袋2023",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "六周年泳装礼盒",
+		subject = "夏の水着福袋2023",
 		tip = "",
 		tip_open = 0,
 		id = 51,
-		money = 198,
-		name_display = "六周年泳装礼盒",
+		money = 3800,
+		name_display = "夏の水着福袋2023",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -5319,18 +5426,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[52] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "六周年礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムなドレス（夏2023）シリーズの着せ替え衣装を入手可能",
+		name = "福袋(夏2023)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "六周年礼盒",
+		subject = "福袋(夏2023)",
 		tip = "",
 		tip_open = 0,
 		id = 52,
-		money = 198,
-		name_display = "六周年礼盒",
+		money = 3800,
+		name_display = "福袋(夏2023)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -5438,18 +5545,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[53] = {
-		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
-		name = "五周年礼盒复刻",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムなドレス（夏2022）シリーズの着せ替え衣装を入手可能",
+		name = "福袋(夏2022) (復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "五周年礼盒复刻",
+		subject = "福袋(夏2022) (復刻)",
 		tip = "",
 		tip_open = 0,
 		id = 53,
-		money = 198,
-		name_display = "五周年礼盒复刻",
+		money = 3800,
+		name_display = "福袋(夏2022) (復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -5557,18 +5664,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[55] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "金秋庆典礼盒(2023)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな六周年②の着せ替え衣装を入手可能",
+		name = "六周年福袋②",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "金秋庆典礼盒(2023)",
+		subject = "六周年福袋②",
 		tip = "",
 		tip_open = 0,
 		id = 55,
-		money = 198,
-		name_display = "金秋庆典礼盒(2023)",
+		money = 3800,
+		name_display = "六周年福袋②",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -5676,18 +5783,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[56] = {
-		descrip = "可获得一件角色换装，2022钻，和大量其他奖励",
-		name = "金秋庆典礼盒复刻(2022)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムなドレスシリーズの着せ替え衣装を入手可能",
+		name = "五周年福袋(復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "金秋庆典礼盒复刻(2022)",
+		subject = "五周年福袋(復刻)",
 		tip = "",
 		tip_open = 0,
 		id = 56,
-		money = 198,
-		name_display = "金秋庆典礼盒复刻(2022)",
+		money = 3800,
+		name_display = "五周年福袋(復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -5795,18 +5902,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[57] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "金秋礼盒2023",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな六周年①の着せ替え衣装を入手可能",
+		name = "六周年福袋①",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "金秋礼盒2023",
+		subject = "六周年福袋①",
 		tip = "",
 		tip_open = 0,
 		id = 57,
-		money = 198,
-		name_display = "金秋礼盒2023",
+		money = 3800,
+		name_display = "六周年福袋①",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -5914,25 +6021,24 @@ pg.base.pay_data_display = {
 		}
 	},
 	[58] = {
-		descrip = "可获得1980钻，自选促销礼物盒*1，和大量其他奖励",
-		name = "茗的促销大礼包",
-		descrip_extra = "礼盒将发送到邮箱，请注意查收。\n*自选促销礼物盒需要在仓库中使用",
+		descrip = "ダイヤ×1980と、選べるアイテムボックス×1などを入手可能",
+		name = "選べる迎春福袋①",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\n*選べるアイテムボックスは倉庫で使用でき、指定されたアイテムを入手できます。",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "茗的促销大礼包",
+		subject = "選べる迎春福袋①",
 		tip = "",
 		tip_open = 0,
 		id = 58,
-		money = 198,
-		name_display = "茗的促销大礼包",
+		money = 3800,
+		name_display = "選べる迎春福袋①",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
 		extra_service = 3,
 		show_group = "",
 		limit_type = 2,
-		time = "stop",
 		package_tag_open = 0,
 		package_tag = "",
 		picture = "pack_198",
@@ -5989,6 +6095,32 @@ pg.base.pay_data_display = {
 				20
 			}
 		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		display = {
 			{
 				2,
@@ -6018,25 +6150,24 @@ pg.base.pay_data_display = {
 		}
 	},
 	[59] = {
-		descrip = "可获得3280钻，豪华自选促销礼物盒*1，和大量其他奖励",
-		name = "茗的豪华促销大礼包",
-		descrip_extra = "礼盒将发送到邮箱，请注意查收。\n*豪华自选促销礼物盒中的促销换装兑换券（限时）具有时限，请即时使用。",
+		descrip = "ダイヤ×3280と、選べるアイテムボックス・Ⅱ×1などを入手可能",
+		name = "選べる迎春福袋②",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\n*選べるアイテムボックス・Ⅱは倉庫にて使用できます。\n*キャンペーン着せ替え交換チケットは期間終了後に交換対象が変更されてしまいますので、ご注意ください。",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "茗的豪华促销大礼包",
+		subject = "選べる迎春福袋②",
 		tip = "",
 		tip_open = 0,
 		id = 59,
-		money = 328,
-		name_display = "茗的豪华促销大礼包",
+		money = 6800,
+		name_display = "選べる迎春福袋②",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
 		extra_service = 3,
 		show_group = "",
 		limit_type = 2,
-		time = "stop",
 		package_tag_open = 0,
 		package_tag = "",
 		picture = "pack_328",
@@ -6088,6 +6219,32 @@ pg.base.pay_data_display = {
 				30
 			}
 		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		display = {
 			{
 				2,
@@ -6116,113 +6273,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[60] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "促销心动福袋",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
-		type = 1,
-		limit_group = 0,
-		type_order = 2,
-		subject = "促销心动福袋",
-		tip = "",
-		tip_open = 0,
-		id = 60,
-		money = 198,
-		name_display = "促销心动福袋",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		time = "stop",
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "fudai8",
-		skin_inquire_relation = 69984,
-		id_str = "com.bilibili.blhx.zuanshi160",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond146",
-		extra_service_item = {
-			{
-				2,
-				69984,
-				1
-			},
-			{
-				1,
-				14,
-				2023
-			},
-			{
-				2,
-				42056,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				35
-			},
-			{
-				2,
-				15003,
-				12
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		display = {
-			{
-				2,
-				69984,
-				1
-			},
-			{
-				1,
-				14,
-				2023
-			},
-			{
-				2,
-				42056,
-				2
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40998,
-				1
-			}
-		}
-	},
 	[61] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "绚烂缤纷夜福袋·I",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "新年福袋2024①",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "绚烂缤纷夜福袋·I",
+		subject = "新年福袋2024①",
 		tip = "",
 		tip_open = 0,
 		id = 61,
-		money = 198,
-		name_display = "绚烂缤纷夜福袋·I",
+		money = 3800,
+		name_display = "新年福袋2024①",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -6330,18 +6393,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[62] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "2023泳装礼盒·I复刻",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "冬の水着福袋2023①(復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2023泳装礼盒·I复刻",
+		subject = "冬の水着福袋2023①(復刻)",
 		tip = "",
 		tip_open = 0,
 		id = 62,
-		money = 198,
-		name_display = "2023泳装礼盒·I复刻",
+		money = 3800,
+		name_display = "冬の水着福袋2023①(復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -6449,18 +6512,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[63] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "绚烂缤纷夜福袋·Ⅱ",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "新年福袋2024②",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "绚烂缤纷夜福袋·Ⅱ",
+		subject = "新年福袋2024②",
 		tip = "",
 		tip_open = 0,
 		id = 63,
-		money = 198,
-		name_display = "绚烂缤纷夜福袋·Ⅱ",
+		money = 3800,
+		name_display = "新年福袋2024②",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -6530,7 +6593,7 @@ pg.base.pay_data_display = {
 				{
 					2024,
 					1,
-					3
+					11
 				},
 				{
 					23,
@@ -6568,18 +6631,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[64] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "2023泳装礼盒·Ⅱ复刻",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "冬の水着福袋2023②(復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2023泳装礼盒·Ⅱ复刻",
+		subject = "冬の水着福袋2023②(復刻)",
 		tip = "",
 		tip_open = 0,
 		id = 64,
-		money = 198,
-		name_display = "2023泳装礼盒·Ⅱ复刻",
+		money = 3800,
+		name_display = "冬の水着福袋2023②(復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -6649,7 +6712,7 @@ pg.base.pay_data_display = {
 				{
 					2024,
 					1,
-					3
+					11
 				},
 				{
 					23,
@@ -6687,18 +6750,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[65] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "2024年春节福袋·I",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "春節福袋2024①",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2024年春节福袋·I",
+		subject = "春節福袋2024①",
 		tip = "",
 		tip_open = 0,
 		id = 65,
-		money = 198,
-		name_display = "2024年春节福袋·I",
+		money = 3800,
+		name_display = "春節福袋2024①",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -6806,18 +6869,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[66] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "2023年春节福袋·I复刻",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "春節福袋2023①(復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2023年春节福袋·I复刻",
+		subject = "春節福袋2023①(復刻)",
 		tip = "",
 		tip_open = 0,
 		id = 66,
-		money = 198,
-		name_display = "2023年春节福袋·I复刻",
+		money = 3800,
+		name_display = "春節福袋2023①(復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -6925,18 +6988,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[67] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "2024年春节福袋·II",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "春節福袋2024②",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2024年春节福袋·II",
+		subject = "春節福袋2024②",
 		tip = "",
 		tip_open = 0,
 		id = 67,
-		money = 198,
-		name_display = "2024年春节福袋·II",
+		money = 3800,
+		name_display = "春節福袋2024②",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -7044,18 +7107,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[68] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "2023年春节福袋·II复刻",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "春節福袋2023②(復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2023年春节福袋·II复刻",
+		subject = "春節福袋2023②(復刻)",
 		tip = "",
 		tip_open = 0,
 		id = 68,
-		money = 198,
-		name_display = "2023年春节福袋·II复刻",
+		money = 3800,
+		name_display = "春節福袋2023②(復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -7163,18 +7226,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[69] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "七周年泳装礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "夏の水着福袋2024",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "七周年泳装礼盒",
+		subject = "夏の水着福袋2024",
 		tip = "",
 		tip_open = 0,
 		id = 69,
-		money = 198,
-		name_display = "七周年泳装礼盒",
+		money = 3800,
+		name_display = "夏の水着福袋2024",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -7282,18 +7345,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[70] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "六周年泳装礼盒复刻",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "夏の水着福袋2023(復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "六周年泳装礼盒复刻",
+		subject = "夏の水着福袋2023(復刻)",
 		tip = "",
 		tip_open = 0,
 		id = 70,
-		money = 198,
-		name_display = "六周年泳装礼盒复刻",
+		money = 3800,
+		name_display = "夏の水着福袋2023(復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -7401,18 +7464,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[71] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "七周年礼盒",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "福袋(夏2024)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "七周年礼盒",
+		subject = "福袋(夏2024)",
 		tip = "",
 		tip_open = 0,
 		id = 71,
-		money = 198,
-		name_display = "七周年礼盒",
+		money = 3800,
+		name_display = "福袋(夏2024)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -7520,18 +7583,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[72] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "六周年礼盒复刻",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "福袋(夏2023)(復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "六周年礼盒复刻",
+		subject = "福袋(夏2023)(復刻)",
 		tip = "",
 		tip_open = 0,
 		id = 72,
-		money = 198,
-		name_display = "六周年礼盒复刻",
+		money = 3800,
+		name_display = "福袋(夏2023)(復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -7639,18 +7702,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[73] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "梦幻乐园换装礼盒I",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "七周年福袋①",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 3,
-		subject = "梦幻乐园换装礼盒I",
+		subject = "七周年福袋① ",
 		tip = "",
 		tip_open = 0,
 		id = 73,
-		money = 198,
-		name_display = "梦幻乐园换装礼盒I",
+		money = 3800,
+		name_display = "七周年福袋① ",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -7758,18 +7821,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[74] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "金秋礼盒2023复刻",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "六周年福袋①(復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 3,
-		subject = "金秋礼盒2023复刻",
+		subject = "六周年福袋①(復刻)",
 		tip = "",
 		tip_open = 0,
 		id = 74,
-		money = 198,
-		name_display = "金秋礼盒2023复刻",
+		money = 3800,
+		name_display = "六周年福袋①(復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -7877,18 +7940,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[75] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "梦幻乐园换装礼盒II",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "七周年福袋② ",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "梦幻乐园换装礼盒II",
+		subject = "七周年福袋② ",
 		tip = "",
 		tip_open = 0,
 		id = 75,
-		money = 198,
-		name_display = "梦幻乐园换装礼盒II",
+		money = 3800,
+		name_display = "七周年福袋② ",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -7996,18 +8059,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[76] = {
-		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
-		name = "金秋庆典礼盒(2023)复刻",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "六周年福袋②(復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "金秋庆典礼盒(2023)复刻",
+		subject = "六周年福袋②(復刻)",
 		tip = "",
 		tip_open = 0,
 		id = 76,
-		money = 198,
-		name_display = "金秋庆典礼盒(2023)复刻",
+		money = 3800,
+		name_display = "六周年福袋②(復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -8114,529 +8177,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[77] = {
-		descrip = "可获得980钻，冬日自选礼物盒1*1，和大量其他奖励",
-		name = "冬日自选礼包1",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
-		type = 0,
-		limit_group = 0,
-		type_order = 2,
-		subject = "冬日自选礼包1",
-		tip = "",
-		tip_open = 0,
-		id = 77,
-		money = 98,
-		name_display = "冬日自选礼包1",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "pack_2024_98",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi177",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond165",
-		extra_service_item = {
-			{
-				2,
-				59555,
-				1
-			},
-			{
-				1,
-				14,
-				980
-			},
-			{
-				2,
-				16501,
-				100
-			},
-			{
-				2,
-				59010,
-				1000
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					1,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				59555,
-				1
-			},
-			{
-				1,
-				14,
-				980
-			},
-			{
-				2,
-				16501,
-				100
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81407,
-				1
-			}
-		}
-	},
-	[78] = {
-		descrip = "可获得1980钻，冬日自选礼物盒2*1，和大量其他奖励",
-		name = "冬日自选礼包2",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
-		type = 0,
-		limit_group = 0,
-		type_order = 2,
-		subject = "冬日自选礼包2",
-		tip = "",
-		tip_open = 0,
-		id = 78,
-		money = 198,
-		name_display = "冬日自选礼包2",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "pack_2024_198",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi178",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond166",
-		extra_service_item = {
-			{
-				2,
-				59556,
-				1
-			},
-			{
-				1,
-				14,
-				1980
-			},
-			{
-				2,
-				15008,
-				1000
-			},
-			{
-				2,
-				30114,
-				30
-			},
-			{
-				2,
-				59010,
-				2000
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					1,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				59556,
-				1
-			},
-			{
-				1,
-				14,
-				1980
-			},
-			{
-				2,
-				15008,
-				1000
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81408,
-				1
-			}
-		}
-	},
-	[79] = {
-		descrip = "可获得3280钻，冬日自选礼物盒3*1，和大量其他奖励",
-		name = "冬日自选礼包3",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
-		type = 0,
-		limit_group = 0,
-		type_order = 2,
-		subject = "冬日自选礼包3",
-		tip = "",
-		tip_open = 0,
-		id = 79,
-		money = 328,
-		name_display = "冬日自选礼包3",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "pack_2024_328",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.zuanshi179",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond167",
-		extra_service_item = {
-			{
-				2,
-				59563,
-				1
-			},
-			{
-				1,
-				14,
-				3280
-			},
-			{
-				2,
-				15012,
-				150
-			},
-			{
-				2,
-				15008,
-				2000
-			},
-			{
-				2,
-				16004,
-				2
-			},
-			{
-				2,
-				16014,
-				2
-			},
-			{
-				2,
-				16024,
-				2
-			},
-			{
-				2,
-				16032,
-				30
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					1,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				2,
-				59563,
-				1
-			},
-			{
-				1,
-				14,
-				3280
-			},
-			{
-				2,
-				15012,
-				150
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81421,
-				1
-			}
-		}
-	},
-	[80] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "豪华冬至促销礼盒(2024)",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
-		type = 1,
-		limit_group = 0,
-		type_order = 2,
-		subject = "豪华冬至促销礼盒(2024)",
-		tip = "",
-		tip_open = 0,
-		id = 80,
-		money = 198,
-		name_display = "豪华冬至促销礼盒(2024)",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		time = "stop",
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "fudai17",
-		skin_inquire_relation = 86411,
-		id_str = "com.bilibili.blhx.zuanshi180",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.diamond168",
-		extra_service_item = {
-			{
-				2,
-				86411,
-				1
-			},
-			{
-				1,
-				14,
-				2024
-			},
-			{
-				2,
-				42066,
-				2
-			},
-			{
-				2,
-				15008,
-				50
-			},
-			{
-				2,
-				20001,
-				35
-			},
-			{
-				2,
-				15003,
-				12
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		display = {
-			{
-				2,
-				86411,
-				1
-			},
-			{
-				1,
-				14,
-				2024
-			},
-			{
-				2,
-				42066,
-				2
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81419,
-				1
-			}
-		}
-	},
-	[81] = {
-		descrip = "可获得列表中未拥有的L2D换装*1（拥有列表中所有换装则转换为获得钻石）和其他奖励",
-		name = "冬至促销礼盒(2024)",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*拥有列表中的所有换装则转换为获得1080钻石。",
-		type = 1,
-		limit_group = 0,
-		type_order = 2,
-		subject = "冬至促销礼盒(2024)",
-		tip = "",
-		tip_open = 0,
-		id = 81,
-		money = 68,
-		name_display = "冬至促销礼盒(2024)",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		time = "stop",
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "fudai18",
-		skin_inquire_relation = 86412,
-		id_str = "com.bilibili.blhx.zuanshi181",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 2,
-		airijp_id = "com.yostarjp.azurlane.diamond169",
-		extra_service_item = {
-			{
-				2,
-				86412,
-				1
-			},
-			{
-				1,
-				1,
-				2000
-			},
-			{
-				1,
-				2,
-				1000
-			},
-			{
-				2,
-				15008,
-				20
-			}
-		},
-		display = {
-			{
-				2,
-				86412,
-				1
-			},
-			{
-				1,
-				2,
-				1000
-			},
-			{
-				2,
-				15008,
-				20
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				81420,
-				1
-			}
-		}
-	},
 	[82] = {
-		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
-		name = "港区游戏之夜礼盒·I",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "新年福袋2025A",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "港区游戏之夜礼盒·I",
+		subject = "新年福袋2025A",
 		tip = "",
 		tip_open = 0,
 		id = 82,
-		money = 198,
-		name_display = "港区游戏之夜礼盒·I",
+		money = 3800,
+		name_display = "新年福袋2025A",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -8744,18 +8297,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[83] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "绚烂缤纷夜福袋·I复刻",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "新年福袋2024A(復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "绚烂缤纷夜福袋·I复刻",
+		subject = "新年福袋2024A(復刻)",
 		tip = "",
 		tip_open = 0,
 		id = 83,
-		money = 198,
-		name_display = "绚烂缤纷夜福袋·I复刻",
+		money = 3800,
+		name_display = "新年福袋2024A(復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -8863,18 +8416,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[84] = {
-		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
-		name = "港区游戏之夜礼盒·II",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "新年福袋2025B",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "港区游戏之夜礼盒·II",
+		subject = "新年福袋2025B",
 		tip = "",
 		tip_open = 0,
 		id = 84,
-		money = 198,
-		name_display = "港区游戏之夜礼盒·II",
+		money = 3800,
+		name_display = "新年福袋2025B",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -8944,7 +8497,7 @@ pg.base.pay_data_display = {
 				{
 					2025,
 					1,
-					1
+					8
 				},
 				{
 					23,
@@ -8982,18 +8535,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[85] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "绚烂缤纷夜福袋·II复刻",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "新年福袋2024B(復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "绚烂缤纷夜福袋·II复刻",
+		subject = "新年福袋2024B(復刻)",
 		tip = "",
 		tip_open = 0,
 		id = 85,
-		money = 198,
-		name_display = "绚烂缤纷夜福袋·II复刻",
+		money = 3800,
+		name_display = "新年福袋2024B(復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -9063,7 +8616,7 @@ pg.base.pay_data_display = {
 				{
 					2025,
 					1,
-					1
+					8
 				},
 				{
 					23,
@@ -9101,18 +8654,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[86] = {
-		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
-		name = "2025年春节福袋一",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "春節福袋2025A",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2025年春节福袋一",
+		subject = "春節福袋2025A",
 		tip = "",
 		tip_open = 0,
 		id = 86,
-		money = 198,
-		name_display = "2025年春节福袋一",
+		money = 3800,
+		name_display = "春節福袋2025A",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -9220,18 +8773,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[87] = {
-		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
-		name = "2025年春节福袋·II",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "春節福袋2025B",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2025年春节福袋·II",
+		subject = "春節福袋2025B",
 		tip = "",
 		tip_open = 0,
 		id = 87,
-		money = 198,
-		name_display = "2025年春节福袋二",
+		money = 3800,
+		name_display = "春節福袋2025B",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -9339,18 +8892,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[88] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "2024年春节福袋·I复刻",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "春節福袋2024A(復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2024年春节福袋·I复刻",
+		subject = "春節福袋2024A(復刻)",
 		tip = "",
 		tip_open = 0,
 		id = 88,
-		money = 198,
-		name_display = "2024年春节福袋·I复刻",
+		money = 3800,
+		name_display = "春節福袋2024A(復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -9458,18 +9011,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[89] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "2024年春节福袋·II复刻",
-		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "春節福袋2024B(復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "2024年春节福袋·II复刻",
+		subject = "春節福袋2024B(復刻)",
 		tip = "",
 		tip_open = 0,
 		id = 89,
-		money = 198,
-		name_display = "2024年春节福袋·II复刻",
+		money = 3800,
+		name_display = "春節福袋2024B(復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -9577,18 +9130,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[90] = {
-		descrip = "可获得列表中未拥有的换装*1（拥有列表中所有换装则转换为获得钻石）和其他奖励",
-		name = "换装礼盒(校园生活)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*拥有列表中的所有换装则转换为获得680钻石。",
+		descrip = "<size=18>下記着せ替え中の未所持着せ替えをランダムで1着（全部所持している場合自動でダイヤに変換されます）とその他アイテムを入手できます</size>",
+		name = "着せ替えパック(学園)",
+		descrip_extra = "※福袋はメールボックスに送られます\n※全部所持している場合自動でダイヤ×680に変換されます",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "换装礼盒(校园生活)",
+		subject = "着せ替えパック(学園)",
 		tip = "",
 		tip_open = 0,
 		id = 90,
-		money = 48,
-		name_display = "换装礼盒(校园生活)",
+		money = 1000,
+		name_display = "着せ替えパック(学園)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -9681,18 +9234,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[91] = {
-		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
-		name = "八周年泳装礼盒·I",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "夏の水着福袋2025A",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "八周年泳装礼盒·I",
+		subject = "夏の水着福袋2025A",
 		tip = "",
 		tip_open = 0,
 		id = 91,
-		money = 198,
-		name_display = "八周年泳装礼盒·I",
+		money = 3800,
+		name_display = "夏の水着福袋2025A",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -9800,18 +9353,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[92] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "七周年泳装礼盒复刻",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "夏の水着福袋2024(復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "七周年泳装礼盒复刻",
+		subject = "夏の水着福袋2024(復刻)",
 		tip = "",
 		tip_open = 0,
 		id = 92,
-		money = 198,
-		name_display = "七周年泳装礼盒复刻",
+		money = 3800,
+		name_display = "夏の水着福袋2024(復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -9919,18 +9472,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[93] = {
-		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
-		name = "八周年泳装礼盒·II",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "夏の水着福袋2025B",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "八周年泳装礼盒·II",
+		subject = "夏の水着福袋2025B",
 		tip = "",
 		tip_open = 0,
 		id = 93,
-		money = 198,
-		name_display = "八周年泳装礼盒·II",
+		money = 3800,
+		name_display = "夏の水着福袋2025B",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10038,18 +9591,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[94] = {
-		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
-		name = "七周年礼盒复刻",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		name = "福袋(夏2024)(復刻)",
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
 		type = 1,
 		limit_group = 0,
 		type_order = 2,
-		subject = "七周年礼盒复刻",
+		subject = "福袋(夏2024)(復刻)",
 		tip = "",
 		tip_open = 0,
 		id = 94,
-		money = 198,
-		name_display = "七周年礼盒复刻",
+		money = 3800,
+		name_display = "福袋(夏2024)(復刻)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10157,18 +9710,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[1000] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励:约克城限定换装和其他奖励",
-		name = "特许巡游凭证",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "特许巡游凭证",
+		subject = "クルーズパス",
 		tip = "",
 		tip_open = 0,
 		id = 1000,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 1200,
+		name_display = "クルーズパス",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10238,18 +9791,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1001] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励:科罗拉多限定换装和其他奖励",
-		name = "特许巡游凭证(2021.12.1-1.31)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(21初冬)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "特许巡游凭证",
+		subject = "クルーズパス(21初冬)",
 		tip = "",
 		tip_open = 0,
 		id = 1001,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 1200,
+		name_display = "クルーズパス(21初冬)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10319,18 +9872,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1002] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励:哥伦比亚限定换装和其他奖励",
-		name = "特许巡游凭证(2022.2)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(22冬)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "特许巡游凭证",
+		subject = "クルーズパス(22冬)",
 		tip = "",
 		tip_open = 0,
 		id = 1002,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 1200,
+		name_display = "クルーズパス(22冬)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10400,18 +9953,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1003] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·企业限定换装和其他奖励",
-		name = "特许巡游凭证(2022.4)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(22春)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "特许巡游凭证",
+		subject = "クルーズパス(22春)",
 		tip = "",
 		tip_open = 0,
 		id = 1003,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 1200,
+		name_display = "クルーズパス(22春)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10481,18 +10034,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1004] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·枫限定换装和其他奖励",
-		name = "特许巡游凭证(2022.6)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(22初夏)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "特许巡游凭证",
+		subject = "クルーズパス(22初夏)",
 		tip = "",
 		tip_open = 0,
 		id = 1004,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 1200,
+		name_display = "クルーズパス(22初夏)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10562,18 +10115,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1005] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·苝限定换装和其他奖励",
-		name = "特许巡游凭证(2022.8)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(22夏)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "クルーズパス(22夏)",
 		tip = "",
 		tip_open = 0,
 		id = 1005,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 1200,
+		name_display = "クルーズパス(22夏)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10643,18 +10196,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1006] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·水星纪念限定换装和其他奖励",
-		name = "特许巡游凭证(2022.10)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(22秋)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "クルーズパス(22秋)",
 		tip = "",
 		tip_open = 0,
 		id = 1006,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 1200,
+		name_display = "クルーズパス(22秋)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10724,18 +10277,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1007] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·克利夫兰限定换装和其他奖励",
-		name = "特许巡游凭证(2022.12)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(22初冬)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "クルーズパス(22初冬)",
 		tip = "",
 		tip_open = 0,
 		id = 1007,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 1200,
+		name_display = "クルーズパス(22初冬)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10805,18 +10358,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1008] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·棭限定换装和其他奖励",
-		name = "特许巡游凭证(2023.2)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(23冬)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "クルーズパス(23冬)",
 		tip = "",
 		tip_open = 0,
 		id = 1008,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 1200,
+		name_display = "クルーズパス(23冬)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10886,18 +10439,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1009] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·沃克兰限定换装和其他奖励",
-		name = "特许巡游凭证(2023.4)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(23春)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "クルーズパス(23春)",
 		tip = "",
 		tip_open = 0,
 		id = 1009,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 1200,
+		name_display = "クルーズパス(23春)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -10967,18 +10520,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1010] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·鸾限定换装和其他奖励",
-		name = "特许巡游凭证(2023.6)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(23初夏)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "クルーズパス(23初夏)",
 		tip = "",
 		tip_open = 0,
 		id = 1010,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 1200,
+		name_display = "クルーズパス(23初夏)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11048,18 +10601,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1011] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·福煦限定换装和其他奖励",
-		name = "特许巡游凭证(2023.8)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(23夏)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "クルーズパス(23夏)",
 		tip = "",
 		tip_open = 0,
 		id = 1011,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 1200,
+		name_display = "クルーズパス(23夏)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11129,18 +10682,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1012] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·优斯伊丽限定换装和其他奖励",
-		name = "特许巡游凭证(2023.10)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(23秋)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "クルーズパス(23秋)",
 		tip = "",
 		tip_open = 0,
 		id = 1012,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 1200,
+		name_display = "クルーズパス(23秋)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11210,18 +10763,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1013] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·梅限定换装和其他奖励",
-		name = "特许巡游凭证(2023.12)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(23初冬)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "クルーズパス(23初冬)",
 		tip = "",
 		tip_open = 0,
 		id = 1013,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 1200,
+		name_display = "クルーズパス(23初冬)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11291,18 +10844,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1014] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·梧限定换装和其他奖励",
-		name = "特许巡游凭证(2024.2)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(24冬)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "クルーズパス(24冬)",
 		tip = "",
 		tip_open = 0,
 		id = 1014,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 1200,
+		name_display = "クルーズパス(24冬)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11372,18 +10925,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1015] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·柏限定换装和其他奖励",
-		name = "特许巡游凭证(2024.4)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(24春)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "クルーズパス(24春)",
 		tip = "",
 		tip_open = 0,
 		id = 1015,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 1200,
+		name_display = "クルーズパス(24春)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11453,18 +11006,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1016] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·阿蒂利奥·雷戈洛限定换装和其他奖励",
-		name = "特许巡游凭证(2024.6)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(24初夏)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "クルーズパス(24初夏)",
 		tip = "",
 		tip_open = 0,
 		id = 1016,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 1200,
+		name_display = "クルーズパス(24初夏)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11534,18 +11087,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1017] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·罗马限定换装和其他奖励",
-		name = "特许巡游凭证(2024.8)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(24夏)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "クルーズパス(24夏)",
 		tip = "",
 		tip_open = 0,
 		id = 1017,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 1200,
+		name_display = "クルーズパス(24夏)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11615,18 +11168,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1018] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·絮弗伦限定换装和其他奖励",
-		name = "特许巡游凭证(2024.10)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(24秋)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "特许巡游凭证",
+		subject = "クルーズパス(24秋)",
 		tip = "",
 		tip_open = 0,
 		id = 1018,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 1200,
+		name_display = "クルーズパス(24秋)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11696,18 +11249,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1019] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·威悉限定换装和其他奖励",
-		name = "特许巡游凭证(2024.12)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(24初冬)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
 		type = 0,
 		limit_group = 0,
 		type_order = 6,
-		subject = "特许巡游凭证",
+		subject = "クルーズパス(24初冬)",
 		tip = "",
 		tip_open = 0,
 		id = 1019,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 1200,
+		name_display = "クルーズパス(24初冬)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11777,18 +11330,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1020] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·反击限定换装和其他奖励",
-		name = "特许巡游凭证(2025.2)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(25冬)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
 		type = 0,
 		limit_group = 0,
 		type_order = 6,
-		subject = "特许巡游凭证",
+		subject = "クルーズパス(25冬)",
 		tip = "",
 		tip_open = 0,
 		id = 1020,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 1200,
+		name_display = "クルーズパス(25冬)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11858,18 +11411,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1021] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·神速限定换装和其他奖励",
-		name = "特许巡游凭证(2025.4)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(25春)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
 		type = 0,
 		limit_group = 0,
 		type_order = 6,
-		subject = "特许巡游凭证",
+		subject = "クルーズパス(25春)",
 		tip = "",
 		tip_open = 0,
 		id = 1021,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 1200,
+		name_display = "クルーズパス(25春)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -11939,18 +11492,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[1022] = {
-		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·檚限定换装和其他奖励",
-		name = "特许巡游凭证(2025.6)",
-		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		name = "クルーズパス(25初夏)",
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
 		type = 0,
 		limit_group = 0,
 		type_order = 6,
-		subject = "特许巡游凭证",
+		subject = "クルーズパス(25初夏)",
 		tip = "",
 		tip_open = 0,
 		id = 1022,
-		money = 68,
-		name_display = "特许巡游凭证",
+		money = 1200,
+		name_display = "クルーズパス(25初夏)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -12020,18 +11573,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[2001] = {
-		descrip = "可获得最高方案快速研发券·一期*1、定向蓝图·一期*343",
-		name = "最高方案研发礼包(一期)",
+		descrip = "特別計画艦・Ⅰ期と交換できるアイテムなどを入手できます",
+		name = "PR特別計画艦パック・Ⅰ期",
 		descrip_extra = "此处不会被看到",
 		type = 0,
 		limit_group = 1,
 		type_order = 0,
-		subject = "最高方案研发礼包(一期)",
+		subject = "PR特別計画艦パック・Ⅰ期",
 		tip = "",
 		tip_open = 0,
 		id = 2001,
-		money = 108,
-		name_display = "最高方案研发礼包(一期)",
+		money = 2000,
+		name_display = "PR特別計画艦パック・Ⅰ期",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -12083,18 +11636,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[2002] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(一期)高级版",
-		descrip_extra = "*最高方案快速研发券·一期奖励可能发生变化，点击道具查看详情",
+		descrip = "内容",
+		name = "PR艦船Ⅰ期交換アイテム＋強化ユニットセット",
+		descrip_extra = "既に特別計画艦Ⅰ期全艦船をすべて所持している場合、使用時にアイテムに変換されます（アイコンタップで確認）",
 		type = 0,
 		limit_group = 1,
 		type_order = 0,
-		subject = "最高方案研发礼包(一期)高级版",
+		subject = "PR艦船Ⅰ期交換アイテム＋強化ユニットセット",
 		tip = "",
 		tip_open = 0,
 		id = 2002,
-		money = 108,
-		name_display = "高级版",
+		money = 2000,
+		name_display = "PR艦船Ⅰ期交換アイテム\n＋強化ユニットセット",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -12152,18 +11705,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2003] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(一期)标准版",
-		descrip_extra = "*最高方案快速研发券·一期奖励可能发生变化，点击道具查看详情",
+		descrip = "内容",
+		name = "PR艦船Ⅰ期交換アイテム",
+		descrip_extra = "既に特別計画艦Ⅰ期全艦船をすべて所持している場合、使用時にアイテムに変換されます（アイコンタップで確認）",
 		type = 0,
 		limit_group = 1,
 		type_order = 0,
-		subject = "最高方案研发礼包(一期)标准版",
+		subject = "PR艦船Ⅰ期交換アイテム",
 		tip = "",
 		tip_open = 0,
 		id = 2003,
-		money = 68,
-		name_display = "标准版",
+		money = 1200,
+		name_display = "PR艦船Ⅰ期交換アイテム",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -12211,18 +11764,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2004] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(一期)升级版",
-		descrip_extra = "升级为高级版后可获得定向蓝图·一期x343",
+		descrip = "内容",
+		name = "PR特別計画艦Ⅰ期強化ユニットセット",
+		descrip_extra = "購入すると指向型強化ユニット・Ⅰ期×343個を入手可能",
 		type = 0,
 		limit_group = 1,
 		type_order = 0,
-		subject = "最高方案研发礼包(一期)升级版",
+		subject = "強化ユニット",
 		tip = "",
 		tip_open = 0,
 		id = 2004,
-		money = 40,
-		name_display = "高级版",
+		money = 1000,
+		name_display = "強化ユニット",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -12270,18 +11823,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2005] = {
-		descrip = "可获得最高方案快速研发券·二期*1、定向蓝图·二期*343",
-		name = "最高方案研发礼包(二期)",
+		descrip = "特別計画艦・Ⅱ期と交換できるアイテムなどを入手できます",
+		name = "PR特別計画艦パック・Ⅱ期",
 		descrip_extra = "此处不会被看到",
 		type = 0,
 		limit_group = 2,
 		type_order = 0,
-		subject = "最高方案研发礼包(二期)",
+		subject = "PR特別計画艦パック・Ⅱ期",
 		tip = "",
 		tip_open = 0,
 		id = 2005,
-		money = 108,
-		name_display = "最高方案研发礼包(二期)",
+		money = 2000,
+		name_display = "PR特別計画艦パック・Ⅱ期",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -12333,18 +11886,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[2006] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(二期)高级版",
-		descrip_extra = "*最高方案快速研发券·二期奖励可能发生变化，点击道具查看详情",
+		descrip = "内容",
+		name = "PR艦船Ⅱ期交換アイテム＋強化ユニットセット",
+		descrip_extra = "既にPR艦船・Ⅱ期をすべて所持している場合、使用時にアイテムに変換されます（アイコンタップで確認）",
 		type = 0,
 		limit_group = 2,
 		type_order = 0,
-		subject = "最高方案研发礼包(二期)高级版",
+		subject = "PR艦船Ⅱ期交換アイテム＋強化ユニットセット",
 		tip = "",
 		tip_open = 0,
 		id = 2006,
-		money = 108,
-		name_display = "高级版",
+		money = 2000,
+		name_display = "PR艦船Ⅱ期交換アイテム\n＋強化ユニットセット",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -12402,18 +11955,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2007] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(二期)标准版",
-		descrip_extra = "*最高方案快速研发券·二期奖励可能发生变化，点击道具查看详情",
+		descrip = "内容",
+		name = "PR艦船Ⅱ期交換アイテム",
+		descrip_extra = "*既にPR艦船・Ⅱ期をすべて所持している場合、使用時にアイテムに変換されます（アイコンタップで確認）",
 		type = 0,
 		limit_group = 2,
 		type_order = 0,
-		subject = "最高方案研发礼包(二期)标准版",
+		subject = "PR艦船Ⅱ期交換アイテム",
 		tip = "",
 		tip_open = 0,
 		id = 2007,
-		money = 68,
-		name_display = "标准版",
+		money = 1200,
+		name_display = "PR艦船Ⅱ期交換アイテム",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -12461,18 +12014,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2008] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(二期)升级版",
-		descrip_extra = "升级为高级版后可获得定向蓝图·二期x343",
+		descrip = "内容",
+		name = "PR特別計画艦Ⅱ期強化ユニットセット",
+		descrip_extra = "購入すると指向型強化ユニット・Ⅱ期×343個を入手可能",
 		type = 0,
 		limit_group = 2,
 		type_order = 0,
-		subject = "最高方案研发礼包(二期)升级版",
+		subject = "強化ユニット",
 		tip = "",
 		tip_open = 0,
 		id = 2008,
-		money = 40,
-		name_display = "高级版",
+		money = 1000,
+		name_display = "強化ユニット",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -12520,18 +12073,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2009] = {
-		descrip = "购买后指挥官等级将提升至70级和大量其他奖励",
-		name = "即刻出战礼包",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "購入すると指揮官レベルがLv70に上がり、さらにアイテムを大量に入手可能",
+		name = "指揮官レベルアップパック",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 7,
-		subject = "即刻出战礼包",
+		subject = "指揮官レベルアップパック",
 		tip = "",
 		tip_open = 0,
 		id = 2009,
-		money = 30,
-		name_display = "即刻出战礼包",
+		money = 650,
+		name_display = "指揮官レベルアップパック",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -12609,18 +12162,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2010] = {
-		descrip = "可获得大量教材奖励",
-		name = "舰艇教材礼包",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "購入すると教科書を大量に入手可能",
+		name = "教科書パック",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "舰艇教材礼包",
+		subject = "教科書パック",
 		tip = "",
 		tip_open = 0,
 		id = 2010,
-		money = 18,
-		name_display = "舰艇教材礼包",
+		money = 480,
+		name_display = "教科書パック",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -12723,18 +12276,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2011] = {
-		descrip = "可获得大量教材奖励",
-		name = "舰艇教材礼包(2022秋)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "購入すると教科書を大量に入手可能",
+		name = "教科書パック",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "舰艇教材礼包",
+		subject = "教科書パック",
 		tip = "",
 		tip_open = 0,
 		id = 2011,
-		money = 18,
-		name_display = "舰艇教材礼包",
+		money = 480,
+		name_display = "教科書パック",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -12836,247 +12389,19 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
-	[2012] = {
-		descrip = "可获得1280钻，定向部件T4x15和其他奖励",
-		name = "冬至礼包1",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
-		type = 0,
-		limit_group = 0,
-		type_order = 0,
-		subject = "冬至礼包1",
-		tip = "",
-		tip_open = 0,
-		id = 2012,
-		money = 88,
-		name_display = "冬至礼包1",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "dongzhi1",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao107",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package107",
-		extra_service_item = {
-			{
-				1,
-				14,
-				1280
-			},
-			{
-				2,
-				30114,
-				15
-			},
-			{
-				2,
-				17003,
-				10
-			},
-			{
-				2,
-				17013,
-				10
-			},
-			{
-				2,
-				17023,
-				10
-			},
-			{
-				2,
-				17033,
-				10
-			},
-			{
-				2,
-				17043,
-				10
-			}
-		},
-		time = {
-			{
-				{
-					2022,
-					12,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					1,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				1,
-				14,
-				1280
-			},
-			{
-				2,
-				30114,
-				15
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40981,
-				1
-			}
-		}
-	},
-	[2013] = {
-		descrip = "可获得2480钻，定向外观装备箱(星辰无垠)x2和其他奖励",
-		name = "冬至礼包2",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
-		type = 0,
-		limit_group = 0,
-		type_order = 0,
-		subject = "冬至礼包2",
-		tip = "",
-		tip_open = 0,
-		id = 2013,
-		money = 168,
-		name_display = "冬至礼包2",
-		tag = 2,
-		akashi_pick = 1,
-		gem = 0,
-		extra_service = 3,
-		show_group = "",
-		limit_type = 2,
-		package_tag_open = 0,
-		package_tag = "",
-		picture = "dongzhi2",
-		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.libao108",
-		first_pay_double = 0,
-		extra_gem = 0,
-		limit_arg = 1,
-		airijp_id = "com.yostarjp.azurlane.package108",
-		extra_service_item = {
-			{
-				1,
-				14,
-				2480
-			},
-			{
-				2,
-				30515,
-				2
-			},
-			{
-				2,
-				20001,
-				10
-			},
-			{
-				2,
-				15003,
-				5
-			},
-			{
-				2,
-				15001,
-				60
-			},
-			{
-				1,
-				6,
-				100
-			}
-		},
-		time = {
-			{
-				{
-					2022,
-					12,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					1,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		display = {
-			{
-				1,
-				14,
-				2480
-			},
-			{
-				2,
-				30515,
-				2
-			},
-			{
-				2,
-				20001,
-				10
-			}
-		},
-		sub_display = {},
-		ignorePlatform = {},
-		limit_args = {},
-		drop_item = {
-			{
-				2,
-				40983,
-				1
-			}
-		}
-	},
 	[2014] = {
-		descrip = "可获得大量教材奖励",
-		name = "舰艇教材礼包(2023春)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "購入すると教科書を大量に入手可能",
+		name = "教科書パック",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "舰艇教材礼包",
+		subject = "教科書パック",
 		tip = "",
 		tip_open = 0,
 		id = 2014,
-		money = 18,
-		name_display = "舰艇教材礼包",
+		money = 480,
+		name_display = "教科書パック",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -13179,18 +12504,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2015] = {
-		descrip = "可获得最高方案快速研发券·三期*1、定向蓝图·三期*343",
-		name = "最高方案研发礼包(三期)",
+		descrip = "特別計画艦・Ⅲ期と交換できるアイテムなどを入手できます",
+		name = "PR特別計画艦パック・Ⅲ期",
 		descrip_extra = "此处不会被看到",
 		type = 0,
 		limit_group = 3,
 		type_order = 0,
-		subject = "最高方案研发礼包(三期)",
+		subject = "PR特別計画艦パック・Ⅲ期",
 		tip = "",
 		tip_open = 0,
 		id = 2015,
-		money = 108,
-		name_display = "最高方案研发礼包(三期)",
+		money = 2000,
+		name_display = "PR特別計画艦パック・Ⅲ期",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -13242,18 +12567,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[2016] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(三期)高级版",
-		descrip_extra = "*最高方案快速研发券·三期奖励可能发生变化，点击道具查看详情",
+		descrip = "内容",
+		name = "PR艦船Ⅲ期交換アイテム＋強化ユニットセット",
+		descrip_extra = "*既にPR艦船・Ⅲ期をすべて所持している場合、使用時にアイテムに変換されます（アイコンタップで確認）",
 		type = 0,
 		limit_group = 3,
 		type_order = 0,
-		subject = "最高方案研发礼包(三期)高级版",
+		subject = "PR艦船Ⅲ期交換アイテム\n＋強化ユニットセット",
 		tip = "",
 		tip_open = 0,
 		id = 2016,
-		money = 108,
-		name_display = "高级版",
+		money = 2000,
+		name_display = "PR艦船Ⅲ期交換アイテム\n＋強化ユニットセット",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -13311,18 +12636,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2017] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(三期)标准版",
-		descrip_extra = "*最高方案快速研发券·三期奖励可能发生变化，点击道具查看详情",
+		descrip = "内容",
+		name = "PR艦船Ⅲ期交換アイテム",
+		descrip_extra = "*既にPR艦船・Ⅲ期をすべて所持している場合、使用時にアイテムに変換されます（アイコンタップで確認）",
 		type = 0,
 		limit_group = 3,
 		type_order = 0,
-		subject = "最高方案研发礼包(三期)标准版",
+		subject = "PR艦船Ⅲ期交換アイテム",
 		tip = "",
 		tip_open = 0,
 		id = 2017,
-		money = 68,
-		name_display = "标准版",
+		money = 1200,
+		name_display = "PR艦船Ⅲ期交換アイテム",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -13370,18 +12695,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2018] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(三期)升级版",
-		descrip_extra = "升级为高级版后可获得定向蓝图·三期x343",
+		descrip = "内容",
+		name = "PR特別計画艦Ⅲ期強化ユニットセット",
+		descrip_extra = "購入すると指向型強化ユニット・Ⅲ期×343個を入手可能",
 		type = 0,
 		limit_group = 3,
 		type_order = 0,
-		subject = "最高方案研发礼包(三期)升级版",
+		subject = "強化ユニット",
 		tip = "",
 		tip_open = 0,
 		id = 2018,
-		money = 40,
-		name_display = "高级版",
+		money = 1000,
+		name_display = "強化ユニット",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -13429,18 +12754,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2019] = {
-		descrip = "可获得大量教材奖励",
-		name = "舰艇教材礼包(2023秋)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "購入すると教科書を大量に入手可能",
+		name = "教科書パック",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "舰艇教材礼包",
+		subject = "教科書パック",
 		tip = "",
 		tip_open = 0,
 		id = 2019,
-		money = 18,
-		name_display = "舰艇教材礼包",
+		money = 480,
+		name_display = "教科書パック",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -13543,18 +12868,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2020] = {
-		descrip = "可获得3880钻，和特装型布里MKIII*1和其他奖励",
-		name = "冬至礼包(2023冬)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "ダイヤ3880個、特装型ブリMkⅢなどを入手可能",
+		name = "冬のお得福袋・2024",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "冬至礼包(2023冬)",
+		subject = "冬のお得福袋・2024",
 		tip = "",
 		tip_open = 0,
 		id = 2020,
-		money = 258,
-		name_display = "冬至礼包(2023冬)",
+		money = 5280,
+		name_display = "冬のお得福袋・2024",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -13605,9 +12930,9 @@ pg.base.pay_data_display = {
 		time = {
 			{
 				{
-					2023,
-					12,
-					21
+					2024,
+					1,
+					18
 				},
 				{
 					0,
@@ -13618,8 +12943,8 @@ pg.base.pay_data_display = {
 			{
 				{
 					2024,
-					1,
-					3
+					2,
+					21
 				},
 				{
 					23,
@@ -13657,18 +12982,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2021] = {
-		descrip = "可获得换装自选券、心智魔方、舰艇演习数据T2和物资奖励！",
-		name = "海上传奇支援组合包",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "選べる着せ替えチケット、キューブ、経験値パックT2などを入手可能",
+		name = "選べるUR着せ替え福袋①",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "海上传奇支援组合包",
+		subject = "選べるUR着せ替え福袋①",
 		tip = "",
 		tip_open = 0,
 		id = 2021,
-		money = 128,
-		name_display = "海上传奇支援组合包",
+		money = 2600,
+		name_display = "選べるUR着せ替え福袋①",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -13761,18 +13086,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2022] = {
-		descrip = "可获得心智魔方*10",
-		name = "魔方支援礼包1",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "キューブ10個を入手可能",
+		name = "キューブ補給パック①",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "魔方支援礼包1",
+		subject = "キューブ補給パック①",
 		tip = "",
 		tip_open = 0,
 		id = 2022,
-		money = 12,
-		name_display = "魔方支援礼包1",
+		money = 250,
+		name_display = "キューブ補給パック①",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -13840,18 +13165,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2023] = {
-		descrip = "可获得心智魔方*20",
-		name = "魔方支援礼包2",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "キューブ20個を入手可能",
+		name = "キューブ補給パック②",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "魔方支援礼包2",
+		subject = "キューブ補給パック②",
 		tip = "",
 		tip_open = 0,
 		id = 2023,
-		money = 30,
-		name_display = "魔方支援礼包2",
+		money = 610,
+		name_display = "キューブ補給パック②",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -13919,18 +13244,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2024] = {
-		descrip = "可获得心智魔方*30",
-		name = "魔方支援礼包3",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "キューブ30個を入手可能",
+		name = "キューブ補給パック③",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "魔方支援礼包3",
+		subject = "キューブ補給パック③",
 		tip = "",
 		tip_open = 0,
 		id = 2024,
-		money = 56,
-		name_display = "魔方支援礼包3",
+		money = 1100,
+		name_display = "キューブ補給パック③",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -13998,18 +13323,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2025] = {
-		descrip = "购买礼包可获得心智魔方*1和石油*1200",
-		name = "日常补给礼包",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "購入するとキューブ1個、燃料1200を入手可能",
+		name = "お得パック(デイリー)",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 6,
-		subject = "日常补给礼包",
+		subject = "お得パック(デイリー)",
 		tip = "",
 		tip_open = 0,
 		id = 2025,
-		money = 6,
-		name_display = "日常补给礼包",
+		money = 120,
+		name_display = "お得パック(デイリー)",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14062,18 +13387,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2026] = {
-		descrip = "可获得大量教材奖励",
-		name = "舰艇教材礼包(2024春)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "購入すると教科書を大量に入手可能",
+		name = "教科書パック ",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "舰艇教材礼包",
+		subject = "教科書パック",
 		tip = "",
 		tip_open = 0,
 		id = 2026,
-		money = 18,
-		name_display = "舰艇教材礼包",
+		money = 480,
+		name_display = "教科書パック ",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14176,18 +13501,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2027] = {
-		descrip = "可获得最高方案快速研发券·四期*1、定向蓝图·四期*343",
-		name = "最高方案研发礼包(四期)",
+		descrip = "特別計画艦・Ⅳ期と交換できるアイテムなどを入手できます",
+		name = "PR特別計画艦パック·Ⅳ期",
 		descrip_extra = "此处不会被看到",
 		type = 0,
 		limit_group = 4,
 		type_order = 0,
-		subject = "最高方案研发礼包(四期)",
+		subject = "PR特別計画艦パック・Ⅳ期",
 		tip = "",
 		tip_open = 0,
 		id = 2027,
-		money = 108,
-		name_display = "最高方案研发礼包(四期)",
+		money = 2000,
+		name_display = "PR特別計画艦パック·Ⅳ期",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14239,18 +13564,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[2028] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(四期)高级版",
-		descrip_extra = "*最高方案快速研发券·四期奖励可能发生变化，点击道具查看详情",
+		descrip = "内容",
+		name = "PR艦船Ⅳ期交換アイテム＋強化ユニットセット",
+		descrip_extra = "*既にPR艦船・Ⅳ期をすべて所持している場合、使用時にアイテムに変換されます（アイコンタップで確認）",
 		type = 0,
 		limit_group = 4,
 		type_order = 0,
-		subject = "最高方案研发礼包(四期)高级版",
+		subject = "PR艦船Ⅳ期交換アイテム＋強化ユニットセット",
 		tip = "",
 		tip_open = 0,
 		id = 2028,
-		money = 108,
-		name_display = "高级版",
+		money = 2000,
+		name_display = "PR艦船Ⅳ期交換アイテム\n＋強化ユニットセット",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14308,18 +13633,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2029] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(四期)标准版",
-		descrip_extra = "*最高方案快速研发券·四期奖励可能发生变化，点击道具查看详情",
+		descrip = "内容",
+		name = "PR艦船Ⅳ期交換アイテム",
+		descrip_extra = "*既にPR艦船・Ⅳ期をすべて所持している場合、使用時にアイテムに変換されます（アイコンタップで確認）",
 		type = 0,
 		limit_group = 4,
 		type_order = 0,
-		subject = "最高方案研发礼包(四期)标准版",
+		subject = "PR艦船Ⅳ期交換アイテム",
 		tip = "",
 		tip_open = 0,
 		id = 2029,
-		money = 68,
-		name_display = "标准版",
+		money = 1200,
+		name_display = "PR艦船Ⅳ期交換アイテム",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14367,18 +13692,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2030] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(四期)升级版",
-		descrip_extra = "升级为高级版后可获得定向蓝图·四期x343",
+		descrip = "内容",
+		name = "PR特別計画艦Ⅳ期強化ユニットセット",
+		descrip_extra = "購入すると指向型強化ユニット・Ⅳ期×343個を入手可能",
 		type = 0,
 		limit_group = 4,
 		type_order = 0,
-		subject = "最高方案研发礼包(四期)升级版",
+		subject = "強化ユニット",
 		tip = "",
 		tip_open = 0,
 		id = 2030,
-		money = 40,
-		name_display = "高级版",
+		money = 1000,
+		name_display = "強化ユニット",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14426,18 +13751,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2031] = {
-		descrip = "可获得换装自选券、心智魔方、舰艇演习数据T2和物资奖励！",
-		name = "海上传奇支援组合包(240718)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "選べる着せ替えチケット、キューブ、経験値パックT2などを入手可能",
+		name = "選べるUR着せ替え福袋②",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "海上传奇支援组合包(240718)",
+		subject = "選べるUR着せ替え福袋②",
 		tip = "",
 		tip_open = 0,
 		id = 2031,
-		money = 128,
-		name_display = "海上传奇支援组合包(240718)",
+		money = 2600,
+		name_display = "選べるUR着せ替え福袋②",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14446,7 +13771,7 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		show_group = "",
 		package_tag_open = 1,
-		package_tag = "超值\n推荐",
+		package_tag = "",
 		picture = "daofeng_package",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao119",
@@ -14530,18 +13855,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2032] = {
-		descrip = "可获得战斗界面主题 梦幻霓虹*1",
-		name = "梦幻霓虹主题礼包",
-		descrip_extra = "此处不会被看到",
+		descrip = "戦闘UIテーマ・レインボーを入手できます",
+		name = "戦闘UI・レインボー",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 101,
 		type_order = 4,
-		subject = "梦幻霓虹主题礼包",
+		subject = "戦闘UI・レインボー",
 		tip = "",
 		tip_open = 0,
 		id = 2032,
-		money = 78,
-		name_display = "梦幻霓虹主题礼包",
+		money = 1600,
+		name_display = "戦闘UI・レインボー",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14603,18 +13928,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[2033] = {
-		descrip = "可获得战斗界面主题 梦幻霓虹*1",
-		name = "梦幻霓虹主题礼包（基础版）",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "戦闘UIテーマ・レインボーを入手できます",
+		name = "戦闘UI・レインボー（単品）",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 101,
 		type_order = 4,
-		subject = "梦幻霓虹主题礼包（基础版）",
+		subject = "戦闘UI・レインボー（単品）",
 		tip = "",
 		tip_open = 0,
 		id = 2033,
-		money = 78,
-		name_display = "梦幻霓虹主题礼包（基础版）",
+		money = 1600,
+		name_display = "戦闘UI・レインボー（単品）",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14682,18 +14007,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2034] = {
-		descrip = "可获得战斗界面主题 梦幻霓虹*1,3060钻石",
-		name = "梦幻霓虹主题礼包（豪华版）",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "戦闘UIテーマ・レインボー,ダイヤ×3060を入手できます",
+		name = "戦闘UI・レインボー（セット）",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 101,
 		type_order = 4,
-		subject = "梦幻霓虹主题礼包（豪华版）",
+		subject = "戦闘UI・レインボー（セット）",
 		tip = "",
 		tip_open = 0,
 		id = 2034,
-		money = 258,
-		name_display = "梦幻霓虹主题礼包（豪华版）",
+		money = 4700,
+		name_display = "戦闘UI・レインボー（セット）",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14771,18 +14096,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2035] = {
-		descrip = "可获得换装自选券、心智魔方、舰艇演习数据T2和物资奖励！",
-		name = "海上传奇支援组合包(241017)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "選べる着せ替えチケット、キューブ、経験値パックT2などを入手可能",
+		name = "選べるUR着せ替え福袋③",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 5,
-		subject = "海上传奇支援组合包(241017)",
+		subject = "選べるUR着せ替え福袋③",
 		tip = "",
 		tip_open = 0,
 		id = 2035,
-		money = 128,
-		name_display = "海上传奇支援组合包",
+		money = 2600,
+		name_display = "選べるUR着せ替え福袋③",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14791,7 +14116,7 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		show_group = "",
 		package_tag_open = 0,
-		package_tag = "",
+		package_tag = "お得 ",
 		picture = "huteng_package",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao120",
@@ -14875,18 +14200,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2036] = {
-		descrip = "可获得大量教材奖励",
-		name = "舰艇教材礼包(2024冬)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "購入すると教科書を大量に入手可能",
+		name = "教科書パック",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "舰艇教材礼包",
+		subject = "教科書パック",
 		tip = "",
 		tip_open = 0,
 		id = 2036,
-		money = 18,
-		name_display = "舰艇教材礼包",
+		money = 480,
+		name_display = "教科書パック",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -14989,18 +14314,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2037] = {
-		descrip = "可获得战斗界面主题 圣诞雪境*1",
-		name = "圣诞雪境主题礼包",
-		descrip_extra = "此处不会被看到",
+		descrip = "戦闘UI・クリスマスを入手できます",
+		name = "戦闘UI・クリスマス",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 102,
 		type_order = 4,
-		subject = "圣诞雪境主题礼包",
+		subject = "戦闘UI・クリスマス",
 		tip = "",
 		tip_open = 0,
 		id = 2037,
-		money = 78,
-		name_display = "圣诞雪境主题礼包",
+		money = 1600,
+		name_display = "戦闘UI・クリスマス",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15062,18 +14387,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[2038] = {
-		descrip = "可获得战斗界面主题 圣诞雪境*1",
-		name = "圣诞雪境主题礼包（基础版）",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "戦闘UI・クリスマスを入手できます",
+		name = "戦闘UI・クリスマス（単品）",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 102,
 		type_order = 4,
-		subject = "圣诞雪境主题礼包（基础版）",
+		subject = "戦闘UI・クリスマス（単品）",
 		tip = "",
 		tip_open = 0,
 		id = 2038,
-		money = 78,
-		name_display = "圣诞雪境主题礼包（基础版）",
+		money = 1600,
+		name_display = "戦闘UI・クリスマス（単品）",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15141,18 +14466,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2039] = {
-		descrip = "可获得战斗界面主题 圣诞雪境*1,3060钻石",
-		name = "圣诞雪境主题礼包（豪华版）",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "戦闘UI・クリスマス,ダイヤ×3060を入手できます",
+		name = "戦闘UI・クリスマス（セット）",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 102,
 		type_order = 4,
-		subject = "圣诞雪境主题礼包（豪华版）",
+		subject = "戦闘UI・クリスマス（セット）",
 		tip = "",
 		tip_open = 0,
 		id = 2039,
-		money = 258,
-		name_display = "圣诞雪境主题礼包（豪华版）",
+		money = 4700,
+		name_display = "戦闘UI・クリスマス（セット）",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15230,18 +14555,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2040] = {
-		descrip = "可获得3880钻，和特装型布里MKIII*1和其他奖励",
-		name = "冬至礼包(2024冬)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "ダイヤ3880個、特装型ブリMkⅢなどを入手可能",
+		name = "冬のお得福袋・2025",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 4,
-		subject = "冬至礼包(2024冬)",
+		subject = "冬のお得福袋・2025",
 		tip = "",
 		tip_open = 0,
 		id = 2040,
-		money = 258,
-		name_display = "冬至礼包(2024冬)",
+		money = 5280,
+		name_display = "冬のお得福袋・2025",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15292,9 +14617,9 @@ pg.base.pay_data_display = {
 		time = {
 			{
 				{
-					2024,
-					12,
-					19
+					2025,
+					1,
+					9
 				},
 				{
 					0,
@@ -15306,7 +14631,7 @@ pg.base.pay_data_display = {
 				{
 					2025,
 					1,
-					1
+					15
 				},
 				{
 					23,
@@ -15344,18 +14669,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2041] = {
-		descrip = "可获得换装自选券、心智魔方、舰艇演习数据T2和物资奖励！",
-		name = "海上传奇支援组合包(250109)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "選べる着せ替えチケット、キューブ、経験値パックT2などを入手可能",
+		name = "選べるUR着せ替え福袋D",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 5,
-		subject = "海上传奇支援组合包(250109)",
+		subject = "選べるUR着せ替え福袋D",
 		tip = "",
 		tip_open = 0,
 		id = 2041,
-		money = 128,
-		name_display = "海上传奇支援组合包",
+		money = 2600,
+		name_display = "選べるUR着せ替え福袋D",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15364,7 +14689,7 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		show_group = "",
 		package_tag_open = 1,
-		package_tag = "超值\n推荐",
+		package_tag = "",
 		picture = "huteng_package",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao123",
@@ -15448,18 +14773,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2042] = {
-		descrip = "可获得战斗界面主题 圣砂之约*1",
-		name = "圣砂之约主题礼包",
-		descrip_extra = "此处不会被看到",
+		descrip = "戦闘UI・ファラオを入手できます",
+		name = "戦闘UI・ファラオ",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 103,
 		type_order = 4,
-		subject = "圣砂之约主题礼包",
+		subject = "戦闘UI・ファラオ",
 		tip = "",
 		tip_open = 0,
 		id = 2042,
-		money = 78,
-		name_display = "圣砂之约主题礼包",
+		money = 1600,
+		name_display = "戦闘UI・ファラオ",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15521,18 +14846,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[2043] = {
-		descrip = "可获得战斗界面主题 圣砂之约*1",
-		name = "圣砂之约主题礼包(基础版)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "戦闘UI・ファラオを入手できます",
+		name = "戦闘UI・ファラオ（単品）",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 103,
 		type_order = 4,
-		subject = "圣砂之约主题礼包(基础版)",
+		subject = "戦闘UI・ファラオ（単品）",
 		tip = "",
 		tip_open = 0,
 		id = 2043,
-		money = 78,
-		name_display = "圣砂之约主题礼包(基础版)",
+		money = 1600,
+		name_display = "戦闘UI・ファラオ（単品）",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15600,18 +14925,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2044] = {
-		descrip = "可获得战斗界面主题 圣砂之约*1,3060钻石",
-		name = "圣砂之约主题礼包(豪华版)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "戦闘UI・ファラオ,ダイヤ×3060を入手できます",
+		name = "戦闘UI・ファラオ（セット）",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 103,
 		type_order = 4,
-		subject = "圣砂之约主题礼包(豪华版)",
+		subject = "戦闘UI・ファラオ（セット）",
 		tip = "",
 		tip_open = 0,
 		id = 2044,
-		money = 258,
-		name_display = "圣砂之约主题礼包(豪华版)",
+		money = 4700,
+		name_display = "戦闘UI・ファラオ（セット）",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15689,18 +15014,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2045] = {
-		descrip = "可获得战斗界面主题 基因之源*1",
-		name = "基因之源主题礼包",
-		descrip_extra = "此处不会被看到",
+		descrip = "戦闘UI・ジーンを入手できます",
+		name = "戦闘UI・ジーン",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 104,
 		type_order = 4,
-		subject = "基因之源主题礼包",
+		subject = "戦闘UI・ジーン",
 		tip = "",
 		tip_open = 0,
 		id = 2045,
-		money = 78,
-		name_display = "基因之源主题礼包",
+		money = 1600,
+		name_display = "戦闘UI・ジーン",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15708,7 +15033,7 @@ pg.base.pay_data_display = {
 		show_group = "uigift",
 		limit_type = 5,
 		package_tag_open = 0,
-		package_tag = "",
+		package_tag = "お得 ",
 		picture = "ui4",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.ui9",
@@ -15762,18 +15087,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[2046] = {
-		descrip = "可获得战斗界面主题 基因之源*1",
-		name = "基因之源主题礼包(基础版)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "戦闘UI・ジーンを入手できます",
+		name = "戦闘UI・ジーン（単品）",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 104,
 		type_order = 4,
-		subject = "基因之源主题礼包(基础版)",
+		subject = "戦闘UI・ジーン（単品）",
 		tip = "",
 		tip_open = 0,
 		id = 2046,
-		money = 78,
-		name_display = "基因之源主题礼包(基础版)",
+		money = 1600,
+		name_display = "戦闘UI・ジーン（単品）",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15841,18 +15166,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2047] = {
-		descrip = "可获得战斗界面主题 基因之源*1,3060钻石",
-		name = "基因之源主题礼包(豪华版)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "戦闘UI・ジーン,ダイヤ×3060を入手できます",
+		name = "戦闘UI・ジーン（セット）",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 104,
 		type_order = 4,
-		subject = "基因之源主题礼包(豪华版)",
+		subject = "戦闘UI・ジーン（セット）",
 		tip = "",
 		tip_open = 0,
 		id = 2047,
-		money = 258,
-		name_display = "基因之源主题礼包(豪华版)",
+		money = 4700,
+		name_display = "戦闘UI・ジーン（セット）",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15930,18 +15255,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2048] = {
-		descrip = "可获得换装自选券、心智魔方、舰艇演习数据T2和物资奖励！",
-		name = "海上传奇支援组合包(250417)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "選べる着せ替えチケット、キューブ、経験値パックT2などを入手可能",
+		name = "選べるUR着せ替え福袋E",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 5,
-		subject = "海上传奇支援组合包(250417)",
+		subject = "選べるUR着せ替え福袋E",
 		tip = "",
 		tip_open = 0,
 		id = 2048,
-		money = 128,
-		name_display = "海上传奇支援组合包",
+		money = 2600,
+		name_display = "選べるUR着せ替え福袋E",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -15950,7 +15275,7 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		show_group = "",
 		package_tag_open = 1,
-		package_tag = "超值\n推荐",
+		package_tag = "",
 		picture = "huteng_package",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao124",
@@ -16034,18 +15359,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2049] = {
-		descrip = "可获得大量教材奖励",
-		name = "舰艇教材礼包(2025春)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "購入すると教科書を大量に入手可能",
+		name = "教科書パック",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "舰艇教材礼包",
+		subject = "教科書パック",
 		tip = "",
 		tip_open = 0,
 		id = 2049,
-		money = 18,
-		name_display = "舰艇教材礼包",
+		money = 480,
+		name_display = "教科書パック",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -16148,18 +15473,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2050] = {
-		descrip = "可获得战斗界面主题 海滨假日*1",
-		name = "海滨假日主题礼包",
-		descrip_extra = "此处不会被看到",
+		descrip = "戦闘UI・シーサイドを入手できます",
+		name = "戦闘UI・シーサイド",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 105,
 		type_order = 4,
-		subject = "海滨假日主题礼包",
+		subject = "戦闘UI・シーサイド",
 		tip = "",
 		tip_open = 0,
 		id = 2050,
-		money = 78,
-		name_display = "海滨假日主题礼包",
+		money = 1600,
+		name_display = "戦闘UI・シーサイド",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -16221,18 +15546,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[2051] = {
-		descrip = "可获得战斗界面主题 海滨假日*1,1000物资",
-		name = "海滨假日主题礼包(基础版)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "戦闘UI・シーサイドを入手できます",
+		name = "戦闘UI・シーサイド（単品）",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 105,
 		type_order = 4,
-		subject = "海滨假日主题礼包(基础版)",
+		subject = "戦闘UI・シーサイド（単品）",
 		tip = "",
 		tip_open = 0,
 		id = 2051,
-		money = 78,
-		name_display = "海滨假日主题礼包(基础版)",
+		money = 1600,
+		name_display = "戦闘UI・シーサイド（単品）",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -16310,18 +15635,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2052] = {
-		descrip = "可获得战斗界面主题 海滨假日*1,3060钻石",
-		name = "海滨假日主题礼包(豪华版)",
-		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		descrip = "戦闘UI・シーサイド,ダイヤ×3060を入手できます",
+		name = "戦闘UI・シーサイド（セット）",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 105,
 		type_order = 4,
-		subject = "海滨假日主题礼包(豪华版)",
+		subject = "戦闘UI・シーサイド（セット）",
 		tip = "",
 		tip_open = 0,
 		id = 2052,
-		money = 258,
-		name_display = "海滨假日主题礼包(豪华版)",
+		money = 4700,
+		name_display = "戦闘UI・シーサイド（セット）",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -16329,7 +15654,7 @@ pg.base.pay_data_display = {
 		show_group = "uigift",
 		limit_type = 5,
 		package_tag_open = 0,
-		package_tag = "",
+		package_tag = "お得 ",
 		picture = "ui5",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.ui14",
@@ -16399,18 +15724,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2053] = {
-		descrip = "可获得最高方案快速研发券·五期*1、定向蓝图·五期*343",
-		name = "最高方案研发礼包(五期)",
+		descrip = "特別計画艦・Ⅴ期と交換できるアイテムなどを入手できます",
+		name = "PR特別計画艦パック·Ⅴ期",
 		descrip_extra = "此处不会被看到",
 		type = 0,
 		limit_group = 5,
 		type_order = 0,
-		subject = "最高方案研发礼包(五期)",
+		subject = "PR特別計画艦パック・Ⅴ期",
 		tip = "",
 		tip_open = 0,
 		id = 2053,
-		money = 108,
-		name_display = "最高方案研发礼包(五期)",
+		money = 2000,
+		name_display = "PR特別計画艦パック·Ⅴ期",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -16462,18 +15787,18 @@ pg.base.pay_data_display = {
 		drop_item = {}
 	},
 	[2054] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(五期)高级版",
-		descrip_extra = "*最高方案快速研发券·五期奖励可能发生变化，点击道具查看详情",
+		descrip = "内容",
+		name = "PR艦船Ⅴ期交換アイテム＋強化ユニットセット",
+		descrip_extra = "*既にPR艦船・Ⅴ期をすべて所持している場合、使用時にアイテムに変換されます（アイコンタップで確認）",
 		type = 0,
 		limit_group = 5,
 		type_order = 0,
-		subject = "最高方案研发礼包(五期)高级版",
+		subject = "PR艦船Ⅴ期交換アイテム＋強化ユニットセット",
 		tip = "",
 		tip_open = 0,
 		id = 2054,
-		money = 108,
-		name_display = "高级版",
+		money = 2000,
+		name_display = "PR艦船Ⅴ期交換アイテム\n＋強化ユニットセット",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -16531,18 +15856,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2055] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(五期)标准版",
-		descrip_extra = "*最高方案快速研发券·五期奖励可能发生变化，点击道具查看详情",
+		descrip = "内容",
+		name = "PR艦船Ⅴ期交換アイテム",
+		descrip_extra = "*既にPR艦船・Ⅴ期をすべて所持している場合、使用時にアイテムに変換されます（アイコンタップで確認）",
 		type = 0,
 		limit_group = 5,
 		type_order = 0,
-		subject = "最高方案研发礼包(五期)标准版",
+		subject = "PR艦船Ⅴ期交換アイテム",
 		tip = "",
 		tip_open = 0,
 		id = 2055,
-		money = 68,
-		name_display = "标准版",
+		money = 1200,
+		name_display = "PR艦船Ⅴ期交換アイテム",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -16590,18 +15915,18 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2056] = {
-		descrip = "礼包内容",
-		name = "最高方案研发礼包(五期)升级版",
-		descrip_extra = "升级为高级版后可获得定向蓝图·五期x343",
+		descrip = "内容",
+		name = "PR特別計画艦Ⅴ期強化ユニットセット",
+		descrip_extra = "購入すると指向型強化ユニット・Ⅴ期×343個を入手可能",
 		type = 0,
 		limit_group = 5,
 		type_order = 0,
-		subject = "最高方案研发礼包(五期)升级版",
+		subject = "強化ユニット",
 		tip = "",
 		tip_open = 0,
 		id = 2056,
-		money = 40,
-		name_display = "高级版",
+		money = 1000,
+		name_display = "強化ユニット",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
@@ -16649,25 +15974,24 @@ pg.base.pay_data_display = {
 		}
 	},
 	[5001] = {
-		descrip = "可获得60钻，高级定向蓝图·五期*2",
-		name = "促销礼包I",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		descrip = "ダイヤ×60と、上級指向型強化ユニット・五期目×2を入手可能",
+		name = "お得デイリーパック①",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "促销礼包I",
+		subject = "お得デイリーパック①",
 		tip = "",
 		tip_open = 0,
 		id = 5001,
-		money = 6,
-		name_display = "促销礼包I",
+		money = 120,
+		name_display = "お得デイリーパック①",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
 		extra_service = 3,
 		show_group = "",
 		limit_type = 2,
-		time = "stop",
 		package_tag_open = 0,
 		package_tag = "",
 		picture = "pack_day1",
@@ -16687,6 +16011,32 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				60
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					2,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -16713,25 +16063,24 @@ pg.base.pay_data_display = {
 		}
 	},
 	[5002] = {
-		descrip = "可获得200钻",
-		name = "促销礼包II",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		descrip = "ダイヤ×200を入手可能",
+		name = "お得デイリーパック②",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "促销礼包II",
+		subject = "お得デイリーパック②",
 		tip = "",
 		tip_open = 0,
 		id = 5002,
-		money = 6,
-		name_display = "促销礼包II",
+		money = 120,
+		name_display = "お得デイリーパック②",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
 		extra_service = 3,
 		show_group = "",
 		limit_type = 2,
-		time = "stop",
 		package_tag_open = 0,
 		package_tag = "",
 		picture = "pack_day2",
@@ -16746,6 +16095,32 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				200
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					3,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -16767,25 +16142,24 @@ pg.base.pay_data_display = {
 		}
 	},
 	[5003] = {
-		descrip = "可获得定向装备箱·超稀有*1，定向部件T4*5",
-		name = "促销礼包III",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		descrip = "SSR選択装備箱×1と、指向性強化パーツT4×5を入手可能",
+		name = "お得デイリーパック③",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "促销礼包III",
+		subject = "お得デイリーパック③",
 		tip = "",
 		tip_open = 0,
 		id = 5003,
-		money = 6,
-		name_display = "促销礼包III",
+		money = 120,
+		name_display = "お得デイリーパック③",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
 		extra_service = 3,
 		show_group = "",
 		limit_type = 2,
-		time = "stop",
 		package_tag_open = 0,
 		package_tag = "",
 		picture = "pack_day3",
@@ -16805,6 +16179,32 @@ pg.base.pay_data_display = {
 				2,
 				30114,
 				5
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					3,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -16831,25 +16231,24 @@ pg.base.pay_data_display = {
 		}
 	},
 	[5004] = {
-		descrip = "可获得60钻，试作型布里MKII*1",
-		name = "促销礼包IV",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		descrip = "ダイヤ×60と、試作型ブリMkⅡを入手可能",
+		name = "お得デイリーパック④",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "促销礼包IV",
+		subject = "お得デイリーパック④",
 		tip = "",
 		tip_open = 0,
 		id = 5004,
-		money = 6,
-		name_display = "促销礼包IV",
+		money = 120,
+		name_display = "お得デイリーパック④",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
 		extra_service = 3,
 		show_group = "",
 		limit_type = 2,
-		time = "stop",
 		package_tag_open = 0,
 		package_tag = "",
 		picture = "pack_day4",
@@ -16869,6 +16268,32 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				60
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					3,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -16895,25 +16320,24 @@ pg.base.pay_data_display = {
 		}
 	},
 	[5005] = {
-		descrip = "可获得舰艇演习数据T2*60",
-		name = "促销礼包V",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		descrip = "艦船経験値パックT2×60を入手可能",
+		name = "お得デイリーパック⑤",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "促销礼包V",
+		subject = "お得デイリーパック⑤",
 		tip = "",
 		tip_open = 0,
 		id = 5005,
-		money = 6,
-		name_display = "促销礼包V",
+		money = 120,
+		name_display = "お得デイリーパック⑤",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
 		extra_service = 3,
 		show_group = "",
 		limit_type = 2,
-		time = "stop",
 		package_tag_open = 0,
 		package_tag = "",
 		picture = "pack_day5",
@@ -16928,6 +16352,32 @@ pg.base.pay_data_display = {
 				2,
 				16502,
 				60
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					3,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -16949,25 +16399,24 @@ pg.base.pay_data_display = {
 		}
 	},
 	[5006] = {
-		descrip = "可获得心智魔方*10，快速完成工具*5",
-		name = "促销礼包VI",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		descrip = "キューブ×10と、高速建造材×5を入手可能",
+		name = "お得デイリーパック⑥",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "促销礼包VI",
+		subject = "お得デイリーパック⑥",
 		tip = "",
 		tip_open = 0,
 		id = 5006,
-		money = 6,
-		name_display = "促销礼包VI",
+		money = 120,
+		name_display = "お得デイリーパック⑥",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
 		extra_service = 3,
 		show_group = "",
 		limit_type = 2,
-		time = "stop",
 		package_tag_open = 0,
 		package_tag = "",
 		picture = "pack_day6",
@@ -16987,6 +16436,32 @@ pg.base.pay_data_display = {
 				2,
 				15003,
 				5
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					3,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -17013,25 +16488,24 @@ pg.base.pay_data_display = {
 		}
 	},
 	[5007] = {
-		descrip = "可获得60钻，高级定向蓝图·六期*2",
-		name = "促销礼包VII",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		descrip = "ダイヤ×60と、上級指向型強化ユニット・六期目×2を入手可能",
+		name = "お得デイリーパック⑦",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 0,
-		subject = "促销礼包VII",
+		subject = "お得デイリーパック⑦",
 		tip = "",
 		tip_open = 0,
 		id = 5007,
-		money = 6,
-		name_display = "促销礼包VII",
+		money = 120,
+		name_display = "お得デイリーパック⑦",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
 		extra_service = 3,
 		show_group = "",
 		limit_type = 2,
-		time = "stop",
 		package_tag_open = 0,
 		package_tag = "",
 		picture = "pack_day7",
@@ -17051,6 +16525,32 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				60
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					3,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -17077,29 +16577,28 @@ pg.base.pay_data_display = {
 		}
 	},
 	[5011] = {
-		descrip = "购买礼包可获得60钻，高级定向蓝图·六期*2",
-		name = "促销礼包I(2024)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		descrip = "ダイヤ×60と、上級指向型強化ユニット・Ⅵ期目×2を入手可能",
+		name = "お得デイリーパック2025A",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 5,
-		subject = "促销礼包I",
+		subject = "お得デイリーパック2025A",
 		tip = "",
 		tip_open = 0,
 		id = 5011,
-		money = 6,
-		name_display = "促销礼包I",
+		money = 120,
+		name_display = "お得デイリーパック2025A",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
 		sub_display = "",
 		extra_service = 3,
 		limit_type = 2,
-		time = "stop",
 		show_group = "",
+		package_tag_open = 0,
 		package_tag = "",
 		picture = "pack_day1",
-		package_tag_open = 0,
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao211",
 		first_pay_double = 0,
@@ -17116,6 +16615,32 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				60
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -17141,29 +16666,28 @@ pg.base.pay_data_display = {
 		}
 	},
 	[5012] = {
-		descrip = "购买礼包可获得200钻",
-		name = "促销礼包II(2024)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		descrip = "ダイヤ×200を入手可能",
+		name = "お得デイリーパック2025B",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 5,
-		subject = "促销礼包II",
+		subject = "お得デイリーパック2025B",
 		tip = "",
 		tip_open = 0,
 		id = 5012,
-		money = 6,
-		name_display = "促销礼包II",
+		money = 120,
+		name_display = "お得デイリーパック2025B",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
 		sub_display = "",
 		extra_service = 3,
 		limit_type = 2,
-		time = "stop",
 		show_group = "",
+		package_tag_open = 0,
 		package_tag = "",
 		picture = "pack_day2",
-		package_tag_open = 0,
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao212",
 		first_pay_double = 0,
@@ -17175,6 +16699,32 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				200
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -17195,29 +16745,28 @@ pg.base.pay_data_display = {
 		}
 	},
 	[5013] = {
-		descrip = "购买礼包可获得定向部件T4*5，心智单元*200",
-		name = "促销礼包III(2024)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		descrip = "指向性強化パーツT4×5、メンタルユニット×200を入手可能",
+		name = "お得デイリーパック2025C",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 5,
-		subject = "促销礼包III",
+		subject = "お得デイリーパック2025C",
 		tip = "",
 		tip_open = 0,
 		id = 5013,
-		money = 6,
-		name_display = "促销礼包III",
+		money = 120,
+		name_display = "お得デイリーパック2025C",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
 		sub_display = "",
 		extra_service = 3,
 		limit_type = 2,
-		time = "stop",
 		show_group = "",
+		package_tag_open = 0,
 		package_tag = "",
 		picture = "pack_day3",
-		package_tag_open = 0,
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao213",
 		first_pay_double = 0,
@@ -17234,6 +16783,32 @@ pg.base.pay_data_display = {
 				2,
 				15008,
 				200
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					3,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -17259,29 +16834,28 @@ pg.base.pay_data_display = {
 		}
 	},
 	[5014] = {
-		descrip = "购买礼包可获得60钻，试作型布里MKII*1",
-		name = "促销礼包IV(2024)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		descrip = "ダイヤ×60と、試作型ブリMkⅡを入手可能",
+		name = "お得デイリーパック2025D",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 5,
-		subject = "促销礼包IV",
+		subject = "お得デイリーパック2025D",
 		tip = "",
 		tip_open = 0,
 		id = 5014,
-		money = 6,
-		name_display = "促销礼包IV",
+		money = 120,
+		name_display = "お得デイリーパック2025D",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
 		sub_display = "",
 		extra_service = 3,
 		limit_type = 2,
-		time = "stop",
 		show_group = "",
+		package_tag_open = 0,
 		package_tag = "",
 		picture = "pack_day4",
-		package_tag_open = 0,
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao214",
 		first_pay_double = 0,
@@ -17298,6 +16872,32 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				60
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					3,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -17323,29 +16923,28 @@ pg.base.pay_data_display = {
 		}
 	},
 	[5015] = {
-		descrip = "购买礼包可获得舰艇演习数据T2*60",
-		name = "促销礼包V(2024)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		descrip = "艦船経験値パックT2×60を入手可能",
+		name = "お得デイリーパック2025E",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 5,
-		subject = "促销礼包V",
+		subject = "お得デイリーパック2025E",
 		tip = "",
 		tip_open = 0,
 		id = 5015,
-		money = 6,
-		name_display = "促销礼包V",
+		money = 120,
+		name_display = "お得デイリーパック2025E",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
 		sub_display = "",
 		extra_service = 3,
 		limit_type = 2,
-		time = "stop",
 		show_group = "",
+		package_tag_open = 0,
 		package_tag = "",
 		picture = "pack_day5",
-		package_tag_open = 0,
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao215",
 		first_pay_double = 0,
@@ -17357,6 +16956,32 @@ pg.base.pay_data_display = {
 				2,
 				16502,
 				60
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					3,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -17377,29 +17002,28 @@ pg.base.pay_data_display = {
 		}
 	},
 	[5016] = {
-		descrip = "购买礼包可获得心智魔方*10，快速完成工具*5",
-		name = "促销礼包VI(2024)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		descrip = "キューブ×10と、高速建造材×5を入手可能",
+		name = "お得デイリーパック2025F",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 5,
-		subject = "促销礼包VI",
+		subject = "お得デイリーパック2025F",
 		tip = "",
 		tip_open = 0,
 		id = 5016,
-		money = 6,
-		name_display = "促销礼包VI",
+		money = 120,
+		name_display = "お得デイリーパック2025F",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
 		sub_display = "",
 		extra_service = 3,
 		limit_type = 2,
-		time = "stop",
 		show_group = "",
+		package_tag_open = 0,
 		package_tag = "",
 		picture = "pack_day6",
-		package_tag_open = 0,
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao216",
 		first_pay_double = 0,
@@ -17416,6 +17040,32 @@ pg.base.pay_data_display = {
 				2,
 				15003,
 				5
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					3,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -17441,29 +17091,28 @@ pg.base.pay_data_display = {
 		}
 	},
 	[5017] = {
-		descrip = "购买礼包可获得60钻，高级定向蓝图·七期*2",
-		name = "促销礼包VII(2024)",
-		descrip_extra = "*礼盒将发送到邮箱，请注意查收。",
+		descrip = "ダイヤ×60と、上級指向型強化ユニット・Ⅶ期目×2を入手可能",
+		name = "お得デイリーパック2025G",
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
 		type = 0,
 		limit_group = 0,
 		type_order = 5,
-		subject = "促销礼包VII",
+		subject = "お得デイリーパック2025G",
 		tip = "",
 		tip_open = 0,
 		id = 5017,
-		money = 6,
-		name_display = "促销礼包VII",
+		money = 120,
+		name_display = "お得デイリーパック2025G",
 		tag = 2,
 		akashi_pick = 1,
 		gem = 0,
 		sub_display = "",
 		extra_service = 3,
 		limit_type = 2,
-		time = "stop",
 		show_group = "",
+		package_tag_open = 0,
 		package_tag = "",
 		picture = "pack_day7",
-		package_tag_open = 0,
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao217",
 		first_pay_double = 0,
@@ -17480,6 +17129,32 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				60
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					3,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {

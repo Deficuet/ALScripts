@@ -8,7 +8,7 @@ return {
 				"ShowClickArea"
 			},
 			style = {
-				text = "刚刚解锁了新的功能，返回主界面查看一下吧",
+				text = "新しいコンテンツを確認します。メイン画面にもどりましょう。",
 				mode = 2,
 				posY = -160,
 				char = "1",
@@ -47,7 +47,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "信标·META作战已开启。在这个系统中指挥官可以与其他指挥官一同战斗",
+				text = "ほかの指揮官と共闘し、META艦船に挑む新コンテンツ「META戦」が開放されました。",
 				mode = 2,
 				posY = -279.2,
 				char = "1",
@@ -81,7 +81,7 @@ return {
 			alpha = 0.4,
 			waitScene = "WorldBossScene",
 			style = {
-				text = "选择本期信标",
+				text = "開催中のMETA戦はこちらになります",
 				mode = 2,
 				posY = -375.9,
 				char = "1",
@@ -105,7 +105,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "信标·META作战将会周期性开启，这里显示的是当前信标·META作战的持续时间",
+				text = "META戦は不定期で開催します。ここには今回の開催時間が表示されます。",
 				mode = 2,
 				posY = 294,
 				char = "1",
@@ -118,7 +118,7 @@ return {
 		},
 		{
 			style = {
-				text = "时间结束后未解析的信标将会消失，也无法在大型作战中继续获得新的信标数据",
+				text = "開催終了すると、「META座標」を消費して解放したMETA戦はなくなります。また、セイレーン作戦でMETA座標を新た入手できなくなります。",
 				mode = 2,
 				posY = 1.5,
 				char = "1",
@@ -131,7 +131,7 @@ return {
 		},
 		{
 			style = {
-				text = "点击情报解析按钮，以解析获取的信标数据",
+				text = "「解析」をタップし、「META戦」を開放しましょう。",
 				mode = 2,
 				posY = -284,
 				char = "1",

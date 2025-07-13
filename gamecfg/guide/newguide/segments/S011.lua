@@ -1,6 +1,6 @@
 local var_0_0 = {
-	"让我们打开<color=#ff7d36>任务日志</color>",
-	"领取<color=#ff7d36>任务奖励</color>"
+	"<color=#ff7d36>任務</color>をタップするわ",
+	"<color=#ff7d36>任務報酬</color>を受け取りなさいっ！"
 }
 
 return {

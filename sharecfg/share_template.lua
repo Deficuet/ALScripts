@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.share_template = {
 	{
-		description = "#碧蓝航线#",
+		description = "#アズールレーン　",
 		name = "个人信息界面",
 		show_comps = "",
 		deck = 1,
@@ -9,18 +9,23 @@ pg.share_template = {
 		move_comps = "",
 		camera = "UICamera",
 		qrcode_location = {
-			373,
-			178
+			314,
+			130
 		},
 		hidden_comps = {
 			"/UICamera/Canvas/UIMain/PlayerVitaeUI(Clone)/detail/toggleBtns",
-			"/UICamera/Canvas/UIMain/PlayerVitaeUI(Clone)/adapt/btns",
-			"/UICamera/Canvas/UIMain/PlayerVitaeUI(Clone)/detail/PlayerVitaeDetailPage(Clone)/btn_share",
-			"/UICamera/Canvas/UIMain/PlayerVitaeUI(Clone)/detail/PlayerVitaeDetailPage(Clone)/btn_attire"
+			"/UICamera/Canvas/UIMain/PlayerVitaeUI(Clone)/adapt/bmg",
+			"/UICamera/Canvas/UIMain/PlayerVitaeUI(Clone)/adapt/bg",
+			"/UICamera/Canvas/UIMain/PlayerVitaeUI(Clone)/adaptve2d",
+			"/UICamera/Canvas/UIMain/PlayerVitaeUI(Clone)/adapt/replace_btn",
+			"/UICamera/Canvas/UIMain/PlayerVitaeUI(Clone)/adapt/swichSkin_btn",
+			"/UICamera/Canvas/UIMain/PlayerVitaeUI(Clone)/top",
+			"/UICamera/Canvas/UIMain/PlayerVitaeUI(Clone)/adapt/PlayerVitaeDetailPage(Clone)/btn_share",
+			"/UICamera/Canvas/UIMain/PlayerVitaeUI(Clone)/adapt/PlayerVitaeDetailPage(Clone)/btn_attire"
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#アズールレーン　",
 		name = "档案界面",
 		show_comps = "",
 		deck = 1,
@@ -28,8 +33,8 @@ pg.share_template = {
 		move_comps = "",
 		camera = "UICamera",
 		qrcode_location = {
-			373,
-			120
+			314,
+			130
 		},
 		hidden_comps = {
 			"/OverlayCamera/Overlay/UIMain/blur_panel",
@@ -39,13 +44,13 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
-		name = "获得新舰船界面",
+		description = "#アズールレーン　",
+		name = "获得新舰娘界面",
 		deck = 2,
 		id = 3,
 		camera = "OverlayCamera",
 		qrcode_location = {
-			-340,
+			-280,
 			160
 		},
 		hidden_comps = {
@@ -67,7 +72,7 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#アズールレーン　",
 		name = "后宅",
 		show_comps = "",
 		deck = 1,
@@ -75,15 +80,15 @@ pg.share_template = {
 		move_comps = "",
 		camera = "UICamera",
 		qrcode_location = {
-			373,
-			120
+			314,
+			130
 		},
 		hidden_comps = {
 			"/UICamera/Canvas/UIMain/CourtYardUI(Clone)/main"
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#アズールレーン　",
 		name = "获得新皮肤界面",
 		show_comps = "",
 		deck = 2,
@@ -91,7 +96,7 @@ pg.share_template = {
 		move_comps = "",
 		camera = "OverlayCamera",
 		qrcode_location = {
-			-340,
+			-280,
 			160
 		},
 		hidden_comps = {
@@ -103,7 +108,7 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#アズールレーン　",
 		name = "玩家历程界面",
 		show_comps = "",
 		deck = 3,
@@ -119,7 +124,7 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#アズールレーン　",
 		name = "拍照分享",
 		show_comps = "",
 		deck = 1,
@@ -127,15 +132,15 @@ pg.share_template = {
 		move_comps = "",
 		camera = "UICamera",
 		qrcode_location = {
-			373,
-			120
+			314,
+			130
 		},
 		hidden_comps = {
 			"UICamera/Canvas/UIMain/SnapshotShareUI(Clone)/BtnPanel"
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#アズールレーン　",
 		name = "回流纪念信",
 		show_comps = "",
 		deck = 1,
@@ -144,12 +149,12 @@ pg.share_template = {
 		move_comps = "",
 		camera = "UICamera",
 		qrcode_location = {
-			373,
-			120
+			314,
+			130
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#アズールレーン　",
 		name = "获得新指挥喵界面",
 		show_comps = "",
 		deck = 1,
@@ -157,8 +162,8 @@ pg.share_template = {
 		move_comps = "",
 		camera = "OverlayCamera",
 		qrcode_location = {
-			373,
-			120
+			314,
+			130
 		},
 		hidden_comps = {
 			"/OverlayCamera/Overlay/UIMain/GetCommanderUI(Clone)/left_panel/btns/lock",
@@ -166,7 +171,7 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#アズールレーン　",
 		name = "画图功能分享",
 		show_comps = "",
 		deck = 1,
@@ -180,7 +185,7 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#アズールレーン",
 		name = "挑战分享",
 		show_comps = "",
 		deck = 1,
@@ -188,8 +193,8 @@ pg.share_template = {
 		move_comps = "",
 		camera = "UICamera",
 		qrcode_location = {
-			373,
-			120
+			314,
+			130
 		},
 		hidden_comps = {
 			"UICamera/Canvas/UIMain/LimitChallengeUI(Clone)/blur_panel",
@@ -197,7 +202,7 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#アズールレーン",
 		name = "ins分享",
 		show_comps = "",
 		deck = 1,
@@ -206,12 +211,12 @@ pg.share_template = {
 		move_comps = "",
 		camera = "OverlayCamera",
 		qrcode_location = {
-			373,
-			120
+			314,
+			130
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#アズールレーン#",
 		name = "必胜客分享",
 		id = 13,
 		deck = 2,
@@ -227,21 +232,25 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#アズールレーン#",
 		name = "玩家历程MarkII界面分享",
 		show_comps = "",
 		deck = 0,
-		hidden_comps = "",
 		id = 14,
 		move_comps = "",
 		camera = "UICamera",
 		qrcode_location = {
-			-38,
-			-279
+			-50,
+			-269
+		},
+		hidden_comps = {
+			"/UICamera/Canvas/UIMain/PlayerSecondSummaryUI(Clone)/bg/main/pages/page5/share",
+			"/UICamera/Canvas/UIMain/PlayerSecondSummaryUI(Clone)/bg/main/foots",
+			"/UICamera/Canvas/UIMain/PlayerSecondSummaryUI(Clone)/bg/back_btn"
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#アズールレーン#",
 		name = "POLARIS活动大佬章界面分享",
 		show_comps = "",
 		deck = 0,
@@ -257,7 +266,7 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#アズールレーン#",
 		name = "熊小白分享",
 		id = 16,
 		deck = 2,
@@ -273,7 +282,7 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#アズールレーン#",
 		name = "情人节qet",
 		deck = 5,
 		id = 17,
@@ -296,7 +305,7 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#アズールレーン#",
 		name = "连战活动 - EX分享界面",
 		id = 18,
 		deck = 1,

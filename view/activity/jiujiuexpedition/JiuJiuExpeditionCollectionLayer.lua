@@ -5,6 +5,8 @@ function var_0_0.getUIName(arg_1_0)
 end
 
 function var_0_0.SetData(arg_2_0, arg_2_1, arg_2_2, arg_2_3, arg_2_4)
+	print(arg_2_4)
+
 	arg_2_0.allDatas = arg_2_1
 	arg_2_0.completeDatas = arg_2_2
 	arg_2_0.getRewardIndex = arg_2_3

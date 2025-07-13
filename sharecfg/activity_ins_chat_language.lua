@@ -4721,7 +4721,7 @@ pg.activity_ins_chat_language = setmetatable({
 pg.base = pg.base or {}
 pg.base.activity_ins_chat_language = {
 	{
-		param = "指挥官，我在旅游手册上看到了几个很感兴趣的古遗迹~",
+		param = "指揮官～、ガイドブックに気になる遺跡がいくつかあるんだけど！",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -4729,7 +4729,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "要不要来一场“说走就走的旅行”呢~？",
+		param = "今からでも「ブチ旅行」に行かない？",
 		ship_group = 960007,
 		flag = 0,
 		type = 1,
@@ -4737,16 +4737,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"好，说走就走！"
+				"おう！行こう！"
 			},
 			{
 				2,
-				"给我些时间，让我考虑一下"
+				"ちょっと時間をくれ"
 			}
 		}
 	},
 	{
-		param = "好，说走就走！",
+		param = "おう！行こう！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -4754,7 +4754,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "嗯，我已经做好了观览古遗迹的攻略，已经可以出发了！",
+		param = "ええ！遺跡のを回る計画はもう立てたから、すぐにでも出発できるわ！",
 		ship_group = 960007,
 		flag = 1,
 		type = 1,
@@ -4762,12 +4762,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"我收拾一下行李……"
+				"荷物をまとめるけど、何か持っていったほうがいいものは？"
 			}
 		}
 	},
 	{
-		param = "我收拾一下行李，有什么必带的东西么？",
+		param = "荷物をまとめるけど、何か持っていったほうがいいものは？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -4775,7 +4775,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "没有吧？不需要那么麻烦的",
+		param = "特にはないんじゃない？細かいことは気にしない～",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -4783,7 +4783,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "就算之后有需要……再买就好啦~",
+		param = "仮に本当に必要なものがあっても現地で買えればいいよ♪",
 		ship_group = 960007,
 		flag = 3,
 		type = 1,
@@ -4791,16 +4791,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"跟你一起旅行，很有安全感"
+				"頼りになるな"
 			},
 			{
 				5,
-				"我还是想简单收拾一些行李"
+				"やっぱり準備をしておきたいな"
 			}
 		}
 	},
 	{
-		param = "跟你一起旅行，很有安全感",
+		param = "頼りになるな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -4808,7 +4808,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "那当然~我一定会给指挥官最好的体验的~",
+		param = "もちのろん♪最高の旅にしてあげるわ～",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -4816,7 +4816,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "那就说好啦，我过去接你哦，不见不散~",
+		param = "じゃあ約束よ？今から会いに行くからね？",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -4824,7 +4824,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "我还是想简单收拾一些行李",
+		param = "やっぱり準備をしておきたいな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -4832,7 +4832,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "好吧好吧，那你收拾好了就通知我",
+		param = "はいはい、じゃあ終わったら連絡して～",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -4840,7 +4840,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "我过去接你~",
+		param = "会いに行くから♪",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -4848,7 +4848,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "我们的第一次旅行，我很期待~",
+		param = "指揮官との初めての旅行、とっても楽しみ♪",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -4856,7 +4856,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "给我些时间，让我考虑一下",
+		param = "ちょっと時間をくれ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -4864,7 +4864,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "是工作还很忙吗？还是有其他顾虑？",
+		param = "お仕事が忙しいの？それとも他に心配事でも？",
 		ship_group = 960007,
 		flag = 2,
 		type = 1,
@@ -4872,20 +4872,20 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"唉，工作根本做不完！"
+				"仕事が終わらないんだ…"
 			},
 			{
 				7,
-				"想在家好好休息……"
+				"うちで休みたい…"
 			},
 			{
 				8,
-				"我想宅在家里打游戏"
+				"部屋でゲームしてたいんだ"
 			}
 		}
 	},
 	{
-		param = "唉，工作根本做不完！",
+		param = "仕事が終わらないんだ…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -4893,7 +4893,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "那就让我来帮你吧~？",
+		param = "じゃあ私が手伝ってあげようか？",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -4901,7 +4901,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "等工作结束了，我们就可以开开心心地出去旅行~",
+		param = "お仕事が終わったら楽しい楽しい旅行に行けるでしょ？",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -4909,7 +4909,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "我现在就过去指挥室吧~",
+		param = "すぐに執務室に行くわー！",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -4917,7 +4917,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "难得的空闲时间，我想在家好好休息",
+		param = "せっかくの休みだから、家でのんびりしたいな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -4925,7 +4925,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "嗯，指挥官平时那么忙，确实需要好好休息呢",
+		param = "んー指揮官は普段忙しいし、確かにちゃんと休んだほうがいいわね…",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -4933,7 +4933,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "那我就再等等吧，等到你休息好了，我们再一起去~",
+		param = "じゃあ一旦待つわ！指揮官に余裕があるときに今度一緒に旅に出よう♪",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -4941,7 +4941,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "我想宅在家里打游戏",
+		param = "部屋でゲームしてたいんだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -4949,7 +4949,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "电子游戏么？",
+		param = "ゲーム？ビデオゲーム？",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -4957,7 +4957,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "我还没接触过……听说很好玩？",
+		param = "まだやったことないけど……すごく楽しいって聞いたことあるわ！",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -4965,7 +4965,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "指挥官能教教我吗~？",
+		param = "指揮官、教えてくれない…？",
 		ship_group = 960007,
 		flag = 8,
 		type = 1,
@@ -4973,16 +4973,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				9,
-				"当然，区区游戏不在话下！"
+				"もちろん！ゲームでよければ"
 			},
 			{
 				10,
-				"教谈不上，但是可以一起玩"
+				"一緒に遊ぶなら大歓迎だ"
 			}
 		}
 	},
 	{
-		param = "当然，区区游戏不在话下！",
+		param = "もちろん！ゲームでよければ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -4990,7 +4990,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	{
-		param = "教谈不上，但是可以一起玩",
+		param = "一緒に遊ぶなら大歓迎だ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -4998,7 +4998,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "好，那我现在就过去~",
+		param = "はーい！今からそっちに行くわ！",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5006,7 +5006,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "哦，我顺便泡两杯香料茶吧，稍等我一会儿哦~",
+		param = "そうだ、ついでにスパイスティーでも持っていこうかしら！ちょっと待ってて！",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5014,7 +5014,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "指挥官~什么时候下班呢？",
+		param = "指揮官～、お仕事はいつ上がるの？",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5022,7 +5022,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "我给你准备了晚餐",
+		param = "夕ご飯を用意してあげたわ♪",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5030,7 +5030,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "这次我调整了香料的比例，你肯定会喜欢的~",
+		param = "スパイスの配分を変えてみたから、きっと気に入ってくれると思うの～",
 		ship_group = 960007,
 		flag = 0,
 		type = 1,
@@ -5038,16 +5038,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"还在加班，要不打包来指挥室？"
+				"残業中だから持ってきてくれる？"
 			},
 			{
 				2,
-				"这么一说，确实到了晚餐的时间了"
+				"言われてみれば夕ご飯の時間だな…"
 			}
 		}
 	},
 	{
-		param = "还在加班，要不打包来指挥室？",
+		param = "残業中だから持ってきてくれる？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5055,7 +5055,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "好，那我现在就打包过去，稍等我一下~",
+		param = "差し入れ承りました♪今持っていくからちょっと待ってて～",
 		ship_group = 960007,
 		flag = 1,
 		type = 1,
@@ -5063,16 +5063,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"我已经闻到食物的香味了"
+				"もう香りがするな"
 			},
 			{
 				4,
-				"总算可以填饱肚子再工作了"
+				"一度食べてから仕事しよう"
 			}
 		}
 	},
 	{
-		param = "我已经闻到食物的香味了",
+		param = "もう香りがするな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5080,7 +5080,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "我还没有出发哦？",
+		param = "まだ出発してないわよ？",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5088,7 +5088,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "肯定是你太过思念食物……或者是太过思念我了~？",
+		param = "食べ物が恋しくなったのか……ガンズウェイが恋しくなったのかしら？",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5096,7 +5096,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "我马上就过去，大概还有十分钟，再忍耐一下吧~",
+		param = "とにかくあと10分ぐらい我慢して？今すぐ行くから！",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5104,7 +5104,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "总算可以填饱肚子再工作了",
+		param = "一度食べてから仕事しよう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5112,7 +5112,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "嗯，当然要填饱肚子，才有力气好好工作啊~",
+		param = "そうそう！ごはんはちゃんと食べないと仕事が身に入らないわ！",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5120,7 +5120,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "待会儿吃完饭，工作的东西我也来帮忙吧~",
+		param = "食べてから私も仕事を手伝うわ～",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5128,7 +5128,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "早点结束工作的话，我们还可以一起做些其他事情~",
+		param = "早く片付けたら、いろんなことだってできちゃうんだから♪",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5136,7 +5136,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "这么一说，确实到了晚餐的时间了",
+		param = "言われてみれば夕ご飯の時間だな…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5144,7 +5144,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我马上就下班，等我",
+		param = "すぐ出る。ちょっと待ってて",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5152,7 +5152,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "嗯，我现在饭堂找位置坐下哦",
+		param = "はい！今食堂で席を探しているわ♪",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5160,7 +5160,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "……饭堂已经没有空位了",
+		param = "……あぅ…どこも空いていないわ…",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5168,7 +5168,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "要不直接将饭菜打包回房间吧~？",
+		param = "じゃあ一度部屋に持ち帰るわね？",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5176,7 +5176,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "指挥官待会直接来我房间就好啦~",
+		param = "指揮官、あとでガンズウェイの部屋に来て♪",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5184,7 +5184,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "指挥官，明早要一起去港口看日出吗？",
+		param = "指揮官、明日の朝一緒に日の出を見に行かない？",
 		ship_group = 960007,
 		flag = 0,
 		type = 1,
@@ -5192,16 +5192,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"怎么突然想看日出？"
+				"なぜ急に日の出を？"
 			},
 			{
 				2,
-				"好，那就一起去看吧~"
+				"じゃあ一緒に見に行こうか！"
 			}
 		}
 	},
 	{
-		param = "怎么突然想看日出？",
+		param = "なぜ急に日の出を？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5209,7 +5209,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "听说港区的日出很美，来到这里以后，我还从未见过",
+		param = "母港の日の出は最高って聞いてね～。なのにここに来てからまだ一度も見に行ったことがないの",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5217,7 +5217,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "今天刚好想起，便来邀请你了~",
+		param = "ちょうど今日それを思い出したから指揮官を誘ったわ～",
 		ship_group = 960007,
 		flag = 1,
 		type = 1,
@@ -5225,16 +5225,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"其实港区的日出……"
+				"実は母港の日の出って"
 			},
 			{
 				4,
-				"好，那就一起去吧"
+				"うん。一緒に行こう"
 			}
 		}
 	},
 	{
-		param = "其实港区的日出可能没有你想象中的那么特别……",
+		param = "実は母港の日の出って、ガンズウェイが思ってるほど特別じゃないんだ…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5242,7 +5242,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "毕竟你看过很多不可思议的景观",
+		param = "ガンズウェイはもっと不思議な景色をいっぱい見てきたんじゃない？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5250,7 +5250,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "嗯……但我可以确定，与你一起看日出这件事情很特别",
+		param = "そうだけど…指揮官と眺める日の出は特別なものだって信じてるわ",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5258,7 +5258,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "只要能与指挥官在一起的话，无论做什么事情，感觉都是最美好的",
+		param = "だって指揮官と一緒にいると、どんなことでも最高って感じだもの！",
 		ship_group = 960007,
 		flag = 3,
 		type = 1,
@@ -5266,16 +5266,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"嗯，那就一起去看日出吧！"
+				"じゃあ一緒に見に行こうか！"
 			},
 			{
 				6,
-				"嗯，只要与你在一起……"
+				"自分もガンズウェイと一緒なら……"
 			}
 		}
 	},
 	{
-		param = "嗯，那就一起去看日出吧！",
+		param = "じゃあ一緒に見に行こうか！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5283,7 +5283,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "太好了~",
+		param = "よかったわ～！",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5291,7 +5291,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "那指挥官，明天早上港口见~",
+		param = "それじゃあ指揮官、明日の朝に埠頭で集合ね♪",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5299,7 +5299,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "嗯，只要与你在一起，我也觉得什么都是最美好的",
+		param = "自分もガンズウェイと一緒ならどんなことでも最高だ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5307,7 +5307,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "我们明天一起去看日出吧~",
+		param = "明日の朝、一緒に日の出を見に行こう！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5315,7 +5315,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "听见你这么说，我很开心",
+		param = "そう言われると嬉しいわ♪",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5323,7 +5323,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "那明天早上港口见~",
+		param = "明日の朝、埠頭で集合ね♪",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5331,7 +5331,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "好，那就一起去吧，我也很久没有去看过日出了",
+		param = "うん。一緒に行こう。日の出を眺めるのは自分も久しぶりだからな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5339,7 +5339,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "那今晚记得早点休息哦~",
+		param = "じゃあ今日は早く休んだほうがいいわ",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5347,20 +5347,15 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "休息好了，明天才能元气满满地早起~",
+		param = "ちゃんと休まないと、朝早くに元気に起きれないもの！",
 		ship_group = 960007,
-		flag = 4,
 		type = 1,
+		option = "",
 		id = 68,
-		option = {
-			{
-				9,
-				"其实还有另一种方法……"
-			}
-		}
+		flag = 4
 	},
 	{
-		param = "其实还有另一种方法……",
+		param = "寝すぎを防ぐ方法はもう一つあって……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5368,20 +5363,15 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	{
-		param = "不可以哦！",
+		param = "ダメ！",
 		ship_group = 960007,
-		flag = 9,
 		type = 1,
+		option = "",
 		id = 70,
-		option = {
-			{
-				10,
-				"我会早休息的……"
-			}
-		}
+		flag = 9
 	},
 	{
-		param = "是，我会早休息的……！",
+		param = "ははは。早く休むよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5389,7 +5379,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "好，那就一起去看吧~",
+		param = "じゃあ一緒に見に行こうか！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5397,7 +5387,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "太好了~",
+		param = "よかったわ～！",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5405,7 +5395,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "不过，指挥官要不要设置一个早点的闹钟呢？",
+		param = "あ、目覚まし時計は早く設定しておいたほうがいいよ？",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5413,7 +5403,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "毕竟跟平时的作息不大一样~",
+		param = "なんたって普段の起床時間とは違うんだから～",
 		ship_group = 960007,
 		flag = 2,
 		type = 1,
@@ -5421,16 +5411,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"无需担心，我会准时起床的！"
+				"心配するな。ちゃんと起きるよ！"
 			},
 			{
 				8,
-				"确实是个问题，不过相比闹钟……"
+				"目覚まし時計より……"
 			}
 		}
 	},
 	{
-		param = "无需担心，我会准时起床的！",
+		param = "心配するな。ちゃんと起きるよ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5438,7 +5428,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "那我就相信指挥官啦~",
+		param = "うん！指揮官を信じるわ！",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5446,7 +5436,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "一想到能与你一起看日出，我便无比期待",
+		param = "一緒に指揮官と日の出を眺める…とっても楽しみ！",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5454,7 +5444,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "明天早上，港口不见不散哦~",
+		param = "明日の朝、埠頭で集合ね♪",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5462,7 +5452,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "确实是个问题，不过相比闹钟……",
+		param = "目覚まし時計より……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5470,7 +5460,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "不如由冈依沙瓦号来叫醒我吧？",
+		param = "ガンズウェイ、モーニングコールを頼めるか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5478,7 +5468,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "嗯？",
+		param = "んん？",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5486,7 +5476,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "也可以啦……没想到指挥官喜欢这种哦~！",
+		param = "もちろん大丈夫よ！えへへ、指揮官はこういうのが好きなんだ♪",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5494,7 +5484,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "那明早就由我来将睡梦中的指挥官唤醒吧~",
+		param = "じゃあ明日は私が、指揮官を夢から目覚めさせてあげるわ！",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5502,7 +5492,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "床前不见不散哦~",
+		param = "部屋まで迎えに行くから～",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -5510,7 +5500,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "指挥官，我使用了您推荐的沐浴露",
+		param = "指揮官、この間薦めてくれた「ボディソープ」を使ったけど",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5518,7 +5508,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "味道很好，我很喜欢",
+		param = "美味しそうなアジがして、結構気に入ったわ",
 		ship_group = 960008,
 		flag = 0,
 		type = 1,
@@ -5526,16 +5516,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"喜欢就好"
+				"それはよかった"
 			},
 			{
 				2,
-				"味道……"
+				"味って…"
 			}
 		}
 	},
 	{
-		param = "喜欢就好，看来我没推荐错",
+		param = "それはよかった。薦めて正解だったようだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5543,7 +5533,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "嗯，使用完后，身上都是与您相同的味道",
+		param = "うん。使ったら、あなたと同じ匂いになった",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5551,7 +5541,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "连头发上也是与您相同的味道……",
+		param = "体だけでなく、髪の毛の一本一本まで…",
 		ship_group = 960008,
 		flag = 1,
 		type = 1,
@@ -5559,12 +5549,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"头发……？"
+				"髪…？"
 			}
 		}
 	},
 	{
-		param = "头发……？",
+		param = "髪…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5572,7 +5562,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "你该不会是用在头发上了吧？",
+		param = "髪にも使ったのか…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5580,7 +5570,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "用在头发上不对么？",
+		param = "あら、いけなかった？",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5588,7 +5578,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "沐浴的身体部位，不包括头发么？",
+		param = "髪も「ボディ」の一部かと思ったけど…",
 		ship_group = 960008,
 		flag = 3,
 		type = 1,
@@ -5596,12 +5586,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"沐浴露只能用在身上……"
+				"ええと、「ボディソープ」は体に使うもので、髪には髪専用の「シャンプー」というものがあるんだ"
 			}
 		}
 	},
 	{
-		param = "沐浴露只能用在身体上，有专门的洗发水",
+		param = "ええと、「ボディソープ」は体に使うもので、髪には髪専用の「シャンプー」というものがあるんだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5609,7 +5599,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "原来是这样……功能性区分得很细致呢",
+		param = "なるほど…機能毎に細かく分けられているんだ",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5617,7 +5607,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "我下次会注意的",
+		param = "ありがとう。気を付けるわ",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5625,7 +5615,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "味道……你该不会喝下去了吧？",
+		param = "味って…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5633,7 +5623,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "稍微喝了点",
+		param = "味ってもしかして…",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5641,7 +5631,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "因为与您的气味相同，忍不住就喝了",
+		param = "あなたと同じ匂いがするものだから、つい",
 		ship_group = 960008,
 		flag = 2,
 		type = 1,
@@ -5649,16 +5639,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"身体不要紧吧？"
+				"体調は大丈夫？"
 			},
 			{
 				6,
-				"那个是不能喝的！"
+				"それはまずいんじゃない！？"
 			}
 		}
 	},
 	{
-		param = "身体不要紧吧？",
+		param = "体調は大丈夫？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5666,7 +5656,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "请放心，我的身体没有出现任何问题",
+		param = "ふふふ、安心して…何の問題もなかったわ",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5674,7 +5664,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "比起对您的渴望，沐浴露对我的影响微乎其微",
+		param = "あなたを欲する飢えと渇きに比べたら、それくらい取るに足りないから",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5682,7 +5672,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "那个是不能喝的！",
+		param = "それはまずいんじゃない！？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5690,7 +5680,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "请放心，我的身体没有出现任何问题",
+		param = "ふふふ、安心して…何の問題もなかったわ",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5698,7 +5688,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "不过既然您都这么说了，我下次会克制住自己的食欲的",
+		param = "でも…あなたがそこまで言うのなら、今度食欲を抑えてみるわ",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5706,7 +5696,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "指挥官，我午餐吃了东煌风味的水煮鱼",
+		param = "指揮官、昼は東煌の「魚の唐辛子煮込み」を食べて",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5714,7 +5704,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "晚餐吃了鸢尾风味的甜品",
+		param = "夜はアイリスのデザートを食べたわ",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5722,7 +5712,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "这些食物的味道都很特别……",
+		param = "どれも特別な味わいだったけど…",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5730,7 +5720,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "不过我还是更喜欢您的味道",
+		param = "やはりあなたの味には敵わないわ",
 		ship_group = 960008,
 		flag = 0,
 		type = 1,
@@ -5738,16 +5728,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"……嗯？"
+				"…え？"
 			},
 			{
 				2,
-				"比指挥官美味的食物有很多！"
+				"指揮官より美味しい食べ物はわんさかあるぞ！"
 			}
 		}
 	},
 	{
-		param = "……嗯？原来我也在食物的分类中么？",
+		param = "…え？自分も「食べ物」の扱い…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5755,7 +5745,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "朋友，好吃",
+		param = "トモダチハ、ゴチソウ！",
 		ship_group = 960008,
 		flag = 1,
 		type = 1,
@@ -5763,12 +5753,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"……是谁教你这句话的！"
+				"…誰からそれを教わったんだ…？"
 			}
 		}
 	},
 	{
-		param = "……是谁教你这句话的！",
+		param = "…誰からそれを教わったんだ…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5776,7 +5766,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "呵呵……您在害怕吗？",
+		param = "ふふふ…怖くなったの？",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5784,7 +5774,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "放心，您当然没有被放在“食物”的分类中……",
+		param = "安心して。もちろんあなたは「食べ物」に分類されていないわ",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5792,7 +5782,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "即便再喜欢您的味道，我也不会吃掉您的",
+		param = "どれだけあなたの味を好んでも、進んであなたを食べたりしない",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5800,7 +5790,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "只是，独自进食的时候，我总是会想起您",
+		param = "あくまで一人で摂食していると、どうしてもあなたのことが頭の中をよぎってしまうだけ",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5808,7 +5798,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "这是“食欲”，还是其他……我还不大清楚",
+		param = "これは「食欲」なのか、それとも別の感情なのか…私にもよく分からない",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5816,7 +5806,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "不过，我想或许与您一起进食能够缓解我的渴望？",
+		param = "でも、あなたと一緒に摂食活動をすると、もしかしたら気を紛らわすことができるかも？",
 		ship_group = 960008,
 		flag = 3,
 		type = 1,
@@ -5824,12 +5814,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"不如明天一起吃饭……"
+				"明日一緒に食べに行かない？"
 			}
 		}
 	},
 	{
-		param = "比指挥官美味的食物有很多！",
+		param = "指揮官より美味しい食べ物はわんさかあるぞ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5837,7 +5827,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "可是……",
+		param = "でも…",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5845,7 +5835,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "朋友，好吃",
+		param = "トモダチハ、ゴチソウ！",
 		ship_group = 960008,
 		flag = 2,
 		type = 1,
@@ -5853,12 +5843,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"……是谁教你这句话的！"
+				"…誰からそれを教わったんだ…？"
 			}
 		}
 	},
 	{
-		param = "……是谁教你这句话的！",
+		param = "…誰からそれを教わったんだ…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5866,7 +5856,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "呵呵……您在害怕吗？",
+		param = "ふふふ…怖くなったの？",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5874,7 +5864,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "放心，您当然没有被放在“食物”的分类中……",
+		param = "安心して。もちろんあなたは「食べ物」に分類されていないわ",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5882,7 +5872,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "不过我需要您的食物推荐，指挥官",
+		param = "でもあなたのおすすめの「食べ物」を教えてほしいわ。指揮官",
 		ship_group = 960008,
 		flag = 4,
 		type = 1,
@@ -5890,12 +5880,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"我想想……"
+				"そうだな…"
 			}
 		}
 	},
 	{
-		param = "我想想……",
+		param = "そうだな…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5903,7 +5893,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "美食清单给你发过去了",
+		param = "おすすめリストを送ったよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5911,7 +5901,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "好的，指挥官",
+		param = "ありがとう、指揮官",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5919,7 +5909,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "不过这上面很多东西，我不清楚要去那里才能吃到？",
+		param = "たくさんあるけど、どこに行けば食べれるかしら？",
 		ship_group = 960008,
 		flag = 5,
 		type = 1,
@@ -5927,12 +5917,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"不如明天一起吃饭……"
+				"明日一緒に食べに行かない？"
 			}
 		}
 	},
 	{
-		param = "那不如明天一起吃饭吧？",
+		param = "明日一緒に食べに行かない？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -5940,7 +5930,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "不用等到明天，现在就可以。我还能吃下很多、很多东西",
+		param = "明日まで待たなくても行けるわ。まだいっぱい、いっぱい食べれるから",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5948,7 +5938,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "而且……我现在非常渴望，能够在您身边",
+		param = "それに今は…すごく、あなたの側にいたい",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5956,7 +5946,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "让我们……一同来进食吧",
+		param = "一緒に……摂食をしましょう",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5964,7 +5954,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "窗外有两只鸟，它们很聒噪",
+		param = "窓の外にうるさい小鳥が二匹",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5972,7 +5962,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "原本想把它们吃掉的……不过应该会有人喜欢它们的歌声吧",
+		param = "もう食べてしまおうかとも思ったけど…その鳴き声を好きなヒトもいるかもしれない",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -5980,7 +5970,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "不吃了",
+		param = "やめておくわ",
 		ship_group = 960008,
 		flag = 0,
 		type = 1,
@@ -5988,16 +5978,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"你理解了“喜欢”"
+				"「好き」という気持ちがわかるようになってきたんだな"
 			},
 			{
 				2,
-				"我很喜欢它们的“歌声”"
+				"小鳥のさえずりは好きだよ"
 			}
 		}
 	},
 	{
-		param = "这是你理解了“喜欢”的表现",
+		param = "「好き」という気持ちがわかるようになってきたんだな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6005,7 +5995,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "是的",
+		param = "ええ",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -6013,7 +6003,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "我很喜欢您",
+		param = "あなたのことが「好き」だから",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -6021,7 +6011,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "代入想想，如果有人把你吃掉，我会很伤心的",
+		param = "置き換えて考えてみると、もしあなたが他の何かに食べられたら私、悲しくなるもの",
 		ship_group = 960008,
 		flag = 1,
 		type = 1,
@@ -6029,12 +6019,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"你也理解了“伤心”"
+				"「悲しい」という気持ちもわかるようになってきたんだな"
 			}
 		}
 	},
 	{
-		param = "看来，你也理解了“伤心”",
+		param = "「悲しい」という気持ちもわかるようになってきたんだな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6042,7 +6032,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "放心，不会有人吃掉我的！",
+		param = "大丈夫。食べられたりはしないさ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6050,7 +6040,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "嗯，我也会把你保护得很好很好的",
+		param = "うん。食べられないようにちゃんと守ってあげる",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -6058,7 +6048,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "你是属于我的指挥官",
+		param = "あなたは私のもの、私の指揮官だから",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -6066,7 +6056,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "嗯，我就很喜欢它们的“歌声”",
+		param = "小鳥のさえずりは好きだよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6074,7 +6064,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "果然，您很喜欢它们的“歌声”",
+		param = "やはりそうなのね",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -6082,7 +6072,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "您有时会在窗边看着它们露出笑容",
+		param = "窓辺で小鳥たちを眺めながら微笑むあなたを見かけたことがあるもの",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -6090,7 +6080,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "这就是喜欢的表现么？",
+		param = "それが、「好き」…なの？",
 		ship_group = 960008,
 		flag = 2,
 		type = 1,
@@ -6098,12 +6088,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"嗯，这就是喜欢的表现"
+				"ああ。それが「好き」なんだ"
 			}
 		}
 	},
 	{
-		param = "嗯，这就是喜欢的表现",
+		param = "ああ。それが「好き」なんだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6111,7 +6101,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "那我总是看着您",
+		param = "じゃあ私もいつもあなたを眺めていて",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -6119,7 +6109,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "现在与您聊天也会露出笑容……",
+		param = "こうして話している時も思わず口元が緩む",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -6127,7 +6117,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "原来这是喜欢您的表现",
+		param = "この感情表現が「好き」だというのね",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -6135,7 +6125,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "多亏了您，我才能理解这些复杂的情绪",
+		param = "あなたのおかげで、こういった複雑な機微もわかるようになったわ",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -6143,7 +6133,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "指挥官，能够来到您的身边，真是太好了",
+		param = "指揮官、あなたに出会えて本当によかった",
 		ship_group = 960008,
 		type = 1,
 		option = "",
@@ -6151,7 +6141,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "指挥官有什么爱好呢？",
+		param = "指揮官は趣味はあるの？",
 		ship_group = 960009,
 		flag = 0,
 		type = 1,
@@ -6159,16 +6149,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"我的爱好还蛮多的"
+				"結構多いよ"
 			},
 			{
 				2,
-				"怎么突然问这个？"
+				"急にどうしたの？"
 			}
 		}
 	},
 	{
-		param = "我的爱好还蛮多的",
+		param = "結構多いよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6176,7 +6166,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "说些更具体的嘛，让我更加了解你嘛~",
+		param = "もうちょっと具体的でお願い。アミティにあんたのことをもっと知らせて？",
 		ship_group = 960009,
 		flag = 1,
 		type = 1,
@@ -6184,20 +6174,20 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"喜欢看书"
+				"読書かな"
 			},
 			{
 				4,
-				"喜欢打游戏"
+				"ゲームかな"
 			},
 			{
 				5,
-				"喜欢工作！"
+				"仕事が好きだ！"
 			}
 		}
 	},
 	{
-		param = "我喜欢看书",
+		param = "読書は好きだな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6205,7 +6195,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "看书确实很棒呢！",
+		param = "まあ、確かに良い趣味ね。読書って",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6213,7 +6203,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "足不出户就能了解到很多很多知识~",
+		param = "出かけなくても知識をいっぱい吸収できるしぃ～",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6221,7 +6211,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "指挥官给我推荐几本书吧~",
+		param = "ねえ指揮官、アミティに何冊かおすすめを教えてよ？",
 		ship_group = 960009,
 		flag = 3,
 		type = 1,
@@ -6229,16 +6219,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"我列个书单给你"
+				"リストをまとめるから"
 			},
 			{
 				7,
-				"我选几本给你送过去"
+				"何冊か選んで届けるよ"
 			}
 		}
 	},
 	{
-		param = "稍等，我列个书单给你",
+		param = "ちょっと待ってて。今リストをまとめるから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6246,7 +6236,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "稍等，我直接选几本给你送过去",
+		param = "ちょっと待ってて。何冊か選んで届けるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6254,7 +6244,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "太好了，谢谢指挥官~",
+		param = "あら、指揮官ありがとう",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6262,7 +6252,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "等我看完了，我们一起交流感想吧~",
+		param = "読んだら今度感想でも語り合おうじゃない",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6270,7 +6260,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "我喜欢打游戏",
+		param = "ゲームが好きだな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6278,7 +6268,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "游戏么……确实确实！现代科技研发的电子游戏，真的很令人上瘾呢！",
+		param = "ゲーム……いいわね！現代の技術で開発されたビデオゲームは確かにヤミツキになるわね",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6286,7 +6276,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "指挥官有什么游戏推荐么？",
+		param = "ねえ指揮官、おすすめのゲームはある？",
 		ship_group = 960009,
 		flag = 4,
 		type = 1,
@@ -6294,16 +6284,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"我推荐几款游戏给你"
+				"何本かあるよ"
 			},
 			{
 				9,
-				"一起玩双人游戏吧"
+				"今から一緒に協力ゲーでもやらない？"
 			}
 		}
 	},
 	{
-		param = "我推荐几款游戏给你",
+		param = "何本かあるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6311,7 +6301,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "好，我先试着玩玩看",
+		param = "いいわ。まずはその中から遊んでみる",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6319,7 +6309,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "指挥官推荐的游戏，应该很有趣吧！",
+		param = "指揮官のおすすめならきっと楽しいでしょ？",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6327,7 +6317,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "玩的时候我有什么感想就跟你分享哦~",
+		param = "時々感想を教えてあげるわ",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6335,7 +6325,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "一起玩双人游戏吧",
+		param = "今から一緒に協力ゲーでもやらない？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6343,7 +6333,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	{
-		param = "好啊！我还从没玩过双人游戏呢！",
+		param = "いいわね！私、協力ゲームはまだやったことがないの！",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6351,7 +6341,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	{
-		param = "应该很有意思吧~？",
+		param = "きっと楽しいんでしょ？",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6359,7 +6349,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	{
-		param = "指挥官稍等，我现在直接去你那边找你哦~？",
+		param = "今そっちに行くからちょっと待ってて？",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6367,7 +6357,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	{
-		param = "我喜欢工作！",
+		param = "仕事が大好きだ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6375,7 +6365,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "哇……指挥官说出这种话还真是一点违和感都没有……",
+		param = "わぁ……全然違和感を感じないわね……",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6383,7 +6373,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "虽然说认真工作也是好事，但还是要注意休息比较好哦？",
+		param = "仕事に励むのもいいけど、休憩にも気を使ったほうがいいわよ？",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6391,7 +6381,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "不过和我发消息，也算是一种休息吧？",
+		param = "こうしてアミティと連絡し合っているのも休憩のうちなのかしら？",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6399,7 +6389,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "那为了指挥官好好休息，以后每天我都会给你发消息哦~？",
+		param = "ふふふ、じゃああなたがちゃんと休めるよう毎日メッセージを飛ばしてあげる♪",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6407,7 +6397,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "怎么突然问这个？",
+		param = "急にどうしたの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6415,7 +6405,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "因为想更多地了解你嘛~",
+		param = "だってあなたのことをもっと知りたいから",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6423,7 +6413,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "从爱好这种共同话题入手，聊天能更顺利地展开哦~",
+		param = "会話だって趣味から聞くとスムーズになるでしょ？",
 		ship_group = 960009,
 		flag = 2,
 		type = 1,
@@ -6431,16 +6421,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				10,
-				"放轻松相处就好"
+				"変に気を使わず気楽でいいからね"
 			},
 			{
 				11,
-				"那和睦号的爱好是什么呢？"
+				"じゃあアミティの趣味は？"
 			}
 		}
 	},
 	{
-		param = "其实，放轻松相处就好",
+		param = "お互い変に気を使わず気楽でいいからね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6448,7 +6438,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "总能找到共同话题的",
+		param = "共通の話題はきっと見つかるから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6456,7 +6446,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "原来如此~指挥官喜欢更慢节奏一些的相处模式呢~",
+		param = "なるほど～。指揮官はのんびりとした付き合いのほうがいいのね",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6464,7 +6454,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "我知道啦~那就从闲聊开始吧",
+		param = "分かったわ。じゃあとりあえずおしゃべりから",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6472,7 +6462,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "我想想呢，那就从“指挥官对和睦号的第一印象”这个话题开始聊起——",
+		param = "そうね…話題は「指揮官のアミティへの第一印象」で――",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6480,7 +6470,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "怎么样~？",
+		param = "どうかしら？",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6488,7 +6478,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "那和睦号的爱好是什么呢？",
+		param = "じゃあアミティの趣味は？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6496,7 +6486,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 11
 	},
 	{
-		param = "我的爱好的话……果然还是寻宝吧？",
+		param = "私？……やっぱりお宝探しかしら？",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6504,7 +6494,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 11
 	},
 	{
-		param = "在无人知晓的深海中寻得珍宝……还是很开心的",
+		param = "誰も知らない深ーい海でのお宝探し……なかなか楽しいわよ？",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6512,7 +6502,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 11
 	},
 	{
-		param = "指挥官对寻宝有兴趣么？",
+		param = "指揮官はお宝探し、興味ある？",
 		ship_group = 960009,
 		flag = 11,
 		type = 1,
@@ -6520,16 +6510,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				12,
-				"有些兴趣"
+				"ちょっと興味ある"
 			},
 			{
 				13,
-				"那要看看是怎样的宝藏了"
+				"どんなお宝か次第だな"
 			}
 		}
 	},
 	{
-		param = "有些兴趣",
+		param = "ちょっと興味ある",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6537,7 +6527,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 12
 	},
 	{
-		param = "既然这样，下次一起出海寻宝吧！",
+		param = "なら今度一緒に海に出てお宝探ししようじゃない",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6545,7 +6535,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 12
 	},
 	{
-		param = "或者，心动不如行动？我们现在就出发吧？",
+		param = "今度と言わず、今すぐでもいいわよ？",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6553,7 +6543,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 12
 	},
 	{
-		param = "那要看看是怎样的宝藏了",
+		param = "どんなお宝か次第だな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6561,7 +6551,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 13
 	},
 	{
-		param = "能让我看上的宝藏，肯定都是价值连城的珍宝了",
+		param = "アミティが見込んだお宝だもの、どれも貴重なものに決まっているじゃない",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6569,7 +6559,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 13
 	},
 	{
-		param = "我想一定能够引起指挥官的兴趣的",
+		param = "きっと気に入ってくれると思うわ",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6577,7 +6567,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 13
 	},
 	{
-		param = "不过光说可能没什么说服力……要不要先来看看我的收藏品啊~？",
+		param = "まあ、言葉だけじゃ説得力があまりないし…先に私のコレクションでも見てもらおうかしら",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6585,7 +6575,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 13
 	},
 	{
-		param = "我正在来指挥室的路上，给你带了夜宵",
+		param = "今、執務室に向かってるわ。差し入れを持ってね",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6593,7 +6583,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "要不要猜猜看是什么？",
+		param = "どんな差し入れか当ててみて？",
 		ship_group = 960009,
 		flag = 0,
 		type = 1,
@@ -6601,16 +6591,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"烤肉、炸鸡和碳酸饮料？"
+				"焼肉にフライドチキン、炭酸飲料かな？"
 			},
 			{
 				2,
-				"什么都好，我饿了！"
+				"何でも大丈夫！小腹を満たすチャンスだ！"
 			}
 		}
 	},
 	{
-		param = "烤肉、炸鸡和碳酸饮料？",
+		param = "焼肉にフライドチキン、炭酸飲料かな？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6618,7 +6608,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "没错哦，就是这些",
+		param = "ええ、そうよ",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6626,7 +6616,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "果然，指挥官很喜欢吃呢~",
+		param = "指揮官はこういうのが好きだからねー",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6634,7 +6624,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "上次跟你一起吃夜宵，你也吃了很多",
+		param = "この前、一緒に夜食を食べた時も、結構食べてたもんね",
 		ship_group = 960009,
 		flag = 1,
 		type = 1,
@@ -6642,16 +6632,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"热量总是能给人带来快乐"
+				"カロリーって人を幸せにするから"
 			},
 			{
 				4,
-				"没有人能拒绝这样的美味！"
+				"美味しいものは断らない主義でね"
 			}
 		}
 	},
 	{
-		param = "热量总是能给人带来快乐",
+		param = "カロリーって人を幸せにするから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6659,7 +6649,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "没有人能拒绝这样的美味！",
+		param = "美味しいものは断らない主義でね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6667,7 +6657,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "特别是在辛苦工作之后，更能得到安慰",
+		param = "特に仕事を頑張った後の食事はご褒美としても格別だからな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6675,7 +6665,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "既然如此，待会就敞开肚子多吃一些吧！",
+		param = "じゃあ、後でお腹いっぱい食べちゃおうね！",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6683,7 +6673,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "我已经到楼下了，夜宵好重哦，指挥官下来接我吧~",
+		param = "玄関の前に着いたわ。重いから指揮官、迎えに来てくれない？",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6691,7 +6681,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "什么都好，我饿了！",
+		param = "何でも大丈夫！小腹を満たすチャンスだ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6699,7 +6689,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "刚好，我什么都买了一些",
+		param = "ふーん。いろいろ買ってきたけどちょうどよかったみたいね",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6707,7 +6697,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "有炸鸡、烤肉，还有一些碳酸饮料",
+		param = "焼肉にフライドチキン、それに炭酸飲料もあるわよ",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6715,7 +6705,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "你应该会喜欢这些吧？",
+		param = "指揮官はこれが好きなんでしょ？",
 		ship_group = 960009,
 		flag = 2,
 		type = 1,
@@ -6723,16 +6713,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"那是！"
+				"それは……！"
 			},
 			{
 				6,
-				"什么都好，我饿了！"
+				"何でも大丈夫！小腹を満たすチャンスだ！"
 			}
 		}
 	},
 	{
-		param = "那是！",
+		param = "それは……！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6740,7 +6730,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "没有人能拒绝热量带来的快乐！",
+		param = "カロリーがもたらす幸せを断る人なんていないさ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6748,7 +6738,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "那就好，待会儿敞开肚子多吃一些吧！",
+		param = "よかった、じゃあ後でたくさん食べてね！",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6756,7 +6746,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "什么都好，我饿了！",
+		param = "何でも大丈夫！小腹を満たすチャンスだ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6764,7 +6754,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "又是什么都好！那我也好么？",
+		param = "また「なんでもいい」？じゃあアミティも一緒に食べていい？",
 		ship_group = 960009,
 		flag = 6,
 		type = 1,
@@ -6772,12 +6762,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"你也好！"
+				"構わないよ"
 			}
 		}
 	},
 	{
-		param = "你也好！我很喜欢和你一起吃饭的氛围！",
+		param = "構わないよ。むしろアミティが一緒にいてくれたほうが楽しく食べれる",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6785,7 +6775,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "和我一起吃饭的氛围……？",
+		param = "楽しく食べれる…？",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6793,7 +6783,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "唔，可以理解为是喜欢我的意思吗？哼哼~",
+		param = "あら、それってアミティと一緒にいるのが楽しいって意味かしら？ふふふ",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6801,7 +6791,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "那我陪着你的话，你更要吃多一些哦~",
+		param = "じゃあいてあげる♪たくさん食べなさいよね？",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6809,7 +6799,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "我已经到楼下了，夜宵好重哦，指挥官下来接我吧~",
+		param = "玄関の前に着いたわ。重いから指揮官、迎えに来てくれない？",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6817,7 +6807,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "指挥官，在我出门的第三天，你有想我吗？",
+		param = "指揮官、出かけてから3日目だけど、さては私が恋しくなった？",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6825,7 +6815,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "等回复中~",
+		param = "返事待ってるよ～",
 		ship_group = 960009,
 		flag = 0,
 		type = 1,
@@ -6833,16 +6823,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"我很想你！"
+				"ああ！"
 			},
 			{
 				2,
-				"其实还好——"
+				"まだ大丈夫"
 			}
 		}
 	},
 	{
-		param = "我很想你！",
+		param = "ああ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6850,7 +6840,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "嗯，我也很想你哦！",
+		param = "うん、私も指揮官を恋しく思ってるわ！",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6858,7 +6848,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "每天每天每时每刻都在想你~",
+		param = "毎日いつもあなたのことを考えてるから♪",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6866,7 +6856,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "其实还好——因为每天都在和你聊天",
+		param = "まだ大丈夫。ほらこうして毎日連絡してるし",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6874,7 +6864,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "哼哼，可我就不一样了",
+		param = "ふふふ、でも私は違うわ",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6882,7 +6872,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "即便每天都在和你聊天，我还是很想你~",
+		param = "こうやって毎日会話を交わしても、やっぱり指揮官が恋しいの～",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6890,7 +6880,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "指挥官，现在走到窗口，看向窗外吧",
+		param = "今から窓際に行って、外を見てごらん",
 		ship_group = 960009,
 		flag = 0,
 		type = 1,
@@ -6898,16 +6888,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"窗外好像没什么东西？"
+				"…なにもないけど？"
 			},
 			{
 				4,
-				"该不会是你回来了吧？"
+				"アミティが帰って来たとか？"
 			}
 		}
 	},
 	{
-		param = "窗外好像没什么东西？",
+		param = "…なにもないけど？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6915,7 +6905,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "我还以为……",
+		param = "てっきり……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6923,7 +6913,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "以为什么？以为我回来了？",
+		param = "何を期待してたの？アミティが帰ってきたとでも？",
 		ship_group = 960009,
 		flag = 3,
 		type = 1,
@@ -6931,12 +6921,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"……果然又在恶作剧"
+				"……"
 			}
 		}
 	},
 	{
-		param = "……果然又在恶作剧",
+		param = "もしかしてイタズラ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6944,7 +6934,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "被你发现啦？",
+		param = "バレちゃった？",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6952,7 +6942,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "……欸~其实没有啦，这次真没有在恶作剧！",
+		param = "なんて♪今回はイタズラじゃないの",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6960,7 +6950,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "我只是想说……",
+		param = "私が言いたかったのは…",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -6968,7 +6958,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "该不会是你回来了吧？",
+		param = "アミティが帰って来たとか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6976,7 +6966,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "哈哈，看一眼呢，说不定我就在窗外了哦？",
+		param = "あはは、ちょっと見てみれば？もしかしたら窓の外にいるかもよ？",
 		ship_group = 960009,
 		flag = 4,
 		type = 1,
@@ -6984,12 +6974,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"看完了……"
+				"見てみたけど…"
 			}
 		}
 	},
 	{
-		param = "看完了……不在",
+		param = "見てみたけど…いないな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -6997,7 +6987,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "嘿嘿，很可惜，我确实没办法马上回到你身边",
+		param = "えへへ、残念だけど、今すぐは帰れないの",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -7005,7 +6995,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "窗外只有夜空和星星哦",
+		param = "窓の外にあるのは夜空と星々だけのはずよ",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -7013,7 +7003,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "不过……",
+		param = "でもね……",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -7021,7 +7011,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "我们现在正看着同一片夜空，同一颗星星呢~",
+		param = "私たちは今同じ夜空を見て、同じ星を見てるわ",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -7029,7 +7019,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "这样，也算是陪伴在彼此身边吧",
+		param = "これって、お互いそばにいるようなものじゃない？",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -7037,7 +7027,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "只有这样想，才能稍稍缓解一下我对你的想念",
+		param = "こうでも考えて我慢しないと、もどかしさに押し潰されちゃうもの",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -7045,7 +7035,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "我会尽快把事情处理完赶回来的",
+		param = "すぐに用事を済ませて戻るわ",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -7053,7 +7043,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "等我哦，指挥官~",
+		param = "待っててね、指揮官～",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -7061,7 +7051,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "要不要试试看踩背啊？",
+		param = "背中の踏み踏みでもする？",
 		ship_group = 960010,
 		flag = 0,
 		type = 1,
@@ -7069,16 +7059,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"你踩我？"
+				"踏んでくれるのか？"
 			},
 			{
 				2,
-				"我被你踩？"
+				"ポーツに踏まれるのか？"
 			}
 		}
 	},
 	{
-		param = "你踩我？",
+		param = "踏んでくれるのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7086,7 +7076,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "我被你踩？",
+		param = "ポーツに踏まれるのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7094,7 +7084,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "当然！要不然还能是谁？",
+		param = "当たり前じゃん！ほかに誰がいるの？",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7102,7 +7092,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "你只要负责趴下就好了！安心享受我的踩背服务吧！",
+		param = "そこに寝っ転がってりゃいいよ！安心してポーツの背中踏み踏みサービスを楽しんで！",
 		ship_group = 960010,
 		flag = 0,
 		type = 1,
@@ -7110,16 +7100,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"怎么突然想帮我踩背？"
+				"どうして急に背中踏みを？"
 			},
 			{
 				4,
-				"好，我会好好趴着的！"
+				"うつ伏せにして待ってるよ！"
 			}
 		}
 	},
 	{
-		param = "怎么突然想帮我踩背？",
+		param = "どうして急に背中踏みを？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7127,7 +7117,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "这不是看你工作太辛苦了嘛",
+		param = "だってさ、あんた仕事で疲れてるみたいだし",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7135,7 +7125,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "踩背很舒服的，加上我的秘药，肯定能缓解工作带来的疲劳！",
+		param = "背中踏みは気持ちいいと思うよ？あたしの秘薬も使えば、仕事の疲れなんてあっという間に吹っ飛ぶんだから！",
 		ship_group = 960010,
 		flag = 3,
 		type = 1,
@@ -7143,12 +7133,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"说起工作……"
+				"仕事と言えば……"
 			}
 		}
 	},
 	{
-		param = "说起工作……你今天的工作做完了吗？",
+		param = "仕事と言えば……ポーツは今日の仕事をもう終わらせたのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7156,7 +7146,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "……",
+		param = "…………",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7164,7 +7154,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "肯定都做完了啊！",
+		param = "もちろん終わったに決まってるじゃん！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7172,7 +7162,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "哎呀，不要提这种扫兴的事情！",
+		param = "もう、つまんないこと言わないの！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7180,7 +7170,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "赶紧去洗个澡，我也洗个澡就过来！",
+		param = "さっさとシャワー浴びてきて！あたしもシャワー浴びてすぐ行くから！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7188,7 +7178,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "好，我会好好趴着的！",
+		param = "うつ伏せにして待ってるよ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7196,7 +7186,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "嗯！指挥官就趴着就好！",
+		param = "うん！指揮官はうつ伏せで寝てればいい！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7204,7 +7194,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "踩背很舒服的，加上我的秘药，肯定能缓解工作带来的疲劳！",
+		param = "背中踏みは気持ちいいと思うよ？あたしの秘薬も使えば、仕事の疲れなんてあっという間に吹っ飛ぶんだから！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7212,7 +7202,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "你看你一天天的，工作这么多",
+		param = "ほら、あんたって毎日仕事がすっごく多いでしょ？",
 		ship_group = 960010,
 		flag = 4,
 		type = 1,
@@ -7220,12 +7210,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"如果你能多分担一些的话……"
+				"ポーツがもっと分担してくれたらなぁ…"
 			}
 		}
 	},
 	{
-		param = "如果你能多分担一些的话……",
+		param = "ポーツがもっと分担してくれたらなぁ…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7233,7 +7223,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "……哎呀，不要提这种扫兴的事情！",
+		param = "……もう、つまんないこと言わないの！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7241,7 +7231,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "既然我工作上帮不上忙，那就帮你放松一下身体嘛！",
+		param = "仕事は役に立たなくても、せめて体くらい気持ちよくさせてあげる！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7249,7 +7239,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "好啦，赶紧去洗个澡，我也洗个澡就过来！",
+		param = "はいはい！さっさとシャワー浴びてきて！あたしもシャワー浴びてすぐ行くから！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7257,7 +7247,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "哦，我直接过去你那边洗吧，更方便点！",
+		param = "そうだ！そっちのシャワーを使わせて！そのほうが楽だし！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7265,7 +7255,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "指挥官等我！",
+		param = "指揮官、待ってて！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7273,7 +7263,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "小尴尬吃来合计好像没事一觉惊醒&%@*#",
+		param = "ちょっと恥ずかしいけど食べたら大丈夫かも目が覚めた&%@*#",
 		ship_group = 960010,
 		flag = 0,
 		type = 1,
@@ -7285,12 +7275,12 @@ pg.base.activity_ins_chat_language = {
 			},
 			{
 				2,
-				"你这是喝醉了？"
+				"もしかしなくても酔ってる…？"
 			}
 		}
 	},
 	{
-		param = "？",
+		param = "は？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7298,7 +7288,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "这发的是什么？",
+		param = "何事…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7306,7 +7296,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "嗯……？指挥官怎么给我发消息了？",
+		param = "ん……？指揮官からメッセージが来た？",
 		ship_group = 960010,
 		flag = 1,
 		type = 1,
@@ -7314,12 +7304,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"是你先给我发的消息"
+				"ポーツが先に送ってきたんだが"
 			}
 		}
 	},
 	{
-		param = "是你先给我发的消息",
+		param = "ポーツが先に送ってきたんだが",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7327,7 +7317,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "唔……还真是！哈哈！",
+		param = "え……ほんとだ！あはは！",
 		ship_group = 960010,
 		flag = 3,
 		type = 1,
@@ -7335,12 +7325,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"你这是喝醉了？"
+				"もしかしなくても酔ってる…？"
 			}
 		}
 	},
 	{
-		param = "你这是喝醉了？",
+		param = "ポーツ、さては酔っ払ってるな…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7348,7 +7338,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "没、没有喝醉！",
+		param = "よ、酔ってないよ！",
 		ship_group = 960010,
 		flag = 4,
 		type = 1,
@@ -7356,12 +7346,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"喝醉的人都说自己没醉……"
+				"酔っ払いは皆そう言うんだ。迎えに行くよ"
 			}
 		}
 	},
 	{
-		param = "喝醉的人都说自己没喝醉，我过去接你吧。",
+		param = "酔っ払いは皆そう言うんだ。迎えに行くよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7369,7 +7359,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "真、真的没醉！",
+		param = "ほ、本当に酔ってないってば！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7377,7 +7367,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "不过你来也好，一起喝一点！",
+		param = "でもあんたが来てもいっか！一緒に飲もうよ！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7385,7 +7375,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "还能一起看星星！",
+		param = "星でも眺めながら！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7393,7 +7383,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "你这是喝醉了？",
+		param = "ポーツ、さては酔っ払ってるな…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7401,7 +7391,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "没、没有喝醉！",
+		param = "よ、酔ってないよ！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7409,7 +7399,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "指挥官也要过来一起喝点吗？",
+		param = "指揮官も来て一緒に飲む？",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7417,7 +7407,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我就躺在草坪上……等你……！",
+		param = "あたしは芝生の上で寝転がって……待ってるから……！",
 		ship_group = 960010,
 		flag = 2,
 		type = 1,
@@ -7425,16 +7415,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"好，等我"
+				"うん。今行くから"
 			},
 			{
 				7,
-				"我带些醒酒茶过来"
+				"酔い醒ましのお茶でも持っていくよ"
 			}
 		}
 	},
 	{
-		param = "好，等我",
+		param = "うん。今行くから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7442,7 +7432,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "嘿嘿……好哦，我等你……",
+		param = "えへへ……うん、待ってるよ……",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7450,7 +7440,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "我带些醒酒茶过来",
+		param = "酔い醒ましのお茶でも持っていくよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7458,7 +7448,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "我才不喝那个……",
+		param = "そんなの飲まないもん……",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7466,7 +7456,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "指挥官自己过来就好了……",
+		param = "指揮官は手ぶらで来ていいの……",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7474,7 +7464,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "我们一起喝酒，一起……看星星！",
+		param = "一緒にお酒飲んで、一緒に……星を眺めよう♪",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7482,7 +7472,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "好多 、好多星星围着我转！",
+		param = "星が……たくさんの星があたしの周りを回ってる！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7490,7 +7480,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "你们……也要围着指挥官转哦！",
+		param = "あんたたち……指揮官の周りでも回ってあげて！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7498,7 +7488,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "要不要现在抽空一起去健个身？",
+		param = "今から一緒にトレーニングしない？",
 		ship_group = 960010,
 		flag = 0,
 		type = 1,
@@ -7506,16 +7496,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"可以"
+				"いいよ。"
 			},
 			{
 				2,
-				"好累，不去，你加油"
+				"疲れた。無理。ポーツだけで頑張ってくれ"
 			}
 		}
 	},
 	{
-		param = "可以，不过怎么突然开始健身了？",
+		param = "いいよ。でも、どうして急にトレーニングを？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7523,7 +7513,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "这不是想练一下腿嘛！",
+		param = "足腰を鍛えたいと思って！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7531,7 +7521,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "港区的生活太安逸了，都没有锻炼的机会了！",
+		param = "母港での生活が快適すぎて、運動する機会がなくなっちゃったんだよ！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7539,7 +7529,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "太懈怠的话都不知道会变成什么样……",
+		param = "このままじゃどうなってしまうか……",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7547,7 +7537,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "你肯定也更喜欢我维持现在的状态吧！",
+		param = "あんたも今のあたしのままのほうが好きでしょ！",
 		ship_group = 960010,
 		flag = 1,
 		type = 1,
@@ -7555,16 +7545,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"无论怎样，我都喜欢"
+				"どんなポーツでも好きだよ"
 			},
 			{
 				4,
-				"对待工作的状态除外"
+				"お仕事に関しては別だけどな"
 			}
 		}
 	},
 	{
-		param = "无论怎样，我都喜欢",
+		param = "どんなポーツでも好きだよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7572,7 +7562,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "唔……话是这么说……",
+		param = "うーん……そう言われても……",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7580,7 +7570,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "……毕竟无论指挥官变成这么样，我也都会喜欢的",
+		param = "……まあ、あたしも指揮官がどんな風に変わっても好きだけどね",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7588,7 +7578,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "不过，还是不能懈怠！",
+		param = "いやいや、怠けちゃダメ！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7596,7 +7586,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "对待工作的状态除外",
+		param = "お仕事に関しては別だけどな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7604,7 +7594,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "你这人，好端端说什么工作？！",
+		param = "なによ！せっかくいい雰囲気なのに仕事の話なんか持ち出して！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7612,7 +7602,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "哼，我的工作就是给你踩背，知道么！",
+		param = "ふん、あたしの仕事はあんたの背中を踏むことなんだからね！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7620,7 +7610,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "所以，这可是一点都不能懈怠的！",
+		param = "それだけは絶対に手を抜けないの！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7628,7 +7618,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "一定要让腿部的肌肉保持在最好的状态",
+		param = "だから足の筋肉を最高のコンディションに保たないと",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7636,7 +7626,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "那样才能更好地给你踩背嘛！",
+		param = "そうしないと上手く背中を踏めないし！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7644,7 +7634,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "我先去健身了，待会你到了再联系我！",
+		param = "とにかくあたしは先に行くから！着いたら連絡して！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7652,7 +7642,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "好累，不去，你加油",
+		param = "疲れた。無理。ポーツだけで頑張ってくれ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7660,7 +7650,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "欸——指挥官还真是懒惰啊！",
+		param = "えー、指揮官ってちょっと怠けすぎじゃない？",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7668,7 +7658,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我还想着如果你一起来的话，我会更有动力呢！",
+		param = "あんたも一緒に来てくれたらもっとやる気出るのに！",
 		ship_group = 960010,
 		flag = 2,
 		type = 1,
@@ -7676,12 +7666,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"我的精神与你同在！"
+				"気持ち的には一緒にいるよ！"
 			}
 		}
 	},
 	{
-		param = "我的精神与你同在！",
+		param = "気持ち的には一緒にいるよ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7689,7 +7679,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "我在精神上接收到了指挥官的鼓舞——",
+		param = "指揮官に励まされたよ！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7697,7 +7687,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "感觉现在充满了干劲——",
+		param = "すっごくやる気が出てきた！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7705,7 +7695,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "以至于现在想到了一种不去健身房也能健身的方法！",
+		param = "ジムに行かなくても「運動」できる方法を閃いた！",
 		ship_group = 960010,
 		flag = 5,
 		type = 1,
@@ -7713,12 +7703,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"那是什么……？"
+				"それはどんな……？"
 			}
 		}
 	},
 	{
-		param = "那是什么……？",
+		param = "それはどんな……？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7726,7 +7716,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "呵呵，你猜",
+		param = "ふふ、当ててみて！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7734,7 +7724,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "我已经在路上了，你洗干净在床上等着我，到了你就知道了！",
+		param = "とにかくもう向かってるから！体を洗ってベッドで待っといて！着いたら分かるから！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -7742,7 +7732,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "指挥官~",
+		param = "指揮官～",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -7750,7 +7740,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "指挥官，指挥官~",
+		param = "指揮官～指揮官～",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -7758,7 +7748,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "能收到我的消息吗~",
+		param = "わたしのメッセージ、ちゃんと届いた？",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -7766,7 +7756,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "收到请回复！收到请回复！",
+		param = "見たら返信！「返信」、プリーズ！",
 		ship_group = 960011,
 		flag = 0,
 		type = 1,
@@ -7774,16 +7764,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"收到！"
+				"届いたよ"
 			},
 			{
 				2,
-				"复！"
+				"「返信」！"
 			}
 		}
 	},
 	{
-		param = "收到，收到，海豚号收到请回复！",
+		param = "こちら指揮官！ドルフィン、応答を頼む！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7791,7 +7781,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "我也收到指挥官的消息啦~",
+		param = "うん！こっちにもちゃんと届いたよ♪",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -7799,7 +7789,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "复！",
+		param = "「返信」！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7807,7 +7797,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "啊哈哈~我也收到指挥官的消息啦~",
+		param = "えへへ～「返信」の受信、確認したよ",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -7815,7 +7805,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "这个叫做手机的东西，发信息好便捷啊……",
+		param = "この「すまほ」っていうの、メッセージを送るのにすごく便利だね…",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -7823,7 +7813,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "明明隔着这么远的距离，却能够跟指挥官这样聊天！",
+		param = "離れていても、指揮官とこうやってやり取りできるんだ♪",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -7831,7 +7821,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "比我的特异功能厉害多了！",
+		param = "わたしの特殊能力よりずっとすごいよ！",
 		ship_group = 960011,
 		flag = 0,
 		type = 1,
@@ -7839,12 +7829,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"还能发表情呢"
+				"スタンプも送れるよ"
 			}
 		}
 	},
 	{
-		param = "不光能聊天，还能发表情呢",
+		param = "メッセージだけじゃなく、スタンプも送れるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7852,7 +7842,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "嗯？表情……？",
+		param = "ん？「スタンプ」…？",
 		ship_group = 960011,
 		flag = 3,
 		type = 1,
@@ -7860,15 +7850,15 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"[要掉了]"
+				"（明石）"
 			},
 			{
 				5,
-				"[嘎喔]"
+				"（ネルソン）"
 			},
 			{
 				6,
-				"[兔耳飞]"
+				"（ラフィー）"
 			}
 		}
 	},
@@ -7881,7 +7871,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "是绿头猫咪！",
+		param = "緑の猫だ！",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -7897,7 +7887,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "感觉好强！",
+		param = "おお！なんか強そう！",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -7913,7 +7903,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "好可爱……",
+		param = "かわいい…",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -7921,7 +7911,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "……原来如此，是这样的“表情”啊",
+		param = "…なるほど、これが「スタンプ」っていうものなんだね！",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -7929,7 +7919,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "我还以为能把自己现在表情发出去呢，嘿嘿……",
+		param = "んーでもドルフィンもスタンプになれないかな…？",
 		ship_group = 960011,
 		flag = 0,
 		type = 1,
@@ -7937,12 +7927,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"可以试试表情导入功能"
+				"自分のスタンプも作れるよ"
 			}
 		}
 	},
 	{
-		param = "这样的话，可以试试表情导入功能",
+		param = "自分のスタンプも作れるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7950,7 +7940,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "表情导入功能……？",
+		param = "「自分の」……？",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -7958,7 +7948,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "意思是把自己现在的表情做成表情包么？",
+		param = "ドルフィンの今の顔をスタンプにできるってこと？",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -7966,7 +7956,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "好像很有趣……不过要怎么做？！",
+		param = "なんだか楽しそう！…どうやって？",
 		ship_group = 960011,
 		flag = 7,
 		type = 1,
@@ -7974,16 +7964,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"现在有空来一下么？"
+				"今ちょっと時間ある？"
 			},
 			{
 				9,
-				"稍等，发你个教程"
+				"説明を送るよ"
 			}
 		}
 	},
 	{
-		param = "现在有空来一下么？",
+		param = "今ちょっと時間ある？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -7991,7 +7981,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "有空~有空~",
+		param = "うん！大丈夫！",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -7999,7 +7989,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "那么，指挥官现在在哪里呢~",
+		param = "指揮官はどこにいるの？",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8007,7 +7997,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "噢——在你回复之前，我已经感知到你的位置了！",
+		param = "あ！「返信」が来る前に、指揮官のいる場所を探知できた！",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8015,7 +8005,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "稍等，发你个教程",
+		param = "説明を送るよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8023,7 +8013,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	{
-		param = "哼哼，指挥官，我已经感知到你的位置了~",
+		param = "ふふん、もう指揮官のいる場所を探知できたよ～",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8031,7 +8021,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	{
-		param = "相比看教程，我想让你亲自教我~",
+		param = "説明を読むより、直接教えてほしいなー",
 		ship_group = 960011,
 		flag = 9,
 		type = 1,
@@ -8039,12 +8029,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				10,
-				"你的特异功能真厉害……"
+				"その特殊能力は位置追跡よりすごくない…？"
 			}
 		}
 	},
 	{
-		param = "你的特异功能比手机定位都厉害……",
+		param = "その特殊能力は位置追跡よりすごくない…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8052,7 +8042,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "好啊，我正好也有空",
+		param = "まあ、ちょうど今空いてるし大丈夫",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8060,7 +8050,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "嘿嘿，我现在就去找你~等我哦！",
+		param = "えへへ、待っててね～。今会いに行くから！",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8076,7 +8066,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "指挥官，你在哪里？",
+		param = "指揮官、どこにいるの？",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8084,7 +8074,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "怎么买完冰激凌回来你就不见了",
+		param = "アイスを買ってきたら、指揮官が見当たらなくなった…",
 		ship_group = 960011,
 		flag = 0,
 		type = 1,
@@ -8092,16 +8082,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"我就在原地啊？"
+				"ずっとここにいるけど？"
 			},
 			{
 				2,
-				"是你迷路了……"
+				"ドルフィンが迷子になったのでは……？"
 			}
 		}
 	},
 	{
-		param = "嗯？我就在原地没有走动啊？",
+		param = "え？ここから動いてないけど…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8109,7 +8099,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "就在一号馆的休息区里",
+		param = "一号館の休憩スペースから動いてないよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8117,7 +8107,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "难道是我迷路了？",
+		param = "もしかして、わたしが迷子になった…？",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8125,7 +8115,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "啊，果然是我迷路了，这里的小鱼不是刚才的小鱼……",
+		param = "うぅ、やっぱりそうだ。ここの魚もさっきいた子たちと違うみたい…",
 		ship_group = 960011,
 		flag = 1,
 		type = 1,
@@ -8133,12 +8123,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"周围有什么标识么？"
+				"周りに目印になるものってある？"
 			}
 		}
 	},
 	{
-		param = "或许，是你迷路了……",
+		param = "ドルフィンが迷子になったのでは……？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8146,7 +8136,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我看看哦……",
+		param = "えっと、確認してみるね…",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8154,7 +8144,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "啊，居然真的迷路了！",
+		param = "あ、本当だ！",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8162,7 +8152,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "这里的小鱼不是刚才的小鱼……",
+		param = "ここの魚もさっきいた子たちと違うみたい…",
 		ship_group = 960011,
 		flag = 2,
 		type = 1,
@@ -8170,12 +8160,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"周围有什么标识么？"
+				"周りに目印になるものってある？"
 			}
 		}
 	},
 	{
-		param = "周围有什么标识么？",
+		param = "周りに目印になるものってある？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8183,7 +8173,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "牌子上写着二号馆",
+		param = "ん…看板に二号館って書いてある",
 		ship_group = 960011,
 		flag = 3,
 		type = 1,
@@ -8191,16 +8181,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"能回到一号馆吗？"
+				"一号館に戻れそう？"
 			},
 			{
 				5,
-				"站在原地不要动"
+				"そこでじっとしてて"
 			}
 		}
 	},
 	{
-		param = "能回到一号馆吗？",
+		param = "一号館に戻れそう？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8208,7 +8198,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "我试试用我的特异功能哦……",
+		param = "特殊能力を使ってみるね…",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8216,7 +8206,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "唔……鱼群的声音太嘈杂了，我听不清你的声音……",
+		param = "うぅ…魚たちの音が大きくて、指揮官の音がはっきり聞こえない…",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8224,7 +8214,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "啊，鱼群告诉我你的位置了~！",
+		param = "あ。魚たちが指揮官の居場所を教えてくれた！",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8232,7 +8222,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "指挥官你站在那里不要动哦",
+		param = "指揮官、そこから動かないでね",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8240,7 +8230,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "我马上、马上就回到你身边~！",
+		param = "す、すぐにそっちに行くから！",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8248,7 +8238,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "你站在原地不要动，我去接你！",
+		param = "そこでじっとしてて。今迎えに行く！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8256,7 +8246,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "好~",
+		param = "ありがとう～",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8264,7 +8254,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "虽然我也可以用特异功能找到你啦",
+		param = "特殊能力を使えば、指揮官の居場所なんてすぐ分かるけど",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8272,7 +8262,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "不过待在原地等待，全心全意依赖指挥官的感觉果然也很棒呢~",
+		param = "指揮官に頼り切って、ここで大人しく待つこともまたいい感じ～♪",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8280,7 +8270,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "指挥官，睡了吗？",
+		param = "指揮官、もう寝た？",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8288,7 +8278,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "嗯……我听见啦，你还没睡！",
+		param = "うんうん…もう聞こえたよ？まだ起きてるんだね！",
 		ship_group = 960011,
 		flag = 0,
 		type = 1,
@@ -8296,16 +8286,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"晚上好"
+				"こんばんは"
 			},
 			{
 				2,
-				"早上好"
+				"おはよう"
 			}
 		}
 	},
 	{
-		param = "晚上好",
+		param = "こんばんは",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8313,7 +8303,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "晚上好~",
+		param = "こんばんは～",
 		ship_group = 960011,
 		flag = 1,
 		type = 1,
@@ -8321,12 +8311,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"失眠了？"
+				"眠れないの？"
 			}
 		}
 	},
 	{
-		param = "早上好",
+		param = "おはよう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8334,7 +8324,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "早上……好？",
+		param = "お、おはよう…？",
 		ship_group = 960011,
 		flag = 2,
 		type = 1,
@@ -8342,12 +8332,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"失眠了？"
+				"眠れないの？"
 			}
 		}
 	},
 	{
-		param = "失眠了？",
+		param = "眠れないの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8355,7 +8345,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "稍微有点……",
+		param = "うん、ちょっとね…",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8363,7 +8353,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "因为明天我们要去野营了",
+		param = "明日のキャンプのことで色々とね",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8371,7 +8361,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "我从来没出去野营过……",
+		param = "わたし、キャンプに行ったことないし",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8379,7 +8369,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "又是跟你一起出去玩……",
+		param = "しかも指揮官と一緒にお出かけするから",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8387,7 +8377,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "有些太兴奋了，嘿嘿……",
+		param = "ワクワクしすぎて、えへへ…",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8395,7 +8385,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "闭上眼睛一个小时了，还是没有睡着！",
+		param = "1時間も目を閉じてるのに、全然眠れないの…",
 		ship_group = 960011,
 		flag = 3,
 		type = 1,
@@ -8403,16 +8393,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"那我来陪你聊天吧"
+				"じゃあ、おしゃべりしようか"
 			},
 			{
 				5,
-				"要不要尝试一些可以快速入眠的方式？"
+				"すぐ眠りにつく方法でも試してみない？"
 			}
 		}
 	},
 	{
-		param = "那我来陪你聊天吧，直到你困了为止",
+		param = "じゃあ、ドルフィンが眠くなるまでおしゃべりでもしようか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8420,7 +8410,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "不会影响到你休息么？",
+		param = "迷惑にならない？",
 		ship_group = 960011,
 		flag = 4,
 		type = 1,
@@ -8428,16 +8418,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"不会，我还不困"
+				"ううん、まだ眠くないから"
 			},
 			{
 				7,
-				"没事，我想陪着你"
+				"ドルフィンと一緒に話したいからね"
 			}
 		}
 	},
 	{
-		param = "不会，我还不困",
+		param = "ううん、まだ眠くないから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8445,7 +8435,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "嘿嘿，那就来聊天吧~",
+		param = "えへへ、じゃあおしゃべりしよ～",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8453,7 +8443,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "不知道野营的地点会不会藏着宝藏呢……",
+		param = "キャンプ場にお宝が隠れてたりしないかな…",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8461,7 +8451,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "如果有的话，会是什么呢？",
+		param = "もしあったら、どんなお宝なのかな…",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8469,7 +8459,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "指挥官，我们一起来猜猜看吧！",
+		param = "指揮官、一緒に探し当ててみない？",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8477,7 +8467,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "没事，我想陪着你",
+		param = "ドルフィンと一緒に話したいからね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8485,7 +8475,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "我也想陪着指挥官呢~",
+		param = "わたしも指揮官と一緒に話したい！",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8493,7 +8483,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "反正你也没睡，要不我直接过去找你吧~？",
+		param = "指揮官も起きてるなら、今会いに行ってもいい？",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8501,7 +8491,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "帮我准备个枕头哦！",
+		param = "わたしの枕を用意しておいてね！",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8509,7 +8499,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "要不要尝试一些可以快速入眠的方式？",
+		param = "すぐ眠りにつく方法でも試してみない？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8517,7 +8507,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "有哪些快速入眠的方式呢？",
+		param = "え？どういう方法？",
 		ship_group = 960011,
 		flag = 5,
 		type = 1,
@@ -8525,16 +8515,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"我给你讲睡前故事？"
+				"寝る前の読み聞かせ、でどうだろう？"
 			},
 			{
 				9,
-				"听些轻快的音乐？"
+				"リラックスできる軽めの音楽でもどう？"
 			}
 		}
 	},
 	{
-		param = "我给你讲睡前故事？",
+		param = "寝る前の読み聞かせ、でどうだろう？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8542,7 +8532,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "好啊好啊~",
+		param = "うん！",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8550,7 +8540,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "不过不要打字！我想听你亲口讲！",
+		param = "でもメッセージじゃなくて、指揮官の声を聞きたい！",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8558,7 +8548,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "反正你也没睡，要不我直接过去找你吧~？",
+		param = "指揮官も起きてるなら、今会いに行ってもいい？",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8566,7 +8556,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "帮我准备个枕头哦！",
+		param = "わたしの枕を用意しておいてね！",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8574,7 +8564,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "听些轻快的音乐？",
+		param = "リラックスできる軽めの音楽でもどう？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8582,7 +8572,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	{
-		param = "我已经试过了，好像没什么用……",
+		param = "それは試したよ？でもあんまり効果がないみたい…",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8590,7 +8580,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	{
-		param = "脑子里一直都只会出现跟指挥官有关的事情……",
+		param = "んー頭の中が指揮官のことでいっぱいで……",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8598,7 +8588,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	{
-		param = "然后就越来越想你~",
+		param = "そしたら、もっと会いたくなって……",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8606,7 +8596,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	{
-		param = "真希望明天快点到来啊~",
+		param = "早く明日にならないかな…",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -8614,7 +8604,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	{
-		param = "指挥官……今天我要请假",
+		param = "指揮官…今日は休んでもいい？",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8622,7 +8612,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "感觉头晕晕的，很没有干劲",
+		param = "なんだか頭がくらっとして、やる気が出ない……",
 		ship_group = 960005,
 		flag = 0,
 		type = 1,
@@ -8630,20 +8620,20 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"生病了么？"
+				"体調が悪いの？"
 			},
 			{
 				2,
-				"熬夜打游戏了？"
+				"ゲームで夜更かししたのか？"
 			},
 			{
 				3,
-				"觉得秘书舰的工作太麻烦了？"
+				"秘書艦の仕事がしんどいと思ってる？"
 			}
 		}
 	},
 	{
-		param = "生病了么？",
+		param = "体調が悪いの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8651,7 +8641,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "我带些布丁和药过去探望你",
+		param = "お菓子のプリンとおくすりを持って行くね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8659,7 +8649,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "欸……不用那么麻烦……",
+		param = "えっと…そこまでしなくても……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8667,7 +8657,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "我躺着打一会儿游戏就会好了",
+		param = "横になってちょっとゲームすれば回復すると思う",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8675,7 +8665,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "指挥官不用专门过来的",
+		param = "わざわざ来なくてもいいからね",
 		ship_group = 960005,
 		flag = 1,
 		type = 1,
@@ -8683,16 +8673,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"其实只是想在家里打游戏？"
+				"本当は部屋にこもってゲームをしたいだけでは？"
 			},
 			{
 				5,
-				"我还是不放心"
+				"やっぱり心配だな…"
 			}
 		}
 	},
 	{
-		param = "其实只是想在家里打游戏？",
+		param = "本当は部屋にこもってゲームをしたいだけでは？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8700,7 +8690,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "……",
+		param = "…………",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8708,7 +8698,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "算了，说谎也很麻烦……",
+		param = "はぁ、嘘をつくのもしんどい……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8716,7 +8706,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "其实是我想快点通关这个新游戏……",
+		param = "実はこの新作ゲームを早くクリアしたくて…",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8724,7 +8714,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "所以，指挥官，能不能批准我的假期呢？",
+		param = "だから指揮官、休みを承認してくれない？",
 		ship_group = 960005,
 		flag = 4,
 		type = 1,
@@ -8732,16 +8722,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"准假"
+				"承認する"
 			},
 			{
 				7,
-				"但是我拒绝"
+				"だが断る"
 			}
 		}
 	},
 	{
-		param = "今天不是很忙，准假了",
+		param = "今日は別に忙しくないから、休んでいいよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8749,7 +8739,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "谢谢指挥官，指挥官万岁~",
+		param = "ありがとう！指揮官～",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8757,7 +8747,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "果然你最好了！",
+		param = "やっぱり指揮官は最高だね～",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8765,7 +8755,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "但是我拒绝，不准假！",
+		param = "だが断る。休暇は許可しないィ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8773,7 +8763,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "欸——好麻烦……",
+		param = "えー、しんどー……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8781,7 +8771,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "但是据理力争也好麻烦……",
+		param = "でも反論するのもしんどいし……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8789,7 +8779,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "而且我好像不太占理……",
+		param = "それに、なんだか後ろめたいし……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8797,7 +8787,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "算了……既然指挥官这么坚持的话……",
+		param = "まぁいいよ…指揮官がそこまで言うなら……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8805,7 +8795,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "那我也只好过来了……",
+		param = "しょうがない……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8813,7 +8803,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "来了……",
+		param = "分かったよ、今行くから……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8821,7 +8811,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "我还是不放心",
+		param = "やっぱり心配だな…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8829,7 +8819,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "指挥官还真是不嫌麻烦啊……",
+		param = "指揮官って本当に面倒見がいいね……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8837,7 +8827,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "那……好吧……",
+		param = "…分かったよ……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8845,7 +8835,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "还有……如果顺路的话，帮我买几包烧烤味的薯片吧",
+		param = "…ついでにバーベキュー味のポテチを何個か買ってきてくれない？",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8853,7 +8843,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "熬夜打游戏了？",
+		param = "ゲームで夜更かししたのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8861,7 +8851,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "……嗯",
+		param = "…うん",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8869,7 +8859,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "昨晚熬夜打了新游戏……想着快点通关……",
+		param = "新作ゲームを早くクリアしたくて……ちょっと夜更かしを…",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8877,7 +8867,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "现在感觉头好晕哦……",
+		param = "頭がすっごいくらくらする……",
 		ship_group = 960005,
 		flag = 2,
 		type = 1,
@@ -8885,16 +8875,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"好好休息"
+				"ゆっくり休んで"
 			},
 			{
 				9,
-				"准假"
+				"承認する"
 			}
 		}
 	},
 	{
-		param = "那就好好休息吧，准假",
+		param = "休暇を承認するから、ゆっくり休んでいいよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8902,7 +8892,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "那就好好休息吧，准假",
+		param = "休暇を承認するから、ゆっくり休んでいいよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8910,7 +8900,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	{
-		param = "下次不要熬夜了，白天玩也可以",
+		param = "次は夜更かしじゃなくて、昼間にやって",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8918,7 +8908,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "好",
+		param = "うん…",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8926,7 +8916,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "下次，我一定听指挥官的",
+		param = "次はちゃんと指揮官の言うとおりにするよ",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8934,7 +8924,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "那我先去打游……",
+		param = "じゃあ、先にゲームを……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8942,7 +8932,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "嗯？要怎么撤回来着……？",
+		param = "あれ？どうやって取り消すんだっけ…？",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8950,7 +8940,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "是觉得秘书舰的工作太麻烦了吧？",
+		param = "秘書艦の仕事がしんどいと思ってるんじゃないの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -8958,7 +8948,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "不是的不是的……",
+		param = "いやいやいや……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8966,7 +8956,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "单纯是……所有的工作都好麻烦……",
+		param = "単純に…全ての仕事がしんどいなと……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8974,7 +8964,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "家里的枕头软软的，被子暖暖的……",
+		param = "だって部屋にはふわふわの枕と、暖かい布団があるし……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -8982,7 +8972,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "我不想工作啊……",
+		param = "はぁああ…仕事なんかしたくないなぁ……",
 		ship_group = 960005,
 		flag = 3,
 		type = 1,
@@ -8990,16 +8980,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				10,
-				"准假"
+				"承認する"
 			},
 			{
 				11,
-				"不准假"
+				"承認しない"
 			}
 		}
 	},
 	{
-		param = "今天不是很忙，准假了",
+		param = "今日は別に忙しくないから、休んでいいよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9007,7 +8997,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "谢谢指挥官，指挥官万岁~",
+		param = "ありがとう！指揮官～",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9015,7 +9005,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "果然你最好了！",
+		param = "やっぱり指揮官は最高だね～",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9023,7 +9013,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "今天不准假，给我带着被子枕头过来上班！",
+		param = "休んじゃダメだよ。布団と枕を持参してでも出勤だ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9031,7 +9021,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 11
 	},
 	{
-		param = "欸——好麻烦……",
+		param = "えー、しんどー……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9039,7 +9029,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 11
 	},
 	{
-		param = "但是据理力争也好麻烦……",
+		param = "でも反論するのもしんどいし……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9047,7 +9037,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 11
 	},
 	{
-		param = "而且我好像不太占理……",
+		param = "それに、なんだか後ろめたいし……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9055,7 +9045,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 11
 	},
 	{
-		param = "算了……既然指挥官这么坚持的话……",
+		param = "まぁいいよ…指揮官がそこまで言うなら……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9063,7 +9053,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 11
 	},
 	{
-		param = "那我也只好过来了……",
+		param = "しょうがない……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9071,7 +9061,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 11
 	},
 	{
-		param = "不过被子枕头就不带了，就用你的好了……",
+		param = "布団と枕は指揮官のを使うから……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9079,7 +9069,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 11
 	},
 	{
-		param = "来了……",
+		param = "分かったよ、今行くから……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9087,7 +9077,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 11
 	},
 	{
-		param = "指挥官，下雨了……",
+		param = "指揮官…雨が降ってきたよ…",
 		ship_group = 960005,
 		flag = 0,
 		type = 1,
@@ -9095,16 +9085,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"害怕了么？"
+				"怖いの？"
 			},
 			{
 				2,
-				"是啊，下雨了。"
+				"ああ、雨が降ってきたね"
 			}
 		}
 	},
 	{
-		param = "害怕了么？",
+		param = "怖いの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9112,7 +9102,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "这样的雨，倒不至于害怕……",
+		param = "ううん、この程度ならまだ平気だよ……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9120,7 +9110,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "我就是担心明天能不能放晴……",
+		param = "ただ、明日晴れるかどうかが気になって……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9128,7 +9118,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "是啊，下雨了",
+		param = "ああ、雨が降ってきたね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9136,7 +9126,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "有点担心明天的天气……",
+		param = "明日の天気が少し心配だな…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9144,7 +9134,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "是啊……",
+		param = "そうなんだよね…",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9152,7 +9142,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "难得一起出来玩，如果天气不好的话……",
+		param = "せっかく一緒に出かけるのに、天気が悪いと…",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9160,7 +9150,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "体验会很差……",
+		param = "楽しさも減っちゃいそう……",
 		ship_group = 960005,
 		flag = 0,
 		type = 1,
@@ -9168,16 +9158,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"希望明天有个好天气"
+				"明日は晴れるといいね"
 			},
 			{
 				4,
-				"明天一定会是晴天的"
+				"明日は絶対晴れるよ"
 			}
 		}
 	},
 	{
-		param = "希望明天有个好天气",
+		param = "明日は晴れるといいね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9185,7 +9175,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "好不容易才让你出了门，因为天气原因取消也太可惜了",
+		param = "やっとウィダーを外に連れ出せるはずが、天気のせいでポシャってしまうのはもったいないな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9193,7 +9183,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "也没那么不容易吧……",
+		param = "「やっと」っていうほど大変じゃないでしょ…",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9201,7 +9191,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "出门虽然很麻烦，但是如果是跟你的话……",
+		param = "出かけるのは確かにしんどいけど、指揮官と一緒なら……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9209,7 +9199,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "我也就考虑了两天，又打滚了半天而已……",
+		param = "まあ、2日間くらい考えて、それで半日ゴロゴロしながら躊躇ってただけ……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9217,7 +9207,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "……",
+		param = "…………",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9225,7 +9215,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "打雷了……",
+		param = "雷が鳴ってる……",
 		ship_group = 960005,
 		flag = 3,
 		type = 1,
@@ -9233,16 +9223,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"我现在就过去！"
+				"今すぐ行くよ！"
 			},
 			{
 				6,
-				"戴耳机打游戏吧"
+				"ヘッドホンをつけてゲームに集中だ"
 			}
 		}
 	},
 	{
-		param = "别怕，我现在就过去你那边！",
+		param = "大丈夫だ。今すぐそっちに行くから！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9250,7 +9240,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "我没有在害怕……",
+		param = "別に怖くなんかないよ……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9258,7 +9248,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "好吧，是有那么一点点害怕……",
+		param = "んー、ちょっとだけ怖いかも…",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9266,7 +9256,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "快来……",
+		param = "指揮官、早く来てぇ……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9274,7 +9264,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "戴上耳机打游戏吧，这样就听不见雷声了",
+		param = "ヘッドホンをつけてゲームをしよう。そうすれば雷の音が聞こえなくなるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9282,7 +9272,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "好像确实有用……",
+		param = "ちょっとは効きそう……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9290,7 +9280,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "又没那么有用……",
+		param = "でも、そこまで効かなそう……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9298,7 +9288,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "要不你上线陪我一起玩？",
+		param = "指揮官、オンラインモードで一緒にプレイする？",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9306,7 +9296,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "一起打游戏的话……我就能忽略外面的雷声了",
+		param = "一緒にゲームしてたら…外の雷とか気にならなくなるから…",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9314,7 +9304,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "就这么决定了……快上线，等你！",
+		param = "うん。そうしよう……早くログインして、待ってるから……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9322,7 +9312,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "明天一定会是晴天的",
+		param = "明日は絶対晴れるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9330,7 +9320,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "指挥官好笃定哦",
+		param = "指揮官、すごい自信…",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9338,7 +9328,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "如果不是的话呢？",
+		param = "もし晴れなかったら？",
 		ship_group = 960005,
 		flag = 4,
 		type = 1,
@@ -9346,16 +9336,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"那就雨中漫步！"
+				"雨中散歩だな"
 			},
 			{
 				8,
-				"那就用火力驱散云层"
+				"じゃあ砲撃で雲を吹き飛ばそう"
 			}
 		}
 	},
 	{
-		param = "那就雨中漫步！",
+		param = "雨中散歩だな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9363,7 +9353,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "雨中漫步很有氛围的，雨景也是别有一番风味",
+		param = "雰囲気があるし、雨の景色にだって風情があるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9371,7 +9361,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "……可是那样要打伞，超麻烦的欸……",
+		param = "そしたら傘差さなきゃいけないよね…しんどそう……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9379,7 +9369,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "不过指挥官好像从来都不会嫌麻烦……",
+		param = "でも指揮官、いつもしんどく思わないよね……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9387,7 +9377,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "一直把我照顾得很好……",
+		param = "ウィダーのこともよく面倒見てくれるし……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9395,7 +9385,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "这么想想，还有些期待雨中漫步了……",
+		param = "そう考えたら雨の中の散歩も、ちょっとは楽しみかも…",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9403,7 +9393,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "不过……第一心愿，还是希望明天会是晴天吧！",
+		param = "でも…やっぱり晴れてほしいなぁ……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9411,7 +9401,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "那就用火力驱散云层",
+		param = "じゃあ砲撃で雲を吹き飛ばそう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9419,7 +9409,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "？",
+		param = "は？",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9443,12 +9433,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				9,
-				"开玩笑的……"
+				"冗談だ"
 			}
 		}
 	},
 	{
-		param = "开玩笑的……最多是今晚打几发增雨弹让雨提前落下来而已",
+		param = "冗談だ。せいぜい今夜、降雨ロケット弾を何発か撃って雨を早く降らせるぐらいかな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9464,7 +9454,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	{
-		param = "不愧是指挥官……了不起……",
+		param = "さすが指揮官…すごいね……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9472,7 +9462,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	{
-		param = "这么想让我明天出门么……",
+		param = "そこまでしてウィダーを外に連れ出したいの……",
 		ship_group = 960005,
 		flag = 9,
 		type = 1,
@@ -9480,12 +9470,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				10,
-				"是和我一起……"
+				"「一緒に」外出するんだ"
 			}
 		}
 	},
 	{
-		param = "是明天和我一起出门",
+		param = "「一緒に」外出するんだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9493,7 +9483,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "我去做准备了，你也做好出行准备哦",
+		param = "準備してくるよ。ウィダーも準備をしておいてね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9501,7 +9491,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "……明天早上见",
+		param = "うん、また明日の朝にね……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9509,7 +9499,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "怎么一觉睡醒，指挥官就不见了……",
+		param = "はぁ…目が覚めたら指揮官がいないなんて……",
 		ship_group = 960005,
 		flag = 0,
 		type = 1,
@@ -9517,16 +9507,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"我来商业街买点东西"
+				"今売店に来てるんだ"
 			},
 			{
 				2,
-				"出门买东西，很快就回来"
+				"買い物に出かけてるよ。すぐ帰るから"
 			}
 		}
 	},
 	{
-		param = "我来商业街买点东西",
+		param = "今売店に来てるんだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9534,7 +9524,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "你去商业街了？",
+		param = "え？売店に行ったの？",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9542,7 +9532,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "那我想吃上次的薯片猪扒",
+		param = "じゃあこの前のポテトンカツが食べたい～",
 		ship_group = 960005,
 		flag = 1,
 		type = 1,
@@ -9550,16 +9540,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"好，还有什么要带的么？"
+				"わかった。他に欲しいものはある？"
 			},
 			{
 				4,
-				"这么一说，我也想吃了"
+				"そう言われると、こっちも食べたくなってきたな"
 			}
 		}
 	},
 	{
-		param = "出门买东西，很快就回来",
+		param = "買い物に出かけてるよ。すぐ帰るから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9567,7 +9557,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "喔……那你慢慢买，不着急回来",
+		param = "ふぅん…じゃあゆっくりね。別に急がなくても……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9575,7 +9565,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "等等……买东西？",
+		param = "ん？待って…「買い物」？",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9583,7 +9573,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我要吃薯片猪扒！",
+		param = "ポテトンカツが食べたい！",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9591,7 +9581,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "回来的时候帮我带一份哦！",
+		param = "ついでに買ってきて！",
 		ship_group = 960005,
 		flag = 2,
 		type = 1,
@@ -9599,16 +9589,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"好，还有什么要带的么？"
+				"わかった。他に欲しいものはある？"
 			},
 			{
 				4,
-				"这么一说，我也想吃了"
+				"そう言われると、こっちも食べたくなってきたな"
 			}
 		}
 	},
 	{
-		param = "好，还有什么要带的么？",
+		param = "わかった。他に欲しいものはある？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9616,7 +9606,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "你",
+		param = "指揮官",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9624,7 +9614,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "买完就快点回来吧……",
+		param = "終わったら早く帰ってきてぇ……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9632,7 +9622,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "醒来见不到你……有些不习惯",
+		param = "起きたら指揮官がいなくて…なんか変",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9640,7 +9630,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "想快点见到你",
+		param = "早く会いたいな…",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9648,7 +9638,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "被你这么一说，我也想吃了",
+		param = "そう言われると、こっちも食べたくなってきたな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9656,7 +9646,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "那就买超大份套餐，我们一起吃",
+		param = "じゃあメガサイズのセットにして、一緒に食べよう",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9664,7 +9654,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "你买完快点回来吧",
+		param = "終わったら早く帰ってきて",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9672,7 +9662,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "我饿了，还有就是……",
+		param = "お腹すいたし、あと……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9680,7 +9670,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "我想你了",
+		param = "指揮官に会いたくなっちゃった",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9688,7 +9678,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "飓风船团，集合——！",
+		param = "テンペスタ、あつまれー！",
 		ship_group = 960001,
 		type = 1,
 		option = "",
@@ -9696,7 +9686,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "来了，来了~",
+		param = "はいはい、来てやったわ",
 		ship_group = 960006,
 		type = 1,
 		option = "",
@@ -9704,7 +9694,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "怎么了，准备开始新的旅途么？",
+		param = "どうした？新しい旅にでも出るのか？",
 		ship_group = 960002,
 		type = 1,
 		option = "",
@@ -9712,7 +9702,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "这么说也没错！",
+		param = "まあ、そう言えなくもないね",
 		ship_group = 960001,
 		type = 1,
 		option = "",
@@ -9720,7 +9710,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "听说、",
+		param = "そういえば、聞いた？",
 		ship_group = 960001,
 		type = 1,
 		option = "",
@@ -9728,7 +9718,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "听说……？",
+		param = "何を聞いたって…？",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -9736,7 +9726,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "打字好慢！急！",
+		param = "あああ文字を入力するの遅すぎぃ！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -9744,7 +9734,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "指挥室里有神秘的宝藏！我们现在就出发去寻宝吧！",
+		param = "執務室にお宝があるんだって！みんなで今すぐ宝探しに行こうよ！",
 		ship_group = 960001,
 		type = 1,
 		option = "",
@@ -9752,7 +9742,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "……指挥室么？",
+		param = "…執務室に？",
 		ship_group = 960004,
 		type = 1,
 		option = "",
@@ -9760,7 +9750,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "指挥室那么小，应该藏不了什么宝藏吧？",
+		param = "んー執務室はそんなに広くないから、お宝をあまり隠せないと思うけど…",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -9768,7 +9758,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "嗯……指挥室里的东西我应该都见过了？",
+		param = "うん…ドルフィンは執務室にある物を全部把握してるけど",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -9776,7 +9766,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "应该没有宝藏什么的？",
+		param = "お宝なんてなかったと思うよ？",
 		ship_group = 960011,
 		flag = 0,
 		type = 1,
@@ -9784,16 +9774,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"我怎么不知道有宝藏？"
+				"執務室のお宝なんて初耳だが"
 			},
 			{
 				2,
-				"这是什么全新的冒险游戏么？"
+				"新しい冒険ゲームか何か？"
 			}
 		}
 	},
 	{
-		param = "嗯？我怎么不知道有宝藏？",
+		param = "ん？お宝の話なんて初耳だが？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9801,7 +9791,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "指挥官也不知道么？那或许是没有的吧~？",
+		param = "あら、指揮官さまも知らないの～？じゃあ本当にないんじゃない？",
 		ship_group = 960003,
 		type = 1,
 		option = "",
@@ -9809,7 +9799,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "会不会是这个宝藏藏得太好了，指挥官也没有发现？",
+		param = "それか隠し場所が巧妙すぎて、指揮官さえも気づいてなかったりして～？",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -9817,7 +9807,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "嗯……也不是没有可能",
+		param = "ふむ。……可能性はゼロじゃない",
 		ship_group = 960002,
 		type = 1,
 		option = "",
@@ -9825,7 +9815,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "但也不能排除这只是捕风捉影的传言的可能性吧？",
+		param = "ただの噂、という可能性も排除できないんじゃないか？",
 		ship_group = 960004,
 		type = 1,
 		option = "",
@@ -9833,7 +9823,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "那更要去找了吧！只有亲自找了，才能确认宝藏是否真的存在！",
+		param = "だからこそ探しに行くべきだよ！実際に探してみないと、本当にあるかどうかなんてわからないもん！",
 		ship_group = 960001,
 		flag = 1,
 		type = 1,
@@ -9841,16 +9831,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"那就过来吧，不过……"
+				"来てもいいけど、ただ……"
 			},
 			{
 				4,
-				"那我也一起找宝藏吧"
+				"自分も一緒に探そう"
 			}
 		}
 	},
 	{
-		param = "这是什么全新的冒险游戏么？",
+		param = "新しい冒険ゲームか何か？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9858,7 +9848,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "让我也参与一下",
+		param = "自分も参加したいな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9866,7 +9856,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "游戏？什么游戏？",
+		param = "ゲーム？何のゲーム？",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9874,7 +9864,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "维达大人也只有这个时候才会在群里出现呢……",
+		param = "ウィダーって、こういう時はグループに現れるわね…",
 		ship_group = 960006,
 		type = 1,
 		option = "",
@@ -9882,7 +9872,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "指挥官这么说，反倒像是在卖关子哦~？",
+		param = "指揮官さま、もったいぶってるわね～♡",
 		ship_group = 960003,
 		type = 1,
 		option = "",
@@ -9890,7 +9880,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "哇……更好奇了，总觉得指挥室里真的藏了宝藏！",
+		param = "わぁ…ますます気になってきた！なんだか、本当にお宝がありそう！",
 		ship_group = 960001,
 		type = 1,
 		option = "",
@@ -9898,7 +9888,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我们快点出发去找吧！",
+		param = "みんな、早く探しに行こう！",
 		ship_group = 960001,
 		flag = 2,
 		type = 1,
@@ -9906,16 +9896,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"那就过来吧，不过……"
+				"来てもいいけど、ただ……"
 			},
 			{
 				4,
-				"那我也一起找宝藏吧"
+				"自分も一緒に探そう"
 			}
 		}
 	},
 	{
-		param = "那就过来吧，不过我觉得没有宝藏",
+		param = "来てもいいけど、お宝なんてないと思うよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9923,7 +9913,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "毕竟没有人比我更熟悉指挥室！",
+		param = "自分が執務室に一番詳しいからな！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -9931,7 +9921,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "还是不要给指挥官添麻烦吧？",
+		param = "指揮官に迷惑をかけない方がいいと思う",
 		ship_group = 960002,
 		type = 1,
 		option = "",
@@ -9939,7 +9929,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "嗯，而且打扰了指挥官工作和休息就不好了吧~",
+		param = "そうね、指揮官の仕事や休憩の邪魔になったら本末転倒でしょ？",
 		ship_group = 960007,
 		type = 1,
 		option = "",
@@ -9947,7 +9937,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "欸……那就这么放弃了吗？",
+		param = "えぇ…このまま諦めちゃうの？",
 		ship_group = 960001,
 		type = 1,
 		option = "",
@@ -9955,7 +9945,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "要不我们先帮指挥官把工作做完？",
+		param = "先に指揮官の仕事を手伝うってのはどう？",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -9963,7 +9953,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "做完以后，再一起寻宝，就不会再给指挥官添麻烦了",
+		param = "終わった後に一緒に宝探しをすれば、指揮官に迷惑をかけずに済むよ",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -9971,7 +9961,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "嗯……好像也可以？",
+		param = "うーん……行けるかも！",
 		ship_group = 960001,
 		type = 1,
 		option = "",
@@ -9979,7 +9969,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "那我们现在就过去帮忙处理工作吧",
+		param = "じゃあ皆の者、今から指揮官の仕事の手伝いに行くぞ！",
 		ship_group = 960002,
 		type = 1,
 		option = "",
@@ -9987,7 +9977,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "欸……好麻烦……我不去",
+		param = "えー…しんどー…ウィダーはパス……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -9995,7 +9985,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "我先去买点饮料，回来的时间待定！",
+		param = "あたし、飲み物買ってくる！いつ戻ってくるか分からないけど！",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -10003,7 +9993,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "那其他人呢？",
+		param = "他の人は？",
 		ship_group = 960001,
 		type = 1,
 		option = "",
@@ -10011,7 +10001,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "？？？怎么全都不说话了？？",
+		param = "もしもーし？どうして誰も喋らなくなったの？",
 		ship_group = 960001,
 		type = 1,
 		option = "",
@@ -10019,7 +10009,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "……这是听到工作就全部跑掉了吧？",
+		param = "…仕事の手伝いって聞いて一斉に逃げたかしら？",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -10027,7 +10017,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "那我也一起找宝藏吧",
+		param = "自分も一緒に探そう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -10035,7 +10025,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "我也很好奇，我的指挥室中有什么宝藏",
+		param = "執務室にどんなお宝があるのか、気になってきたからな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -10043,7 +10033,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "指挥官也加入了呢，那我也过来~",
+		param = "指揮官さまも参加するのね～。じゃあ私も参加しようかしら～♡",
 		ship_group = 960003,
 		type = 1,
 		option = "",
@@ -10051,7 +10041,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "我有很强烈的预感，我们一定能够找到指挥室里的宝藏！",
+		param = "きっと執務室のお宝を見つけられる気がする！",
 		ship_group = 960001,
 		type = 1,
 		option = "",
@@ -10059,7 +10049,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "需要准备什么东西吗？罗盘？铲子？",
+		param = "道具はなにか用意したほうがいい？コンパス？シャベル？",
 		ship_group = 960010,
 		type = 1,
 		option = "",
@@ -10067,7 +10057,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "这些在指挥室中应该很难派上用场吧？",
+		param = "そんなのあっても執務室で使えないでしょ…",
 		ship_group = 960009,
 		type = 1,
 		option = "",
@@ -10075,7 +10065,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "不用那么麻烦……",
+		param = "そんなめんどいことしなくても……",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -10083,7 +10073,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "带上海豚就好了，她的特异功能找到宝藏",
+		param = "ドルフィンを連れて行けばいいじゃん。特殊能力ですぐお宝を見つけられると思うよ",
 		ship_group = 960005,
 		type = 1,
 		option = "",
@@ -10091,7 +10081,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "我已经在指挥室里了哦~",
+		param = "わたし？もう執務室にいるけど～",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -10099,7 +10089,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "不过我没有探测到其他宝藏哦……",
+		param = "んーでも他のお宝は感知できてないよ……",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -10107,7 +10097,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "能称得上是宝藏的……应该只有指挥官哦？",
+		param = "唯一「お宝」と呼べるのは…指揮官だけかなー",
 		ship_group = 960011,
 		type = 1,
 		option = "",
@@ -10115,7 +10105,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "这倒是说的没错~呵呵~",
+		param = "それは間違いないわね～。ふふふ～♡",
 		ship_group = 960003,
 		type = 1,
 		option = "",
@@ -10123,7 +10113,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "指挥官是宝藏这件事倒是不能否定啦！",
+		param = "指揮官がお宝だってことは確かに否定できないけど！",
 		ship_group = 960001,
 		type = 1,
 		option = "",
@@ -10131,7 +10121,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "至于有没有其他宝藏……还是要大家一起找过之后才能确定！",
+		param = "でも他のお宝については…みんなで探してみないとわからないよ！",
 		ship_group = 960001,
 		type = 1,
 		option = "",
@@ -10139,7 +10129,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "那么，大家，指挥室集合！",
+		param = "さあみんな、執務室に集合だ！",
 		ship_group = 960001,
 		type = 1,
 		option = "",
@@ -10147,7 +10137,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "大家~我有个提议~！",
+		param = "みんな！ジャベリンからちょっと提案がありまーす！",
 		ship_group = 20121,
 		type = 1,
 		option = "",
@@ -10155,7 +10145,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "要不要趁指挥官加入频道之前，给指挥官准备一个惊喜呢？",
+		param = "指揮官がチャンネルに入る前に、サプライズを用意したらどうかなって",
 		ship_group = 20121,
 		type = 1,
 		option = "",
@@ -10163,7 +10153,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "比如说怎样的惊喜呢？",
+		param = "へぇ、例えばどんな？",
 		ship_group = 40123,
 		type = 1,
 		option = "",
@@ -10171,7 +10161,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "我也还在思考哦~大家有什么建议么？",
+		param = "それはまだ考えているんですけど…よかったらみんなからアドバイスをもらえれば嬉しいです！",
 		ship_group = 20121,
 		type = 1,
 		option = "",
@@ -10179,7 +10169,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "让我想想……",
+		param = "そうですね…",
 		ship_group = 50601,
 		type = 1,
 		option = "",
@@ -10187,7 +10177,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "我有一个好主意！",
+		param = "はいはーい！いいの思いついたよ！",
 		ship_group = 20234,
 		type = 1,
 		option = "",
@@ -10195,7 +10185,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "把指挥官和大家的合照设置为频道头像怎么样~？感觉很不错的样子嗯嗯~",
+		param = "指揮官との集合写真をグループチャットのアイコンにするのはどう？なんだかいい感じ♪",
 		ship_group = 20234,
 		type = 1,
 		option = "",
@@ -10203,7 +10193,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "那这个头像得多大才能装下所有人……？",
+		param = "アイコンの大きさ的に全員入れるのは無理だろ",
 		ship_group = 90501,
 		type = 1,
 		option = "",
@@ -10211,7 +10201,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "如果按照现在头像的大小，应该看不清的吧~",
+		param = "もし縮小してもみんなぼやけちゃうよ～",
 		ship_group = 10703,
 		type = 1,
 		option = "",
@@ -10219,7 +10209,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "还是想想别的吧，应该会有更好的提案",
+		param = "うーん…ほかの案も考えてみましょう？",
 		ship_group = 10205,
 		type = 1,
 		option = "",
@@ -10227,7 +10217,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "要不就送些实体礼物给指挥官？",
+		param = "じゃあ…プレゼントを贈るのはどうですか？",
 		ship_group = 20121,
 		type = 1,
 		option = "",
@@ -10235,7 +10225,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "就当是庆祝指挥官加入啾信频道~",
+		param = "指揮官が「艦チャット」チャンネル参加のお祝いサプライズとして！",
 		ship_group = 20121,
 		type = 1,
 		option = "",
@@ -10243,7 +10233,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "那就送指挥官甜点之类的怎么样……",
+		param = "デザートがいいと思うです",
 		ship_group = 30105,
 		type = 1,
 		option = "",
@@ -10251,7 +10241,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "那一定要多加些糖，才会好吃",
+		param = "なら砂糖をたっぷりかけておかないとね",
 		ship_group = 50401,
 		type = 1,
 		option = "",
@@ -10259,7 +10249,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "嗯，我想指挥官一定很喜欢……的说",
+		param = "うん。指揮官、きっと気に入ってくれる…です",
 		ship_group = 30105,
 		type = 1,
 		option = "",
@@ -10267,7 +10257,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "……这样？",
+		param = "…あっそ？",
 		ship_group = 70104,
 		type = 1,
 		option = "",
@@ -10275,7 +10265,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "原来如此，就算是打字聊天也要坚持口癖，这就是角色设定吧！",
+		param = "なるほどね！チャットでも口癖は忘れない。まさに「キャラせってい」ね！",
 		ship_group = 30111,
 		type = 1,
 		option = "",
@@ -10283,7 +10273,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "wwwwwww",
+		param = "ｗｗｗｗｗｗｗｗｗ",
 		ship_group = 30112,
 		type = 1,
 		option = "",
@@ -10291,7 +10281,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "回到正题吧，还有其他方案么？",
+		param = "本題に戻るわ…ほかに案はあるかしら？",
 		ship_group = 10216,
 		type = 1,
 		option = "",
@@ -10299,7 +10289,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "我来提一个方案……！",
+		param = "では私から一つ…！",
 		ship_group = 50102,
 		type = 1,
 		option = "",
@@ -10307,7 +10297,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "用酱油蘸着点心吃怎么样！",
+		param = "糕點（ガオデン）を醬油につけて食べるのはどうだ！",
 		ship_group = 50102,
 		type = 1,
 		option = "",
@@ -10315,7 +10305,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "或者用芥末和辣椒粉！",
+		param = "わさびやチリペッパーでも！",
 		ship_group = 50102,
 		type = 1,
 		option = "",
@@ -10323,7 +10313,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "嗯……？这也算是其他方案么？",
+		param = "えっと…これって案と言えるんですかね…",
 		ship_group = 40123,
 		type = 1,
 		option = "",
@@ -10331,7 +10321,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "说的是其他惊喜的方案，不是用什么方式吃点心的方案！",
+		param = "撫順！糕點の食べ方の案じゃなくて、指揮官へのサプライズの案を考えているの！",
 		ship_group = 50101,
 		type = 1,
 		option = "",
@@ -10339,7 +10329,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "还有，这种吃点心的方式是不是有些太奇怪了？",
+		param = "百歩譲っても、そんな食べ方聞いたことないよ！",
 		ship_group = 50101,
 		type = 1,
 		option = "",
@@ -10347,7 +10337,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "这好像也是地方特色吃法?",
+		param = "郷土料理的なものならあるかもしれませんね",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -10355,7 +10345,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "不过，不重要，还是继续讨论惊喜吧",
+		param = "ううん、今はサプライズの話をしないと…！",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -10363,7 +10353,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "话说，你们没发现吗？",
+		param = "みんな気づいてない……",
 		ship_group = 10117,
 		type = 1,
 		option = "",
@@ -10371,7 +10361,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "发现什么？",
+		param = "何を？",
 		ship_group = 10515,
 		type = 1,
 		option = "",
@@ -10379,7 +10369,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "指挥官刚刚已经加入频道了……",
+		param = "指揮官、さっきチャンネルに参加した…",
 		ship_group = 10117,
 		type = 1,
 		option = "",
@@ -10387,7 +10377,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "拉菲睡醒就看到了……",
+		param = "ラフィー…目を覚ましたらシステムメッセージが…",
 		ship_group = 10117,
 		type = 1,
 		option = "",
@@ -10395,7 +10385,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "真是的，消息弹得太多，萨拉妹妹都没看到指挥官加入的提示！",
+		param = "みんなのメッセージに埋もれて、サラトガちゃん見逃しちゃったよ！",
 		ship_group = 10703,
 		type = 1,
 		option = "",
@@ -10403,7 +10393,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "指挥官也快点来和大家打个招呼嘛！",
+		param = "指揮官、ほら挨拶して！",
 		ship_group = 10703,
 		flag = 0,
 		type = 1,
@@ -10411,16 +10401,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"大家好！"
+				"やぁ！"
 			},
 			{
 				2,
-				"看大家讨论得很热情……"
+				"盛り上がってたから……"
 			}
 		}
 	},
 	{
-		param = "大家好，我来了！",
+		param = "やぁ！指揮官だ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -10428,7 +10418,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "指挥官，你来得正好，大家正在讨论要给你什么惊喜！",
+		param = "指揮官ナイスタイミング！みんなで指揮官へのサプライズをどうしようか話し合ってるところだよ！",
 		ship_group = 50102,
 		type = 1,
 		option = "",
@@ -10436,7 +10426,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "笨蛋抚顺！你怎么就说出来了……！",
+		param = "もう撫順！言ったらサプライズにならないでしょう！？",
 		ship_group = 50101,
 		type = 1,
 		option = "",
@@ -10444,7 +10434,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "呃……不过我记得加入频道能够看见之前的消息……",
+		param = "んー確かチャンネルに参加するとチャットログが見れるんだよね……",
 		ship_group = 40813,
 		type = 1,
 		option = "",
@@ -10452,7 +10442,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "啊，那被指挥官发现了，就不能称为惊喜了！",
+		param = "ってことは指揮官にバレちゃってます！？もう「サプライズ」じゃなくなっちゃった！",
 		ship_group = 20121,
 		flag = 1,
 		type = 1,
@@ -10460,12 +10450,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"谢谢大家的心意"
+				"気持ちをありがとう"
 			}
 		}
 	},
 	{
-		param = "谢谢大家的心意",
+		param = "気持ちをありがとう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -10473,7 +10463,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "大家的心意已经是最好的惊喜了",
+		param = "その「気持ち」こそが最高のサプライズだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -10481,7 +10471,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "指挥官真好~最喜欢指挥官了~！嘻嘻~",
+		param = "指揮官最高～！大好き～！えへへ",
 		ship_group = 40813,
 		type = 1,
 		option = "",
@@ -10489,7 +10479,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "即使没有“惊喜”了，我也还是想给指挥官准备礼物~！",
+		param = "「サプライズ」じゃなくなっても、ジャベリンはやっぱり指揮官にプレゼントを用意したいです！",
 		ship_group = 20121,
 		type = 1,
 		option = "",
@@ -10497,7 +10487,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "准备礼物+1",
+		param = "おう、ぼくもプレゼントするぞ",
 		ship_group = 10515,
 		type = 1,
 		option = "",
@@ -10505,7 +10495,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "准备礼物+2",
+		param = "綾波もプレゼントするです",
 		ship_group = 30105,
 		type = 1,
 		option = "",
@@ -10513,7 +10503,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "那我去整理一份礼物列表，稍后大家再一起挑吧",
+		param = "じゃあプレゼントしたいもののリストをまとめてきますね。まとまったらみんなで選びましょう",
 		ship_group = 40123,
 		type = 1,
 		option = "",
@@ -10521,7 +10511,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "大家有什么想法也可以发给我",
+		param = "何かアイデアがあったらDMで私まで送ってください",
 		ship_group = 40123,
 		type = 1,
 		option = "",
@@ -10529,7 +10519,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "看大家讨论得很热情，总觉得不好突然出现打断",
+		param = "みんなで盛り上がってたから、いきなり話かけるのはよくないと思って",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -10537,7 +10527,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "谢谢大家的心意",
+		param = "気持ちをありがとう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -10545,7 +10535,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "啊，指挥官真的在……！那惊喜不就被发现了！",
+		param = "わぁ、指揮官本当にいたんだ…！ってことは「サプライズ」もバレちゃったんじゃ…",
 		ship_group = 20234,
 		type = 1,
 		option = "",
@@ -10553,7 +10543,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "被指挥官发现了就称不上是惊喜了",
+		param = "指揮官にバレた以上、もう「サプライズ」とは呼べなくなりました",
 		ship_group = 20134,
 		type = 1,
 		option = "",
@@ -10561,7 +10551,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "对哦……",
+		param = "言われてみればそうです",
 		ship_group = 30105,
 		type = 1,
 		option = "",
@@ -10569,7 +10559,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "即便不是惊喜了，也可以给指挥官准备礼物的吧~",
+		param = "サプライズじゃなくなっても、指揮官へのプレゼントを準備しても大丈夫ですよね？",
 		ship_group = 20121,
 		type = 1,
 		option = "",
@@ -10577,7 +10567,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "嗯，我也这么认为",
+		param = "うん、私もそう思うわ",
 		ship_group = 10205,
 		type = 1,
 		option = "",
@@ -10585,7 +10575,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "指挥官有想要的礼物么？",
+		param = "指揮官、何か欲しいプレゼントはありますか？",
 		ship_group = 20121,
 		flag = 2,
 		type = 1,
@@ -10593,12 +10583,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"大家的“心意”就是最好的礼物。"
+				"みんなの「気持ち」こそ最高のプレゼントだよ"
 			}
 		}
 	},
 	{
-		param = "大家的心意就是最好的礼物",
+		param = "みんなの「気持ち」こそ最高のプレゼントだよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -10606,7 +10596,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "这种说法也太犯规了……",
+		param = "そんな言い方はズルいですよ……",
 		ship_group = 40123,
 		type = 1,
 		option = "",
@@ -10614,7 +10604,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "指挥官真好~最喜欢指挥官了~！嘻嘻~",
+		param = "指揮官最高～！大好き～！えへへ",
 		ship_group = 40813,
 		type = 1,
 		option = "",
@@ -10622,7 +10612,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "指挥官都这么说了，即便没有惊喜了，也要给指挥官准备礼物了吧！",
+		param = "これからは「サプライズ抜き」の指揮官へのプレゼント選びになりまーす！",
 		ship_group = 20121,
 		type = 1,
 		option = "",
@@ -10630,7 +10620,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "嗯，我也这么认为",
+		param = "うん、私もそう思うわ",
 		ship_group = 10205,
 		type = 1,
 		option = "",
@@ -10638,7 +10628,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "那我去整理一份礼物列表，稍后大家再一起挑吧",
+		param = "じゃあプレゼントしたいもののリストをまとめてきますね。まとまったらみんなで選びましょう",
 		ship_group = 40123,
 		type = 1,
 		option = "",
@@ -10646,7 +10636,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "大家有什么想法也可以发给我",
+		param = "何かアイデアがあったらDMで私まで送ってください",
 		ship_group = 40123,
 		type = 1,
 		option = "",
@@ -10654,7 +10644,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "锵锵！大家，重大消息！重大消息！我把指挥官拉进频道咯~！",
+		param = "じゃじゃーん！みんな注目！指揮官をチャンネルに招待したよ～！",
 		ship_group = 10324,
 		type = 1,
 		option = "",
@@ -10662,7 +10652,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "指挥官，欢迎你，在此不必太拘束",
+		param = "指揮官、ようこそ。楽にしてくれ",
 		ship_group = 10706,
 		type = 1,
 		option = "",
@@ -10670,7 +10660,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "哇！是指挥官！鼓掌！",
+		param = "おお！指揮官だ！パチパチパチパチ！",
 		ship_group = 10802,
 		type = 1,
 		option = "",
@@ -10678,7 +10668,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "此时应将“开心”情绪调高23.06%。",
+		param = "場面的に「嬉しい」指数を45.36%上げるのが望ましい",
 		ship_group = 10233,
 		type = 1,
 		option = "",
@@ -10686,7 +10676,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "欢迎指挥官~！",
+		param = "指揮官、ようこそー！",
 		ship_group = 10233,
 		type = 1,
 		option = "",
@@ -10694,7 +10684,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "那、那就欢迎一下好了",
+		param = "あ、挨拶ぐらいしてやるのだ",
 		ship_group = 10125,
 		flag = 0,
 		type = 1,
@@ -10702,12 +10692,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"大家好……"
+				"よろしく"
 			}
 		}
 	},
 	{
-		param = "大家好，感谢大家的热情欢迎。",
+		param = "歓迎してくれてありがとう。よろしくね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -10715,7 +10705,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "老师……大家……聊天，安克雷奇……开心！",
+		param = "せんせー…みんな…おしゃべり…アンカレッジ…うれしい！",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -10723,7 +10713,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "Honey~你来啦！",
+		param = "ハニー！待ってたよ！",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -10731,7 +10721,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "哇哦~真的是指挥官欸~",
+		param = "おおー！本当に指揮官が来た！",
 		ship_group = 19901,
 		type = 1,
 		option = "",
@@ -10739,7 +10729,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "既然指挥官进频道了，我们要不要一起做点什么庆祝一下啊~？",
+		param = "せっかく来てくれたし、一緒になんかして祝わないっすか！",
 		ship_group = 19901,
 		type = 1,
 		option = "",
@@ -10747,7 +10737,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "Everybody，要不要一起看电影啊？欸嘿嘿~",
+		param = "Everybody～映画鑑賞会でもやらない？ふふ～ん",
 		ship_group = 11802,
 		type = 1,
 		option = "",
@@ -10755,7 +10745,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "观影会么~？萨拉妹妹要参加~！",
+		param = "映画鑑賞会？サラトガちゃんは参加するよー！",
 		ship_group = 10703,
 		type = 1,
 		option = "",
@@ -10763,7 +10753,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "嗯，观影会听起来很不错哦~",
+		param = "一緒に映画を見るのっていいわね",
 		ship_group = 10705,
 		type = 1,
 		option = "",
@@ -10771,7 +10761,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "太好了，观影会我也喜欢，姐妹们都一起啊！",
+		param = "シアトルも賛成っす！みんなじゃんじゃん参加してほしいっすよ！",
 		ship_group = 19901,
 		type = 1,
 		option = "",
@@ -10779,7 +10769,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "既然大家都觉得很不错，那我们讨论看看什么类型的电影呢～♪",
+		param = "これはもう満場一致よね！それじゃあ、どんなジャンルの映画にするか話し合わない？",
 		ship_group = 11802,
 		type = 1,
 		option = "",
@@ -10787,7 +10777,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "公主和王子……安克雷奇，想看……！",
+		param = "おひめさまとおうじさま…アンカレッジ、みたい…！",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -10795,7 +10785,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "啊~爱情片的话，很不错~我赞成~",
+		param = "あら～、いいわね。恋愛映画は私も賛成よ！",
 		ship_group = 10328,
 		type = 1,
 		option = "",
@@ -10803,7 +10793,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "我比较推荐公路片。",
+		param = "ロードムービーを推したい！",
 		ship_group = 10209,
 		type = 1,
 		option = "",
@@ -10811,7 +10801,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "我也觉得公路片不错",
+		param = "私もロードムービーに一票だ！",
 		ship_group = 10316,
 		type = 1,
 		option = "",
@@ -10819,7 +10809,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "有没有那种收集了七颗星星就可以召唤Black Dragon实现愿望之类的电影！",
+		param = "「7つの星を集めるとブラックドラゴンを召喚して願いを叶えてもらう」みたいな映画はない？",
 		ship_group = 10208,
 		type = 1,
 		option = "",
@@ -10827,7 +10817,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "嗯？",
+		param = "んん？",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -10835,7 +10825,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "好像有类似的……但不是电影吧？",
+		param = "似たようなものはあるけど…映画じゃないのー",
 		ship_group = 10601,
 		type = 1,
 		option = "",
@@ -10843,7 +10833,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "哇……大家喜欢的影片类型还真是不一样啊！",
+		param = "ふむふむ…映画の好みはみんなバラバラかぁ…",
 		ship_group = 11802,
 		type = 1,
 		option = "",
@@ -10851,7 +10841,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "这可有些为难了~",
+		param = "これはちょっと困っちゃうかも…！",
 		ship_group = 11802,
 		type = 1,
 		option = "",
@@ -10859,7 +10849,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "刚好指挥官也进群了，不如问问指挥官的意见吧",
+		param = "みんな、ここは指揮官の意見を聞いてみよう",
 		ship_group = 10706,
 		type = 1,
 		option = "",
@@ -10867,7 +10857,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "啊~那就听听指挥官的意见吧♡~",
+		param = "そうね～指揮官ちゃん、意見を聞かせてくれない？",
 		ship_group = 10328,
 		flag = 1,
 		type = 1,
@@ -10875,20 +10865,20 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"爱情类型影片不错……"
+				"恋愛映画がいい"
 			},
 			{
 				3,
-				"公路类型影片不错……"
+				"ロードムービーがいい"
 			},
 			{
 				4,
-				"都很好，不如……"
+				"甲乙つけがたいから、いっそのこと…"
 			}
 		}
 	},
 	{
-		param = "爱情类型影片不错，一起看吧",
+		param = "恋愛映画がいいな。一緒に見よう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -10896,7 +10886,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "嗯……安克雷奇……和老师……一起看……！嘿嘿……",
+		param = "うん…！アンカレッジ…せんせー…いっしょにみる…！えへへ…",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -10904,7 +10894,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "呵呵~果然指挥官与我的品味更相近一些呢",
+		param = "ふふふ。指揮官ちゃんってやっぱり私と趣味が近いわね",
 		ship_group = 10328,
 		type = 1,
 		option = "",
@@ -10912,7 +10902,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "如果影片中能有一些……",
+		param = "もし映画の中にムフフな展開があっても平気だし",
 		ship_group = 10328,
 		type = 1,
 		option = "",
@@ -10920,7 +10910,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "毕竟我们都是大·人了嘛~呵呵~",
+		param = "だってみんなオ・ト・ナなんだから♪ふふふ",
 		ship_group = 10328,
 		type = 1,
 		option = "",
@@ -10936,7 +10926,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "咳咳、匹兹堡，这里是公共场合……",
+		param = "こほん。ピッツバーグ、公共の場では……",
 		ship_group = 10316,
 		type = 1,
 		option = "",
@@ -10944,7 +10934,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "好吧好吧，那我就先不说啦~",
+		param = "はいはい、これぐらいにしておくわ♪",
 		ship_group = 10328,
 		type = 1,
 		option = "",
@@ -10952,7 +10942,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "跟honey一起看爱情电影吗~？想想就觉得很开心！",
+		param = "ハニーと一緒に恋愛映画を見るの？想像しただけでワクワクするわ！",
 		ship_group = 10517,
 		type = 1,
 		option = "",
@@ -10960,7 +10950,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "那就这么决定了，就看爱情片吧~",
+		param = "じゃあ決まりね。恋愛映画で行こう～",
 		ship_group = 11802,
 		type = 1,
 		option = "",
@@ -10968,7 +10958,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "公路类型影片不错，一起看吧",
+		param = "ロードムービーがいいな。一緒に見よう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -10976,7 +10966,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "呼~找一些治愈的公路片抚慰一下疲倦的心灵也很不错呢~",
+		param = "癒しのロードムービーで疲れた心を癒すのもいいわね",
 		ship_group = 10324,
 		type = 1,
 		option = "",
@@ -10984,7 +10974,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "我也有一些好片子推荐，待会整理一下片单",
+		param = "おすすめがいくつかあるから、後でリストにまとめておく！",
 		ship_group = 10209,
 		type = 1,
 		option = "",
@@ -10992,7 +10982,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "我也把片名发给克利夫兰，整合到一起吧",
+		param = "じゃあ私のおすすめもクリーブランドに送って一緒にまとめてもらおう",
 		ship_group = 10316,
 		type = 1,
 		option = "",
@@ -11000,7 +10990,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "那就这么决定了，就看公路片吧~",
+		param = "じゃあ決まりね。ロードムービーで行こう～",
 		ship_group = 11802,
 		type = 1,
 		option = "",
@@ -11008,7 +10998,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "都很好，不如就都看吧",
+		param = "甲乙つけがたいから、いっそ全部見ようか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -11016,7 +11006,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "可以一天看几部，或者观影会举办多几天",
+		param = "1日でまとめて見てもいいし、上映会を何日かに分けてやるのも手だ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -11024,7 +11014,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "倒是个好主意呢~这样子还能多看一些不同类型的影片~",
+		param = "Nice！そうすれば色んなジャンルの映画が見れるしね～",
 		ship_group = 11802,
 		type = 1,
 		option = "",
@@ -11032,7 +11022,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "这样的话……那我要看恐怖片……那些充满神秘的、可怕的、未知的生物的电影！",
+		param = "だったら…ホラー映画も見たい！…得体の知れない、ぞっとするような謎のイキモノがいっぱい出てくる映画とか！",
 		ship_group = 10149,
 		type = 1,
 		option = "",
@@ -11040,7 +11030,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "呜呜，好可怕……",
+		param = "うぅ、怖いよぉ……",
 		ship_group = 10808,
 		type = 1,
 		option = "",
@@ -11048,7 +11038,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "恐怖片，讨厌……",
+		param = "ホラー、嫌……",
 		ship_group = 10126,
 		type = 1,
 		option = "",
@@ -11056,7 +11046,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "安克雷奇……害怕……！",
+		param = "アンカレッジ…こわい……！",
 		ship_group = 19903,
 		type = 1,
 		option = "",
@@ -11064,7 +11054,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "既然大家都不喜欢恐怖片，就算了吧",
+		param = "苦手な子がいっぱいいるから、ホラーはやめておこう",
 		ship_group = 10706,
 		type = 1,
 		option = "",
@@ -11072,7 +11062,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "或者下次再举办恐怖片专场",
+		param = "もしくは今度ホラー映画だけのイベントを別に開くかだな",
 		ship_group = 10706,
 		type = 1,
 		option = "",
@@ -11080,7 +11070,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "呜哇——！陨落了……！",
+		param = "わーん！せっかくの提案がボッシュートになったあああ！",
 		ship_group = 10149,
 		type = 1,
 		option = "",
@@ -11088,7 +11078,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "哈哈~那恐怖片就先淘汰了哦~",
+		param = "ホラー映画推しブリストル、アウト！",
 		ship_group = 11802,
 		type = 1,
 		option = "",
@@ -11096,7 +11086,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "还有什么想看的电影，大家随时发出来就好~",
+		param = "他に見たい映画があったらドシドシ要望を送ってね～",
 		ship_group = 11802,
 		type = 1,
 		option = "",
@@ -11104,7 +11094,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "我先去找一些影片哦~！",
+		param = "先に何本か探してくるよ～！",
 		ship_group = 11802,
 		type = 1,
 		option = "",
@@ -11112,7 +11102,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "场地和日程安排就交给我",
+		param = "場所と日程の調整は私がやろう",
 		ship_group = 10706,
 		type = 1,
 		option = "",
@@ -11120,7 +11110,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "吾也来帮忙",
+		param = "我も手を貸してやるわ",
 		ship_group = 19905,
 		type = 1,
 		option = "",
@@ -11128,7 +11118,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "我已经开始期待了！和大家一起热热闹闹的观影会~",
+		param = "皆とのワイワイ上映会…もう楽しむしかないっす！",
 		ship_group = 19901,
 		type = 1,
 		option = "",
@@ -11136,7 +11126,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "指挥官也要准时出场哦！",
+		param = "指揮官、時間になったら絶対に来るっすよ！",
 		ship_group = 19901,
 		type = 1,
 		option = "",
@@ -11144,7 +11134,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "诸位同志，你们好，这是新建立的北方联合专用频道",
+		param = "改めて同志たち、こちらは新しく設立された北方連合専用チャンネルになります",
 		ship_group = 70502,
 		type = 1,
 		option = "",
@@ -11152,7 +11142,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "之后有什么需要同步的信息可以发在这里",
+		param = "今後、共有したい情報があればこちらで",
 		ship_group = 70502,
 		type = 1,
 		option = "",
@@ -11160,7 +11150,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "对了，我刚刚也邀请了指挥官同志进频道",
+		param = "それと、同志指揮官もチャンネルに招待しました",
 		ship_group = 70502,
 		type = 1,
 		option = "",
@@ -11168,7 +11158,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "让我们与指挥官同志一同建设港区的未来吧",
+		param = "同志指揮官と共に母港の未来を築き上げていきましょう",
 		ship_group = 70502,
 		type = 1,
 		option = "",
@@ -11176,7 +11166,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "嗯？同志酱加入频道了吗？",
+		param = "ん？同志ちゃんもうチャンネルに入ったの？",
 		ship_group = 70104,
 		type = 1,
 		option = "",
@@ -11184,7 +11174,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "哦，看见了……那就稍微欢迎一下吧",
+		param = "あっそ。今見た……じゃあ歓迎してあげるわ",
 		ship_group = 70104,
 		type = 1,
 		option = "",
@@ -11192,7 +11182,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "同盟同志说得好，不愧是北方联合的表率",
+		param = "同志ソユーズの、北方連合の代表に相応しい挨拶に感謝",
 		ship_group = 70205,
 		type = 1,
 		option = "",
@@ -11200,7 +11190,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "欢迎欢迎~",
+		param = "指揮官、いらっしゃい～",
 		ship_group = 70701,
 		type = 1,
 		option = "",
@@ -11208,7 +11198,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "大家要注意言行，别把这个频道也变成闲聊的地方了",
+		param = "メッセージの内容には注意してね。このチャンネルまで雑談の場にしてはいけないから",
 		ship_group = 70504,
 		type = 1,
 		option = "",
@@ -11216,7 +11206,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "嗯，让指挥官同志感受到我们北方联合的纪律型和专业型",
+		param = "ああ。同志指揮官に我が北方連合の起立正しさと専門制を見せるのだ",
 		ship_group = 70505,
 		type = 1,
 		option = "",
@@ -11224,7 +11214,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "纪律性？型？苏维埃罗西亚是不是打错字了？",
+		param = "規律正しさと専門性だよね…？今のは入力ミス…？",
 		ship_group = 70701,
 		type = 1,
 		option = "",
@@ -11232,7 +11222,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "纪律性和专业性",
+		param = "規律正しさと専門性だ",
 		ship_group = 70505,
 		flag = 0,
 		type = 1,
@@ -11240,16 +11230,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"不愧是北方联合……"
+				"さすがは北方連合だ"
 			},
 			{
 				2,
-				"大家要不放松一点？"
+				"少し肩の力を抜いてみたらどうだ？"
 			}
 		}
 	},
 	{
-		param = "不愧是北方联合，纪律性和专业性令人佩服",
+		param = "さすが北方連合、見事な規律正しさと専門性だ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -11257,7 +11247,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "当然，北方联合的纪律和专业可不是靠客套话说出来的",
+		param = "もちろんよ。北方連合の規律正しさと専門性は建前や見せかけじゃないからね",
 		ship_group = 70504,
 		type = 1,
 		option = "",
@@ -11265,7 +11255,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "我们可都是用实力赢得指挥官同志的认可的",
+		param = "全ては実力で同志指揮官に認めてもらったんだから",
 		ship_group = 70504,
 		type = 1,
 		option = "",
@@ -11273,7 +11263,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "指挥官同志回消息了。",
+		param = "同志指揮官が返信した…",
 		ship_group = 70207,
 		type = 1,
 		option = "",
@@ -11281,7 +11271,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "嗯……这种指挥官同志与我们拉近距离感的感觉，很奇妙呢~",
+		param = "うん。指揮官がぐっと距離感を縮めてくれたように感じてなんだか不思議ね",
 		ship_group = 70207,
 		type = 1,
 		option = "",
@@ -11289,7 +11279,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "感觉好开心///……",
+		param = "とても嬉しく…思う///",
 		ship_group = 70207,
 		type = 1,
 		option = "",
@@ -11297,7 +11287,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "对，我也觉得开心！",
+		param = "ああ、私も同感だ！",
 		ship_group = 70501,
 		type = 1,
 		option = "",
@@ -11305,7 +11295,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "既然那么开心，不妨就一起喝到天亮吧！你看怎么样，同志啊！",
+		param = "そんなに嬉しいなら朝まで飲み明かそうじゃないか！どうだ、同志指揮官！",
 		ship_group = 70501,
 		type = 1,
 		option = "",
@@ -11313,7 +11303,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "不错不错~是时候举办酒会庆祝新频道的建立和指挥官的加入了！",
+		param = "それいいわね～。新チャンネル設立の記念を兼ねた指揮官歓迎会をやろう♪",
 		ship_group = 70202,
 		type = 1,
 		option = "",
@@ -11321,7 +11311,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "我还买了新的游戏可以一起玩~！",
+		param = "新しいゲームも買ったから一緒に遊べるし！",
 		ship_group = 70202,
 		type = 1,
 		option = "",
@@ -11329,7 +11319,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "再买些热狗、炸鸡怎么样~？",
+		param = "うーん…あとはホットドッグやフライドチキンも注文しよっか！",
 		ship_group = 70202,
 		type = 1,
 		option = "",
@@ -11337,7 +11327,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "阿芙乐尔~拜托你跑一趟啦~",
+		param = "アヴローラ、ちょっとお願いしていい～？",
 		ship_group = 70202,
 		type = 1,
 		option = "",
@@ -11345,7 +11335,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "好~！那我也多准备些伏特加",
+		param = "はーい。ウォッカも多めに用意しておきますね",
 		ship_group = 70201,
 		type = 1,
 		option = "",
@@ -11353,7 +11343,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "呼~那我也来，工作过后必须喝一杯",
+		param = "じゃあ私も混ぜてよ。仕事終わりに一杯やらないとね",
 		ship_group = 79901,
 		type = 1,
 		option = "",
@@ -11361,7 +11351,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "欸？不是说要让指挥官感受到纪律性和专业性么？",
+		param = "あのぉ…規律正しさと専門性は…？",
 		ship_group = 70701,
 		type = 1,
 		option = "",
@@ -11369,7 +11359,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "事已至此……",
+		param = "事ここに至ったら……",
 		ship_group = 70501,
 		type = 1,
 		option = "",
@@ -11377,7 +11367,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "喝了再说！",
+		param = "飲んでから考える！",
 		ship_group = 70501,
 		type = 1,
 		option = "",
@@ -11385,7 +11375,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "不醉不归！干杯！",
+		param = "よぉし、飲み明かすぞ！乾杯！",
 		ship_group = 70501,
 		flag = 1,
 		type = 1,
@@ -11393,12 +11383,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"干杯！"
+				"乾杯！"
 			}
 		}
 	},
 	{
-		param = "大家要不放松一点？这里也不是那么正式的场合",
+		param = "みんな、少し肩の力を抜いてみたらどうだ？ただのチャットチャンネルだよ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -11406,7 +11396,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "既然指挥官这么说了的话，那我们……",
+		param = "同志指揮官がそう言うなら……",
 		ship_group = 70502,
 		type = 1,
 		option = "",
@@ -11414,7 +11404,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "那我们就一起喝到天亮吧！怎么样！",
+		param = "じゃあ早速、朝まで飲み明かすか！なあ！",
 		ship_group = 70501,
 		type = 1,
 		option = "",
@@ -11422,7 +11412,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "欸？这么突然的吗？",
+		param = "え？いきなりすぎない？",
 		ship_group = 70701,
 		type = 1,
 		option = "",
@@ -11430,7 +11420,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "哈哈哈！总不能还要慢慢规划时间吧！",
+		param = "あはは！いちいち計画を立ててたら時間がもったいないだろう！",
 		ship_group = 70501,
 		type = 1,
 		option = "",
@@ -11438,7 +11428,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "不错不错~就当是庆祝新频道的建立和指挥官的加入了！",
+		param = "クーちゃん賛成ー！新チャンネル設立の記念を兼ねた指揮官歓迎会ってことで～",
 		ship_group = 70202,
 		type = 1,
 		option = "",
@@ -11446,7 +11436,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我还买了新的游戏可以一起玩~！",
+		param = "新しいゲームも買ったから一緒に遊べるし！",
 		ship_group = 70202,
 		type = 1,
 		option = "",
@@ -11454,7 +11444,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "再买些热狗、炸鸡怎么样~？",
+		param = "うーん…あとはホットドッグやフライドチキンも注文しよっか！",
 		ship_group = 70202,
 		type = 1,
 		option = "",
@@ -11462,7 +11452,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "阿芙乐尔~拜托你跑一趟啦~",
+		param = "アヴローラ、ちょっとお願いしていい～？",
 		ship_group = 70202,
 		type = 1,
 		option = "",
@@ -11470,7 +11460,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "好~！那我也多准备些伏特加",
+		param = "はーい。ウォッカも多めに用意しておきますね",
 		ship_group = 70201,
 		type = 1,
 		option = "",
@@ -11478,7 +11468,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "呼呼……欸嘿嘿……",
+		param = "うふふふ…へへへ……",
 		ship_group = 70102,
 		type = 1,
 		option = "",
@@ -11486,7 +11476,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "好喝~",
+		param = "うまー",
 		ship_group = 70102,
 		type = 1,
 		option = "",
@@ -11494,7 +11484,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "看来威严已经喝高了",
+		param = "グロズヌイ、もうすっかり出来上がってるたみたいね",
 		ship_group = 70104,
 		type = 1,
 		option = "",
@@ -11502,7 +11492,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "现在就喝高了，还真是爽啊",
+		param = "もうべろんべろんなんていいなぁ…",
 		ship_group = 79901,
 		type = 1,
 		option = "",
@@ -11510,7 +11500,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "确实！那我们赶紧集合，一起喝到天亮吧！",
+		param = "だな！じゃあ早速集合だ！",
 		ship_group = 70501,
 		type = 1,
 		option = "",
@@ -11518,7 +11508,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "不醉不归！干杯！",
+		param = "よぉし、飲み明かすぞ！乾杯！",
 		ship_group = 70501,
 		flag = 2,
 		type = 1,
@@ -11526,12 +11516,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"干杯！"
+				"乾杯！"
 			}
 		}
 	},
 	{
-		param = "干杯！",
+		param = "乾杯！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -11539,7 +11529,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "干杯~！",
+		param = "乾杯～！",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -11547,7 +11537,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "干杯！",
+		param = "乾杯！",
 		ship_group = 70204,
 		type = 1,
 		option = "",
@@ -11567,7 +11557,7 @@ pg.base.activity_ins_chat_language = {
 			},
 			{
 				2,
-				"抚顺怎么了？"
+				"撫順、何かあったのか？"
 			}
 		}
 	},
@@ -11580,7 +11570,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "抚顺怎么了？",
+		param = "撫順、何かあったのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -11596,7 +11586,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "怎么是指挥官？什么时候来的！",
+		param = "指揮官？！いつ入ってたの！？",
 		ship_group = 50102,
 		type = 1,
 		option = "",
@@ -11604,7 +11594,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "我只是看到个新频道就想随便发点东西！居然发现了指挥官！",
+		param = "新しいチャンネルができたから適当にメッセージを送ってたら、まさか指揮官がいるなんて！",
 		ship_group = 50102,
 		type = 1,
 		option = "",
@@ -11612,7 +11602,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "我刚刚把指挥官邀请进来的",
+		param = "ふふ、今しがた指揮官を招待したばかりですよ",
 		ship_group = 50201,
 		type = 1,
 		option = "",
@@ -11620,7 +11610,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "指挥官，欢迎加入东煌的聊天频道",
+		param = "指揮官、東煌のチャンネルへようこそ",
 		ship_group = 50201,
 		type = 1,
 		option = "",
@@ -11628,7 +11618,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "欢迎指挥官的加入",
+		param = "指揮官、ようこそいらっしゃいませ",
 		ship_group = 50601,
 		type = 1,
 		option = "",
@@ -11636,7 +11626,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "抚顺，要好好和指挥官打招呼！",
+		param = "ほら撫順も、ちゃんと指揮官に挨拶しなさい！",
 		ship_group = 50101,
 		type = 1,
 		option = "",
@@ -11644,7 +11634,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "……抚顺呢？",
+		param = "…あれ、撫順…？",
 		ship_group = 50101,
 		type = 1,
 		option = "",
@@ -11652,7 +11642,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "没看到哦",
+		param = "返事がないね",
 		ship_group = 50103,
 		type = 1,
 		option = "",
@@ -11660,7 +11650,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "抚顺姐好像已经切去找布里斯托尔商量探险的事情了",
+		param = "撫順姉さんはもうブリストルのところに行っちゃったみたいです",
 		ship_group = 50104,
 		type = 1,
 		option = "",
@@ -11668,7 +11658,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "……真是抱歉了，指挥官",
+		param = "…指揮官、ごめんなさい",
 		ship_group = 50101,
 		type = 1,
 		option = "",
@@ -11676,7 +11666,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "没事！指挥官不会在意这点小事的",
+		param = "大丈夫だって！そんなことを気にする指揮官じゃないさ",
 		ship_group = 59901,
 		type = 1,
 		option = "",
@@ -11684,7 +11674,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "如果在意的话，那就一起整顿烧烤，肯定都能解决的，哈哈！",
+		param = "気にしたとしても、みんなで燒烤（シャオカオ）をやれば大丈夫だ。あはは！",
 		ship_group = 59901,
 		flag = 0,
 		type = 1,
@@ -11692,16 +11682,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"说起这个，也到饭点了……"
+				"言われてみればそろそろごはんの時間だな"
 			},
 			{
 				4,
-				"我不在意……"
+				"もちろん気にしてないよ"
 			}
 		}
 	},
 	{
-		param = "说起这个，也到饭点了，要不大家就一起吃饭吧？",
+		param = "言われてみればそろそろごはんの時間だな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -11709,7 +11699,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "我不在意，放松一些就行",
+		param = "もちろん気にしてないよ。気楽に構えよう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -11717,7 +11707,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "嗯，好~",
+		param = "ふふ、まさに仰るとおりです♪",
 		ship_group = 50204,
 		type = 1,
 		option = "",
@@ -11725,7 +11715,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "指挥官不在意便好",
+		param = "ありがとうございます",
 		ship_group = 50601,
 		type = 1,
 		option = "",
@@ -11733,7 +11723,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "不过，抛开此事不谈，我认为{namecode:224}的提议也很好",
+		param = "それはさておき、ハルビンの提案も悪くないと思います",
 		ship_group = 50601,
 		type = 1,
 		option = "",
@@ -11741,7 +11731,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "大家也许久未曾和指挥官一起聚餐了，要不借此机会，聚餐吧？",
+		param = "指揮官とも久しく食事していませんし、この機会にみんなでご飯に行くのはいかがでしょう？",
 		ship_group = 50601,
 		type = 1,
 		option = "",
@@ -11749,7 +11739,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "好耶！一起吃饭！",
+		param = "やった！みんなとご飯だー！",
 		ship_group = 50102,
 		type = 1,
 		option = "",
@@ -11757,7 +11747,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "这个时候倒是知道出来回复了……！",
+		param = "もぉ、こういう時に限って反応早いんだから……！",
 		ship_group = 50101,
 		type = 1,
 		option = "",
@@ -11765,7 +11755,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "吃饭~吃饭~飞云大人要吃饭~",
+		param = "ごはん～ごはん～。飛雲さまもごはん～",
 		ship_group = 50107,
 		type = 1,
 		option = "",
@@ -11773,7 +11763,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "刚好包子也蒸好了，待会大家可以一起吃",
+		param = "ちょうどバオズも出来たわ。あとでみんなで食べましょう？",
 		ship_group = 50202,
 		type = 1,
 		option = "",
@@ -11781,7 +11771,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "包子~包子~",
+		param = "バオズ～バオズ～",
 		ship_group = 50203,
 		type = 1,
 		option = "",
@@ -11789,7 +11779,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "平海饿了！",
+		param = "平海、お腹すいた！",
 		ship_group = 50203,
 		type = 1,
 		option = "",
@@ -11797,7 +11787,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "嗯？是要聚餐么？",
+		param = "ん？みんなでごはんにするのですか？",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -11805,7 +11795,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "那今晚就由我来下厨吧！",
+		param = "じゃあ今夜は私が料理を作りますよ",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -11813,7 +11803,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "除了烧烤和包子之外，指挥官还想吃什么呢~？",
+		param = "指揮官は燒烤（シャオカオ）とバオズ以外に、何か食べたいものはありますか？",
 		ship_group = 50105,
 		flag = 0,
 		type = 1,
@@ -11821,20 +11811,20 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"来点开胃的菜……"
+				"食欲増進の逸品を頼む"
 			},
 			{
 				6,
-				"来点清淡的菜……"
+				"あっさりした料理を頼む"
 			},
 			{
 				7,
-				"龙武安排就好……"
+				"龍武に任せる"
 			}
 		}
 	},
 	{
-		param = "来点开胃的菜，好吃",
+		param = "たくさん食べるから食欲増進の前菜で！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -11842,7 +11832,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "没问题，交给我吧！",
+		param = "うん！任せてください！",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -11850,7 +11840,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "来点清淡的菜，好吃",
+		param = "美味しくてあっさりしたもので！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -11858,7 +11848,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "没问题，交给我吧！",
+		param = "うん！任せてください！",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -11866,7 +11856,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "龙武安排就好，你做的饭菜都很好吃",
+		param = "任せるよ。龍武の料理は全部美味しいから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -11874,7 +11864,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "嗯，谢谢指挥官的信任，全部交给我吧！",
+		param = "信じてくれてありがとうございます！なんでも任せてください！",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -11882,7 +11872,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "哼哼！那我也要来帮忙，龙武姐！",
+		param = "ふっふん！龍武姉ちゃん、虎ちゃんも手伝うよ！",
 		ship_group = 50106,
 		type = 1,
 		option = "",
@@ -11890,7 +11880,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "唔……也不是不行，不过人手上……",
+		param = "うーん…別にいいけどもう人手が……",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -11898,7 +11888,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "如果人手不够，姐姐我也可以来帮忙哦~",
+		param = "人手が足りないなら済安にも手伝わせて！",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -11906,7 +11896,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "最近刚从书上学了些新的特色菜，正好让指挥官尝尝我的手艺~",
+		param = "ちょうど最近本から新しいレシピを学んだし、私の手料理を指揮官に振る舞ういい機会よ！",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -11914,7 +11904,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "……",
+		param = "…………",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -11922,7 +11912,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "……",
+		param = "…………",
 		ship_group = 50207,
 		type = 1,
 		option = "",
@@ -11930,7 +11920,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "……",
+		param = "…………",
 		ship_group = 50602,
 		type = 1,
 		option = "",
@@ -11938,7 +11928,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "这个……",
+		param = "それは……",
 		ship_group = 51901,
 		type = 1,
 		option = "",
@@ -11946,7 +11936,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "啊这",
+		param = "えっと……",
 		ship_group = 50208,
 		type = 1,
 		option = "",
@@ -11954,7 +11944,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "嗯？怎么大家都这个反应？",
+		param = "あら？みんな？",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -11962,7 +11952,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "济安，若是空闲，不如来陪我手谈几局，如何？",
+		param = "済安、今から私と囲碁を打ちませんか？",
 		ship_group = 50601,
 		type = 1,
 		option = "",
@@ -11970,7 +11960,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "欸？现在？",
+		param = "え？今から？",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -11978,7 +11968,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "我卜过了，济安你今日宜对弈，忌用火",
+		param = "ちょっと占ってみたけど、済安、今日は「囲碁に宜しく、火に用心」とのことよ",
 		ship_group = 50401,
 		type = 1,
 		option = "",
@@ -11986,7 +11976,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "你们之前不是还没真正分出过胜负么，不如就趁现在？",
+		param = "この前も勝負がついてなかったし、いい機会じゃない？",
 		ship_group = 50401,
 		type = 1,
 		option = "",
@@ -11994,7 +11984,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "也好，既然你都替我卜算过了，那我就去找镇海啦~",
+		param = "そうですね。せっかく占ってくれましたし、鎮海と対局することにします",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -12002,7 +11992,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "对了，我刚刚路过厨房发现锁上了哦，试了试怎么也打不开",
+		param = "そういえば、さっき台所を通りかかった時、鍵がかかっていてどうしても開けられなかったんです…",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -12010,7 +12000,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "龙武要做饭的话，可能得先看看要怎么开门哦~",
+		param = "龍武ちゃんが料理をするなら、まず扉をどうにかしないといけませんよ？",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -12018,7 +12008,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "我猜……龙武大概有办法自己搞定",
+		param = "それは…龍武ならきっと何とかできると思いますよ",
 		ship_group = 50204,
 		type = 1,
 		option = "",
@@ -12026,7 +12016,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "没错，这个就不用担心啦！",
+		param = "そ、そうよ！心配しなくていいから！",
 		ship_group = 50205,
 		type = 1,
 		option = "",
@@ -12034,7 +12024,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "我打算发明一个啾信的外置机器——“特别关注提醒器”！",
+		param = "艦チャットの外付けガジェット――「特別通知ピコピコマシン」を作るぞ！",
 		ship_group = 60802,
 		type = 1,
 		option = "",
@@ -12042,7 +12032,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "“特别关注提醒器”？这又是什么？快给我情报！",
+		param = "「特別通知ピコピコマシン」？気になるー！聞かせて！",
 		ship_group = 60108,
 		type = 1,
 		option = "",
@@ -12050,7 +12040,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "指挥官不是加入频道了嘛~",
+		param = "ほら、指揮官がチャンネルに参加したじゃない？",
 		ship_group = 60802,
 		type = 1,
 		option = "",
@@ -12058,7 +12048,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "使用“特别关注提醒器”关联啾信，将指挥官设置为“特别关注”……",
+		param = "普通の通知は振動か着信音だけだから、うっかりしてたら見逃しちゃうこともあるでしょ？",
 		ship_group = 60802,
 		type = 1,
 		option = "",
@@ -12066,7 +12056,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "平时普通的提醒只能是震动或者铃声，都有可能会错过！",
+		param = "そこで「特別通知ピコピコマシン」を連携させて、指揮官を「特別フォロー」に設定すれば専用通知が飛ぶようになって問題解決ってわけ！",
 		ship_group = 60802,
 		type = 1,
 		option = "",
@@ -12074,7 +12064,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "但是，如果使用了这个！超过三十秒没有查看就会爆炸哦！这样就不会错过指挥官的消息啦~！",
+		param = "30秒以内に確認しないとドカーンと爆発する仕様になっているから、指揮官のメッセージの見逃しを心配せずに済む！",
 		ship_group = 60802,
 		type = 1,
 		option = "",
@@ -12082,7 +12072,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "很厉害吧~！",
+		param = "すごいでしょ～！",
 		ship_group = 60802,
 		type = 1,
 		option = "",
@@ -12098,7 +12088,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "反正我是不想错过指挥官的消息啦，大家一定也是这样的吧？",
+		param = "指揮官のメッセージを見逃したくない気持ちはみんな同じでしょ？",
 		ship_group = 60802,
 		type = 1,
 		option = "",
@@ -12106,7 +12096,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "出发点是很好，但是三十秒内爆炸太危险了",
+		param = "狙いは分かるけど、30秒で爆発してしまうのは危険だ",
 		ship_group = 60502,
 		type = 1,
 		option = "",
@@ -12114,7 +12104,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "伤到世界上最闪耀的舰船就不好了",
+		param = "世界で一番輝かしい艦であるこのリットリオが怪我したらどうする？",
 		ship_group = 60502,
 		type = 1,
 		option = "",
@@ -12122,7 +12112,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "嗯嗯，阿蒂利奥也觉得爆炸太危险啦~！",
+		param = "うんうん、アッティリオも爆発は危なすぎると思うの！",
 		ship_group = 60110,
 		type = 1,
 		option = "",
@@ -12130,7 +12120,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "嗯，如果不会爆炸的话，有了“特别关注提醒器”就不用总是翻找指挥官的消息了……",
+		param = "うん、爆発さえしなければ、専用通知で指揮官のメッセージをいちいち探さなくていい",
 		ship_group = 60702,
 		type = 1,
 		option = "",
@@ -12138,7 +12128,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "好像还蛮方便的……",
+		param = "まあまあ便利。よし",
 		ship_group = 60702,
 		type = 1,
 		option = "",
@@ -12146,7 +12136,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "嗯……这样子啊……",
+		param = "ふむふむ、そうかそうか…",
 		ship_group = 60802,
 		type = 1,
 		option = "",
@@ -12154,7 +12144,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "那我再去想想怎么设计会更好！拜拜♪~",
+		param = "どう調整するかもうちょっと考えてくる！じゃああたしはこの辺で！",
 		ship_group = 60802,
 		type = 1,
 		option = "",
@@ -12162,7 +12152,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "总之我们暂时算是安全了……？",
+		param = "ひとまず安全、ですよね…？",
 		ship_group = 60305,
 		type = 1,
 		option = "",
@@ -12170,7 +12160,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "应该是~要是能普通地发明一个特别关注提醒器就好了",
+		param = "多分ね～。普通に特別通知を飛ばす発明を作ってくれればいいのに",
 		ship_group = 60202,
 		type = 1,
 		option = "",
@@ -12178,7 +12168,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "不过话又说回来，我觉得这个“特别关注”功能，之后啾信应该也会添加吧？",
+		param = "そういえば「特別フォロー」機能ってそのうち艦チャットに追加されるんでしょ？",
 		ship_group = 60202,
 		type = 1,
 		option = "",
@@ -12186,7 +12176,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "嗯，外置的提醒器还是有些麻烦吧……",
+		param = "ええ、外付けのガジェットはかえって面倒になるから",
 		ship_group = 60302,
 		flag = 0,
 		type = 1,
@@ -12194,16 +12184,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"我也是这么认为的"
+				"確かに面倒だと思う"
 			},
 			{
 				2,
-				"大家好，这是在聊什么？"
+				"おはよう、みんな。何の話？"
 			}
 		}
 	},
 	{
-		param = "我也是这么认为的，外置的提醒器可能比较麻烦",
+		param = "いちいち外付けガジェットを使うと面倒だからね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -12211,7 +12201,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "不过现在还没有内置特别关心的功能，或许外置的提醒器也能发挥作用",
+		param = "まあ「特別アカウント」機能がない今なら、あのガジェットはそれなりに役に立つかも…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -12219,7 +12209,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "……如果不存在安全隐患的话",
+		param = "……安全が確保されればの話だが",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -12227,7 +12217,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "是指挥官来了",
+		param = "指揮官が来ましたね",
 		ship_group = 60503,
 		type = 1,
 		option = "",
@@ -12235,7 +12225,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "指挥官来了~阿蒂利奥最喜欢和指挥官聊天了~",
+		param = "指揮官だ！アッティリオ、指揮官とおしゃべりするの大好き～",
 		ship_group = 60110,
 		type = 1,
 		option = "",
@@ -12243,7 +12233,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "请放心，指挥官，我们不会让爆炸之类的危险出现的",
+		param = "指揮官さま、ご安心ください。「爆発」なんて絶対に起こさせませんから",
 		ship_group = 60501,
 		type = 1,
 		option = "",
@@ -12251,7 +12241,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "维内托，让指挥官有此忧虑便已经是领导者的失格了",
+		param = "ふん！あのねヴェネト、そもそも指揮官を心配させる時点でリーダー失格よ",
 		ship_group = 69901,
 		type = 1,
 		option = "",
@@ -12259,7 +12249,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "果然，撒丁的荣光，只能由我来发扬光大！",
+		param = "やはりサディア帝国の威光は私が広めるしかないわ！",
 		ship_group = 69901,
 		type = 1,
 		option = "",
@@ -12267,7 +12257,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "果然……",
+		param = "やっぱり……",
 		ship_group = 60109,
 		type = 1,
 		option = "",
@@ -12275,7 +12265,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "哼——你也是这么认为的么？埃曼努埃尔",
+		param = "あら、エマもそう思うの？",
 		ship_group = 69901,
 		type = 1,
 		option = "",
@@ -12283,7 +12273,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "不，我是说，果然指挥官现在是在边看我们的消息边思考呢……",
+		param = "あ。ううん、やっぱり指揮官はスマホでわたしたちのやりとりを見ながら入力しているなって……",
 		ship_group = 60109,
 		type = 1,
 		option = "",
@@ -12291,7 +12281,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "嗯？你怎么知道？",
+		param = "え？どうして分かるの？",
 		ship_group = 60303,
 		type = 1,
 		option = "",
@@ -12299,7 +12289,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "望远镜看到的",
+		param = "望遠鏡で見たから",
 		ship_group = 60109,
 		type = 1,
 		option = "",
@@ -12307,7 +12297,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "啊！我、我可不是故意偷看指挥官的，只是碰巧……",
+		param = "あっ！わ、わざと見ていたわけじゃないよ。たまたま……",
 		ship_group = 60109,
 		type = 1,
 		option = "",
@@ -12315,7 +12305,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "然后忍不住多看了一眼",
+		param = "つい見ちゃっただけ…",
 		ship_group = 60109,
 		type = 1,
 		option = "",
@@ -12323,7 +12313,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "从这方面来说的话，使用望远镜观察指挥官可能比那个特别关注提醒器要好用？",
+		param = "そういう意味では、「特別知らせピコピコマシン」とやらより望遠鏡で指揮官を観察したほうが手っ取り早いと思わない？",
 		ship_group = 60302,
 		type = 1,
 		option = "",
@@ -12331,7 +12321,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "好像是……",
+		param = "言われてみれば…",
 		ship_group = 60306,
 		type = 1,
 		option = "",
@@ -12339,7 +12329,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "那是不是近距离待在指挥官身边，将指挥官的动态告知大家，也很好用？",
+		param = "やっぱり指揮官さまのそばにいて逐一皆に様子を知らせるのが一番だったりして…？",
 		ship_group = 60306,
 		type = 1,
 		option = "",
@@ -12347,7 +12337,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "盯——",
+		param = "じーー",
 		ship_group = 60306,
 		type = 1,
 		option = "",
@@ -12355,7 +12345,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "呵呵~这样会给指挥官添麻烦的吧~",
+		param = "ふふ。それでは指揮官さまに迷惑をかけてしまいますよ",
 		ship_group = 60501,
 		type = 1,
 		option = "",
@@ -12363,7 +12353,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "也是哦……！",
+		param = "そ、そうね…！",
 		ship_group = 60306,
 		type = 1,
 		option = "",
@@ -12371,7 +12361,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "那就只能先等达芬奇把特别关注提醒器！开发出来了！",
+		param = "結局ダ・ヴィンチが「特別知らせピコピコマシン」を仕上げるのを待つしかないのね",
 		ship_group = 60202,
 		type = 1,
 		option = "",
@@ -12379,7 +12369,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "大家好，这是在聊什么？",
+		param = "おはよう、みんな。何の話？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -12387,7 +12377,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我们在聊将指挥官设置为特别关注，不错过指挥官消息的事情！",
+		param = "指揮官を『特別フォロー』に設定して、メッセージを見逃さないようにしようかって話をしてたよ！",
 		ship_group = 60107,
 		type = 1,
 		option = "",
@@ -12395,7 +12385,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "是指挥官来了",
+		param = "指揮官が来ましたね",
 		ship_group = 60503,
 		type = 1,
 		option = "",
@@ -12403,7 +12393,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "这还是指挥官在频道里第一次发言呢~",
+		param = "指揮官さま、初めてこのチャンネルでメッセージを書き込みましたね",
 		ship_group = 60501,
 		type = 1,
 		option = "",
@@ -12411,7 +12401,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "指挥官你来了！我马可波罗代表撒丁欢迎你！",
+		param = "大変よろしい！マルコ・ポーロ、サディアを代表して歓迎するわ！",
 		ship_group = 69901,
 		type = 1,
 		option = "",
@@ -12419,7 +12409,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "欢迎指挥官~",
+		param = "指揮官、ようこそー",
 		ship_group = 60110,
 		type = 1,
 		option = "",
@@ -12427,7 +12417,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "来和阿蒂利奥和小兔子们一起玩吧~",
+		param = "アッティリオとちびうさちゃんたちと一緒に遊ぼ？",
 		ship_group = 60110,
 		flag = 2,
 		type = 1,
@@ -12435,12 +12425,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"好，一起玩吧"
+				"うん。遊ぼう"
 			}
 		}
 	},
 	{
-		param = "好，一起玩吧",
+		param = "うん。遊ぼう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -12448,7 +12438,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "那不如，我们就举办一次撒丁内部的聚会吧？",
+		param = "では、一度サディアの仲間たちでなにかをやってみません？",
 		ship_group = 60501,
 		type = 1,
 		option = "",
@@ -12456,7 +12446,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "茶会如何？",
+		param = "そうですね…お茶会はいかがでしょう？",
 		ship_group = 60501,
 		type = 1,
 		option = "",
@@ -12464,7 +12454,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "同意，我饿了",
+		param = "賛成…インペロ、お腹減った",
 		ship_group = 60702,
 		type = 1,
 		option = "",
@@ -12472,7 +12462,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "那维内托你可要好好准备茶会，让指挥官感受到我们撒丁的光辉！",
+		param = "ヴェネト！指揮官が我がサディアの威光を感じられるよう、しっかりお茶会を準備するのよ！",
 		ship_group = 69901,
 		type = 1,
 		option = "",
@@ -12480,7 +12470,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "茶会有些普通……不如一起泡澡如何？",
+		param = "お茶会は普通すぎる気がしますが…一緒にお風呂を楽しむのはどうでしょう？",
 		ship_group = 60503,
 		type = 1,
 		option = "",
@@ -12488,7 +12478,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "读书会呢？我认为也很不错哦~",
+		param = "読書会はどうかしら？わたくし、そっちも楽しいと思うわ～",
 		ship_group = 69902,
 		type = 1,
 		option = "",
@@ -12496,7 +12486,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "不如一起待在阴凉的暗处，唔呼呼…",
+		param = "一緒に涼しくて暗い場所に引きこもるのも……ふふ、ふふふふふ…",
 		ship_group = 60801,
 		type = 1,
 		option = "",
@@ -12504,7 +12494,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "指挥官觉得呢？",
+		param = "指揮官はどれが良いと思いますか？",
 		ship_group = 60501,
 		flag = 3,
 		type = 1,
@@ -12512,12 +12502,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"都很好……"
+				"どれも素敵だと思う"
 			}
 		}
 	},
 	{
-		param = "都很好，只要和大家在一起，我就很开心",
+		param = "どれも素敵だと思うよ。みんなと一緒に過ごせれば、それでいいさ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -12525,7 +12515,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "好，那我就根据指挥官你的行程，安排一次聚会",
+		param = "分かりました。では指揮官さまのスケジュールに合わせて調整してみますね",
 		ship_group = 60501,
 		type = 1,
 		option = "",
@@ -12533,7 +12523,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "好耶~最喜欢跟指挥官一起玩了！",
+		param = "やったぁ♪指揮官と一緒に遊ぶの、大好き！",
 		ship_group = 60110,
 		type = 1,
 		option = "",
@@ -12541,7 +12531,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "那我现在就去准备指挥官喜欢的料理~呵呵~",
+		param = "今から指揮官さまの好物を準備しませんと。ふふふ♪",
 		ship_group = 60701,
 		type = 1,
 		option = "",
@@ -12549,7 +12539,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "指挥官，我先私聊跟你确认一下行程",
+		param = "指揮官さま、DMで予定を確認させてくださいね",
 		ship_group = 60501,
 		type = 1,
 		option = "",
@@ -12557,7 +12547,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "我回来了！我想了想，果然还是爆炸才是艺术……",
+		param = "ただいま！色々考えてきたんだけど、やっぱり爆発こそが芸術…",
 		ship_group = 60802,
 		type = 1,
 		option = "",
@@ -12565,7 +12555,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "嗯？怎么聊了这么多条？",
+		param = "ん？なんだか未読が結構溜まってる？",
 		ship_group = 60802,
 		type = 1,
 		option = "",
@@ -12573,7 +12563,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "欸？指挥官已经说过话了么？",
+		param = "って、指揮官もうメッセージを送信してた！？",
 		ship_group = 60802,
 		type = 1,
 		option = "",
@@ -12581,7 +12571,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "我居然错过了——！！",
+		param = "あたしが…あたしが見逃しちゃったってこと！？",
 		ship_group = 60802,
 		type = 1,
 		option = "",
@@ -12589,7 +12579,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "怎么没人提醒我！！！！",
+		param = "どうして誰も知らせてくれなかったの…？！",
 		ship_group = 60802,
 		type = 1,
 		option = "",
@@ -12597,7 +12587,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "诸位，前些天的演习成绩已经出来了，指挥官正在进行最后的检阅",
+		param = "諸君、先日の演習結果が出た。今指揮官が最終チェックを行っている",
 		ship_group = 40501,
 		type = 1,
 		option = "",
@@ -12605,7 +12595,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "稍后会在频道中传达",
+		param = "それが終わったらこのチャンネルにて通達する予定だ",
 		ship_group = 40501,
 		type = 1,
 		option = "",
@@ -12613,7 +12603,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "这次演习是指挥官针对铁血的情况量身定制的",
+		param = "あの演習は坊やが我々鉄血に合わせて執り行ってくれたものよ",
 		ship_group = 49902,
 		type = 1,
 		option = "",
@@ -12621,7 +12611,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "无论成绩如何，希望大家都能认真复盘反省",
+		param = "結果がどうであれ、真面目に振り返ってほしいわ",
 		ship_group = 49902,
 		flag = 0,
 		type = 1,
@@ -12629,12 +12619,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"我来公布成绩了"
+				"結果を公表しに来たよ"
 			}
 		}
 	},
 	{
-		param = "我来公布成绩了",
+		param = "結果を公表しに来たよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -12642,7 +12632,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "先说一下整体的情况，个人的成绩会发送到个人聊天窗口",
+		param = "えー、まずは全体結果から説明する。個人の成績は別途DMで送るから各々で確認するように",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -12650,7 +12640,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "……",
+		param = "…………",
 		ship_group = 40143,
 		type = 1,
 		option = "",
@@ -12658,7 +12648,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "吾感受到了暗黑镇魂曲的气息，现在就去清剿它们——！",
+		param = "暗黒鎮魂歌(ダークレクイエム)の気配を感じる！すぐに絶滅させに行かないと！",
 		ship_group = 40143,
 		type = 1,
 		option = "",
@@ -12666,7 +12656,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "{namecode:537}，你是在逃避吧？",
+		param = "Z43ったら、もしかして現実逃避してるの～？",
 		ship_group = 40813,
 		type = 1,
 		option = "",
@@ -12674,7 +12664,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "我才没有！",
+		param = "そ、そんなわけないでしょ！",
 		ship_group = 40143,
 		type = 1,
 		option = "",
@@ -12682,7 +12672,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "一定没问题的，我对这次的演习很有信心",
+		param = "大丈夫です。今回の演習は自信ありますから",
 		ship_group = 40123,
 		type = 1,
 		option = "",
@@ -12690,7 +12680,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "除了那个小小的失误……不过应该没影响成绩才对",
+		param = "あの小さなミスを除けば…。言ってもあれだけじゃ成績にはそんなに響かないはずですし！",
 		ship_group = 40123,
 		flag = 0,
 		type = 1,
@@ -12698,16 +12688,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"大家的成绩都很好，除了……"
+				"みんな良い点を取っているよ。ただ…"
 			},
 			{
 				3,
-				"大家的成绩都很好……"
+				"みんな良い点を取っているよ"
 			}
 		}
 	},
 	{
-		param = "大家的成绩都很好，除了某几位",
+		param = "みんな良い点を取っているよ。一部の何人かを除いて…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -12715,7 +12705,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "应该不是我吧……明明已经每天少玩一个小时手机去演习了……",
+		param = "あたしのはずない…毎日のスマホ時間を一時間も減らして演習したし",
 		ship_group = 40147,
 		type = 1,
 		option = "",
@@ -12723,7 +12713,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "如果这是宿命的话，那吾也只能接受了——！",
+		param = "宿命というのなら潔く受け入れるのみ――！",
 		ship_group = 40143,
 		type = 1,
 		option = "",
@@ -12731,7 +12721,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我都已经找了{namecode:435}大姐辅导我了……！",
+		param = "ビスマルクのアネキに補習してもらったのに……！",
 		ship_group = 40804,
 		type = 1,
 		option = "",
@@ -12739,7 +12729,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "毕竟小{namecode:410}要认真练习偶像技能嘛，演习成绩差一点也没办法~欸嘿！对不起啦~",
+		param = "フュンちゃんはアイドルのレッスンもあるから、演習の成績がちょっと悪くてもしょうがないもんね。てへっ♪",
 		ship_group = 40135,
 		type = 1,
 		option = "",
@@ -12747,7 +12737,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "明明睡前已经看书了……",
+		param = "寝る前に本を読もうとしたのに……",
 		ship_group = 40310,
 		type = 1,
 		option = "",
@@ -12755,7 +12745,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "明明演习的时候坚持住没有睡觉了……",
+		param = "演習中は寝ないように我慢したのに……",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -12763,7 +12753,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "啊，某几位就这么对号入座了",
+		param = "指揮官はまだ「一部」が誰のことか言ってないのに…",
 		ship_group = 40813,
 		type = 1,
 		option = "",
@@ -12771,7 +12761,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "唔……那、指挥官，我们需要重新来过么……？",
+		param = "うっ…シッキー、あたしたちもう一回やり直すカンジ…？",
 		ship_group = 40147,
 		flag = 2,
 		type = 1,
@@ -12779,12 +12769,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"不需要，其实……"
+				"必要ないよ。実は……"
 			}
 		}
 	},
 	{
-		param = "不需要，其实大家都通过了测试",
+		param = "必要ないよ。実は全員合格したから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -12792,7 +12782,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "只是在某些模块尚不成熟，之后根据反馈意见，再有针对地练习就好",
+		param = "ただやっぱりいくつか不慣れな項目が目に付いたので、そこは各々の評価意見に基づいてピンポイントで特訓をすればいい",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -12800,7 +12790,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "演习都辛苦了，现在就先好好休息吧",
+		param = "とにかく、演習ご苦労だった。今はゆっくり休んでほしい",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -12808,7 +12798,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "嗯，如指挥官所说，演习并非要苛责大家做到什么",
+		param = "指揮官の言う通り、此度の演習はみんなに何かの達成を求めたものではない",
 		ship_group = 40501,
 		type = 1,
 		option = "",
@@ -12816,7 +12806,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "而是希望大家能够正确认识到自己的短板，并加以锻炼",
+		param = "自分の短所を正しく認識させ、そしてそれを補わせるためのもの",
 		ship_group = 40501,
 		type = 1,
 		option = "",
@@ -12824,7 +12814,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "原来你们在聊这些",
+		param = "そんな話をしてたのか",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -12832,7 +12822,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "难怪我刚刚听见{namecode:537}大叫“好耶”然后拉着{namecode:494}、{namecode:416}她们去玩了",
+		param = "道理であのZ43が「やったー」って叫びながらZ47とU-556を外に連れ出したわけだ",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -12840,7 +12830,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "……也好",
+		param = "……まあいいわ",
 		ship_group = 40501,
 		type = 1,
 		option = "",
@@ -12848,7 +12838,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "毕竟之前为了这次演习紧绷了太久，她们放松些去玩也好",
+		param = "演習のためにずっと張り詰めていただろうから、今は羽根を伸ばさせよう",
 		ship_group = 40501,
 		type = 1,
 		option = "",
@@ -12856,7 +12846,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "大家的成绩都很好，这次演习的结果也不错",
+		param = "みんな良い点を取っているし、演習の成果もいい感じだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -12864,7 +12854,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "只是在某些模块尚不成熟，之后根据反馈意见，再有针对地练习就好",
+		param = "ただやっぱりいくつか不慣れな項目が目に付いたので、そこは各々の評価意見に基づいてピンポイントで特訓をすればいい",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -12872,7 +12862,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "啊~意料之中呢",
+		param = "ふふ、予想通りね",
 		ship_group = 40303,
 		type = 1,
 		option = "",
@@ -12880,7 +12870,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "我一直感觉演习的内容有点太轻松了",
+		param = "演習の内容が簡単すぎると思ったら案の定、ね",
 		ship_group = 40303,
 		type = 1,
 		option = "",
@@ -12888,7 +12878,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "指挥官可以考虑下次再加入一些刺激的内容哦~？",
+		param = "指揮官、次はもっと手応えのある項目を入れてみない？",
 		ship_group = 40303,
 		type = 1,
 		option = "",
@@ -12896,7 +12886,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "区区这种考验，对深海之神来说易如反掌！",
+		param = "このくらいの試練、荒海の主にとっては楽勝よ",
 		ship_group = 49905,
 		type = 1,
 		option = "",
@@ -12904,7 +12894,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "呵呵……这种程度，还远远无法令我认真起来呢",
+		param = "ふふ…この程度では到底本気になれないわ",
 		ship_group = 49909,
 		type = 1,
 		option = "",
@@ -12912,7 +12902,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "毕竟是整体性的演习，指挥官也考虑到了阵营中的平均实力吧",
+		param = "包括的的な演習ということだから、もちろん指揮官は陣営のメンバーたちの平均的な実力を踏まえて内容を組んだに違いない",
 		ship_group = 40406,
 		type = 1,
 		option = "",
@@ -12920,7 +12910,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "我推测演习的目的是为了寻找不足，单纯提高难度也没有意义",
+		param = "推測から導き出した結論はすなわち、演習の目的は各員の短所を見つけ出すことであって、単に難易度を上げても大した意味は生じないということよ",
 		ship_group = 40406,
 		flag = 3,
 		type = 1,
@@ -12928,12 +12918,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"正是如此……"
+				"その通り"
 			}
 		}
 	},
 	{
-		param = "正是如此，这次演习是希望能增进大家的协同作战能力",
+		param = "その通り。今回の演習は皆の作戦連携力の向上を目的としている",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -12941,7 +12931,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "也希望大家能对自己尚不成熟的模块有所了解，之后再多精进练习",
+		param = "また、不得手な点をきっちり認識してもらい、今後はそこに重点を絞って練習できるようにしておきたい",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -12949,7 +12939,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "嗯，之后我会针对性地学习和练习的",
+		param = "はい！より効果的に勉強と練習に励みます",
 		ship_group = 40123,
 		type = 1,
 		option = "",
@@ -12957,7 +12947,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "下次演习，一定要克服这次出现的问题！",
+		param = "今回見つかった問題点は次回の演習までに必ず解決してみせます！",
 		ship_group = 40123,
 		type = 1,
 		option = "",
@@ -12965,7 +12955,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "虽然我成绩不差，不过下次肯定要更好！",
+		param = "今回の点数は悪くないが、今度はもっと「上」を目指すぜ！",
 		ship_group = 40101,
 		type = 1,
 		option = "",
@@ -12973,7 +12963,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "一起加油吧！",
+		param = "一緒に頑張ろう！",
 		ship_group = 40101,
 		type = 1,
 		option = "",
@@ -12981,7 +12971,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "原来是这样，指挥官还真是辛苦了~",
+		param = "それが狙いなのね。指揮官って本当に大変",
 		ship_group = 49908,
 		type = 1,
 		option = "",
@@ -12989,7 +12979,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "为了不辜负你的心意，本小姐下次也会全力以赴的",
+		param = "好意に免じて、次回も頑張ってやろうじゃない",
 		ship_group = 49908,
 		type = 1,
 		option = "",
@@ -12997,7 +12987,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "呵呵，我也是",
+		param = "ふふふ、私もよ",
 		ship_group = 49905,
 		type = 1,
 		option = "",
@@ -13005,7 +12995,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "那么，这次演习就算告一段落",
+		param = "では、今回の演習の振り返りはこれにて終了とするわ",
 		ship_group = 40501,
 		type = 1,
 		option = "",
@@ -13013,7 +13003,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "大家都辛苦了，好好休息吧",
+		param = "みんな、ご苦労だった。ゆっくり休んで",
 		ship_group = 40501,
 		type = 1,
 		option = "",
@@ -13021,7 +13011,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "我使用咖啡渣占卜了大家今日的运势",
+		param = "コーヒー占いでみんなの今日の運勢を占ってみました",
 		ship_group = 80702,
 		type = 1,
 		option = "",
@@ -13029,7 +13019,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "嗯~？那么今日的大家的运势如何呢~？",
+		param = "それで？果たして今日のみんなの運勢は～？",
 		ship_group = 80203,
 		type = 1,
 		option = "",
@@ -13037,7 +13027,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "今日将会是大家无比幸运的一天，幸运之神将坚定不移地站在我们身边",
+		param = "今日は皆にとって幸ある日。幸運の祝福が等しく授かりますように",
 		ship_group = 80702,
 		type = 1,
 		option = "",
@@ -13045,7 +13035,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "占卜的结果是这样的",
+		param = "‥…と、占いではそう出ました",
 		ship_group = 80702,
 		type = 1,
 		option = "",
@@ -13053,7 +13043,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "究竟会发生什么幸运的事情呢！我超期待的！",
+		param = "どんな幸運が訪れるのか…とっても楽しみ！",
 		ship_group = 80103,
 		type = 1,
 		option = "",
@@ -13061,7 +13051,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "幸运？难道我今天能完成工作准时下班么……？",
+		param = "幸運？まさか今日は…定時で上がれるの？！",
 		ship_group = 90303,
 		type = 1,
 		option = "",
@@ -13077,7 +13067,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "准时下班只是应该出现的正常情况吧？",
+		param = "普通は定時にみんな上がるでしょ？",
 		ship_group = 90111,
 		type = 1,
 		option = "",
@@ -13085,7 +13075,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "真正的幸运应该是一直躺在床上不用起来，还能吃上敦刻尔克小姐亲手做的点心",
+		param = "本当の幸運とは、一日中ベッドの上でゴロゴロできて、いつでもダンケルクさんの手作りお菓子を食べれることです！",
 		ship_group = 90111,
 		type = 1,
 		option = "",
@@ -13093,7 +13083,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "躺着可不会变幸运的！",
+		param = "寝そべっていては幸運が降りてこない！",
 		ship_group = 90113,
 		type = 1,
 		option = "",
@@ -13101,7 +13091,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "越努力才会越幸运！",
+		param = "努力を重ねてこそ、より多くの幸運を手に入れられるのだ！",
 		ship_group = 90113,
 		type = 1,
 		option = "",
@@ -13109,7 +13099,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "光是看见努力两个字，我都觉得好累了……",
+		param = "はいはい、努力の二文字を見ただけでもう疲れましたよー",
 		ship_group = 90111,
 		type = 1,
 		option = "",
@@ -13117,7 +13107,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "嗯……？幸运？",
+		param = "むふふふ……幸運？",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -13125,7 +13115,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "这是不是意味着我可以脱衣服……还能要到指挥官的奖励呢……嘿嘿❤……",
+		param = "すっぽんぽんになっても誰からも何も言われないで…指揮官から「ご褒美」ももらえる………ぐへ、ぐへへへへへ♥",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -13133,7 +13123,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "准备接受裁定吧",
+		param = "裁きを受ける準備をしてください",
 		ship_group = 90701,
 		type = 1,
 		option = "",
@@ -13141,7 +13131,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "打断一下大家",
+		param = "話の途中にすみません",
 		ship_group = 80501,
 		type = 1,
 		option = "",
@@ -13149,7 +13139,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "我将指挥官拉入了阵营频道",
+		param = "指揮官をアイリスのチャンネルに招待しましたわ",
 		ship_group = 80501,
 		type = 1,
 		option = "",
@@ -13157,7 +13147,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "“大家都会无比幸运”原来指的是指挥官加入了我们的聊天频道，与我们聊天么？",
+		param = "「皆にとって幸ある日」…つまり指揮官がチャンネルに参加して、私たちとお喋りをすることかしら？",
 		ship_group = 80203,
 		type = 1,
 		option = "",
@@ -13165,7 +13155,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "现在看来，应该是的",
+		param = "そのようですね……",
 		ship_group = 90104,
 		type = 1,
 		option = "",
@@ -13173,7 +13163,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "感谢鸢尾，让指挥官与我们同在——",
+		param = "指揮官と同じチャンネルにいられるようにしてくださったアイリスに感謝を――",
 		ship_group = 90104,
 		type = 1,
 		option = "",
@@ -13181,7 +13171,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "指挥官，欢迎欢迎~~！！嘿嘿嘿！",
+		param = "指揮官殿、ようこそアイリスのチャンネルへ！えへへ！",
 		ship_group = 80108,
 		type = 1,
 		option = "",
@@ -13189,7 +13179,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "欢~迎~指~挥~官~",
+		param = "あはは、指揮官、いらっしゃい♪",
 		ship_group = 90105,
 		type = 1,
 		option = "",
@@ -13197,7 +13187,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "重剑也快点出来打招呼啊！",
+		param = "エペも早く早く！",
 		ship_group = 90105,
 		type = 1,
 		option = "",
@@ -13205,7 +13195,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "嗯、嗯……能这样子跟指挥官聊天，真的很幸运呢……",
+		param = "は、はい……こうして指揮官とお喋りできて…エペ、本当に運がいいの…",
 		ship_group = 90106,
 		type = 1,
 		option = "",
@@ -13213,7 +13203,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "居然能在工作的时候跟指挥官聊天……是很幸运",
+		param = "お仕事中に指揮官と雑談できるなんて……これを幸運と言わずしてなんというの？！",
 		ship_group = 90303,
 		type = 1,
 		option = "",
@@ -13221,7 +13211,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "迪普莱克斯居然还会摸鱼……？",
+		param = "あのデュプレクスがサボっている……？！",
 		ship_group = 90111,
 		type = 1,
 		option = "",
@@ -13229,7 +13219,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "指挥官都没反应你们就吵吵闹闹说了一大堆……",
+		param = "返信を待たずにやたらめったらに……",
 		ship_group = 90501,
 		type = 1,
 		option = "",
@@ -13237,7 +13227,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "指挥官都不知道该说什么了吧",
+		param = "指揮官も何を言えばいいか分からなくなるだろ？",
 		ship_group = 90501,
 		flag = 0,
 		type = 1,
@@ -13249,12 +13239,12 @@ pg.base.activity_ins_chat_language = {
 			},
 			{
 				2,
-				"大家太热情了……"
+				"みんな盛り上がってるな"
 			}
 		}
 	},
 	{
-		param = "Salut tout le monde，我的伙伴们",
+		param = "Salut tout le monde！みんな！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -13262,7 +13252,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "大家太热情了，我刚刚读完消息，所以回复得慢了一些",
+		param = "すまない。今追いついたばかりだから返信が遅くなった",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -13270,7 +13260,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "唔……嗯，你好，指挥官",
+		param = "ふん……ああ、ようこそアイリスのチャンネルへ",
 		ship_group = 90501,
 		type = 1,
 		option = "",
@@ -13278,7 +13268,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "指挥官慢慢回复就好，我们会一直等待您的消息的~",
+		param = "ゆっくり読んでから返信すればいいわ。私たちはずっと待っているから",
 		ship_group = 90402,
 		type = 1,
 		option = "",
@@ -13286,7 +13276,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "对吧~大家~？",
+		param = "そうよね？みんな",
 		ship_group = 90402,
 		type = 1,
 		option = "",
@@ -13294,7 +13284,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "当然……嘿嘿……指挥官❤最棒了……嘿嘿……",
+		param = "もちろん……ぐへへへ…指揮官って最高♥……ぐへへへへへ……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -13302,7 +13292,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "阿尔萨斯赞同，通过啾信聊天的话，就不怕情感模块超载了……大概",
+		param = "アルザス、ストラスブールの発言に賛同す。チャット経由なら感情モジュールのオーバーヒートリスクも下がると推定。…多分",
 		ship_group = 80503,
 		flag = 0,
 		type = 1,
@@ -13310,16 +13300,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"关于讨论幸运的话题——"
+				"それで「幸運」についてだけど……"
 			},
 			{
 				4,
-				"关于敦刻尔克制作的点心——"
+				"ダンケルクの手作りお菓子といえば……"
 			}
 		}
 	},
 	{
-		param = "刚刚看见大家在讨论幸运的话题",
+		param = "さっきみんなが「幸運」について話をしているのを見たけど…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -13327,7 +13317,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "我能够加入这个频道，跟大家一起聊天，我也感到很幸运",
+		param = "みんなと同じチャンネルでやり取りできて、自分もとても幸運だと思う",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -13335,7 +13325,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "那……指挥官，要不要一起脱掉衣服聊天，会更清凉更开心哦……嘿嘿❤……",
+		param = "はぁはぁ…指揮官、服を全部脱いだら涼しくて気持ちいいんだよ♥…ぐへへへ♥……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -13343,7 +13333,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "在这幸运的一天，指挥官会答应的吧❤……",
+		param = "幸ある日だから…指揮官はモガドールのお願いをきっと聞いてくれるよね♥",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -13351,7 +13341,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "别想了，指挥官不会答应的",
+		param = "……聞くわけないだろ",
 		ship_group = 90501,
 		type = 1,
 		option = "",
@@ -13359,7 +13349,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "……那么今日，便是我们与指挥官的幸运日了",
+		param = "とにかく、今日は私たちと指揮官の幸ある日ということで…",
 		ship_group = 80501,
 		type = 1,
 		option = "",
@@ -13367,7 +13357,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "为了庆祝这一天，不如，我们就去猫咖吧",
+		param = "幸運を祝いに、みんなで猫カフェに行くのはいかがでしょう？",
 		ship_group = 80501,
 		type = 1,
 		option = "",
@@ -13375,7 +13365,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "“猫咖”这一提议，有些突然。",
+		param = "「猫カフェに行く」との提案、唐突と認む",
 		ship_group = 99901,
 		type = 1,
 		option = "",
@@ -13383,7 +13373,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "不过，加斯科涅，随时待命。",
+		param = "ガスコーニュ、同提案遂行のための指示を待機中",
 		ship_group = 99901,
 		type = 1,
 		option = "",
@@ -13391,7 +13381,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "不错的提议呢，那谁去接指挥官呢~？",
+		param = "私も同意するわ。それで誰が指揮官を迎えに行くのかしら？",
 		ship_group = 90502,
 		type = 1,
 		option = "",
@@ -13399,7 +13389,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "不是……你也不用拿手机发这种消息以后笑眯眯地盯着我吧？",
+		param = "クレマンソー、お前…あんな内容を書いておいて、笑顔でオレに振ることはないだろ",
 		ship_group = 90501,
 		type = 1,
 		option = "",
@@ -13407,7 +13397,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "……算了，指挥官，我去指挥室接你",
+		param = "……指揮官、今執務室に迎えにいくぞ",
 		ship_group = 90501,
 		type = 1,
 		option = "",
@@ -13415,7 +13405,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "刚刚看见恶毒提到敦刻尔克制作的点心，有些饿了",
+		param = "ル・マランがダンケルクの手作りお菓子の話をしてたから、なんだかちょっとお腹減ったな…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -13423,7 +13413,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "正好，我刚烤好了一些点心，现在大家可以过来食堂吃",
+		param = "ふふふ、今ちょうどお菓子ができたから、みんなも食堂に食べに来ていいからね？",
 		ship_group = 90401,
 		type = 1,
 		option = "",
@@ -13431,7 +13421,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "甜食也是能够令人感到幸福的东西，或许能为幸运日锦上添花",
+		param = "甘いお菓子は人を幸せにするから、「幸ある日」にちょうどいいかもしれないわ",
 		ship_group = 90401,
 		type = 1,
 		option = "",
@@ -13439,7 +13429,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "好耶！是敦刻尔克小姐的点心！",
+		param = "やったぁ！ダンケルクさんの手作りお菓子！",
 		ship_group = 80103,
 		type = 1,
 		option = "",
@@ -13447,7 +13437,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "我马上就来。",
+		param = "今行く！",
 		ship_group = 80104,
 		type = 1,
 		option = "",
@@ -13455,7 +13445,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "这样，我就不得不从床上起来了……",
+		param = "お菓子があれば、起床するのもやぶさかではありません…！",
 		ship_group = 90111,
 		type = 1,
 		option = "",
@@ -13463,7 +13453,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "敦刻尔克烤制的点心，的确令人无法拒绝",
+		param = "うふふ、ダンケルクの手作りお菓子は大人気ですね",
 		ship_group = 80501,
 		type = 1,
 		option = "",
@@ -13471,7 +13461,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "我也为大家准备些茶，若是没什么事，就都过来一起吃吧",
+		param = "私もお茶を準備しますから、特に用事がなければ一緒に楽しみましょう",
 		ship_group = 80501,
 		type = 1,
 		option = "",
@@ -13479,7 +13469,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "不过，让指挥官自己一个人过来未免有些有失礼数……",
+		param = "あ。指揮官に一人でお越しいただくのはちょっと失礼ですね…",
 		ship_group = 80501,
 		type = 1,
 		option = "",
@@ -13487,7 +13477,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "！阿尔萨斯去迎接！让阿尔萨斯去！",
+		param = "！アルザスに指揮官を迎えに行く許可を求む！",
 		ship_group = 80503,
 		type = 1,
 		option = "",
@@ -13495,7 +13485,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "欸……阿尔萨斯会过载吧？让人家去嘛……",
+		param = "アルザスが行ったらまたオーバーヒートするでしょう？ここはモガドールに行かせて♥",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -13503,7 +13493,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "呵呵，还真是一如既往地受欢迎啊。",
+		param = "ふふふ、相変わらず大人気ね。指揮官",
 		ship_group = 90502,
 		type = 1,
 		option = "",
@@ -13511,7 +13501,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "不如你们就一起去指挥室接指挥官吧？我想指挥官也没有拒绝的余地呢~",
+		param = "いっそ二人で行けば？指揮官はきっと素直に来てくれると思うわ♪",
 		ship_group = 90502,
 		type = 1,
 		option = "",
@@ -13519,7 +13509,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "我看一下……嗯，这样应该就成功建立频道了吧？",
+		param = "どれどれ……これで立ち上げ完了、でいいか？",
 		ship_group = 30511,
 		type = 1,
 		option = "",
@@ -13527,7 +13517,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "嗯，应该是建立了，吾看到消息了",
+		param = "うむ。うまくいった。余にもちゃっとが見えるぞ",
 		ship_group = 30505,
 		type = 1,
 		option = "",
@@ -13535,7 +13525,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "哦哦~我也看到了~这就是频道么~？指挥官也会进来么？",
+		param = "陸奥も見た！ねえねえこれって艦チャットのチャンネルなの？指揮官も参加するの？",
 		ship_group = 30506,
 		type = 1,
 		option = "",
@@ -13543,7 +13533,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "嗯，如果我的操作正确，指挥官已经受邀加入频道了",
+		param = "そうだな。我の操作が間違ってなければ、指揮官はもうちゃんねるに参加してるはずだ",
 		ship_group = 30511,
 		type = 1,
 		option = "",
@@ -13551,7 +13541,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "或许作为开场白有点朴素，但欢迎你加入重樱的频道，指挥官",
+		param = "挨拶としては些か簡素だが……えー、改めて重桜ちゃんねるへようこそ！指揮官！",
 		ship_group = 30511,
 		type = 1,
 		option = "",
@@ -13559,7 +13549,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "无妨，毕竟我们不是靠开场白这种形式来维系我们与指挥官之间的牵绊的",
+		param = "妾たちと指揮官が結んだ絆は、形ある「あいさつ」で測れるものにあらず",
 		ship_group = 30510,
 		type = 1,
 		option = "",
@@ -13567,7 +13557,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "我们是靠……",
+		param = "表すとするなら………",
 		ship_group = 30510,
 		type = 1,
 		option = "",
@@ -13575,7 +13565,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "我稍稍思考一下措辞",
+		param = "……少々言葉を思案させてもらうわ",
 		ship_group = 30510,
 		type = 1,
 		option = "",
@@ -13583,7 +13573,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "是靠{namecode:6}的耳朵……？",
+		param = "綾波の耳、です？",
 		ship_group = 30105,
 		type = 1,
 		option = "",
@@ -13591,7 +13581,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "是靠我沏的红茶？",
+		param = "私が淹れた紅茶ですこと？",
 		ship_group = 30401,
 		type = 1,
 		option = "",
@@ -13599,7 +13589,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "稍微认真一点吧！",
+		param = "真面目にやれ！",
 		ship_group = 39905,
 		type = 1,
 		option = "",
@@ -13607,7 +13597,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "当然是靠我们手中的刀剑！",
+		param = "当然、我らが持っている刀だ！",
 		ship_group = 39905,
 		type = 1,
 		option = "",
@@ -13615,7 +13605,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "我也是这么认为的",
+		param = "確かに面倒だと思う",
 		ship_group = 30311,
 		type = 1,
 		option = "",
@@ -13623,7 +13613,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "虽然理解你们的意思，但是这话听起来怎么像是胁迫了指挥官一样……",
+		param = "言いたいことは分かるけど、なんだか指揮官を脅しているように聞こえるわ",
 		ship_group = 30312,
 		type = 1,
 		option = "",
@@ -13631,7 +13621,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "嗯……应该是龙神大人的威严吧？大概……",
+		param = "うーん…龍神様の威厳かしら？多分…",
 		ship_group = 39906,
 		type = 1,
 		option = "",
@@ -13639,7 +13629,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "都不对……一定是靠{namecode:98}物美价廉的商品喵",
+		param = "違うにゃ…絆を守るのは、安くて使い勝手もいい明石の商品にゃ",
 		ship_group = 31201,
 		type = 1,
 		option = "",
@@ -13655,7 +13645,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "……？",
+		param = "………は？",
 		ship_group = 30701,
 		type = 1,
 		option = "",
@@ -13663,7 +13653,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "你哪怕说是重樱的实力也比商品有说服力吧？",
+		param = "重桜の力のほうがまだ説得力がありますわ",
 		ship_group = 30701,
 		type = 1,
 		option = "",
@@ -13671,7 +13661,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "我比较赞同这个说法",
+		param = "同意する",
 		ship_group = 30702,
 		type = 1,
 		option = "",
@@ -13679,7 +13669,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "真稀奇啊，{namecode:91}前辈居然说出了令人信服的话语",
+		param = "へえ～赤城先輩、珍しく正論で突っ込みましたね～",
 		ship_group = 30705,
 		type = 1,
 		option = "",
@@ -13687,7 +13677,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "少见多怪。",
+		param = "五航戦は引っ込んでなさい",
 		ship_group = 30701,
 		type = 1,
 		option = "",
@@ -13695,7 +13685,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "嗯？随手刷了一下，怎么说到商品了？是{namecode:98}在打广告吗？",
+		param = "ん？なんか商品ってワードが引っかかったけど、もしかして明石は宣伝してるの？",
 		ship_group = 30513,
 		type = 1,
 		option = "",
@@ -13703,7 +13693,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "那我也来！",
+		param = "じゃああたしも！",
 		ship_group = 30513,
 		type = 1,
 		option = "",
@@ -13711,7 +13701,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "{namecode:295}小店，提供新鲜蔬菜水果，已开通啾信订购服务，欢迎选购~",
+		param = "尾張青果店、フレッシュな野菜と果物をご提供！艦チャットからの注文を受付中！ぜひ一度お立ち寄りを！",
 		ship_group = 30513,
 		type = 1,
 		option = "",
@@ -13719,7 +13709,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "新鲜的牛奶，也支持下单配送，数量有限，只接受少量订购",
+		param = "搾りたての牛乳も配送にてお届けします♪",
 		ship_group = 31901,
 		type = 1,
 		option = "",
@@ -13727,7 +13717,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "接服装定制需求，价格可以商量~",
+		param = "各種呉服・重桜衣装の製作を承っております。価格は応相談です",
 		ship_group = 30225,
 		type = 1,
 		option = "",
@@ -13735,7 +13725,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "打住，怎么突然变成推销商品的频道了！",
+		param = "うわあああいつの間にか宣伝だらけになってる！",
 		ship_group = 30706,
 		type = 1,
 		option = "",
@@ -13743,7 +13733,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "这让指挥官看见了可不好！",
+		param = "指揮官に見られたらまずいって！",
 		ship_group = 30706,
 		type = 1,
 		option = "",
@@ -13751,7 +13741,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "谈及此处，指挥官人呢……？",
+		param = "指揮官はいずこに……？",
 		ship_group = 30708,
 		type = 1,
 		option = "",
@@ -13759,7 +13749,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "可能是公务繁忙，没来得及看消息？",
+		param = "指揮官様は公務でお忙しいので、まだ携帯を見ていないかもしれませんね",
 		ship_group = 30405,
 		flag = 0,
 		type = 1,
@@ -13767,16 +13757,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"我已经看见了，重樱的实力……"
+				"重桜の力を見た……！"
 			},
 			{
 				2,
-				"我已经看见了……"
+				"何かが見えたような……？"
 			}
 		}
 	},
 	{
-		param = "我已经看见了，重樱的实力值得认可！",
+		param = "重桜の力、確かにこの目で見た！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -13784,7 +13774,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "谢谢指挥官的认可，重樱之后也会继续努力，无论是工作，战斗，还是频道聊天",
+		param = "うむ！お主に褒められたからには重桜各員、作戦も庶務も、ちゃんねるでの世間話も引き続き精励恪勤するぞ！",
 		ship_group = 30511,
 		type = 1,
 		option = "",
@@ -13792,7 +13782,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "频道聊天不那么努力也可以吧……？",
+		param = "お喋りはそこまで努力しなくてもいいでしょうね…",
 		ship_group = 30319,
 		type = 1,
 		option = "",
@@ -13800,7 +13790,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "呵呵呵，聊天的话，{namecode:97}一个人就可以很轻松让指挥官大人的收信提示变成999+……",
+		param = "ふふふふ～チャットなら、大鳳一人でも指揮官様の未読通知をすぐ1000件以上にしてあげられますわ～",
 		ship_group = 30707,
 		type = 1,
 		option = "",
@@ -13808,7 +13798,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "这一点，{namecode:97}有自信绝对不会输给任何人呢",
+		param = "これだけは誰にも負ける気がしませんもの♥",
 		ship_group = 30707,
 		type = 1,
 		option = "",
@@ -13816,7 +13806,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "嗯？你这已经是骚扰短信了吧？而且我觉得指挥官可能更想跟我聊天呢",
+		param = "それはただの迷惑行為よ！それに指揮官様はあなたではなく、この赤城とお喋りするのよ！",
 		ship_group = 30701,
 		type = 1,
 		option = "",
@@ -13824,7 +13814,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "热情虽然是好，但是要注意不要给指挥官带去困扰哦",
+		param = "張り切っているのは分かりますが…くれぐれも指揮官を困らせないでね？",
 		ship_group = 30405,
 		flag = 1,
 		type = 1,
@@ -13832,12 +13822,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"谢谢大家的热情……"
+				"ありがとう、みんな"
 			}
 		}
 	},
 	{
-		param = "谢谢大家的热情，困扰谈不上，如果大家有需要，可以随时给我发消息",
+		param = "ありがとう、みんな。困ることはないからいつでもメッセージを送ってくれていいよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -13845,7 +13835,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "休息的时候，我会尽快回复的",
+		param = "余裕のある時はできるだけ早く返信するさ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -13853,7 +13843,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "嗯，不过指挥官还是优先工作吧",
+		param = "気持ちは受け取った。だが今はまだ仕事を優先しろ",
 		ship_group = 30702,
 		type = 1,
 		option = "",
@@ -13861,7 +13851,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "指挥官现在是还在工作？",
+		param = "指揮官はまだ仕事中なのか？",
 		ship_group = 30505,
 		type = 1,
 		option = "",
@@ -13869,7 +13859,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "既然如此，不如我们去帮帮忙？",
+		param = "しからば、妾たちも手伝うのが道理…",
 		ship_group = 30510,
 		type = 1,
 		option = "",
@@ -13877,7 +13867,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "也好，若是能早些完成工作，指挥官就能够轻松地与我们聊天了",
+		param = "そうですね。早く仕事が終われば、私たちとおしゃべりできる時間もその分長くなりますので",
 		ship_group = 30405,
 		type = 1,
 		option = "",
@@ -13885,7 +13875,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "指挥官若有什么需要，请您尽管提出便是",
+		param = "指揮官さま、何でも雲仙たちに仰ってくださいませ",
 		ship_group = 30319,
 		type = 1,
 		option = "",
@@ -13893,7 +13883,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "我已经看见了，大家有什么推荐的商品么？",
+		param = "さては新商品の宣伝かな…？なにかおすすめはある？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -13901,7 +13891,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我的话，比较推荐牛奶哦~小兔子们也很爱喝……",
+		param = "牛乳がおすすめですよ～。ウサギちゃんたちもとても気に入ってくれて……",
 		ship_group = 30226,
 		type = 1,
 		option = "",
@@ -13909,7 +13899,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "如果我带着牛奶去跟小兔子们玩的话，它们会跟我玩么？",
+		param = "涼波も牛乳を持ってウサギちゃんに近づいたら、一緒に遊んでくれる…？",
 		ship_group = 30191,
 		type = 1,
 		option = "",
@@ -13917,7 +13907,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "当、当然！{namecode:234}尽管来就好了！",
+		param = "う、うん！涼波ちゃんならウサギちゃんたちも歓迎してくれるはず！",
 		ship_group = 30226,
 		type = 1,
 		option = "",
@@ -13925,7 +13915,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "嗯，那{namecode:188}小姐，我在你这里订两盒新鲜牛奶吧……",
+		param = "じゃあ……搾りたて牛乳を2箱お願い",
 		ship_group = 30191,
 		type = 1,
 		option = "",
@@ -13933,7 +13923,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "收到~",
+		param = "ありがとうございます！",
 		ship_group = 31901,
 		type = 1,
 		option = "",
@@ -13941,7 +13931,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我推荐{namecode:295}提供的新鲜蔬菜哦！用来做料理超级好吃的~",
+		param = "尾張さんの自家栽培の野菜がおすすめ！それを使うとお料理がすっごく美味しくなるの！チュン♪",
 		ship_group = 30604,
 		type = 1,
 		option = "",
@@ -13949,7 +13939,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我证明，是真的！",
+		param = "うちも証言するで！ほんまに美味しくなるねん！",
 		ship_group = 30605,
 		type = 1,
 		option = "",
@@ -13957,7 +13947,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我的话，推荐在{namecode:231}那里定制服饰，很合身呢",
+		param = "私は渡良瀬が作る衣装がおすすめしますね。とてもフィットしますよ",
 		ship_group = 30705,
 		type = 1,
 		option = "",
@@ -13965,7 +13955,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "建议{namecode:91}前辈之后也去{namecode:231}那里定制",
+		param = "それはそうと、赤城先輩も一度服を注文してみたらいかがです？",
 		ship_group = 30705,
 		type = 1,
 		option = "",
@@ -13973,7 +13963,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "毕竟{namecode:91}前辈看起来应该繁忙到很难有精力去兼顾时尚了呢，对吧~",
+		param = "忙しい忙しい赤城先輩のことですから、流行りとかファッションとかに気を使う余裕なんて多分ないでしょうから～",
 		ship_group = 30705,
 		type = 1,
 		option = "",
@@ -13981,7 +13971,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "？",
+		param = "は？",
 		ship_group = 30701,
 		flag = 2,
 		type = 1,
@@ -13989,12 +13979,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"感觉可以考虑一下……"
+				"じゃあ早速だが……"
 			}
 		}
 	},
 	{
-		param = "感觉可以考虑一下先从服装定制开始",
+		param = "まずはオーダーメイドの服でも注文してみようかな…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -14002,7 +13992,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "喵！指挥官要不要考虑一下充值一个{namecode:98}的店铺的VIP喵！",
+		param = "にゃ！それなら明石のお店のVIPサービスはいかがかにゃ？",
 		ship_group = 31201,
 		type = 1,
 		option = "",
@@ -14010,7 +14000,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "服装定制什么的，只要充值了VIP的话{namecode:98}也能搞定的喵！",
+		param = "オーダーメイド衣装なんて、VIPサービスにチャージすれば明石だってできるにゃ",
 		ship_group = 31201,
 		type = 1,
 		option = "",
@@ -14018,7 +14008,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "指挥官不需要的话，就不要强买强卖了，{namecode:98}",
+		param = "明石、押し売りをするでない。指揮官は要らぬやもしれんぞ",
 		ship_group = 30505,
 		type = 1,
 		option = "",
@@ -14026,7 +14016,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "嗯~指挥官大人选择沉默，亦是一种应对之策呢",
+		param = "沈黙で応じるとは、指揮官さまはなかなかよく考えていますね",
 		ship_group = 30319,
 		type = 1,
 		option = "",
@@ -14034,7 +14024,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "喵喵喵？？？",
+		param = "にゃにゃ？？",
 		ship_group = 31201,
 		type = 1,
 		option = "",
@@ -14042,7 +14032,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "咳咳！皇家的诸位，就在刚刚，指挥官接受了本王的茶会邀请！",
+		param = "こほん！聞きなさいロイヤルの者たち！たった今、下僕が私の招待に応じたわ！",
 		ship_group = 20501,
 		type = 1,
 		option = "",
@@ -14050,7 +14040,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "现在大家来商讨茶会事宜！为了本王与指挥官好好努力吧！",
+		param = "今からその歓迎のお茶会を準備するから、私と下僕のためにしっかり働きなさい！",
 		ship_group = 20501,
 		type = 1,
 		option = "",
@@ -14058,7 +14048,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "明白了，陛下",
+		param = "かしこまりました。陛下",
 		ship_group = 20212,
 		type = 1,
 		option = "",
@@ -14066,7 +14056,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "那我即刻规划茶会事宜",
+		param = "すぐにお茶会の準備に入らせていただきます",
 		ship_group = 20212,
 		type = 1,
 		option = "",
@@ -14074,7 +14064,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "稍后将各位女仆负责的工作内容发到频道中",
+		param = "メイド隊のタスクは後ほどこちらのチャンネルにも共有させていただきます",
 		ship_group = 20212,
 		type = 1,
 		option = "",
@@ -14082,7 +14072,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "嗯~那稍晚一些我将珍藏的茶叶带到茶会去，大家一起品尝吧",
+		param = "ええ、取っておいた茶葉を提供しますわ。皆で一緒に楽しみましょう",
 		ship_group = 20403,
 		type = 1,
 		option = "",
@@ -14090,7 +14080,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "正好我烤制了一些曲奇饼干，也一起带过去吧",
+		param = "クッキーを焼いたから一緒に持っていくわね",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -14098,7 +14088,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "嗯？茶会么？已经决定了啊……",
+		param = "お茶会？もう決まったの……",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -14106,7 +14096,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "好吧……",
+		param = "まあいいけど……",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -14114,7 +14104,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "不挠也要来参加哦~难得指挥官也在",
+		param = "インドミタブルも参加してね？せっかく指揮官さまもいますから",
 		ship_group = 20703,
 		type = 1,
 		option = "",
@@ -14122,7 +14112,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "难得亲爱的都要来参加茶会了，要不要尝试打破传统，革新一下茶会呢~",
+		param = "そうそう、せっかくダンナさまがいるんだから、伝統的なお茶会じゃにゃく「革新的なお茶会」にしにゃい？",
 		ship_group = 29903,
 		type = 1,
 		option = "",
@@ -14130,7 +14120,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "革新茶会……？你有什么想法么？说来给本王听听吧！",
+		param = "「革新的なお茶会」？何かアイデアでもあるの？",
 		ship_group = 20501,
 		type = 1,
 		option = "",
@@ -14138,7 +14128,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "比如说在夜晚的时候举办茶会，一边放烟花、变魔术，一边喝茶吃点心~♪",
+		param = "夜にお茶会を開いて～、花火とマジックの中でお茶を楽しむのはどう？",
 		ship_group = 29903,
 		type = 1,
 		option = "",
@@ -14146,7 +14136,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "很不错吧~♪或者大家有什么其他想法吗~？",
+		param = "いいでしょ～？みんなも何かアイデアはないかにゃ？",
 		ship_group = 29903,
 		type = 1,
 		option = "",
@@ -14154,7 +14144,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "集思广益也很不错！",
+		param = "アイデアは歓迎するわ！どんどん提案しなさい！",
 		ship_group = 20501,
 		type = 1,
 		option = "",
@@ -14162,7 +14152,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "做多一些风味菜怎么样，比如说尝试把鳗鱼和利物浦炖菜结合起来——",
+		param = "付け合せのメニューにご当地料理を提供するのはどう？ウナギとスカウスを組み合わせて……",
 		ship_group = 20234,
 		type = 1,
 		option = "",
@@ -14170,7 +14160,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "这食物是非浪费不可么……",
+		param = "食材の無駄だから止めなさい",
 		ship_group = 20606,
 		type = 1,
 		option = "",
@@ -14178,7 +14168,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "要不要试试从女仆队的服装入手？",
+		param = "給仕のメイド隊の衣装を変えるのはどう？",
 		ship_group = 20137,
 		type = 1,
 		option = "",
@@ -14186,7 +14176,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "听说穿着泳装准备茶会是最近的流行趋势！嘿~☆",
+		param = "最近の流行りは水着での給仕だと聞いて！エヘッ☆",
 		ship_group = 20137,
 		type = 1,
 		option = "",
@@ -14194,7 +14184,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "欸~？还有这种流行趋势么？",
+		param = "？水着給仕が流行ってるなんて初耳だけど……？",
 		ship_group = 20234,
 		type = 1,
 		option = "",
@@ -14202,7 +14192,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "驳回。",
+		param = "却下です",
 		ship_group = 20210,
 		type = 1,
 		option = "",
@@ -14210,7 +14200,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "请容我拒绝哦？",
+		param = "私もそれはちょっと……",
 		ship_group = 20227,
 		type = 1,
 		option = "",
@@ -14218,7 +14208,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "要不要试试自助茶会？大家可以自由地聊天，自由地吃甜品，不用太拘束……",
+		param = "ビュッフェスタイルにするのはいかがです？スイーツを楽しむのもお喋りするのも自分のペースで行えますし……",
 		ship_group = 20705,
 		type = 1,
 		option = "",
@@ -14226,7 +14216,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "我认为这个提议不错呢",
+		param = "いいアイデアだと思う！",
 		ship_group = 20704,
 		type = 1,
 		option = "",
@@ -14234,7 +14224,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "唔，胜利姐姐在看频道啊……",
+		param = "ヴィクトリアス姉さん、チャンネルを見ていますわね…",
 		ship_group = 20705,
 		type = 1,
 		option = "",
@@ -14242,7 +14232,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "嗯……不用太拘束，但也要注意仪态",
+		param = "ただ、無礼講とは言ってませんよ。あくまで「少し気楽に」といった程度です",
 		ship_group = 20705,
 		type = 1,
 		option = "",
@@ -14250,7 +14240,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "一直以来都是女仆队负责准备茶会，这次让骑士来准备茶会，会不会更特别？",
+		param = "普段はメイド隊でお茶会の準備を担当していますが、今回だけ騎士隊が担当するのはいかがでしょう",
 		ship_group = 20208,
 		type = 1,
 		option = "",
@@ -14258,7 +14248,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "欸？可、可以么？",
+		param = "え？い、いいんですか…？",
 		ship_group = 20223,
 		type = 1,
 		option = "",
@@ -14266,7 +14256,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "如果这么决定的话，我一定会加油的……！",
+		param = "それなら精一杯頑張らないと……！",
 		ship_group = 20223,
 		type = 1,
 		option = "",
@@ -14274,7 +14264,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "倒是蛮有意思的",
+		param = "趣のある提案だと思う",
 		ship_group = 20505,
 		type = 1,
 		option = "",
@@ -14282,7 +14272,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "我对料理也有信心，可以交给我",
+		param = "料理ならこちらも自信がある。任せてくれてもいい",
 		ship_group = 20505,
 		type = 1,
 		option = "",
@@ -14290,7 +14280,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "把所有的驱逐舰妹妹都邀请过来吧",
+		param = "駆逐艦の妹たちを全員招待するのはどうだろうか？",
 		ship_group = 20702,
 		type = 1,
 		option = "",
@@ -14298,7 +14288,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "所有驱逐舰妹妹都出场的茶会，也算很特别吧？",
+		param = "「駆逐艦が一堂に会するお茶会」もなかなか特別なのではないか？",
 		ship_group = 20702,
 		type = 1,
 		option = "",
@@ -14306,7 +14296,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "……",
+		param = "…………",
 		ship_group = 20606,
 		type = 1,
 		option = "",
@@ -14314,7 +14304,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "指挥官觉得呢？",
+		param = "指揮官はどれが良いと思いますか？",
 		ship_group = 20501,
 		type = 1,
 		option = "",
@@ -14322,7 +14312,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "这次就准许你提出意见吧，毕竟是招待你的茶会！",
+		param = "意見を述べることを許すわ！あんたをもてなすお茶会だからね！",
 		ship_group = 20501,
 		flag = 0,
 		type = 1,
@@ -14330,16 +14320,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"传统的茶会更好"
+				"伝統的なお茶会がいいな"
 			},
 			{
 				2,
-				"革新的茶会更好"
+				"革新的なお茶会がいいな"
 			}
 		}
 	},
 	{
-		param = "传统的茶会更好",
+		param = "伝統的なお茶会がいいな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -14347,7 +14337,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "这次准备的时间有限，大家的好想法可以留给下次",
+		param = "今回は準備時間が限られているからね。いいアイデアは次回に回そう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -14355,7 +14345,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "我明白了，指挥官",
+		param = "かしこまりました。ご主人様",
 		ship_group = 20212,
 		type = 1,
 		option = "",
@@ -14363,7 +14353,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "我这就安排女仆队着手开始准备茶会",
+		param = "ロイヤルメイド隊、謹んでお茶会を準備させていただきます",
 		ship_group = 20212,
 		type = 1,
 		option = "",
@@ -14371,7 +14361,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "黛朵一定会认真跟大家一起准备的！嗯！",
+		param = "ダイドーも皆と一緒に準備させていただきます！",
 		ship_group = 20204,
 		type = 1,
 		option = "",
@@ -14379,7 +14369,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "欸嘿嘿，可以跟哥哥一起喝茶了，好开心！优酱也很开心哦~！",
+		param = "えへへ、ユニコーン。またお兄ちゃんといっしょにお茶会をできて嬉しい…！ゆーちゃんも…！",
 		ship_group = 20603,
 		type = 1,
 		option = "",
@@ -14387,7 +14377,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "总觉得许久未曾与指挥官一同品茶聊天……呵呵~我已经在期待茶会了",
+		param = "久しぶりに指揮官さまとお茶会にご一緒する気がしますわ。…ふふふ、楽しみにしております",
 		ship_group = 20703,
 		type = 1,
 		option = "",
@@ -14395,7 +14385,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "革新的茶会更好，大家的想法都很有趣",
+		param = "せっかく皆がいいアイデアを考えてくれたから、革新的なお茶会がいいな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -14403,7 +14393,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我就知道亲爱的会喜欢一些革新突破的东西~♪",
+		param = "ダンナさまは目新しいものが好きだって分かってるもん♪",
 		ship_group = 29903,
 		type = 1,
 		option = "",
@@ -14411,7 +14401,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我明白了，指挥官",
+		param = "かしこまりました。ご主人様",
 		ship_group = 20212,
 		type = 1,
 		option = "",
@@ -14419,7 +14409,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "之后我会与女仆队结合大家提出的意见，一起准备新颖特别的茶会",
+		param = "皆様の意見に基づいて、ロイヤルメイド隊も一緒に「新しくて特別なお茶会」を準備させていただきます",
 		ship_group = 20212,
 		type = 1,
 		option = "",
@@ -14427,7 +14417,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我们一定会尽全力回应指挥官的期待的~",
+		param = "ご主人様のご期待に応えられるよう全力を尽くさせていただきます",
 		ship_group = 20233,
 		type = 1,
 		option = "",
@@ -14435,7 +14425,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "又可以学习到新的茶会文化了~",
+		param = "新しいお茶会カルチャーも勉強させてもらうわよ",
 		ship_group = 20137,
 		type = 1,
 		option = "",
@@ -14443,7 +14433,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "耶！这次茶会肯定很好玩吧~到时候一定要合影留念~！",
+		param = "楽しいお茶会になりそう！ぜひ記念写真を撮らせてね！",
 		ship_group = 20234,
 		type = 1,
 		option = "",
@@ -14451,7 +14441,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我先去准备鳗鱼和利物浦炖菜了~！",
+		param = "先にウナギとスカウスを準備してくるね！",
 		ship_group = 20234,
 		type = 1,
 		option = "",
@@ -14459,7 +14449,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我也去多准备一些不同口味的甜甜圈",
+		param = "では僭越ながら私も各種フレーバーのドーナツを用意させていただきます",
 		ship_group = 20313,
 		type = 1,
 		option = "",
@@ -14467,7 +14457,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "决定了，多准备些鲣鱼味的吧，这个比较特别",
+		param = "そうですね。カツオフレーバーだと特別感があっていいでしょう",
 		ship_group = 20313,
 		type = 1,
 		option = "",
@@ -14475,7 +14465,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "那就由我来泡茶给大家喝吧",
+		param = "なら私がお茶を準備するわ",
 		ship_group = 20707,
 		type = 1,
 		option = "",
@@ -14483,7 +14473,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "…………",
+		param = "………",
 		ship_group = 20705,
 		type = 1,
 		option = "",
@@ -14491,7 +14481,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "要不，在饮食方面还是传统一点吧……？",
+		param = "食べ物だけ伝統的なものにしません？",
 		ship_group = 20705,
 		type = 1,
 		option = "",
@@ -14499,7 +14489,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "嗯？看来茶会的方向已经有结果了！那就这么决定了！",
+		param = "方向性は決まった？じゃあ下僕の言った通りにするわ！",
 		ship_group = 20501,
 		type = 1,
 		option = "",
@@ -14507,7 +14497,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "不过看大家这么热情参与讨论的样子，到时候参加茶会的人应该不少吧！",
+		param = "こんなに多くの子が話し合いに参加してくれたから、お茶会はかなりの大所帯になりそうね",
 		ship_group = 20501,
 		type = 1,
 		option = "",
@@ -14515,7 +14505,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "那么就将茶会升级为宴会吧，贝尔法斯特！",
+		param = "ベル、お茶会じゃなくて宴会にしなさい！",
 		ship_group = 20501,
 		type = 1,
 		option = "",
@@ -14523,7 +14513,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "好的，陛下",
+		param = "かしこまりました",
 		ship_group = 20212,
 		type = 1,
 		option = "",
@@ -14531,7 +14521,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "传授制作甜品的技巧！由甜品大师敦刻尔克亲自传授！课程范围包括初级……",
+		param = "『お菓子作りの極意をお教えします！達人ダンケルクによる対面授業！コースは初心者から――』",
 		ship_group = 20509,
 		flag = 0,
 		type = 1,
@@ -14539,20 +14529,20 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"嗯？"
+				"ん？"
 			},
 			{
 				2,
-				"……发错了？"
+				"……送信ミス？"
 			},
 			{
 				3,
-				"TD"
+				"やっぱり明石の宣伝か…"
 			}
 		}
 	},
 	{
-		param = "嗯？",
+		param = "ん？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -14560,7 +14550,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "你想给我推荐敦刻尔克的甜品课程么？",
+		param = "ダンケルクのお菓子作り教室？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -14568,7 +14558,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "……发错了？",
+		param = "……送信ミス？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -14576,7 +14566,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "还是说想推荐敦刻尔克的甜品课程给我？",
+		param = "それとも…この「ダンケルクのお菓子作り教室」を自分に薦めている…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -14584,7 +14574,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "TD",
+		param = "明石の宣伝かな？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -14592,7 +14582,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "欸？",
+		param = "？",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -14600,7 +14590,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "抱歉……本来是想发给自己做备份的",
+		param = "ごめん……メモ帳代わりに使っている窓はあるけど…",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -14608,7 +14598,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "可能因为指挥官的聊天窗口也在最顶部……所以不小心发错了",
+		param = "指揮官のトークアイコンの近くにあったから、うっかり間違えちゃって……",
 		ship_group = 20509,
 		flag = 0,
 		type = 1,
@@ -14616,20 +14606,20 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"打算在甜点领域更进一步？"
+				"お菓子作りをもっと上達させたいのかな？"
 			},
 			{
 				5,
-				"原来如此，没关系"
+				"なるほど、別に気にしてないよ"
 			},
 			{
 				6,
-				"TD"
+				"やっぱり明石の宣伝か…"
 			}
 		}
 	},
 	{
-		param = "原来如此，你是打算在甜点制作领域更进一步？",
+		param = "なるほど、お菓子作りをもっと上達させたいのかな？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -14637,7 +14627,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "嗯！不光是饼干，我想学习制作更特别、更好吃的甜品",
+		param = "ええ、クッキーだけじゃなく…もっと特別で美味しいお菓子を作りたいわ",
 		ship_group = 20509,
 		flag = 4,
 		type = 1,
@@ -14645,12 +14635,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"期待成品！"
+				"楽しみにしているよ"
 			}
 		}
 	},
 	{
-		param = "期待成品！",
+		param = "楽しみにしているよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -14658,7 +14648,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "我会加油不辜负指挥官的期待的~",
+		param = "期待を裏切らないように頑張るわ～",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -14666,7 +14656,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "之后的阶段性学习成果，我也会拿来给你品尝的",
+		param = "そうだ。練習で作ったお菓子を持って行ってもいいかしら",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -14674,7 +14664,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "当然，你有什么想吃的也可以发给我",
+		param = "もちろん、指揮官が食べたいお菓子があったら、いつでも私に言って",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -14682,7 +14672,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "我着重学习一下！",
+		param = "そこを重点的に勉強するから",
 		ship_group = 20509,
 		flag = 7,
 		type = 1,
@@ -14690,12 +14680,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"一定！"
+				"おお！ありがたい！"
 			}
 		}
 	},
 	{
-		param = "一定！",
+		param = "おお！ありがたい！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -14711,7 +14701,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "原来如此，没关系",
+		param = "なるほど、別に気にしてないよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -14719,7 +14709,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "倒不如说看完之后……我对这个课程也有点感兴趣了",
+		param = "むしろ見たら興味が沸いちゃって…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -14727,7 +14717,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "欸？指挥官也感兴趣么？",
+		param = "ん？指揮官も興味あるの？",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -14735,7 +14725,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "稍等，我把详细资料转发给你",
+		param = "この後資料を送るからちょっと待ってて",
 		ship_group = 20509,
 		flag = 5,
 		type = 1,
@@ -14743,16 +14733,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				9,
-				"嗯，一起去学习吧！"
+				"うん、一緒にお菓子作りを勉強しよう！"
 			},
 			{
 				10,
-				"只对课程的成果感兴趣！"
+				"興味があるのは授業の「成果」かな"
 			}
 		}
 	},
 	{
-		param = "嗯，一起去学习吧！",
+		param = "うん、一緒にお菓子作りを勉強しよう！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -14760,7 +14750,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	{
-		param = "一言为定哦~",
+		param = "約束よ♪",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -14776,7 +14766,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	{
-		param = "可是，我只对课程的成果感兴趣！",
+		param = "興味があるのは…あくまで「成果」かな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -14784,7 +14774,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "原来如此——",
+		param = "なるほど……",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -14792,7 +14782,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "没关系，等我学成之后做给你吃就是了~",
+		param = "そうね、その時は指揮官に改めて作ってあげるわ",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -14800,7 +14790,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "我继续去准备报名手续了",
+		param = "引き続き手続きをしてくるわね",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -14808,7 +14798,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "TD",
+		param = "明石の宣伝かな？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -14816,7 +14806,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "真的抱歉啦……以后会注意的！",
+		param = "明石じゃなくてハウよ！指揮官、ごめんなさい！気をつけるから…",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -14832,7 +14822,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				11,
-				"[沉思ing]"
+				"[スタンプ]"
 			}
 		}
 	},
@@ -14853,7 +14843,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				12,
-				"[awsl]"
+				"[スタンプ]"
 			}
 		}
 	},
@@ -14874,12 +14864,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				13,
-				"不逗你了……"
+				"ごめんごめん…"
 			}
 		}
 	},
 	{
-		param = "不逗你了，去忙吧",
+		param = "ごめん。ちょっとだけからかいたくなった。",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -14887,7 +14877,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 13
 	},
 	{
-		param = "……嗯，我继续去准备报名手续了！",
+		param = "……うん！引き続き手続きをしてくるわ！",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -14895,7 +14885,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 13
 	},
 	{
-		param = "指挥官，现在有空么？",
+		param = "指揮官、今時間ある？",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -14903,7 +14893,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "想跟你提前讨论一下明天的行程",
+		param = "明日の予定について相談したいことが……",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -14911,7 +14901,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "你有什么想去的地方么？",
+		param = "どこか行きたいところはある？",
 		ship_group = 20509,
 		flag = 0,
 		type = 1,
@@ -14919,16 +14909,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"比较想去户外……"
+				"できれば外がいいな……"
 			},
 			{
 				2,
-				"比较想去室内场所……"
+				"できれば屋内がいいな……"
 			}
 		}
 	},
 	{
-		param = "比较想去户外场所，贴近自然一点的地方",
+		param = "外に出かけて、自然に触れられる場所に行きたいな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -14936,7 +14926,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "也是呢。明天天气也很好，晒晒太阳的话，心情也会变好吧",
+		param = "そうね。明日は天気もいいし、日光浴でもすればいい気分転換になるわ",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -14944,7 +14934,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "对了，花田里的花开了",
+		param = "あ、そういえば花畑の花が咲いたの",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -14952,7 +14942,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "我做些小点心，一起去野餐吧？",
+		param = "お菓子を作るから、一緒にピクニックに行かない？",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -14960,7 +14950,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "啊……第一次约会自制点心会不会不太好？",
+		param = "あ……初デートに手作りお菓子を持っていくなんて大丈夫かしら…？",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -14968,7 +14958,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "按照约会注意事项上的话来说的话……是不是有些太沉重了？",
+		param = "『デートの注意事項』にあるように……ちょっと「重たすぎる」感じにならない？",
 		ship_group = 20509,
 		flag = 1,
 		type = 1,
@@ -14976,16 +14966,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"没关系，我觉得刚刚好"
+				"大丈夫。いいと思う"
 			},
 			{
 				4,
-				"约会注意事项？"
+				"『デートの注意事項』？"
 			}
 		}
 	},
 	{
-		param = "没关系，我觉得刚刚好",
+		param = "大丈夫。いいと思う",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -14993,7 +14983,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "是这样么？",
+		param = "そう？",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -15001,7 +14991,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "好，那我现在就去准备点心",
+		param = "じゃあ今からお菓子の準備するわ",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -15009,7 +14999,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "先做一些曲奇饼干和松饼吧~",
+		param = "まずはクッキーとマフィンを作ってみようかしら♪",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -15017,7 +15007,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "约会注意事项？",
+		param = "『デートの注意事項』？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15025,7 +15015,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "嗯……我担心初次约会做的不好，专门向威尔士请教来的",
+		param = "うん……初デートで失敗したくないから、ウェールズに相談したの",
 		ship_group = 20509,
 		flag = 4,
 		type = 1,
@@ -15033,12 +15023,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"如果拿不准的话……"
+				"なるほど、自信がないなら…"
 			}
 		}
 	},
 	{
-		param = "理论，终究要付诸实践。如果拿不准的话，顺应本心比较好哦？",
+		param = "マニュアルを突き詰めても実践が必要さ。自信がないなら、素直に思うがままにやればいい",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15046,7 +15036,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "顺应本心……我明白了",
+		param = "思うがままに……わかったわ",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -15054,7 +15044,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "我现在就去准备点心，先做一些曲奇饼干和松饼吧~",
+		param = "今からお菓子の準備をしてくるね。クッキーとマフィンを作ってみようかしら♪",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -15062,7 +15052,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "比较想去室内的场所，最好有能坐下来休息的地方",
+		param = "ゆっくり座れる屋内がいいな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15070,7 +15060,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "太好了，我们想到一起去了",
+		param = "よかった、考えてること一緒だわ",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -15078,7 +15068,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "那一起去甜品店怎么样？",
+		param = "じゃあスイーツを食べにカフェに行かない？",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -15086,7 +15076,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "约会注意事项上也很推荐去甜品店呢！",
+		param = "『デートの注意事項』でもカフェがおすすめとあったわ♪",
 		ship_group = 20509,
 		flag = 2,
 		type = 1,
@@ -15094,16 +15084,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"嗯，那就先去甜品店吧"
+				"よし、カフェに行こうか"
 			},
 			{
 				7,
-				"约会注意事项？"
+				"『デートの注意事項』？"
 			}
 		}
 	},
 	{
-		param = "嗯，那就先去甜品店吧",
+		param = "よし、じゃあそれで決定だな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15111,7 +15101,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "不过去哪一家？",
+		param = "どこのお店にする？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15119,7 +15109,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "哼哼，我最近有一家很看好的哦",
+		param = "ふふ、実は最近いいお店を見つけたのよ",
 		ship_group = 20509,
 		flag = 6,
 		type = 1,
@@ -15127,12 +15117,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"那就交给你来选了"
+				"じゃあハウに任せるよ"
 			}
 		}
 	},
 	{
-		param = "那就交给你来选了",
+		param = "じゃあハウに任せるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15140,7 +15130,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "嗯~希望我喜欢的，你也会喜欢",
+		param = "ええ、あなたの好みに合うといいわ",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -15148,7 +15138,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "约会注意事项？",
+		param = "『デートの注意事項』？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15156,7 +15146,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "嗯……我担心初次约会做的不好，专门向威尔士请教来的",
+		param = "うん……初デートで失敗したくないから、ウェールズに相談したの",
 		ship_group = 20509,
 		flag = 7,
 		type = 1,
@@ -15164,12 +15154,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				9,
-				"那要是想到一起去了……"
+				"ウェールズも同じことを考えてるなら…"
 			}
 		}
 	},
 	{
-		param = "那她和我们想到一起去了。该不会明天约会也会遇到她吧？",
+		param = "ウェールズも同じことを考えてるなら……明日会っちゃったりして？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15177,7 +15167,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	{
-		param = "……我去偷偷确认一下威尔士明天的日程表！",
+		param = "……あ、ウェールズの予定をこっそり確認しておいたほうが良さそうね…",
 		ship_group = 20509,
 		flag = 9,
 		type = 1,
@@ -15185,12 +15175,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				10,
-				"等等……"
+				"店の方は……"
 			}
 		}
 	},
 	{
-		param = "等等，明天去哪家店？",
+		param = "あ。ちなみにどこのお店に行くの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15198,7 +15188,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "稍后发你，我先去确认了！",
+		param = "後で教えるから、先に行ってくるねっ",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -15206,7 +15196,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "指挥官，衣服衣服洗好了！",
+		param = "指揮官、服を洗ったわ！",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -15214,7 +15204,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "昨天多亏了你借我衣服，真是一场灾难啊……",
+		param = "昨日は服を貸してくれてありがとう！本当に大惨事だったわね……",
 		ship_group = 20509,
 		flag = 0,
 		type = 1,
@@ -15222,12 +15212,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"你的衣服怎么样了？"
+				"ハウの服は大丈夫だった？"
 			}
 		}
 	},
 	{
-		param = "是啊……你的衣服怎么样了？",
+		param = "確かに大惨事だったね…ハウの服は大丈夫だった？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15235,7 +15225,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "沾上的巧克力奶油能洗掉么？",
+		param = "チョコクリームの跡は洗い落とせた？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15243,7 +15233,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "唔……贝法说大概没救了",
+		param = "うーん……ベルが多分無理って言ってたわ",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -15251,7 +15241,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "我还蛮喜欢这条裙子的，重新做一条一样的要好久……",
+		param = "この服は気に入ってたのに、同じのを作るにしても時間がかかるし……",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -15259,7 +15249,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "欸，可惜了……",
+		param = "うぅ……",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -15267,7 +15257,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "你现在在指挥室么，我去送衣服给你吧？",
+		param = "指揮官は執務室にいるの？服を持って行こうか？",
 		ship_group = 20509,
 		flag = 1,
 		type = 1,
@@ -15275,12 +15265,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"下次顺路带过来就好了"
+				"今度何かのついでで大丈夫だよ"
 			}
 		}
 	},
 	{
-		param = "没事，下次顺路带过来就好了",
+		param = "今度何かのついでで大丈夫だよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15288,7 +15278,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "一件衣服而已，不用专门跑一趟",
+		param = "上着一枚だけのために、わざわざ届けに来なくてもいいからね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15296,7 +15286,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "也不算是为了衣服专门跑一趟……",
+		param = "ううん、服だけじゃないわ……",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -15304,7 +15294,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "昨天的巧克力蛋糕不是打翻了，我们都没吃上么",
+		param = "昨日はチョコケーキが潰れちゃって、二人とも食べられなかったでしょう？",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -15312,7 +15302,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我今天重新做了一个，想带过去和你一起吃",
+		param = "改めて作ったから、一緒に食べたくて…",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -15320,7 +15310,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "工作用脑过度，更需要补充些糖分哦",
+		param = "指揮官は仕事で頭をいっぱい使うから、糖分の補給も大事よ",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -15328,7 +15318,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "我也想多些时间和你在一起……",
+		param = "それに…指揮官ともっと一緒にいたいから…",
 		ship_group = 20509,
 		flag = 2,
 		type = 1,
@@ -15336,16 +15326,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"那我立刻准备下班！"
+				"今日の仕事はここまでにするか"
 			},
 			{
 				4,
-				"那不如我去找你吧？"
+				"それならこっちから会いに行こうか？"
 			}
 		}
 	},
 	{
-		param = "刚好工作也都收尾了，立刻准备下班！",
+		param = "ちょうど仕事もほぼ片付けたし、今日はもう上がろうかな！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15353,7 +15343,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "咦……今天这么快？",
+		param = "え……指揮官、大丈夫なの？",
 		ship_group = 20509,
 		flag = 3,
 		type = 1,
@@ -15361,12 +15351,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"剩下的可以留到明天"
+				"残りは明日に回すから"
 			}
 		}
 	},
 	{
-		param = "剩下的都可以留到明天",
+		param = "残りは明日に回すから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15374,7 +15364,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "……那明天的工作量岂不是会很恐怖？",
+		param = "……それじゃ明日の仕事が大変になるんじゃ…",
 		ship_group = 20509,
 		flag = 5,
 		type = 1,
@@ -15382,12 +15372,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"没事……"
+				"大丈夫だ。だって…"
 			}
 		}
 	},
 	{
-		param = "没事，明天的秘书舰是迪普莱克斯",
+		param = "大丈夫だ。明日の秘書艦担当はデュプレクスだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15395,7 +15385,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "没有任何工作能在我们一起出手的情况下坚持一整天",
+		param = "二人で挑めば、どんな激務でも一日もかからない",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15403,7 +15393,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "总之，我准备下班了，你来不来？",
+		param = "とにかくもう上がるけど、執務室に来る？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15411,7 +15401,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "来！那我现在马上过去指挥室找你！",
+		param = "ええ！今から向かうわ",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -15419,7 +15409,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "再稍等我一下",
+		param = "もう少し待っててね",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -15427,7 +15417,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "马上就可以见面了♪",
+		param = "もうすぐ会えるから♪",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -15435,7 +15425,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "那不如我去找你吧？",
+		param = "それならこっちから会いに行こうか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15443,7 +15433,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "欸……可是工作要怎么办？",
+		param = "え……でも指揮官はまだ仕事があるんじゃ…",
 		ship_group = 20509,
 		flag = 4,
 		type = 1,
@@ -15451,12 +15441,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"今天的处理完了"
+				"今日の分は終わらせたよ"
 			}
 		}
 	},
 	{
-		param = "今天的工作已经处理完了",
+		param = "今日の分は終わらせたよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15464,7 +15454,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "……这么快？",
+		param = "……そんなに早く…？",
 		ship_group = 20509,
 		flag = 7,
 		type = 1,
@@ -15472,12 +15462,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"明天再加班"
+				"明日残業すれば何とかなるさ"
 			}
 		}
 	},
 	{
-		param = "明天再加班就是了",
+		param = "明日残業すれば何とかなるさ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15485,7 +15475,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "怎么样，你那边方便么？",
+		param = "むしろハウのほうは大丈夫かな？今会いに行っても",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15493,7 +15483,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "方便~那我再烤些饼干，等你哦♪",
+		param = "平気よ♪クッキーを焼いて待ってるからね♪",
 		ship_group = 20509,
 		type = 1,
 		option = "",
@@ -15501,7 +15491,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "指挥官，一起去听古典音乐会么？",
+		param = "指揮官、クラシックのコンサートにでも行かないか？",
 		ship_group = 40503,
 		flag = 0,
 		type = 1,
@@ -15509,16 +15499,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"好！"
+				"いいよ"
 			},
 			{
 				2,
-				"什么时候？"
+				"いつ行く？"
 			}
 		}
 	},
 	{
-		param = "好，什么时候？",
+		param = "いいよ。いつ行く？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15526,7 +15516,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "好，什么时候？",
+		param = "いいよ。いつ行く？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15534,7 +15524,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "本周末，我专门选了你的日程表有空的时候",
+		param = "今週末だ。お前のスケジュールが空いてる時間を選んでおいた",
 		ship_group = 40503,
 		flag = 0,
 		type = 1,
@@ -15542,12 +15532,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"不愧是{namecode:465}……"
+				"さすがフッテンだな"
 			}
 		}
 	},
 	{
-		param = "不愧是{namecode:465}，办事就是细致",
+		param = "さすがフッテンだな。細かいところまで気が回る",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15563,7 +15553,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "呵呵，其实我也没想到你会答应的这么爽快",
+		param = "まさかこんなにすんなり承諾するとはな",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -15571,7 +15561,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "我还有些担心你对古典音乐会的兴趣不大呢",
+		param = "クラシックに興味がないかと要らぬ心配をした",
 		ship_group = 40503,
 		flag = 3,
 		type = 1,
@@ -15579,16 +15569,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"其实我对古典音乐很感兴趣"
+				"クラシックには結構興味があるんだ"
 			},
 			{
 				5,
-				"我确实对古典音乐的兴趣一般"
+				"確かにそこまで興味がある方じゃないな"
 			}
 		}
 	},
 	{
-		param = "看来是你还没调查到这一步~其实我对古典音乐很感兴趣的",
+		param = "実は古典音楽に興味があってね。ウルリッヒもそこまでは知らなかったんじゃないか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15596,7 +15586,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "那我这次的邀请真是一个正确的选择",
+		param = "じゃあ誘ってよかったってわけか",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -15604,7 +15594,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	{
-		param = "我这里还有不少收藏的黑胶碟片，改天要来听么？",
+		param = "レコードのコレクションもある。今度聴きに来るか",
 		ship_group = 40503,
 		flag = 4,
 		type = 1,
@@ -15612,12 +15602,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"好啊！"
+				"ああ。都合をつけるよ"
 			}
 		}
 	},
 	{
-		param = "好啊！",
+		param = "ああ。都合をつけるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15625,7 +15615,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	{
-		param = "那就暂定下周末？那也是一个你的日程表上有空闲的时候",
+		param = "来週末でどうだ？その時もお前のスケジュールは空いてるはずだ",
 		ship_group = 40503,
 		flag = 6,
 		type = 1,
@@ -15633,12 +15623,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"其实今天下午就行"
+				"今日の午後でもいいよ"
 			}
 		}
 	},
 	{
-		param = "其实今天下午就行",
+		param = "今日の午後でもいいよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15646,7 +15636,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	{
-		param = "今天下午……？你的日程不是满的么",
+		param = "今日の午後⋯⋯？スケジュールは埋まってるはずじゃ？",
 		ship_group = 40503,
 		flag = 7,
 		type = 1,
@@ -15654,12 +15644,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"你虽然可以调查我的日程表，但……"
+				"確かにスケジュールは埋まってるが――"
 			}
 		}
 	},
 	{
-		param = "你虽然可以调查我的日程表，但我作为指挥官——",
+		param = "確かにスケジュールは埋まってるが――",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15667,7 +15657,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "可是拥有着修改日程表的权力的！",
+		param = "指揮官はスケジュールを変更する権限があるんだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15675,7 +15665,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "原来如此，真了不起",
+		param = "なるほど。随分と偉いやつだな",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -15683,7 +15673,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	{
-		param = "那下午两点，我来指挥室接你，不见不散",
+		param = "じゃあ午後2時に執務室まで迎えに行く。約束だ",
 		ship_group = 40503,
 		flag = 8,
 		type = 1,
@@ -15691,12 +15681,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				9,
-				"不见不散！"
+				"ああ、約束だ"
 			}
 		}
 	},
 	{
-		param = "不见不散！",
+		param = "ああ、約束だ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15704,7 +15694,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	{
-		param = "这么说也没错，我确实对古典音乐的兴趣一般",
+		param = "確かにそこまで興味がある方じゃないな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15712,7 +15702,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "不过古典音乐会的话，就另当别论了",
+		param = "でもコンサートとなると話は別だ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15720,7 +15710,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	{
-		param = "这二者有什么不同么？",
+		param = "どんな違いがあるんだ？",
 		ship_group = 40503,
 		flag = 5,
 		type = 1,
@@ -15728,12 +15718,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				10,
-				"音乐的话……"
+				"音楽鑑賞は⋯⋯"
 			}
 		}
 	},
 	{
-		param = "音乐的话，多数时间是一个人在听",
+		param = "そうだな。音楽は、大抵一人で聴くものだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15741,7 +15731,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "而音乐会的话，可以和你一起",
+		param = "でもコンサートなら、フッテンと一緒に鑑賞できる",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15749,7 +15739,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "呵呵，这倒确实是一大不同，也确实是一个值得去音乐会的理由",
+		param = "なるほど、確かにその違いは大きい。コンサートに行く理由にもなる",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -15757,7 +15747,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	{
-		param = "不过，若是能借此机会能让你喜欢上古典音乐就更好了",
+		param = "が、これを機にクラシックも好きになってくれたらな",
 		ship_group = 40503,
 		flag = 10,
 		type = 1,
@@ -15765,12 +15755,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				11,
-				"全靠你咯？"
+				"ほほう"
 			}
 		}
 	},
 	{
-		param = "那我能否体会到古典音乐的魅力，就全靠你咯？",
+		param = "じゃあ、クラシックの音楽の魅力を理解できるようにしてくれ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15778,7 +15768,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 11
 	},
 	{
-		param = "尽量不负所望",
+		param = "期待は裏切らないつもりだ",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -15786,7 +15776,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 11
 	},
 	{
-		param = "那本周日下午四点，指挥室不见不散？",
+		param = "じゃあ今週の日曜、午後4時に執務室で会おう",
 		ship_group = 40503,
 		flag = 11,
 		type = 1,
@@ -15794,12 +15784,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				12,
-				"不见不散！"
+				"ああ、約束だ"
 			}
 		}
 	},
 	{
-		param = "不见不散！",
+		param = "ああ、約束だ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15807,7 +15797,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 12
 	},
 	[1257] = {
-		param = "你听说了么，操场的不可思议事件……",
+		param = "学園の運動場の怪事件を聞いたか？",
 		ship_group = 40503,
 		flag = 0,
 		type = 1,
@@ -15819,7 +15809,7 @@ pg.base.activity_ins_chat_language = {
 			},
 			{
 				2,
-				"……你是谁？"
+				"⋯⋯誰？"
 			}
 		}
 	},
@@ -15832,7 +15822,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1259] = {
-		param = "你怎么也开始调查不可思议事件了？！",
+		param = "フッテンまで学園の不思議の調査を始めた…だと？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15840,7 +15830,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1260] = {
-		param = "……你是谁？",
+		param = "⋯⋯誰？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15848,7 +15838,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1261] = {
-		param = "布里斯托尔，别乱用别人的手机！",
+		param = "ブリストル、人の携帯を勝手に使ったらダメだよ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15856,7 +15846,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1262] = {
-		param = "啧，没人用我的手机",
+		param = "別に他人に使われてなんかないが",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -15864,7 +15854,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1263] = {
-		param = "不过确实和布里斯托尔有关",
+		param = "だが確かにブリストルと無関係ってわけじゃない",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -15872,7 +15862,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1264] = {
-		param = "你没听说么？",
+		param = "お前は聞いてないのか",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -15880,7 +15870,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1265] = {
-		param = "布里斯托尔今天大喊着学校操场下面有怪叫幽灵，正在四处找帮手封锁现场呢",
+		param = "ブリストルが今日、運動場の下で幽霊が出たって騒ぎ立てていてな。現場を封鎖しようと協力者を探して回ってるんだ",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -15888,7 +15878,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1266] = {
-		param = "都找到铁血宿舍区来了",
+		param = "鉄血の寮まで来てたぞ",
 		ship_group = 40503,
 		flag = 0,
 		type = 1,
@@ -15896,12 +15886,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"还有这种事……"
+				"えぇ⋯⋯"
 			}
 		}
 	},
 	[1267] = {
-		param = "还有这种事……你那边有谁去了？",
+		param = "えぇ⋯⋯それで、鉄血寮で誰か行ったのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15909,7 +15899,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1268] = {
-		param = "{namecode:427}",
+		param = "オイゲンだ",
 		ship_group = 40503,
 		flag = 3,
 		type = 1,
@@ -15917,12 +15907,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"……"
+				"⋯⋯"
 			}
 		}
 	},
 	[1269] = {
-		param = "……",
+		param = "⋯⋯",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15930,7 +15920,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1270] = {
-		param = "怎么了，你也想去看看么？",
+		param = "どうした。お前も見に行きたいのか？",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -15938,7 +15928,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1271] = {
-		param = "毕竟是不可思议事件，好奇就去吧",
+		param = "気になるなら行くといい",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -15946,7 +15936,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1272] = {
-		param = "担心工作的话我来帮你，如何？",
+		param = "仕事のことなら手伝う。これでどうだ",
 		ship_group = 40503,
 		flag = 4,
 		type = 1,
@@ -15954,12 +15944,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"相比工作……"
+				"こっちの仕事より⋯"
 			}
 		}
 	},
 	[1273] = {
-		param = "相比工作……你还是去看看布里斯托尔那边吧",
+		param = "仕事より...フッテンには現場の様子を見てきてほしいんだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15967,7 +15957,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1274] = {
-		param = "嗯？布里斯托尔那边会有什么危险么？",
+		param = "ん？何か危険があるのか？",
 		ship_group = 40503,
 		flag = 5,
 		type = 1,
@@ -15975,12 +15965,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"我的操场可能会有危险"
+				"運動場が危ないんだ"
 			}
 		}
 	},
 	[1275] = {
-		param = "我的操场可能会有危险",
+		param = "運動場が危ないんだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -15988,7 +15978,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1276] = {
-		param = "我不是很明白你的意思……",
+		param = "何が言いたいかよく分からないんだが",
 		ship_group = 40503,
 		flag = 6,
 		type = 1,
@@ -15996,12 +15986,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"我担心会和之前一样……"
+				"ほら、この前みたいに⋯"
 			}
 		}
 	},
 	[1277] = {
-		param = "我担心布里斯托尔会和之前一样，调查不到所谓的神秘事件存在",
+		param = "ほら、この前みたいに、結局何の成果もなかったってことになったら⋯",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -16009,7 +15999,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1278] = {
-		param = "学校里没有未知的神秘事件……不是一件好事么？",
+		param = "不思議なんて存在しない。これは良い結果じゃないのか",
 		ship_group = 40503,
 		flag = 7,
 		type = 1,
@@ -16017,12 +16007,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"可能会来个深入调查……"
+				"いや、その逆だ"
 			}
 		}
 	},
 	[1279] = {
-		param = "然后{namecode:428}可能会怂恿她把跑道挖开，来个深入调查",
+		param = "「追加調査」ってオイゲンに唆されて、トラックを掘り返すことになるかもしれない⋯",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -16030,7 +16020,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[1280] = {
-		param = "………………",
+		param = "⋯⋯⋯⋯",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16038,7 +16028,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[1281] = {
-		param = "……确实像是{namecode:428}会提出来的建议",
+		param = "⋯⋯確かにオイゲンらしい提案だ",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16046,7 +16036,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[1282] = {
-		param = "那我去帮你看着",
+		param = "じゃあ代わりに様子を見てやる",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16054,7 +16044,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[1283] = {
-		param = "对了，要录视频么？",
+		param = "そうだ。録画もしたほうがいいか？",
 		ship_group = 40503,
 		flag = 8,
 		type = 1,
@@ -16062,12 +16052,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				9,
-				"视频？"
+				"録画？"
 			}
 		}
 	},
 	[1284] = {
-		param = "视频？",
+		param = "録画？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -16075,7 +16065,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[1285] = {
-		param = "如果真的存在不可思议事件，录下来之后正好可以给你看",
+		param = "ああ。もし本当に学園の不思議なんてあったら、お前にも見せてやれる",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16083,7 +16073,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[1286] = {
-		param = "如果没有不可思议事件——那就当成执法记录仪来用",
+		param = "なかったとしても――そうだな、証拠映像として使えるだろう",
 		ship_group = 40503,
 		flag = 9,
 		type = 1,
@@ -16091,12 +16081,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				10,
-				"好，交给你了！"
+				"ああ、任せた"
 			}
 		}
 	},
 	[1287] = {
-		param = "好，交给你了！",
+		param = "ああ、任せた",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -16112,7 +16102,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[1289] = {
-		param = "我办事，你放心",
+		param = "任せとけ",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16128,7 +16118,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[1291] = {
-		param = "提醒：别久坐，起来活动、喝水、放松眼睛",
+		param = "注意喚起：長時間座ってないで、立って、水を飲んで、目を休ませろ",
 		ship_group = 40503,
 		flag = 0,
 		type = 1,
@@ -16136,16 +16126,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"收到，我站起来了！"
+				"了解。今立ち上がった"
 			},
 			{
 				2,
-				"我刚起来活动，就看见你的消息了"
+				"ちょうど立ち上がって運動しようとしてたところだ"
 			}
 		}
 	},
 	[1292] = {
-		param = "收到，我站起来了！",
+		param = "了解。今立ち上がった",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -16153,7 +16143,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1293] = {
-		param = "提醒很及时，我差点就忘了",
+		param = "それにしてもいいタイミングだな。危うく忘れるところだった",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -16161,7 +16151,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1294] = {
-		param = "……",
+		param = "⋯⋯",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16169,7 +16159,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1295] = {
-		param = "等你回来，我给你设置几个闹钟吧",
+		param = "戻ったら、執務室にアラームを何個か置いてやる",
 		ship_group = 40503,
 		flag = 1,
 		type = 1,
@@ -16177,16 +16167,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"好，就交给你了"
+				"ああ、頼む"
 			},
 			{
 				4,
-				"你提醒我就好了"
+				"直接知らせてほしいな"
 			}
 		}
 	},
 	[1296] = {
-		param = "好，就交给你了",
+		param = "ああ、頼む",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -16194,7 +16184,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1297] = {
-		param = "你提醒我就好了",
+		param = "直接知らせてほしい",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -16202,7 +16192,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1298] = {
-		param = "没问题",
+		param = "いいだろう",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16210,7 +16200,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1299] = {
-		param = "话虽如此，还是要养成好的习惯",
+		param = "とはいえ、良い習慣は身につけておけ",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16218,7 +16208,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1300] = {
-		param = "工作再忙，也要注意身体",
+		param = "仕事が忙しくても、体は大事にしろ",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16226,7 +16216,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1301] = {
-		param = "多关心一下自己吧",
+		param = "もっと自分のことを考えろ",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16234,7 +16224,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1302] = {
-		param = "或者……我换个说法",
+		param = "もしくは⋯⋯違う言い方をすれば⋯⋯",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16242,7 +16232,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1303] = {
-		param = "别总让我担心你",
+		param = "私を心配させるな",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16250,7 +16240,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1304] = {
-		param = "好了，你也先别回复了，让眼睛多休息",
+		param = "⋯返事はいいから、目を瞑って休め",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16258,7 +16248,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1305] = {
-		param = "晚点回来，我们面聊",
+		param = "戻ったら直接話そう",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16266,7 +16256,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1306] = {
-		param = "我刚起来活动，就看见你的消息了",
+		param = "ちょうど立ち上がって運動しようとしてたところだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -16274,7 +16264,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1307] = {
-		param = "之后也要多起来活动",
+		param = "これからもちゃんと運動しろ",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16282,7 +16272,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1308] = {
-		param = "你工作还没结束么？你已经连轴转了好几天了",
+		param = "それにしても、まだ仕事が終わってないのか。もう何日も休んでないだろ",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16290,7 +16280,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1309] = {
-		param = "我来帮你吧",
+		param = "手伝わせてくれ",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16298,7 +16288,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1310] = {
-		param = "……试着多依赖我一些，也可以的",
+		param = "⋯⋯もっと私を頼ってもいい",
 		ship_group = 40503,
 		flag = 2,
 		type = 1,
@@ -16306,16 +16296,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"就快结束了，别担心"
+				"もうすぐ終わるから心配しないで"
 			},
 			{
 				6,
-				"快来救我于水火之中！"
+				"この苦しみから解放してくれ！"
 			}
 		}
 	},
 	[1311] = {
-		param = "就快结束了，别担心",
+		param = "もうすぐ終わるから心配しないで",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -16323,7 +16313,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1312] = {
-		param = "好",
+		param = "そうか",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16331,7 +16321,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1313] = {
-		param = "不过我已经在过去的路上了",
+		param = "だがもう執務室に向かってる",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16339,7 +16329,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1314] = {
-		param = "就当做是去接你下班吧",
+		param = "出迎えってことにしてくれ",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16347,7 +16337,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1315] = {
-		param = "快来救我于水火之中！",
+		param = "この苦しみから解放してくれ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -16355,7 +16345,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1316] = {
-		param = "早那么直率不就好了",
+		param = "最初から素直に言えばいいものを",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16363,7 +16353,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1317] = {
-		param = "我已经在路上了，再等等",
+		param = "もう執務室に向かってる。もう少し持ちこたえろ",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16371,7 +16361,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1318] = {
-		param = "你也先别回复了，让眼睛多休息",
+		param = "返事するな。目を瞑って休め",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16379,7 +16369,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1319] = {
-		param = "晚点我们面聊",
+		param = "戻ったら直接話そう",
 		ship_group = 40503,
 		type = 1,
 		option = "",
@@ -16387,7 +16377,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1320] = {
-		param = "闪耀魔法——",
+		param = "魔法の輝きを――",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16403,11 +16393,11 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"[晕头转向]"
+				"スタンプ「はわわ」"
 			},
 			{
 				2,
-				"[停下来啊！]"
+				"スタンプ「止まらないです」"
 			}
 		}
 	},
@@ -16428,7 +16418,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1324] = {
-		param = "呵呵，感受到魔法的力量了么，我的使魔。",
+		param = "ふふふ、魔法の力を感じた？私の使い魔",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16444,12 +16434,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"怎么了……"
+				"何かあった？"
 			}
 		}
 	},
 	[1326] = {
-		param = "怎么了……魔女小姐，遇到什么开心的事了么？",
+		param = "何か嬉しいことでもあった？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -16457,7 +16447,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1327] = {
-		param = "我只是在想……表情包，真是一种奇妙的“魔法”。",
+		param = "いいえ…ただ、スタンプが不思議な「魔法」に思えただけよ",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16465,7 +16455,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1328] = {
-		param = "明明我们相隔遥远，遥远到“枷锁”的联系都如此薄弱。",
+		param = "私たちに嵌められた「枷」の存在さえ弱く感じるほど、今は離れているのに…",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16473,7 +16463,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1329] = {
-		param = "却只需要一张表情，就能让你感受到我此时此刻内心的情感。",
+		param = "たった一つのスタンプで、この瞬間の感情を伝えられる",
 		ship_group = 49906,
 		flag = 3,
 		type = 1,
@@ -16481,12 +16471,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"这么一说的话……"
+				"言われてみれば⋯⋯"
 			}
 		}
 	},
 	[1330] = {
-		param = "这么一说的话，倒确实是这样……",
+		param = "言われてみれば確かに⋯⋯",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -16494,7 +16484,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1331] = {
-		param = "不过……不光是使用表情包",
+		param = "まあ、スタンプだけじゃなく",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -16502,7 +16492,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1332] = {
-		param = "在聊天打字的时候也放下些架子，轻松直率一些如何？",
+		param = "チャットだし、もう少し気楽になったほうがいいと思うよ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -16510,7 +16500,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1333] = {
-		param = "哦？",
+		param = "あら？",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16518,7 +16508,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1334] = {
-		param = "你这是在质疑本“魔女”的聊天方式么？",
+		param = "魔女のチャットの楽しみ方に文句でもあるのかしら？",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16526,7 +16516,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1335] = {
-		param = "想试着当个叛逆的孩子亦无不可，但我也会采取一些应对手段哦。",
+		param = "反抗的な子になろうとしても構わないけど、それなりの対処をさせてもらうわ",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16534,7 +16524,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1336] = {
-		param = "呵呵……",
+		param = "ふふふ⋯⋯",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16554,12 +16544,12 @@ pg.base.activity_ins_chat_language = {
 			},
 			{
 				6,
-				"[抱抱]"
+				"スタンプ：ぎゅっと"
 			}
 		}
 	},
 	[1338] = {
-		param = "……？",
+		param = "⋯⋯？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -16575,7 +16565,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1340] = {
-		param = "…………",
+		param = "⋯⋯⋯⋯",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16583,7 +16573,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1341] = {
-		param = "……我发错了，不是这个。",
+		param = "⋯⋯間違えたわ。これじゃない",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16591,7 +16581,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1342] = {
-		param = "应该是这个！",
+		param = "これよ",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16607,7 +16597,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1344] = {
-		param = "我的使魔，你喜欢怎样的香气呢？",
+		param = "使い魔はどんな匂いが好みかしら？",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16615,7 +16605,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1345] = {
-		param = "……重来。",
+		param = "⋯⋯",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16623,7 +16613,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1346] = {
-		param = "……重来",
+		param = "⋯⋯間違えたわ",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16631,7 +16621,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1347] = {
-		param = "你喜欢什么样的气味呢？",
+		param = "どんな香りが好きかしら？",
 		ship_group = 49906,
 		flag = 0,
 		type = 1,
@@ -16639,12 +16629,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"……这个问题有些宽泛"
+				"質問がちょっとアバウトすぎるな"
 			}
 		}
 	},
 	[1348] = {
-		param = "……这个问题有些宽泛",
+		param = "質問がちょっとアバウトすぎるな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -16652,7 +16642,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1349] = {
-		param = "具体是指什么类型的气味呢？",
+		param = "「どんな香り」って具体的には？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -16660,7 +16650,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1350] = {
-		param = "还是无法看透我的内心么",
+		param = "まだ私の心が読めないのね",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16668,7 +16658,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1351] = {
-		param = "那我就告诉你吧",
+		param = "じゃあ教えてあげる",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16676,7 +16666,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1352] = {
-		param = "我是在询问你魔法甘露的气味",
+		param = "私は魔法の雫の香りについて聞いているわ",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16684,7 +16674,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1353] = {
-		param = "也就是香水",
+		param = "つまり香水よ",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16692,7 +16682,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1354] = {
-		param = "不过在这方面你应该了解得不多",
+		param = "でもあなたはあまり詳しくないでしょう？",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16700,7 +16690,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1355] = {
-		param = "所以你只需要告诉我大概喜欢的气味类型就好",
+		param = "だから大まかな好きな香りさえ教えてくれれば結構よ",
 		ship_group = 49906,
 		flag = 1,
 		type = 1,
@@ -16708,20 +16698,20 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"喜欢食物的香气"
+				"食べ物の香りが好き"
 			},
 			{
 				3,
-				"喜欢你身上的香气"
+				"パーセヴァルの香りが好き"
 			},
 			{
 				4,
-				"你选的我都喜欢"
+				"パーセヴァルが選ぶものなら何でも好き"
 			}
 		}
 	},
 	[1356] = {
-		param = "我喜欢食物的香气！",
+		param = "食べ物の香りが大好きだ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -16729,7 +16719,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1357] = {
-		param = "我倒是也喜欢",
+		param = "私も好きよ",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16737,7 +16727,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1358] = {
-		param = "不过食物香气的香水……么",
+		param = "でも食べ物の香りの香水⋯⋯ね",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16745,7 +16735,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1359] = {
-		param = "也可以试试。",
+		param = "試してみてもいいわ",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16753,7 +16743,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1360] = {
-		param = "我喜欢你身上的香气",
+		param = "パーセヴァルの香りが好きかな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -16761,7 +16751,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1361] = {
-		param = "呵呵，居然还在回味我的气息",
+		param = "ふふふ、まだ私の香りを覚えているのね",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16769,7 +16759,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1362] = {
-		param = "看来你对我的爱意已然无法抑制了啊~",
+		param = "私への愛が抑えきれなくなってきたってことかしら？",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16785,7 +16775,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1364] = {
-		param = "你选的我都喜欢，完全交给你了！",
+		param = "パーセヴァルが選ぶものなら何でも好きさ。任せるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -16793,7 +16783,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1365] = {
-		param = "让我来掌控主导权么？",
+		param = "私に主導権を握らせるって意味かしら？",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16801,7 +16791,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1366] = {
-		param = "呵呵，我不讨厌哦",
+		param = "ふふふ、悪くないわ",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16809,7 +16799,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1367] = {
-		param = "那你就充满期待的等着吧",
+		param = "じゃあ期待して待っていて",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16817,7 +16807,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1368] = {
-		param = "嗯——我有灵感了。",
+		param = "ええ。今いいアイデアが浮かんだわ",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16825,7 +16815,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1369] = {
-		param = "我先去忙了",
+		param = "先に行くわね",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16833,7 +16823,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1370] = {
-		param = "调好之后，我再来通知你",
+		param = "調合が終わったら、また連絡するわ",
 		ship_group = 49906,
 		flag = 0,
 		type = 1,
@@ -16841,15 +16831,15 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"[哒]"
+				"（スタンプ：なのだ！）"
 			},
 			{
 				6,
-				"[期待哦]"
+				"（スタンプ：期待）"
 			},
 			{
 				7,
-				"[爱情表现]"
+				"（スタンプ：愛情表現）"
 			}
 		}
 	},
@@ -16902,7 +16892,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1377] = {
-		param = "'49906'戳了戳<color=#93e9ff>我</color>",
+		param = "システム：[アウグスト・フォン・パーシヴァル]があなたをつついた",
 		ship_group = 1,
 		type = 5,
 		option = "",
@@ -16910,7 +16900,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1378] = {
-		param = "困。",
+		param = "眠いわ",
 		ship_group = 49906,
 		flag = 0,
 		type = 1,
@@ -16918,16 +16908,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"昨晚没睡好么"
+				"昨夜眠れなかったの？"
 			},
 			{
 				2,
-				"[戳一戳]"
+				"[つつく]"
 			}
 		}
 	},
 	[1379] = {
-		param = "昨晚没睡好么？",
+		param = "昨夜眠れなかったの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -16935,7 +16925,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1380] = {
-		param = "没睡好。",
+		param = "ぐっすり眠れなかったわ",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16943,7 +16933,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1381] = {
-		param = "做噩梦了。",
+		param = "それで、悪夢を見たわよ",
 		ship_group = 49906,
 		flag = 1,
 		type = 1,
@@ -16951,12 +16941,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"是什么样的噩梦？"
+				"どんな悪夢だったの？"
 			}
 		}
 	},
 	[1382] = {
-		param = "<color=#93e9ff>我</color>戳了戳'49906'并坠入了魔女的梦",
+		param = "システム：[アウグスト・フォン・パーシヴァル]をつついて魔女の夢に落ちた",
 		ship_group = 0,
 		type = 5,
 		option = "",
@@ -16964,7 +16954,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1383] = {
-		param = "要不要去睡个回笼觉？",
+		param = "二度寝してみる？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -16972,7 +16962,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1384] = {
-		param = "睡不着。",
+		param = "眠れないわ",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -16980,7 +16970,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1385] = {
-		param = "一闭上眼，就会想起昨晚的梦。",
+		param = "目を閉じると、昨夜の夢を思い出してしまう",
 		ship_group = 49906,
 		flag = 2,
 		type = 1,
@@ -16988,12 +16978,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"是什么样的噩梦？"
+				"どんな悪夢だったの？"
 			}
 		}
 	},
 	[1386] = {
-		param = "是什么样的噩梦？",
+		param = "どんな悪夢だったの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17001,7 +16991,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1387] = {
-		param = "还有能吓到魔女的怪物么？",
+		param = "魔女を怖がらせる怪物なんているの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17009,7 +16999,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1388] = {
-		param = "那当然没有……",
+		param = "もちろんそんなのいないわ⋯⋯",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -17017,7 +17007,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1389] = {
-		param = "是你。",
+		param = "あなたよ",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -17025,7 +17015,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1390] = {
-		param = "梦里，你不辞而别。",
+		param = "夢の中で、あなたは何も言わずに去ってしまった",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -17033,7 +17023,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1391] = {
-		param = "我用尽所有的魔法，都无法寻找到你。",
+		param = "私はすべての魔法を使っても、あなたを見つけることができなかった",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -17041,7 +17031,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1392] = {
-		param = "我们之间的永恒羁绊也消失了。",
+		param = "私たちの永遠の絆も消えてしまった",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -17049,7 +17039,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1393] = {
-		param = "讨厌的梦。",
+		param = "全く嫌な夢ね",
 		ship_group = 49906,
 		flag = 3,
 		type = 1,
@@ -17057,16 +17047,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"别担心，只是一场梦"
+				"大丈夫、ただの夢だから"
 			},
 			{
 				5,
-				"真是讨厌的梦……"
+				"嫌な夢だな⋯"
 			}
 		}
 	},
 	[1394] = {
-		param = "别担心，只是一场梦而已",
+		param = "大丈夫、ただの夢だから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17074,7 +17064,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1395] = {
-		param = "噩梦与现实都是相反的",
+		param = "悪夢って現実とは真逆なんだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17082,7 +17072,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1396] = {
-		param = "我不会离开你的",
+		param = "パーセヴァルから離れたりしないから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17090,7 +17080,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1397] = {
-		param = "是啊，真是讨厌的梦……",
+		param = "そうだな。本当に嫌な夢だ⋯",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17098,7 +17088,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1398] = {
-		param = "别担心，我就在这里，不会离开你的",
+		param = "でも大丈夫。自分はここにいる。パーセヴァルから離れたりしないから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17106,7 +17096,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1399] = {
-		param = "那么，我的使魔，我的指挥官……",
+		param = "それじゃあ、私の使い魔、私の指揮官⋯⋯",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -17114,7 +17104,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1400] = {
-		param = "现在便放下束缚着你的其他事物，回到我的身边",
+		param = "今は他のことは忘れて、私の元に戻ってきて",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -17122,7 +17112,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1401] = {
-		param = "有你在身边的话，这一次闭上双眼后……",
+		param = "あなたが側にいてくれれば、今度目を閉じたら⋯⋯",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -17130,7 +17120,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1402] = {
-		param = "一定是美梦",
+		param = "きっと素敵な夢になるわ",
 		ship_group = 49906,
 		type = 1,
 		option = "",
@@ -17138,7 +17128,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1403] = {
-		param = "指挥官~",
+		param = "指揮官～",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17146,7 +17136,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1404] = {
-		param = "秘书舰的上班时间……好像已经过了？",
+		param = "秘書艦の勤務時間……もう過ぎてない？",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17154,7 +17144,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1405] = {
-		param = "不过反正也没什么重要的工作吧~",
+		param = "まぁ大した仕事もないしー",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17162,7 +17152,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1406] = {
-		param = "要不要……再睡一会呢……",
+		param = "もう少し……寝させてもらうよ……",
 		ship_group = 40404,
 		flag = 0,
 		type = 1,
@@ -17170,12 +17160,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"有重要工作"
+				"重要な仕事がある"
 			}
 		}
 	},
 	[1407] = {
-		param = "有重要工作，要整理物资清单",
+		param = "重要な仕事がある。物資リストを整理しないと",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17183,7 +17173,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1408] = {
-		param = "……是那个啊",
+		param = "……あぁ、それねー",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17191,7 +17181,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1409] = {
-		param = "不过指挥官看起来已经开始做了嘛……",
+		param = "でも指揮官が既にやり始めてるみたいだし……",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17199,7 +17189,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1410] = {
-		param = "那是不是不用我帮忙了……？",
+		param = "私は手伝わなくていいんじゃない……？",
 		ship_group = 40404,
 		flag = 1,
 		type = 1,
@@ -17207,12 +17197,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"不行——"
+				"ダメだ"
 			}
 		}
 	},
 	[1411] = {
-		param = "不行——给我负起秘书舰的责任来",
+		param = "ダメだ。秘書艦としての責任を果たしてもらうからな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17220,7 +17210,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1412] = {
-		param = "欸……这么认真干嘛~",
+		param = "えぇ……なんでそんなマジメに…",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17228,7 +17218,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1413] = {
-		param = "一想到物资清单里那么多的数字……就开始头疼啦",
+		param = "物資リストの数字を考えただけで……頭が痛くなってきた…",
 		ship_group = 40404,
 		flag = 2,
 		type = 1,
@@ -17236,12 +17226,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"你该不会……还在床上没动吧？"
+				"もしかして……まだベッドの上なのか？"
 			}
 		}
 	},
 	[1414] = {
-		param = "你该不会……还在床上没动吧？",
+		param = "まさかまだベッドの上なのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17249,7 +17239,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1415] = {
-		param = "欸……被发现了吗？",
+		param = "えぇ……バレちゃった？",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17257,7 +17247,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1416] = {
-		param = "但是被窝里好暖和啊……",
+		param = "だってお布団の中は暖かいんだもん……",
 		ship_group = 40404,
 		flag = 3,
 		type = 1,
@@ -17265,12 +17255,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"快过来吧"
+				"早く来てくれー！"
 			}
 		}
 	},
 	[1417] = {
-		param = "快过来吧，文件都堆成山了",
+		param = "早く来て！書類がもう山積みなんだ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17278,7 +17268,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1418] = {
-		param = "真是的~拿指挥官没办法呢……",
+		param = "もう～、しょうがない指揮官だね……",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17286,7 +17276,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1419] = {
-		param = "不过既然你这么求着我……",
+		param = "でもそこまで頼まれたら……",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17294,7 +17284,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1420] = {
-		param = "好吧好吧~那我现在就换衣服哦",
+		param = "はいはい～。今着替えてそっちに行くからねー！",
 		ship_group = 40404,
 		flag = 4,
 		type = 1,
@@ -17302,12 +17292,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"别再偷偷回去睡回笼觉！"
+				"二度寝してはダメだからな"
 			}
 		}
 	},
 	[1421] = {
-		param = "别再偷偷回去睡回笼觉！",
+		param = "二度寝してはダメだからな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17315,7 +17305,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1422] = {
-		param = "知道了知道了~",
+		param = "わかったわかった～",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17323,7 +17313,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1423] = {
-		param = "那就……半小时后见？",
+		param = "ええと……30分待ってくれる？",
 		ship_group = 40404,
 		flag = 5,
 		type = 1,
@@ -17331,12 +17321,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"十分钟内到办公室"
+				"10分以内に執務室に来てくれ"
 			}
 		}
 	},
 	[1424] = {
-		param = "十分钟内到办公室",
+		param = "10分以内で",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17344,7 +17334,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1425] = {
-		param = "欸...指挥官好严格啊",
+		param = "えぇ...指揮官厳しいなぁ",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17360,7 +17350,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1427] = {
-		param = "嘿嘿……指挥官~",
+		param = "えへへ……指揮官♪",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17368,7 +17358,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1428] = {
-		param = "晚饭后我随便走了走，又找到个不错的地方哦……",
+		param = "夕飯の後ちょっと散歩してたら、いい場所見つけちゃったぁ……",
 		ship_group = 40404,
 		flag = 0,
 		type = 1,
@@ -17376,16 +17366,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"让我猜猜……"
+				"当ててみようか"
 			},
 			{
 				2,
-				"这个时间还在外面闲逛么……"
+				"こんな時間にまだ外をぶらついてるの…？"
 			}
 		}
 	},
 	[1429] = {
-		param = "让我猜猜，又是个适合偷懒的地方？",
+		param = "当ててみようか……またサボりスポットか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17393,7 +17383,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1430] = {
-		param = "不是哦~",
+		param = "違うよ",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17401,7 +17391,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1431] = {
-		param = "这次的……是可以吹海风的地方",
+		param = "今回は……潮風がとっても気持ちいい場所なの",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17409,7 +17399,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1432] = {
-		param = "这个时间，你还在外面逛么……",
+		param = "こんな時間にまだ外をぶらついてるの…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17417,7 +17407,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1433] = {
-		param = "欸……指挥官好凶啊~",
+		param = "えぇ……指揮官怖いよー",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17425,7 +17415,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1434] = {
-		param = "人家只是恰好发现了而已嘛",
+		param = "たまたま見つけただけなのに",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17433,7 +17423,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1435] = {
-		param = "而且这里现在的风景真的很不错哦",
+		param = "しかもここの景色、今すっごくいい感じなんだよ？",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17441,7 +17431,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1436] = {
-		param = "啊，好像刚刚还有流星划过呢",
+		param = "あ、さっき流れ星が見えた",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17457,12 +17447,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"已经很晚了，快回去休息吧"
+				"もう遅いから、早く帰って休もう"
 			}
 		}
 	},
 	[1438] = {
-		param = "现在已经很晚了，快回去休息吧",
+		param = "もう遅いから、早く帰って休もう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17478,7 +17468,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1440] = {
-		param = "今晚的海风很不错，让人特别清醒呢~",
+		param = "今夜の潮風がすっごく気持ちよくて眠れそうにないな～",
 		ship_group = 40404,
 		flag = 3,
 		type = 1,
@@ -17486,12 +17476,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"那是你白天睡太多了"
+				"昼間寝すぎたからでしょ"
 			}
 		}
 	},
 	[1441] = {
-		param = "感觉你是白天睡太多了……",
+		param = "昼間寝すぎたからでしょ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17499,7 +17489,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1442] = {
-		param = "所以晚上到处乱转吧？",
+		param = "じゃあ夜中うろうろするしかないんじゃない？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17507,7 +17497,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1443] = {
-		param = "~指挥官这样说话好伤人哦……",
+		param = "うわ～、指揮官酷くない？",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17515,7 +17505,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1444] = {
-		param = "对了~",
+		param = "あ、そうだ",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17523,7 +17513,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1445] = {
-		param = "如果你现在过来的话，说不定能看到第二颗流星哦？",
+		param = "今来たら、二つ目の流れ星が見れるかもよ？",
 		ship_group = 40404,
 		flag = 4,
 		type = 1,
@@ -17531,12 +17521,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"现在这个时间就算了"
+				"やめとこう"
 			}
 		}
 	},
 	[1446] = {
-		param = "现在这个时间就算了，有点太晚了",
+		param = "この時間はやめとこう、もう遅いし",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17544,7 +17534,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1447] = {
-		param = "而且明天还有工作",
+		param = "明日も仕事があるから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17552,7 +17542,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1448] = {
-		param = "……又是工作啊~",
+		param = "……また仕事か～",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17560,7 +17550,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1449] = {
-		param = "那好吧，我自己看好了~",
+		param = "じゃあ私一人で見るね～",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17568,7 +17558,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1450] = {
-		param = "不过，要是错过了流星……或者其他什么的话~",
+		param = "もし流れ星とか何かを逃しても……",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17576,7 +17566,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1451] = {
-		param = "可不能怪我没邀请你呢……",
+		param = "恨みっこなしだよ～",
 		ship_group = 40404,
 		flag = 5,
 		type = 1,
@@ -17584,16 +17574,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"……好吧，真拿你没办法"
+				"……もう、仕方ないな"
 			},
 			{
 				7,
-				"你先回去，明天我们再去看"
+				"先に帰って、明日また見に行こう"
 			}
 		}
 	},
 	[1452] = {
-		param = "……好吧，真拿你没办法",
+		param = "仕方ないな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17601,7 +17591,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1453] = {
-		param = "我马上来，会再帮你带一件外套",
+		param = "すぐ出る。ついでに羽織るやつもなにか持って行こうか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17609,7 +17599,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1454] = {
-		param = "你先回去，明天我们再去看",
+		param = "先に帰って、明日また見に行こう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17617,7 +17607,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1455] = {
-		param = "欸……明天可不一定有流星哦？",
+		param = "ええ……明日は流れ星が見れるかわかんないよ？",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17625,7 +17615,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1456] = {
-		param = "而且现在的夜风超舒服的……",
+		param = "それに今の夜風だって超気持ちいいし……",
 		ship_group = 40404,
 		flag = 7,
 		type = 1,
@@ -17633,12 +17623,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"好吧，我马上就过去"
+				"……もう、仕方ないな"
 			}
 		}
 	},
 	[1457] = {
-		param = "好吧，我马上就过去",
+		param = "……もう、仕方ないな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17646,7 +17636,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[1458] = {
-		param = "呵呵~就知道指挥官会来呢",
+		param = "ふふ～、指揮官なら来てくれるって知ってた",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17654,7 +17644,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1459] = {
-		param = "我先去平时我们见面的地方等你哦~",
+		param = "いつもの場所で待ってるね～",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17662,7 +17652,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1460] = {
-		param = "哎呀哎呀~",
+		param = "あらら～",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17678,12 +17668,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"怎么了？"
+				"どうしたの？"
 			}
 		}
 	},
 	[1462] = {
-		param = "怎么了？",
+		param = "どうしたの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17691,7 +17681,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1463] = {
-		param = "指挥官的工作安排表……",
+		param = "指揮官のタスクリスト……",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17699,7 +17689,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1464] = {
-		param = "好像被我不小心划掉啦~",
+		param = "うっかり消しちゃったみたい～",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17715,12 +17705,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"又来了……"
+				"またか……"
 			}
 		}
 	},
 	[1466] = {
-		param = "又来了……",
+		param = "またか……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17728,7 +17718,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1467] = {
-		param = "这次是什么理由？",
+		param = "今度はどんな言い訳だ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17736,7 +17726,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1468] = {
-		param = "哎呀……这不是显而易见吗？",
+		param = "ふーん……わかりきってるでしょ？",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17744,7 +17734,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1469] = {
-		param = "就是觉得你最近太忙了",
+		param = "最近指揮官は忙しすぎるから",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17752,7 +17742,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1470] = {
-		param = "所以把一些不重要的工作就统统划掉了",
+		param = "つまんない仕事は全部消しちゃったよ",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17760,7 +17750,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1471] = {
-		param = "反正那些无聊的事，明天再做也一样吧？",
+		param = "どうせそんなの、明日やってもいいでしょ？",
 		ship_group = 40404,
 		flag = 2,
 		type = 1,
@@ -17768,12 +17758,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"那可不行……"
+				"それはダメだ……"
 			}
 		}
 	},
 	[1472] = {
-		param = "那可不行……",
+		param = "それはダメだ……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17781,7 +17771,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1473] = {
-		param = "有些不重要的也就算了，但还有不少今天必须要处理完的文件呢",
+		param = "重要じゃないのはいいけど、今日中に片付けないといけない書類だってある",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17789,7 +17779,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1474] = {
-		param = "我要马上重新安排一下计划……",
+		param = "すぐにスケジュールを立て直さないと……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17797,7 +17787,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1475] = {
-		param = "哼哼~别白费心思啦",
+		param = "ふふん～無駄の努力はよせよせ～",
 		ship_group = 40404,
 		flag = 3,
 		type = 1,
@@ -17805,12 +17795,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"什么意思？"
+				"どういうこと？"
 			}
 		}
 	},
 	[1476] = {
-		param = "嗯？什么意思？",
+		param = "どういうこと？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17818,7 +17808,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1477] = {
-		param = "那些必须要处理的文件，我已经处理过了哦",
+		param = "片付けないといけない書類なら、もうリュッツォウがなんとかしてあげたよ",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17826,7 +17816,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1478] = {
-		param = "所以说啊……今天就由我来安排你的时间好了",
+		param = "だから……今日は指揮官の予定はリュッツォウが決めちゃう",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17834,7 +17824,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1479] = {
-		param = "呵呵~别想反抗",
+		param = "ふふふ～無駄な足掻きをしないことだ～",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17842,7 +17832,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1480] = {
-		param = "这就是指挥官一直不肯陪我偷懒的补偿哦……",
+		param = "一緒にサボってくれなかったことへの補填、だからね……",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17858,12 +17848,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"好吧……你在盘算什么？"
+				"はぁ……何を企んでるの？"
 			}
 		}
 	},
 	[1482] = {
-		param = "好吧……你在盘算什么？",
+		param = "はぁ……何を企んでるの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17871,7 +17861,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1483] = {
-		param = "嗯……我啊……现在在商业区的咖啡店哦",
+		param = "うーん……私ね……今商店街のカフェにいるの",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17879,7 +17869,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1484] = {
-		param = "这里的提拉米苏和咖啡都很不错……",
+		param = "ここのティラミスとコーヒーがすっごく美味しくて……",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17887,7 +17877,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1485] = {
-		param = "不过一个人吃，总感觉少了点什么呢……",
+		param = "でも一人だと、なんか物足りないなぁ……",
 		ship_group = 40404,
 		flag = 5,
 		type = 1,
@@ -17895,12 +17885,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"这是……预谋已久？"
+				"まさか最初からこれを狙ってた…？"
 			}
 		}
 	},
 	[1486] = {
-		param = "这是……预谋已久？",
+		param = "まさか最初からこれを狙ってた…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17908,7 +17898,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1487] = {
-		param = "谁知道呢……反正店里的位置已经留好了……",
+		param = "さあ……でも席は取ってあるよ……",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17916,7 +17906,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1488] = {
-		param = "啊……又开始犯困了~你再不来的话……",
+		param = "はあ……また眠くなってきた～。早く来ないと……",
 		ship_group = 40404,
 		flag = 6,
 		type = 1,
@@ -17924,12 +17914,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"我马上到"
+				"すぐ行くよ"
 			}
 		}
 	},
 	[1489] = {
-		param = "我马上到",
+		param = "すぐ行くよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17937,7 +17927,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1490] = {
-		param = "呵呵~就知道你会这么说",
+		param = "ふふ～、そう言ってくれると思ってた",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17945,7 +17935,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1491] = {
-		param = "那我就努力忍耐一下睡意……",
+		param = "じゃあ眠気と戦いながら待ってるね……",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17953,7 +17943,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1492] = {
-		param = "不过，今天的甜点……要由你来请客哦",
+		param = "今日のデザートは……指揮官のおごりだから♪",
 		ship_group = 40404,
 		type = 1,
 		option = "",
@@ -17961,7 +17951,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1493] = {
-		param = "Guten Tag，指挥官。我是{namecode:542}，这是我的账号。",
+		param = "Guten Tag、指揮官。こちらフリッツ・ルメイ、これが我のアカウントだ",
 		ship_group = 40704,
 		flag = 0,
 		type = 1,
@@ -17969,12 +17959,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"你好"
+				"こんにちは"
 			}
 		}
 	},
 	[1494] = {
-		param = "你好，没想到你也这么快用上啾信了",
+		param = "こんにちは、こんなに早く艦チャットを使い始めるとは驚いたよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -17982,7 +17972,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1495] = {
-		param = "我认为这里作为直属部下与上司之间的沟通渠道之一，是非常有必要的。",
+		param = "貴殿と効率的なコミュニケーションを取るための重要な手段だと判断した",
 		ship_group = 40704,
 		flag = 1,
 		type = 1,
@@ -17990,12 +17980,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"嗯……确实如此"
+				"確かにそうだな"
 			}
 		}
 	},
 	[1496] = {
-		param = "嗯……确实如此",
+		param = "確かにそうだな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18003,7 +17993,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1497] = {
-		param = "不过私下里也是可以聊点轻松话题的",
+		param = "ただ、たまには気楽な話をするのも悪くないと思うよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18011,7 +18001,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1498] = {
-		param = "哦对了，明天的会议材料可以发我一份么？",
+		param = "そうだ、明日の会議資料を送ってもらえないかな？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18019,7 +18009,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1499] = {
-		param = "已发送至您的邮箱。请及时查收并进行预习。",
+		param = "既にメールボックスに送ってある。会議までに一度お目通しを",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18027,7 +18017,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1500] = {
-		param = "共三个文件：会议议程、数据报告、行动方案。",
+		param = "ファイルは合計3つ。会議議題、データレポート、そして行動計画だ",
 		ship_group = 40704,
 		flag = 2,
 		type = 1,
@@ -18035,16 +18025,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"收到了，多谢~"
+				"受け取ったよ。ありがとう"
 			},
 			{
 				4,
-				"材料已收到"
+				"資料を確認したよ"
 			}
 		}
 	},
 	[1501] = {
-		param = "收到了，多谢~",
+		param = "受け取ったよ。ありがとう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18060,7 +18050,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1503] = {
-		param = "这是分内之事，不需要感谢。",
+		param = "当然の職務だ。感謝の必要はない",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18068,7 +18058,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1504] = {
-		param = "另外，根据天气预报，明日有雨。请提前15分钟到达会议室。",
+		param = "それと、明日は雨の予報が出ている。会議室には15分早めに到着するように",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18076,7 +18066,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1505] = {
-		param = "另外，使用表情似乎不符合公务沟通礼仪。",
+		param = "加えて、貴殿の絵文字の使用についてだが、公務において適切とは言い難い",
 		ship_group = 40704,
 		flag = 3,
 		type = 1,
@@ -18084,12 +18074,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"没关系，我不介意"
+				"別にいいのでは…？"
 			}
 		}
 	},
 	[1506] = {
-		param = "没关系，我不介意",
+		param = "別にいいのでは…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18097,7 +18087,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1507] = {
-		param = "所以你也不用在这一点上太过纠结了",
+		param = "ルメイも、そんなに固く考えずにね？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18105,7 +18095,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1508] = {
-		param = "我……尽量。",
+		param = "……努力する",
 		ship_group = 40704,
 		flag = 5,
 		type = 1,
@@ -18113,12 +18103,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"对了……"
+				"ところで……"
 			}
 		}
 	},
 	[1509] = {
-		param = "对了，会议室的投影设备最近出故障了，明天应该能正常使用吧？",
+		param = "ところで最近、会議室のプロジェクターの調子が悪いようだけど、明日は問題なさそう？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18126,7 +18116,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1510] = {
-		param = "请放心，我已经联系技术人员检修过了。",
+		param = "既に技術スタッフに点検を依頼済みだ。問題ない",
 		ship_group = 40704,
 		flag = 6,
 		type = 1,
@@ -18134,12 +18124,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				10,
-				"那就明天见"
+				"じゃあまた明日"
 			}
 		}
 	},
 	[1511] = {
-		param = "材料已收到",
+		param = "資料を確認したよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18147,7 +18137,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1512] = {
-		param = "我注意到你对第三部分做了特别详细的整理？",
+		param = "特に3つ目の内容が非常に詳しく整理されているね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18155,7 +18145,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1513] = {
-		param = "那部分涉及重要数据。",
+		param = "その部分には重要なデータが含まれている",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18163,7 +18153,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1514] = {
-		param = "为确保会议效率，我做了重点标注。",
+		param = "会議の効率を上げるため、重要箇所を赤字でマークしておいた",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18171,7 +18161,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1515] = {
-		param = "红色标注需要优先讨论。",
+		param = "該当箇所は最優先で議論すべきだ",
 		ship_group = 40704,
 		flag = 4,
 		type = 1,
@@ -18179,12 +18169,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"考虑的很周到"
+				"用意周到だね"
 			}
 		}
 	},
 	[1516] = {
-		param = "考虑的很周到，应该能节省不少讨论时间",
+		param = "用意周到だね。これで議論の時間が大幅に節約できそうだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18192,7 +18182,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1517] = {
-		param = "这是基本工作要求。",
+		param = "これも仕事の一環だ",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18200,7 +18190,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1518] = {
-		param = "另外，根据天气预报，明日有雨。请提前15分钟到达会议室。",
+		param = "それと、明日は雨の予報が出ている。会議室には15分早めに到着するように",
 		ship_group = 40704,
 		flag = 7,
 		type = 1,
@@ -18208,12 +18198,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"明白"
+				"了解だ"
 			}
 		}
 	},
 	[1519] = {
-		param = "明白",
+		param = "了解だ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18221,7 +18211,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[1520] = {
-		param = "顺便问一下，会议室的空调设置你是否已经调整过了？",
+		param = "ところで、会議室のエアコンの設定温度は調整済み？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18229,7 +18219,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[1521] = {
-		param = "已调整至24度。",
+		param = "24度に設定している",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18237,7 +18227,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[1522] = {
-		param = "这是根据上周的会议反馈进行了相应设置。",
+		param = "先週の会議での意見を反映して調整したまでだが",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18245,7 +18235,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[1523] = {
-		param = "如有不适，可随时告知。",
+		param = "適切でないならいつでも言ってくれ",
 		ship_group = 40704,
 		flag = 8,
 		type = 1,
@@ -18253,12 +18243,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				9,
-				"很好"
+				"むしろ助かった"
 			}
 		}
 	},
 	[1524] = {
-		param = "很好",
+		param = "むしろ助かった",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18266,7 +18256,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[1525] = {
-		param = "我很高兴能与指挥官进行一场规范且高效的沟通。",
+		param = "効率的なコミュニケーションが取れるのは喜ばしい限りだ",
 		ship_group = 40704,
 		flag = 9,
 		type = 1,
@@ -18274,12 +18264,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				10,
-				"那就明天见"
+				"じゃあまた明日"
 			}
 		}
 	},
 	[1526] = {
-		param = "那就明天见了，你也别太晚休息",
+		param = "じゃあまた明日。ルメイは早めに休んでくれ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18295,7 +18285,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[1528] = {
-		param = "[正在输入...]",
+		param = "[入力中……]",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18303,7 +18293,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[1529] = {
-		param = "[取消输入]",
+		param = "[入力がキャンセルされました]",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18311,7 +18301,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[1530] = {
-		param = "明日会议室见。",
+		param = "ああ。では明日、会議室で",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18319,7 +18309,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[1531] = {
-		param = "指挥官，现在应该是休息时间，但我看到指挥室的灯还亮着。",
+		param = "指揮官、今は休憩時間のはずだが、執務室の明かりがついているようだ",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18327,7 +18317,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1532] = {
-		param = "据观察，这是您本周第三次超时工作。",
+		param = "これで今週3回目の残業だぞ",
 		ship_group = 40704,
 		flag = 0,
 		type = 1,
@@ -18335,16 +18325,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"马上就好了"
+				"もうすぐ終わるよ"
 			},
 			{
 				2,
-				"临时多了点工作"
+				"急な仕事が入って…"
 			}
 		}
 	},
 	[1533] = {
-		param = "马上就好了，再整理一下数据",
+		param = "データを整理するだけだから、もうすぐ終わるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18352,7 +18342,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1534] = {
-		param = "临时多了点工作，所以还在加班",
+		param = "急な仕事が入ってしまって…だから仕方なく残業中だよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18368,7 +18358,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1536] = {
-		param = "我带了咖啡，现在去指挥室帮你",
+		param = "コーヒーを差し入れるつもりだったが、手伝おう",
 		ship_group = 40704,
 		flag = 0,
 		type = 1,
@@ -18376,12 +18366,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"不会耽误你的休息时间么？"
+				"ルメイの休憩は大丈夫か？"
 			}
 		}
 	},
 	[1537] = {
-		param = "不会耽误你的休息时间么？",
+		param = "ルメイの休憩は大丈夫か？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18389,7 +18379,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1538] = {
-		param = "协助指挥官完成工作是我的分内之事。",
+		param = "貴殿をサポートするのが我の責務だ",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18397,7 +18387,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1539] = {
-		param = "你还在工作，我没有休息的道理。",
+		param = "貴殿が働いているというのに、我が休息を取る道理はない",
 		ship_group = 40704,
 		flag = 3,
 		type = 1,
@@ -18405,12 +18395,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"多谢，让你操心了"
+				"気遣ってくれてありがとう"
 			}
 		}
 	},
 	[1540] = {
-		param = "多谢，让你操心了",
+		param = "気遣ってくれてありがとう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18418,7 +18408,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1541] = {
-		param = "相比我，指挥官更应该关心的是自己的身体。",
+		param = "それより、貴殿は自身の健康にもっと気を使うべきだ",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18426,7 +18416,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1542] = {
-		param = "就现状推断，你的晚餐应该也没有着落吧。",
+		param = "状況から察するに、夕食もまだだろう？",
 		ship_group = 40704,
 		flag = 4,
 		type = 1,
@@ -18434,12 +18424,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"正是如此……"
+				"そうだけど…"
 			}
 		}
 	},
 	[1543] = {
-		param = "正是如此……被你发现了啊",
+		param = "そうだけど……見抜かれたか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18447,7 +18437,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1544] = {
-		param = "当然瞒不过我。",
+		param = "当然だ",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18455,7 +18445,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1545] = {
-		param = "包括你最近连续多天不规律用餐这件事我也很清楚。",
+		param = "最近、不規則な食事をしていることも把握している",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18463,7 +18453,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1546] = {
-		param = "当然……我必须要声明，我不是对指挥官的生活感兴趣。",
+		param = "念のため言っておくが、貴殿のプライベートに興味があるわけではない",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18471,7 +18461,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1547] = {
-		param = "而是这关系到港区的整体运作效率。",
+		param = "あくまで母港全体の運営に関わる問題だ",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18479,7 +18469,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1548] = {
-		param = "为了帮指挥官节省时间，就由我帮你去食堂取晚餐吧。",
+		param = "貴殿の時間を節約するため、食堂から夕食を持ってこよう",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18487,7 +18477,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1549] = {
-		param = "菜品由我来指定。",
+		param = "メニューはこちらで決める",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18495,7 +18485,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1550] = {
-		param = "一会我也会亲自监督你认真吃下去。",
+		param = "貴殿がきちんと喫食するまで見届けさせてもらう",
 		ship_group = 40704,
 		flag = 5,
 		type = 1,
@@ -18503,16 +18493,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"多谢了！"
+				"助かる！"
 			},
 			{
 				7,
-				"无处不在的监督者！"
+				"なんだか監視されているような…"
 			}
 		}
 	},
 	[1551] = {
-		param = "多谢了！",
+		param = "助かる！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18520,7 +18510,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1552] = {
-		param = "正如我此前所说，不用客气，这是我职责所在。",
+		param = "先ほども言ったが、こっちの責務だ。気にする必要はない",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18528,7 +18518,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1553] = {
-		param = "无处不在的监督者！",
+		param = "なんだか監視されているような…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18536,7 +18526,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1554] = {
-		param = "这也是落实港区整体规划的一环。",
+		param = "これも母港全体の運営計画を監督する一環だ",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18544,7 +18534,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1555] = {
-		param = "请你尽快习惯。",
+		param = "早く慣れてくれると助かる",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18552,7 +18542,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1556] = {
-		param = "指挥室见。",
+		param = "では、執務室で会おう",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18560,7 +18550,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1557] = {
-		param = "指挥官。",
+		param = "指揮官",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18568,7 +18558,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1558] = {
-		param = "我今天的工作提前完成了。",
+		param = "今日の所務はいつもより早く終わった",
 		ship_group = 40704,
 		flag = 0,
 		type = 1,
@@ -18576,12 +18566,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"一如既往的高效"
+				"相変わらずのテキパキさだ"
 			}
 		}
 	},
 	[1559] = {
-		param = "一如既往的高效啊，接下来有什么安排么？",
+		param = "相変わらずのテキパキさだな。この後は何か予定でもあるの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18589,7 +18579,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1560] = {
-		param = "嗯……其实，我打算帮你准备晚餐。",
+		param = "うむ……実は、夕食の準備をしようと思っている",
 		ship_group = 40704,
 		flag = 1,
 		type = 1,
@@ -18597,12 +18587,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"……该不会是你来下厨？"
+				"……まさか、ルメイが料理をするのか？"
 			}
 		}
 	},
 	[1561] = {
-		param = "……该不会是你来下厨？",
+		param = "……まさか、ルメイが料理を？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18610,7 +18600,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1562] = {
-		param = "是的。",
+		param = "その通りだ",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18618,7 +18608,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1563] = {
-		param = "我根据战术手册中野外生存部分的菜谱进行了些许尝试……",
+		param = "戦術マニュアルのサバイバル編に載っていたレシピを少しアレンジしてみようと思っている",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18626,7 +18616,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1564] = {
-		param = "虽然可能不够完美……",
+		param = "自信作とは言えないかもしれないが……",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18634,7 +18624,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1565] = {
-		param = "但能保证营养搭配，保证卫生健康。",
+		param = "栄養バランスと衛生面は保証する",
 		ship_group = 40704,
 		flag = 2,
 		type = 1,
@@ -18642,12 +18632,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"令人期待"
+				"とても楽しみだ"
 			}
 		}
 	},
 	[1566] = {
-		param = "真是令人期待！",
+		param = "それはとても楽しみだな！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18655,7 +18645,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1567] = {
-		param = "实事求是来说，还是不要过分期待比较好。",
+		param = "正直に言うと、あまり期待しない方がいい",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18663,7 +18653,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1568] = {
-		param = "我的烹饪水平远不如我的工作水平那样可靠。",
+		param = "我が料理の腕前は事務作業ほどの自信はないからだ",
 		ship_group = 40704,
 		flag = 3,
 		type = 1,
@@ -18671,12 +18661,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"好，不给你压力了"
+				"そうか…じゃあ普通に楽しみにしておくよ"
 			}
 		}
 	},
 	[1569] = {
-		param = "好，不给你压力了",
+		param = "そうか…じゃあ普通に楽しみにしておくよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18684,7 +18674,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1570] = {
-		param = "不过我相信以你的能力，很快就能在烹饪之道上大放光彩了",
+		param = "でも、ルメイなら料理の分野でもすぐに成果を出せると思うけどな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18692,7 +18682,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1571] = {
-		param = "……为什么这么说？",
+		param = "……なぜそう思う？",
 		ship_group = 40704,
 		flag = 4,
 		type = 1,
@@ -18700,12 +18690,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"严谨、认真……"
+				"真面目で几帳面で……"
 			}
 		}
 	},
 	[1572] = {
-		param = "严谨、认真、有耐心、理解分析能力强，而且注重流程规范",
+		param = "真面目で几帳面、辛抱強く、頭が回って分析力も高いし、物事の過程にもよく気を使ってくれる",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18713,7 +18703,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1573] = {
-		param = "有这样的能力，任何菜系的菜谱都不在话下吧？",
+		param = "そんな性格なら、どんな料理もマスターできるはずだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18721,7 +18711,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1574] = {
-		param = "我倒是第一次往这方面想……",
+		param = "なるほど、そういう見方もあるのか……",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18729,7 +18719,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1575] = {
-		param = "不过……你说的确实有道理。",
+		param = "確かに……貴殿の言う通りかもしれない",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18737,7 +18727,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1576] = {
-		param = "之后有空我会多试试的。",
+		param = "今後、時間があれば他の料理にも挑戦してみるとしよう",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18745,7 +18735,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1577] = {
-		param = "好了，我去准备晚餐了。",
+		param = "では、夕食の準備に取り掛かる",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18753,7 +18743,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1578] = {
-		param = "在你结束工作之后，正好能吃到刚出锅的。",
+		param = "貴殿が仕事を終えた頃には、こちらも作り終えて持って行けるはずだ",
 		ship_group = 40704,
 		flag = 5,
 		type = 1,
@@ -18761,7 +18751,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"[大碗装]"
+				"スタンプ：大盛り"
 			}
 		}
 	},
@@ -18774,7 +18764,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1580] = {
-		param = "[正在输入...]",
+		param = "[入力中……]",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18782,7 +18772,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1581] = {
-		param = "[取消输入]",
+		param = "[入力がキャンセルされました]",
 		ship_group = 40704,
 		type = 1,
 		option = "",
@@ -18798,7 +18788,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1583] = {
-		param = "指挥官指挥官！！",
+		param = "指揮官！！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -18806,7 +18796,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1584] = {
-		param = "我刚刚在训练场发现了一个超~~级~~棒的新线路！！",
+		param = "聞いて聞いて！訓練場でめっちゃすごいパルクールルートを見つけたよ！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -18822,16 +18812,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"……从仓库顶上跳下来？"
+				"……倉庫の屋根から飛び降りるとか？"
 			},
 			{
 				2,
-				"……从体育馆窗户钻出去？"
+				"……体育館の窓から抜け出すルートとか？"
 			}
 		}
 	},
 	[1586] = {
-		param = "……从仓库顶上跳下来？",
+		param = "……倉庫の屋根から飛び降りるとか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18839,7 +18829,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1587] = {
-		param = "……从体育馆窗户钻出去？",
+		param = "……体育館の窓から抜け出すルートとか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18847,7 +18837,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1588] = {
-		param = "不是啦！",
+		param = "違うってば！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -18855,7 +18845,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1589] = {
-		param = "这次是从训练场东南的围墙翻过去！",
+		param = "今回は東南の壁を飛び越えて、その勢いで木の枝に飛び移るの！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -18863,7 +18853,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1590] = {
-		param = "然后借力跳到树上，最后从树枝直接跳到终点！",
+		param = "そこから一気にゴールへジャンプ！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -18871,7 +18861,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1591] = {
-		param = "超帅的！要来看我示范吗？",
+		param = "とにかくすごいんだから！一度見てみる！？",
 		ship_group = 40152,
 		flag = 0,
 		type = 1,
@@ -18879,12 +18869,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"等等，这也太危险了吧！"
+				"待て、危なくないか？"
 			}
 		}
 	},
 	[1592] = {
-		param = "等等，这也太危险了吧！",
+		param = "待て、危なくないか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18892,7 +18882,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1593] = {
-		param = "欸？危险吗？",
+		param = "え？危ない？",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -18900,7 +18890,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1594] = {
-		param = "我刚刚试了好几次都很顺利啊！",
+		param = "何回もやったけど、全部成功してるし！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -18908,7 +18898,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1595] = {
-		param = "而且用上雷火之心的话……一定能完美洞察路线！",
+		param = "サンダーハートを使えばルートが全部見えてるもん！",
 		ship_group = 40152,
 		flag = 3,
 		type = 1,
@@ -18916,12 +18906,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"对我的树很危险"
+				"木にとって危ないんだが…"
 			}
 		}
 	},
 	[1596] = {
-		param = "对我的树很危险……",
+		param = "木にとって危ないんだが…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18929,7 +18919,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1597] = {
-		param = "压坏了花花草草也不好啊",
+		param = "花壇や芝生に損害を出すのも良くないな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18945,12 +18935,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"老实等着我去训练场……"
+				"訓練場に行くから待ってて"
 			}
 		}
 	},
 	[1599] = {
-		param = "老实等着我去训练场，我帮你设计一个更合适的路线",
+		param = "よし、訓練場に行くから、あとで安全なルートを一緒に考えよう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18958,7 +18948,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1600] = {
-		param = "真的吗！太好了！",
+		param = "ほんと！？やったあ！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -18966,7 +18956,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1601] = {
-		param = "指挥官原来也懂跑酷啊？",
+		param = "指揮官、もしかしてパルクールにも詳しかったりする？",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -18982,12 +18972,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"不太懂"
+				"全然詳しくないけど"
 			}
 		}
 	},
 	[1603] = {
-		param = "不太懂，但我知道怎么保护港区的安全",
+		param = "全然詳しくないけど、母港の安全を守る方法ならわかってるつもりだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -18995,7 +18985,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1604] = {
-		param = "至于帅气嘛……我会尽量的",
+		param = "かっこよさをどこまで求められるかは……頑張ってみるしかないな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19003,7 +18993,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1605] = {
-		param = "那我再去热身一下，用最好的状态等你！",
+		param = "大丈夫！じゃあちょっとウォーミングアップしてくる！ぶっ飛べる調子で待ってる！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -19019,7 +19009,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1607] = {
-		param = "指挥官指挥官指挥官！！",
+		param = "指揮官！指揮官！！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -19027,7 +19017,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1608] = {
-		param = "外面下雨了！而且是大雨哦！",
+		param = "外は大雨だよ！水たまりがいっぱい！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -19035,7 +19025,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1609] = {
-		param = "好想出去玩水啊，想在雨天跑酷，雷火之心启动！",
+		param = "雨の中で飛び回ってパルクールしたぁい！サンダーハート、起動！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -19051,16 +19041,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"听说一会雨还会下得更大"
+				"まだまだ雨が強くなるって聞いたけど"
 			},
 			{
 				2,
-				"小心着凉"
+				"風邪ひくなよ！"
 			}
 		}
 	},
 	[1611] = {
-		param = "可是我听说一会雨还会下得更大",
+		param = "まだまだ雨が強くなるって聞いたけど……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19068,7 +19058,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1612] = {
-		param = "雨还会更大吗！那太好了！",
+		param = "本当？最高じゃない！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -19076,7 +19066,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1613] = {
-		param = "我要出发啦，指挥官回见——！",
+		param = "じゃあ行ってくる！指揮官、また後でーー！",
 		ship_group = 40152,
 		flag = 1,
 		type = 1,
@@ -19084,12 +19074,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"等一下！"
+				"待った！"
 			}
 		}
 	},
 	[1614] = {
-		param = "小心着凉",
+		param = "風邪ひくなよ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19097,7 +19087,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1615] = {
-		param = "只要我启动雷火之心，就一定没问题的！",
+		param = "大丈夫！サンダーハートがあれば平気だから！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -19105,7 +19095,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1616] = {
-		param = "我出发了，指挥官回见——！",
+		param = "じゃあ行ってくる！指揮官、また後でーー！",
 		ship_group = 40152,
 		flag = 2,
 		type = 1,
@@ -19113,12 +19103,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"等一下！"
+				"待った！"
 			}
 		}
 	},
 	[1617] = {
-		param = "等一下！",
+		param = "待った！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19126,7 +19116,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1618] = {
-		param = "嗯？！怎么了怎么了！",
+		param = "ん？！どうしたの？",
 		ship_group = 40152,
 		flag = 3,
 		type = 1,
@@ -19134,12 +19124,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"要不你还是来指挥室吧……"
+				"やっぱり執務室に来てもらおうかな"
 			}
 		}
 	},
 	[1619] = {
-		param = "要不……还是别去跑酷，直接来指挥室吧",
+		param = "その……やっぱりパルクールはやめて、執務室に来てもらおうかな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19147,7 +19137,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1620] = {
-		param = "我给你准备好喝的热巧克力",
+		param = "ホットチョコを用意するから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19163,7 +19153,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1622] = {
-		param = "热巧克力吗？我来了！",
+		param = "ホットチョコ！？うん！行く行く！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -19171,7 +19161,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1623] = {
-		param = "呜，但是但是！",
+		param = "んーでもでも！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -19179,7 +19169,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1624] = {
-		param = "下雨天跑酷的话也很有挑战性！",
+		param = "雨の中でのパルクールも魅力的なんだよね！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -19187,7 +19177,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1625] = {
-		param = "我都想好路线了！",
+		param = "ルートだってもう完璧に考えたのに！",
 		ship_group = 40152,
 		flag = 4,
 		type = 1,
@@ -19195,12 +19185,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"把跑酷终点设定在指挥室"
+				"じゃあ、ゴール地点を執務室に設定するのはどうだ？"
 			}
 		}
 	},
 	[1626] = {
-		param = "把跑酷终点设定在指挥室",
+		param = "ゴール地点を執務室に設定すれば？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19208,7 +19198,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1627] = {
-		param = "倒是可以？！但是距离太短了，运动量不够！",
+		param = "それもアリだけど、近すぎて運動にならないよ！",
 		ship_group = 40152,
 		flag = 5,
 		type = 1,
@@ -19216,12 +19206,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"你先来喝热巧克力……"
+				"まずはホットチョコを飲んで"
 			}
 		}
 	},
 	[1628] = {
-		param = "你先来喝热巧克力，然后我陪你去训练场",
+		param = "ホットチョコを飲んでから、一緒に訓練場に行こうか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19229,7 +19219,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1629] = {
-		param = "真的吗？！指挥官会陪我一起训练吗？",
+		param = "え、本当に！？指揮官も一緒に来てくれるの！？",
 		ship_group = 40152,
 		flag = 6,
 		type = 1,
@@ -19237,12 +19227,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"嗯"
+				"ああ"
 			}
 		}
 	},
 	[1630] = {
-		param = "嗯",
+		param = "ああ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19250,7 +19240,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1631] = {
-		param = "不过事先说好，我可跟不上你的水平，别做太激烈的",
+		param = "でも言っておくけど、Z52のスピードにはついていけないから、手加減してくれ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19258,7 +19248,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1632] = {
-		param = "没关系没关系！那我教你！",
+		param = "大丈夫！指揮官でもできるように教えるから！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -19266,7 +19256,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1633] = {
-		param = "很简单的哦，只要有我和我的雷火之心，指导指挥官绝对没问题的！",
+		param = "アタシとサンダーハートがあれば、指揮官にレクチャーするなんて楽勝だ！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -19282,12 +19272,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"那好，一会见"
+				"じゃあ後でな"
 			}
 		}
 	},
 	[1635] = {
-		param = "那好，一会见",
+		param = "じゃあ後でな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19295,7 +19285,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[1636] = {
-		param = "好！一会儿见！我会让指挥官见识到超帅气的{namecode:540}哦！",
+		param = "うん！また後で！指揮官に最高にカッコいいあたしを見せてあげる！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -19311,7 +19301,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[1638] = {
-		param = "指挥官指挥官指挥官！！！",
+		param = "指揮官！指揮官！！！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -19319,7 +19309,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1639] = {
-		param = "要不要我来帮你整理文件呀！",
+		param = "書類整理、手伝おうか！？",
 		ship_group = 40152,
 		flag = 0,
 		type = 1,
@@ -19327,12 +19317,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"怎么突然想起来……"
+				"急にどうした……？"
 			}
 		}
 	},
 	[1640] = {
-		param = "怎么突然想起来帮我整理文件了？",
+		param = "どうして急に書類整理を手伝おうと思ったんだ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19340,7 +19330,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1641] = {
-		param = "因为看你最近太忙了嘛……所以想帮点忙！",
+		param = "最近指揮官はめっちゃ忙しそうだから、少しでも役に立てればと思って！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -19356,7 +19346,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1643] = {
-		param = "这次我学会了新的整理文件的方式哦！",
+		param = "それにね、新しい書類整理術を覚えたよ！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -19364,7 +19354,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1644] = {
-		param = "比如说可以分成紧急、普通和待审核三类，怎么样！",
+		param = "「緊急」「通常」「確認待ち」の三つに分けるってどう？",
 		ship_group = 40152,
 		flag = 1,
 		type = 1,
@@ -19372,16 +19362,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"革命性进步"
+				"革命的進歩だな"
 			},
 			{
 				3,
-				"里程碑式突破"
+				"画期的突破だな"
 			}
 		}
 	},
 	[1645] = {
-		param = "革命性进步",
+		param = "革命的進歩だな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19389,7 +19379,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1646] = {
-		param = "里程碑式突破",
+		param = "画期的突破だな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19397,7 +19387,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1647] = {
-		param = "这次不会把重要的文件塞进杂物堆了吧？",
+		param = "今回は重要な書類を適当に捨てないでくれよ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19405,7 +19395,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1648] = {
-		param = "不会啦！！！",
+		param = "しないよ！！！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -19413,7 +19403,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1649] = {
-		param = "上次是太过追求速度……",
+		param = "前回は飛ばしすぎたから……",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -19421,7 +19411,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1650] = {
-		param = "这次我一定会反复确认的，嗯！",
+		param = "今回は絶対にちゃんと確認する！",
 		ship_group = 40152,
 		flag = 0,
 		type = 1,
@@ -19429,12 +19419,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"好吧……"
+				"任せるよ"
 			}
 		}
 	},
 	[1651] = {
-		param = "好吧……不过我现在不在指挥室，你可以先去整理",
+		param = "まあ、任せるよ……ただ、今は執務室にいないから、Z52が先にやっておいてくれるか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19442,7 +19432,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1652] = {
-		param = "好耶！交给我吧！",
+		param = "やったあ！任せて！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -19450,7 +19440,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1653] = {
-		param = "我到了！",
+		param = "もう執務室に着いたよ！",
 		ship_group = 40152,
 		flag = 4,
 		type = 1,
@@ -19458,12 +19448,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"这么快啊？"
+				"早っ！？"
 			}
 		}
 	},
 	[1654] = {
-		param = "这么快啊？",
+		param = "早っ！？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19471,7 +19461,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1655] = {
-		param = "嘿嘿，这就是雷火之心爆燃模式的速度！",
+		param = "えへへ、こサンダーハートのバーストモードをかっ飛ばせばこんなもんよ！",
 		ship_group = 40152,
 		flag = 5,
 		type = 1,
@@ -19479,12 +19469,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"记得细心一点"
+				"丁寧にやってね"
 			}
 		}
 	},
 	[1656] = {
-		param = "记得细心一点，整理文件可不能一味追求速度",
+		param = "丁寧にやってね。書類整理はスピードだけじゃダメだからな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19492,7 +19482,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1657] = {
-		param = "明白啦！",
+		param = "わかってるって！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -19500,7 +19490,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1658] = {
-		param = "唔唔……雷火之心爆燃模式的消耗太大了，突然肚子饿了……",
+		param = "うぅ……でも、サンダーハートのバーストモードはエネルギー消費が激しくて……もうお腹空いた……",
 		ship_group = 40152,
 		flag = 6,
 		type = 1,
@@ -19529,7 +19519,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1661] = {
-		param = "指挥官想吃点什么吗！",
+		param = "指揮官は何が食べたい？",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -19537,7 +19527,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1662] = {
-		param = "脆皮炸鸡怎么样？",
+		param = "クリスピーチキンとかどう？",
 		ship_group = 40152,
 		flag = 7,
 		type = 1,
@@ -19545,12 +19535,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"我都可以"
+				"何でもいいよ"
 			}
 		}
 	},
 	[1663] = {
-		param = "我都可以",
+		param = "何でもいいよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19558,7 +19548,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[1664] = {
-		param = "那我现在过去买炸鸡！",
+		param = "じゃあ買ってくるね！",
 		ship_group = 40152,
 		flag = 8,
 		type = 1,
@@ -19566,12 +19556,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				9,
-				"等一下……"
+				"ちょっと待って"
 			}
 		}
 	},
 	[1665] = {
-		param = "等一下，你不是刚说要整理文件么？",
+		param = "ちょっと待って、書類整理するんじゃなかったのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19579,7 +19569,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[1666] = {
-		param = "唔……我很快的！马上就能买回来，然后边吃边整理！",
+		param = "む。……大丈夫！すぐ買ってきて食べながら整理するよ！",
 		ship_group = 40152,
 		flag = 9,
 		type = 1,
@@ -19587,12 +19577,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				10,
-				"吃完再整理！"
+				"書類整理は食べ終わってからだ"
 			}
 		}
 	},
 	[1667] = {
-		param = "吃完再整理！边吃边工作会弄脏文件的！",
+		param = "食べながらじゃなくて食べ終わってからにして！書類が汚れちゃう！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19600,7 +19590,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[1668] = {
-		param = "那你吃不吃炸鸡？",
+		param = "わかった！それで指揮官もチキン食べる？",
 		ship_group = 40152,
 		flag = 10,
 		type = 1,
@@ -19608,12 +19598,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				11,
-				"吃！"
+				"食べる"
 			}
 		}
 	},
 	[1669] = {
-		param = "吃！给我留一份！",
+		param = "食べるからこっちの分も買ってきてくれないか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19621,7 +19611,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 11
 	},
 	[1670] = {
-		param = "那你得快点回来，不然我可不敢保证~",
+		param = "了解！でも急いで戻ってきてね、遅れたら～",
 		ship_group = 40152,
 		flag = 11,
 		type = 1,
@@ -19629,12 +19619,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				12,
-				"一会指挥室见"
+				"執務室で待っててくれ"
 			}
 		}
 	},
 	[1671] = {
-		param = "嗯，一会指挥室见",
+		param = "分かったから、執務室で待っててくれ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19642,7 +19632,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 12
 	},
 	[1672] = {
-		param = "嘿嘿~等你！",
+		param = "えへへ～。待ってるよ！",
 		ship_group = 40152,
 		type = 1,
 		option = "",
@@ -19650,7 +19640,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 12
 	},
 	[1673] = {
-		param = "指挥官~",
+		param = "指揮官♪",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -19658,7 +19648,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1674] = {
-		param = "我刚刚路过了港区的商业街",
+		param = "さっき母港の商店街を通りかかったら",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -19666,7 +19656,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1675] = {
-		param = "发现新开了一家很可爱的甜品店哦！",
+		param = "すごく可愛いスイーツ屋さんが新しくできてたわ！",
 		ship_group = 40211,
 		flag = 0,
 		type = 1,
@@ -19674,12 +19664,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"去店里体验过了么？"
+				"もう行ったの？"
 			}
 		}
 	},
 	[1676] = {
-		param = "去店里体验过了？我记得你很喜欢尝试新的东西",
+		param = "もう行ったの？デュイスブルクは確かこういう新しいものが好きだよね？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19687,7 +19677,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1677] = {
-		param = "当然~",
+		param = "もちろん♪",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -19695,7 +19685,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1678] = {
-		param = "店里的杯子也是可爱的小熊造型",
+		param = "出されたカップもクマちゃんの形をしていて可愛いかったわ",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -19703,7 +19693,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1679] = {
-		param = "甜点的装饰也特别精致~",
+		param = "スイーツのデコレーションもすごくオシャレだったわよ",
 		ship_group = 40211,
 		flag = 1,
 		type = 1,
@@ -19711,12 +19701,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"感觉不错"
+				"なんかおしゃれそうだね"
 			}
 		}
 	},
 	[1680] = {
-		param = "感觉不错，听起来是你喜欢的风格",
+		param = "なんかおしゃれそうだね。デュイスブルクの好みにピッタリそう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19724,7 +19714,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1681] = {
-		param = "嗯哼哼……其实我是想问指挥官……要一起去吗？",
+		param = "ふふ…今から来ない？って聞きたかったの",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -19732,7 +19722,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1682] = {
-		param = "听说新品的限定口味奶茶很难买哦……",
+		param = "限定のミルクティーがすごく人気で……",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -19740,7 +19730,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1683] = {
-		param = "不过呢~我已经提前预定好了，还约了两个位置~",
+		param = "まあ、もう2人分の席を確保しておいたわ",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -19756,7 +19746,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"[期待哦]"
+				"スタンプ：楽しみ"
 			}
 		}
 	},
@@ -19769,7 +19759,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1686] = {
-		param = "不过很可惜，手头的工作还有不少呢",
+		param = "すぐには行けそうにないかも。今ちょっと手元に仕事が多くて……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19777,7 +19767,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1687] = {
-		param = "欸……那真可惜……",
+		param = "あら、残念ね……",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -19785,7 +19775,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1688] = {
-		param = "对了，我帮指挥官带一份奶茶过去吧",
+		param = "じゃあ、ミルクティーを差し入れに買ってあげようか？",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -19793,7 +19783,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1689] = {
-		param = "你想喝什么口味的？",
+		param = "どの味がいいか選んでくれる？",
 		ship_group = 40211,
 		flag = 3,
 		type = 1,
@@ -19801,12 +19791,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"交给你决定了！"
+				"デュイスブルクに任せる"
 			}
 		}
 	},
 	[1690] = {
-		param = "交给你决定了！",
+		param = "デュイスブルクに任せる",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19814,7 +19804,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1691] = {
-		param = "你觉得哪个好喝就帮我带一个吧！",
+		param = "美味しそうなのを選んでくれ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19822,7 +19812,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1692] = {
-		param = "我相信你的品味",
+		param = "デュイスブルクのセンスを信じてるから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19830,7 +19820,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1693] = {
-		param = "那好~我要帮指挥官精挑细选一个最好喝的口味",
+		param = "ふふ、了解♪指揮官にピッタリの一杯を選んでくるわ",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -19838,7 +19828,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1694] = {
-		param = "不过作为交换，下次该陪我一起去了哦？",
+		param = "でもね、今度一緒に行ってくれる？",
 		ship_group = 40211,
 		flag = 4,
 		type = 1,
@@ -19846,12 +19836,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"好，说定了"
+				"ああ、約束するよ"
 			}
 		}
 	},
 	[1695] = {
-		param = "好，说定了",
+		param = "約束する",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19867,7 +19857,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1697] = {
-		param = "那~我现在就出发了",
+		param = "それじゃあ、買ってくるわ",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -19875,7 +19865,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1698] = {
-		param = "等我的奶茶吧~",
+		param = "指揮官、ミルクティー楽しみに待っててね♪",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -19891,7 +19881,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1700] = {
-		param = "指挥官指挥官~",
+		param = "指揮官～",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -19899,7 +19889,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1701] = {
-		param = "我突然选择困难症犯啦……",
+		param = "急に選べなくなっちゃった……",
 		ship_group = 40211,
 		flag = 0,
 		type = 1,
@@ -19907,12 +19897,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"我猜猜看……"
+				"もしかして……"
 			}
 		}
 	},
 	[1702] = {
-		param = "我猜猜看，在选口红？",
+		param = "なんだろう……もしかしてリップの色とか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19920,7 +19910,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1703] = {
-		param = "嗯嗯！我发现有两个颜色都很适合约会的妆容呢……",
+		param = "せいかーい。デートメイクにぴったりな色が二つあって迷ってるわ",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -19928,7 +19918,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1704] = {
-		param = "一只是玫瑰色，另一只偏棕色",
+		param = "一つはローズ系、もう一つはブラウン系でね。どっちが似合うと思う？",
 		ship_group = 40211,
 		flag = 1,
 		type = 1,
@@ -19936,12 +19926,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"玫瑰色的更衬你"
+				"ローズ系かな？"
 			}
 		}
 	},
 	[1705] = {
-		param = "嗯……我觉得玫瑰色的更衬你",
+		param = "うーん、ローズ系がデュイスブルクに似合うと思うな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19949,7 +19939,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1706] = {
-		param = "欸？指挥官很懂嘛~",
+		param = "へー、指揮官わかってるー♪",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -19965,12 +19955,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"因为是你经常用的色系……"
+				"よく使ってる色だからね"
 			}
 		}
 	},
 	[1708] = {
-		param = "因为是你经常用的色系，所以印象深刻",
+		param = "デュイスブルクがよく使ってる色だから、印象に残っててね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -19978,7 +19968,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1709] = {
-		param = "哼哼哼……原来指挥官一直在偷偷观察我啊~",
+		param = "ふふ……なるほど、指揮官って私のことをずっと見てたんだ？",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -19986,7 +19976,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1710] = {
-		param = "这样的话，要不要回忆一下我昨天见您时的颜色？",
+		param = "じゃあ、私が昨日つけてたリップの色は覚えてる？",
 		ship_group = 40211,
 		flag = 3,
 		type = 1,
@@ -19994,12 +19984,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"樱花色的？"
+				"ピンク色？"
 			}
 		}
 	},
 	[1711] = {
-		param = "那只樱花色的？",
+		param = "確かピンク色だったっけ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20007,7 +19997,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1712] = {
-		param = "我记得你说过，是你最喜欢的口红之一",
+		param = "「お気に入りの一本」って言ってたのを覚えてるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20015,7 +20005,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1713] = {
-		param = "哇啊啊……被发现了……",
+		param = "えっ……それも覚えてるの…？？",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -20023,7 +20013,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1714] = {
-		param = "不愧是指挥官，也太细心了吧？",
+		param = "さすが指揮官、細かいことまで覚えてくれてるわね…",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -20031,7 +20021,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1715] = {
-		param = "这样的话……",
+		param = "じゃあ……",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -20039,7 +20029,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1716] = {
-		param = "今晚的约会一定要好好打扮一番才行了……！",
+		param = "今日のデートはもっと気合を入れてオシャレしなきゃ……！",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -20055,7 +20045,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1718] = {
-		param = "哼哼，决定了~今晚就用指挥官挑的玫瑰色口红",
+		param = "ふふ、決めた。今夜は指揮官が選んだローズ系リップにするわ！",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -20063,7 +20053,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1719] = {
-		param = "我会配合这只口红的颜色来打扮的~",
+		param = "リップに合わせて、全身ばっちりコーデするから期待しててね♪",
 		ship_group = 40211,
 		flag = 4,
 		type = 1,
@@ -20071,12 +20061,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"我很期待！"
+				"楽しみにしてるよ"
 			}
 		}
 	},
 	[1720] = {
-		param = "我很期待！",
+		param = "楽しみにしてるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20084,7 +20074,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1721] = {
-		param = "欸嘿，到时候可别看得入迷哦",
+		param = "ふふ、見惚れちゃっても知らないわよ？",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -20092,7 +20082,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1722] = {
-		param = "把指挥官迷晕了我可概不负责~(｡•̀ᴗ-)✧",
+		param = "メロメロになっても責任取らないから～(｡•̀ᴗ-)✧",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -20108,7 +20098,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1724] = {
-		param = "指挥官指挥官~",
+		param = "指揮官～",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -20116,7 +20106,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1725] = {
-		param = "我又有一个新的开店构想哦！",
+		param = "新しいお店のアイデアが浮かんだわ",
 		ship_group = 40211,
 		flag = 0,
 		type = 1,
@@ -20124,12 +20114,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"说说看？"
+				"どんなアイデア？"
 			}
 		}
 	},
 	[1726] = {
-		param = "什么构想，说说看？",
+		param = "どんなアイデア？聞かせて？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20137,7 +20127,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1727] = {
-		param = "嗯哼哼~这次的构想可是很厉害哦",
+		param = "うふふ、このアイデアはすごいわよ？",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -20145,7 +20135,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1728] = {
-		param = "复合式美妆咖啡店——！怎么样？",
+		param = "「コスメカフェ」ってどう？",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -20161,7 +20151,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1730] = {
-		param = "一楼是咖啡厅，二楼是美妆区域",
+		param = "1階はカフェ、2階はコスメサロンにするわ",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -20169,7 +20159,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1731] = {
-		param = "港区的同伴可以一边享受饮品和点心，一边做美妆呢！",
+		param = "ドリンクとスイーツを楽しみつつ、メイクやネイルの施術を受けられるの！",
 		ship_group = 40211,
 		flag = 1,
 		type = 1,
@@ -20177,12 +20167,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"这个创意不错"
+				"すごくいいアイデアだね"
 			}
 		}
 	},
 	[1732] = {
-		param = "这个创意不错",
+		param = "すごくいいアイデアだね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20190,7 +20180,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1733] = {
-		param = "感觉很符合{namecode:541}的特长",
+		param = "デュイスブルクの得意なことに当てはまってるね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20198,7 +20188,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1734] = {
-		param = "嘿嘿~",
+		param = "ふふ～ん",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -20206,7 +20196,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1735] = {
-		param = "而且还可以让其他伙伴来帮忙……",
+		param = "しかも、みんなにも手伝ってもらえるのよ",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -20214,7 +20204,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1736] = {
-		param = "比如让{namecode:539}管理账目",
+		param = "たとえばZ11に会計を任せたり",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -20222,7 +20212,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1737] = {
-		param = "或者让{namecode:428}来做造型顾问",
+		param = "オイゲンにスタイリストをお願いしたり♪",
 		ship_group = 40211,
 		flag = 2,
 		type = 1,
@@ -20230,12 +20220,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"嗯……"
+				"場所は決まってる？"
 			}
 		}
 	},
 	[1738] = {
-		param = "嗯……场地的问题要怎么办？",
+		param = "で、その場所は決まってるの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20243,7 +20233,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1739] = {
-		param = "这个嘛……",
+		param = "それなんだけど……",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -20251,7 +20241,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1740] = {
-		param = "其实我看中了一个地方了，就是商业区一处的转角",
+		param = "商店街のとある曲がり角のテナントが良さそうかなって思ってるところよ",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -20259,7 +20249,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1741] = {
-		param = "那个……要不然，指挥官有空愿意陪我去看看吗？",
+		param = "それでね？指揮官、もし時間があるなら一緒に見に行かない？",
 		ship_group = 40211,
 		flag = 3,
 		type = 1,
@@ -20267,12 +20257,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"现在吗？"
+				"今から？"
 			}
 		}
 	},
 	[1742] = {
-		param = "现在吗？",
+		param = "今から？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20280,7 +20270,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1743] = {
-		param = "我还以为你要多准备一段时间",
+		param = "もうちょっと準備がいるのかと思ってた",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20288,7 +20278,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1744] = {
-		param = "其实已经准备很久啦！",
+		param = "もう準備を進めてるわよ",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -20296,7 +20286,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1745] = {
-		param = "而且我还做了详细的企划书哦",
+		param = "企画書もバッチリ用意しておいたわ♪",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -20304,7 +20294,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1746] = {
-		param = "就放在您办公桌的抽屉里~是今早偷偷放进去的",
+		param = "今朝こっそり、指揮官の机の引き出しに入れておいたの",
 		ship_group = 40211,
 		flag = 4,
 		type = 1,
@@ -20312,12 +20302,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"原来如此……"
+				"なるほど…"
 			}
 		}
 	},
 	[1747] = {
-		param = "原来如此……怪不得总感觉有股熟悉的香水味",
+		param = "なるほどな……どうりで机から香水の匂いがすると思ったよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20325,7 +20315,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1748] = {
-		param = "唔唔……这算是又被指挥发现了吗？",
+		param = "ええと…指揮官にバレちゃったってことかしら……",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -20333,7 +20323,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1749] = {
-		param = "反正现在天气很好~要不要去看看店铺的位置？",
+		param = "ちょうど天気もいいし、下見だけでも……ね？",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -20341,7 +20331,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1750] = {
-		param = "还可以顺路去吃您上次说喜欢的那家餐厅哦",
+		param = "ついでに、指揮官お気に入りのレストランも寄っていけるわよ？",
 		ship_group = 40211,
 		flag = 5,
 		type = 1,
@@ -20349,12 +20339,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"等我先收拾一下"
+				"じゃあ片付けてから行こう"
 			}
 		}
 	},
 	[1751] = {
-		param = "好，那等我收拾一下文件",
+		param = "じゃあ、ちょっと書類を片付けてから行こうか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20362,7 +20352,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1752] = {
-		param = "嗯~",
+		param = "うん♪",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -20370,7 +20360,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1753] = {
-		param = "我已经快到指挥室了，一会帮指挥官一起收拾吧~♡",
+		param = "もうすぐ執務室に着くから、片付けは私にも手伝わせてよね♡",
 		ship_group = 40211,
 		type = 1,
 		option = "",
@@ -20386,7 +20376,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1755] = {
-		param = "指挥官……",
+		param = "指揮官…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20394,7 +20384,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1756] = {
-		param = "那个……",
+		param = "あの…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20402,7 +20392,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1757] = {
-		param = "我把今天的文件都整理好了……",
+		param = "今日の書類をまとめて…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20410,7 +20400,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1758] = {
-		param = "放在你的办公桌上了……",
+		param = "机に置いておきました…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20426,16 +20416,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"辛苦了！"
+				"お疲れ様！"
 			},
 			{
 				2,
-				"你居然还没回去么？"
+				"まだ帰ってなかったの？"
 			}
 		}
 	},
 	[1760] = {
-		param = "辛苦了！这么晚还在工作啊？",
+		param = "お疲れ様！こんな遅くまで頑張ってくれてたのか……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20443,7 +20433,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1761] = {
-		param = "呜……因为……",
+		param = "うぅ…その…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20451,7 +20441,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1762] = {
-		param = "不小心打翻了几份文件……",
+		param = "不注意で書類の束を何枚か崩しちゃったから…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20459,7 +20449,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1763] = {
-		param = "所以……所以多花了一些时间重新整理……",
+		param = "…整理し直すのにまた時間がかかっちゃって…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20467,7 +20457,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1764] = {
-		param = "这个时间了，居然还没回去么？",
+		param = "もうこんな時間なのに、まだ帰ってなかったのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20475,7 +20465,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1765] = {
-		param = "对、对不起……",
+		param = "ご、ごめんなさい…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20483,7 +20473,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1766] = {
-		param = "因为刚才不小心打翻了几份文件……",
+		param = "さっき不注意で書類の束を何枚か崩しちゃったから…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20491,7 +20481,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1767] = {
-		param = "所以耽误了一些时间……",
+		param = "…整理し直すのに時間がかかっちゃって…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20499,7 +20489,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1768] = {
-		param = "呜呜呜……对不起……",
+		param = "くすん…ごめんなさい………",
 		ship_group = 40109,
 		flag = 0,
 		type = 1,
@@ -20507,16 +20497,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"没关系，没关系！"
+				"大丈夫だから、気にしないで！"
 			},
 			{
 				4,
-				"你没受伤吧？"
+				"怪我してないよね？"
 			}
 		}
 	},
 	[1769] = {
-		param = "没关系，没关系！",
+		param = "大丈夫だから、気にしないで！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20524,7 +20514,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1770] = {
-		param = "下次小心一点就好了，没什么大不了的",
+		param = "今度気をつければいいさ。大したことじゃないよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20532,7 +20522,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1771] = {
-		param = "你差不多该回去休息了吧？",
+		param = "そろそろ帰って休もう？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20540,7 +20530,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1772] = {
-		param = "可是……我怕整理得不够好……",
+		param = "でも…ちゃんと整理できているか心配で…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20548,7 +20538,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1773] = {
-		param = "我再去检查一遍……",
+		param = "もう一度確認してきます…",
 		ship_group = 40109,
 		flag = 3,
 		type = 1,
@@ -20556,12 +20546,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"不用了，剩下的明天再说吧"
+				"もういいから。残りは明日にしよう"
 			}
 		}
 	},
 	[1774] = {
-		param = "你没有被纸张划伤吧？",
+		param = "怪我してないよね？紙で指切ってたりしたら…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20569,7 +20559,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1775] = {
-		param = "欸？！不、不用担心的！",
+		param = "え？だ、大丈夫です！",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20577,7 +20567,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1776] = {
-		param = "我只是把文件弄乱了而已……",
+		param = "書類の束を崩しちゃっただけですから…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20585,7 +20575,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1777] = {
-		param = "指挥官这么关心我，我、我好开心……",
+		param = "でも指揮官がこんなに心配してくれるなんて、う、嬉しい…",
 		ship_group = 40109,
 		flag = 4,
 		type = 1,
@@ -20593,12 +20583,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"没受伤就好"
+				"なら良かった。"
 			}
 		}
 	},
 	[1778] = {
-		param = "嗯，没受伤就好，既然整理好了就早点回去休息吧",
+		param = "なら良かった。整理が終わったなら、早く帰って休もう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20606,7 +20596,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1779] = {
-		param = "可是……我怕整理得不够好……",
+		param = "でも…ちゃんと整理できているか心配で…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20614,7 +20604,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1780] = {
-		param = "我再去检查一遍……",
+		param = "もう一度確認してきます…",
 		ship_group = 40109,
 		flag = 5,
 		type = 1,
@@ -20622,12 +20612,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"不用了，剩下的明天再说吧"
+				"もういいから。残りは明日にしよう"
 			}
 		}
 	},
 	[1781] = {
-		param = "不用了，剩下的明天再说吧",
+		param = "もういいから。残りは明日にしよう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20635,7 +20625,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1782] = {
-		param = "你今天做得很好，去休息吧",
+		param = "今日はよくやってくれた。帰ってしっかり休んで",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20643,7 +20633,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1783] = {
-		param = "真、真的吗？ヽ(；▽；)ノ",
+		param = "ほ、本当ですか？ヽ(；▽；)ノ",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20651,7 +20641,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1784] = {
-		param = "那……那我之后还可以继续帮忙整理文件吗？",
+		param = "じゃ…じゃあこれからも書類の整理を……手伝わせてもらえますか？",
 		ship_group = 40109,
 		flag = 6,
 		type = 1,
@@ -20659,12 +20649,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"当然可以"
+				"もちろん"
 			}
 		}
 	},
 	[1785] = {
-		param = "当然可以，前提是你要去乖乖休息",
+		param = "もちろん。ちゃんと休んでくれたらな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20672,7 +20662,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1786] = {
-		param = "嗯！我一定会乖乖休息的！",
+		param = "はい……！頑張って休みます……！",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20680,7 +20670,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1787] = {
-		param = "那……我回去啦……",
+		param = "じゃ…今日は帰りますね…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20688,7 +20678,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1788] = {
-		param = "晚安，指挥官……",
+		param = "おやすみなさい。指揮官…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20696,7 +20686,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1789] = {
-		param = "指挥官指挥官……",
+		param = "指揮官指揮官…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20704,7 +20694,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1790] = {
-		param = "你在吗？",
+		param = "います……か？",
 		ship_group = 40109,
 		flag = 0,
 		type = 1,
@@ -20712,12 +20702,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"嗯，怎么了？"
+				"いるよ。どうかした？"
 			}
 		}
 	},
 	[1791] = {
-		param = "嗯，怎么了？",
+		param = "いるよ。どうかした？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20725,7 +20715,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1792] = {
-		param = "那个……我在看新买的绘本……",
+		param = "その…新しく買った絵本を読んでいて………",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20733,7 +20723,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1793] = {
-		param = "但是里面小狗狗和鹰最后没能在一起 (╥﹏╥)",
+		param = "小犬と鷹が、最後離れ離れになっちゃって (╥﹏╥)",
 		ship_group = 40109,
 		flag = 1,
 		type = 1,
@@ -20741,12 +20731,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"不太圆满的结局啊……"
+				"切ないね…"
 			}
 		}
 	},
 	[1794] = {
-		param = "不太圆满的结局啊……",
+		param = "切ないね…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20754,7 +20744,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1795] = {
-		param = "嗯……小狗狗觉得自己太弱小了",
+		param = "うん…小犬は自分が小さくて、力もないから……",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20762,7 +20752,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1796] = {
-		param = "觉得自己配不上保护着整片森林的鹰。",
+		param = "広い森を守ってる鷹と一緒にいるのは相応しくないと思って……",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20770,7 +20760,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1797] = {
-		param = "每次鹰完成了巡逻任务回来之后，小狗狗都只敢远远看着",
+		param = "鷹が森の見回りから戻ってくる度に、遠くから見てることしかできなくて……",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20778,7 +20768,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1798] = {
-		param = "最后鹰去了很远很远的地方，去守护更大的森林……",
+		param = "結局、鷹はもっと広い森を守るために遠く行って……",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20786,7 +20776,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1799] = {
-		param = "小狗狗就再也见不到鹰了……呜呜呜……",
+		param = "小犬と二度と会えなくなっちゃいました…うぅ…",
 		ship_group = 40109,
 		flag = 2,
 		type = 1,
@@ -20794,12 +20784,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"原来如此……"
+				"なるほど…"
 			}
 		}
 	},
 	[1800] = {
-		param = "原来如此……听起来是因为小狗没有自信啊",
+		param = "なるほど…小犬の方は、自信が持てなかったんだね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20807,7 +20797,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1801] = {
-		param = "但其实鹰一定也很喜欢小狗吧？",
+		param = "でも鷹だって小犬のことが好きだったんじゃないかな？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20815,7 +20805,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1802] = {
-		param = "对……书里写鹰在巡逻的时候每次都会偷偷看小狗狗",
+		param = "はい…実は鷹も森を見回る時、いつも小犬のことこっそり見てたって書いてありました",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20823,7 +20813,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1803] = {
-		param = "但小狗狗总觉得自己帮不上忙……",
+		param = "でも…小犬は自分は役に立たないからって…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20831,7 +20821,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1804] = {
-		param = "有点像以前的我……(´;ω;｀)",
+		param = "ちょっと昔のわたしみたいです… (´;ω;｀)",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20839,7 +20829,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1805] = {
-		param = "总是担心自己什么都做不好……",
+		param = "いつも何もできないんじゃないかって気が気でなくて…",
 		ship_group = 40109,
 		flag = 3,
 		type = 1,
@@ -20847,12 +20837,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"现在的你已经不一样了"
+				"今はもう違うでしょ？"
 			}
 		}
 	},
 	[1806] = {
-		param = "现在的你已经不一样了",
+		param = "今はもう違うでしょ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20860,7 +20850,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1807] = {
-		param = "每次任务都完成得很好，文件整理得也很认真",
+		param = "いつもちゃんと任務をこなしてくれてるし、書類も丁寧にまとめてくれてる",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20868,7 +20858,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1808] = {
-		param = "因为有指挥官在我身边……",
+		param = "それは指揮官がいつもそばにいてくれて…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20876,7 +20866,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1809] = {
-		param = "指挥官总是很温柔地鼓励我……",
+		param = "わたしを優しく励ましてくれますから…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20892,7 +20882,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1811] = {
-		param = "啊！我想到了！",
+		param = "あっ、思いつきました……！",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20900,7 +20890,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1812] = {
-		param = "我要给这个故事画个新结局！",
+		param = "物語の違うエンディングを……描きます！",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20908,7 +20898,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1813] = {
-		param = "我要画小狗狗鼓起勇气，跑去找了鹰",
+		param = "小犬は勇気を振り絞って、鷹を探しに行き…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20916,7 +20906,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1814] = {
-		param = "对鹰说，虽然自己不够强大……",
+		param = "そして鷹に言います……！",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20924,7 +20914,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1815] = {
-		param = "但可以帮鹰整理羽毛，在它疲惫的时候陪伴它",
+		param = "確かに自分は小さくて弱いけど…でも鷹の羽を整えてあげたり、疲れた時にそばにいてあげたりできるって…！",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20932,7 +20922,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1816] = {
-		param = "守护森林和陪伴的方式……不一定需要很厉害对吧……(/ω＼)",
+		param = "森を守ることも、そばにいることも…そんなに強くなくてもできますよね… (/ω＼)",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20948,12 +20938,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"说的对，我来陪你一起画吧！"
+				"そうだね。一緒に描こうか"
 			}
 		}
 	},
 	[1818] = {
-		param = "说的对，我来陪你一起画吧！",
+		param = "そうだね。一緒に描こうか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -20961,7 +20951,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1819] = {
-		param = "指挥官... ｡ﾟ(ﾟ´ω`ﾟ)ﾟ｡",
+		param = "指揮官... ｡ﾟ(ﾟ´ω`ﾟ)ﾟ｡",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20969,7 +20959,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1820] = {
-		param = "最喜欢指挥官了！",
+		param = "指揮官大好き！",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20977,7 +20967,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1821] = {
-		param = "那我现在去准备画具，准备好了就去找你！",
+		param = "絵の具の準備をしてきます…！終わったら指揮官の所に行きますね…！",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -20985,7 +20975,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1822] = {
-		param = "待会见！",
+		param = "また後で……！",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -21001,7 +20991,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1824] = {
-		param = "指挥官……你睡了吗？",
+		param = "指揮官…まだ起きてます？",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -21009,7 +20999,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1825] = {
-		param = "对不起这么晚打扰你……呜呜……",
+		param = "夜遅くにごめんなさい…くすん…",
 		ship_group = 40109,
 		flag = 0,
 		type = 1,
@@ -21017,12 +21007,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"还没睡"
+				"まだ起きてるよ"
 			}
 		}
 	},
 	[1826] = {
-		param = "还没睡，在处理一些文件",
+		param = "まだ起きてるよ。書類の処理をしている",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21030,7 +21020,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1827] = {
-		param = "怎么了？这么晚还不休息",
+		param = "どうしたの？こんな遅くまで起きてるなんて",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21038,7 +21028,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1828] = {
-		param = "我刚才……做噩梦了……",
+		param = "さっき…怖い夢を見ちゃいました…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -21046,7 +21036,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1829] = {
-		param = "梦见指挥官被袭击……我想保护指挥官，可是我太弱了……",
+		param = "指揮官が何かに襲われる夢…わたしは指揮官を守ろうとしたのに、弱くて…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -21054,7 +21044,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1830] = {
-		param = "然后指挥官就……就不见了…… (´;ω;｀)",
+		param = "そのせいで指揮官が…いなくなっちゃって… (´;ω;｀)",
 		ship_group = 40109,
 		flag = 1,
 		type = 1,
@@ -21062,12 +21052,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"那只是梦而已"
+				"大丈夫。ただの夢だよ"
 			}
 		}
 	},
 	[1831] = {
-		param = "那只是梦而已",
+		param = "ただの夢だよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21075,7 +21065,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1832] = {
-		param = "而且你一点也不弱，你最近的表现不是很好吗？",
+		param = "それにZ9は全然弱くないさ。いろいろ活躍してくれてるし",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21083,7 +21073,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1833] = {
-		param = "可是我好害怕……",
+		param = "でもでも……怖くて…",
 		ship_group = 40109,
 		flag = 2,
 		type = 1,
@@ -21091,12 +21081,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"要我过去陪你么？"
+				"寝られるまで一緒にいてあげようか？"
 			}
 		}
 	},
 	[1834] = {
-		param = "要我过去陪你么？",
+		param = "寝られるまで一緒にいてあげようか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21104,7 +21094,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1835] = {
-		param = "不用啦！都这么晚了……",
+		param = "だ、大丈夫です！もうこんな遅い時間ですし…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -21112,7 +21102,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1836] = {
-		param = "而且指挥官还在忙工作……",
+		param = "それに、指揮官まだお仕事をしていますし…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -21120,7 +21110,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1837] = {
-		param = "现在我正抱着指挥官上次送给我的企鹅玩偶……",
+		param = "心配しなくても、指揮官がこの前くれたペンギンのぬいぐるみをぎゅーっと抱きしめてますから…！",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -21128,7 +21118,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1838] = {
-		param = "还点了一盏小夜灯……",
+		param = "小さなナイトライトも点けていて…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -21136,7 +21126,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1839] = {
-		param = "虽然我很想现在就去找指挥官……",
+		param = "うぅ……今すぐ指揮官に会いたいですけど…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -21144,7 +21134,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1840] = {
-		param = "但我已经不是以前那个总给指挥官添麻烦的我了！",
+		param = "もう昔みたいに迷惑ばかりかけちゃうわたしじゃありません……！",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -21152,7 +21142,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1841] = {
-		param = "我要变得更坚强一点 (๑•̀ㅂ•́)و✧",
+		param = "もっともっと強くなります…！ (๑•̀ㅂ•́)و✧",
 		ship_group = 40109,
 		flag = 3,
 		type = 1,
@@ -21160,12 +21150,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"我可从来没觉得你有添麻烦"
+				"迷惑をかけられたなんて一度も思ったことないよ"
 			}
 		}
 	},
 	[1842] = {
-		param = "我可从来没觉得你有添麻烦",
+		param = "迷惑をかけられたなんて一度も思ったことないよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21173,7 +21163,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1843] = {
-		param = "不过很高兴能看到你更有自信了",
+		param = "でも自信を持てるようになってきてよかった",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21181,7 +21171,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1844] = {
-		param = "嘿嘿……",
+		param = "えへへ…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -21189,7 +21179,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1845] = {
-		param = "指挥官……",
+		param = "指揮官…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -21197,7 +21187,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1846] = {
-		param = "那个……可以再陪我聊聊天吗？",
+		param = "あの…もう少しお話ししていいですか？",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -21205,7 +21195,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1847] = {
-		param = "啊！但是不要耽误你的工作！",
+		param = "あっ！でもお仕事の邪魔にならないようにしないと…",
 		ship_group = 40109,
 		flag = 4,
 		type = 1,
@@ -21213,12 +21203,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"要我给你讲讲明天的计划么？"
+				"じゃあ明日の予定でも話そうか？"
 			}
 		}
 	},
 	[1848] = {
-		param = "要我给你讲讲明天的计划么？",
+		param = "じゃあ明日の予定でも話そうか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21226,7 +21216,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1849] = {
-		param = "好呀！(◍•ᴗ•◍)",
+		param = "はい！(◍•ᴗ•◍)",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -21234,7 +21224,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1850] = {
-		param = "我把被子裹紧了，抱着企鹅玩偶",
+		param = "今お布団にくるまって、ペンギンのぬいぐるみをぎゅってしてて",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -21242,7 +21232,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1851] = {
-		param = "感觉就像是指挥官在我身边一样……",
+		param = "まるで指揮官がそばにいるみたいです…えへへ",
 		ship_group = 40109,
 		flag = 5,
 		type = 1,
@@ -21250,12 +21240,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"明天上午我准备……"
+				"明日の午前中は…"
 			}
 		}
 	},
 	[1852] = {
-		param = "明天上午我准备带你去新开的咖啡店",
+		param = "明日の午前中は新しくできたカフェに、Z9を連れて行こうと思ってるんだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21263,7 +21253,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1853] = {
-		param = "听说那里的热巧克力很棒，你应该会喜欢",
+		param = "ホットチョコが評判みたいだからきっと気に入ってくれると思う",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21271,7 +21261,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1854] = {
-		param = "真的吗，好期待……！",
+		param = "本当ですか？楽しみです…！",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -21279,7 +21269,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1855] = {
-		param = "啊……我想起来了……是上次和指挥官聊天时提到过的那家吧",
+		param = "あっ…思い出しました…！前に指揮官とおしゃべりした時に言ってたお店のことですよね？",
 		ship_group = 40109,
 		flag = 6,
 		type = 1,
@@ -21287,12 +21277,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"记性很好嘛"
+				"よく覚えてるね"
 			}
 		}
 	},
 	[1856] = {
-		param = "嗯，看来你的记性很好嘛",
+		param = "そう。よく覚えてるね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21300,7 +21290,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1857] = {
-		param = "如果困了的话，要和我说",
+		param = "もう大丈夫？眠くなったら言ってね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21308,7 +21298,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1858] = {
-		param = "嗯……感觉有点困了……",
+		param = "はい…少し…眠くなってきました…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -21316,7 +21306,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1859] = {
-		param = "想着明天和指挥官一起喝热巧克力……好开心……",
+		param = "明日指揮官と一緒にホットチョコを飲めるから…嬉しくて…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -21324,7 +21314,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1860] = {
-		param = "谢谢指挥官一直都在……",
+		param = "いつもそばにいてくれて、ありがとう…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -21332,7 +21322,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1861] = {
-		param = "最最最喜欢指挥官了……",
+		param = "指揮官のこと、大好き…",
 		ship_group = 40109,
 		flag = 7,
 		type = 1,
@@ -21340,12 +21330,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"做个好梦"
+				"良い夢を"
 			}
 		}
 	},
 	[1862] = {
-		param = "做个好梦，明天见",
+		param = "良い夢を。また明日",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21353,7 +21343,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[1863] = {
-		param = "晚安……指挥官……",
+		param = "おやすみなさい…指揮官…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -21361,7 +21351,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[1864] = {
-		param = "明天见……",
+		param = "また明日…",
 		ship_group = 40109,
 		type = 1,
 		option = "",
@@ -21377,7 +21367,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[1866] = {
-		param = "指挥官……那个……打扰了 (｡>﹏<｡)",
+		param = "指揮官…あの…失礼します (｡>﹏<｡)",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21393,12 +21383,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"怎么了？"
+				"どうしたの？"
 			}
 		}
 	},
 	[1868] = {
-		param = "怎么了？",
+		param = "どうしたの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21406,7 +21396,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1869] = {
-		param = "最近有一个新游戏发售……但我不知道要不要买……",
+		param = "最近発売された新作のゲームを…買うべきか迷ってて…",
 		ship_group = 40111,
 		flag = 1,
 		type = 1,
@@ -21414,16 +21404,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"买！"
+				"買っちゃえ！"
 			},
 			{
 				3,
-				"是什么游戏？"
+				"どんなゲームなの？"
 			}
 		}
 	},
 	[1870] = {
-		param = "买！",
+		param = "買っちゃえ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21431,7 +21421,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1871] = {
-		param = "犹豫就会败北",
+		param = "諦めたらそこで試合終了だよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21439,7 +21429,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1872] = {
-		param = "……这么果断么？！",
+		param = "…まさかの答え！？",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21447,7 +21437,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1873] = {
-		param = "哦？是什么游戏？",
+		param = "ん？ちなみにどんなゲームなの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21455,7 +21445,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1874] = {
-		param = "是……一款模拟经营类的游戏……",
+		param = "ええと…経営シミュレーション系のゲームですけど…",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21463,7 +21453,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1875] = {
-		param = "指挥官喜欢玩游戏吗？如果喜欢的话，喜欢哪一种类型呢(〃'▽'〃)？",
+		param = "シッキーもゲーム好き？お気に入りのジャンルとかあったり？(〃'▽'〃)",
 		ship_group = 40111,
 		flag = 0,
 		type = 1,
@@ -21471,16 +21461,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"很喜欢玩"
+				"大好きだよ"
 			},
 			{
 				5,
-				"偶尔会玩一些"
+				"たまに遊ぶ程度かな"
 			}
 		}
 	},
 	[1876] = {
-		param = "我很喜欢玩！",
+		param = "大好きだよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21488,7 +21478,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1877] = {
-		param = "不过因为会在休息时间尝试更多的游戏，所以没有固定偏好的类型",
+		param = "でも非番日にいろんなゲームをやってみたりするから、これといったジャンルはないかな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21504,7 +21494,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1879] = {
-		param = "嗯，偶尔会玩一些",
+		param = "うん。たまに遊ぶ程度かな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21512,7 +21502,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1880] = {
-		param = "不过算不上有固定偏好的类型",
+		param = "だからこれといったジャンルはないかな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21520,7 +21510,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1881] = {
-		param = "这样啊……也可以理解！",
+		param = "そうなんだ…指揮官らしいですね…！",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21528,7 +21518,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1882] = {
-		param = "不过我的喜好就很明确……我最喜欢模拟经营类的游戏",
+		param = "わたしは好みがはっきりしています…ずばり経営シミュレーションが大好きです！",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21536,7 +21526,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1883] = {
-		param = "可以慢慢地规划和建设属于自己的世界……",
+		param = "ゆっくりと計画を立てて、自分だけの世界を作っていって…",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21544,7 +21534,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1884] = {
-		param = "看着自己经营的店铺或者城市一点点发展起来，特别有成就感！",
+		param = "店とか町とかが少しずつ発展を遂げるのを見てると、すごく達成感があります！",
 		ship_group = 40111,
 		flag = 0,
 		type = 1,
@@ -21552,12 +21542,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"好像挺有意思的……"
+				"面白そうだな"
 			}
 		}
 	},
 	[1885] = {
-		param = "听你这么一说，我感觉这种游戏也挺有意思的",
+		param = "そう聞くと、確かに面白そうだな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21565,7 +21555,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1886] = {
-		param = "对吧对吧！而且这种游戏不用太紧张，可以安心地慢慢玩……",
+		param = "でしょでしょ！しかもこのジャンルは神経を張り詰める必要もないから、リラックスしてゆっくり遊べます…",
 		ship_group = 40111,
 		flag = 6,
 		type = 1,
@@ -21573,12 +21563,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"那这款新游戏……"
+				"ちなみにその新作は…"
 			}
 		}
 	},
 	[1887] = {
-		param = "那这款新游戏有什么特别的地方吗？",
+		param = "ちなみにその新作の目玉は？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21586,7 +21576,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1888] = {
-		param = "主要是有很硬核的天气系统还有土壤盐碱度之类的……还有很多收集要素！",
+		param = "主なところだと天候システムと、土壌の酸塩基平衡システムとか…あと収集系のやり込み要素もいっぱいあります！",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21594,7 +21584,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1889] = {
-		param = "但是……也就是因为硬核……所以我才会纠结……",
+		param = "でも…だからこそ…迷ってしまって…",
 		ship_group = 40111,
 		flag = 7,
 		type = 1,
@@ -21602,12 +21592,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"所以你在纠结……"
+				"迷ってるというのはつまり…"
 			}
 		}
 	},
 	[1890] = {
-		param = "所以你在纠结这款游戏的难度太高了？",
+		param = "迷ってるというのはつまり…難しすぎないかってところかな？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21615,7 +21605,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[1891] = {
-		param = "不是啦……是因为担心太花时间……",
+		param = "そうじゃなくて…時間がかかりすぎちゃうんじゃないかって迷ってるんです…",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21623,7 +21613,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[1892] = {
-		param = "上次我玩一款游戏就玩了整整一个月……每天都在玩……",
+		param = "前は一ヶ月毎日欠かさずやり込んでしまって……",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21631,7 +21621,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[1893] = {
-		param = "总感觉……这次也会一样废寝忘食……",
+		param = "今回も…食わず寝ずでやってしまったらどうしようと……",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21639,7 +21629,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[1894] = {
-		param = "啊，对不起……我玩游戏就很容易沉迷其中……",
+		param = "ゲームにハマりやすくて…ごめんなさい…",
 		ship_group = 40111,
 		flag = 8,
 		type = 1,
@@ -21647,12 +21637,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				9,
-				"原来如此……"
+				"なるほど…"
 			}
 		}
 	},
 	[1895] = {
-		param = "嗯……原来是害怕太沉迷游戏啊",
+		param = "うん。ハマりすぎないか心配ってことか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21660,7 +21650,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[1896] = {
-		param = "不用道歉，能有喜欢的事情很好啊",
+		param = "別に謝ることじゃないさ。夢中になれる何かがあるのは素晴らしいことだよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21668,7 +21658,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[1897] = {
-		param = "也许哪天我们可以一起玩？",
+		param = "機会があったら一緒にやってみよう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21676,7 +21666,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[1898] = {
-		param = "真……真的？∑(°Д°;",
+		param = "ほ…本当ですか？∑(°Д°;",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21684,7 +21674,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[1899] = {
-		param = "那那那我会……努力教好指挥官的！",
+		param = "なななら…頑張って指揮官に教えます！",
 		ship_group = 40111,
 		flag = 9,
 		type = 1,
@@ -21692,12 +21682,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				10,
-				"放心去买吧！"
+				"買っちゃおう！"
 			}
 		}
 	},
 	[1900] = {
-		param = "嗯，所以放心去买吧！",
+		param = "うん。だから安心して買っちゃおう！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21705,7 +21695,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[1901] = {
-		param = "如果好玩的话记得告诉我，我也马上去买！",
+		param = "面白かったら教えてね。こっちもポチるから！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21713,7 +21703,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[1902] = {
-		param = "嗯...嗯！",
+		param = "は、はい！",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21721,7 +21711,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[1903] = {
-		param = "嘿嘿……可以和指挥官一起玩游戏……",
+		param = "えへへ…指揮官とゲーム……",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21729,7 +21719,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[1904] = {
-		param = "那个……指挥官……",
+		param = "あの…シッキー…",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21737,7 +21727,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1905] = {
-		param = "我有话想说……但是好紧张……(〃´-ω･)",
+		param = "シッキーに相談したいことがあるけど…すごく緊張してて (〃´-ω･)",
 		ship_group = 40111,
 		flag = 0,
 		type = 1,
@@ -21745,12 +21735,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"没关系的……"
+				"大丈夫だよ"
 			}
 		}
 	},
 	[1906] = {
-		param = "没关系的，你可以慢慢打字，我会看的",
+		param = "大丈夫だよ。ゆっくりでいいから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21758,7 +21748,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1907] = {
-		param = "我……我最近在学习料理……",
+		param = "わ、わたし…最近料理の勉強を始めたんです…",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21766,7 +21756,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1908] = {
-		param = "其实我一直对厨艺还挺感兴趣的……",
+		param = "というのも実は料理にずっと興味があって…",
 		ship_group = 40111,
 		flag = 1,
 		type = 1,
@@ -21774,12 +21764,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"厨艺？"
+				"料理？"
 			}
 		}
 	},
 	[1909] = {
-		param = "厨艺？我都不知道你有这个兴趣",
+		param = "料理？そんな趣味があったなんて知らなかったな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21787,7 +21777,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1910] = {
-		param = "嗯……因为不想出门买食材，所以一直就没有尝试……",
+		param = "はい…でも食材の買い出しに出かけないといけないので、今までずっと挑戦したことはなかったんですが…",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21795,7 +21785,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1911] = {
-		param = "最近{namecode:295}小姐的送货上门服务……很方便",
+		param = "最近は尾張の配達サービスもあるから…すごく使い勝手よくてですね",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21803,7 +21793,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1912] = {
-		param = "而且我也有了想要做料理让其品尝的人……",
+		param = "それに…料理を食べてもらいたい人もできましたから…",
 		ship_group = 40111,
 		flag = 2,
 		type = 1,
@@ -21811,12 +21801,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"很不错啊。"
+				"いいね"
 			}
 		}
 	},
 	[1913] = {
-		param = "很不错啊，你能愿意为自己的兴趣努力，很了不起",
+		param = "いいね。興味のために頑張れるのはえらいよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21824,7 +21814,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1914] = {
-		param = "指挥官真的这么觉得吗…… ヽ(；▽；)ノ",
+		param = "指揮官、本当にそう思ってくれるんですか… ヽ(；▽；)ノ",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21832,7 +21822,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1915] = {
-		param = "那……那个……我想为指挥官做一顿晚餐……可以吗？",
+		param = "じゃ、じゃあ…指揮官に晩御飯を振る舞いたいんですが…いいですか？",
 		ship_group = 40111,
 		flag = 3,
 		type = 1,
@@ -21840,16 +21830,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"当然可以！"
+				"もちろん！"
 			},
 			{
 				5,
-				"那就麻烦你了"
+				"じゃあ頼もうか"
 			}
 		}
 	},
 	[1916] = {
-		param = "当然可以，我很期待！",
+		param = "もちろん！楽しみにしてるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21857,7 +21847,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1917] = {
-		param = "你准备做什么菜？",
+		param = "ちなみに何を作る予定？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21865,7 +21855,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1918] = {
-		param = "那就麻烦你了，我很期待",
+		param = "じゃあ頼もうか。楽しみだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21873,7 +21863,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1919] = {
-		param = "不、不会麻烦的！能为指挥官做料理，我很开心！",
+		param = "よ、喜んで！指揮官のために料理を作れるなんて…嬉しすぎます！",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21881,7 +21871,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1920] = {
-		param = "我……我查了不少菜谱……！",
+		param = "わたし…レシピをたくさん調べました…！",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21889,7 +21879,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1921] = {
-		param = "感觉可以先从烤香肠和土豆汤开始……再加上一些小菜……",
+		param = "グリルソーセージとポテトスープから…アペタイザーの小鉢も添えて…",
 		ship_group = 40111,
 		flag = 0,
 		type = 1,
@@ -21897,12 +21887,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"听起来很美味……"
+				"美味しそう！"
 			}
 		}
 	},
 	[1922] = {
-		param = "听起来很美味啊，有什么我可以帮忙的么？",
+		param = "美味しそうだね。こっちにも何か手伝えることはある？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21910,7 +21900,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1923] = {
-		param = "欸？指挥官要帮忙吗……",
+		param = "え？手伝うって…",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21918,7 +21908,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1924] = {
-		param = "但是……其实我想给指挥官一个惊喜……",
+		param = "でもわたし…指揮官にサプライズしたいですし…",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21926,7 +21916,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1925] = {
-		param = "所以就让我自己来吧……！(〃'▽'〃)",
+		param = "というわけで一人でやらせてください…！(〃'▽'〃)",
 		ship_group = 40111,
 		flag = 6,
 		type = 1,
@@ -21934,12 +21924,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"明白了……"
+				"分かった"
 			}
 		}
 	},
 	[1926] = {
-		param = "明白了，那我就期待你的惊喜吧",
+		param = "分かった。じゃあサプライズを楽しみにしてる",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21947,7 +21937,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1927] = {
-		param = "不过如果遇到困难了，可以随时找我",
+		param = "もし何かに困ったら、いつでも声かけて",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21955,7 +21945,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1928] = {
-		param = "嗯，我会努力的！ヽ(´▽｀)/",
+		param = "はい！頑張ります！ヽ(´▽｀)/",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21963,7 +21953,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1929] = {
-		param = "不过……如果失败了的话，希望指挥官你不要生气哦……",
+		param = "でも…失敗しちゃっても怒らないでくださいね……",
 		ship_group = 40111,
 		flag = 7,
 		type = 1,
@@ -21971,12 +21961,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"无论如何我都会很开心"
+				"もちろん"
 			}
 		}
 	},
 	[1930] = {
-		param = "无论结果如何，能吃到{namecode:539}亲手做的料理我都会很开心的",
+		param = "もちとん。Z11が作ってくれたならどんなものでも喜んで食べるさ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -21984,7 +21974,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[1931] = {
-		param = "指挥官……！呜呜……(；ω；)",
+		param = "シッキー！…！うぅ…(；ω；)",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -21992,7 +21982,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[1932] = {
-		param = "那、那我一定会加油的！",
+		param = "が、頑張るぞー！",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -22000,7 +21990,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[1933] = {
-		param = "啊对了，时间的话……就定在明天晚上七点吧？",
+		param = "あ。じ、時間は…明日の夜7時とかでどうですか？",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -22008,7 +21998,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[1934] = {
-		param = "可以吗？我会准时做好的！",
+		param = "それまでにはご馳走を用意しておきますから！",
 		ship_group = 40111,
 		flag = 8,
 		type = 1,
@@ -22016,12 +22006,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				9,
-				"没问题"
+				"問題ない"
 			}
 		}
 	},
 	[1935] = {
-		param = "没问题，我一定准时到",
+		param = "問題ない。時間通りに行くよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22029,7 +22019,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[1936] = {
-		param = "那……那明天见，指挥官！",
+		param = "じゃ…じゃあ指揮官、また明日！",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -22045,7 +22035,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[1938] = {
-		param = "指、指挥官……我今天做了件大事哦",
+		param = "し、指揮官…わたしね、今日偉業を成し遂げましたよ",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -22061,16 +22051,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"做什么了？"
+				"偉業とは？"
 			},
 			{
 				2,
-				"游戏全成就了？"
+				"トロフィーでもコンプしたのか？"
 			}
 		}
 	},
 	[1940] = {
-		param = "做什么了？说来听听",
+		param = "どんな偉業か聞かせてもらおうか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22086,7 +22076,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1942] = {
-		param = "之前说的游戏全成就了吗？",
+		param = "前に言ってたゲームのトロフィーでもコンプしたのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22094,7 +22084,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1943] = {
-		param = "那的确是件大事",
+		param = "それは確かにすごいな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22102,7 +22092,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1944] = {
-		param = "不，不是啦……！",
+		param = "ち、違いますよ…！",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -22110,7 +22100,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1945] = {
-		param = "我今天……主动出门了……！",
+		param = "わたし今日…自分から外に出かけました…！",
 		ship_group = 40111,
 		flag = 0,
 		type = 1,
@@ -22118,12 +22108,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"真是不小的进步"
+				"大した進歩だ"
 			}
 		}
 	},
 	[1946] = {
-		param = "真是不小的进步，感觉如何？",
+		param = "大した進歩だ。で、どうだった？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22131,7 +22121,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1947] = {
-		param = "虽然走到一半就想跑回来……",
+		param = "途中で逃げ出したくなっちゃいましたけど…",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -22139,7 +22129,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1948] = {
-		param = "但想到指挥官……我就坚持住了……",
+		param = "指揮官のことを思うと…踏ん張れました…",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -22147,7 +22137,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1949] = {
-		param = "呜啊啊……遇到其他同伴的时候，心跳得好厉害……",
+		param = "うぅ…他の仲間にバッタリ会った時は、心臓がバクバクいってもう…",
 		ship_group = 40111,
 		flag = 3,
 		type = 1,
@@ -22155,12 +22145,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"做得很好"
+				"よく頑張ったね"
 			}
 		}
 	},
 	[1950] = {
-		param = "已经做得很好了！",
+		param = "よく頑張ったね！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22168,7 +22158,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1951] = {
-		param = "不过，为什么突然想出门了？",
+		param = "それにしても、どうして急に外に出ようと思ったの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22176,7 +22166,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1952] = {
-		param = "因为……因为我也想更多帮上指挥官嘛",
+		param = "だって…だって指揮官のためにもっと役に立ちたいですから…",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -22184,7 +22174,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1953] = {
-		param = "也不能总是……纵容自己家里蹲",
+		param = "いつまでも…部屋に引きこもってちゃいけないなぁって",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -22192,7 +22182,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1954] = {
-		param = "于是我就……去了那个无人售货商店",
+		param = "それで…無人店舗に行ってきました",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -22200,7 +22190,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1955] = {
-		param = "我趁店里没人的时候……在里面待了整整十分钟！",
+		param = "客が誰もいない時に…10分も逃げずに頑張りましたよ！",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -22208,7 +22198,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1956] = {
-		param = "挑选了喜欢的零食……",
+		param = "好きなお菓子を選んで…",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -22216,7 +22206,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1957] = {
-		param = "哦对了，还和自动售货机斗智斗勇了一番……",
+		param = "そうだ、自動販売機とも戦って…",
 		ship_group = 40111,
 		flag = 4,
 		type = 1,
@@ -22224,12 +22214,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"发生什么了？"
+				"何かあったのか？"
 			}
 		}
 	},
 	[1958] = {
-		param = "嗯？发生什么了？",
+		param = "ん？何かあったのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22237,7 +22227,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1959] = {
-		param = "那个机器好像有点问题……我选的饮料卡住了……",
+		param = "その自動販売機、どうも調子が悪かったみたいで…選んだ飲み物が詰まっちゃって…",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -22245,7 +22235,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1960] = {
-		param = "我本来想放弃的……但那个是指挥官喜欢的饮料，特地买给指挥官的",
+		param = "諦めようと思ったんですけど…指揮官の好きな飲み物をどうしても買ってあげたくて……",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -22253,7 +22243,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1961] = {
-		param = "所以我就……",
+		param = "だからわたし…",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -22261,7 +22251,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1962] = {
-		param = "狠狠踢了它几脚……！",
+		param = "思いっきり叩いてみました…！",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -22269,7 +22259,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[1963] = {
-		param = "然后它就老老实实把饮料交出来了，嘿嘿。",
+		param = "そしたらちゃんと飲み物が出ました。えへへ♪",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -22285,7 +22275,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"[发呆]"
+				"スタンプ：えー"
 			}
 		}
 	},
@@ -22298,7 +22288,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1966] = {
-		param = "感觉只要想着指挥官的话，就会更有勇气呢",
+		param = "指揮官のことを考えると、勇気が出るんです",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -22306,7 +22296,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1967] = {
-		param = "所以啊，指挥官一会……要来我这里……",
+		param = "それで指揮官…こ、このあと…わたしの部屋で…",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -22314,7 +22304,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[1968] = {
-		param = "吃点零食……一起玩游戏吗？",
+		param = "お菓子でも食べながら…一緒にゲームしませんか？",
 		ship_group = 40111,
 		flag = 6,
 		type = 1,
@@ -22322,12 +22312,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"好啊"
+				"いいよ"
 			}
 		}
 	},
 	[1969] = {
-		param = "好啊",
+		param = "いいよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22335,7 +22325,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1970] = {
-		param = "等下工作完了就过去",
+		param = "仕事が終わったら行くよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22343,7 +22333,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1971] = {
-		param = "好！那我先把饮料放冰箱 (〃ω〃)",
+		param = "やったぁ！じゃあ飲み物を冷やしておくね♪ (〃ω〃)",
 		ship_group = 40111,
 		type = 1,
 		option = "",
@@ -22359,7 +22349,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[1973] = {
-		param = "指挥官……看你最近很忙、很累",
+		param = "指揮官さん……最近忙しくて、大変そうですね",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22367,7 +22357,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[1974] = {
-		param = "……有按时好好吃饭吗？",
+		param = "……ちゃんとご飯を食べてますか？",
 		ship_group = 50105,
 		flag = 0,
 		type = 1,
@@ -22375,12 +22365,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"稍微有些…"
+				"ちょっとね…"
 			}
 		}
 	},
 	[1975] = {
-		param = "稍微有些……最近事情实在比较多",
+		param = "ちょっとね………最近やることが多くて",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22388,7 +22378,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1976] = {
-		param = "……那我来做饭给你吃吧？",
+		param = "……それなら、わたしがご飯を作りましょうか？",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22396,7 +22386,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1977] = {
-		param = "我的拿手菜很多，指挥官可以随便选！",
+		param = "得意料理はたくさんありますから、好きなものをリクエストしてください！",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22404,7 +22394,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1978] = {
-		param = "当然，如果能给我说一下近期喜欢的口味就更好了",
+		param = "それと、最近の好みの味付けを教えてくださったら助かります！",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22412,7 +22402,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[1979] = {
-		param = "我做个参考！",
+		param = "参考にしますので！",
 		ship_group = 50105,
 		flag = 1,
 		type = 1,
@@ -22420,16 +22410,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"最近吃的比较清淡"
+				"あっさりめがいいかな"
 			},
 			{
 				3,
-				"最近喜欢调味比较重的食物"
+				"濃いめが好きかな"
 			}
 		}
 	},
 	[1980] = {
-		param = "最近吃的比较清淡，没有什么特别的讲究",
+		param = "特にこだわりはないけど…最近はあっさりしたものをよく食べているな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22437,7 +22427,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1981] = {
-		param = "……其实清淡也是有讲究的，比如……开水白菜——",
+		param = "……あっさり系と一口に言っても奥が深いんですよ。たとえば……「開水白菜」",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22445,7 +22435,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1982] = {
-		param = "虽然名字看起来很普通，但需要绝对的用心",
+		param = "シンプルな名前に見えますが、とても丁寧な技術が求められる料理なんです",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22453,7 +22443,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1983] = {
-		param = "所谓“开水”其实是精心熬制的汤汁，白菜也是鲜甜的白菜心",
+		param = "「開水」はお湯ではなく、じっくり煮込んだスープです。「白菜」も新鮮で甘みのある白菜の芯の部分しか使いません",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22461,7 +22451,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1984] = {
-		param = "整个制作过程既繁琐又精细，最终的摆盘也要注重汤汁和白菜互相承托的美感",
+		param = "手間をかけて繊細に味を整える必要があるだけでなく、スープと白菜の美しさを引き立てた盛り付けに気を配らなければなりません",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22469,7 +22459,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1985] = {
-		param = "……我说得有点太多了……总之只是给指挥官解释一下",
+		param = "……ごめんなさい。少しだらだら話しすぎちゃいました……今のはあくまで料理を説明しただけで…",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22477,7 +22467,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1986] = {
-		param = "既然你那么肯定我的厨艺，其实可以对我的要求……再高一点",
+		param = "わたしの料理の腕を信じてくださるなら、もっと細かく……基準を高くしてリクエストをしてもらっていいんですよ",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22485,7 +22475,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1987] = {
-		param = "指挥官的所有要求，我都能满足",
+		param = "指揮官さんのリクエストならどんなものでもお応えしますから",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22493,7 +22483,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1988] = {
-		param = "……在厨房里的所有要求",
+		param = "……ただ、料理に関するリクエストだけでお願いします",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22501,7 +22491,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[1989] = {
-		param = "最近喜欢调味比较重的食物",
+		param = "濃いめが好きかな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22509,7 +22499,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1990] = {
-		param = "工作繁忙，所以想要刺激一下味蕾",
+		param = "忙しいから、味蕾に刺激が欲しくて",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22517,7 +22507,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1991] = {
-		param = "指挥官的口味……很好！",
+		param = "指揮官さんの好み……いいと思います！",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22525,7 +22515,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1992] = {
-		param = "麻辣鲜香、酱香浓郁、香辣劲爆……",
+		param = "痺れる麻辣、こってりした醤香、派手に爆ぜる香辣……",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22533,7 +22523,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1993] = {
-		param = "嗯，炒菜的事情我可是很拿手的！",
+		param = "ふふん、炒め物なら大の得意です！！",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22541,7 +22531,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1994] = {
-		param = "锅铲舞动、菜肴翻腾、火焰飞溅",
+		param = "翻るヘラ、宙を舞う食材、そして熱烈な大火力！",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22549,7 +22539,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1995] = {
-		param = "这样的美好场面才能成就一道触动味蕾的佳肴！",
+		param = "ダイナミックだからこそ、味覚を刺激する最高の料理ができるんです！",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22557,7 +22547,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1996] = {
-		param = "就算指挥官喜欢其他重口味，我也都可以尝试",
+		param = "指揮官さんの好みがどんな味付けでも挑戦します！",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22565,7 +22555,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1997] = {
-		param = "你……可以尽管提要求，我都能满足",
+		param = "……遠慮せずにどんどんリクエストしてください。全部お応えできますから",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22573,7 +22563,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[1998] = {
-		param = "啊，快要到饭点了，我要去厨房了",
+		param = "あ、そろそろご飯の時間ですね。台所に行かなきゃ",
 		ship_group = 50105,
 		flag = 0,
 		type = 1,
@@ -22581,12 +22571,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"……现在？"
+				"……今から？"
 			}
 		}
 	},
 	[1999] = {
-		param = "……现在？",
+		param = "……今から？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22594,7 +22584,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2000] = {
-		param = "应该还有很久才到饭点吧？这么早就开始么？",
+		param = "まだだいぶ時間があるよ？今から準備するの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22602,7 +22592,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2001] = {
-		param = "……嗯，我要认真研究一下为你做点什么……",
+		param = "……はい、指揮官さんのために何を作ろうかをしっかり考えたいので",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22610,7 +22600,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2002] = {
-		param = "……专属小灶，就从今天开始吧！",
+		param = "……指揮官さんへの特注料理サービス、今日から始めますっ！",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22618,7 +22608,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2003] = {
-		param = "指挥官……刚刚是你站在厨房的门口吗？",
+		param = "指揮官さん……さっき、台所の入口に立ってましたか？",
 		ship_group = 50105,
 		flag = 0,
 		type = 1,
@@ -22626,16 +22616,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"是的，看到你在战斗！"
+				"ああ、龍武が戦っているのを見た！"
 			},
 			{
 				2,
-				"观赏了一场绝妙演出"
+				"最高のライブキッチンだったよ"
 			}
 		}
 	},
 	[2004] = {
-		param = "是的，看到你在战斗！",
+		param = "ああ、龍武が戦っているのを見た！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22643,7 +22633,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2005] = {
-		param = "真的吗……我做饭的样子……会让指挥官想到战斗？",
+		param = "本当ですか……わたしの料理している姿が……指揮官さんには戦いに見えたんですか？",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22651,7 +22641,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2006] = {
-		param = "那你……会感到压力吗？",
+		param = "それを見て……プレッシャーを感じたりしましたか？",
 		ship_group = 50105,
 		flag = 1,
 		type = 1,
@@ -22659,12 +22649,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"不会！"
+				"別に感じなかったよ？"
 			}
 		}
 	},
 	[2007] = {
-		param = "不会！",
+		param = "別に感じなかったよ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22672,7 +22662,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2008] = {
-		param = "观看散发着幸福味道的战场，可遇而不可求~",
+		param = "幸せな香りが漂う戦場なんて、めったに見れないさ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22680,7 +22670,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2009] = {
-		param = "记得你提过，厨房就是战场，感觉很有意思",
+		param = "前に龍武は台所のことを戦場だって言ってたな。すごく面白く思ったよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22688,7 +22678,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2010] = {
-		param = "嘿嘿……",
+		param = "えへへ……",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22696,7 +22686,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2011] = {
-		param = "火候是敌人，要时刻关注",
+		param = "火加減は敵で、常に注意を払うべき相手",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22704,7 +22694,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2012] = {
-		param = "时间是盟友，是战斗中的重要伙伴",
+		param = "時間は味方で、重要なパートナー",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22712,7 +22702,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2013] = {
-		param = "厨具是我的趁手武器，调味品是我的秘密武器",
+		param = "調理器具は頼れる武器、調味料は秘密の切り札",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22720,7 +22710,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2014] = {
-		param = "我只需要一心一意、专心致志做出来完美的餐品！",
+		param = "あとは一心不乱に、最高の料理を作り上げるのみ！",
 		ship_group = 50105,
 		flag = 3,
 		type = 1,
@@ -22728,12 +22718,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"这样的状态很不错"
+				"とても素敵だと思う"
 			}
 		}
 	},
 	[2015] = {
-		param = "观赏了一场绝妙的演出，很好看也很香！",
+		param = "素晴らしいパフォーマンスを鑑賞させてもらったよ。格好よかった！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22741,7 +22731,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2016] = {
-		param = "……谢谢指挥官……",
+		param = "ありがとうございます……",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22757,12 +22747,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"而且有种武学大师的气质……"
+				"武術の達人みたいな雰囲気があった"
 			}
 		}
 	},
 	[2018] = {
-		param = "而且，你做饭的时候有种武学大师的气质",
+		param = "龍武が料理しているときは、なんだか武術の達人みたいな雰囲気があるよね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22770,7 +22760,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2019] = {
-		param = "一招一式，行云流水",
+		param = "動くこと行雲流水の如く。ワザマエ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22778,7 +22768,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2020] = {
-		param = "欸？真的吗……之前大家说在厨房里的我看起来有点凶呢……",
+		param = "ほ、本当ですか……台所にいるときのわたしは皆からちょっと怖いってよく言われて……",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22786,7 +22776,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2021] = {
-		param = "难道……是因为指挥官说的……武学大师的气质吗？",
+		param = "あ。それが指揮官さんの言う「武術の達人みたいな雰囲気」ですかね？",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22794,7 +22784,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2022] = {
-		param = "是不是有点太严肃了……",
+		param = "ちょっと真剣すぎたのかもしれません……",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22802,7 +22792,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2023] = {
-		param = "但是我喜欢做饭……是会感到肆意和潇洒~",
+		param = "でもわたし、やっぱり料理が好きです！……自由になれる気がします！",
 		ship_group = 50105,
 		flag = 4,
 		type = 1,
@@ -22810,12 +22800,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"这样的状态很不错"
+				"とても素敵だと思う"
 			}
 		}
 	},
 	[2024] = {
-		param = "这样的状态很不错，你起锅的时候我都在暗暗鼓掌了",
+		param = "とても素敵だと思う。鍋を振るってるときなんて、思わず拍手しそうになったよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22823,7 +22813,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2025] = {
-		param = "期待味道！",
+		param = "味の方も期待してるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22831,7 +22821,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2026] = {
-		param = "不会让你失望的~",
+		param = "絶対にがっかりさせませんよ",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22839,7 +22829,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2027] = {
-		param = "……我今天炒了很多菜，可以多吃好几碗饭呢",
+		param = "……今日はたくさん炒め物を作りましたので、何杯でもご飯が進むはずです",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22847,7 +22837,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2028] = {
-		param = "……是一起吃……吃好几碗",
+		param = "……一緒に食べて……何杯も！",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22855,7 +22845,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2029] = {
-		param = "我马上到指挥室了",
+		param = "もうすぐで執務室に着きますから",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22863,7 +22853,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2030] = {
-		param = "指挥官，一起来吃饭吧！",
+		param = "指揮官さん、一緒にご飯を食べましょう！",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22871,7 +22861,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2031] = {
-		param = "……指挥官？！指挥官！！！",
+		param = "……指揮官さん？！指揮官さん！！！",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22879,7 +22869,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2032] = {
-		param = "喂？是指挥官吗？",
+		param = "もしもし？指揮官さんですか？",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22887,7 +22877,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2033] = {
-		param = "指、挥、官！！！！",
+		param = "しきかん！！！！",
 		ship_group = 50105,
 		flag = 0,
 		type = 1,
@@ -22895,16 +22885,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"喂？我在"
+				"もしもし？"
 			},
 			{
 				2,
-				"感觉你的状态不对"
+				"なんだか様子がおかしいな……"
 			}
 		}
 	},
 	[2034] = {
-		param = "喂？我在",
+		param = "もしもし？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22912,7 +22902,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2035] = {
-		param = "这是在用啾信模拟打电话……？",
+		param = "これは電話じゃなくて艦チャットだよな……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22920,7 +22910,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2036] = {
-		param = "嘘———我在和指挥官说话",
+		param = "しーっ！今、指揮官さんと通話してるんだから",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22928,7 +22918,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2037] = {
-		param = "龙武这里 有甜甜的味道",
+		param = "龍武のところはねー、甘い匂いがするの",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22936,7 +22926,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2038] = {
-		param = "好像和指挥官在一起的时候",
+		param = "なんだか 指揮官さんと一緒にいるときみたい",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22944,7 +22934,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2039] = {
-		param = "开心 喜欢，龙武喜欢",
+		param = "楽しい 好き 龍武が好き",
 		ship_group = 50105,
 		flag = 1,
 		type = 1,
@@ -22952,12 +22942,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"果然是喝醉了……"
+				"やっぱり酔っ払ってるな……"
 			}
 		}
 	},
 	[2040] = {
-		param = "感觉你的状态不对",
+		param = "なんだか様子がおかしいな……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22965,7 +22955,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2041] = {
-		param = "是……喝酒了吗？",
+		param = "もしかして……お酒を飲んだ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -22973,7 +22963,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2042] = {
-		param = "酒？没 是荔香迷路",
+		param = "お酒？違う。ライチの……",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22981,7 +22971,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2043] = {
-		param = "米露",
+		param = "米酒です……",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22989,7 +22979,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2044] = {
-		param = "龙武想喂到指挥官的嘴里呢",
+		param = "指揮官さんにあーんってしてあげたい",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -22997,7 +22987,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2045] = {
-		param = "是甜甜 软软的",
+		param = "あま ふわ",
 		ship_group = 50105,
 		flag = 2,
 		type = 1,
@@ -23005,12 +22995,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"果然是喝醉了……"
+				"やっぱり酔っ払ってるな……"
 			}
 		}
 	},
 	[2046] = {
-		param = "果然是喝醉了？但还能发消息……",
+		param = "やっぱり酔っ払ってるな……？でも艦チャットは送れてる……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23018,7 +23008,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2047] = {
-		param = "你现在是在厨房吗？",
+		param = "今台所にいるのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23026,7 +23016,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2048] = {
-		param = "当然！",
+		param = "もちろん！",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -23034,7 +23024,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2049] = {
-		param = "龙武喜欢厨房",
+		param = "台所大好き",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -23042,7 +23032,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2050] = {
-		param = "但要为了指挥官 喜欢指挥室",
+		param = "指揮官さんのためなら執務室も好き",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -23050,7 +23040,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2051] = {
-		param = "嗯……也可以……",
+		param = "うん。好きになれる",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -23058,7 +23048,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2052] = {
-		param = "龙武想在指挥室有自己的厨房",
+		param = "執務室に龍武専用の台所がほしい",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -23066,7 +23056,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2053] = {
-		param = "指挥官！！可以吗？！！！",
+		param = "指揮官さん！！お願いしていいですか？！！",
 		ship_group = 50105,
 		flag = 3,
 		type = 1,
@@ -23074,12 +23064,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"嗯……也可以……"
+				"うーん……いいですよ……？"
 			}
 		}
 	},
 	[2054] = {
-		param = "嗯……也可以……",
+		param = "うーん……いいですよ……？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23087,7 +23077,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2055] = {
-		param = "不",
+		param = "違う",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -23095,7 +23085,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2056] = {
-		param = "不要学龙武说话",
+		param = "龍武の口調を真似しない！",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -23103,7 +23093,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2057] = {
-		param = "但要吃龙武做的菜",
+		param = "龍武の作った料理だけ食べて",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -23111,7 +23101,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2058] = {
-		param = "龙武准备了很多——很多————————",
+		param = "龍武たくさん、たくさん",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -23119,7 +23109,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2059] = {
-		param = "适合两个人一起品尝的 好吃的",
+		param = "二人で一緒に食べるのにぴったりな 美味しい料理を 作った",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -23127,7 +23117,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2060] = {
-		param = "偷偷告诉指挥官哦~",
+		param = "こっそり教える",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -23135,7 +23125,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2061] = {
-		param = "龙武酿的荔枝 一定是东煌",
+		param = "龍武が作ったライチ酒は、東煌では",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -23143,7 +23133,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2062] = {
-		param = "的这个",
+		param = "↓↓↓↓",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -23159,12 +23149,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"是，是最好的"
+				"うん、最高だよね"
 			}
 		}
 	},
 	[2064] = {
-		param = "是，肯定是最好的",
+		param = "うん、間違いなく最高だよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23172,7 +23162,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2065] = {
-		param = "我马上就到了，等我",
+		param = "すぐそっちに行くから、待ってて",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23180,7 +23170,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2066] = {
-		param = "等",
+		param = "待つ？",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -23188,7 +23178,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2067] = {
-		param = "龙武不想等",
+		param = "龍武 待ちたくない",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -23196,7 +23186,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2068] = {
-		param = "龙武想让指挥官吃掉",
+		param = "龍武 指揮官さんに食べてほしい",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -23204,7 +23194,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2069] = {
-		param = "幸福的味道",
+		param = "幸せの味！",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -23212,7 +23202,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2070] = {
-		param = "等会儿看看我发给你的穿搭参考",
+		param = "送ったコーデの参考としてあとで見といてください",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23220,7 +23210,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2071] = {
-		param = "顺便提醒下，你今天服装的细节问题很多，看起来还是有点……",
+		param = "ついでに教えますけど、今日のあなたのコーデには細かい問題がいくつかあります。正直……",
 		ship_group = 50301,
 		flag = 0,
 		type = 1,
@@ -23228,12 +23218,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"怎么不往下说了？"
+				"どうして最後まで言わないの？"
 			}
 		}
 	},
 	[2072] = {
-		param = "怎么不往下说了？",
+		param = "どうして最後まで言わないの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23241,7 +23231,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2073] = {
-		param = "算了，总之不是称赞",
+		param = "別に何も。とにかく、褒めているわけではありませんから",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23249,7 +23239,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2074] = {
-		param = "……细节不止能表现时尚，还会影响气质和个人风格",
+		param = "……細部というのは、ただのファッションの問題ではなく、その人の気質や個性にも影響を与えるものなんです",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23257,7 +23247,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2075] = {
-		param = "比如，一个小小的饰品就能为整个穿搭提升档次、增加魅力",
+		param = "例えば、小さなアクセサリーひとつですら、全体のコーデを上品にし、さらに魅力を引き出すことができます",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23265,7 +23255,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2076] = {
-		param = "细微之处的意义就是这样体现的，希望你认清这一点",
+		param = "細部の重要性とは、そういうところに表れるものです。この点をぜひ理解してほしいんですが",
 		ship_group = 50301,
 		flag = 1,
 		type = 1,
@@ -23273,12 +23263,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"认清了不少，之后……"
+				"その点はよく理解した。これから……"
 			}
 		}
 	},
 	[2077] = {
-		param = "认清了不少，之后会拜托你帮忙注意的",
+		param = "その点はよく理解した。これからも注意してほしい",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23286,7 +23276,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2078] = {
-		param = "我倒是可以帮你，但你自己也要多注意点细节",
+		param = "お手伝いするのは構いませんが、自分でももっと細部に気を配るべきですよ",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23294,7 +23284,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2079] = {
-		param = "总是关注全局和整体就会让一切变得中规中矩，没什么新意",
+		param = "全体や大局ばかりを重視すると、すべてが平凡で新鮮味に欠けるものになりがちですから",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23302,7 +23292,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2080] = {
-		param = "这一点，就算我不说你也应该是懂的",
+		param = "そんなことは、私が言わなくても本当は分かっているはずですよね？",
 		ship_group = 50301,
 		flag = 2,
 		type = 1,
@@ -23310,16 +23300,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"感谢建议，已经关注到了你的特别交代"
+				"アドバイスありがとう。ちゃんと注意するよ"
 			},
 			{
 				4,
-				"有所启发，聚焦细节也不错"
+				"いろいろと気づかされたよ。細部に焦点を当てるのも悪くない"
 			}
 		}
 	},
 	[2081] = {
-		param = "感谢建议，已经关注到了你的特别交代",
+		param = "アドバイスありがとう。ちゃんと注意するよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23327,7 +23317,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2082] = {
-		param = "突破一些固有思路，说不定可以让你眼前一亮",
+		param = "固定観念を超えることで、もしかすると建武を驚かせるようなことができるかもしれないね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23335,7 +23325,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2083] = {
-		param = "嗯~倒是挺有觉悟",
+		param = "ふふ、意気込みだけはあるようですね",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23343,7 +23333,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2084] = {
-		param = "或许培养一下，你能发掘出不错的突破点",
+		param = "センスを磨けば、意外な突破口が見つかるかもしれませんよ",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23351,7 +23341,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2085] = {
-		param = "找方向的时候可以问我，我会抽时间回答你的问题",
+		param = "方向性を探すときには、私に相談しても構いませんが……",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23359,7 +23349,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2086] = {
-		param = "不过，为了节约时间，你最好能想到一个不错的方向再来问我",
+		param = "時間を節約するためにも、ある程度自分で考えてから相談してください",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23367,7 +23357,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2087] = {
-		param = "有所启发，聚焦细节也不错，是提升整体的重要一环",
+		param = "いろいろと気づかされたよ。細部に焦点を当てるのも、全体を高めるためには重要なポイントだね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23375,7 +23365,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2088] = {
-		param = "……还挺让人意外的",
+		param = "……あら、少し意外ですね",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23383,7 +23373,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2089] = {
-		param = "这就是指挥官吗？优先关注的还是整体……",
+		param = "これが指揮官というものなんでしょうか？やはり、全体を優先して考えるんですね……",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23391,7 +23381,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2090] = {
-		param = "那你之后还是继续考虑战略方向的点睛之处吧",
+		param = "それなら、引き続き戦略指導から全体の方向性を考えるといいでしょう",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23399,7 +23389,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2091] = {
-		param = "服饰相关的细节，我有空会帮你看看的",
+		param = "服装の細部については、私に余裕があるときに見てあげますよ",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23407,7 +23397,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2092] = {
-		param = "休息时间，让我看看你的其他衣饰吧",
+		param = "ちょうど休憩時間ですから、指揮官の他の衣装を見せてもらえますか？",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23415,7 +23405,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2093] = {
-		param = "如果有看起来太没品味的东西，我可以顺手帮你处理一下",
+		param = "もしあまりにもセンスのないものがあれば、ついでになんとかしてあげますよ",
 		ship_group = 50301,
 		flag = 0,
 		type = 1,
@@ -23423,12 +23413,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"拜托了"
+				"お願いします"
 			}
 		}
 	},
 	[2094] = {
-		param = "拜托了，一定给我留一套现穿的",
+		param = "お願いするよ。ただ、せめて一着だけは残してほしい",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23436,7 +23426,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2095] = {
-		param = "要全部处理的话，我会难为情的",
+		param = "全部処分されたらさすがに恥ずかしいから……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23444,7 +23434,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2096] = {
-		param = "……放心吧，看完之后我会做处理计划，不会让你难为情的",
+		param = "……安心してください。直すにも計画を立ててやりますので、恥ずかしい思いをさせたりはしませんよ",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23452,7 +23442,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2097] = {
-		param = "你的品味，多少也没有差到那一步！",
+		param = "そもそもあなたのセンスってそこまで酷いわけではありませんから",
 		ship_group = 50301,
 		flag = 5,
 		type = 1,
@@ -23460,12 +23450,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"感觉受到了夸奖"
+				"褒められた気がする"
 			}
 		}
 	},
 	[2098] = {
-		param = "感觉受到了夸奖，虽然穿着制服，也觉得自己时尚了起来",
+		param = "――もしかして褒められたのかな？なんだか普段着を着ていてもちょっとオシャレになったような…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23473,7 +23463,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2099] = {
-		param = "……好吧，还是到时候见吧，记得给我泡好咖啡",
+		param = "……そうですか。まあ、あとで会いしましょう。コーヒーの差し入れも忘れないでくださいね",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23481,7 +23471,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2100] = {
-		param = "还在工作？",
+		param = "まだ仕事ですか？",
 		ship_group = 50301,
 		flag = 0,
 		type = 1,
@@ -23489,16 +23479,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"只是还在指挥室"
+				"ただ執務室にいるだけ"
 			},
 			{
 				2,
-				"还在"
+				"まだ仕事だよ"
 			}
 		}
 	},
 	[2101] = {
-		param = "只是还在指挥室，工作已经结束了",
+		param = "仕事はもう終わったよ。ただ執務室にいるだけさ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23506,7 +23496,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2102] = {
-		param = "哦，那你帮我带一份夜宵吧",
+		param = "あら、それなら夜食を一つ持ってきてもらえないかしら？",
 		ship_group = 50301,
 		flag = 1,
 		type = 1,
@@ -23514,12 +23504,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"看起来是忙饿了"
+				"忙しすぎてお腹が空いた？"
 			}
 		}
 	},
 	[2103] = {
-		param = "看起来是忙饿了，你还在工作吗？",
+		param = "忙しすぎてお腹が空いた？もしかしてまだ仕事中？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23527,7 +23517,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2104] = {
-		param = "今天的计划被一些琐事打断了，我正在追赶进度",
+		param = "雑務で計画が邪魔されていましてね。ペースを取り戻している最中よ",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23535,7 +23525,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2105] = {
-		param = "夜宵品类你挑选，我顾不上",
+		param = "夜食の種類は指揮官が決めてください。そこまで気が回りませんので",
 		ship_group = 50301,
 		flag = 3,
 		type = 1,
@@ -23543,16 +23533,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"甜品怎么样"
+				"スイーツはどう？"
 			},
 			{
 				5,
-				"烧烤怎么样"
+				"脂っこいのはどう？"
 			}
 		}
 	},
 	[2106] = {
-		param = "甜品怎么样，深夜需要一点愉悦的心情",
+		param = "スイーツはどう？深夜だし、少し気分を上げられるものがいいと思うよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23560,7 +23550,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2107] = {
-		param = "补充一点糖分，愉悦一下也不错",
+		param = "糖分を補給して、気分転換するのも悪くないですね",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23568,7 +23558,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2108] = {
-		param = "选点造型不错的吧，说不定能为我多带来一些灵感",
+		param = "見た目が良さそうなのを選んでください。もしかしたら、そこから何かインスピレーションが湧くかもしれません",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23576,7 +23566,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2109] = {
-		param = "烧烤怎么样，刺激一下",
+		param = "脂っこいのはどう？少し刺激的なもので…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23584,7 +23574,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2110] = {
-		param = "也好……偏偏你在这方面的选择，我没什么意见",
+		param = "それもいいですね……あなたのこの手の提案って不思議と意見する気になりませんね",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23592,7 +23582,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2111] = {
-		param = "说不定能让我更精神一点",
+		param = "それで少し元気が出ればいいけれど",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23600,7 +23590,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2112] = {
-		param = "还在，甚至有点停不下来",
+		param = "まだ仕事だよ。そろそろ止まらなくなってきた",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23608,7 +23598,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2113] = {
-		param = "那就好，停不下来的不止是我就好",
+		param = "それなら良かったです。止まらなくなっているのは私だけじゃないと分かって、少し気が楽になりました",
 		ship_group = 50301,
 		flag = 2,
 		type = 1,
@@ -23616,16 +23606,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"算是同甘共苦的意思？"
+				"東煌でいう「同甘共苦」ってこと？"
 			},
 			{
 				7,
-				"能一起停下来也不错"
+				"一緒に休めるのも悪くないね"
 			}
 		}
 	},
 	[2114] = {
-		param = "算是同甘共苦的意思？",
+		param = "東煌でいう「同甘共苦」ってこと？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23633,7 +23623,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2115] = {
-		param = "嗯？你觉得工作停不下来，是很辛苦的事情？",
+		param = "ん？もしかしてあなた、仕事が止まらないのが辛いとでも思ってます？",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23641,7 +23631,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2116] = {
-		param = "想要打造完美的时尚，总要付出些什么",
+		param = "完璧なものを生み出すには、犠牲はつきものですよ",
 		ship_group = 50301,
 		flag = 6,
 		type = 1,
@@ -23649,12 +23639,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"不，此刻我甘之如饴"
+				"いや？むしろ楽しんでいるけど？"
 			}
 		}
 	},
 	[2117] = {
-		param = "不，此刻我甘之如饴，毕竟和你的频率一致",
+		param = "いや？むしろ楽しんでいるよ？建武とペースが合わせられているし",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23662,7 +23652,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[2118] = {
-		param = "……好吧，但愿你是真的这么认为",
+		param = "……そうですか。本気でそう思っていてほしいものです",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23670,7 +23660,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[2119] = {
-		param = "能一起停下来也不错，如果累了就放松一下吧",
+		param = "一緒に休めるのも悪くないね。疲れたらちょっとリラックスしよう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23678,7 +23668,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2120] = {
-		param = "也是，偶尔还是可以听从一下你的建议的",
+		param = "そうですね、あなたの提案に従ってみるのもいいかもしれません",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23686,7 +23676,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2121] = {
-		param = "其实和你说第一句话的时候……",
+		param = "実はあなたに最初のメッセージを送った時から……",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23694,7 +23684,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2122] = {
-		param = "我就已经开始放松了",
+		param = "もう休憩し始めてましたよ？",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23702,7 +23692,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2123] = {
-		param = "算了，现在的心情不错",
+		param = "まあ、今は気分がいいですし",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23710,7 +23700,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2124] = {
-		param = "等下我们找个地方见面吧，休息一会儿也不错",
+		param = "この後、どこかで会いましょうか",
 		ship_group = 50301,
 		flag = 0,
 		type = 1,
@@ -23718,12 +23708,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				9,
-				"地方你来定，我去买夜宵"
+				"場所は建武が決めて。夜食はこっちが買うから"
 			}
 		}
 	},
 	[2125] = {
-		param = "地方你来定，我去买夜宵",
+		param = "場所は建武が決めて。夜食はこっちが買うから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23731,7 +23721,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[2126] = {
-		param = "等下发给你，来之前记得整理一下自己的穿着",
+		param = "後で連絡します。来る前にちゃんと衣装を整えてきてください",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23739,7 +23729,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[2127] = {
-		param = "晚间赴约，要更注意自己的格调哦~",
+		param = "夜のデートはいつも以上に格調の高さを要求しますから",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23747,7 +23737,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[2128] = {
-		param = "我明天安排了一些空余时间给你",
+		param = "明日はあなたのために少し時間を空けておきました",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23755,7 +23745,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2129] = {
-		param = "提示一下：时间不短",
+		param = "ヒントを出すと……「結構長い」ですよ",
 		ship_group = 50301,
 		flag = 0,
 		type = 1,
@@ -23763,12 +23753,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"是准备出去吗？"
+				"お出かけかな？"
 			}
 		}
 	},
 	[2130] = {
-		param = "是准备出去吗？难得你会安排很长的空余时间",
+		param = "お出かけかな？建武がそんなに長い時間を空けるのは珍しいけど",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23776,7 +23766,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2131] = {
-		param = "你来我这里吧，有件比较重要的事情需要你参与",
+		param = "とにかくこっちに一度来てください。ちょっとあなたに参加してほしい大事なことがあります",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23784,7 +23774,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2132] = {
-		param = "哦，来的时候记得带那件衣服",
+		param = "あ、来る時に例の服を持ってきてください",
 		ship_group = 50301,
 		flag = 1,
 		type = 1,
@@ -23792,16 +23782,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"你觉得缺少品味的那件？"
+				"センスが足りないって言われた服を？"
 			},
 			{
 				3,
-				"你觉得还不错的那件？"
+				"良い感じって言われた服を？"
 			}
 		}
 	},
 	[2133] = {
-		param = "是你觉得：“多少缺了点品味，没有任何时尚感可言”的那件？",
+		param = "建武に「センスが足りない、全くシャレになっていない」って言われたあの服？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23809,7 +23799,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2134] = {
-		param = "这次不然先忍忍？毕竟是制服……",
+		param = "あれは制服だし、少し大目に見てもらえるかな…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23817,7 +23807,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2135] = {
-		param = "……是你的品味提升了，还是我最近帮你调整得太多了？",
+		param = "……指揮官のセンスが上がったのか、それとも最近私が手伝いすぎたのか……",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23825,7 +23815,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2136] = {
-		param = "难道被我评价为没品的衣服只有制服了吗？",
+		param = "「センスがない」のは制服だけになったかしら？",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23833,7 +23823,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2137] = {
-		param = "好吧，也算是相对完美的发展",
+		param = "まあ、それもある意味完璧になったと言えるかもしれませんね",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23841,7 +23831,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2138] = {
-		param = "你觉得还不错的那件？等等——近期的评价似乎都挺好",
+		param = "建武が「いい感じ」って言ってくれたあの服？……うーん、言われてみれば最近は概ね「いい感じ」だったな……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23849,7 +23839,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2139] = {
-		param = "你夸得我有点飘，忘记具体是哪一件了，能多点提示吗？",
+		param = "どの服だったか具体的に思い出せないんだ。もう少しヒントをもらえる？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23857,7 +23847,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2140] = {
-		param = "……已经有这么多还不错的？",
+		param = "……そんなに何回も「いい感じ」なんて言ったかしら？",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23865,7 +23855,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2141] = {
-		param = "之后还是给你更明确一下分类吧",
+		param = "今度はちゃんと評価のカテゴライズを明確にしますね",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23873,7 +23863,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2142] = {
-		param = "类似足够时尚、风格不错、细节不错、品味不错……",
+		param = "例えばファッション感良し、コンセプト良し、ディテール良し、センス良し……",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23881,7 +23871,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2143] = {
-		param = "还有能够放大你本身魅力的",
+		param = "…あなたの魅力を最大限に引き出せるから良し、と",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23889,7 +23879,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2144] = {
-		param = "帮你明确一下吧，是我之前亲手给你做的，可以参加宴会的那套",
+		param = "今持ってきてほしいのはこの間作ってあげた、パーティーに出ても大丈夫な一着ですよ",
 		ship_group = 50301,
 		flag = 0,
 		type = 1,
@@ -23897,12 +23887,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"我知道了"
+				"あれは……"
 			}
 		}
 	},
 	[2145] = {
-		param = "我知道了，那套衣服兼顾时尚与舒适，穿上就不想脱下……",
+		param = "あの一着はファッションと快適さが両立されているおかげで、一度着たら脱ぎたくなくなるやつだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23910,7 +23900,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2146] = {
-		param = "已经那么好了，还需要改吗？",
+		param = "もう十分素晴らしいのに、それでも直さなきゃならないの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23918,7 +23908,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2147] = {
-		param = "……话说得还挺好听，但谁说让你拿来是要改的？",
+		param = "……おだてるのはそれぐらいにして。誰も直すなんて言ってませんから",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23926,7 +23916,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2148] = {
-		param = "过段时间我要举办一场时尚晚宴，作为举办人我要给自己设计一套礼服",
+		param = "近いうちに母港ファッションパーティーを開く予定があり、主催者として自分用のドレスを作り直さなければなりません",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23934,7 +23924,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2149] = {
-		param = "重要的是：我的这套礼服，需要参照你那套来完成",
+		param = "あなたの一張羅を参考にしたいんです",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23942,7 +23932,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2150] = {
-		param = "我们的礼服需要相得益彰、相辅相成，展现出属于我们两个人的风格和时尚",
+		param = "私とあなたの衣装ですから、互いを補い合い、引き立て合い、それぞれのコンセプトをきっちり表現する必要があります",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23950,7 +23940,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2151] = {
-		param = "所以指挥官，我要正式邀请你",
+		param = "つきましては指揮官、改めて正式に招待させていただきます",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23958,7 +23948,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2152] = {
-		param = "请问你可以作为我的伴侣参加这场晚宴吗？",
+		param = "私のパートナーとして、母港のファッションパーティーに参加していただけませんか？",
 		ship_group = 50301,
 		flag = 4,
 		type = 1,
@@ -23966,12 +23956,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"很荣幸"
+				"うん。喜んで"
 			}
 		}
 	},
 	[2153] = {
-		param = "很荣幸",
+		param = "喜んで",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23979,7 +23969,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2154] = {
-		param = "不过，相得益彰、相辅相成的或许不止是礼服，还有我们",
+		param = "服のことはともかく、自分と建武も補い合い、引き立て合うべきだと思うよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -23987,7 +23977,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2155] = {
-		param = "那……不如你等下休息就来找我吧",
+		param = "そうですか。……ふふ、では休憩する時に私のところに来てもらえます？",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -23995,7 +23985,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2156] = {
-		param = "我正在量尺寸，一个人测量，可能会不太准",
+		param = "今ちょうど採寸していますけど、一人ではどうしても正確さに欠けてしまうので",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -24003,7 +23993,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2157] = {
-		param = "需要你帮帮忙~",
+		param = "手伝ってもらえると助かります",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -24011,7 +24001,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2158] = {
-		param = "今天需要批复的文件已经放在您的桌子上了，我先离开了",
+		param = "今日確認しないといけない書類を机に置いたわ。先に帰るわね",
 		ship_group = 50210,
 		flag = 0,
 		type = 1,
@@ -24019,12 +24009,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"你看起来不舒服"
+				"体調は大丈夫か？"
 			}
 		}
 	},
 	[2159] = {
-		param = "你看起来不太舒服，刚刚离开的时候像是发烧了？",
+		param = "さっきなんだか調子が悪そうに見えたけど…熱でもある？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -24032,7 +24022,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2160] = {
-		param = "……指挥官，你刚才是不是又盯着我看了很久？",
+		param = "……指揮官、私のことをずっと見ていたの？",
 		ship_group = 50210,
 		flag = 1,
 		type = 1,
@@ -24040,12 +24030,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"因为你的目光过于灼热"
+				"海容の視線があまりに熱くてね"
 			}
 		}
 	},
 	[2161] = {
-		param = "因为你的目光太过灼热，我以为你想提醒我工作上的错误，就……",
+		param = "視線があまりに熱くてね。何か仕事のミスを指摘したいのかと思って……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -24053,7 +24043,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2162] = {
-		param = "……这就是你总抬头看我的原因？",
+		param = "……それがずっと私を見ていた理由？",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24061,7 +24051,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2163] = {
-		param = "哼，工作上的事情，你有什么好心虚的",
+		param = "ふん、別に仕事で気にすることなんてないでしょ？",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24069,7 +24059,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2164] = {
-		param = "我还以为是我犯了什么错，你在欲言又止",
+		param = "むしろこっちが何かミスをして、それを言うのを躊躇ってるのかと勘違いしたわ",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24077,7 +24067,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2165] = {
-		param = "好吧……还是我不太了解你啦~",
+		param = "はぁ、まだ指揮官のことをよく分かっていないのね",
 		ship_group = 50210,
 		flag = 2,
 		type = 1,
@@ -24085,12 +24075,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"所以，是身体不舒服吗？"
+				"それで、体調は大丈夫なのか？"
 			}
 		}
 	},
 	[2166] = {
-		param = "所以，是身体不舒服吗？你的脸当时很红。",
+		param = "それで、体調は大丈夫なのか？顔がすごく赤かったけど…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -24106,7 +24096,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2168] = {
-		param = "我没有不舒服，只是太热了",
+		param = "別に何ともないわ。ただ……暑かっただけよ",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24114,7 +24104,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2169] = {
-		param = "都怪你啦！",
+		param = "そう、全部あんたのせいだからね！",
 		ship_group = 50210,
 		flag = 3,
 		type = 1,
@@ -24127,7 +24117,7 @@ pg.base.activity_ins_chat_language = {
 		}
 	},
 	[2170] = {
-		param = "？都怪我？",
+		param = "え？こっちのせい？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -24135,7 +24125,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2171] = {
-		param = "是的……因为……是这样的……我想想……",
+		param = "そうよ。……だって……ええと、ちょっと考えさせて……",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24143,7 +24133,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2172] = {
-		param = "您知道吗，据说盯着手心看久了，手心会发烫",
+		param = "あのさあ、手のひらをじっと見ているとだんだん熱くなる感じ、わかる？",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24151,7 +24141,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2173] = {
-		param = "你盯着我看得那么专注，我的脸当然会发热！",
+		param = "あんなに私の事を見てこられたら、熱くなってもしょうがないじゃない！",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24159,7 +24149,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2174] = {
-		param = "哼~你不会连这点常识都不知道吧？",
+		param = "ふん。そんな常識、まさか知らなかったなんて言わないわよね？",
 		ship_group = 50210,
 		flag = 4,
 		type = 1,
@@ -24167,12 +24157,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"似乎不是这样？"
+				"そんな常識なんてないよ？"
 			}
 		}
 	},
 	[2175] = {
-		param = "似乎不是这样？我记得盯着手心发烫是因为注意力集中……",
+		param = "そんな常識なんてないような？手のひらが熱くなるのは確か集中力が……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -24180,7 +24170,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2176] = {
-		param = "就是这样啦！肯定是你的潜意识太过专注，才把热度传染给我！",
+		param = "それよ！指揮官の潜在意識があまりに集中しすぎて、その熱が私に伝染したの！",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24188,7 +24178,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2177] = {
-		param = "……等下，你那么专注在想什么？",
+		param = "……いや待って、あんた…そんなに集中して何を考えてたの？",
 		ship_group = 50210,
 		flag = 5,
 		type = 1,
@@ -24196,12 +24186,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"除了工作，更多是担心"
+				"仕事もだけど、海容のことも心配してたよ…"
 			}
 		}
 	},
 	[2178] = {
-		param = "除了工作，更多是担心你的状态，以及你脸红的状态很特别",
+		param = "仕事もだけど、海容のことも心配してたよ…顔が赤かったのが気になってね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -24209,7 +24199,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2179] = {
-		param = "什、什么！哪里有特别？！",
+		param = "な、なんですって！？気になってってどういうこと？",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24217,7 +24207,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2180] = {
-		param = "我只是觉得你专注的状态让我心跳很快，这才会脸红啦！",
+		param = "私はね、あんたの集中している姿を見てたら、ドキドキしちゃったから顔が赤くなったの！",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24225,7 +24215,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2181] = {
-		param = "……不对",
+		param = "……違っ",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24233,7 +24223,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2182] = {
-		param = "我肯定当时喝多了冷水才会心跳加快……",
+		param = "きっと冷えた水を飲みすぎたから心拍数が上がって……",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24241,7 +24231,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2183] = {
-		param = "哼，总之是你影响到我了！之后如果想看我的话可以提醒我一下",
+		param = "ふん、とにかくあんたのせいだからね！これからは私を見たくなったら先に言って！",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24249,7 +24239,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2184] = {
-		param = "我可以大大方方给你看，不会再脸红了！",
+		param = "堂々と見せてあげるから、もう顔なんて赤くしないわ！",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24257,7 +24247,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2185] = {
-		param = "指挥官，我发现了一个特别有趣的活动",
+		param = "指揮官、とっても面白そうなイベントを見つけた！",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24265,7 +24255,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2186] = {
-		param = "据说可以通过你随意画出来的作品洞悉你的内心想法",
+		param = "適当に描いた絵からその人の心の中が読み取れるってことらしいわ",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24273,7 +24263,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2187] = {
-		param = "我准备这周的休息时间 一个人 去看看",
+		param = "今週の非番日に行くつもりだけど…",
 		ship_group = 50210,
 		flag = 0,
 		type = 1,
@@ -24281,12 +24271,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"一个人参加活动……"
+				"一人で行くの……？"
 			}
 		}
 	},
 	[2188] = {
-		param = "一个人参加活动……会不会无聊？需要同行的伙伴么？",
+		param = "一人で行くの……？大丈夫？一緒に行こうか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -24294,7 +24284,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2189] = {
-		param = "既然你都这么说了，要是有空的话，跟我一起去也可以",
+		param = "そこまで言うなら、別に連れて行ってもいいわよ",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24302,7 +24292,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2190] = {
-		param = "对了，你到时候随便画什么都好，不用练习的",
+		param = "そうだっ。描くものは何でもいいから、予め練習しなくても大丈夫よ",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24310,7 +24300,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2191] = {
-		param = "只要画了，就一定能看到你内心所想！",
+		param = "とにかく描いたら、絶対に心の中で考えていることが分かるんだから！",
 		ship_group = 50210,
 		flag = 1,
 		type = 1,
@@ -24318,12 +24308,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"……原来是这样啊"
+				"……なるほど、そういうことか"
 			}
 		}
 	},
 	[2192] = {
-		param = "……原来是这样啊，那你画了什么呢？",
+		param = "……そういうことか。ちなみに海容は何を描くつもりなの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -24331,7 +24321,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2193] = {
-		param = "当然是指",
+		param = "もちろんし",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24339,7 +24329,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2194] = {
-		param = "！……指挥官，你别多想！",
+		param = "！……指揮官、勘違いしないでよね！",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24347,7 +24337,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2195] = {
-		param = "你怎么可以随便套话！我只是 曾经 参加过类似的活动！",
+		param = "ちょっと、なんでいきなり誘導尋問すんのよ！",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24355,7 +24345,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2196] = {
-		param = "这次只是跟你一起去看看……",
+		param = "そんなに気になるならあんたが先に行けば？",
 		ship_group = 50210,
 		flag = 2,
 		type = 1,
@@ -24363,16 +24353,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"那你也要一起参加"
+				"海容と一緒に参加したいな"
 			},
 			{
 				4,
-				"难道想知道我内心的想法？"
+				"こっちが考えていることが気にならない？"
 			}
 		}
 	},
 	[2197] = {
-		param = "那这次的活动你也要一起参加",
+		param = "いや、行くなら海容と一緒に参加したいな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -24380,7 +24370,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2198] = {
-		param = "我刚好也想了解一下你的内心",
+		param = "海容が何を考えているかを知るチャンスだし",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -24388,7 +24378,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2199] = {
-		param = "欸？！",
+		param = "えっ？！",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24404,7 +24394,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2201] = {
-		param = "你……你想了解什么！",
+		param = "な、何を知りたいっていうのよ！",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24412,7 +24402,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2202] = {
-		param = "哼，我才不会让你轻易看透！",
+		param = "ふん、簡単に見透かされる私じゃないわ！",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24420,7 +24410,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2203] = {
-		param = "想要探究我的内心……",
+		param = "私の心の中を探るなら……",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24428,7 +24418,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2204] = {
-		param = "你可得足够了解我才行",
+		param = "もっと私のことを知ってからにしなさい！",
 		ship_group = 50210,
 		flag = 3,
 		type = 1,
@@ -24436,12 +24426,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"那就休息日见"
+				"とにかく、今度の休みの日にまた会おう"
 			}
 		}
 	},
 	[2205] = {
-		param = "难道，你想知道我内心的想法？",
+		param = "こっちが考えていることが気にならない？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -24449,7 +24439,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2206] = {
-		param = "你其实可以直接问我",
+		param = "まあ…別にイベントに行かなくても、直接聞けば分かる話だが…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -24457,7 +24447,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2207] = {
-		param = "怎么可能直接问你那种问题啊！",
+		param = "そんなこと直接聞けるわけないじゃない！",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24465,7 +24455,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2208] = {
-		param = "万一你不在乎我怎么办？！",
+		param = "あのね！もしあんたが「海容のことは別にどうだっていい」って答えたらどうすんのよ？！",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24473,7 +24463,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2209] = {
-		param = "不不不，不是的！",
+		param = "って違う！！そうじゃなくて！！",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24481,7 +24471,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2210] = {
-		param = "就是，大家都想更懂指挥官一些……看看指挥官是否在乎我们的工作",
+		param = "みんなが指揮官のことをもっと理解したいなら、指揮官が私たちの仕事を気にしているかどうかを知りたくて！",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24489,7 +24479,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2211] = {
-		param = "对，工作，我也只是想了解一下……",
+		param = "そう！仕事のことよ！ただそれを知りたいだけなんだから！",
 		ship_group = 50210,
 		flag = 4,
 		type = 1,
@@ -24497,12 +24487,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"那就休息日见"
+				"とにかく、今度の休みの日にまた会おう"
 			}
 		}
 	},
 	[2212] = {
-		param = "那就休息日见，看起来参与这场活动，会让我们更加了解彼此",
+		param = "とにかく、互いのことがもっと分かるようになりそうだし、今度の休みの日に一緒に行こう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -24510,7 +24500,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2213] = {
-		param = "哼，但愿你能更了解我吧",
+		param = "ふん。私をもっと理解できればいいけど",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24518,7 +24508,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2214] = {
-		param = "但我一定会先弄清楚指挥官的内心！",
+		param = "その前に必ずあんたの心の中を見抜いてみせるわ！",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24526,7 +24516,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2215] = {
-		param = "指挥官，我们买的那个情绪感应摆件有反应了！",
+		param = "指揮官、私たちがこの前に買った「感応オブジェクト」に反応が出たわよ！",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24534,7 +24524,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2216] = {
-		param = "而且一会儿蓝，一会儿粉，我的现在是橙色~",
+		param = "しかも、青になったりピンクになったり……私のはオレンジ色になっているわ",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24542,7 +24532,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2217] = {
-		param = "送给你的那个怎么样呢？",
+		param = "指揮官にあげたやつはどうなの？",
 		ship_group = 50210,
 		flag = 0,
 		type = 1,
@@ -24550,12 +24540,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"我的摆件还是不变色"
+				"別に色が変わってないような……"
 			}
 		}
 	},
 	[2218] = {
-		param = "我的摆件还是不变色，可能因为我取得晚了一点？",
+		param = "変わってないな。海容から受け取るのが少し遅かったから？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -24563,7 +24553,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2219] = {
-		param = "之前说是室温下放置2个小时后就可以感应了……",
+		param = "取扱説明書には「室温で2時間放置すれば感応できるようになる」って書いてあるけど……",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24571,7 +24561,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2220] = {
-		param = "稍等我问问店家",
+		param = "店に確認してくる",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24579,7 +24569,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2221] = {
-		param = "说明：室温下静置2小时后可以正确感应情绪，红色是愤怒等高负面情绪，橙色是惊喜等瞬间情绪，绿色是惬意、平和的情绪，黄色是焦虑，蓝色是忧郁，粉色是心动，其他情绪均在开发中，敬请期待喵。",
+		param = "商品説明：室温で2時間置くと、感情を正確に読み取ります。赤は怒りなどの強い負の感情、オレンジは驚きなどの瞬間的な感情、緑は安心・心地いい感情、黄色は不安、青は憂鬱、ピンクはトキメキ……それ以外の感情感応機能は現在開発中、乞うご期待にゃ",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24595,7 +24585,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2223] = {
-		param = "她说对于复杂情绪的解析还在开发中，感知不一定准确",
+		param = "複雑な感情の感知はまだ開発中で、必ずしも正確とは限らない",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24603,7 +24593,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2224] = {
-		param = "后面还说情绪是主观概念，说明仅做参考！！",
+		param = "って、「感情はそもそも主観的なもので、上記説明はあくまで参考程度に」って書いてあるわ！",
 		ship_group = 50210,
 		flag = 1,
 		type = 1,
@@ -24611,16 +24601,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"关于你之前的颜色…"
+				"青になったりピンクになったり…"
 			},
 			{
 				3,
-				"关于你现在的颜色…"
+				"今はオレンジ色……"
 			}
 		}
 	},
 	[2225] = {
-		param = "我很好奇，你的情绪为什么一会是蓝色，一会是粉色呢？",
+		param = "ちょっと気になったんだけど、海容のはどうして青になったりピンクになったりしたの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -24628,7 +24618,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2226] = {
-		param = "我……在想事情啦！",
+		param = "た、多分考え事をしてただけよ！",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24636,7 +24626,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2227] = {
-		param = "因为不确定你的心情，我也会比较犹豫",
+		param = "ほら、指揮官の感情がわからないと、私も色々と迷うでしょ？",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24644,7 +24634,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2228] = {
-		param = "当然，我也不是特意送给你的啦……",
+		param = "べ、別にわざわざあんたにあげたわけじゃないからね……",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24652,7 +24642,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2229] = {
-		param = "只是觉得可以知道你的心情很有意思~",
+		param = "まあ、あんたの気持ちを知ることができれば面白いとは思うけどね？",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24660,7 +24650,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2230] = {
-		param = "那你的情绪现在还是橙色吗？",
+		param = "今もまだオレンジ色なの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -24668,7 +24658,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2231] = {
-		param = "当然不是啦！",
+		param = "もちろん違うわよ？",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24676,7 +24666,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2232] = {
-		param = "刚刚出现橙色，应该是我觉得能知道你的心情了",
+		param = "さっきオレンジになったのは、指揮官の気持ちが分かるって思ったから",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24684,7 +24674,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2233] = {
-		param = "哼~我只是觉得有趣，你可不要乱猜啊",
+		param = "ふん、勘違いしないでよね。私はただ面白いと思っただけよ",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24692,7 +24682,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2234] = {
-		param = "奇怪，它突然在莫名其妙地乱变色……",
+		param = "ん？急に色が変わり始めたんだけど……",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24700,7 +24690,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2235] = {
-		param = "不会坏掉了吧？",
+		param = "もしかして壊れたのかしら？",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24708,7 +24698,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2236] = {
-		param = "你的摆件还没有反应吗……如果还没有的话就算了，我等下拿去退掉好了",
+		param = "あんたのほうはまだ反応がないの？何もないならこのあと返品しようかな",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24716,7 +24706,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2237] = {
-		param = "让大家都知道你的心情也不好……毕竟我只想知道……你对我的真实心情",
+		param = "そもそもみんなに指揮官の感情を知られるのも嫌だし……私はほら……私に対するあんたの本当の気持ちを知りたいだけよ",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24724,7 +24714,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2238] = {
-		param = "……喂！你怎么半天不说话！",
+		param = "……ちょっと！なんで急に黙るのよ！",
 		ship_group = 50210,
 		flag = 0,
 		type = 1,
@@ -24732,12 +24722,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"我的摆件变颜色了"
+				"色が変わったよ"
 			}
 		}
 	},
 	[2239] = {
-		param = "我刚刚试了试，摆件一下就变成了橙色",
+		param = "さっきちょっと動かしたら急にオレンジ色になったんだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -24745,7 +24735,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2240] = {
-		param = "难道是终于放够了两个小时？意外的严谨啊……",
+		param = "2時間放置した効果が出たってこと？意外と律儀じゃない",
 		ship_group = 50210,
 		flag = 4,
 		type = 1,
@@ -24753,12 +24743,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"也有可能是通过体温判断的"
+				"もしかしてこれは体温で感応するのかな"
 			}
 		}
 	},
 	[2241] = {
-		param = "也有可能是通过体温判断的，刚刚是我第一次碰它",
+		param = "もしかしてこれは体温で感応するのかな。ついさっき初めて触ったから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -24766,7 +24756,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2242] = {
-		param = "通过体温的微妙变化来达到相互了解，似乎是个不错的方式！",
+		param = "体温の微妙な変化で互いの理解を深める……案外悪くないわね…！",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24774,7 +24764,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2243] = {
-		param = "如果能随时感应体温……",
+		param = "もし母港中にいっぱい設置していつでも体温を感応できたら……",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24782,7 +24772,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2244] = {
-		param = "……不对！！！",
+		param = "……って違う！！！",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24790,7 +24780,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2245] = {
-		param = "我觉得这个摆件就足够了！",
+		param = "これは1個…2個だけあればいいわよ！",
 		ship_group = 50210,
 		flag = 5,
 		type = 1,
@@ -24798,12 +24788,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"至少固定的几个颜色不太够？"
+				"よくよく考えたらこのオブジェクト…"
 			}
 		}
 	},
 	[2246] = {
-		param = "想要足够了解彼此，通过几个固定的颜色可能不太够",
+		param = "よくよく考えたらこのオブジェクト、色で感情を表すなんてすごく抽象的なことをやっているな…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -24811,7 +24801,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2247] = {
-		param = "还是直接感受体温比较好",
+		param = "体温の変化だって、直接触れればわかるだろうに…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -24827,7 +24817,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2249] = {
-		param = "谁？谁要感受你的体温？你可别乱说！",
+		param = "だ、誰が指揮官の体温を知りたいの？変なこと言わないでよ！",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24835,7 +24825,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2250] = {
-		param = "我可没有那么随便和人有肌肤之亲！",
+		param = "直接触れ合うなんて…そんなの適当にやるわけないでしょう！？",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24843,7 +24833,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2251] = {
-		param = "不过……",
+		param = "でも……",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24851,7 +24841,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2252] = {
-		param = "不过……那个人要是你，牵着手感受体温什么的……也不错……",
+		param = "でも……指揮官なら、別に手を繋ぐくらい……平気だけど……？",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -24859,7 +24849,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2253] = {
-		param = "[1条消息被撤回]",
+		param = "[1件のメッセージが撤回されました]",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -24867,7 +24857,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2254] = {
-		param = "[2条消息被撤回]",
+		param = "[2件のメッセージが撤回されました]",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -24875,7 +24865,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2255] = {
-		param = "[3条消息被撤回]",
+		param = "[3件のメッセージが撤回されました]",
 		ship_group = 50109,
 		flag = 0,
 		type = 1,
@@ -24883,12 +24873,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"竟然撤回了这么多话"
+				"こんなに撤回するなんて何事……？"
 			}
 		}
 	},
 	[2256] = {
-		param = "竟然撤回了这么多话",
+		param = "撤回しすぎじゃ…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -24896,7 +24886,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2257] = {
-		param = "不会都是些胡言乱语吧",
+		param = "流石にスパムじゃないよな…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -24904,7 +24894,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2258] = {
-		param = "！！！——谁说是胡言乱语？！",
+		param = "！！！スパムなんかじゃないよ！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -24912,7 +24902,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2259] = {
-		param = "都是我对指挥官最真诚的问候",
+		param = "全部指揮官へのまごころを込めた挨拶メッセージだったの！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -24920,7 +24910,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2260] = {
-		param = "……只是我发的消息很厉害！",
+		param = "……でも！あたしのメッセージって超すごいの！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -24928,7 +24918,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2261] = {
-		param = "……如果指挥官不诚心看的话就会被撤回！",
+		param = "……指揮官が真面目に読んでくれなかったら自動で撤回されるんだ♪",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -24944,12 +24934,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"还没见过这样的消息"
+				"そんなメッセージ初めて見たよ"
 			}
 		}
 	},
 	[2263] = {
-		param = "还没见过这样的消息，不然问问还有谁收到过？",
+		param = "そんなメッセージ初めて見たよ。他に受け取った人がいないか聞いてみようかな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -24957,7 +24947,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2264] = {
-		param = "欸——别别别！！！",
+		param = "え！やめてやめて！！！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -24965,7 +24955,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2265] = {
-		param = "——只有指挥官你一个人收到了！嘿嘿嘿~",
+		param = "それは指揮官だけに送った特別なものだから！へへへ～",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -24973,7 +24963,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2266] = {
-		param = "三条消息全都是伏波对指挥官的崇拜！",
+		param = "3つとも全部、伏波から指揮官への崇拝の気持ちを送ってたんだ！",
 		ship_group = 50109,
 		flag = 2,
 		type = 1,
@@ -24981,12 +24971,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"【对方隐藏了一条消息】"
+				"[1件のメッセージを非表示にしました]"
 			}
 		}
 	},
 	[2267] = {
-		param = "【对方隐藏了一条消息】",
+		param = "[1件のメッセージを非表示にしました]",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -25002,7 +24992,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2269] = {
-		param = "为什么指挥官可以隐藏消息？！",
+		param = "なんで指揮官はメッセージを隠せるの？！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25010,7 +25000,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2270] = {
-		param = "——怎么做到的？！",
+		param = "どうやったの？",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25018,7 +25008,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2271] = {
-		param = "我怎么找不到隐藏的办法？！",
+		param = "どこを探しても隠す方法が見つからないんだけど？！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25026,7 +25016,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2272] = {
-		param = "指挥官？指挥官你能看到我的消息吗？",
+		param = "指揮官？あたしのメッセージ見えてるよね？！",
 		ship_group = 50109,
 		flag = 3,
 		type = 1,
@@ -25034,12 +25024,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"【对方隐藏了一条消息】"
+				"[1件のメッセージを非表示にしました]"
 			}
 		}
 	},
 	[2273] = {
-		param = "【对方隐藏了一条消息】",
+		param = "[1件のメッセージを非表示にしました]",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -25055,7 +25045,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2275] = {
-		param = "——急急急！指挥官快告诉我啦！",
+		param = "指揮官、早く教えてよ！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25063,7 +25053,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2276] = {
-		param = "我发的撤回……其实是自己写的……",
+		param = "実はさっきの「メッセージが撤回されました」ってメッセージは、あたしがそのままテキストで入力したの……！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25071,7 +25061,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2277] = {
-		param = "你告诉我怎么隐藏好吗？",
+		param = "お願い！メッセージを隠す方法教えて！",
 		ship_group = 50109,
 		flag = 4,
 		type = 1,
@@ -25079,12 +25069,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"【100条惩罚消息被撤回】"
+				"【おしおきメッセージ100件を撤回しました】"
 			}
 		}
 	},
 	[2278] = {
-		param = "【100条惩罚消息被撤回】",
+		param = "【おしおきメッセージ100件を撤回しました】",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -25092,7 +25082,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2279] = {
-		param = "——！！不要惩罚我啊！",
+		param = "！！おしおきとかやめてよ！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25100,7 +25090,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2280] = {
-		param = "我就想试试你的反应嘛——以后不乱发消息就是了！",
+		param = "ただ指揮官がどう反応するか試してみたかっただけなの！もう変なのを送らないから！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25108,7 +25098,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2281] = {
-		param = "指挥官，我最近日思夜想，饭都顾不上吃——",
+		param = "指揮官！あたしは最近、ご飯も手につかないくらい昼も夜も考え続けてて…",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25116,7 +25106,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2282] = {
-		param = "想到了一个绝妙的点子！",
+		param = "すっごいアイデアを思いついた！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25124,7 +25114,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2283] = {
-		param = "怎么样，想不想跟我一起恶作剧？！",
+		param = "へっへっへー、一緒にイタズラしてみない？！",
 		ship_group = 50109,
 		flag = 0,
 		type = 1,
@@ -25132,12 +25122,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"详细说说"
+				"詳しく聞かせてもらおう"
 			}
 		}
 	},
 	[2284] = {
-		param = "我在听，详细说说",
+		param = "詳しく聞かせてもらおう…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -25145,7 +25135,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2285] = {
-		param = "咳咳——那你可要看仔细了！",
+		param = "ふふん。それじゃあ、よーく見といて！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25153,7 +25143,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2286] = {
-		param = "我在厨房门口假装↓",
+		param = "まず、あたしが台所の入り口で↓になる",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25169,7 +25159,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2288] = {
-		param = "把长风姐姐骗进厨房后，我们就前后夹击",
+		param = "長風姉ちゃんを台所に誘い込んだら、前後から挟み撃ち！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25177,7 +25167,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2289] = {
-		param = "指挥官从墙里↓",
+		param = "指揮官は壁から↓",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25193,7 +25183,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2291] = {
-		param = "我在她身后↓",
+		param = "あたしは背後から↓",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25209,12 +25199,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"就这些么？"
+				"これだけなの？"
 			}
 		}
 	},
 	[2293] = {
-		param = "嗯……就这些么？",
+		param = "うーん……これだけなの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -25222,7 +25212,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2294] = {
-		param = "是啊……怎么了？",
+		param = "そうだけど……何かあるの？",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25230,7 +25220,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2295] = {
-		param = "听上去你顾虑重重，是不愿意从墙里蹦出来的那部分嘛！",
+		param = "あ！もしかして指揮官は壁の後ろから飛び出したくないの？",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25238,7 +25228,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2296] = {
-		param = "那那那——那指挥官直接说哪里不好！",
+		param = "じゃ、じゃあ……どこが悪いのか教えてよ！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25246,7 +25236,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2297] = {
-		param = "我这么聪明~肯定会找的解决办法的！",
+		param = "あたしはすっごく賢いから、きっと解決法を見つけられるよ！",
 		ship_group = 50109,
 		flag = 2,
 		type = 1,
@@ -25254,12 +25244,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"行动情报太少了"
+				"それ以前に情報が不足しすぎでは？"
 			}
 		}
 	},
 	[2298] = {
-		param = "关于行动本身的情报太少了，还有其他同伙参与么？",
+		param = "それ以前に情報が少なすぎるけど……他に味方はいる？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -25267,7 +25257,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2299] = {
-		param = "当然没有——",
+		param = "いるわけないじゃん",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25275,7 +25265,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2300] = {
-		param = "恶！作！剧！肯定是人越少，越好逃！",
+		param = "イタズラはね！少ない人数でやるのがいいんだよ！そのほうが逃げやすいから！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25283,7 +25273,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2301] = {
-		param = "唔——倒也不是逃跑……",
+		param = "うーん……逃げるんじゃなくて",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25291,7 +25281,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2302] = {
-		param = "嗯！是要享受成功的喜悦！",
+		param = "そう！成功した時の喜びを分かち合いやすいから！",
 		ship_group = 50109,
 		flag = 3,
 		type = 1,
@@ -25299,12 +25289,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"那行动时间呢？"
+				"それで、決行時間は？"
 			}
 		}
 	},
 	[2303] = {
-		param = "准备几点开始这次的恶作剧呢？",
+		param = "それで、いつイタズラを決行するの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -25312,7 +25302,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2304] = {
-		param = "暂定在一小时后！",
+		param = "予定だと一時間後！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25320,7 +25310,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2305] = {
-		param = "怎么样，情报足够了么？",
+		param = "どう？情報はこれで十分かな？",
 		ship_group = 50109,
 		flag = 4,
 		type = 1,
@@ -25328,12 +25318,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"足够了，我都记下了"
+				"十分だ。全て覚えた"
 			}
 		}
 	},
 	[2306] = {
-		param = "足够了，我都记下了",
+		param = "十分だ。全て覚えた",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -25341,7 +25331,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2307] = {
-		param = "嘿嘿~虽然我已经做好了计划——但如果——",
+		param = "へへへ～あたしの計画は完璧だ！だがしかーっし！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25349,7 +25339,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2308] = {
-		param = "指挥官还有什么想法的话！",
+		param = "もし指揮官に他の考えがあれば！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25357,7 +25347,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2309] = {
-		param = "哼哼~聪明如我，可以立刻帮你加进去的！",
+		param = "ふふん、賢いこの伏波がすぐそれを計画に組み込んであげよう！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25365,7 +25355,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2310] = {
-		param = "然后就是——我和指挥官一起计划！一起完成的恶作剧了！",
+		param = "そしたら、このイタズラはあたしと指揮官が一緒に計画して、一緒に成功させたイタズラになるよ！",
 		ship_group = 50109,
 		flag = 5,
 		type = 1,
@@ -25373,12 +25363,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"你已经在厨房了吗？"
+				"もうキッチンにいるの？"
 			}
 		}
 	},
 	[2311] = {
-		param = "你已经在厨房了吗？",
+		param = "もうキッチンにいるの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -25386,7 +25376,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2312] = {
-		param = "当然~要提前踩点的嘛",
+		param = "もちろん！下見が大事だから！",
 		ship_group = 50109,
 		flag = 6,
 		type = 1,
@@ -25394,12 +25384,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"好"
+				"よし、じゃあーー"
 			}
 		}
 	},
 	[2313] = {
-		param = "好，我一会和长风一起过去",
+		param = "よし、じゃあこの後、長風と一緒にそっちに行くからね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -25415,7 +25405,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2315] = {
-		param = "等下————",
+		param = "ちょっと待って",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25423,7 +25413,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2316] = {
-		param = "没有————",
+		param = "いやいやいやいやいや",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25431,7 +25421,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2317] = {
-		param = "我不在！！！！",
+		param = "あたし今台所にいないよ！！！！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25439,7 +25429,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2318] = {
-		param = "你不要过来啊！！QAQ！！！",
+		param = "来なくていいから！！！QAQ！！！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25447,7 +25437,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2319] = {
-		param = "我有一个灵感！准备先告诉指挥官~",
+		param = "すごいアイデアを思いついちゃった！指揮官に教えてあげようかな～",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25463,12 +25453,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"请分享，可参与"
+				"協力するかもしれないからぜひ教えてくれ"
 			}
 		}
 	},
 	[2321] = {
-		param = "请放心分享，可积极参与",
+		param = "協力するかもしれないからぜひ教えてくれ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -25476,7 +25466,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2322] = {
-		param = "——？只是灵感！！还不能用呢！！",
+		param = "ん？まだアイデアだよ！？これから作戦を立てるところ！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25484,7 +25474,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2323] = {
-		param = "——————略略略！！",
+		param = "ぐへへへへ",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25492,7 +25482,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2324] = {
-		param = "聪明如我~已经猜到指挥官的坏心眼了——！",
+		param = "なんてね♪賢い伏波はね～！指揮官の企みは手に取るように分かるもん！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25500,7 +25490,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2325] = {
-		param = "这次——我是来向指挥官请教的！",
+		param = "だから今回は指揮官にアドバイスをもらいに来たよ！",
 		ship_group = 50109,
 		flag = 1,
 		type = 1,
@@ -25508,16 +25498,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"那灵感是什么？"
+				"じゃあ、アイデアって何？"
 			},
 			{
 				3,
-				"灵感来自哪里？"
+				"どこから閃いたの？"
 			}
 		}
 	},
 	[2326] = {
-		param = "那灵感是什么？",
+		param = "じゃあ、アイデアって何？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -25525,7 +25515,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2327] = {
-		param = "手电筒！",
+		param = "懐中電灯！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25533,7 +25523,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2328] = {
-		param = "我准备用手电筒干一件大事！",
+		param = "これを使って、派手に仕掛けるつもり！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25541,7 +25531,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2329] = {
-		param = "嘿嘿，这场表演，肯定超级有趣——！",
+		param = "へへ、この演出、絶対に超面白いから！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25549,7 +25539,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2330] = {
-		param = "哈哈……指挥官会帮我想一场表演的吧~",
+		param = "ええと……演出を考えるのを手伝ってくれない？",
 		ship_group = 50109,
 		flag = 2,
 		type = 1,
@@ -25557,12 +25547,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"那你为什么要先告诉我？"
+				"なんで先に教えてくれたの？"
 			}
 		}
 	},
 	[2331] = {
-		param = "这个灵感是怎么来的呢？",
+		param = "どこから閃いたの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -25570,7 +25560,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2332] = {
-		param = "嘿嘿嘿，是你带我看电影的时候发觉的~",
+		param = "へへへ、指揮官が映画館に連れて行ってくれたときに思いついたんだ～",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25578,7 +25568,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2333] = {
-		param = "没想到吧——",
+		param = "意外だったでしょ",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25586,7 +25576,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2334] = {
-		param = "要不是我注意观察！怎么会有这么棒的主意！",
+		param = "あたしがよく見ていなかったら、こんなにいいアイデアなんて思いつかなかったもん！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25594,7 +25584,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2335] = {
-		param = "嘿嘿嘿，灵感，灵感~",
+		param = "へへへ、アイデア、ひらめいたりー！",
 		ship_group = 50109,
 		flag = 3,
 		type = 1,
@@ -25602,12 +25592,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"那你为什么要先告诉我？"
+				"なんで先に教えてくれたの？"
 			}
 		}
 	},
 	[2336] = {
-		param = "那你为什么要先告诉我？",
+		param = "なんで先に教えてくれたの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -25615,7 +25605,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2337] = {
-		param = "其中必然有诈",
+		param = "裏があるよね？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -25623,7 +25613,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2338] = {
-		param = "没有——！！",
+		param = "ないよーーー！！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25631,7 +25621,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2339] = {
-		param = "指挥官你不信任我！（打滚，哼唧唧，捶你捶你！）",
+		param = "指揮官はあたしを信じてくれないのー！°･(((p(≧□≦)q)))･°ｳﾜｧｧﾝ!!!ﾍﾟｼﾍﾟｼ",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25639,7 +25629,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2340] = {
-		param = "我只是想让指挥官帮我扩展一下思路！（哭唧唧，期盼着看向指挥官）",
+		param = "発想を広めるのを手伝ってほしいだけなのにぃ！（｡இ﹏இ｡）ｼﾞｨｰ",
 		ship_group = 50109,
 		flag = 4,
 		type = 1,
@@ -25647,16 +25637,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"你正常点，我害怕"
+				"怖いから落ち着けって"
 			},
 			{
 				6,
-				"（勾唇笑）"
+				"( ´,_ゝ｀)ﾌﾟｯ"
 			}
 		}
 	},
 	[2341] = {
-		param = "你正常点，我害怕",
+		param = "怖いから落ち着けって",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -25664,7 +25654,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2342] = {
-		param = "嘿嘿~(＾－＾)V",
+		param = "へへ～(＾－＾)V",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25672,7 +25662,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2343] = {
-		param = "好啊，小调皮（勾唇笑、伸手点了点伏波的小脑袋）",
+		param = "(*･ω･)σ)ᐢ˙꒳˙ᐢ )ﾂﾝﾂﾝ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -25688,7 +25678,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2345] = {
-		param = "我输了——我错了——我有罪——我放弃——",
+		param = "あたしの負け！あたしが悪かった！あたしは有罪！もうしないから！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25696,7 +25686,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2346] = {
-		param = "那指挥官，天黑之后我来找你可以吗？",
+		param = "指揮官、暗くなったら来てくれる？",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25704,7 +25694,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2347] = {
-		param = "我只是找你拓展灵感啦！",
+		param = "発想を広めたいだけだからね！",
 		ship_group = 50109,
 		flag = 0,
 		type = 1,
@@ -25712,12 +25702,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"可以，但是不能恶作剧"
+				"いいけど、イタズラの相談は乗らないよ"
 			}
 		}
 	},
 	[2348] = {
-		param = "可以，但是不能恶作剧",
+		param = "いいけど、イタズラの相談は乗らないよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -25725,7 +25715,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2349] = {
-		param = "欸——？那我岂不是白准备了？！",
+		param = "えーー？！じゃああたしの準備は全部ムダになるってこと？！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25733,7 +25723,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2350] = {
-		param = "没有没有……其实……我准备的是惊喜啦！",
+		param = "ええと……実は……準備したのは指揮官へのサプライズなの！",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25741,7 +25731,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2351] = {
-		param = "指挥官在光影中，一定会被吓到很开心的！",
+		param = "びっくりするけど…きっと楽しんでもらえるよ！？",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25749,7 +25739,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2352] = {
-		param = "！！！是——很开心的！嘿嘿嘿~",
+		param = "すーーーっごく楽しいから！！！へへへ～",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -25757,7 +25747,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2353] = {
-		param = "指挥官……",
+		param = "指揮官さん……",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -25765,7 +25755,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2354] = {
-		param = "那个……我有一件事情，想要告诉你……",
+		param = "あの……お伝えしたいことがあるのですが……",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -25773,7 +25763,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2355] = {
-		param = "其实没有那么严肃，只是我……有一点忍不住……",
+		param = "そんなに大したことじゃないんです。ただ……ちょっと気になっちゃって……",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -25789,16 +25779,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"是注意到有哪里没打扫干净么？"
+				"掃除が行き届いていない場所を見つけたのかな？"
 			},
 			{
 				2,
-				"是我的衣服上有污渍么？"
+				"服に汚れがついてるとか？"
 			}
 		}
 	},
 	[2357] = {
-		param = "是注意到有哪里没打扫干净么？",
+		param = "掃除が行き届いていない場所を見つけたのかな？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -25806,7 +25796,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2358] = {
-		param = "……那个，其实……",
+		param = "……それが、実は……",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -25814,7 +25804,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2359] = {
-		param = "其实……在我眼中，是处处都没有很干净啦……",
+		param = "わたしの基準ですと、どこもあまりキレイとは言えないんですけど……",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -25822,7 +25812,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2360] = {
-		param = "但这个不要紧，只要我看到了，就会让那里干净整洁",
+		param = "でも、それは大丈夫です！見つけ次第、必ずピカピカにしますのでっ",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -25830,7 +25820,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2361] = {
-		param = "是我的衣服上有污渍么？我没有注意到？",
+		param = "服に汚れがついてるとか？こっちは気づいていないところで",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -25838,7 +25828,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2362] = {
-		param = "不是啦……指挥官是否干净整洁我一定会注意的",
+		param = "ううん……指揮官さんの身だしなみは、わたしがちゃんと見ています！",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -25846,7 +25836,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2363] = {
-		param = "即使您不说，我也会帮您两天收一次换洗衣服",
+		param = "例え言われなくても、二日に一回は洗濯物を回収しています",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -25854,7 +25844,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2364] = {
-		param = "不论什么污渍，就算衣服还穿在您的身上",
+		param = "どんな汚れでも、例えまだ着ている服だとしても",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -25862,7 +25852,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2365] = {
-		param = "我都有办法解决！",
+		param = "何とかできます！",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -25870,7 +25860,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2366] = {
-		param = "……虽然是大家都不是很在意的问题",
+		param = "気にする方は少ない問題かもしれませんが……",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -25878,7 +25868,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2367] = {
-		param = "但是……如果您同意的话",
+		param = "もし指揮官さんがよろしければ……",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -25886,7 +25876,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2368] = {
-		param = "我帮您准备一双专门在指挥室内穿的鞋子吧？",
+		param = "指揮官さんの執務室内専用の履物をご用意しましょうか？",
 		ship_group = 50108,
 		flag = 0,
 		type = 1,
@@ -25894,12 +25884,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"好啊，如果不麻烦的话"
+				"いいの？長風が面倒じゃなければ"
 			}
 		}
 	},
 	[2369] = {
-		param = "好啊，如果不麻烦的话",
+		param = "いいの？長風が面倒じゃなければ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -25907,7 +25897,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2370] = {
-		param = "真的吗……指挥官答应了？当然不麻烦了！",
+		param = "本当ですか……！？面倒なんてとんでもありません！",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -25923,12 +25913,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"不过……"
+				"ただ……"
 			}
 		}
 	},
 	[2372] = {
-		param = "不过……如果我遇到了着急的事情，或许会忘记换",
+		param = "ただ……急いでいるときは履き替えるのを忘れちゃうかも",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -25936,7 +25926,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2373] = {
-		param = "没关系的！",
+		param = "大丈夫ですよ！",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -25944,7 +25934,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2374] = {
-		param = "就算你忘记了，回来的时候我也会帮忙清理的",
+		param = "もし忘れても、戻ってきたらわたしがしっかりお掃除しますから",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -25952,7 +25942,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2375] = {
-		param = "我制作了可以强力去污，但不会伤害鞋子本身的清洗剂",
+		param = "靴を傷めずにしつこい汚れをきれいに取れる強力な洗浄剤も作ってあります！",
 		ship_group = 50108,
 		flag = 4,
 		type = 1,
@@ -25960,12 +25950,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"这么厉害"
+				"すごいな"
 			}
 		}
 	},
 	[2376] = {
-		param = "这么厉害，分享一下清洗剂秘方吧？",
+		param = "すごいな、その洗浄剤の作り方を教えてほしい！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -25973,7 +25963,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2377] = {
-		param = "唔……这是我的秘密配方，不太好说~",
+		param = "うーん……配合は秘密ですので、お教えできません…",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -25981,7 +25971,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2378] = {
-		param = "不过使用方式我可以给指挥官详细解说",
+		param = "でも、使い方なら詳しく教えてあげますよ！",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -25989,7 +25979,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2379] = {
-		param = "等下你回来了，我手把手教你来用吧！",
+		param = "帰ってきたら、きっちりお教えします♪",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -25997,7 +25987,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2380] = {
-		param = "指挥官，我遇到了一点小麻烦……",
+		param = "指揮官さん、ごめんなさい。ちょっとしたトラブルがありまして……",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26005,7 +25995,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2381] = {
-		param = "可能会晚一点帮你整理指挥室",
+		param = "執務室の片付けが少し遅くなりそうです",
 		ship_group = 50108,
 		flag = 0,
 		type = 1,
@@ -26013,12 +26003,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"怎么了？需要帮忙么？"
+				"どうしたの？なにかあった？"
 			}
 		}
 	},
 	[2382] = {
-		param = "怎么了？需要帮忙么？",
+		param = "どうしたの？なにかあった？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26026,7 +26016,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2383] = {
-		param = "没关系的，指挥官放心，只是我的围裙破了",
+		param = "大した事ではないんです。ただエプロンが破れてしまっただけで…",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26034,7 +26024,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2384] = {
-		param = "麻烦的是——",
+		param = "ただ、困ったことに…",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26042,7 +26032,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2385] = {
-		param = "备用的10条围裙，也在“刚刚”被飞云和伏波全部弄脏）",
+		param = "予備の10枚のエプロンも「ついさっき」飛雲と伏波のせいで全部汚されてしまったんです……",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26050,7 +26040,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2386] = {
-		param = "不过，洗衣机马上就会洗好两条了，烘干速度很快的",
+		param = "でも、洗濯機で2枚洗い終わったところですから、これらの乾燥はもうすぐ終わりそうです",
 		ship_group = 50108,
 		flag = 1,
 		type = 1,
@@ -26058,16 +26048,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"还有8条……"
+				"残りの8枚も……"
 			},
 			{
 				3,
-				"围裙怎么破了？"
+				"どうしてエプロンが破れたんだ…？"
 			}
 		}
 	},
 	[2387] = {
-		param = "还有8条……也要处理吧，如果是污渍，得快点洗掉",
+		param = "残りの8枚も洗う必要があるよね。汚れなら早めに落とした方がいい",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26075,7 +26065,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2388] = {
-		param = "嗯嗯，她们两个正在努力呢 ）",
+		param = "そうですね、二人とも今頑張って洗ってくれていますよ",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26083,7 +26073,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2389] = {
-		param = "总要创造机会学习做家务……",
+		param = "家事を学ぶ機会を作ってあげるのも大事ですから",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26091,7 +26081,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2390] = {
-		param = "这样也不错，家务总是需要大家一起承担的嘛",
+		param = "こういうのも悪くないんです。家事はみんなで分担するものですから",
 		ship_group = 50108,
 		flag = 2,
 		type = 1,
@@ -26099,12 +26089,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"不然再买一条围裙吧？"
+				"新しいエプロンを買ったらどう？"
 			}
 		}
 	},
 	[2391] = {
-		param = "围裙怎么破了，没有受伤吧？",
+		param = "飛雲たちのイタズラならともかく、どうしてエプロンが破れたんだ…？ケガはしてないよね？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26112,7 +26102,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2392] = {
-		param = "谢谢指挥官，我没有受伤",
+		param = "ご心配ありがとうございます。ケガはありません",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26120,7 +26110,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2393] = {
-		param = "围裙……其实是……",
+		param = "……実は……",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26128,7 +26118,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2394] = {
-		param = "说来惭愧，今天早上的事情有点多，我匆匆忙忙的……",
+		param = "お恥ずかしい話ですが、今朝はちょっとバタバタしていて……",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26136,7 +26126,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2395] = {
-		param = "跑出门的时候……围裙挂在了门把手上……就……",
+		param = "急いで外に出たときに……エプロンがドアノブに引っかかってしまって……それで……",
 		ship_group = 50108,
 		flag = 3,
 		type = 1,
@@ -26144,12 +26134,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"不然再买一条围裙吧？"
+				"新しいエプロンを買ったらどう？"
 			}
 		}
 	},
 	[2396] = {
-		param = "既然围裙破了的话，不然再买一条？",
+		param = "そうか…新しいエプロンを買ったらどう？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26157,7 +26147,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2397] = {
-		param = "长风小姐的围裙是维护洁净空间的重要道具",
+		param = "長風のエプロンは、清潔な空間を保つのに大切なアイテムだからね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26173,7 +26163,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2399] = {
-		param = "好呀，新买一条也不错",
+		param = "そうですね、新しいのを買うのもいいかも…",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26181,7 +26171,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2400] = {
-		param = "指挥官有什么建议吗？",
+		param = "指揮官さん、何かおすすめはありますか？",
 		ship_group = 50108,
 		flag = 4,
 		type = 1,
@@ -26189,16 +26179,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"带小猫图案的"
+				"猫柄のエプロンとか？"
 			},
 			{
 				6,
-				"质地特殊的"
+				"特殊な素材のものはどう？"
 			}
 		}
 	},
 	[2401] = {
-		param = "带着小猫图案的",
+		param = "猫柄のエプロンとか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26206,7 +26196,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2402] = {
-		param = "两只",
+		param = "それも二匹いるデザインとか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26214,7 +26204,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2403] = {
-		param = "嘿嘿~指挥官的意见很好",
+		param = "指揮官さん、ナイスアイデアです！",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26222,7 +26212,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2404] = {
-		param = "如果你喜欢这种围裙的话，我可以自己做一条",
+		param = "猫柄のエプロンがお好きでしたら、わたしが作ってみましょうか？",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26230,7 +26220,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2405] = {
-		param = "质地特殊，能够抵御团伙作案",
+		param = "特殊な素材のものはどう？複数人のイタズラにも耐えられるようなものがいいね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26238,7 +26228,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2406] = {
-		param = "哈哈，是个不错的建议",
+		param = "ふふっ、それはいいアイデアですね",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26246,7 +26236,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2407] = {
-		param = "抵御团伙作案也一定能好好抵御污渍的",
+		param = "イタズラに耐えられるようなものでしたら、汚れもしっかり防げるはずです",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26254,7 +26244,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2408] = {
-		param = "这样就完全不用担心会弄脏裙子了",
+		param = "スカートが汚れる心配もなくなりますね",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26262,7 +26252,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2409] = {
-		param = "嘿嘿，我的围裙就快干啦",
+		param = "そろそろエプロンの乾燥が終わります",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26270,7 +26260,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2410] = {
-		param = "指挥官，等我过来吧~",
+		param = "指揮官さん、もうちょっとお待ちください～！",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26278,7 +26268,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2411] = {
-		param = "指挥官~之前商量好休息日你会过来找我",
+		param = "指揮官さん、この前の「今度の非番日にお越しいただける」話ですけど…",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26286,7 +26276,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2412] = {
-		param = "我想提前做一些准备~",
+		param = "予め準備しておきたいことがありまして……",
 		ship_group = 50108,
 		flag = 0,
 		type = 1,
@@ -26294,16 +26284,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"和什么有关的准备？"
+				"どんな準備？"
 			},
 			{
 				2,
-				"一切都听你的安排"
+				"全部お任せするよ"
 			}
 		}
 	},
 	[2413] = {
-		param = "和什么有关的准备？",
+		param = "どんな準備？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26311,7 +26301,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2414] = {
-		param = "我说不定能提前准备好？",
+		param = "もしかしたら、こっちでなんとかすることができるかも？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26319,7 +26309,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2415] = {
-		param = "其实是您到了之后，能为您提供“家”的感觉的物件~",
+		param = "ええと…「あっとほーむ」な感じを出せるものを準備したく…",
 		ship_group = 50108,
 		flag = 1,
 		type = 1,
@@ -26327,16 +26317,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"难道是拖鞋？"
+				"スリッパ？"
 			},
 			{
 				4,
-				"难道是家居服？"
+				"もしかしてルームウェア？"
 			}
 		}
 	},
 	[2416] = {
-		param = "这么想来……难道是拖鞋么？",
+		param = "んー……もしかしてスリッパ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26344,7 +26334,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2417] = {
-		param = "嘿嘿~指挥官一进门就能感受到惬意与放松",
+		param = "玄関に入った瞬間からゆっくりくつろげていいですね",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26352,7 +26342,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2418] = {
-		param = "然后尽可能地走遍每一个洁净而明亮的角落",
+		param = "そして、明るくて清潔な部屋の隅々を歩いてほしいです♪",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26360,7 +26350,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2419] = {
-		param = "难道是家居服？",
+		param = "もしかしてルームウェア？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26368,7 +26358,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2420] = {
-		param = "嘿嘿~指挥官一进门就被家的温暖包裹……",
+		param = "いいですね。指揮官さんが部屋に入って、おうちの温もりにつつまれたら…",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26376,7 +26366,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2421] = {
-		param = "应该会立刻、完全、彻底放松下来吧",
+		param = "あっという間に体も心もふわーっとできそうですね♪",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26384,7 +26374,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2422] = {
-		param = "一切都听你的安排就好，客随主便",
+		param = "自分はもてなしてもらう側だから、長風の好きなようにしていいよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26392,7 +26382,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2423] = {
-		param = "嗯……我一定会让你体会到“宾至如归”的感觉的",
+		param = "はい！絶対に「あっとほーむ」な雰囲気を感じさせますので！",
 		ship_group = 50108,
 		flag = 2,
 		type = 1,
@@ -26400,16 +26390,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"难道体现在参与感？"
+				"もしかして「ほーむ」が大事？"
 			},
 			{
 				6,
-				"难道体现在氛围感？"
+				"もしかして「雰囲気」が大事？"
 			}
 		}
 	},
 	[2424] = {
-		param = "难道是体现在参与感么？",
+		param = "もしかして「ほーむ」というか、「我が家」が大事？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26417,7 +26407,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2425] = {
-		param = "要帮长风管理家庭了？！",
+		param = "一緒に家庭を営む…みたいな？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26433,7 +26423,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2427] = {
-		param = "指挥官真的愿意吗？",
+		param = "本当にそう思ってくださるのですか？",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26441,7 +26431,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2428] = {
-		param = "如果是这样的话，我就更期待休息日了！",
+		param = "ますます非番日が楽しみになりました♪",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26449,7 +26439,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2429] = {
-		param = "难道是体现在氛围感么？",
+		param = "もしかして「雰囲気」が大事？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26457,7 +26447,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2430] = {
-		param = "……家的氛围？",
+		param = "我が家にいるような雰囲気…とか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26465,7 +26455,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2431] = {
-		param = "唔~准确说是我认知的……家的氛围",
+		param = "うーん、正確に言うと、わたしの思う「おうち」の雰囲気ですね……",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26473,7 +26463,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2432] = {
-		param = "干净、整洁、温馨、和睦……",
+		param = "清潔感、整理整頓、仲睦まじくて和気あいあい……",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26481,7 +26471,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2433] = {
-		param = "其实是从指挥官从进门起的一切哦",
+		param = "それだけでなく、指揮官さんが見て触れる全てにおいてです",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26489,7 +26479,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2434] = {
-		param = "一个专属的鞋架，一双专属的拖鞋，一套专属的家居服……",
+		param = "専用の靴棚、専用スリッパにルームウェア……",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26497,7 +26487,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2435] = {
-		param = "唔……应该还有专属的擦手巾之类",
+		param = "ええと…指揮官さんが使うタオルも……",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26505,7 +26495,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2436] = {
-		param = "……要不要……准备专属的洗漱用品什么的……？",
+		param = "…専用洗面セットも用意したほうがいいでしょうか？",
 		ship_group = 50108,
 		flag = 0,
 		type = 1,
@@ -26513,12 +26503,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"好多的专属……"
+				"「専用」が多いな……"
 			}
 		}
 	},
 	[2437] = {
-		param = "好多的专属……谢谢你这么细心的考虑",
+		param = "「専用」が多いな……だいぶ気を使わせちゃったね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26526,7 +26516,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2438] = {
-		param = "既然如此，我们可以一起准备的",
+		param = "それなら、一緒に準備するのもありかな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26534,7 +26524,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2439] = {
-		param = "这样吗？太好了……",
+		param = "そうしましょう！嬉しいです……！",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26542,7 +26532,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2440] = {
-		param = "能和指挥官一起……不论做什么，都会很……温暖",
+		param = "指揮官さんと一緒なら……何をするにしても、すごく……温かい気持ちになれます！",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26550,7 +26540,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2441] = {
-		param = "那明天……我们一起去购物吧！",
+		param = "じゃあ明日……一緒に買い物に行きましょう！",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26558,7 +26548,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2442] = {
-		param = "新年快乐！！",
+		param = "新年快楽！！",
 		ship_group = 50103,
 		type = 1,
 		option = "",
@@ -26566,7 +26556,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2443] = {
-		param = "啊啊啊！！是新年！大家新年快乐！",
+		param = "わああああ！新年だ！みんな新年快楽！",
 		ship_group = 50106,
 		type = 1,
 		option = "",
@@ -26582,7 +26572,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2445] = {
-		param = "大家新年快乐~",
+		param = "みなさん、新年おめでとうございます〜",
 		ship_group = 50601,
 		type = 1,
 		option = "",
@@ -26606,7 +26596,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2448] = {
-		param = "哇！！！是红包！！！",
+		param = "わ！！！紅包だ！！！",
 		ship_group = 50102,
 		type = 1,
 		option = "",
@@ -26614,7 +26604,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2449] = {
-		param = "谢谢定安！",
+		param = "定安さん、ありがとうございます！",
 		ship_group = 50101,
 		flag = 0,
 		type = 1,
@@ -26622,16 +26612,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"大家新年快乐！"
+				"みんな、新年おめでとう！"
 			},
 			{
 				2,
-				"谢谢老板！"
+				"紅包ありがとう！"
 			}
 		}
 	},
 	[2450] = {
-		param = "大家新年快乐！",
+		param = "みんな、新年おめでとう！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26639,7 +26629,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2451] = {
-		param = "谢谢老板！",
+		param = "紅包ありがとう！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26647,7 +26637,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2452] = {
-		param = "大家新年快乐！",
+		param = "みんな、新年おめでとう！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26655,7 +26645,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2453] = {
-		param = "指挥官，新年快乐",
+		param = "指揮官、新年おめでとうございます",
 		ship_group = 50601,
 		type = 1,
 		option = "",
@@ -26663,7 +26653,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2454] = {
-		param = "新的一年希望指挥官工作顺利，事事顺遂",
+		param = "新しい一年がどうか順風満帆となりますようにお祈り申し上げます",
 		ship_group = 50201,
 		type = 1,
 		option = "",
@@ -26671,7 +26661,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2455] = {
-		param = "我方才卜了一卦，新年无论是指挥官还是大家，皆是鸿运连连。",
+		param = "さっき占ったけど、指揮官も皆も新しい一年では気運がますます良くなる結果が出たよ",
 		ship_group = 50401,
 		flag = 0,
 		type = 1,
@@ -26679,16 +26669,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"承大家吉言……"
+				"ありがたやありがたや"
 			},
 			{
 				4,
-				"希望大家新年……"
+				"皆にも……"
 			}
 		}
 	},
 	[2456] = {
-		param = "承大家吉言，新年一定大吉大利！",
+		param = "ありがたやありがたや。新年はきっと「大吉大利」だ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26696,7 +26686,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2457] = {
-		param = "希望大家新年也能心想事成，事事如意！",
+		param = "皆にも新年が「心想事成」、「万事順調」でありますように！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26704,7 +26694,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2458] = {
-		param = "我说怎么消息不断，原来是零点已经过了啊！",
+		param = "通知が止まらないと思ったら、もう0時を過ぎてたね！",
 		ship_group = 59901,
 		type = 1,
 		option = "",
@@ -26712,7 +26702,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2459] = {
-		param = "新年快乐啊，指挥官和大家！",
+		param = "指揮官、皆、新年快楽！",
 		ship_group = 59901,
 		type = 1,
 		option = "",
@@ -26720,7 +26710,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2460] = {
-		param = "我也来发个红包！",
+		param = "紅包を配るぞ！",
 		ship_group = 59901,
 		type = 1,
 		option = "",
@@ -26736,7 +26726,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2462] = {
-		param = "手气最佳的继续发！",
+		param = "運が一番良かった人が次の番だ！",
 		ship_group = 59901,
 		type = 1,
 		option = "",
@@ -26752,7 +26742,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2464] = {
-		param = "啊！又没抢到！",
+		param = "ああ！また取れなかった！",
 		ship_group = 50202,
 		type = 1,
 		option = "",
@@ -26760,7 +26750,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2465] = {
-		param = "大家的手速也太快了",
+		param = "皆の反応が早すぎる……",
 		ship_group = 50203,
 		type = 1,
 		option = "",
@@ -26776,7 +26766,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2467] = {
-		param = "谁的手气最佳！",
+		param = "誰が一番運が良かったの？！",
 		ship_group = 50102,
 		type = 1,
 		option = "",
@@ -26784,7 +26774,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2468] = {
-		param = "是我，飞云大人哒！",
+		param = "この飛雲さまだ！",
 		ship_group = 50107,
 		type = 1,
 		option = "",
@@ -26792,7 +26782,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2469] = {
-		param = "飞云，请~",
+		param = "飛雲、紅包を頼むわね～",
 		ship_group = 50204,
 		type = 1,
 		option = "",
@@ -26800,7 +26790,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2470] = {
-		param = "等等！飞云大人还在研究怎么发红包！",
+		param = "ちょっと待って！飛雲さまはまだ紅包の送り方を研究中だ！",
 		ship_group = 50107,
 		type = 1,
 		option = "",
@@ -26808,7 +26798,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2471] = {
-		param = "果然还是需要姐姐我来帮你吧！嘿嘿嘿！",
+		param = "わたしがなんとかしますね。ふふふ",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -26816,7 +26806,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2472] = {
-		param = "飞云的红包呢？",
+		param = "飛雲、紅包まだ？",
 		ship_group = 50205,
 		type = 1,
 		option = "",
@@ -26840,7 +26830,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2475] = {
-		param = "飞云有些搞不明白，我先发帮她发了~",
+		param = "飛雲は方法が分からなかったみたいですので、わたしが代わりに送りましたよ～",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26848,7 +26838,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2476] = {
-		param = "多少？！我怎么才6物资！越来越少了！！",
+		param = "総額はいくら？！って私6しか取れなかったけど！どんどん少なくなってるよ！！",
 		ship_group = 50102,
 		type = 1,
 		option = "",
@@ -26864,7 +26854,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2478] = {
-		param = "这未尝不是一种运气~",
+		param = "悪運も運のうちよ",
 		ship_group = 50401,
 		flag = 0,
 		type = 1,
@@ -26872,16 +26862,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"六六大顺！"
+				"六六大順だ！"
 			},
 			{
 				6,
-				"谢谢大家的红包！"
+				"みんな、紅包ありがとう！"
 			}
 		}
 	},
 	[2479] = {
-		param = "六六大顺！",
+		param = "六六大順だ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26889,7 +26879,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2480] = {
-		param = "六六大顺倒是喜庆~",
+		param = "六六大順、確かに縁起が良いですね～",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -26897,7 +26887,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2481] = {
-		param = "说起来指挥官也是个好数字，八八大发",
+		param = "そういえば、指揮官も良い数字が出てましたね。資金88、ずばり「八八大發」です",
 		ship_group = 50201,
 		type = 1,
 		option = "",
@@ -26905,7 +26895,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2482] = {
-		param = "谢谢大家的红包！",
+		param = "みんな、紅包ありがとう！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -26913,7 +26903,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2483] = {
-		param = "不用客气，春节就是要一起沾沾喜气",
+		param = "どういたしまして。春節はみんなで運気を分け合うのが楽しいですから～",
 		ship_group = 50108,
 		type = 1,
 		option = "",
@@ -26921,7 +26911,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2484] = {
-		param = "这次是我的手气最好了呢，我来发~",
+		param = "今回の一番運が良かったのは私ですから、次は私が配ります〜",
 		ship_group = 50602,
 		type = 1,
 		option = "",
@@ -26937,7 +26927,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2486] = {
-		param = "你是故意的还是不小心的~",
+		param = "華甲ったら、わざとやったのですか？うっかりじゃないですよね～",
 		ship_group = 50204,
 		type = 1,
 		option = "",
@@ -26945,7 +26935,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2487] = {
-		param = "当然是故意不小心的啦！",
+		param = "もちろん、うっかりやってしまいました♪",
 		ship_group = 50602,
 		type = 1,
 		option = "",
@@ -26953,7 +26943,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2488] = {
-		param = "专属红包啊……那姐姐我也来~",
+		param = "専属紅包ですか……じゃあ、私も負けてられないですね♪",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -26961,7 +26951,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2489] = {
-		param = "不过我准备的是实体红包",
+		param = "私が用意したのは実物の紅包ですよ～",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -26969,7 +26959,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2490] = {
-		param = "现在就给指挥官送过去吧♪",
+		param = "今すぐ指揮官に届けにいきますね♪",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -26977,7 +26967,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2491] = {
-		param = "其实我也准备了",
+		param = "実は私も用意してありますよ～",
 		ship_group = 50207,
 		type = 1,
 		option = "",
@@ -26985,7 +26975,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2492] = {
-		param = "我也准备了，而且还定制了时下最流行的红包款式~！",
+		param = "私も！しかもデザインも流行りのものなの！",
 		ship_group = 50210,
 		type = 1,
 		option = "",
@@ -26993,7 +26983,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2493] = {
-		param = "既然大家都准备了，不如我们现在就去给指挥官送红包吧~",
+		param = "みんな実物を用意してあります、今から指揮官に紅包を届けに行きましょうか！",
 		ship_group = 51901,
 		type = 1,
 		option = "",
@@ -27001,7 +26991,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2494] = {
-		param = "可以可以，就当拜年了，哈哈！",
+		param = "いいね！そのまま新年の挨拶を兼ねて！ハハッ！",
 		ship_group = 59901,
 		type = 1,
 		option = "",
@@ -27009,7 +26999,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2495] = {
-		param = "？凌晨拜年也是第一次听说",
+		param = "深夜に新年の挨拶をするなんて初めて聞きましたけど……",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -27017,7 +27007,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2496] = {
-		param = "但也没什么不好的，新年伊始，热闹些也好",
+		param = "まあ、悪くありませんね。年の始まりは賑やかな方がいいですから",
 		ship_group = 50301,
 		type = 1,
 		option = "",
@@ -27025,7 +27015,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2497] = {
-		param = "正好，我给大家准备的夜宵刚做好，也一起送过去吧！",
+		param = "夜食もちょうどできあがったところです！一緒に持って行きましょう！",
 		ship_group = 50105,
 		type = 1,
 		option = "",
@@ -27033,7 +27023,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2498] = {
-		param = "什么！居然还有夜宵！",
+		param = "えっ！？夜食まであるの！？",
 		ship_group = 50109,
 		type = 1,
 		option = "",
@@ -27041,7 +27031,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2499] = {
-		param = "是姐姐特地为大家准备的新年惊喜！",
+		param = "そうだよ！お姉ちゃんが特別にみんなのために用意した新年サプライズだ！",
 		ship_group = 50106,
 		type = 1,
 		option = "",
@@ -27057,7 +27047,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2501] = {
-		param = "龙武专门为大家备下了新年豪华夜宵",
+		param = "そうそう、龍武がみんなのために豪華な新年夜食を用意してくれましたよ",
 		ship_group = 50601,
 		type = 1,
 		option = "",
@@ -27065,7 +27055,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2502] = {
-		param = "谢谢龙武！",
+		param = "龍武、ありがとう！",
 		ship_group = 50202,
 		flag = 0,
 		type = 1,
@@ -27073,12 +27063,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"辛苦龙武，更是谢谢大家……"
+				"龍武、お疲れさま。みんなにも感謝を……"
 			}
 		}
 	},
 	[2503] = {
-		param = "辛苦龙武的准备，更是谢谢大家的心意",
+		param = "夜食の準備お疲れ様。みんなの気持ちに感謝してるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27086,7 +27076,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2504] = {
-		param = "新年第一天，能和大家热热闹闹地在一起，我很开心！",
+		param = "新年の最初の日に、みんなと一緒に賑やかに過ごせて嬉しいよ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27094,7 +27084,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2505] = {
-		param = "大家一起过来我这边吃夜宵吧！",
+		param = "こっちで一緒に夜食を食べよう！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27110,7 +27100,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2507] = {
-		param = "来了来了！我们马上到~",
+		param = "今向かってるよ～",
 		ship_group = 50103,
 		type = 1,
 		option = "",
@@ -27118,7 +27108,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2508] = {
-		param = "冲啊，过年咯！",
+		param = "いけいけ！新年だー！",
 		ship_group = 50102,
 		type = 1,
 		option = "",
@@ -27126,7 +27116,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2509] = {
-		param = "指挥官，方才路过时，看见您在发呆呢",
+		param = "先ほど通りがかった時、指揮官がぼーっとしているところを見まして",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27134,7 +27124,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2510] = {
-		param = "眉头微皱，目光游离……真是难得见到您这般模样",
+		param = "眉間にしわを寄せて、目が泳いでいて……珍しいお姿で…",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27142,7 +27132,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2511] = {
-		param = "是什么困住了我们睿智的指挥官？让我来为您分忧可好？",
+		param = "何が私たちの賢明な指揮官を悩ませているのでしょう？よければ済安にお話してくれませんか？",
 		ship_group = 50209,
 		flag = 0,
 		type = 1,
@@ -27150,12 +27140,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"已经忘了"
+				"もう忘れたな"
 			}
 		}
 	},
 	[2512] = {
-		param = "已经忘了……也不是什么大事",
+		param = "もう忘れたな……きっと大したことじゃないよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27163,7 +27153,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2513] = {
-		param = "对了，用啾信聊天，你倒也不用这么拘谨",
+		param = "そうだ。チャットなんだしそんなに堅苦しくしなくていいよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27171,7 +27161,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2514] = {
-		param = "拘谨？您是在说我发消息的风格吧？",
+		param = "堅苦しい…？メッセージの書き方のことですね",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27179,7 +27169,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2515] = {
-		param = "虽然只是打字聊天，但总觉得面对指挥官的态度还是要更认真一些……所以就不自觉就用上了这样的风格，您不会介意吧？",
+		param = "文字だけのやり取りとはいえ、指揮官にはやっぱり真面目に接したほうがいいかなって……それで自然と普段の口調で文字を打っちゃいましたけど、気になってしまいますか…？",
 		ship_group = 50209,
 		flag = 1,
 		type = 1,
@@ -27187,12 +27177,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"当然不会"
+				"そんなことは別に"
 			}
 		}
 	},
 	[2516] = {
-		param = "当然不会",
+		param = "そんなことは別に",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27200,7 +27190,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2517] = {
-		param = "聊天的风格而已，不如说这样也很有特色？",
+		param = "チャットでの話し方だし、個性があればそれでいいんじゃない？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27208,7 +27198,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2518] = {
-		param = "这让我安心不少呢~那我就继续保持这种方式了哦",
+		param = "それを聞いて安心しました～。では、このままの調子で続けさせていただきますね",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27216,7 +27206,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2519] = {
-		param = "说起来，其实有关指挥官的一切，我都会默默关注的哦~♪",
+		param = "話を戻しますけど、指揮官のことはひっそりとですが何でも気にかけているんですよ～♪",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27224,7 +27214,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2520] = {
-		param = "若是您有什么想倾诉的，无论是开心或是烦忧，随时都可以找姐姐我呢",
+		param = "楽しいことでも辛いことでも、何かお話しできることがありましたら、いつでも私のところへいらしてください",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27232,7 +27222,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2521] = {
-		param = "我会一直在您身边，做您最贴心的听众~",
+		param = "ずっとそばにいて、お話を聞かせていただきますから",
 		ship_group = 50209,
 		flag = 2,
 		type = 1,
@@ -27240,12 +27230,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"要是没有烦恼的话……"
+				"悩みがないときは……"
 			}
 		}
 	},
 	[2522] = {
-		param = "要是没有烦恼的话，难不成就不能和你聊天了？",
+		param = "悩みがないときでも会いに行けるかな？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27261,7 +27251,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2524] = {
-		param = "哎呀，没有烦恼也当然可以找姐姐我聊天哦~",
+		param = "あら、悩みがなくても大丈夫ですよ～",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27269,7 +27259,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2525] = {
-		param = "再说了，指挥官要是每天都能无忧无虑的话，简直再好不过了~",
+		param = "それに、指揮官が毎日悩みなく過ごせるなら、それに越したことはありません",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27277,7 +27267,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2526] = {
-		param = "话说回来，“没有烦恼”的指挥官现在能不能听我倾诉一下烦恼呢？",
+		param = "ところで、「悩みのない」指揮官に済安の悩みを聞いてくださいませんか？",
 		ship_group = 50209,
 		flag = 3,
 		type = 1,
@@ -27285,12 +27275,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"济安也有烦恼么？"
+				"済安にも悩みが…？"
 			}
 		}
 	},
 	[2527] = {
-		param = "济安也有烦恼么？",
+		param = "済安にも悩みが…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27298,7 +27288,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2528] = {
-		param = "难道是……又被禁止进入厨房了？",
+		param = "まさか……またキッチンに出禁になったとか…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27314,7 +27304,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2530] = {
-		param = "虽然这确实也是我的烦恼……但不是我想要跟您倾诉的啦！",
+		param = "確かにそれも悩みではありますが……今お話ししたいのはそれではありませんよ…？",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27322,7 +27312,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2531] = {
-		param = "其实我想倾诉的烦恼很简单，那就是……",
+		param = "今話したいことはもっと単純なもので、つまり……",
 		ship_group = 50209,
 		flag = 4,
 		type = 1,
@@ -27330,12 +27320,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"就是……？"
+				"つまり……？"
 			}
 		}
 	},
 	[2532] = {
-		param = "就是……？",
+		param = "つまり……？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27343,7 +27333,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2533] = {
-		param = "就是我总觉得最近和指挥官独处的时光，变得稀少了呢……",
+		param = "最近、指揮官とゆっくり過ごす時間が少なくなったということなんです……",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27351,7 +27341,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2534] = {
-		param = "虽然知道指挥官公务繁忙，可是呢……人总会有些小小的贪心，我也不例外嘛~",
+		param = "職務でお忙しいのは分かってますけど……人は少しぐらい欲張りになってしまいますでしょう？私も例外ではありませんよ～",
 		ship_group = 50209,
 		flag = 5,
 		type = 1,
@@ -27359,12 +27349,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"这个烦恼好解决"
+				"その悩みなら簡単に解決できるな"
 			}
 		}
 	},
 	[2535] = {
-		param = "这个烦恼倒是好解决",
+		param = "その悩みなら簡単に解決できるな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27372,7 +27362,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2536] = {
-		param = "现在就见面吧？我工作都做完了，正好有时间",
+		param = "今から会わないか？仕事も終わったところだし、時間ならあるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27380,7 +27370,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2537] = {
-		param = "哎呀……真的可以吗~？",
+		param = "まあ……本当によろしいのですか？",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27388,7 +27378,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2538] = {
-		param = "那我这就去指挥室找您~！",
+		param = "では今から執務室に伺いますね♪",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27404,7 +27394,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"发生什么事了？"
+				"何かあったの？"
 			},
 			{
 				2,
@@ -27413,7 +27403,7 @@ pg.base.activity_ins_chat_language = {
 		}
 	},
 	[2540] = {
-		param = "发生什么事了？",
+		param = "何かあったの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27429,7 +27419,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2542] = {
-		param = "我在路过厨房的时候看到了一个告示牌呜呜呜……",
+		param = "うぅ……厨房を通りかかった時に告知を見たのですが…",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27437,7 +27427,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2543] = {
-		param = "上面写着：如发现济安欲进入厨房，请及时对其进行劝阻",
+		param = "「済安が厨房に入ろうとしているのを見かけたら、すぐに止めてください」って",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27445,7 +27435,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2544] = {
-		param = "不就是……上周想试试柴灶来做饭，不小心把厨房搞爆炸了而已……",
+		param = "先週、かまどで料理を試してみようとして、うっかり厨房を爆発させてしまっただけなのに……",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27453,7 +27443,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2545] = {
-		param = "姐姐我啊，事后可是很认真地参与了厨房的重建呢！",
+		param = "その後だって真面目に復旧作業に参加したんですよ！",
 		ship_group = 50209,
 		flag = 0,
 		type = 1,
@@ -27461,12 +27451,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"原来上周的那声巨响是……"
+				"先週の爆発音は……"
 			}
 		}
 	},
 	[2546] = {
-		param = "原来上周我听到的那声巨响是你炸了厨房……",
+		param = "先週聞こえた爆発音って済安が厨房を爆発させたのが原因だったのか……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27474,7 +27464,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2547] = {
-		param = "等等，柴灶要自己生火……难道你直接对灶台开炮了？",
+		param = "ちょっと待って、かまどで料理を試すって……まさか直接砲撃したのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27490,7 +27480,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2549] = {
-		param = "哎呀，下厨本就是需要些创意与冒险精神的嘛！",
+		param = "あら、お料理には創意工夫と冒険精神が必要なんですよ？",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27498,7 +27488,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2550] = {
-		param = "况且姐姐我每次都有认真总结经验哦♪",
+		param = "それに私、毎回しっかり振り返りをしていますから♪",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27506,7 +27496,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2551] = {
-		param = "要小心生火，不能因为追求速度而直接对灶台开炮——",
+		param = "火起こしは慎重に、速さを求めてかまどを直接砲撃してはいけない――",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27514,7 +27504,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2552] = {
-		param = "在失败中汲取教训，这也是进步的一种方式哦",
+		param = "失敗から学ぶのも、上達への道のひとつですから",
 		ship_group = 50209,
 		flag = 3,
 		type = 1,
@@ -27522,12 +27512,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"话虽如此，但……"
+				"そう言われてもな……"
 			}
 		}
 	},
 	[2553] = {
-		param = "话虽如此，但还是要注意安全",
+		param = "そう言われてもな……やっぱり安全には気をつけてほしい……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27535,7 +27525,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2554] = {
-		param = "厨房毁了还可以重建，人受伤了就不好了",
+		param = "キッチンはいくらでも建て直せるけど、怪我をしたら大変だから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27543,7 +27533,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2555] = {
-		param = "指挥官果然最贴心了呢~",
+		param = "指揮官はやっぱり大事に思ってくださっていますね",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27551,7 +27541,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2556] = {
-		param = "其实，关于我厨艺的水平，我心里多多少少也是清楚的啦……",
+		param = "本当は自分の料理の腕がどれくらいかなんて、ある程度自覚はありますから……",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27559,7 +27549,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2557] = {
-		param = "但是我明明都认真去做了，结局却往往不尽如人意呢……",
+		param = "真面目に取り組んでいるのに、なかなか思い通りの結果にならなくて……",
 		ship_group = 50209,
 		flag = 4,
 		type = 1,
@@ -27567,12 +27557,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"需要我帮忙么？"
+				"手伝おうか？"
 			}
 		}
 	},
 	[2558] = {
-		param = "需要我帮忙么？",
+		param = "手伝おうか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27580,7 +27570,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2559] = {
-		param = "在做饭方面我还是略懂一二的",
+		param = "料理ならそれなりには心得があるから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27588,7 +27578,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2560] = {
-		param = "太好了~那就拜托您来指导我了哦~",
+		param = "いいですか！？ご指導よろしくお願いします～",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27596,7 +27586,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2561] = {
-		param = "这次有了指挥官的帮助，姐姐我应该可以好好为自己“正名”了！",
+		param = "指揮官のお力添えがあれば、きっと「汚名挽回」できます！",
 		ship_group = 50209,
 		flag = 5,
 		type = 1,
@@ -27604,12 +27594,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"嗯，之后一起品尝做出来的成果吧"
+				"できたら一緒に食べよう"
 			}
 		}
 	},
 	[2562] = {
-		param = "嗯，之后一起品尝做出来的成果吧",
+		param = "できたら一緒に食べよう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27625,7 +27615,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2564] = {
-		param = "虽然这次我很有信心，但是万一……",
+		param = "今回は自信があるのですが、もしも……",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27633,7 +27623,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2565] = {
-		param = "万一……只是说万一，品尝成果的时候出现了什么小意外的话……",
+		param = "もしも……万が一ですよ？味見の時に何かありましたら……",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27649,7 +27639,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2567] = {
-		param = "思考了一下，似乎也没什么影响",
+		param = "よくよく考えると別に大丈夫そうですね",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27657,7 +27647,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2568] = {
-		param = "我准备好了其它的补救方案呢~",
+		param = "他の対策も用意してありますから♪",
 		ship_group = 50209,
 		flag = 6,
 		type = 1,
@@ -27665,12 +27655,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"是什么？"
+				"どんな対策…？"
 			}
 		}
 	},
 	[2569] = {
-		param = "是什么？",
+		param = "どんな対策…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27678,7 +27668,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2570] = {
-		param = "这个嘛，暂时保密哦♪不过我可以透露一点点……",
+		param = "まだ秘密です♪ 少しだけヒントをあげるなら…",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27686,7 +27676,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2571] = {
-		param = "比如一些更特别的“美味”~",
+		param = "もっと特別な「美味しいもの」とか～",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27694,7 +27684,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2572] = {
-		param = "说起来，一些普通的小事会让人一整天都充满幸福的感觉呢~",
+		param = "そういえば、些細なことで一日中幸せな気分になることってありますよね",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27702,7 +27692,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2573] = {
-		param = "比如说……睡前和亲近的人道声晚安，或是分别时的一个温暖拥抱之类的♪",
+		param = "例えば……寝る前に大切な人におやすみを言ったり、別れ際の温かいハグをしてあげたり♪",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27710,7 +27700,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2574] = {
-		param = "所谓——“生活中的仪式感”，大抵就是如此吧~",
+		param = "いわゆる――「幸せは細部に宿る」というものですね",
 		ship_group = 50209,
 		flag = 0,
 		type = 1,
@@ -27718,12 +27708,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"突然提到这个……"
+				"どうして急にそんな話を…？"
 			}
 		}
 	},
 	[2575] = {
-		param = "突然提到这个，是济安也想追求一下生活中的仪式感么？",
+		param = "急にそんな話をするなんて、済安も特別な何かを求めてみたくなったの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27739,7 +27729,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2577] = {
-		param = "哎呀~被您发现了哦",
+		param = "あら、お見通しですね",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27747,7 +27737,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2578] = {
-		param = "毕竟，仪式感也是一种传达“在意”的方式呢",
+		param = "だって、そういう特別さも「大切に想う気持ち」を伝える方法の一つですもの",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27755,7 +27745,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2579] = {
-		param = "再微小的事情，只要怀着特别的心意去做，就会变得珍贵起来",
+		param = "どんな些細なことでも、特別な想いを込めれば、愛おしいものになるんです",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27763,7 +27753,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2580] = {
-		param = "不过呢~姐姐我倒是想拥有一些和您的专属仪式感哦",
+		param = "それで…私は指揮官とだけの「特別さ」が欲しいなって",
 		ship_group = 50209,
 		flag = 1,
 		type = 1,
@@ -27771,12 +27761,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"专属的仪式感？"
+				"例えば…？"
 			}
 		}
 	},
 	[2581] = {
-		param = "专属的仪式感？能举个例子么？",
+		param = "自分とだけの「特別さ」？例えば…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27784,7 +27774,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2582] = {
-		param = "对彼此特别的昵称？或者，睡前的一个晚安吻ヾ(･ε･｀*) ？",
+		param = "お互いだけの呼び方とか？あるいは、寝る前のおやすみのキスとかヾ(･ε･｀*)",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27792,7 +27782,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2583] = {
-		param = "不过这也只是我刚刚突发奇想，还没有什么特别成熟的想法~",
+		param = "パッと思いついただけで、別に決まったことではありませんよ",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27800,7 +27790,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2584] = {
-		param = "需要您更多的参与……才能找到最适合我们的专属仪式感呢",
+		param = "そこは指揮官も考えてみてくださればと……私たちにぴったりの「特別さ」を見つけられますから",
 		ship_group = 50209,
 		flag = 2,
 		type = 1,
@@ -27808,12 +27798,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"我明白了……"
+				"なるほど"
 			}
 		}
 	},
 	[2585] = {
-		param = "我明白了，也就是说要在日常生活里更注意一些行为的细节吧？",
+		param = "なるほど、つまり普段からもっと細かな行動に気を配るということだね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27821,7 +27811,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2586] = {
-		param = "是……却也不全是~",
+		param = "そうですけど……そうとは限りませんよ？",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27829,7 +27819,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2587] = {
-		param = "哎呀，您只要把自己交给我就好了哦~",
+		param = "全てを済安に任せてくださいな",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27837,7 +27827,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2588] = {
-		param = "既然是姐姐我提出的请求，自然就要由我来主导啦♪",
+		param = "私が提案したことですから、リードさせていただきます♪",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27845,7 +27835,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2589] = {
-		param = "怎么样，您愿意接受我的请求吗~？",
+		param = "いかがでしょう、私のお願い、受け入れていただけますか？",
 		ship_group = 50209,
 		flag = 3,
 		type = 1,
@@ -27853,12 +27843,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"既然是你的请求……"
+				"済安の願いなら…"
 			}
 		}
 	},
 	[2590] = {
-		param = "既然是你的请求，我当然愿意接受",
+		param = "済安の願いだからね、もちろん問題ないよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27866,7 +27856,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2591] = {
-		param = "不过这个寻找专属仪式感的事，要从什么时候开始？",
+		param = "それで、その「特別さ」を探すのはいつから始めるの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27874,7 +27864,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2592] = {
-		param = "那当然是从此时此刻开始哦~您就在指挥室等着我吧",
+		param = "もちろん今この瞬間からですよ♪執務室でお待ちくださいね",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27882,7 +27872,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2593] = {
-		param = "过来的路上，我也会好好想一想的~",
+		param = "向かう途中も、しっかり考えておきますから",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27890,7 +27880,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2594] = {
-		param = "关于我们两个人的，专属的仪式感♪",
+		param = "私たち二人だけの「特別さ」のことを♪",
 		ship_group = 50209,
 		type = 1,
 		option = "",
@@ -27906,7 +27896,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2596] = {
-		param = "指挥官~☆",
+		param = "指揮官～☆",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -27914,7 +27904,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2597] = {
-		param = "我今天趴在广场喷泉雕塑上画画",
+		param = "今日ね、広場の噴水の彫像に寝そべって絵を描いてたの",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -27922,7 +27912,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2598] = {
-		param = "看见一群起飞的白鸽，灵感乍现——！！",
+		param = "そしたらハトの群れが飛び立ってね！インスピレーションがピカーッと閃いたのよ！",
 		ship_group = 60508,
 		flag = 0,
 		type = 1,
@@ -27930,16 +27920,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"注意安全……"
+				"気をつけてくれ……"
 			},
 			{
 				2,
-				"等等，白鸽是哪里来的……"
+				"待って、ハトって……？"
 			}
 		}
 	},
 	[2599] = {
-		param = "注意安全，在那么高的地方趴着画画很危险",
+		param = "気をつけてくれ。そんな高いところで絵を描くなんて危ない",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27947,7 +27937,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2600] = {
-		param = "哎呀",
+		param = "まあまあ",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -27955,7 +27945,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2601] = {
-		param = "不会啦~！",
+		param = "大丈夫だよ！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -27963,7 +27953,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2602] = {
-		param = "我，拉斐尔，一名成熟出色的艺术家！",
+		param = "あたしはラファエロだよ？一人前の立派なアーティストなの！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -27971,7 +27961,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2603] = {
-		param = "拥有着充分而成熟的经验，绝不会在这种时候发生危险状况！",
+		param = "熟成してるって言えるぐらい経験豊富で落ち着きのあるこのあたしが、そんな危ない目に遭うわけないじゃない～！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -27987,7 +27977,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2605] = {
-		param = "等等，白鸽是哪里来的，我怎么不记得有养它们？",
+		param = "ハトはどこから来たんだ？誰かが母港で飼ってたっけ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -27995,7 +27985,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2606] = {
-		param = "大概就是哪个路过的好心同伴养的吧",
+		param = "きっと通りすがりの親切な仲間の誰かさんが飼ってたハトだと思うよ",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28003,7 +27993,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2607] = {
-		param = "养的不错，一只只还挺肥的",
+		param = "よく育てられてて、どれもぷっくりして可愛いね！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28011,7 +28001,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2608] = {
-		param = "不过单拎出来看，线条实在糟糕",
+		param = "でも、じっくり観察すると……うーん、ラインが雑！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28019,7 +28009,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2609] = {
-		param = "果然，就算是鸽子，也不能忽视塑形的重要性！",
+		param = "やっぱりハトだって、スタイル作りは重要よ～！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28027,7 +28017,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2610] = {
-		param = "不过，这不是重点",
+		param = "でも、それは今のポイントじゃない",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28035,7 +28025,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2611] = {
-		param = "重点是，我的灵感乍现，可是……",
+		param = "問題はね、インスピレーションが閃いたのに……",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28043,7 +28033,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2612] = {
-		param = "卡，住，了！！！",
+		param = "詰・ま・っ・た！！！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28059,12 +28049,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"那你现在怎么打算？"
+				"それで、どうするつもり？"
 			}
 		}
 	},
 	[2614] = {
-		param = "那你现在怎么打算？",
+		param = "それで、どうするつもり？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28072,7 +28062,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2615] = {
-		param = "看些影视作品或者其他什么东西再找找灵感？",
+		param = "映画とか、何か他の作品でも観てインスピレーションを探し直すのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28080,7 +28070,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2616] = {
-		param = "这个嘛，我也已经想好了！",
+		param = "それはね、もう考えてあるの！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28088,7 +28078,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2617] = {
-		param = "我打算复刻群鸽起飞的那一刻",
+		param = "ハトが一斉に飛び立ったあの瞬間を再現する！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28096,7 +28086,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2618] = {
-		param = "为了复刻这一刻，我打算先去跟鸽子们打好关系",
+		param = "そのためには、まずハトたちと仲良くなることから始める",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28104,7 +28094,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2619] = {
-		param = "再拜托它们之后列队再飞一次！",
+		param = "そしてお願いして、ちゃんと列を作って飛んでもらうの！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28112,7 +28102,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2620] = {
-		param = "从先开始，我每天要去喂鸽子",
+		param = "だから、今日から毎日ハトにエサをあげに行く",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28120,7 +28110,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2621] = {
-		param = "为了我的灵感——！",
+		param = "あたしのインスピレーションのために！",
 		ship_group = 60508,
 		flag = 3,
 		type = 1,
@@ -28128,16 +28118,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"鸽子能听懂你的话么？"
+				"意思疎通できるの？"
 			},
 			{
 				5,
-				"有什么我能帮忙的么？"
+				"手伝えることはある？"
 			}
 		}
 	},
 	[2622] = {
-		param = "鸽子能听懂你的话么？",
+		param = "意思疎通できるの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28145,7 +28135,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2623] = {
-		param = "艺术是心与心之间的交流！",
+		param = "芸術は心と心のコミュニケーションなの！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28153,7 +28143,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2624] = {
-		param = "我相信，为了艺术，它们肯定能够听懂我真诚的请求的！",
+		param = "だからあたしは信じてる。芸術のためなら、ハトたちもきっと理解してくれるはず！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28161,7 +28151,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2625] = {
-		param = "当然，如果这个时候完美的您能够陪伴我一起去！",
+		param = "もちろん、完璧な指揮官が一緒に来てくれれば",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28169,7 +28159,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2626] = {
-		param = "那么鸽子们肯定会更乐意帮我这个忙的吧！",
+		param = "ハトたちももっと協力的になってくれると思うよ～",
 		ship_group = 60508,
 		flag = 4,
 		type = 1,
@@ -28177,12 +28167,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"那我就陪你去吧"
+				"じゃあ、一緒に行こうか"
 			}
 		}
 	},
 	[2627] = {
-		param = "那我就陪你去吧",
+		param = "じゃあ、一緒に行こうか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28190,7 +28180,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2628] = {
-		param = "不过我还是觉得成功率比较低",
+		param = "でもこれだと成功確率はちょっと低い気がするな……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28198,7 +28188,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2629] = {
-		param = "哎呀，我觉得还是可以一试的~",
+		param = "あれれ～？あたしは試す価値はあると思うよ？",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28206,7 +28196,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2630] = {
-		param = "再说了，指不定还能找到其他灵感呢，耶耶耶~☆",
+		param = "もしかしたら他のインスピレーションも見つかるかもしれないじゃない！イェイイェイ☆",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28214,7 +28204,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2631] = {
-		param = "那就说好了，等您有空了，我们就过去吧！",
+		param = "とにかくもう決まりね！指揮官の都合がいいときに行きましょ～！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28230,7 +28220,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2633] = {
-		param = "为了你的灵感，有什么我能帮忙的么？",
+		param = "ラファエロのインスピレーションのために、何か手伝えることはある？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28238,7 +28228,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2634] = {
-		param = "喂鸽子之类的？",
+		param = "ハトにエサをあげるとか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28246,7 +28236,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2635] = {
-		param = "指挥官要来帮忙的话……",
+		param = "指揮官が手伝ってくれるなら……",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28254,7 +28244,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2636] = {
-		param = "当然不能是如此无趣的事情！",
+		param = "こんな退屈なことじゃ物足りなくなるよね～！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28262,7 +28252,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2637] = {
-		param = "不如现在、立刻、来成为我的模特吧！",
+		param = "今すぐ、あたしのモデルになって！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28270,7 +28260,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2638] = {
-		param = "记得要穿得有艺术感一些",
+		param = "格好をもっとアーティスティックに！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28278,7 +28268,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2639] = {
-		param = "破布条，恰到好处的镂空，或者直接别穿了！",
+		param = "生地はボロ布、絶妙な穴開き……いっそ着なくてもいいんじゃない？",
 		ship_group = 60508,
 		flag = 5,
 		type = 1,
@@ -28286,12 +28276,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"还是要注意衣着得体的……"
+				"ちゃんと服を着たほうが……"
 			}
 		}
 	},
 	[2640] = {
-		param = "这不大合适，还是要注意衣装得体整洁的",
+		param = "それはちょっと……やっぱりちゃんとした服のほうが…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28299,7 +28289,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2641] = {
-		param = "哪里不得体哪里不整洁了！这是为艺术献身！",
+		param = "これだってちゃんとした格好だよ！芸術のための献身だよ！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28307,7 +28297,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2642] = {
-		param = "光是想象一下您完美的胴体，都觉得是无敌的艺术品！",
+		param = "君の完璧なボディを想像するだけで、もう無敵のアートに感じるよ……！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28315,7 +28305,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2643] = {
-		param = "算了，指挥官您直接过来我的画室吧",
+		param = "いいから直接あたしのアトリエに来て！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28323,7 +28313,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2644] = {
-		param = "衣服什么的我都会给你准备好的！",
+		param = "衣装は全部あたしが用意してあげるからさ！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28331,7 +28321,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2645] = {
-		param = "嘻嘻~☆",
+		param = "ふふっ、楽しみにしててね～☆",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28339,7 +28329,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2646] = {
-		param = "指挥官~☆在干什么！",
+		param = "指揮官〜☆今何してる〜？",
 		ship_group = 60508,
 		flag = 0,
 		type = 1,
@@ -28347,16 +28337,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"在整理文件……"
+				"書類整理してるところ…"
 			},
 			{
 				2,
-				"刚刚睡醒……"
+				"起きたばかりだけど"
 			}
 		}
 	},
 	[2647] = {
-		param = "在整理文件，怎么了？",
+		param = "書類整理してるところだけど…どうかした？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28364,7 +28354,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2648] = {
-		param = "刚刚睡醒，怎么了？",
+		param = "起きたばかりだけど、何か用？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28372,7 +28362,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2649] = {
-		param = "哦哟哟",
+		param = "おおっと、そういうことなら…",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28388,7 +28378,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2651] = {
-		param = "发个自拍过来看看",
+		param = "セルフィー送ってくれない？",
 		ship_group = 60508,
 		flag = 0,
 		type = 1,
@@ -28396,12 +28386,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"怎么这么突然……？"
+				"急にどうしたの？"
 			}
 		}
 	},
 	[2652] = {
-		param = "怎么这么突然……？",
+		param = "急にどうしたの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28409,7 +28399,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2653] = {
-		param = "思念您那完美的下颌线",
+		param = "だって、指揮官の完璧な顎ラインと〜",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28417,7 +28407,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2654] = {
-		param = "还有那双忧郁迷人的眼睛",
+		param = "その憂いを帯びた魅惑的な瞳！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28425,7 +28415,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2655] = {
-		param = "这些都是我灵感的源泉！",
+		param = "全部があたしのインスピレーションの源なんだから！",
 		ship_group = 60508,
 		flag = 3,
 		type = 1,
@@ -28433,12 +28423,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"谢谢，不过……？"
+				"ありがとう、でも……"
 			}
 		}
 	},
 	[2656] = {
-		param = "谢谢，不过这说真的是我么？",
+		param = "ありがとう、でもそれって本当に自分なのか……？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28454,7 +28444,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2658] = {
-		param = "当然！",
+		param = "もちろん、君のことだよ！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28462,7 +28452,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2659] = {
-		param = "唉！指挥官您真是对自己的魅力一无所知！",
+		param = "ああもう！君って自分の魅力に全く気づいてない！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28470,7 +28460,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2660] = {
-		param = "总之，照片拿来",
+		param = "とにかく、写真、さあ早くちょうだい！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28478,7 +28468,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2661] = {
-		param = "（伸手）",
+		param = "（スッと手を伸ばす）",
 		ship_group = 60508,
 		flag = 4,
 		type = 1,
@@ -28486,16 +28476,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"我现在没空自拍……"
+				"今はそんな暇ないんだ"
 			},
 			{
 				6,
-				"我不擅长自拍……"
+				"セルフィーは苦手だ"
 			}
 		}
 	},
 	[2662] = {
-		param = "我现在没空自拍，要不晚点……？",
+		param = "今はセルフィーを撮ってる暇ないんだ、後でもいい…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28503,7 +28493,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2663] = {
-		param = "我不擅长自拍，平时拍得很少",
+		param = "セルフィーは苦手でね、普段あまり撮らないんだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28511,7 +28501,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2664] = {
-		param = "还是算了",
+		param = "やっぱりやめておこう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28519,7 +28509,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2665] = {
-		param = "我的灵感之神，连拒绝都是如此完美迷人！",
+		param = "ああ、さすがあたしのインスピレーションの神様！断り方すらもこんなに完璧で魅力的だなんて！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28527,7 +28517,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2666] = {
-		param = "不自拍也没关系",
+		param = "セルフィーが無理なら、問題なし！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28535,7 +28525,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2667] = {
-		param = "放着我来",
+		param = "ここはあたしに任せて！",
 		ship_group = 60508,
 		flag = 0,
 		type = 1,
@@ -28543,12 +28533,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"是指什么放着你来？"
+				"任せるって、具体的に何をするつもり？"
 			}
 		}
 	},
 	[2668] = {
-		param = "是指什么放着你来？",
+		param = "任せるって？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28556,7 +28546,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2669] = {
-		param = "当然是给您拍照啦！",
+		param = "もちろん、指揮官の写真を、あたしが撮る、ってことよ！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28564,7 +28554,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2670] = {
-		param = "我现在就过去指挥室帮您拍！",
+		param = "今すぐ執務室に行って撮影するからね！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28572,7 +28562,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2671] = {
-		param = "360度无死角环绕拍摄！",
+		param = "360度どこから見ても完璧な指揮官を",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28580,7 +28570,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2672] = {
-		param = "只为记录每一刻最完美的您！",
+		param = "余すところなく記録してみせる！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28588,7 +28578,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2673] = {
-		param = "出发！！",
+		param = "それじゃあ、行くよ！！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28604,7 +28594,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2675] = {
-		param = "我最珍贵的伴侣、最爱的指挥官噢——！",
+		param = "あたしの一番大切なパートナーにして最愛の指揮官～！",
 		ship_group = 60508,
 		flag = 0,
 		type = 1,
@@ -28612,12 +28602,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"在在在"
+				"いるいる"
 			}
 		}
 	},
 	[2676] = {
-		param = "在在在，我在",
+		param = "いるいる、いるって",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28625,7 +28615,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2677] = {
-		param = "能得到您第一时间的回复，真是令我感到无比幸福！",
+		param = "こうしてすぐにお返事をもらえるなんて、もう最高に幸せ！",
 		ship_group = 60508,
 		flag = 1,
 		type = 1,
@@ -28633,12 +28623,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"怎么了？发生什么事了？"
+				"どうしたの？"
 			}
 		}
 	},
 	[2678] = {
-		param = "怎么了？发生什么事了？",
+		param = "どうしたの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28646,7 +28636,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2679] = {
-		param = "其实是这样的，这几天我一直在画室里画画",
+		param = "実はね、ここ数日ずっとアトリエで絵を描いてたの",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28654,7 +28644,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2680] = {
-		param = "忙碌地寻找灵感",
+		param = "インスピレーションを探すのに夢中で……",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28662,7 +28652,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2681] = {
-		param = "现在我饿了！",
+		param = "今めっちゃお腹空いた！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28678,12 +28668,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"这两者间有什么关系？"
+				"何か関係があるの？"
 			}
 		}
 	},
 	[2683] = {
-		param = "这几天找灵感和现在饿了有什么关系吗？",
+		param = "インスピレーション探しとお腹が空いたことに、何か関係があるの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28699,7 +28689,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2685] = {
-		param = "当然有！",
+		param = "もちろんあるよ！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28707,7 +28697,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2686] = {
-		param = "我正在通过橡皮屑的图案寻找灵感",
+		param = "あたし、消しゴムのカスの形からインスピレーションを得ようとしてたの",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28715,7 +28705,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2687] = {
-		param = "但是饿了就没有力气擦橡皮了",
+		param = "でもお腹が空くと消しゴムを擦る力が出なくて……",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28723,7 +28713,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2688] = {
-		param = "所以必须解决饿了的问题",
+		param = "だからまずお腹を満たさないとね！",
 		ship_group = 60508,
 		flag = 3,
 		type = 1,
@@ -28731,16 +28721,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"我给你叫外卖……"
+				"出前を頼もう"
 			},
 			{
 				5,
-				"说吧，想吃什么"
+				"何が食べたいか教えてくれ"
 			}
 		}
 	},
 	[2689] = {
-		param = "吃点东西吧，我给你叫外卖，想吃什么？",
+		param = "じゃあ何か食べたら？出前を頼んであげるから、何がいい？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28748,7 +28738,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2690] = {
-		param = "您不来跟我一起吃饭吗！",
+		param = "ええ！？一緒に食べに来てくれないの！？",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28756,7 +28746,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2691] = {
-		param = "那我这汹涌的、无处安放的思念之情该如何是好！",
+		param = "この溢れ出た君への切ない想いを、どうしてくれるの～！？",
 		ship_group = 60508,
 		flag = 4,
 		type = 1,
@@ -28764,12 +28754,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"来了，来了，这就来"
+				"はいはい、今行くよ"
 			}
 		}
 	},
 	[2692] = {
-		param = "来了，来了，这就来",
+		param = "はいはい、今行くよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28777,7 +28767,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2693] = {
-		param = "那我顺路也买些吃的过来",
+		param = "ついでに食べものも持って行くから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28785,7 +28775,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2694] = {
-		param = "说吧，想吃什么，我带过去",
+		param = "何が食べたいか教えてくれ。持って行くよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28793,7 +28783,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2695] = {
-		param = "您买什么我就吃什么~☆",
+		param = "指揮官が買ってくれるものなら、何でも食べるよ～☆",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28801,7 +28791,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2696] = {
-		param = "先不要告诉我你要买什么",
+		param = "でもね、何を買うかは言わないで！",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28809,7 +28799,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2697] = {
-		param = "您拎着不同的包装袋走进我画室的那一瞬间，肯定也能给我带来不同的灵感！",
+		param = "袋を持ってアトリエに入ったその瞬間、その光景がきっとあたしの新しいインスピレーションになるから！",
 		ship_group = 60508,
 		flag = 5,
 		type = 1,
@@ -28817,12 +28807,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"好，那我就看着买些吃的过来"
+				"適当に買って持って行くよ"
 			}
 		}
 	},
 	[2698] = {
-		param = "好，那我就看着买些吃的过来",
+		param = "適当に買って持って行くよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28830,7 +28820,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2699] = {
-		param = "好耶！期待并静候您的到来~☆",
+		param = "やったー！楽しみにして、じーっとして待ってるね～☆",
 		ship_group = 60508,
 		type = 1,
 		option = "",
@@ -28838,7 +28828,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2700] = {
-		param = "指挥官~Ciao~",
+		param = "指揮官～Ciao～",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -28846,7 +28836,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2701] = {
-		param = "猜猜我现在在哪里~？",
+		param = "さて、今の私がどこにいるか、当ててみて～♪",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -28862,16 +28852,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"确认了一下，没在指挥室"
+				"確認したけど、執務室にはいないな"
 			},
 			{
 				2,
-				"你在哪里？"
+				"どこにいるんだ？"
 			}
 		}
 	},
 	[2703] = {
-		param = "确认了一下，没在指挥室",
+		param = "執務室にはいないな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28879,7 +28869,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2704] = {
-		param = "虽然想说那可不一定",
+		param = "その可能性も否定したくないけど～……",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -28887,7 +28877,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2705] = {
-		param = "不过我现在确实没在指挥室呢！",
+		param = "今は確かに指揮室にはいないわね",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -28895,7 +28885,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2706] = {
-		param = "你在哪里？",
+		param = "どこにいるんだ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28903,7 +28893,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2707] = {
-		param = "指挥官也太偷懒啦，猜都不猜的",
+		param = "あら指揮官、流石に弛んでいない？ノリが悪いわ",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -28911,7 +28901,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2708] = {
-		param = "那就揭晓答案吧~",
+		param = "じゃあ答えを発表しようかしら",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -28919,7 +28909,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2709] = {
-		param = "其实我在一处废弃的工地里哦，外面还竖着禁止进入的牌子！",
+		param = "今、廃墟になった工事現場にいるの。外には「立ち入り禁止」の看板が立ってて…",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -28927,7 +28917,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2710] = {
-		param = "裸露的钢筋！断裂的柱子！",
+		param = "むき出しの鉄筋！壊れた柱！",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -28935,7 +28925,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2711] = {
-		param = "想想都觉得好刺激！",
+		param = "想像するだけでワクワクしちゃうわ♪",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -28951,12 +28941,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"明明已经写了禁止进入了！"
+				"立ち入り禁止じゃ…？！"
 			}
 		}
 	},
 	[2713] = {
-		param = "明明已经写了禁止进入了！",
+		param = "立ち入り禁止じゃ…？！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28964,7 +28954,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2714] = {
-		param = "就是因为写着禁止进入才要一探究竟啊！",
+		param = "ええ、禁止されてるからこそ逆に行きたくなるわ",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -28972,7 +28962,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2715] = {
-		param = "这才够刺激！",
+		param = "そうでなきゃ、全然スリルが足りないじゃない♪",
 		ship_group = 60803,
 		flag = 3,
 		type = 1,
@@ -28980,16 +28970,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"还是别进去了吧？"
+				"やめておいたほうが…"
 			},
 			{
 				5,
-				"你一个人吗？"
+				"今一人なのか？"
 			}
 		}
 	},
 	[2716] = {
-		param = "还是别进去了吧？太危险了",
+		param = "危険すぎるからやっぱりやめておいたほうが……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -28997,7 +28987,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2717] = {
-		param = "想要阻止我的话，这种语气可太温和了哦！",
+		param = "本気で止めたいならその優しい言い方じゃ効果ないわよ",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29005,7 +28995,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2718] = {
-		param = "要不要试试更加凶狠地训斥我啊~？",
+		param = "もっと厳しく叱ってみて？",
 		ship_group = 60803,
 		flag = 4,
 		type = 1,
@@ -29013,12 +29003,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"具体是怎样的训斥？"
+				"具体的にはどんな風に？"
 			}
 		}
 	},
 	[2719] = {
-		param = "具体是怎样的训斥？",
+		param = "具体的にはどんな風に？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29026,7 +29016,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2720] = {
-		param = "比如说",
+		param = "例えば",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29034,7 +29024,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2721] = {
-		param = "“我说不许去，别让我说第二遍”",
+		param = "「行くなって言っただろ。二度と言わせるな！」",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29042,7 +29032,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2722] = {
-		param = "“闭嘴，乖乖听话”",
+		param = "「黙って言うことを聞け！」",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29050,7 +29040,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2723] = {
-		param = "之类的！",
+		param = "そんな感じかしら！",
 		ship_group = 60803,
 		flag = 6,
 		type = 1,
@@ -29058,12 +29048,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"那我试试"
+				"やってみる"
 			}
 		}
 	},
 	[2724] = {
-		param = "那我试试",
+		param = "やってみる",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29071,7 +29061,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2725] = {
-		param = "不许去，乖乖听话，别让我说第二遍",
+		param = "行くな。黙って言うことを聞け、二度と言わせるな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29079,7 +29069,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2726] = {
-		param = "这、这这这这这",
+		param = "そ、それって……",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29095,7 +29085,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2728] = {
-		param = "我听见了心跳加速的声音！",
+		param = "心臓がバクバクいってる音が聞こえるわ！",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29103,7 +29093,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2729] = {
-		param = "被指挥官训斥可比在废弃工地里探险刺激多了！",
+		param = "指揮官に叱られるなんて、廃墟で遊ぶより何倍も刺激的じゃない！",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29111,7 +29101,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2730] = {
-		param = "我就不去工地里玩了，直接去指挥室找您吧~",
+		param = "もう工事現場になんていかないわ。今執務室に行くから待ってて♪",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29119,7 +29109,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2731] = {
-		param = "说不定还能被体罚……",
+		param = "ついでにオシオキとかも……期待していいかしら？",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29127,7 +29117,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2732] = {
-		param = "嘿嘿！",
+		param = "ふふふ♪",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29135,7 +29125,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2733] = {
-		param = "你一个人吗？要不我陪你去吧？",
+		param = "今一人なのか？自分も参加しようか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29143,7 +29133,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2734] = {
-		param = "噢噢！！",
+		param = "おお…！！",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29151,7 +29141,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2735] = {
-		param = "我就在等您这句话呢指挥官！",
+		param = "その言葉を待ってたわ♪",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29159,7 +29149,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2736] = {
-		param = "跟指挥官一起探险废弃工地，肯定很有趣吧！",
+		param = "指揮官と一緒に廃墟を探検するなんて、面白いに決まってるじゃない",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29167,7 +29157,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2737] = {
-		param = "如果指挥官还能一边训斥我的话，就更好了……",
+		param = "これで仮に一緒に冒険しながら叱られたりなんてしたら……最高なんだけど♪",
 		ship_group = 60803,
 		flag = 5,
 		type = 1,
@@ -29175,12 +29165,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"没有那样的训斥……"
+				"叱るなんて……"
 			}
 		}
 	},
 	[2738] = {
-		param = "没有那样的训斥，不要这么期待",
+		param = "叱ったりなんてしないよ。変に期待するな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29188,7 +29178,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[2739] = {
-		param = "欸——我觉得指挥官您还是可以试着说说看的嘛！",
+		param = "え…指揮官、一度やってみたほうがいいわよ？",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29196,7 +29186,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[2740] = {
-		param = "比如说，我给您捣乱的时候，你可以说",
+		param = "例えば、私が何かした時はね、こう言えばいいの",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29204,7 +29194,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[2741] = {
-		param = "“已经跟你说了好好看路了吧？为什么不听话！”",
+		param = "「ちゃんと足元を見ろって言ったろうが！なんで俺の言うことを聞かないんだ！」",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29212,7 +29202,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[2742] = {
-		param = "之类的~",
+		param = "みたいな♪",
 		ship_group = 60803,
 		flag = 8,
 		type = 1,
@@ -29220,12 +29210,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				9,
-				"已经跟你说了……"
+				"だから……"
 			}
 		}
 	},
 	[2743] = {
-		param = "已经跟你说了没有那样的训斥了吧，为什么不听话！",
+		param = "だから叱ったりしないって言っただろ！なんでわかってくれないんだ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29233,7 +29223,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[2744] = {
-		param = "对对对，就是这种语气！",
+		param = "それそれそれっ！まさにそんな感じよ！",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29249,7 +29239,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[2746] = {
-		param = "指挥官越来越上道了嘛",
+		param = "指揮官もだんだんノリが良くなってきたわね～♪",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29257,7 +29247,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[2747] = {
-		param = "快来吧快来吧，我就在禁止进入的牌子这里等您！",
+		param = "さあ早く来て、「立ち入り禁止」の看板のところで待ってるから",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29265,7 +29255,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[2748] = {
-		param = "嘿嘿！",
+		param = "ふふふ♪",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29281,12 +29271,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"怎么了？"
+				"どうしたの？"
 			}
 		}
 	},
 	[2750] = {
-		param = "怎么了？",
+		param = "どうしたの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29294,7 +29284,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2751] = {
-		param = "<color=#93e9ff>我</color>戳了戳'60803'并训斥了她一顿",
+		param = "システム：[指揮官]が[マッジョーレ・バラッカ]をツンツンしながら叱りつけた",
 		ship_group = 0,
 		type = 5,
 		option = "",
@@ -29302,7 +29292,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2752] = {
-		param = "你的戳一戳怎么是这个……？",
+		param = "あれ？どういうこと…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29310,7 +29300,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2753] = {
-		param = "这是我每天都希望您对我做的事情",
+		param = "毎日指揮官にされたいことよ",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29326,12 +29316,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"咳，言归正传……"
+				"話を戻そう…"
 			}
 		}
 	},
 	[2755] = {
-		param = "咳，言归正传，找我有什么事么？",
+		param = "コホン、話を戻そう。何か用事でも？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29339,7 +29329,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2756] = {
-		param = "指挥官没有发现办公桌上有什么不一样吗？",
+		param = "指揮官、執務机で何か変わったところはない？",
 		ship_group = 60803,
 		flag = 2,
 		type = 1,
@@ -29347,12 +29337,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"桌上的文件……"
+				"机の上の書類……"
 			}
 		}
 	},
 	[2757] = {
-		param = "桌上的文件是你帮我整理好了？",
+		param = "机の上の書類、整理してくれたのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29360,7 +29350,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2758] = {
-		param = "我刚刚看到的时候以为是我加班加到意识模糊的时候整理好的",
+		param = "さっき見た時、残業しすぎて自分で整理したのかと思ったよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29368,7 +29358,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2759] = {
-		param = "连自己都忘了这件事",
+		param = "それにしては全然記憶がなくて",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29376,7 +29366,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2760] = {
-		param = "没想到是你帮了忙",
+		param = "まさかバラッカが手伝ってくれてたなんて",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29384,7 +29374,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2761] = {
-		param = "谢谢",
+		param = "ありがとう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29421,7 +29411,7 @@ pg.base.activity_ins_chat_language = {
 		}
 	},
 	[2765] = {
-		param = "？？？？？？不是你整理的吗",
+		param = "バラッカが整理したんじゃないのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29437,7 +29427,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2767] = {
-		param = "其实……",
+		param = "実はね……",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29445,7 +29435,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2768] = {
-		param = "我是给你弄乱了",
+		param = "むしろめちゃくちゃにしたわ",
 		ship_group = 60803,
 		flag = 4,
 		type = 1,
@@ -29453,12 +29443,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"但结果是整理好了"
+				"でもよく整理されてたけど…"
 			}
 		}
 	},
 	[2769] = {
-		param = "但结果是你误打误撞给我整理好了",
+		param = "でも結果的によく整理されてたけど…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29474,7 +29464,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2771] = {
-		param = "怎么会这样！！",
+		param = "な、なんてこと……",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29482,7 +29472,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2772] = {
-		param = "这样的话，我还怎么让指挥官惩罚我！！！",
+		param = "これじゃ指揮官にオシオキしてもらえなくなるじゃない…！",
 		ship_group = 60803,
 		flag = 5,
 		type = 1,
@@ -29490,12 +29480,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"要不作为感谢……"
+				"じゃあ感謝の印に……"
 			}
 		}
 	},
 	[2773] = {
-		param = "要不作为感谢，我奖励你点什么吧？",
+		param = "じゃあ感謝の印に、なんでも一つ話を聞いてあげようか…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29503,7 +29493,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2774] = {
-		param = "什么都可以要么？",
+		param = "何でもいいの？",
 		ship_group = 60803,
 		flag = 6,
 		type = 1,
@@ -29511,12 +29501,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"什么都可以"
+				"何でもいいよ"
 			}
 		}
 	},
 	[2775] = {
-		param = "什么都可以",
+		param = "何でもいいよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29524,7 +29514,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2776] = {
-		param = "那指挥官开始训斥我吧！",
+		param = "じゃあ指揮官、叱って！",
 		ship_group = 60803,
 		flag = 7,
 		type = 1,
@@ -29532,12 +29522,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"这样的奖励对么？"
+				"それってご褒美なのか？"
 			}
 		}
 	},
 	[2777] = {
-		param = "这样的奖励对么？",
+		param = "それってご褒美なのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29553,7 +29543,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[2779] = {
-		param = "这太对了！",
+		param = "ご褒美よ！",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29561,7 +29551,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[2780] = {
-		param = "不过线上训斥可能不大够意思……",
+		param = "でもチャットで叱られるだけじゃ物足りないわね……",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29569,7 +29559,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[2781] = {
-		param = "既然都是奖励了，肯定还是要最高规格的",
+		param = "せっかくのご褒美なんだし、やっぱり最高のものにしないと♪",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29577,7 +29567,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[2782] = {
-		param = "指挥官，我现在去找您当面训斥我我",
+		param = "ええ、今から直接叱られに行くから！",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29585,7 +29575,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[2783] = {
-		param = "您也准备一下，待会至少要训斥够半小时哦~",
+		param = "ちゃんと準備しておいてちょうだい。少なくとも30分はびしっと続けてもらうわよ♪",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29601,7 +29591,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[2785] = {
-		param = "指挥官，要不要一起出去外面转转啊！",
+		param = "指揮官、一緒におでかけしない？",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29609,7 +29599,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2786] = {
-		param = "最近也太无聊了吧！",
+		param = "最近ちょっと退屈すぎるわ",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29625,12 +29615,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"可以，你想去哪里？"
+				"どこに行きたいの？"
 			}
 		}
 	},
 	[2788] = {
-		param = "可以，你想去哪里？",
+		param = "どこに行きたいの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29638,7 +29628,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2789] = {
-		param = "不过不要去危险的地方",
+		param = "でも危険な場所はダメだよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29646,7 +29636,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2790] = {
-		param = "哎呀，不会不会",
+		param = "ええ、もちろん危ないところには行かないわ",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29654,7 +29644,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2791] = {
-		param = "就那座施工中的教学楼怎么样？",
+		param = "例の工事中の教育棟なんてどう？",
 		ship_group = 60803,
 		flag = 1,
 		type = 1,
@@ -29662,12 +29652,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"太危险了……"
+				"危険すぎるんだが……"
 			}
 		}
 	},
 	[2792] = {
-		param = "太危险了，不要去施工中的地方玩",
+		param = "危険すぎるんだが…そもそも工事中の場所には行っちゃダメだよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29683,7 +29673,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2794] = {
-		param = "一想到您现在一脸严肃地给我发着不可以的表情包",
+		param = "真剣な顔でその表情スタンプを送ってくれたことを考えると…",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29691,7 +29681,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2795] = {
-		param = "我就开始兴奋起来了……",
+		param = "もうゾクゾクし始めたわ",
 		ship_group = 60803,
 		flag = 2,
 		type = 1,
@@ -29699,12 +29689,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"等等，还是先讨论去哪里吧？"
+				"行き先をまず決めよう…"
 			}
 		}
 	},
 	[2796] = {
-		param = "等等，还是先讨论去哪里吧？",
+		param = "行き先をまず決めよう…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29712,7 +29702,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2797] = {
-		param = "好嘛，那我先忍耐一下下、、",
+		param = "わかったわよ。じゃあ少しだけ我慢するわ",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29728,7 +29718,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2799] = {
-		param = "指挥官呢？有想去的地方吗",
+		param = "指揮官は？行きたい場所はある？",
 		ship_group = 60803,
 		flag = 3,
 		type = 1,
@@ -29736,16 +29726,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"游乐园？"
+				"遊園地？"
 			},
 			{
 				5,
-				"爬山？"
+				"山？"
 			}
 		}
 	},
 	[2800] = {
-		param = "游乐园？想去么？",
+		param = "遊園地とか？バラッカはどう？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29753,7 +29743,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2801] = {
-		param = "里面有些项目比较刺激，你应该会喜欢",
+		param = "刺激的なアトラクションもあるし、楽しめるんじゃない？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29769,7 +29759,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2803] = {
-		param = "过山车！大摆锤！鬼屋！",
+		param = "ジェットコースター！ジャイアントスイング！お化け屋敷！",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29777,7 +29767,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2804] = {
-		param = "我早就想去了！！！",
+		param = "ずっと行きたかったの！",
 		ship_group = 60803,
 		flag = 4,
 		type = 1,
@@ -29785,12 +29775,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"那就去吧，我现在订票……"
+				"じゃあ決定だな"
 			}
 		}
 	},
 	[2805] = {
-		param = "要不要一起去爬山？",
+		param = "山にでも行かない？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29798,7 +29788,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2806] = {
-		param = "最近刚开放了攀岩和蹦极项目",
+		param = "最近、クライミングやバンジージャンプのアクティビティができたらしいよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29806,7 +29796,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2807] = {
-		param = "你应该会喜欢",
+		param = "きっと気に入ると思う",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29814,7 +29804,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2808] = {
-		param = "安全性也有保障",
+		param = "安全性もバッチリだしね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29822,7 +29812,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2809] = {
-		param = "攀岩！蹦极！",
+		param = "クライミング！バンジージャンプ！",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29830,7 +29820,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2810] = {
-		param = "港区居然还有这种项目",
+		param = "母港にそんなアクティビティがあるなんて",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29838,7 +29828,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2811] = {
-		param = "想想就好刺激",
+		param = "想像しただけでワクワクするわ！",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29846,7 +29836,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2812] = {
-		param = "就去这个！",
+		param = "それにしましょ！",
 		ship_group = 60803,
 		flag = 5,
 		type = 1,
@@ -29854,12 +29844,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"那就去吧，我现在订票……"
+				"じゃあ決定だな"
 			}
 		}
 	},
 	[2813] = {
-		param = "那就去吧，我现在订票，想什么时候去？",
+		param = "じゃあ決定だな。チケットを買うから、都合の良い時間も教えてくれる？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29867,7 +29857,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2814] = {
-		param = "现在，立刻，马上",
+		param = "今すぐ行きたいわ",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29875,7 +29865,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2815] = {
-		param = "哦不对，要不还是明天吧",
+		param = "……ううん、やっぱり明日にする",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29883,7 +29873,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2816] = {
-		param = "我还能去做些准备",
+		param = "準備の時間が欲しいから",
 		ship_group = 60803,
 		flag = 6,
 		type = 1,
@@ -29891,12 +29881,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"还需要做什么准备？"
+				"何の準備？"
 			}
 		}
 	},
 	[2817] = {
-		param = "还需要做什么准备？有我能帮上忙的么？",
+		param = "何の準備？手伝えることがあるなら言って",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29904,7 +29894,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2818] = {
-		param = "还是说又是恶作剧？",
+		param = "……それともまたイタズラか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29912,7 +29902,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2819] = {
-		param = "这个嘛~当然不能提前告诉您咯",
+		param = "さて、どうかしらね？事前に教えられないものよ",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29920,7 +29910,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2820] = {
-		param = "要不然就没有惊喜了不是吗",
+		param = "教えたらサプライズがなくなっちゃうもの",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29928,7 +29918,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2821] = {
-		param = "尽情期待明天的约会吧，指挥官！",
+		param = "明日のデートを楽しみにしててね、指揮官♪",
 		ship_group = 60803,
 		type = 1,
 		option = "",
@@ -29936,7 +29926,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2822] = {
-		param = "指挥官，",
+		param = "指揮官",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -29944,7 +29934,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2823] = {
-		param = "此时此刻，",
+		param = "今、この瞬間",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -29952,7 +29942,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2824] = {
-		param = "[正在输入...]",
+		param = "[入力中…]",
 		ship_group = 60111,
 		flag = 0,
 		type = 1,
@@ -29960,16 +29950,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"想吟诗一首？"
+				"詩でも詠みたくなった？"
 			},
 			{
 				2,
-				"随着缓慢的打字……"
+				"ゆったりと打鍵の音が……"
 			}
 		}
 	},
 	[2825] = {
-		param = "想吟诗一首？",
+		param = "詩でも詠みたくなった？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29977,7 +29967,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2826] = {
-		param = "……不是。",
+		param = "…ううん。",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -29985,7 +29975,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2827] = {
-		param = "随着缓慢的打字，时间正在流逝……",
+		param = "ゆったりと打鍵の音が響き、ゆっくりと時間の川が流れ…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -29993,7 +29983,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2828] = {
-		param = "虽然押韵了，但我还是必须纠正一点：",
+		param = "対を作ろうとしているのはわかるけれど、一つ修正させてね",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30001,7 +29991,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2829] = {
-		param = "是缓慢“地”打字，不是缓慢“的”打字。",
+		param = "ゆったりは「音」ではなく「韻」よ。",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30009,7 +29999,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2830] = {
-		param = "然后，我刚刚是想说：",
+		param = "あと、さっき送ろうとしていたのは――",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30017,7 +30007,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2831] = {
-		param = "此时此刻，在这里，正式地向你问好。",
+		param = "今、この瞬間を以て、改めて挨拶させてもらうわ。",
 		ship_group = 60111,
 		flag = 0,
 		type = 1,
@@ -30025,12 +30015,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"你好，我是指挥官！"
+				"Ciao、指揮官だ"
 			}
 		}
 	},
 	[2832] = {
-		param = "你好，我是指挥官！",
+		param = "Ciao、指揮官だ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30038,7 +30028,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2833] = {
-		param = "我知道。",
+		param = "ええ、知っているとも。",
 		ship_group = 60111,
 		flag = 3,
 		type = 1,
@@ -30046,12 +30036,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"之后请多指教"
+				"これからよろしく"
 			}
 		}
 	},
 	[2834] = {
-		param = "之后请多指教",
+		param = "これからよろしく",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30059,7 +30049,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2835] = {
-		param = "我也是，之后在港区",
+		param = "私もよ、これから母港で",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30067,7 +30057,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2836] = {
-		param = "[正在输入...]",
+		param = "[入力中…]",
 		ship_group = 60111,
 		flag = 4,
 		type = 1,
@@ -30075,12 +30065,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"在港区……？"
+				"母港で…？"
 			}
 		}
 	},
 	[2837] = {
-		param = "在港区……？",
+		param = "母港で…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30088,7 +30078,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2838] = {
-		param = "抱歉，我是在斟酌应该怎样表达会比较妥当。",
+		param = "ごめんなさい。どんな文言を使うのが適切か推敲していたの。",
 		ship_group = 60111,
 		flag = 5,
 		type = 1,
@@ -30096,12 +30086,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"轻松点聊天吧……"
+				"気楽に話そう"
 			}
 		}
 	},
 	[2839] = {
-		param = "轻松点聊天吧！这又不是在工作！",
+		param = "仕事中でもないし、そうかしこまらずにもっと気楽に話そう！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30109,7 +30099,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2840] = {
-		param = "不用讲究那么多！",
+		param = "堅苦しく考えなくていいから！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30117,7 +30107,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2841] = {
-		param = "你说得对。",
+		param = "確かに。",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30125,7 +30115,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2842] = {
-		param = "我应该更轻松一些。",
+		param = "もっと砕けた会話を心掛けるべきね。",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30133,7 +30123,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2843] = {
-		param = "之前阿尔弗雷多也认为我网上聊天过于死板。",
+		param = "この前アルフレードにも、チャットなのに固すぎると言われたわ。",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30141,7 +30131,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2844] = {
-		param = "她还说过我逐句添加标点符号，让她感到非常生硬冷漠。",
+		param = "句読点を一個も欠かさず律儀に付けているのが、冷たく感じると。",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30149,7 +30139,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2845] = {
-		param = "指挥官觉得呢？",
+		param = "指揮官はどう思う？",
 		ship_group = 60111,
 		flag = 6,
 		type = 1,
@@ -30157,16 +30147,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"我觉得她说得对……"
+				"そうかも…"
 			},
 			{
 				8,
-				"按你习惯的方式……"
+				"ジョズエが楽なほうで"
 			}
 		}
 	},
 	[2846] = {
-		param = "我觉得她说得对，不妨试试去掉标点符号？",
+		param = "そうかも…試しに句読点を省いてみたらどう？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30174,7 +30164,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2847] = {
-		param = "我认为按你习惯的方式就好，改不改都可以",
+		param = "変えるにしてもこのままにしても、ジョズエが楽なほうでいいんじゃないかな？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30182,7 +30172,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[2848] = {
-		param = "也可以用表情包来补足情绪的表达",
+		param = "それと、スタンプを使ってみるのも手だと思うよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30190,7 +30180,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2849] = {
-		param = "这样……",
+		param = "なるほど…",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30198,7 +30188,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2850] = {
-		param = "那我还是先试试去掉标点符号吧",
+		param = "ではまず句読点を省いてみるわ",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30206,7 +30196,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2851] = {
-		param = "看看之后能不能适应",
+		param = "それで様子を見てから…",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30214,7 +30204,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2852] = {
-		param = "[正在输入...]",
+		param = "[入力中…]",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30222,7 +30212,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2853] = {
-		param = "[取消输入]",
+		param = "[入力がキャンセルされました]",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30238,7 +30228,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2855] = {
-		param = "指挥官，最近图书馆正在维护，临时闭馆",
+		param = "指揮官、図書館がメンテナンス中で一時閉館していて…",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30246,7 +30236,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2856] = {
-		param = "我想找个安静的地方看书",
+		param = "それで静かに本を読める場所を探しているんだけど",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30254,7 +30244,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2857] = {
-		param = "请问能去你那里么？",
+		param = "そちらにお邪魔しても？",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30270,12 +30260,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"当然可以……"
+				"もちろん"
 			}
 		}
 	},
 	[2859] = {
-		param = "当然可以，需要就来就行",
+		param = "もちろん。来ていいよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30283,7 +30273,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2860] = {
-		param = "不过怎么不直接在宿舍房间看呢？",
+		param = "ただ…寮にも読書できる環境はあると思うけど",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30291,7 +30281,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2861] = {
-		param = "宿舍房间应该也很安静",
+		param = "例えば自分の部屋とか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30299,7 +30289,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2862] = {
-		param = "指挥官对宿舍环境的认知可能有一定的偏差",
+		param = "指揮官の寮環境に対する認識が少しズレているようね",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30307,7 +30297,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2863] = {
-		param = "要说安静的话，晚上还行",
+		param = "静かさで言えば、夜はまだ許容範囲内だけど…",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30315,7 +30305,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2864] = {
-		param = "但白天的话……",
+		param = "問題は昼間で…",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30331,7 +30321,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2866] = {
-		param = "震耳欲聋的街道在我周围咆哮",
+		param = "「喧噪まみれの町が私の周りで吠えたてている」",
 		ship_group = 60111,
 		flag = 1,
 		type = 1,
@@ -30339,12 +30329,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"真的有这么夸张？"
+				"それほどのものなのか？"
 			}
 		}
 	},
 	[2867] = {
-		param = "真的有这么夸张？",
+		param = "それほどのものなのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30352,7 +30342,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2868] = {
-		param = "其实没有",
+		param = "ううん、大げさに言っただけよ",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30360,7 +30350,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2869] = {
-		param = "只是静心看书的时候，周边也会变得越发安静",
+		param = "ただ…本に没頭していると周りが一層静かに感じられて",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30368,7 +30358,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2870] = {
-		param = "这个时候外界的响动就会变得很明显",
+		param = "ちょっとした雑音でも余計に気になってしまうの",
 		ship_group = 60111,
 		flag = 2,
 		type = 1,
@@ -30376,12 +30366,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"那在我这里的话……"
+				"その話を聞くと…"
 			}
 		}
 	},
 	[2871] = {
-		param = "那在我这里的话，我也不能保证完全不发出声音？",
+		param = "その話を聞くと…こっちでも完全に物音がしないとは約束できないなぁ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30389,7 +30379,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2872] = {
-		param = "会不会打扰到你？",
+		param = "読書を邪魔したら悪いし",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30397,7 +30387,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2873] = {
-		param = "不会",
+		param = "大丈夫よ",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30405,7 +30395,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2874] = {
-		param = "在你身边的话，不一样",
+		param = "あなたの傍は違うの",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30413,7 +30403,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2875] = {
-		param = "你发出的响动，只会让我感觉安心和舒适……",
+		param = "むしろあなたの立てる物音は、安心感と心地よさをもたらす…",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30421,7 +30411,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2876] = {
-		param = "可能就是……",
+		param = "きっとそれは…",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30437,16 +30427,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"这句诗是什么意思？"
+				"それはどういう…？"
 			},
 			{
 				5,
-				"情人眼里出西施……"
+				"あばたもえくぼ"
 			}
 		}
 	},
 	[2878] = {
-		param = "这句诗是什么意思？",
+		param = "それはどういう…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30454,7 +30444,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2879] = {
-		param = "大概就是说，在我看来，你是特别的",
+		param = "そうね…私にとってあなたは特別な存在だから",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30462,7 +30452,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2880] = {
-		param = "所以做什么事情都是完美的",
+		param = "何をしても完璧、という意味よ",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30470,7 +30460,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2881] = {
-		param = "类似是情人眼里出西施的意思？",
+		param = "あばたもえくぼ、的な？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30478,7 +30468,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2882] = {
-		param = "嗯",
+		param = "うん",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30486,7 +30476,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2883] = {
-		param = "差不多是这个意思……",
+		param = "そんな感じよ…",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30502,7 +30492,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2885] = {
-		param = "那……",
+		param = "それじゃあ…",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30510,7 +30500,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2886] = {
-		param = "我现在就出发过去你那边了",
+		param = "今からそちらに向かうわ",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30518,7 +30508,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2887] = {
-		param = "待会见",
+		param = "また後でね",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30526,7 +30516,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2888] = {
-		param = "指挥官，现在有空么？",
+		param = "指揮官、ちょっといい？",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30534,7 +30524,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2889] = {
-		param = "能陪我一起寻找些写诗的灵感么？",
+		param = "もし時間があれば、詩のインスピレーション探しに付き合ってもらいたくて…",
 		ship_group = 60111,
 		flag = 0,
 		type = 1,
@@ -30542,12 +30532,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"当然可以……"
+				"もちろん"
 			}
 		}
 	},
 	[2890] = {
-		param = "当然可以",
+		param = "もちろん",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30555,7 +30545,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2891] = {
-		param = "不过我应该做些什么呢？",
+		param = "何をすればいい？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30563,7 +30553,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2892] = {
-		param = "很简单",
+		param = "簡単よ",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30571,7 +30561,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2893] = {
-		param = "指挥官现在给我四个词语吧",
+		param = "何でもいいから",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30579,7 +30569,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2894] = {
-		param = "就你脑子里最先浮现出来的四个",
+		param = "指揮官の頭に最初に浮かんだ4つの言葉を教えて",
 		ship_group = 60111,
 		flag = 1,
 		type = 1,
@@ -30587,20 +30577,20 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"烤肉，汽水，游戏，摄影"
+				"バーベキュー、サイダー、ゲーム、フォトグラフ"
 			},
 			{
 				3,
-				"文件，物资，资源，收支平衡"
+				"書類、物資、資源、収支バランス"
 			},
 			{
 				4,
-				"年轮，微风，窗台，蓝天"
+				"年輪、そよ風、窓辺、青空"
 			}
 		}
 	},
 	[2895] = {
-		param = "烤肉，汽水，游戏，摄影",
+		param = "バーベキュー、サイダー……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30608,7 +30598,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2896] = {
-		param = "立刻浮现的居然是这四个词语……",
+		param = "すぐに浮かんだのがこの4つ…",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30616,7 +30606,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2897] = {
-		param = "指挥官现在是很想娱乐放松么？",
+		param = "指揮官はもしかしてリラックスしたい気分なの？",
 		ship_group = 60111,
 		flag = 2,
 		type = 1,
@@ -30624,16 +30614,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"是的，非常想！"
+				"うん、とても！"
 			},
 			{
 				6,
-				"还好，都是生活里常见的……"
+				"どれも普段よく見かけるから…"
 			}
 		}
 	},
 	[2898] = {
-		param = "是的，非常想！",
+		param = "うん、とても！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30641,7 +30631,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2899] = {
-		param = "还好，都是生活里常见的",
+		param = "どれも普段よく見かけるから…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30649,7 +30639,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2900] = {
-		param = "说到就想起来了",
+		param = "確かに言われてみれば",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30657,7 +30647,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2901] = {
-		param = "不过这么说来，还真是很久没有好好放松了",
+		param = "久しくゆっくりできてなかったな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30665,7 +30655,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2902] = {
-		param = "等有空的时候，就一起吧？",
+		param = "今度時間ある時に一緒に出掛けないか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30673,7 +30663,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2903] = {
-		param = "嗯！好！",
+		param = "うん、喜んで",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30689,12 +30679,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"那回到最初的话题吧"
+				"では話を戻そうか"
 			}
 		}
 	},
 	[2905] = {
-		param = "那回到最初的话题吧",
+		param = "では話を戻そうか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30702,7 +30692,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2906] = {
-		param = "文件，物资，资源，收支平衡",
+		param = "書類、物資……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30710,7 +30700,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2907] = {
-		param = "指挥官你……",
+		param = "指揮官…",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30718,7 +30708,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2908] = {
-		param = "不愧是出了名的工作狂呢……",
+		param = "やっぱり仕事人間として名高いだけあるわね…",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30726,7 +30716,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2909] = {
-		param = "辛苦了",
+		param = "お疲れさま",
 		ship_group = 60111,
 		flag = 3,
 		type = 1,
@@ -30734,11 +30724,11 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"[就是这样]"
+				"[それな]"
 			},
 			{
 				9,
-				"也不是……"
+				"ええと…"
 			}
 		}
 	},
@@ -30751,7 +30741,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[2911] = {
-		param = "毕竟我是港区的指挥官",
+		param = "なんたって母港の指揮官だからな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30759,7 +30749,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[2912] = {
-		param = "工作还是要做好的",
+		param = "仕事はしっかりこなさないと",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30767,7 +30757,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[2913] = {
-		param = "这个港区，不能没有你！",
+		param = "この母港はあなたなしでは立ち行かないわ",
 		ship_group = 60111,
 		flag = 8,
 		type = 1,
@@ -30780,7 +30770,7 @@ pg.base.activity_ins_chat_language = {
 		}
 	},
 	[2914] = {
-		param = "也不是，只是自然而然地想起了这四个词……",
+		param = "すまない、つい出てきてしまって……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30788,7 +30778,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[2915] = {
-		param = "这是成为本能了吧，指挥官",
+		param = "もう脊髄反射ってことね",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30796,7 +30786,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[2916] = {
-		param = "更像工作狂了",
+		param = "ますます仕事人間らしくなってきたわ",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30812,12 +30802,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				10,
-				"先不说这个了……"
+				"それはさておき"
 			}
 		}
 	},
 	[2918] = {
-		param = "先不说这个了，说回最初讨论的吧",
+		param = "それはさておき、話を戻そう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30825,7 +30815,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[2919] = {
-		param = "年轮，微风，窗台，蓝天",
+		param = "年輪、そよ風……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30833,7 +30823,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2920] = {
-		param = "指挥官说出了四个非常有氛围、有画面感的词语呢",
+		param = "いかにも風情があって、景色が目に浮かぶような言葉を挙げたわね",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30841,7 +30831,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2921] = {
-		param = "都很适合写入诗歌",
+		param = "どれも詩にぴったりよ",
 		ship_group = 60111,
 		flag = 4,
 		type = 1,
@@ -30849,11 +30839,11 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				11,
-				"[哇哈哈]"
+				"[あっはっは]"
 			},
 			{
 				12,
-				"或许我也有当诗人的潜质？"
+				"自分にも詩の才能が…？"
 			}
 		}
 	},
@@ -30866,7 +30856,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 11
 	},
 	[2923] = {
-		param = "还不错吧？",
+		param = "いい感じだろう？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30874,7 +30864,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 11
 	},
 	[2924] = {
-		param = "说到写诗的话，我最先想起的就是四个词语",
+		param = "詩といえば真っ先に浮かんだ言葉を挙げてみたんだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30882,7 +30872,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 11
 	},
 	[2925] = {
-		param = "嗯，很不错",
+		param = "うん、上出来よ",
 		ship_group = 60111,
 		flag = 11,
 		type = 1,
@@ -30895,7 +30885,7 @@ pg.base.activity_ins_chat_language = {
 		}
 	},
 	[2926] = {
-		param = "或许我也有当诗人的潜质？",
+		param = "自分にも詩の才能が…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30903,7 +30893,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 12
 	},
 	[2927] = {
-		param = "嗯，我觉得是有的",
+		param = "うん、あると思うわ",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30911,7 +30901,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 12
 	},
 	[2928] = {
-		param = "毕竟很少有人能在第一时间想到这样四个诗情画意的词语",
+		param = "すぐにこんな趣深い言葉を思いつける人はそうそういないわ",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30919,7 +30909,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 12
 	},
 	[2929] = {
-		param = "感觉指挥官也可以试着写写诗呢",
+		param = "よかったら指揮官も詩を書いてみない？",
 		ship_group = 60111,
 		flag = 12,
 		type = 1,
@@ -30927,12 +30917,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				13,
-				"我写诗的事情，之后再说"
+				"それはまた今度にしよう"
 			}
 		}
 	},
 	[2930] = {
-		param = "我写诗的事情，之后再说",
+		param = "それはまた今度にしよう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30940,7 +30930,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 13
 	},
 	[2931] = {
-		param = "这四个词给到你灵感了么？",
+		param = "その4つの言葉からインスピレーションは得られたか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30948,7 +30938,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2932] = {
-		param = "有一些",
+		param = "ええ、助かったわ",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30956,7 +30946,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2933] = {
-		param = "不过更多的灵感，来自于我们聊天的过程之中",
+		param = "でも私たちの会話が、それ以上のインスピレーションをもたらしてくれた",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30964,7 +30954,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2934] = {
-		param = "指挥官本身才是我的灵感源泉",
+		param = "どうやら指揮官こそが、私にとって何よりのインスピレーションね",
 		ship_group = 60111,
 		flag = 0,
 		type = 1,
@@ -30972,12 +30962,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				14,
-				"原来如此……"
+				"そうなのか"
 			}
 		}
 	},
 	[2935] = {
-		param = "原来如此，那我就开始期待你的新诗了？",
+		param = "そうか…じゃあ詩の新作を楽しみにしてるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -30985,7 +30975,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 14
 	},
 	[2936] = {
-		param = "嗯，给我些时间",
+		param = "うん、少し時間を",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -30993,7 +30983,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 14
 	},
 	[2937] = {
-		param = "书写这首献给你的诗歌",
+		param = "あなたに捧げる詩をしたためるわ",
 		ship_group = 60111,
 		type = 1,
 		option = "",
@@ -31001,7 +30991,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 14
 	},
 	[2938] = {
-		param = "指挥官，演讲稿草稿您帮我看了吗？",
+		param = "指揮官、演説原稿に目を通してくれましたか？",
 		ship_group = 60203,
 		flag = 0,
 		type = 1,
@@ -31009,12 +30999,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"都看了，内容写得很好"
+				"ああ。よく書けているよ"
 			}
 		}
 	},
 	[2939] = {
-		param = "都看了，内容写得很好",
+		param = "ああ。よく書けているよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31022,7 +31012,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2940] = {
-		param = "辛苦了",
+		param = "お疲れさま",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31030,7 +31020,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2941] = {
-		param = "旁边的注释呢？您也看了吧？",
+		param = "ええと、横の注釈も見ました？",
 		ship_group = 60203,
 		flag = 1,
 		type = 1,
@@ -31038,12 +31028,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"都看了，很详尽"
+				"うん。細かくて助かったよ"
 			}
 		}
 	},
 	[2942] = {
-		param = "都看了，很详尽，花体字也写得很漂亮",
+		param = "うん。細かくて助かったよ。フォントも綺麗だ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31051,7 +31041,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2943] = {
-		param = "我只是为了让您方便阅读，才写了花体字",
+		param = "その、読みやすいようにゴージャスなフォントを使っただけで",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31059,7 +31049,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2944] = {
-		param = "没有别的意思……",
+		param = "変な意味はないです…",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31067,7 +31057,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2945] = {
-		param = "不过您觉得写得很好，就好",
+		param = "でも褒めてもらえて嬉しいです",
 		ship_group = 60203,
 		flag = 2,
 		type = 1,
@@ -31088,7 +31078,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2947] = {
-		param = "还有涂鸦，我也注意到了",
+		param = "落書きもついてるしね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31096,7 +31086,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2948] = {
-		param = "什么涂鸦？",
+		param = "落書き…？",
 		ship_group = 60203,
 		flag = 3,
 		type = 1,
@@ -31104,12 +31094,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"角落里的涂鸦……"
+				"隅っこの落書きだよ"
 			}
 		}
 	},
 	[2949] = {
-		param = "角落里的爱心涂鸦，不是你画的么？",
+		param = "隅っこのハートの落書きってバルトロメオが描いたんでしょ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31117,7 +31107,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2950] = {
-		param = "我觉得很可爱",
+		param = "可愛いと思ってね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31125,7 +31115,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2951] = {
-		param = "您觉得很可爱么……",
+		param = "か、可愛いって…",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31133,7 +31123,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2952] = {
-		param = "好吧，其实是我画的……",
+		param = "ええ、私が描いたものだけど…",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31141,7 +31131,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2953] = {
-		param = "小说里写的，这么做可以迅速拉近彼此间距离",
+		param = "絵を添えれば距離が縮まるって小説で読んだから",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31149,7 +31139,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2954] = {
-		param = "我就试着这么做了",
+		param = "ちょっと試してみました",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31157,7 +31147,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2955] = {
-		param = "后来我认为即便只是草稿，也有些太自由散漫了，决定擦掉",
+		param = "下書きとはいえ軽率だと思って消そうと思ってましたが",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31165,7 +31155,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2956] = {
-		param = "不过因为其他事情打断，就忘了……",
+		param = "他の用事に気を取られて、うっかり忘れてしまいました…",
 		ship_group = 60203,
 		flag = 4,
 		type = 1,
@@ -31173,16 +31163,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"我认为距离确实拉近了……"
+				"まぁ距離は縮まったと思うよ"
 			},
 			{
 				6,
-				"你还看小说？"
+				"小説を読むのも好きなの？"
 			}
 		}
 	},
 	[2957] = {
-		param = "我认为距离确实拉近了，更加了解了你一些",
+		param = "まぁ距離は縮まったと思うよ。バルトロメオを知るいいきっかけになったし",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31198,7 +31188,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2959] = {
-		param = "真的么？",
+		param = "ほ、本当ですか？",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31206,7 +31196,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2960] = {
-		param = "指挥官不讨厌这样？",
+		param = "指揮官はこういうの、嫌じゃないですか？",
 		ship_group = 60203,
 		flag = 5,
 		type = 1,
@@ -31214,12 +31204,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"不讨厌……"
+				"嫌じゃないさ"
 			}
 		}
 	},
 	[2961] = {
-		param = "不讨厌，不如说我觉得这样的你更真实了",
+		param = "嫌じゃないさ。むしろ素のバルトロメオが見れて嬉しいよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31227,7 +31217,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2962] = {
-		param = "这样轻松一点也不错",
+		param = "こういう気楽な感じも悪くない",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31235,7 +31225,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2963] = {
-		param = "你还看小说？有些意外",
+		param = "小説を読むのも好きなの？ちょっと意外だな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31243,7 +31233,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2964] = {
-		param = "……偶尔会看一些",
+		param = "…たまに、ですよ",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31251,7 +31241,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2965] = {
-		param = "还请指挥官务必帮我保密",
+		param = "し、指揮官、誰にも言わないでくださいね",
 		ship_group = 60203,
 		flag = 6,
 		type = 1,
@@ -31259,12 +31249,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"没问题"
+				"もちろん"
 			}
 		}
 	},
 	[2966] = {
-		param = "没问题，我会帮你保密",
+		param = "もちろん。約束だ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31272,7 +31262,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[2967] = {
-		param = "不过我觉得看小说也蛮好的，不用太在意",
+		param = "小説を読んだって別にいいじゃないか。気にしなくていいと思うよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31280,7 +31270,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[2968] = {
-		param = "喜欢什么是你的自由",
+		param = "趣味なんて個人の自由だし",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31288,7 +31278,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[2969] = {
-		param = "心态放轻松些就好",
+		param = "もっと気楽にいこう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31296,7 +31286,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[2970] = {
-		param = "[正在输入...]",
+		param = "[入力中…]",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31304,7 +31294,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2971] = {
-		param = "[取消输入]",
+		param = "[入力がキャンセルされました]",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31312,7 +31302,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2972] = {
-		param = "好……",
+		param = "はい…",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31320,7 +31310,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2973] = {
-		param = "那我之后会试着不那么拘谨的",
+		param = "これからはもう少し肩の力を抜いてみます",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31328,7 +31318,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2974] = {
-		param = "嗯……",
+		param = "ええと…",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31344,7 +31334,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2976] = {
-		param = "指挥官，今天是不是很忙？",
+		param = "指揮官、今日は忙しいですか？",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31352,7 +31342,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2977] = {
-		param = "聊天的频率明显降低了",
+		param = "チャットの返事が明らかに少なくなっています",
 		ship_group = 60203,
 		flag = 0,
 		type = 1,
@@ -31360,16 +31350,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"今天要处理的工作有些多"
+				"今日中までの仕事が多くて"
 			},
 			{
 				2,
-				"帮帮我！"
+				"助けて！"
 			}
 		}
 	},
 	[2978] = {
-		param = "今天要处理的工作有些多",
+		param = "今日中までの仕事が多くて",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31385,7 +31375,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2980] = {
-		param = "帮帮我！神奇的科莱奥尼小姐！",
+		param = "助けて！ミステリアス・パルトロメオ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31401,7 +31391,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2982] = {
-		param = "我来帮您",
+		param = "任せてください",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31409,7 +31399,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2983] = {
-		param = "已经在过来指挥室的路上了",
+		param = "もう指揮室に向かっていますよ",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31417,7 +31407,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2984] = {
-		param = "那个，您要来杯奶茶么？",
+		param = "あの、ミルクティーはいかがですか？",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31425,7 +31415,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2985] = {
-		param = "我一起带过来",
+		param = "差し入れに持っていきますので",
 		ship_group = 60203,
 		flag = 0,
 		type = 1,
@@ -31433,16 +31423,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"原来你喜欢喝奶茶？"
+				"ミルクティーが好きなの？"
 			},
 			{
 				4,
-				"要不给我带杯咖啡吧"
+				"コーヒーをお願いできる？"
 			}
 		}
 	},
 	[2986] = {
-		param = "原来你喜欢喝奶茶，有些意料之外",
+		param = "ミルクティーが好きなの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31450,7 +31440,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2987] = {
-		param = "不是，请您不要误会",
+		param = "あ。いえ、誤解しないでください",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31458,7 +31448,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2988] = {
-		param = "奶茶只是为了补充能量、提高工作效率的战术饮品而已！",
+		param = "ミルクティーはあくまで作業効率を上げるための戦術ドリンクなだけです！",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31466,7 +31456,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2989] = {
-		param = "我并没有喜欢喝",
+		param = "好きで飲んでるわけではありません",
 		ship_group = 60203,
 		flag = 3,
 		type = 1,
@@ -31474,12 +31464,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"好，那也给我来一杯……"
+				"よし、じゃあ…"
 			}
 		}
 	},
 	[2990] = {
-		param = "好，那也给我来一杯战术饮品吧！",
+		param = "じゃあこっちにもその戦術ドリンクを頼む！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31487,7 +31477,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2991] = {
-		param = "口味跟你一样就好",
+		param = "バルトロメオと同じもので良いよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31495,7 +31485,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2992] = {
-		param = "好，那我点单了",
+		param = "はい、では注文します",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31503,7 +31493,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2993] = {
-		param = "希望好喝",
+		param = "美味しいといいですが……",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31511,7 +31501,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2994] = {
-		param = "也希望能够提高工作效率",
+		param = "作業効率も上がるなら、なおいいです",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31527,7 +31517,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2996] = {
-		param = "还有，我真的没有喜欢喝奶茶哦！",
+		param = "ええと、本当にミルクティーが好きなわけじゃないですからね！",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31535,7 +31525,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2997] = {
-		param = "要不给我带杯咖啡吧",
+		param = "コーヒーをお願いできる？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31543,7 +31533,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2998] = {
-		param = "好，我帮您一起带过来",
+		param = "はい、お持ちしますね",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31551,7 +31541,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2999] = {
-		param = "指挥官喝什么口味呢？浓缩还是拿铁？",
+		param = "どんなのがいいですか？エスプレッソ？ラテ？",
 		ship_group = 60203,
 		flag = 4,
 		type = 1,
@@ -31559,12 +31549,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"给我来杯黑咖啡就好"
+				"ブラックで頼む"
 			}
 		}
 	},
 	[3000] = {
-		param = "给我来杯黑咖啡就好",
+		param = "ブラックで頼む",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31572,7 +31562,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3001] = {
-		param = "好，那我就下单一杯黑咖啡",
+		param = "はい、ブラックコーヒーですね",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31580,7 +31570,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3002] = {
-		param = "那我自己的话……",
+		param = "じゃあ私は…",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31588,7 +31578,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3003] = {
-		param = "嗯……",
+		param = "ええと…",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31596,7 +31586,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3004] = {
-		param = "我还是去隔壁买杯奶茶吧",
+		param = "やっぱ隣のミルクティーを買ってきます",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31604,7 +31594,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3005] = {
-		param = "不过不是因为我喜欢喝奶茶",
+		param = "ええと、好きだからじゃなく",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31612,7 +31602,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3006] = {
-		param = "只是因为咖啡有些喝腻了",
+		param = "ちょっとコーヒーに飽きてきただけですから",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31628,7 +31618,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3008] = {
-		param = "指挥官……",
+		param = "指揮官…",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31636,7 +31626,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3009] = {
-		param = "那个……",
+		param = "その…",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31644,7 +31634,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3010] = {
-		param = "您有没有收到我的快件……",
+		param = "私の荷物が届いたりしてませんか…？",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31652,7 +31642,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3011] = {
-		param = "我不小心寄到你那边了",
+		param = "間違ってそちらに送ってしまったみたいで…",
 		ship_group = 60203,
 		flag = 0,
 		type = 1,
@@ -31660,12 +31650,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"有，我先帮忙签收了……"
+				"うん、代わりに受け取っておいたよ"
 			}
 		}
 	},
 	[3012] = {
-		param = "有，看到是你的快件，我先帮忙签收了，正打算联系你",
+		param = "うん。バルトロメオの荷物だったから代わりに受け取っておいたよ。ちょうど連絡しようと思ってたところなんだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31673,7 +31663,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3013] = {
-		param = "我先收起来，还是给你送过去？",
+		param = "こっちで預かっておく？それとも持って行こうか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31681,7 +31671,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3014] = {
-		param = "确认在您那里，我现在就过去拿……",
+		param = "大丈夫です！確認が取れたので今すぐ取りに行きます…",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31689,7 +31679,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3015] = {
-		param = "那个……快递单上应该没有写是什么东西吧？",
+		param = "あの…伝票には中身のことは何も書いてないですよね？",
 		ship_group = 60203,
 		flag = 1,
 		type = 1,
@@ -31697,12 +31687,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"写了"
+				"書いてあったよ"
 			}
 		}
 	},
 	[3016] = {
-		param = "写了",
+		param = "書いてあったよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31710,7 +31700,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3017] = {
-		param = "因为是我不知道的快件，所以认真确认了快递单",
+		param = "知らない荷物だったから、伝票をちゃんと確認したけど…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31726,7 +31716,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3019] = {
-		param = "明明说好了保密发货的……",
+		param = "プライバシー配送でお願いしたのに…",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31742,7 +31732,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3021] = {
-		param = "[正在输入...]",
+		param = "[入力中…]",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31750,7 +31740,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3022] = {
-		param = "其实这本《强宠豪夺之宿命情深》我只是买来学习的……",
+		param = "その『略奪愛――宿命の恋』というのは勉強のために買った本で…",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31758,7 +31748,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3023] = {
-		param = "因为在指挥官面前总是很紧张，所以……",
+		param = "指揮官の前ではつい緊張してしまいますから…",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31766,7 +31756,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3024] = {
-		param = "不过这么说来小说里的角色，也会像我一样总是对指挥官……",
+		param = "そういえば私が指揮官を思っているように、小説のキャラクターも…",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31774,7 +31764,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3025] = {
-		param = "……我究竟在说什么啊真的是！",
+		param = "ああもう…何を言ってるんだ私は",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31782,7 +31772,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3026] = {
-		param = "指挥官忘记上面说的话吧！",
+		param = "指揮官、今のはなし！忘れてください！",
 		ship_group = 60203,
 		flag = 2,
 		type = 1,
@@ -31790,16 +31780,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"其实快递单上没有写具体的书名……"
+				"詳細は書いてなかったよ"
 			},
 			{
 				4,
-				"不用总是那么紧张……"
+				"そんなに緊張しなくても"
 			}
 		}
 	},
 	[3027] = {
-		param = "其实快递单上没有写具体的书名……",
+		param = "詳細は書いてなかったよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31807,7 +31797,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3028] = {
-		param = "只写了图书*1",
+		param = "書籍×1とだけ…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31831,12 +31821,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"不用太在意这些……"
+				"気にしなくていいさ"
 			}
 		}
 	},
 	[3031] = {
-		param = "不用太在意这些，就当是我们之间的秘密吧",
+		param = "気にしなくていいさ。二人だけの秘密にしておくよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31844,7 +31834,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3032] = {
-		param = "好……既然您都这么说了……",
+		param = "はい…指揮官がそう言ってくれるのなら…",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31852,7 +31842,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3033] = {
-		param = "那这当做我们之间的秘密了",
+		param = "くれぐれも私たちだけの秘密にしていただければ…",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31860,7 +31850,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3034] = {
-		param = "不用总是那么紧张，我们都已经这么熟悉了",
+		param = "そんなに緊張しなくても、自分たちの間柄じゃないか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31868,7 +31858,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3035] = {
-		param = "一起磨合的相处模式也很好，我很喜欢",
+		param = "それに少しずつすり合わせて、関係を築いていくのも悪くないと思うよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31876,7 +31866,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3036] = {
-		param = "嗯，我明白，只是在您面前……",
+		param = "はい、私も気持ちは同じですが、指揮官の前だと…",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31884,7 +31874,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3037] = {
-		param = "就会不自觉地……",
+		param = "どうしても意識してしまい…",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31892,7 +31882,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3038] = {
-		param = "这样是不是有些傻？",
+		param = "もう、馬鹿みたいですよね",
 		ship_group = 60203,
 		flag = 4,
 		type = 1,
@@ -31900,12 +31890,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"不会，这样的你很好"
+				"ううん、むしろいいと思うよ"
 			}
 		}
 	},
 	[3039] = {
-		param = "不会，这样的你很好",
+		param = "ううん、むしろいいと思うよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31913,7 +31903,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3040] = {
-		param = "指挥官也特别好",
+		param = "私も…そんな指揮官がいいです///",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31921,7 +31911,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3041] = {
-		param = "谢谢您",
+		param = "ありがとうございます",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31937,7 +31927,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3043] = {
-		param = "那我现在过去拿小说？",
+		param = "では早速、本を取りに行ってもいいですか？",
 		ship_group = 60203,
 		flag = 0,
 		type = 1,
@@ -31945,12 +31935,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"好，过来吧"
+				"いいよ"
 			}
 		}
 	},
 	[3044] = {
-		param = "好，过来吧，我正好也有空",
+		param = "いいよ、ちょうど今時間あるし",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31958,7 +31948,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3045] = {
-		param = "我下单你喜欢的奶……战术饮品！",
+		param = "好きなミルク…戦術ドリンクも頼んでおくよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -31966,7 +31956,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3046] = {
-		param = "嗯，谢谢",
+		param = "うん！ありがとうございます！",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31974,7 +31964,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3047] = {
-		param = "待会见~",
+		param = "ではまたのちほど！",
 		ship_group = 60203,
 		type = 1,
 		option = "",
@@ -31982,7 +31972,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3048] = {
-		param = "指挥官~这是人家的啾信账号哦……请您……尽快确认呢❤",
+		param = "指揮官～モガドールだよ……リクエスト見たら…承認してぇ❤",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -31990,7 +31980,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3049] = {
-		param = "这样的话……莫加多尔和指挥官就能随时保持联系了……呵呵呵……",
+		param = "これで……モガドールはいつでも指揮官と連絡が取れる……へへへ……",
 		ship_group = 90107,
 		flag = 0,
 		type = 1,
@@ -31998,12 +31988,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"收到了"
+				"承認したよ"
 			}
 		}
 	},
 	[3050] = {
-		param = "已经收到了，今天的工作辛苦了",
+		param = "承認したよ。今日もお疲れさま",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -32011,7 +32001,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3051] = {
-		param = "能马上收到指挥官的回复真是太好了……",
+		param = "指揮官からすぐ返事貰えるなんて最っ高……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32019,7 +32009,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3052] = {
-		param = "指挥官的头像，也让我忍不住多看了好几遍呢……",
+		param = "指揮官のアイコンも…何度も見返しちゃう……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32027,7 +32017,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3053] = {
-		param = "呵呵……指挥官在啾信上也是这么一丝不苟……让人更加好奇了呢……",
+		param = "ぐへへへ……チャットでも真面目な指揮官……ますます気になってくるよぉ……",
 		ship_group = 90107,
 		flag = 1,
 		type = 1,
@@ -32035,12 +32025,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"怎么突然这么说？"
+				"いきなりどうした？"
 			}
 		}
 	},
 	[3054] = {
-		param = "怎么突然这么说？",
+		param = "いきなりどうした？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -32048,7 +32038,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3055] = {
-		param = "因为白天在办公室里，不太方便一直盯着你……",
+		param = "指揮官は昼間ずっと執務室にいるから…じーっと見てられないもん……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32056,7 +32046,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3056] = {
-		param = "啊、我不是什么奇怪的意思！是在说观察工作的态度！",
+		param = "あ、変な意味じゃないよぉ…ええと、仕事ぶりの勉強も兼ねててぇ…",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32072,7 +32062,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"[发呆]"
+				"[えー]"
 			}
 		}
 	},
@@ -32085,7 +32075,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3059] = {
-		param = "好，我信了",
+		param = "そういうことにしておこう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -32093,7 +32083,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3060] = {
-		param = "嘿嘿嘿……",
+		param = "へへへ……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32101,7 +32091,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3061] = {
-		param = "指挥官真是温柔呢……不过这样反而让我更加……",
+		param = "指揮官優しい……優しくされるとモガドール…ますます……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32109,7 +32099,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3062] = {
-		param = "啊……不好不好，又在胡思乱想了！",
+		param = "あ……だめだめ…またヘンなことを……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32117,7 +32107,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3063] = {
-		param = "指挥官，你觉得我今天的秘书舰工作怎么样？",
+		param = "指揮官…今日のモガドールは秘書艦としてちゃんと役に立てた？",
 		ship_group = 90107,
 		flag = 3,
 		type = 1,
@@ -32125,16 +32115,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"今天的工作很出色"
+				"よくやってくれてた"
 			},
 			{
 				5,
-				"至少今天的工作很出色"
+				"少なくとも今日の仕事は申し分ないよ"
 			}
 		}
 	},
 	[3064] = {
-		param = "你今天的工作很出色，看得出你很认真",
+		param = "見事な仕事ぶりだったよ。頑張ったな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -32142,7 +32132,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3065] = {
-		param = "那是当然，毕竟是指挥官交代的工作~",
+		param = "えへへ…だって指揮官から預かった大切な仕事だも～ん",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32150,7 +32140,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3066] = {
-		param = "而且在整理的时候，能闻到文件上指挥官的味道……",
+		param = "それに書類を整理していると、指揮官の匂いがして……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32158,7 +32148,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3067] = {
-		param = "作为第一天上任来说做的不错，再接再厉",
+		param = "初日としては上出来だ。これからも頑張ってくれ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -32166,7 +32156,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3068] = {
-		param = "嘿嘿……一定再接再厉……",
+		param = "へへへ……モガドール、もっと頑張るよぉ……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32174,7 +32164,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3069] = {
-		param = "毕竟在整理的时候，能闻到文件上指挥官的味道……",
+		param = "だって書類を整理していると、指揮官の匂いがして……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32182,7 +32172,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3070] = {
-		param = "让人格外精神集中呢……",
+		param = "…とても…集中できるからぁ……",
 		ship_group = 90107,
 		flag = 0,
 		type = 1,
@@ -32203,7 +32193,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3072] = {
-		param = "时间不早了，明天还有工作，早点休息",
+		param = "もういい時間だ。明日も仕事があるし、早めに休むことだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -32211,7 +32201,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3073] = {
-		param = "欸？这就要说晚安了吗……",
+		param = "えぇーもうおやすみするのぉ……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32219,7 +32209,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3074] = {
-		param = "难得能和指挥官单独聊天……总觉得还想多说几句呢……",
+		param = "せっかく指揮官と…チャットしてるのに……もっと話したいよぉ……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32227,7 +32217,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3075] = {
-		param = "好吧……明天见",
+		param = "うう……また明日……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32235,7 +32225,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3076] = {
-		param = "希望今晚能梦到指挥官呢……",
+		param = "今夜、指揮官の夢が見られますように……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32243,7 +32233,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3077] = {
-		param = "啊，这句话是不是……太直接了……",
+		param = "あ。今の……直球すぎたかも……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32251,7 +32241,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3078] = {
-		param = "那个……指挥官晚安哦……",
+		param = "ええと……指揮官、おやすみなさい……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32259,7 +32249,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3079] = {
-		param = "今晚我一会做个好梦的……",
+		param = "モガドール、いい夢見るから……",
 		ship_group = 90107,
 		flag = 6,
 		type = 1,
@@ -32267,12 +32257,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"晚安"
+				"おやすみ"
 			}
 		}
 	},
 	[3080] = {
-		param = "晚安，早点休息",
+		param = "おやすみ。ゆっくり休んで",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -32280,7 +32270,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3081] = {
-		param = "最后再说一句……",
+		param = "最後にもう一言だけ……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32288,7 +32278,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3082] = {
-		param = "指挥官的温柔，真是让人上瘾呢……呵呵呵……",
+		param = "指揮官の優しさ、癖になっちゃいそう……ぐへへへ……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32304,7 +32294,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3084] = {
-		param = "指挥官，还在加班吗？",
+		param = "指揮官、まだ残業…？",
 		ship_group = 90107,
 		flag = 0,
 		type = 1,
@@ -32312,12 +32302,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"是的"
+				"だな"
 			}
 		}
 	},
 	[3085] = {
-		param = "是的，还有些文件需要处理",
+		param = "まだ確認しないといけない書類が残ってな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -32325,7 +32315,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3086] = {
-		param = "已经这么晚了……",
+		param = "もうこんな遅い時間なのに……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32333,7 +32323,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3087] = {
-		param = "需要我去帮您处理吗？",
+		param = "モガドールが手伝おうか？",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32349,12 +32339,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"没事，没剩多少了"
+				"大丈夫"
 			}
 		}
 	},
 	[3089] = {
-		param = "没事，没剩多少了，我自己来就好",
+		param = "大した量じゃないから大丈夫",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -32362,7 +32352,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3090] = {
-		param = "指挥官总是这样呢……",
+		param = "指揮官っていつもそう……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32370,7 +32360,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3091] = {
-		param = "明明人家很想来帮忙的……",
+		param = "モガドール、手伝いたいのに……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32378,7 +32368,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3092] = {
-		param = "为了指挥官，我很愿意陪您加班哦……再辛苦也无所谓哦……",
+		param = "指揮官のためなら、どんなに大変な残業でも…頑張れるのにぃ……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32386,7 +32376,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3093] = {
-		param = "而且……和指挥官独处的机会……",
+		param = "それに……指揮官と二人っきりになれるチャンスでもあるし……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32402,7 +32392,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"[不]"
+				"[拒否]"
 			}
 		}
 	},
@@ -32415,7 +32405,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3096] = {
-		param = "呵呵呵……指挥官在担心什么嘛……❤",
+		param = "ぐへへへ……心配することはないよぉ……❤",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32423,7 +32413,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3097] = {
-		param = "我可是很专业的审判官哦……只是……",
+		param = "モガドールは立派な審判官だよ……ただ……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32431,7 +32421,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3098] = {
-		param = "看着认真工作的指挥官，总会不自觉地……心跳加速呢……",
+		param = "真剣に仕事に取り組んでる指揮官を見てると、つい……ドキドキして……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32439,7 +32429,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3099] = {
-		param = "就算去了只能看着指挥官板着脸的样子也很棒呢……",
+		param = "たとえ拝めるのが仏頂面の指揮官だとしても…素敵…",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32447,7 +32437,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3100] = {
-		param = "让人更加想要靠近了……",
+		param = "もっと近づきたく…なってしまってぇ…",
 		ship_group = 90107,
 		flag = 3,
 		type = 1,
@@ -32455,12 +32445,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"该继续工作了"
+				"仕事に戻らないと"
 			}
 		}
 	},
 	[3101] = {
-		param = "该继续工作了",
+		param = "仕事に戻らないと",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -32468,7 +32458,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3102] = {
-		param = "唔……那……至少让我去给您泡杯咖啡如何？",
+		param = "うっ……せ……せめてコーヒーを差し入れさせてぇ……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32476,7 +32466,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3103] = {
-		param = "人家已经准备换上很厉害的女仆装准备去送咖啡了……",
+		param = "すっごいメイド服に着替えて、コーヒーを持って行こうとしてたから……",
 		ship_group = 90107,
 		flag = 4,
 		type = 1,
@@ -32505,7 +32495,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3106] = {
-		param = "开玩笑的啦……不过指挥官想看的话……",
+		param = "冗談だよ……でももし指揮官が見たいなら……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32521,7 +32511,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3108] = {
-		param = "等到下次休息日，我们可以独处的时候……",
+		param = "次の非番日、モガドールと二人っきりになった時に……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32529,7 +32519,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3109] = {
-		param = "嘿嘿嘿……",
+		param = "へへへ……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32537,7 +32527,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3110] = {
-		param = "啊对了，记得在下班之前检查一下右手边的抽屉哦……",
+		param = "そうだ…帰る前に右の引き出しを確認してね……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32545,7 +32535,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3111] = {
-		param = "人家偷偷放了一些“小礼物”进去呢……呵呵呵……",
+		param = "こっそり「プレゼント」を忍ばせておいたから……ぐへへへ……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32553,7 +32543,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3112] = {
-		param = "想象着指挥官发现礼物时的表情，今晚一定能做个好梦……❤",
+		param = "指揮官がプレゼントを開ける時の表情を想像するだけで、良い夢が見れそう……❤",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32569,7 +32559,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3114] = {
-		param = "晚安……指挥官❤",
+		param = "おやすみ…指揮官♥",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32577,7 +32567,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3115] = {
-		param = "指挥官……❤",
+		param = "指揮官……❤",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32585,7 +32575,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3116] = {
-		param = "人家刚刚洗完澡哦……",
+		param = "モガドール、今風呂から上がったよぉ……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32601,16 +32591,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"哦"
+				"それで…？"
 			},
 			{
 				2,
-				"这么晚才洗澡么？"
+				"こんな時間にお風呂？"
 			}
 		}
 	},
 	[3118] = {
-		param = "哦",
+		param = "それで…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -32618,7 +32608,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3119] = {
-		param = "指挥官好冷漠……",
+		param = "指揮官、つれないね……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32626,7 +32616,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3120] = {
-		param = "之前也没骗你啦，本来今天是打算早休息的……",
+		param = "嘘はついてないよ…本当は早く寝るつもりだったけど……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32634,7 +32624,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3121] = {
-		param = "这么晚才洗澡么？",
+		param = "こんな時間にお風呂？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -32642,7 +32632,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3122] = {
-		param = "我记得你说今天准备早点休息的？",
+		param = "早く休むって言ってなかったっけ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -32650,7 +32640,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3123] = {
-		param = "可是因为在想着指挥官嘛……结果又出了好多汗呢……",
+		param = "だって指揮官のことを考えてたら……汗をかいちゃってぇ……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32658,7 +32648,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3124] = {
-		param = "而且房间里好空呢……都没有指挥官的味道了……",
+		param = "それにここは寂しくて……だって指揮官の匂いがしないんだもん……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32674,12 +32664,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"晚饭后到现在才几个小时"
+				"夕ご飯からそんなに経ってないけど…"
 			}
 		}
 	},
 	[3126] = {
-		param = "晚饭后到现在才几个小时……",
+		param = "夕ご飯からそんなに経ってないけど…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -32687,7 +32677,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3127] = {
-		param = "六个小时四十二分钟了！",
+		param = "経ったよ…6時間42分も…！",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32695,7 +32685,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3128] = {
-		param = "人家一会不见指挥官……就会特别想念嘛~❤",
+		param = "少しの間でも…指揮官と離れると…恋しくなっちゃうよぉ～❤",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32703,7 +32693,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3129] = {
-		param = "不要加班了，来陪我一起休息好不好~",
+		param = "もうお仕事なんてしないで、モガドールと一緒に休んでぇ…♥",
 		ship_group = 90107,
 		flag = 3,
 		type = 1,
@@ -32711,16 +32701,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"不好"
+				"ダメだ"
 			},
 			{
 				5,
-				"我要工作"
+				"仕事を片付けないと"
 			}
 		}
 	},
 	[3130] = {
-		param = "不好，我要工作",
+		param = "ダメだ。仕事を片付けないと",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -32728,7 +32718,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3131] = {
-		param = "不好，我要工作",
+		param = "ダメだ。仕事を片付けないと",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -32736,7 +32726,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3132] = {
-		param = "指挥官真是一丝不苟呢……不过这样反而更迷人了……",
+		param = "指揮官は本当に律儀だね……だからそそられるけど……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32744,7 +32734,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3133] = {
-		param = "那换个更正经的邀请……要不要来我这里吃个夜宵~？",
+		param = "じゃあ策を変えて……夜食を食べに来ない～？",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32760,12 +32750,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"工作还没做完"
+				"まだ仕事が残っている"
 			}
 		}
 	},
 	[3135] = {
-		param = "可惜，工作还没做完呢",
+		param = "残念ながら、まだ仕事が残ってて…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -32773,7 +32763,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3136] = {
-		param = "欸~但是人家准备的可是超~健康的水果沙拉哦❤",
+		param = "えぇ…でもモガドール、すごくヘルシーなフルーツサラダを用意したよぉ❤",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32781,7 +32771,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3137] = {
-		param = "可以让指挥官充满力量和干劲的精选水果……搭配上美味的料汁",
+		param = "指揮官に元気と精力をいっっっぱいあげれる厳選したフルーツにぃ……特製ドレッシングを添えてぇ…",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32789,7 +32779,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3138] = {
-		param = "而且……人家现在为了少出些汗……换上了指挥官喜欢的那件……",
+		param = "それに……汗をかかないように……指揮官のお気に入りの服にも着替えて……",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32805,7 +32795,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3140] = {
-		param = "还特地把空调调的很低哦……不会让指挥官觉得热的~",
+		param = "エアコンも低めに設定したから……涼しくて気持ちいいよぉ～",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32813,7 +32803,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3141] = {
-		param = "指挥官难道不想吃美味健康又清爽的水果沙拉么❤？",
+		param = "美味しくて、ヘルシーで、爽やかなモガドールフルーツサラダ、食べたくないのぉ？❤",
 		ship_group = 90107,
 		flag = 6,
 		type = 1,
@@ -32821,12 +32811,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"那麻烦你跑一趟了"
+				"執務室に持ってきてくれたら…"
 			}
 		}
 	},
 	[3142] = {
-		param = "也好，那麻烦你跑一趟了",
+		param = "そうだな。執務室に持ってきてくれたら…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -32834,7 +32824,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3143] = {
-		param = "欸~指挥官难道是想在指挥室里……",
+		param = "指揮官、まさか執務室で……♥",
 		ship_group = 90107,
 		flag = 7,
 		type = 1,
@@ -32842,12 +32832,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"要不还是不麻烦你了"
+				"やっぱりいい"
 			}
 		}
 	},
 	[3144] = {
-		param = "要不还是不麻烦你了，我继续工作好了",
+		param = "やっぱりいいよ。まずは仕事を片付けないと",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -32855,7 +32845,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3145] = {
-		param = "去去去~人家立刻就去~",
+		param = "ぐへへへ…モガドール、すぐそっちに行くからぁ～",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32871,7 +32861,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3147] = {
-		param = "美味健康又清爽的水果沙拉马上就到哦❤",
+		param = "美味しくてヘルシー、爽やかなモガドールサラダ、もうすぐで到着するよぉ…❤",
 		ship_group = 90107,
 		type = 1,
 		option = "",
@@ -32879,7 +32869,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3148] = {
-		param = "指挥官，我最近发现了个有趣的山洞，最近准备去探索一番哦",
+		param = "指揮官くん、面白そうな洞窟を見つけたから、近いうちに探検に行こうと思ってるわ",
 		ship_group = 10713,
 		flag = 0,
 		type = 1,
@@ -32887,12 +32877,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"你也要大冒险？"
+				"フランクリンの大冒険ってとこかな？"
 			}
 		}
 	},
 	[3149] = {
-		param = "你也要大冒险……？",
+		param = "フランクリンの大冒険ってとこかな？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -32900,7 +32890,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3150] = {
-		param = "是正经探险啦！！",
+		param = "普通の探検よ！",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -32908,7 +32898,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3151] = {
-		param = "真是的~我正在检查探险用的装备清单哦~",
+		param = "もう。今装備リストをチェックしてるところよ",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -32924,7 +32914,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3153] = {
-		param = "话说指挥官平时会带些什么装备啊？",
+		param = "そういえば、指揮官くんは普段どんな装備を持ち歩いているの？",
 		ship_group = 10713,
 		flag = 1,
 		type = 1,
@@ -32932,12 +32922,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"手机和钱包？"
+				"スマホと財布？"
 			}
 		}
 	},
 	[3154] = {
-		param = "手机和钱包？",
+		param = "スマホと財布？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -32945,7 +32935,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3155] = {
-		param = "欸？这怎么行，至少要准备些基础装备啊",
+		param = "えぇ！？だめじゃない。最低限の装備くらい身に着けないと",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -32961,12 +32951,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"可平时都在港区里……"
+				"でも普段は母港にいるし…"
 			}
 		}
 	},
 	[3157] = {
-		param = "可平时都在港区里……",
+		param = "でも普段は母港にいるし…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -32974,7 +32964,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3158] = {
-		param = "不行不行，我明天要给你准备一个便携应急包",
+		param = "ダメダメ。明日にでも非常用バッグを用意してあげるわ",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -32982,7 +32972,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3159] = {
-		param = "对了，要不要看看我的装备清单？",
+		param = "そうだ。ついでに私の装備リストを見てみない？",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -32990,7 +32980,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3160] = {
-		param = "我可是对各类携带装备之类的经验非常丰富哦~",
+		param = "自分で言うのもなんだけど、携行装備については経験豊富な方よ",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33006,12 +32996,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"也好"
+				"じゃあお言葉に甘えて"
 			}
 		}
 	},
 	[3162] = {
-		param = "也好，那就让我学习一下吧",
+		param = "じゃあお言葉に甘えて、勉強させてもらおう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33019,7 +33009,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3163] = {
-		param = "我想想，首先是多功能军刀，然后是信号弹……",
+		param = "えーと、まずはマルチツール、それから発煙筒…",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33027,7 +33017,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3164] = {
-		param = "还有压缩饼干、便携式净水器……对了，还可以再增加备用的滤芯……",
+		param = "あと非常食に携帯浄水器…あ、予備のフィルターも入れないと…",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33035,7 +33025,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3165] = {
-		param = "……啊，想着想着，我的清单长度也在不断上升了",
+		param = "…あら、チェックしていくとリストがどんどん長くなるわね",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33043,7 +33033,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3166] = {
-		param = "这样下去一时半会完不成了，估计要收拾到很晚啊……",
+		param = "このままじゃすぐには終わらないわ。まだまだ時間がかかりそう…",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33059,7 +33049,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3168] = {
-		param = "指挥官，明天见！",
+		param = "指揮官くんは休んでて！また明日！",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33067,7 +33057,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3169] = {
-		param = "指挥官~你吃过饭了吗？",
+		param = "指揮官くん、もうご飯は食べた？",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33075,7 +33065,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3170] = {
-		param = "我在尝试一个新的野外求生食谱哦~",
+		param = "今新しいサバイバルレシピを試してて",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33091,12 +33081,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"还没吃"
+				"まだだけど"
 			}
 		}
 	},
 	[3172] = {
-		param = "还没吃，你该不会又在尝试什么奇怪的东西吧？",
+		param = "まだだけど…また変なものを試してる？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33104,7 +33094,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3173] = {
-		param = "放心啦，这次是用常规食材做的野炊料理！",
+		param = "安心して、今回は一般的な食材を使ったアウトドア料理よ！",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33112,7 +33102,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3174] = {
-		param = "保证美味哦！要来我这里尝尝看吗？",
+		param = "絶対美味しいから！こっち来て食べてみない？",
 		ship_group = 10713,
 		flag = 1,
 		type = 1,
@@ -33120,12 +33110,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"上次的食谱……"
+				"この前のレシピ…"
 			}
 		}
 	},
 	[3175] = {
-		param = "上次你的“生拌绿虫糊”还历历在目……",
+		param = "この前の「虫の和え物」はまだ時々思い出す……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33133,7 +33123,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3176] = {
-		param = "哈哈~那个确实有点太刺激了呢~",
+		param = "あはは…確かにあれは刺激が強すぎたわね",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33149,7 +33139,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3178] = {
-		param = "不过野外求生的经验告诉我，有的时候这种食物反而能救命哦！",
+		param = "でもサバイバルの経験から、そういう食べ物が命を繋ぐ時もあるよ",
 		ship_group = 10713,
 		flag = 2,
 		type = 1,
@@ -33157,12 +33147,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"我应该不需要……"
+				"自分には必要ないような…"
 			}
 		}
 	},
 	[3179] = {
-		param = "我觉得我应该不会用到这种极端的求生技能……",
+		param = "そんな極端なサバイバルスキル、自分には必要ないような…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33170,7 +33160,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3180] = {
-		param = "好啦好啦~我保证这次不是极限求生系哦！",
+		param = "わかったわかった。今回は限界サバイバル系じゃないと約束するわ！",
 		ship_group = 10713,
 		flag = 3,
 		type = 1,
@@ -33178,16 +33168,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"你的厨艺……"
+				"フランクリンの料理の腕前って…"
 			},
 			{
 				5,
-				"我相信你，但……"
+				"信じたい気持ちはあるけど…"
 			}
 		}
 	},
 	[3181] = {
-		param = "我对你的厨艺还是有点……",
+		param = "いや、そもそもフランクリンの料理の腕前は……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33195,7 +33185,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3182] = {
-		param = "我相信你，但上次的事还是让我有点害怕……",
+		param = "信じたい気持ちはあるけど…この前のことがトラウマで…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33203,7 +33193,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3183] = {
-		param = "呵呵~别担心啦，这次真的是正常的野外烤肉~",
+		param = "ふふふ。心配しないで、本当にただのバーベキューだから",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33211,7 +33201,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3184] = {
-		param = "我特地准备了很多你爱吃的肉哦~？",
+		param = "指揮官くんの好きなお肉をたくさん用意したのよ",
 		ship_group = 10713,
 		flag = 0,
 		type = 1,
@@ -33219,12 +33209,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"你怎么知道我喜欢吃什么？"
+				"どうして自分の好みを？"
 			}
 		}
 	},
 	[3185] = {
-		param = "你怎么知道我喜欢吃什么？",
+		param = "どうして自分の好みを？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33232,7 +33222,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3186] = {
-		param = "这种事情当然有好好观察过了~",
+		param = "そりゃ、しっかり観察してきたからよ",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33248,7 +33238,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3188] = {
-		param = "关于指挥官的事，我都记得很清楚呢~",
+		param = "指揮官くんのことなら、何でも覚えてるんだから",
 		ship_group = 10713,
 		flag = 6,
 		type = 1,
@@ -33256,12 +33246,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"需要我带点什么过去吗？"
+				"自分も食材を持っていこうか？"
 			}
 		}
 	},
 	[3189] = {
-		param = "好吧，需要我带点什么过去吗？",
+		param = "そりゃいいな。ちなみに自分も食材を持っていこうか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33269,7 +33259,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3190] = {
-		param = "只要带着你自己来就够啦！",
+		param = "手ぶらで十分よ！",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33277,7 +33267,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3191] = {
-		param = "对了，我还准备了一个小惊喜~",
+		param = "そうだ。これとは別にサプライズも用意してあるの",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33285,7 +33275,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3192] = {
-		param = "是我最近探索遗迹时找到的特别收获哦~",
+		param = "前に遺跡を探検した時に手に入れた特別な品よ",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33293,7 +33283,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3193] = {
-		param = "我觉得你一定会喜欢！",
+		param = "きっと気に入ってくれると思うわ！",
 		ship_group = 10713,
 		flag = 7,
 		type = 1,
@@ -33301,12 +33291,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"你到底是去了什么地方探险啊……"
+				"一体どこを探検してたの…"
 			}
 		}
 	},
 	[3194] = {
-		param = "你到底是去了什么地方探险啊……",
+		param = "一体どこを探検してたの…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33314,7 +33304,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3195] = {
-		param = "这个嘛……待会和你分享冒险日志时你就知道啦~",
+		param = "それは…後で冒険日記を見せた時のお楽しみ、ってことで♪",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33322,7 +33312,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3196] = {
-		param = "好啦好啦，快过来吧，再晚的话食材就要凉了！",
+		param = "さあ早く来て！もたもたしてたら食材が傷んじゃうわ",
 		ship_group = 10713,
 		flag = 8,
 		type = 1,
@@ -33330,12 +33320,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				9,
-				"我会尽快的"
+				"すぐ行くよ"
 			}
 		}
 	},
 	[3197] = {
-		param = "好，我会尽快过去的",
+		param = "わかった。すぐ行く",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33343,7 +33333,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[3198] = {
-		param = "那我去准备餐具咯~记得多穿件外套",
+		param = "じゃあ食器の準備をしてくるわね。外だから上着も忘れないで",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33351,7 +33341,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[3199] = {
-		param = "这次找到的地方视野超棒的，可以边吃边看星星呢~",
+		param = "今回見つけた場所は見晴らしが最高だから、星空を眺めながら食事が楽しめるわ",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33359,7 +33349,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[3200] = {
-		param = "期待指挥官的到来哦~",
+		param = "指揮官くんが来るの、楽しみにしてるね",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33367,7 +33357,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[3201] = {
-		param = "让我们创造一个值得记录在冒险日志里的美好夜晚吧~♡",
+		param = "冒険日記に残る素敵な夜にしましょう♡",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33383,7 +33373,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[3203] = {
-		param = "指挥官~还没睡吧？我发现了一个超棒的地方！",
+		param = "指揮官くん、起きてる？いいところを見つけたわ！",
 		ship_group = 10713,
 		flag = 0,
 		type = 1,
@@ -33391,12 +33381,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"这么晚了，还在探险？"
+				"こんな遅い時間に探検か？"
 			}
 		}
 	},
 	[3204] = {
-		param = "这么晚了，还在探险？",
+		param = "こんな遅い時間に探検か？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33404,7 +33394,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3205] = {
-		param = "哼哼~探险可是不分昼夜的！",
+		param = "ふふん、探検に時間は関係ないわよ？",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33412,7 +33402,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3206] = {
-		param = "不过，这次和平时的探险不一样哦",
+		param = "でも、今回はいつもとちょっと違うの",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33428,7 +33418,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3208] = {
-		param = "我在港区中心城区向西不远的地方发现了一处温泉！",
+		param = "なんと、母港の中心部から少し西に行ったところで温泉を見つけたの！",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33436,7 +33426,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3209] = {
-		param = "而且现在的夜景超级美！",
+		param = "しかも夜景が最高で…！",
 		ship_group = 10713,
 		flag = 1,
 		type = 1,
@@ -33449,7 +33439,7 @@ pg.base.activity_ins_chat_language = {
 		}
 	},
 	[3210] = {
-		param = "……？你去打劫{namecode:98}了？",
+		param = "……？まさか明石にたかったのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33457,7 +33447,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3211] = {
-		param = "咳……自然温泉，自然温泉！",
+		param = "こほん…野湯よ！明石のではなくて！",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33465,7 +33455,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3212] = {
-		param = "我可是经验丰富的冒险家，找到一处自然温泉很正常吧！",
+		param = "経験豊富な冒険家なんだから、野湯の一つや二つくらい見つけるなんて造作もないわ！",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33473,7 +33463,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3213] = {
-		param = "已经测过水温和成分了，完全没问题！",
+		param = "水温も成分もチェック済みだから問題ないし！",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33481,7 +33471,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3214] = {
-		param = "所以……要不要现在过来一起泡温泉？",
+		param = "ねえ？一緒に温泉に入らない？",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33497,12 +33487,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"太晚了"
+				"今日はもう遅いよ"
 			}
 		}
 	},
 	[3216] = {
-		param = "现在太晚了，坐车过去也需要时间",
+		param = "今日はもう遅いよ。車も簡単に捕まらないし…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33510,7 +33500,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3217] = {
-		param = "没关系，车我已经安排好了哦~",
+		param = "大丈夫よ。車ならもう手配してあるわ",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33518,7 +33508,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3218] = {
-		param = "指挥官，今晚星空超美的，运气好的话还能看到流星哦~",
+		param = "ねえ指揮官くん、今夜は星空がとっても綺麗なの。運が良ければ流れ星も見れるし～",
 		ship_group = 10713,
 		flag = 3,
 		type = 1,
@@ -33526,12 +33516,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"……车都安排好了？"
+				"……いつの間に車を……"
 			}
 		}
 	},
 	[3219] = {
-		param = "……车都安排好了？原来是早有预谋",
+		param = "……いつの間に車の手配を…？やっぱり最初から狙ってたのか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33539,7 +33529,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3220] = {
-		param = "欸~是临时起意啦！",
+		param = "違う違う、本当に思いつきだって！",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33547,7 +33537,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3221] = {
-		param = "来嘛来嘛，我都准备好泡毛巾和点心了~",
+		param = "来るよね？タオルも湯上がりのおやつもあるから",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33555,7 +33545,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3222] = {
-		param = "你爱吃的，不是生存菜单上的！",
+		param = "サバイバル系じゃなくて、ちゃんと指揮官くんの好きなやつよ",
 		ship_group = 10713,
 		flag = 4,
 		type = 1,
@@ -33563,12 +33553,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"好吧，我换件衣服就过来"
+				"わかった、着替えてから行くよ"
 			}
 		}
 	},
 	[3223] = {
-		param = "好吧，我换件衣服就过来",
+		param = "わかった、着替えてから行くよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33576,7 +33566,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3224] = {
-		param = "太好了~我就知道指挥官会答应的！",
+		param = "やったぁ！指揮官くんなら来てくれると思ってたわ！",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33584,7 +33574,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3225] = {
-		param = "要穿暖和点哦，虽然泉水很暖，但夜里还是有点凉呢~",
+		param = "暖かい格好で来てね。温泉の中はぽかぽかでも、夜の外は寒いから",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33592,7 +33582,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3226] = {
-		param = "对了~我还有上次探险时拍的照片",
+		param = "そうだ！この前探検で撮った写真もあるの",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33600,7 +33590,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3227] = {
-		param = "嘿嘿，这次的照片是我没有给任何人看过的",
+		param = "えへへ、まだ誰にも見せてないよ",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33608,7 +33598,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3228] = {
-		param = "是我珍藏的、只想和指挥官分享的内容呢♡",
+		param = "指揮官くんと一緒に見たいから取っておきにしてた、お宝写真よ♡",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33616,7 +33606,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3229] = {
-		param = "我们待会可以一边欣赏夜空一边看~",
+		param = "後で星空を眺めながら見ましょ？",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33632,7 +33622,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3231] = {
-		param = "快坐车过来吧，等你~",
+		param = "早く来てね！待ってるわ",
 		ship_group = 10713,
 		type = 1,
 		option = "",
@@ -33640,7 +33630,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3232] = {
-		param = "指挥官！我在您的抽屉里放了好多好多纸飞机哦！",
+		param = "指揮官！引き出しに紙飛行機をいっぱい入れたぜ！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -33656,7 +33646,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3234] = {
-		param = "每个抽屉都塞得满满的！这下您要花很久收拾了吧！哼哼~",
+		param = "どの引き出しもパンパンになるほどにな！片付けるのが大変そうだろ！ふふ～ん",
 		ship_group = 10153,
 		flag = 0,
 		type = 1,
@@ -33664,12 +33654,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"嗯？让我看看"
+				"どれどれ"
 			}
 		}
 	},
 	[3235] = {
-		param = "嗯？让我看看",
+		param = "どれどれ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33677,7 +33667,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3236] = {
-		param = "这些纸飞机都叠得很精致嘛，还每个都涂上了不同的颜色",
+		param = "綺麗な紙飛行機だな。ご丁寧にカラフルな色まで塗ってるし",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33685,7 +33675,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3237] = {
-		param = "！！那，那个是……为了让它们看起来更凌乱才特意做的！",
+		param = "！！そ、それは…散らかってるように見せようと思って…！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -33701,12 +33691,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"上面还写了字？"
+				"文字も書いてあるのか？"
 			}
 		}
 	},
 	[3239] = {
-		param = "上面还写了字？",
+		param = "文字も書いてあるのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33714,7 +33704,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3240] = {
-		param = "指挥官加油……多喝热水？",
+		param = "「指揮官ファイト」…「こまめに水分を補給して」？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33722,7 +33712,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3241] = {
-		param = "唔……那，那个……是为了转移您的注意力让您无心工作而已！",
+		param = "うっ…こ、これは…仕事が手につかなくなるように気を逸らそうとしただけだ！",
 		ship_group = 10153,
 		flag = 2,
 		type = 1,
@@ -33730,12 +33720,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"这纸似乎……"
+				"紙もなんか…"
 			}
 		}
 	},
 	[3242] = {
-		param = "这纸似乎也是用的是废纸……",
+		param = "古紙を使っているな…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33743,7 +33733,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3243] = {
-		param = "这，这个也被你发现了吗……！",
+		param = "そんなところまで気づかれてしまったのか…！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -33751,7 +33741,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3244] = {
-		param = "啊不是！米勒大人只是随手抓了些纸而已",
+		param = "じゃなくて！ミラーさまはただ適当にそこらへんの紙を使っただけ",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -33759,7 +33749,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3245] = {
-		param = "绝对没有怕浪费的意思！",
+		param = "断じて、無駄遣いを気にしてなんかないぞ！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -33775,12 +33765,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"我信了"
+				"だが事実なんでしょう？"
 			}
 		}
 	},
 	[3247] = {
-		param = "我信了",
+		param = "そういうことにしておこう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33788,7 +33778,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3248] = {
-		param = "因为纸飞机的缘故，指挥官的工作效率大大下降了",
+		param = "おのれ、紙飛行機のせいで仕事の効率がめっちゃ下がったZO",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33796,7 +33786,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3249] = {
-		param = "桀桀桀~感受到米勒大人的恐怖之处了吧！",
+		param = "ククク…ミラーさまの恐ろしさを思い知ったか！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -33804,7 +33794,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3250] = {
-		param = "那么——我们下次破坏行动见！",
+		param = "では…今度の破壊工作でまた会おう！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -33812,7 +33802,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3251] = {
-		param = "指挥官，你看到我的笔记本了吗？",
+		param = "指揮官、あたしのノートを見なかった？",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -33828,12 +33818,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"没什么印象"
+				"さぁ…記憶にないけど"
 			}
 		}
 	},
 	[3253] = {
-		param = "没什么印象",
+		param = "さぁ…記憶にないけど",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33841,7 +33831,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3254] = {
-		param = "我在指挥室里帮你找找吧",
+		param = "執務室を探してみるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33849,7 +33839,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3255] = {
-		param = "啊，谢谢指挥官！",
+		param = "ありがとう！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -33857,7 +33847,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3256] = {
-		param = "我在房间里找了好久都没找到……",
+		param = "部屋中探し回っても見つからなくて…",
 		ship_group = 10153,
 		flag = 1,
 		type = 1,
@@ -33865,12 +33855,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"我找到一个笔记本"
+				"なんか見つけた"
 			}
 		}
 	},
 	[3257] = {
-		param = "我找到了一个被压在文件堆里的笔记本",
+		param = "書類の山に埋もれたノートを見つけたけど",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33878,7 +33868,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3258] = {
-		param = "但我不太确定是不是你的，你做过什么标记吗？",
+		param = "ミラーのものかどうかはわからないな。何か目印はあるか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33886,7 +33876,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3259] = {
-		param = "唔……是很常见的款式……也没有标记……",
+		param = "うっ…見た目はよくあるノートの感じで…目印もつけてないし…",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -33894,7 +33884,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3260] = {
-		param = "指挥官你翻开拍给我看看？",
+		param = "中身の写真を送ってくれない？",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -33902,7 +33892,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3261] = {
-		param = "不行不行……文件在一起的话说不定会是什么重要信息……",
+		param = "いやいや…書類に埋もれたってことは何か大事な情報が入ってるかもしれないし…",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -33910,7 +33900,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3262] = {
-		param = "指挥官还是先确认一下内容比较好",
+		param = "やっぱり指揮官が中身を確認して！",
 		ship_group = 10153,
 		flag = 2,
 		type = 1,
@@ -33918,12 +33908,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"上面记录着我什么时候会饿……"
+				"自分が空腹を訴えた時の記録が…"
 			}
 		}
 	},
 	[3263] = {
-		param = "上面记录着我什么时候会饿……",
+		param = "自分が空腹を訴えた時の記録が…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33931,7 +33921,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3264] = {
-		param = "这是你的笔记本么？",
+		param = "これ、ミラーのノートなのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33939,7 +33929,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3265] = {
-		param = "这，这怎么可能是我的嘛！",
+		param = "そ、そんなはずないだろ！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -33947,7 +33937,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3266] = {
-		param = "超酷的米勒大人才不关心指挥官的事呢~",
+		param = "クールなミラーさまがいちいち指揮官を気にするわけない！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -33963,12 +33953,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"那就销毁吧"
+				"じゃあ処分するか"
 			}
 		}
 	},
 	[3268] = {
-		param = "既然是无主的笔记本，就销毁掉吧",
+		param = "持ち主が分からないし処分するか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -33976,7 +33966,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3269] = {
-		param = "等、等一下！",
+		param = "ちょ、ちょっと待て！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -33984,7 +33974,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3270] = {
-		param = "那个……说不定是重要的文件……！",
+		param = "ええと…大事な書類かもしれないだろ…！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -33992,7 +33982,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3271] = {
-		param = "不要销毁啊！！！",
+		param = "処分しないでくれ！！！",
 		ship_group = 10153,
 		flag = 4,
 		type = 1,
@@ -34000,12 +33990,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"既然你这么说……"
+				"ミラーがそこまで言うなら"
 			}
 		}
 	},
 	[3272] = {
-		param = "既然你这么说，那我就再看看",
+		param = "ミラーがそこまで言うなら、もう少し確認してみるか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34013,7 +34003,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3273] = {
-		param = "嗯——上面还记录着我喜欢的饮料类型",
+		param = "どれどれ…自分の好きな飲み物の種類まで書いてある",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34021,7 +34011,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3274] = {
-		param = "唔……唔唔唔……",
+		param = "うっ…ぐぬぬ…",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -34037,12 +34027,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"后面这页写着……"
+				"次のページは…"
 			}
 		}
 	},
 	[3276] = {
-		param = "后面这页写着“今天被夸奖了三次，比昨天多一次！”",
+		param = "次のページは「今日は三回も褒められた！昨日より一回増えた」と…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34050,7 +34040,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3277] = {
-		param = "不，不许念出来啊！太羞耻了！",
+		param = "よ、読むな！恥ずかしいだろ！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -34066,12 +34056,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"每一句夸奖后面……"
+				"褒められた内容だけじゃなく…"
 			}
 		}
 	},
 	[3279] = {
-		param = "每一句夸奖后面居然还有标星？",
+		param = "褒められた内容だけじゃなく、それぞれ星でランク付けもしているとは",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34079,7 +34069,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3280] = {
-		param = "“米勒今天特别可靠”有三颗星",
+		param = "「今日のミラーはとても頼もしい」は星三つで",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34087,7 +34077,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3281] = {
-		param = "“米勒真可爱”有五颗星",
+		param = "「ミラー可愛いね」は星五つか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34095,7 +34085,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3282] = {
-		param = "那是……那是仇恨等级！",
+		param = "そ、それは…ヘイトレベルだ！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -34103,7 +34093,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3283] = {
-		param = "因为讨厌被说可爱！所以是五颗星！",
+		param = "可愛いなんて言われるの大嫌いだから星五つってこと！",
 		ship_group = 10153,
 		flag = 7,
 		type = 1,
@@ -34111,12 +34101,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"我信了"
+				"だが事実なんでしょう？"
 			}
 		}
 	},
 	[3284] = {
-		param = "我信了",
+		param = "そういうことにしておこう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34132,12 +34122,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				9,
-				"旁边居然还画了……"
+				"おまけに……"
 			}
 		}
 	},
 	[3286] = {
-		param = "旁边居然还画了涂鸦生气表情，写着“下次一定要表现得更凶一点！”",
+		param = "隣に怒り顔の落書きが付いてて、「次はもっとワルらしく振る舞わなきゃ！」か",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34153,12 +34143,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				10,
-				"然后还写着……"
+				"そして……"
 			}
 		}
 	},
 	[3288] = {
-		param = "然后还写着“但是被夸可爱时其实很开心”",
+		param = "「でも可愛いって言われて嬉しかった」と…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34166,7 +34156,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[3289] = {
-		param = "啊啊啊啊！",
+		param = "うわああああああ！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -34174,7 +34164,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[3290] = {
-		param = "那一页是写错了！",
+		param = "あのページは全部書き間違いだ！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -34182,7 +34172,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[3291] = {
-		param = "是我的，这是我的笔记本！！！",
+		param = "もうあたしのノートだって認めるから！！！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -34190,7 +34180,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[3292] = {
-		param = "快点还给我啊啊啊啊啊啊啊啊啊！",
+		param = "早く返してえええ！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -34206,7 +34196,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[3294] = {
-		param = "指挥官，刚刚的咖啡怎么样？",
+		param = "指揮官、さっきのコーヒーはどうだった？",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -34222,12 +34212,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"还不错"
+				"悪くなかったよ"
 			}
 		}
 	},
 	[3296] = {
-		param = "还不错",
+		param = "悪くなかったよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34235,7 +34225,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3297] = {
-		param = "你加了芥末对不对？",
+		param = "わさびを入れたよな？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34243,7 +34233,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3298] = {
-		param = "哼哼~被发现了吗？这是我精心设计的恶作剧哦！",
+		param = "ククク、バレたか。ミラーさまが考えに考え抜いたイタズラだ！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -34251,7 +34241,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3299] = {
-		param = "……不对，指挥官你为什么会说还不错？",
+		param = "…ってあれ？わさび入ってるのにどうして「悪くなかった」になるの？",
 		ship_group = 10153,
 		flag = 1,
 		type = 1,
@@ -34259,12 +34249,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"芥末的量恰到好处……"
+				"わさびの量が絶妙で……"
 			}
 		}
 	},
 	[3300] = {
-		param = "芥末的量恰到好处，反而让咖啡多了一份特别的风味",
+		param = "わさびの量が絶妙で、コーヒーから独特の風味を引き出しているからな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34272,7 +34262,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3301] = {
-		param = "欸？！怎么会这样……",
+		param = "えぇ？！そんな…",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -34288,12 +34278,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"拉花也不错……"
+				"ラテアートもいい感じだったな……"
 			}
 		}
 	},
 	[3303] = {
-		param = "拉花也不错，练习了不少吧？",
+		param = "ラテアートもいい感じだったな。随分練習したんだろな？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34301,7 +34291,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3304] = {
-		param = "怎、怎么可能……！",
+		param = "そ、そんなわけないだろ…！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -34309,7 +34299,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3305] = {
-		param = "那个不过是……为了让指挥官放松警惕才设计的拉花……",
+		param = "あれは…油断させるためのカモフラージュ…",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -34317,7 +34307,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3306] = {
-		param = "而且……我可没有特意练习，指挥官可不要胡思乱想哦！",
+		param = "それに…別に練習なんかしてないから、勝手なイメージを押し付けるな！",
 		ship_group = 10153,
 		flag = 3,
 		type = 1,
@@ -34325,12 +34315,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"我信了"
+				"だが事実なんでしょう？"
 			}
 		}
 	},
 	[3307] = {
-		param = "我信了",
+		param = "そういうことにしておこう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34338,7 +34328,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3308] = {
-		param = "你别信啊！！！",
+		param = "違うってばあああ！！！",
 		ship_group = 10153,
 		flag = 4,
 		type = 1,
@@ -34346,12 +34336,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"那我不信了"
+				"そーなのかー"
 			}
 		}
 	},
 	[3309] = {
-		param = "那我不信了",
+		param = "そーなのかー",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34359,7 +34349,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3310] = {
-		param = "……也不用完全不信",
+		param = "…一部は合ってるけど……",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -34375,12 +34365,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"其实偷偷试了多少次？"
+				"で、何回も練習した？"
 			}
 		}
 	},
 	[3312] = {
-		param = "其实偷偷试了多少次？",
+		param = "で、何回も練習した？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34388,7 +34378,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3313] = {
-		param = "一次都没有！",
+		param = "一回もしてない！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -34396,7 +34386,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3314] = {
-		param = "别说你信了！",
+		param = "この話はもうここまで！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -34404,7 +34394,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3315] = {
-		param = "也别说你不信！",
+		param = "これ以上聞かないでくれ！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -34420,12 +34410,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"那我只能说……"
+				"じゃあ…"
 			}
 		}
 	},
 	[3317] = {
-		param = "那我只能说，期待米勒大人的下次破坏行动了",
+		param = "じゃあ、今度ミラーさまがどんなワルさしかけてくるか、楽しみにしているよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34433,7 +34423,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3318] = {
-		param = "哼，反正也没几天了！",
+		param = "ふん、そう待たせる気はない！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -34441,7 +34431,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3319] = {
-		param = "你就尽情期待，狠狠期待吧~！",
+		param = "思う存分に全力で期待しておけよー！",
 		ship_group = 10153,
 		type = 1,
 		option = "",
@@ -34457,7 +34447,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3321] = {
-		param = "指挥官——！！！",
+		param = "指揮官――！！！",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34473,16 +34463,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"遇上什么伤心事了？"
+				"急に泣き出した？！"
 			},
 			{
 				2,
-				"先别哭，发生什么事了？"
+				"何かあったかのか？"
 			}
 		}
 	},
 	[3323] = {
-		param = "遇上什么伤心事了？",
+		param = "急に泣き出した？！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34490,7 +34480,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3324] = {
-		param = "先别哭，发生什么事了？",
+		param = "何かあったかのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34498,7 +34488,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3325] = {
-		param = "我……那个……",
+		param = "うぅ…あたし…",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34506,7 +34496,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3326] = {
-		param = "指挥官先答应我你不会骂我",
+		param = "先に怒らないって約束してくれる？",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34522,16 +34512,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"……我好像明白了"
+				"……なんとなく分かったかも"
 			},
 			{
 				4,
-				"好"
+				"ああ"
 			}
 		}
 	},
 	[3328] = {
-		param = "……我好像明白了",
+		param = "……なんとなく分かったかも",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34539,7 +34529,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3329] = {
-		param = "好，我答应你",
+		param = "ああ、約束するよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34547,7 +34537,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3330] = {
-		param = "说吧，又闯什么祸了？",
+		param = "それで、今度は何をしたの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34555,7 +34545,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3331] = {
-		param = "你让我处理的文件……",
+		param = "指揮官から任された書類だけど…",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34563,7 +34553,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3332] = {
-		param = "好像被我不小心……",
+		param = "うっかり…",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34571,7 +34561,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3333] = {
-		param = "当做废弃文件塞进碎纸机了……",
+		param = "シュレッダーに掛けちゃった…",
 		ship_group = 10234,
 		flag = 0,
 		type = 1,
@@ -34579,7 +34569,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"[微笑靠近]"
+				"[近づく]"
 			}
 		}
 	},
@@ -34592,7 +34582,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3335] = {
-		param = "这样啊",
+		param = "なるほど",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34608,7 +34598,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3337] = {
-		param = "要不指挥官你还是骂我吧",
+		param = "やっぱ何か叱って",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34616,7 +34606,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3338] = {
-		param = "这个表情怪渗人的……",
+		param = "怖いよぉ…",
 		ship_group = 10234,
 		flag = 5,
 		type = 1,
@@ -34624,12 +34614,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"怎么这么不小心？"
+				"どうしてそんな不注意を？"
 			}
 		}
 	},
 	[3339] = {
-		param = "怎么这么不小心？",
+		param = "どうしてそんな不注意を？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34637,7 +34627,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3340] = {
-		param = "因为我在边刷八卦",
+		param = "ウワサを見ながらやってたらいつの間にか…",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34645,7 +34635,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3341] = {
-		param = "我错了~指挥官~",
+		param = "指揮官、ごめんなさい！",
 		ship_group = 10234,
 		flag = 6,
 		type = 1,
@@ -34653,12 +34643,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"下不为例"
+				"今回だけだぞ"
 			}
 		}
 	},
 	[3342] = {
-		param = "下不为例",
+		param = "今回だけだぞ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34666,7 +34656,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3343] = {
-		param = "嗯嗯嗯，下不为例！",
+		param = "うん！次がないように気を付ける！",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34674,7 +34664,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3344] = {
-		param = "那文件……",
+		param = "でもあの書類はもう…",
 		ship_group = 10234,
 		flag = 7,
 		type = 1,
@@ -34682,12 +34672,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"有电子备份……"
+				"電子データであるよ"
 			}
 		}
 	},
 	[3345] = {
-		param = "有电子备份，就是签名要重新写了",
+		param = "電子データであるよ。ただサインはやり直しだな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34695,7 +34685,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3346] = {
-		param = "总之，你再打印一份放在桌子上吧",
+		param = "とりあえず、プリントアウトして机に置いておいて",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34703,7 +34693,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3347] = {
-		param = "太好了，文件有备份！！！",
+		param = "電子データが残っててよかった！！！",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34711,7 +34701,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3348] = {
-		param = "不愧是英明睿智神武聪明宽容大度温柔善良可爱认真果断坚毅值得信赖的指挥官！",
+		param = "さすが賢明で聡明で温厚で優しくて寛容で思いやり深くて可愛らしくて真面目で果断で頼りがいのある指揮官！",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34719,7 +34709,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3349] = {
-		param = "我现在就去重新打印一份文件！",
+		param = "今すぐ印刷してくる！",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34727,7 +34717,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3350] = {
-		param = "指挥官最好啦！",
+		param = "指揮官大好き！",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34743,7 +34733,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3352] = {
-		param = "指挥官，明天的日程我都给你安排妥当了哦！",
+		param = "指揮官、明日のスケジュールをバッチリ組んでおいたよ！",
 		ship_group = 10234,
 		flag = 0,
 		type = 1,
@@ -34751,12 +34741,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"哦？说来听听"
+				"ほう？聞こうか"
 			}
 		}
 	},
 	[3353] = {
-		param = "哦？说来听听",
+		param = "ほう？聞こうか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34764,7 +34754,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3354] = {
-		param = "早上，处理工作",
+		param = "午前は仕事",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34772,7 +34762,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3355] = {
-		param = "下午，处理工作",
+		param = "午後も仕事",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34780,7 +34770,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3356] = {
-		param = "晚上，和圣塔菲一起参加派对~",
+		param = "でも夜はサンタフェとパーティーに出る、だよ♪",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34788,7 +34778,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3357] = {
-		param = "快夸我！",
+		param = "褒めて褒めて！",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34804,16 +34794,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"这是不是有些太精简了……？"
+				"ざっくりすぎるんじゃない…？"
 			},
 			{
 				3,
-				"做得不错，但……"
+				"流れはわかったけど"
 			}
 		}
 	},
 	[3359] = {
-		param = "这是不是有些太精简了……？",
+		param = "ざっくりすぎるんじゃない…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34821,7 +34811,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3360] = {
-		param = "做得不错，但是不是有些太精简了……？",
+		param = "流れはわかったけど、端折りすぎてない…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34829,7 +34819,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3361] = {
-		param = "哎呀，写那么复杂干什么呢！",
+		param = "もう、細かいことは気にしなくていいの！",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34837,7 +34827,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3362] = {
-		param = "简洁明了看着也舒服嘛！",
+		param = "シンプルな方が見やすいでしょ！",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34845,7 +34835,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3363] = {
-		param = "我可是深思熟虑过的哦！",
+		param = "ちゃんと考えて作ったんだから！",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34861,12 +34851,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"那我明天晚上的会议呢？"
+				"じゃあ明日の夜の会議は？"
 			}
 		}
 	},
 	[3365] = {
-		param = "那我明天晚上的会议呢？",
+		param = "じゃあ明日の夜の会議は？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34874,7 +34864,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3366] = {
-		param = "之前跟你说过的，是不是忘了？",
+		param = "前に伝えたと思うけど、もしかして忘れちゃった？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34890,7 +34880,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3368] = {
-		param = "好、好像是有这么一回事……",
+		param = "そ、そういえばそんなものも…",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34898,7 +34888,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3369] = {
-		param = "一听到西雅图组织派对就高兴得忘记了……",
+		param = "シアトルがパーティーを開くって聞いて舞い上がっちゃって…",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34906,7 +34896,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3370] = {
-		param = "那明晚的行程就修改成：参加作战会议（圣塔菲随行）好了！",
+		param = "じゃあ明日の夜の予定は：作戦会議（サンタフェ同行）に変更するね！",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34914,7 +34904,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3371] = {
-		param = "诶嘿——",
+		param = "えへ☆",
 		ship_group = 10234,
 		flag = 4,
 		type = 1,
@@ -34922,12 +34912,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"你想去的话也可以去"
+				"パーティーに行っていいよ"
 			}
 		}
 	},
 	[3372] = {
-		param = "开会我可以自己处理，你想去的话也可以去",
+		param = "パーティーに行っていいよ。会議は一人でも大丈夫だから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -34935,7 +34925,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3373] = {
-		param = "不啦！",
+		param = "違う違う！",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34943,7 +34933,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3374] = {
-		param = "虽然我很想参加派对跟大家聊聊八卦什么的！",
+		param = "確かにパーティーでみんなとウワサ話をしたいけど！",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34951,7 +34941,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3375] = {
-		param = "但是果然还是更想陪在指挥官身边呢！",
+		param = "やっぱり指揮官と一緒にいたいよ！",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34959,7 +34949,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3376] = {
-		param = "感觉会更更更更开心一点~！",
+		param = "だって指揮官と一緒にいるとすっごく幸せだもん！",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34975,7 +34965,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3378] = {
-		param = "震惊，指挥官竟与神秘女子深夜幽会！！",
+		param = "「衝撃！指揮官、謎の美女と深夜密会！？」",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34983,7 +34973,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3379] = {
-		param = "指挥官明明都有我了！！！",
+		param = "指揮官にはあたしがいるのに！！！",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -34999,16 +34989,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"这是什么？"
+				"なにそれ？"
 			},
 			{
 				2,
-				"我和谁……？"
+				"誰と密会してたって？"
 			}
 		}
 	},
 	[3381] = {
-		param = "这是什么？",
+		param = "なにそれ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35016,7 +35006,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3382] = {
-		param = "新一期八卦特刊的大标题！！！",
+		param = "母港ウワサ誌の見出しよ！！！",
 		ship_group = 10234,
 		flag = 1,
 		type = 1,
@@ -35024,12 +35014,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"八卦特刊又是什么？"
+				"母港ウワサ誌って？"
 			}
 		}
 	},
 	[3383] = {
-		param = "我和谁……？",
+		param = "誰と密会してたって？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35037,7 +35027,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3384] = {
-		param = "等我翻开仔细看看……！",
+		param = "ちょっと中身を見てみる…！",
 		ship_group = 10234,
 		flag = 2,
 		type = 1,
@@ -35045,12 +35035,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"八卦特刊又是什么？"
+				"母港ウワサ誌って？"
 			}
 		}
 	},
 	[3385] = {
-		param = "八卦特刊又是什么？港区还有这种刊物么？",
+		param = "母港ウワサ誌って何？母港にそんな雑誌があるの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35058,7 +35048,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3386] = {
-		param = "不要在意这种细节",
+		param = "細かいことは気にしないの",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -35066,7 +35056,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3387] = {
-		param = "这根本不是重点！",
+		param = "今はそんなどうでもいいことは置いといて",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -35074,7 +35064,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3388] = {
-		param = "重点是里面的内容",
+		param = "中身を確認しないと！",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -35082,7 +35072,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3389] = {
-		param = "让我来细细品味",
+		param = "どれどれ…",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -35090,7 +35080,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3390] = {
-		param = "周六深夜，指挥官与神秘女子……",
+		param = "土曜の真夜中、指揮官が謎の美女と…",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -35098,7 +35088,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3391] = {
-		param = "蓝头发，红袜子……",
+		param = "青い髪に赤いソックス…",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -35106,7 +35096,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3392] = {
-		param = "怎么有点像我？",
+		param = "もしかして、あたしに似てる…？",
 		ship_group = 10234,
 		flag = 3,
 		type = 1,
@@ -35114,12 +35104,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"有没有可能就是你？"
+				"もしかしなくても、だよ"
 			}
 		}
 	},
 	[3393] = {
-		param = "有没有可能就是你？",
+		param = "もしかしなくても、だよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35135,7 +35125,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3395] = {
-		param = "还真是！！！！！",
+		param = "本当だ！！！！！",
 		ship_group = 10234,
 		flag = 4,
 		type = 1,
@@ -35143,16 +35133,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"有那么惊讶么？"
+				"そんなに驚くことか？"
 			},
 			{
 				6,
-				"没想到自己也会成为八卦主角吧？"
+				"ウワサの主役になるなんてね"
 			}
 		}
 	},
 	[3396] = {
-		param = "有那么惊讶么？",
+		param = "そんなに驚くことか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35160,7 +35150,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3397] = {
-		param = "有的！",
+		param = "驚くよ！",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -35168,7 +35158,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3398] = {
-		param = "我根本不记得我跟指挥官深夜幽会啊！",
+		param = "指揮官と深夜に密会だなんて、全く身に覚えないもの！",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -35176,7 +35166,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3399] = {
-		param = "还有这种好事吗！",
+		param = "そんな素敵なこと、一体いつ…",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -35184,7 +35174,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3400] = {
-		param = "没想到自己也会成为八卦主角吧？",
+		param = "ウワサの主役になるなんてね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35192,7 +35182,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3401] = {
-		param = "还真没想到过！",
+		param = "それな！",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -35200,7 +35190,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3402] = {
-		param = "这么说的话，好像还有点开心……",
+		param = "でも、ちょっと嬉しいかも…",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -35208,7 +35198,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3403] = {
-		param = "不过，我们什么时候深夜幽会了啊！",
+		param = "いやいや、そもそもいつ密会したのよ！",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -35216,7 +35206,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3404] = {
-		param = "上周六晚上我们在一起干嘛了来着！",
+		param = "この前の土曜の夜、あたしたち何してたっけ…",
 		ship_group = 10234,
 		flag = 0,
 		type = 1,
@@ -35224,12 +35214,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"在加班"
+				"残業してたよ"
 			}
 		}
 	},
 	[3405] = {
-		param = "在加班",
+		param = "残業してたよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35237,7 +35227,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3406] = {
-		param = "啊……",
+		param = "あぁ…",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -35245,7 +35235,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3407] = {
-		param = "记忆复苏了……",
+		param = "記憶が蘇ってきた……",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -35253,7 +35243,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3408] = {
-		param = "这么说，被拍照片的时候应该是去吃夜宵的回来之后……？",
+		param = "ってことは、夜食を食べに行った帰りに写真を撮られたの…？",
 		ship_group = 10234,
 		flag = 7,
 		type = 1,
@@ -35261,11 +35251,11 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"[就是这样]"
+				"[それな]"
 			},
 			{
 				9,
-				"是的"
+				"だな"
 			}
 		}
 	},
@@ -35278,7 +35268,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3410] = {
-		param = "是的",
+		param = "そうなんだよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35286,7 +35276,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[3411] = {
-		param = "破案了！我这就去找制作组！",
+		param = "そういうことか！じゃあ今から編集部に行ってくる！",
 		ship_group = 10234,
 		flag = 0,
 		type = 1,
@@ -35294,12 +35284,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				10,
-				"你是去澄清……？"
+				"説明しに……？"
 			}
 		}
 	},
 	[3412] = {
-		param = "你是去澄清，还是去告诉她们下一次加班的时间……？",
+		param = "説明しに？それとも次の残業の予定を教えに…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35315,7 +35305,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[3414] = {
-		param = "啊哈哈……",
+		param = "あはは…",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -35323,7 +35313,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[3415] = {
-		param = "你猜~",
+		param = "さて、どっちでしょうね～？",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -35331,7 +35321,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[3416] = {
-		param = "嘿嘿~",
+		param = "えへへ",
 		ship_group = 10234,
 		type = 1,
 		option = "",
@@ -35347,7 +35337,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[3418] = {
-		param = "指挥官！我刚刚偶遇了一只逃跑的小猫！",
+		param = "指揮官、さっき逃げてる子猫を見かけたわ…！",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35355,7 +35345,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3419] = {
-		param = "似乎是打算独自出去冒险呢",
+		param = "どうやら一人で冒険する気満々みたいね",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35363,7 +35353,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3420] = {
-		param = "真是不听话的小家伙啊~~~",
+		param = "まったく、困った子猫ちゃん…ふふふっ♪",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35379,12 +35369,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"看来有人要头疼了"
+				"誰かが苦労しそうだな"
 			}
 		}
 	},
 	[3422] = {
-		param = "看来有人要头疼了",
+		param = "誰かが苦労しそうだな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35400,7 +35390,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3424] = {
-		param = "养宠物不是件容易事呢",
+		param = "ペットを飼うのは簡単じゃないわよ",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35408,7 +35398,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3425] = {
-		param = "那些小家伙实在调皮，想调教好……",
+		param = "あの子たちは本当に手がかかるんだから。ちゃんとしつけようと思ったら…",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35416,7 +35406,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3426] = {
-		param = "要花费大 功 夫才行~",
+		param = "相応の骨折りが必要になるわね〜",
 		ship_group = 70203,
 		flag = 1,
 		type = 1,
@@ -35424,12 +35414,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"但对你来说不是难事吧"
+				"でもチャパエフならお手の物だろ？"
 			}
 		}
 	},
 	[3427] = {
-		param = "但对你来说不是难事吧",
+		param = "でもチャパエフならお手の物だろ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35437,7 +35427,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3428] = {
-		param = "感觉你很擅长驯服和教导",
+		param = "何だかしつけとか得意そうなイメージがあるから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35445,7 +35435,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3429] = {
-		param = "指挥官的夸奖我就收下啦~",
+		param = "ふふ、褒めてくれて嬉しいわ((^∀^*))",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35453,7 +35443,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3430] = {
-		param = "养宠物嘛……感觉有点难以想象",
+		param = "とはいえ、ペットを飼うのは……ちょっと想像できないかもね",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35461,7 +35451,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3431] = {
-		param = "你感觉什么样的宠物更适合我？~",
+		param = "ねえ、指揮官。私にはどんなペットが似合うと思う？",
 		ship_group = 70203,
 		flag = 2,
 		type = 1,
@@ -35469,16 +35459,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"温顺的"
+				"おとなしい子じゃない？"
 			},
 			{
 				4,
-				"野性的"
+				"野性味ある子じゃない？"
 			}
 		}
 	},
 	[3432] = {
-		param = "温顺的比较好，省心又乖巧",
+		param = "おとなしい子がいいんじゃない？世話が楽だし扱いやすいし",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35486,7 +35476,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3433] = {
-		param = "温顺的宠物就省了驯服的过程，确实省心",
+		param = "大人しい子だと、しつける必要があまりないわね。確かに楽だけど…",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35494,7 +35484,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3434] = {
-		param = "但我大概会想……",
+		param = "でも……",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35502,7 +35492,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3435] = {
-		param = "它究竟是生来懂事，还是被前主人驯服过？",
+		param = "もしもそれが生まれつきの素直さじゃなく、前の飼い主に仕込まれた素直さだったら……？",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35510,7 +35500,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3436] = {
-		param = "啊~忍不住会有些吃醋呢~",
+		param = "あぁ、少し嫉妬しちゃうかも♪",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35518,7 +35508,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3437] = {
-		param = "野性的更有魅力",
+		param = "野性味ある子は魅力的だよね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35526,7 +35516,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3438] = {
-		param = "呵呵，难得和指挥官观点一致",
+		param = "ふふ、珍しく指揮官と意見が合うわね",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35534,7 +35524,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3439] = {
-		param = "调教“有个性”的家伙……听起来真是令人心动啊",
+		param = "「我が強い」子を手なずける…なんだかゾクゾクする響きでしょう？",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35542,7 +35532,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3440] = {
-		param = "如果它不听话……",
+		param = "もし言うことを聞いてくれないなら…",
 		ship_group = 70203,
 		flag = 4,
 		type = 1,
@@ -35550,12 +35540,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"你会把它关进笼子吧？"
+				"檻にでも入れるのか？"
 			}
 		}
 	},
 	[3441] = {
-		param = "你会把它关进笼子吧？",
+		param = "檻にでも入れるのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35563,7 +35553,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3442] = {
-		param = "我会让它自己选择缰绳~",
+		param = "ううん、その子に自らの手綱を選ばせるのよ～",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35571,7 +35561,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3443] = {
-		param = "这样想想，虽然我擅长调教……",
+		param = "そう考えると、私はしつけは得意だけど……",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35579,7 +35569,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3444] = {
-		param = "但或许并不适合养宠物呢",
+		param = "ペット向きじゃないのかもしれないわね……",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35587,7 +35577,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3445] = {
-		param = "而且，比起真正的宠物",
+		param = "それに、ペットより――",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35595,7 +35585,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3446] = {
-		param = "我可能更擅长“宠”别的什么~",
+		param = "私が「可愛がりたい」のは、別の「誰か」かもしれないわ",
 		ship_group = 70203,
 		flag = 0,
 		type = 1,
@@ -35603,12 +35593,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"什么？"
+				"なんだって？"
 			}
 		}
 	},
 	[3447] = {
-		param = "什么？",
+		param = "なんだって？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35616,7 +35606,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3448] = {
-		param = "指挥官难道不明白吗？",
+		param = "指揮官、本当にわからないの？",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35624,7 +35614,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3449] = {
-		param = "如果一定要宠着什么的话……",
+		param = "どうせなにかを可愛がらなきゃならないのなら……",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35632,7 +35622,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3450] = {
-		param = "这种专属的宠爱",
+		param = "私の愛情は……",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35640,7 +35630,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3451] = {
-		param = "只能属于指挥官你啊",
+		param = "あなただけに注ぐわ",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35656,7 +35646,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3453] = {
-		param = "指挥官有没有觉得，最近港区有点安静过头了？",
+		param = "指揮官、最近の母港、ちょっと静かすぎると思わない？",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35664,7 +35654,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3454] = {
-		param = "工作不太多，也没什么特别的事情发生",
+		param = "仕事はそんなに多くないし、特に大きな出来事も起きてないし ……",
 		ship_group = 70203,
 		flag = 0,
 		type = 1,
@@ -35672,12 +35662,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"清闲一点不好吗？"
+				"何事もなくていいじゃないか"
 			}
 		}
 	},
 	[3455] = {
-		param = "清闲一点不好吗？",
+		param = "何事もなくていいじゃないか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35685,7 +35675,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3456] = {
-		param = "风平浪静才是最危险的信号啊~",
+		param = "ふふ、それこそが危険信号よ〜",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35693,7 +35683,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3457] = {
-		param = "懈怠会像雪花一样累积",
+		param = "怠け心って雪みたいに積もっていって、やがて雪崩のようにどっと降りかかるの",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35701,7 +35691,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3458] = {
-		param = "直到雪崩的时候，才会突然发现……自己懒散过头了！",
+		param = "そのときに「あぁ、サボりすぎた」って後悔するわけ",
 		ship_group = 70203,
 		flag = 1,
 		type = 1,
@@ -35709,12 +35699,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"闲不下来"
+				"退屈になるとダメなタイプなんだ？"
 			}
 		}
 	},
 	[3459] = {
-		param = "恰巴耶夫真是闲不下来的类型呢",
+		param = "退屈になるとダメなタイプなんだ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35722,7 +35712,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3460] = {
-		param = "指挥官不也是吗~",
+		param = "指揮官だって同じじゃない～？",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35738,7 +35728,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3462] = {
-		param = "要不……",
+		param = "ところで……",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35746,7 +35736,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3463] = {
-		param = "我们来点「特 别 的」监督活动？",
+		param = "ちょっと特別な「見張り合いっこ」でもしない？",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35754,7 +35744,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3464] = {
-		param = "扮演“督查”的那种，听起来很有趣吧？",
+		param = "互いが互いの「監査官」を演じる…面白いと思わない？",
 		ship_group = 70203,
 		flag = 2,
 		type = 1,
@@ -35762,12 +35752,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"说说具体规则？"
+				"具体的にはどうするの？"
 			}
 		}
 	},
 	[3465] = {
-		param = "说说具体规则？",
+		param = "具体的には？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35775,7 +35765,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3466] = {
-		param = "很简单！我们轮流扮演“督查”，监督对方的一天",
+		param = "単純よ。交代で「監査官」役をやって、相手を1日中監督する",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35783,7 +35773,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3467] = {
-		param = "在监督期间，督查可以随意发号施令，对方必须绝对服从哦♡",
+		param = "監査官は好きなように指示を出せて、そして相手は絶対服従よ♡",
 		ship_group = 70203,
 		flag = 3,
 		type = 1,
@@ -35791,16 +35781,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"发号施令？"
+				"命令を出す？"
 			},
 			{
 				5,
-				"绝对服从？"
+				"絶対服従？"
 			}
 		}
 	},
 	[3468] = {
-		param = "发号施令？",
+		param = "命令を出す？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35808,7 +35798,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3469] = {
-		param = "没错，可以让对方做任何你希望的事情",
+		param = "そうね、相手に好きなことをなんでもさせられるわ",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35816,7 +35806,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3470] = {
-		param = "比如……",
+		param = "たとえば……",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35824,7 +35814,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3471] = {
-		param = "算了，即使我不举例，指挥官心中也一定有些想法了吧~",
+		param = "ふふふ、例は挙げなくても、指揮官ならいろいろ想像できるでしょう？",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35832,7 +35822,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3472] = {
-		param = "绝对服从？",
+		param = "絶対服従？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35840,7 +35830,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3473] = {
-		param = "没错，不能拒绝对方的任何要求哦",
+		param = "そう、相手の要求を絶対に断れないの",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35848,7 +35838,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3474] = {
-		param = "放心，我会温柔地“管理”你，不会让你太为难的",
+		param = "安心して、優しく指揮官を「管理」するから。あまり困らせたりはしないわ",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35856,7 +35846,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3475] = {
-		param = "指挥官……一定也会温♡柔♡地对待我吧~",
+		param = "指揮官も……私を優しく扱ってくれるでしょう？",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35864,7 +35854,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3476] = {
-		param = "我来做个小小的示范吧",
+		param = "ちょっと手始めにお手本を見せるわ",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35872,7 +35862,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3477] = {
-		param = "请立刻解开衬衫的前三颗纽扣，和咖啡合一张影发给我",
+		param = "まずは、シャツの上から3つ分ボタンを外して、コーヒーと一緒に写真撮って送ってくれる？",
 		ship_group = 70203,
 		flag = 0,
 		type = 1,
@@ -35880,12 +35870,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"……这和督查有什么关系？"
+				"それが「監督」に関係あるの？"
 			}
 		}
 	},
 	[3478] = {
-		param = "……这和督查有什么关系？",
+		param = "それが「監督」に関係あるの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35893,7 +35883,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3479] = {
-		param = "为了防止你过度工作，忽视了休息呀",
+		param = "もちろん。仕事しすぎないようにするためよ",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35901,7 +35891,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3480] = {
-		param = "我可是在认真监督指挥官的健康呢！",
+		param = "これでも指揮官の健康を真面目に管理してるから♪",
 		ship_group = 70203,
 		flag = 6,
 		type = 1,
@@ -35909,12 +35899,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"我申请驳回不合理的要求"
+				"不当要求の却下を願う"
 			}
 		}
 	},
 	[3481] = {
-		param = "我申请驳回不合理的要求",
+		param = "不当要求の却下を願う",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35922,7 +35912,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3482] = {
-		param = "指挥官是不是忘记了什么",
+		param = "指揮官、何か忘れてない？",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35930,7 +35920,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3483] = {
-		param = "要「绝 对 服 从」哦",
+		param = "絶・対・服・従、でしょ？",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35938,7 +35928,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3484] = {
-		param = "还是……",
+		param = "それとも……",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35946,7 +35936,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3485] = {
-		param = "你希望我来亲自检查？",
+		param = "画面越しではなく、私に直接「監督」されたいのかしら？",
 		ship_group = 70203,
 		flag = 7,
 		type = 1,
@@ -35954,12 +35944,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"是你忘记了什么才对"
+				"いや、そもそも……"
 			}
 		}
 	},
 	[3486] = {
-		param = "是你忘记了什么才对",
+		param = "いや、そもそも…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35967,7 +35957,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3487] = {
-		param = "我还没答应你要参加这个游戏呢",
+		param = "このゲームに参加するとは言ってないし",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -35983,7 +35973,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3489] = {
-		param = "………………太狡猾了！！！",
+		param = "……あら、ズルいわ～",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35991,7 +35981,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3490] = {
-		param = "看来要想个办法说服你才行呢",
+		param = "仕方ない。まずは指揮官を説得する方法を考えなきゃ",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -35999,7 +35989,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3491] = {
-		param = "在指挥室等我吧！",
+		param = "執務室で待ってて",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36007,7 +35997,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3492] = {
-		param = "让你好好见识一下，我♡的♡手♡段~",
+		param = "私のやりかたを見せてあげる",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36015,7 +36005,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3493] = {
-		param = "指挥官，下次的派对，你会穿什么呢？",
+		param = "指揮官、次のパーティーで何を着るかもう決めた？",
 		ship_group = 70203,
 		flag = 0,
 		type = 1,
@@ -36023,12 +36013,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"还没想好……"
+				"まだ考えてない……"
 			}
 		}
 	},
 	[3494] = {
-		param = "还没想好……",
+		param = "まだ考えてない……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36036,7 +36026,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3495] = {
-		param = "不是什么正式场合，随便穿就行吧？",
+		param = "別にフォーマルでもないし、適当に着ていけばいいかなって",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36044,7 +36034,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3496] = {
-		param = "！！！那可不行",
+		param = "それはダメよ！",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36052,7 +36042,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3497] = {
-		param = "既然是派对，就要好好打扮嘛",
+		param = "パーティーなんだから、ちゃんとおめかししないと",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36060,7 +36050,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3498] = {
-		param = "我正在烦恼到底穿什么比较好",
+		param = "実は私もどれを着ようか迷ってて♪",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36068,7 +36058,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3499] = {
-		param = "要不要帮我参谋一下？",
+		param = "指揮官、ちょっとアドバイスを貰っても？",
 		ship_group = 70203,
 		flag = 1,
 		type = 1,
@@ -36076,12 +36066,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"可以"
+				"いいよ"
 			}
 		}
 	},
 	[3500] = {
-		param = "可以啊，你先说说都有什么选项？",
+		param = "いいよ。どんな候補があるの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36089,7 +36079,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3501] = {
-		param = "嗯……一件是丝质长裙，修身的剪裁，穿上后会很好地展现身材曲线~",
+		param = "まずは……シルクのロングドレス。体のラインがすごくキレイに出るタイプ",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36097,7 +36087,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3502] = {
-		param = "另一件是短款的小洋装，带一点俏皮感，不过……裙摆有点短呢~",
+		param = "もう一つは……丈が短めのミニドレス。ちょっとあざとかわいい感じだけど……スカート丈がかなり短いわ",
 		ship_group = 70203,
 		flag = 2,
 		type = 1,
@@ -36105,12 +36095,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"听起来都不错"
+				"どっちも良さそうだが…"
 			}
 		}
 	},
 	[3503] = {
-		param = "听起来都不错啊，选一个自己喜欢的吧",
+		param = "どっちも良さそうだが…気に入った方を選べばいいんじゃない？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36118,7 +36108,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3504] = {
-		param = "就是因为两件都很喜欢才会来问你的！",
+		param = "どっちも好きだから迷ってるわ",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36126,7 +36116,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3505] = {
-		param = "实在难以抉择啊~~~~",
+		param = "あーあ、私、とてもじゃないけど選べないの～",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36134,7 +36124,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3506] = {
-		param = "指挥官要帮我选，不然我会一直犹豫下去的",
+		param = "指揮官が選んでくれなきゃ一生悩んじゃうわ～",
 		ship_group = 70203,
 		flag = 3,
 		type = 1,
@@ -36142,16 +36132,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"长裙，优雅又迷人"
+				"ロングドレスでいこう"
 			},
 			{
 				5,
-				"短裙，俏皮又活泼"
+				"ミニドレスでいこう"
 			}
 		}
 	},
 	[3507] = {
-		param = "长裙，优雅又迷人",
+		param = "ロングドレスでいこう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36159,7 +36149,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3508] = {
-		param = "指挥官的品味不错呢",
+		param = "ふふ、指揮官のセンスは悪くないわね",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36167,7 +36157,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3509] = {
-		param = "不过这条长裙背后的丝带有点……复杂",
+		param = "でもぉ、このロングドレスの背中についてるリボンがなかなか複雑で……",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36175,7 +36165,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3510] = {
-		param = "系起来可不容易，要有人帮忙才行///",
+		param = "誰かに結ぶのを手伝ってもらわないと♪",
 		ship_group = 70203,
 		flag = 4,
 		type = 1,
@@ -36183,12 +36173,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"再换一套？"
+				"他にないの…？"
 			}
 		}
 	},
 	[3511] = {
-		param = "短裙，俏皮又活泼",
+		param = "ミニドレスでいこう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36196,7 +36186,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3512] = {
-		param = "指挥官是喜欢活泼一点的风格吗？",
+		param = "やっぱり指揮官は元気な感じが好きなのかしら？",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36204,7 +36194,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3513] = {
-		param = "短裙虽然可爱……但背后的拉链设计有点麻烦呢",
+		param = "ミニドレスは可愛いけど……背中のジッパーがちょっと大変なのよね",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36212,7 +36202,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3514] = {
-		param = "一个人恐怕很难拉上去……",
+		param = "一人じゃうまく上げられそうにないわ",
 		ship_group = 70203,
 		flag = 5,
 		type = 1,
@@ -36220,12 +36210,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"再换一套？"
+				"他にないの…？"
 			}
 		}
 	},
 	[3515] = {
-		param = "要不换一套穿起来简单一点的？",
+		param = "他にないの…？着やすいやつとか…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36233,7 +36223,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3516] = {
-		param = "可是这两套裙子的面料手感真的很好，让人舍不得放弃",
+		param = "この2着は生地の肌ざわりが本当にいいの。捨てがたいわ",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36241,7 +36231,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3517] = {
-		param = "说起来，如果不是亲眼看到款式，亲自感受面料质感……",
+		param = "実際に見てみないと生地の質感とかは分からないでしょうし…",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36249,7 +36239,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3518] = {
-		param = "恐怕没法做出公正的判断吧？",
+		param = "さすが指揮官でも、想像だけでは正しい判断ができないんじゃない？",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36257,7 +36247,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3519] = {
-		param = "所以……指挥官干脆直接来我的卧室看看？",
+		param = "だから……私の部屋に直接来てみる？",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36273,7 +36263,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3521] = {
-		param = "这样就不用光靠描述啦，指挥官还能「亲 自 检 查」哪一套更合适~",
+		param = "説明だけじゃなく、自分の目と手で「直接」チェックできるでしょ？♪",
 		ship_group = 70203,
 		flag = 6,
 		type = 1,
@@ -36281,12 +36271,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"那我岂不是提前看到了你的装扮"
+				"でもそうすると、本番のドレス姿がバレちゃうんじゃない？"
 			}
 		}
 	},
 	[3522] = {
-		param = "那我岂不是提前看到了你的装扮",
+		param = "それじゃ本番の姿が……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36294,7 +36284,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3523] = {
-		param = "没问题吗？",
+		param = "大丈夫か？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36302,7 +36292,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3524] = {
-		param = "如果是指挥官的话……",
+		param = "指揮官なら……",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36310,7 +36300,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3525] = {
-		param = "完全没问题哦♡",
+		param = "まったく問題ないわよ♡",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36318,7 +36308,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3526] = {
-		param = "毕竟，只有特别的人才有这个“特权”呢~",
+		param = "だってこれも特別な人だけが得られる特権だもの",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36326,7 +36316,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3527] = {
-		param = "而且，说不定我还需要指挥官帮忙……",
+		param = "それに……もしかしたら指揮官に手伝ってもらうことになるかもしれないし",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36342,12 +36332,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"什么忙？"
+				"ーー手伝い？"
 			}
 		}
 	},
 	[3529] = {
-		param = "什么忙？",
+		param = "手伝い？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36355,7 +36345,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3530] = {
-		param = "无论哪条裙子，我都没法自己好好穿上呢",
+		param = "どっちのドレスも私一人じゃうまく着られないわ",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36363,7 +36353,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3531] = {
-		param = "绑丝带或者拉拉链这种精细的活计",
+		param = "リボンを結んだり、ジッパーを引き上げたり……そういう細かい作業をね",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36371,7 +36361,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3532] = {
-		param = "当然要交给最熟悉我身材的指挥官来处理",
+		param = "だから、私の体を一番知ってる指揮官にお願いしたいわ",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36379,7 +36369,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3533] = {
-		param = "门已经打开了哦",
+		param = "ドアはもう開けてあるから",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36387,7 +36377,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3534] = {
-		param = "快点来吧，我亲爱的……",
+		param = "早くおいで。愛しい……",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36395,7 +36385,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3535] = {
-		param = "临 时 助 手♡",
+		param = "臨時助手さん♡",
 		ship_group = 70203,
 		type = 1,
 		option = "",
@@ -36411,7 +36401,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3537] = {
-		param = "晚上好",
+		param = "こんばんは",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -36419,7 +36409,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3538] = {
-		param = "我刚才路过指挥室发现灯还是亮的",
+		param = "さっき執務室の前を通りかかったら、まだ明かりがついていましたけど…",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -36427,7 +36417,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3539] = {
-		param = "这么晚了还在工作吗……？",
+		param = "もしやこんな遅くまでお仕事なんですか……？",
 		ship_group = 110201,
 		flag = 0,
 		type = 1,
@@ -36435,16 +36425,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"没错！"
+				"ああ"
 			},
 			{
 				2,
-				"是的……"
+				"ちょっとな…"
 			}
 		}
 	},
 	[3540] = {
-		param = "没错！我还在处理一些收尾工作！",
+		param = "ああ。ちょうど残りを片付けてるところなんだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36452,7 +36442,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3541] = {
-		param = "是啊……还有一些工作需要在今天处理完毕",
+		param = "ちょっとな……今日中に終わらせたい仕事が少し残ってるんだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36460,7 +36450,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3542] = {
-		param = "指挥官的工作真的很辛苦呢……",
+		param = "指揮官さんのお仕事って、本当に大変ですね……",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -36468,7 +36458,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3543] = {
-		param = "每天的压力都很大吧？",
+		param = "日々のストレスも大きいんじゃ…",
 		ship_group = 110201,
 		flag = 0,
 		type = 1,
@@ -36476,16 +36466,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"嗯，是这样的……"
+				"まぁ確かに……"
 			},
 			{
 				4,
-				"没有，我热爱工作！"
+				"いや、むしろ望むところだ"
 			}
 		}
 	},
 	[3544] = {
-		param = "嗯，是这样的……",
+		param = "まぁ確かに……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36493,7 +36483,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3545] = {
-		param = "没有，我热爱工作！",
+		param = "いや、むしろ望むところだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36501,7 +36491,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3546] = {
-		param = "你呢？",
+		param = "ゼーヴェンはどうかな？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36509,7 +36499,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3547] = {
-		param = "我的话，在港区每天都很开心！",
+		param = "私は、母港で毎日楽しく過ごしていますよ♪",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -36517,7 +36507,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3548] = {
-		param = "就算偶尔有压力了，也可以去和科莱克洁聊聊天~",
+		param = "たまにストレスを感じる時はありますけど、「クライン・フルンチェ」とおしゃべりすれば元気になりますから",
 		ship_group = 110201,
 		flag = 0,
 		type = 1,
@@ -36525,12 +36515,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"科莱克洁是……？"
+				"クライン・フルンチェって……？"
 			}
 		}
 	},
 	[3549] = {
-		param = "科莱克洁是……？",
+		param = "クライン・フルンチェって……？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36538,7 +36528,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3550] = {
-		param = "是我养的一盆植物哦~",
+		param = "育てている観葉植物ですよ〜",
 		ship_group = 110201,
 		flag = 5,
 		type = 1,
@@ -36546,12 +36536,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"好特别的名字"
+				"ユニークな名前だな"
 			}
 		}
 	},
 	[3551] = {
-		param = "好特别的名字",
+		param = "ユニークな名前だな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36559,7 +36549,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3552] = {
-		param = "对吧~我也是这么认为的！",
+		param = "ふふ、そうでしょう？私もそう思います！",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -36567,7 +36557,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3553] = {
-		param = "指挥官，这孩子说，想要和你问好呢~",
+		param = "あら、この子、指揮官さんに挨拶したいって言ってますよ〜",
 		ship_group = 110201,
 		flag = 6,
 		type = 1,
@@ -36575,12 +36565,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"你是怎么和植物交流的？"
+				"植物と会話できるの？"
 			}
 		}
 	},
 	[3554] = {
-		param = "你是怎么和植物交流的？",
+		param = "植物と会話できるの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36588,7 +36578,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3555] = {
-		param = "植物虽然不会说话，但它们和我能够感受彼此的心意哦",
+		param = "人の言葉が話せなくても、心はちゃんと通じ合えますよ〜",
 		ship_group = 110201,
 		flag = 7,
 		type = 1,
@@ -36596,12 +36586,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"那也替我向它问声好"
+				"じゃあ、その子にもよろしく伝えてくれる？"
 			}
 		}
 	},
 	[3556] = {
-		param = "那也替我向它问声好",
+		param = "じゃあその子にも",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36617,7 +36607,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3558] = {
-		param = "哼哼哼~这孩子很喜欢指挥官你呢~",
+		param = "ふふふ。この子、指揮官さんのことが大好きだそうです〜",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -36625,7 +36615,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3559] = {
-		param = "不过它也很担心你的作息，希望你能早点休息~",
+		param = "でも、指揮官さんの生活リズムが心配で、早く休んでほしいとも言ってますね",
 		ship_group = 110201,
 		flag = 8,
 		type = 1,
@@ -36633,12 +36623,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				9,
-				"多谢你和科莱克洁的关心"
+				"ゼーヴェンもフルンチェもありがとう"
 			}
 		}
 	},
 	[3560] = {
-		param = "多谢你和科莱克洁的关心",
+		param = "ゼーヴェンもフルンチェもありがとう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36646,7 +36636,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[3561] = {
-		param = "我会早点休息的！",
+		param = "早く休むようにするよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36654,7 +36644,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[3562] = {
-		param = "那就，提前晚安啦！",
+		param = "じゃあ、今日はここら辺で失礼しますね",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -36662,7 +36652,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[3563] = {
-		param = "指挥官，晚安~",
+		param = "指揮官さん、おやすみなさーい♪",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -36670,7 +36660,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[3564] = {
-		param = "指挥官，工作进展还顺利吗？",
+		param = "指揮官さん、お仕事は順調ですか？",
 		ship_group = 110201,
 		flag = 0,
 		type = 1,
@@ -36678,7 +36668,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"[加班]"
+				"[残業]"
 			}
 		}
 	},
@@ -36691,7 +36681,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3566] = {
-		param = "一直这样连轴转可不行呢……",
+		param = "そんな…ずっと働き詰めじゃ、身体も心ももたなくなります……",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -36699,7 +36689,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3567] = {
-		param = "就让我来为指挥官准备下午茶，好好放松一下吧~",
+		param = "私がアフタヌーンティーを用意しておきますので、指揮官さん、二人でゆっくりしましょう！",
 		ship_group = 110201,
 		flag = 1,
 		type = 1,
@@ -36707,7 +36697,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"[吃的！]"
+				"[ごはん！]"
 			}
 		}
 	},
@@ -36720,7 +36710,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3569] = {
-		param = "有了，除了泡茶之外，我再来给你做些点心吧~",
+		param = "はい！お茶だけじゃなく、お菓子も作って差し上げますね！",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -36728,7 +36718,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3570] = {
-		param = "比如美味的蜂蜜焦糖华夫饼~",
+		param = "たとえば、ハチミツとキャラメル掛けのふわふわワッフルとか〜",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -36736,7 +36726,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3571] = {
-		param = "我记得从敦刻尔克小姐那里借来的超厉害的新工具在……",
+		param = "ダンケルクさんから借りたすごい調理マシンは確か……",
 		ship_group = 110201,
 		flag = 2,
 		type = 1,
@@ -36744,12 +36734,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"等等……！"
+				"待った！"
 			}
 		}
 	},
 	[3572] = {
-		param = "等等……！",
+		param = "待った！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36757,7 +36747,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3573] = {
-		param = "……糟糕",
+		param = "……もう手遅れか…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36765,7 +36755,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3574] = {
-		param = "七省，你还在么？",
+		param = "ゼーヴェン、大丈夫か……？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36773,7 +36763,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3575] = {
-		param = "……你的新工具还好么？",
+		param = "……調理マシンは大丈夫か？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36781,7 +36771,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3576] = {
-		param = "……七省？",
+		param = "……ゼーヴェン？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36797,7 +36787,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3578] = {
-		param = "为什么……会冒烟了呢……",
+		param = "どうして……煙が出てきました……",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -36805,7 +36795,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3579] = {
-		param = "我明明看了好几遍说明书了……",
+		param = "何度も説明書を読んだのに……",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -36813,7 +36803,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3580] = {
-		param = "不是说，这个用起来很方便的吗……？",
+		param = "操作がとても簡単とも聞いたのに…うぅ",
 		ship_group = 110201,
 		flag = 3,
 		type = 1,
@@ -36821,12 +36811,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"快切断电源！"
+				"早く電源を切るんだ！"
 			}
 		}
 	},
 	[3581] = {
-		param = "快切断电源！",
+		param = "早く電源を切るんだ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36834,7 +36824,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3582] = {
-		param = "好的……我找找！",
+		param = "はい！……探してみます！",
 		ship_group = 110201,
 		flag = 4,
 		type = 1,
@@ -36842,12 +36832,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"怎么样，战况如何？"
+				"状況は？"
 			}
 		}
 	},
 	[3583] = {
-		param = "怎么样，战况如何？",
+		param = "状況は？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36855,7 +36845,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3584] = {
-		param = "你成功切断电源了么？",
+		param = "電源、ちゃんと切れた？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36863,7 +36853,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3585] = {
-		param = "…………",
+		param = "おーい…………",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36871,7 +36861,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3586] = {
-		param = "……七省？",
+		param = "……ゼーヴェン？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36879,7 +36869,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3587] = {
-		param = "战斗失败了……",
+		param = "失敗しちゃいました……",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -36887,7 +36877,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3588] = {
-		param = "地上都是蛋液，我滑倒了……",
+		param = "床が生卵だらけになり、滑っちゃいまして……",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -36895,7 +36885,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3589] = {
-		param = "然后我就想着先清理一下地板……",
+		param = "先に床を掃除しようとしたら……",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -36903,7 +36893,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3590] = {
-		param = "然后更多的机器冒烟了……",
+		param = "他の機械まで煙が……",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -36911,7 +36901,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3591] = {
-		param = "呜呜，厨房完全变成一团糟了……",
+		param = "うぅ、キッチンがめちゃくちゃになりました…",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -36927,7 +36917,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3593] = {
-		param = "怎么办……指挥官！",
+		param = "どうしましょう……指揮官さん！",
 		ship_group = 110201,
 		flag = 5,
 		type = 1,
@@ -36935,12 +36925,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"总之……"
+				"とにかく"
 			}
 		}
 	},
 	[3594] = {
-		param = "总之，你先去找一个安全的地方，等我过来！",
+		param = "とにかく、まず安全な場所に避難して。今行くから！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36948,7 +36938,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3595] = {
-		param = "我已经在联系夕张去断掉总闸了，别慌！",
+		param = "今、夕張にブレーカーを落としてもらうよう連絡したから、もう大丈夫！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36956,7 +36946,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3596] = {
-		param = "好的，我已经跑到厨房外，把门关上了",
+		param = "ありがとうございます。キッチンの外に出て、ドアも閉めておきましたっ",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -36964,7 +36954,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3597] = {
-		param = "等等，我是不是，忘记关烤箱了……",
+		param = "あっ……オーブンの電源を切るのを忘れてしまったかも……",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -36972,7 +36962,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3598] = {
-		param = "……刚刚好像爆炸了……好在我不在旁边",
+		param = "……なんか爆発音が……キッチンから出てよかったです",
 		ship_group = 110201,
 		flag = 6,
 		type = 1,
@@ -36980,12 +36970,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"……你不是卡在打鸡蛋的那一步了么？"
+				"……卵は使えなくなったんじゃないの？"
 			}
 		}
 	},
 	[3599] = {
-		param = "……你不是卡在打鸡蛋的那一步了么？",
+		param = "……卵は使えなくなったんじゃないの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -36993,7 +36983,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3600] = {
-		param = "……为什么会启动烤箱？",
+		param = "……なんでオーブンまでつけたの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37001,7 +36991,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3601] = {
-		param = "我想着先让它热热身嘛……",
+		param = "その…ウォーミングアップさせようかと……",
 		ship_group = 110201,
 		flag = 7,
 		type = 1,
@@ -37009,12 +36999,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"……站在原地不要动任何东西了！"
+				"……動かないで何も触らないで！"
 			}
 		}
 	},
 	[3602] = {
-		param = "……站在原地不要动任何东西了！",
+		param = "……動かないで何も触らないで！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37022,7 +37012,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3603] = {
-		param = "我快要到了！",
+		param = "すぐ着くから！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37030,7 +37020,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3604] = {
-		param = "知道了，我等你……",
+		param = "はい……大人しく待ちます……",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -37046,7 +37036,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3606] = {
-		param = "指挥官，你现在有空么？",
+		param = "指揮官さん、今少しお時間ありますか？",
 		ship_group = 110201,
 		flag = 0,
 		type = 1,
@@ -37054,7 +37044,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"[休息中]"
+				"[休憩中]"
 			}
 		}
 	},
@@ -37067,7 +37057,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3608] = {
-		param = "正好在休息中，有心事？",
+		param = "ちょうど休憩中だけど。何か悩み事でも？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37075,7 +37065,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3609] = {
-		param = "嗯……",
+		param = "はい……",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -37083,7 +37073,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3610] = {
-		param = "果然什么事都瞒不过指挥官呢",
+		param = "やっぱり、指揮官さんには何でもお見通しですね",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -37091,7 +37081,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3611] = {
-		param = "那个……其实……",
+		param = "その……実は……",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -37099,7 +37089,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3612] = {
-		param = "是关于我们的孩子的事情……",
+		param = "私たちの子供について……",
 		ship_group = 110201,
 		flag = 1,
 		type = 1,
@@ -37107,7 +37097,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"？？？？"
+				"？？？"
 			},
 			{
 				3,
@@ -37116,7 +37106,7 @@ pg.base.activity_ins_chat_language = {
 		}
 	},
 	[3613] = {
-		param = "？？？？",
+		param = "？？？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37132,7 +37122,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3615] = {
-		param = "等等……什么的孩子？？？",
+		param = "待った……ゼーヴェンとの子供って…？？？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37140,7 +37130,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3616] = {
-		param = "我们的孩子呀？",
+		param = "私たちの子、ですよ？",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -37148,7 +37138,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3617] = {
-		param = "这些玫瑰花种子是我和你一起种下的，当然就算我们的孩子了",
+		param = "このバラの種ってふたりで一緒に植えましたよね？だから、私たちの子供なんですけど…",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -37156,7 +37146,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3618] = {
-		param = "自从种下去之后我就在苦恼，到底要给孩子们取什么名字好呢？",
+		param = "実は植えてからずっと悩んでました…どんな名前がいいかなって…",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -37164,7 +37154,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3619] = {
-		param = "可是它们马上就要诞生到这世上了，我还是没有好主意……",
+		param = "もうすぐ命を授かるというのに、まだ全然決まらなくて……",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -37172,7 +37162,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3620] = {
-		param = "好焦虑……",
+		param = "もうどうしたら……",
 		ship_group = 110201,
 		flag = 0,
 		type = 1,
@@ -37180,7 +37170,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"……"
+				"………"
 			}
 		}
 	},
@@ -37193,7 +37183,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3622] = {
-		param = "没关系的，给孩子们起名是大事，你也不要有太大的压力",
+		param = "あ、大丈夫です。子供たちの名前は大事ですから、あまりプレッシャーに思わないでくださいっ",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -37201,7 +37191,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3623] = {
-		param = "我只是想听听你的想法做个参考啦！",
+		param = "ただ参考に、指揮官さんの意見を聞いてみたかっただけですから…！",
 		ship_group = 110201,
 		flag = 4,
 		type = 1,
@@ -37209,12 +37199,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"好吧……"
+				"バラの名前、か……"
 			}
 		}
 	},
 	[3624] = {
-		param = "好吧……关于这些玫瑰花的名字……",
+		param = "バラの名前、か……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37222,7 +37212,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3625] = {
-		param = "是因为数量太多么？",
+		param = "もしかして…数が多かったりして？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37230,7 +37220,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3626] = {
-		param = "嗯……大概有二三十个孩子呢",
+		param = "はい……なにせ二三十株ありますから",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -37238,7 +37228,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3627] = {
-		param = "因为是同一品种的，之后颜色也肯定差不多……",
+		param = "しかも全部同じ品種で、色も大して差は出ないでしょうし……",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -37254,12 +37244,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"小红，我记得是叫科莱若德……"
+				"確か……"
 			}
 		}
 	},
 	[3629] = {
-		param = "小红，我记得是叫科莱若德，没错吧？",
+		param = "「赤い子」って確か……「クライン・ロートヘ（Klein Roodje）」って呼ぶんだっけ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37267,7 +37257,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3630] = {
-		param = "没错没错~",
+		param = "そうです〜！",
 		ship_group = 110201,
 		flag = 6,
 		type = 1,
@@ -37275,12 +37265,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"（试试武器编号法）"
+				"（装備の型番風にしてみるか）"
 			}
 		}
 	},
 	[3631] = {
-		param = "假设有20株的话，依次叫科莱若德、科莱若德MKII，一直到科莱若德MKXX",
+		param = "もし20株あるなら、クライン・ロートヘ、クライン・ロートヘMKII……という感じで……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37288,7 +37278,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3632] = {
-		param = "你看如何！",
+		param = "どうかな？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37296,7 +37286,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3633] = {
-		param = "……好像，有点怪怪的",
+		param = "……うーん、ちょっとしっくりこないですね…",
 		ship_group = 110201,
 		flag = 7,
 		type = 1,
@@ -37304,12 +37294,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"唔……"
+				"じゃあ考え方を変えて"
 			}
 		}
 	},
 	[3634] = {
-		param = "唔……",
+		param = "じゃあ考え方を変えて",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37317,7 +37307,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3635] = {
-		param = "要不然拓展一下思路，不拘泥于形状或者颜色呢？",
+		param = "じゃあ形や色にこだわらないで色々視野を広げたら…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37325,7 +37315,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3636] = {
-		param = "比如其中一株叫科莱瓦根斯，你觉得怎么样？",
+		param = "たとえば、この子をクライン・ファルケンチェ（Klein Varkentje）って呼ぶのは？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37333,7 +37323,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3637] = {
-		param = "是“小猪猪”的意思",
+		param = "「子豚ちゃん」って親しみを込めてね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37341,7 +37331,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3638] = {
-		param = "好棒的名字……之前我怎么没想到……！",
+		param = "とても可愛らしいですね……どうして今まで思いつかなかったんでしょう……！",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -37349,7 +37339,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3639] = {
-		param = "那我再去想一些可爱的词！",
+		param = "じゃあ、もっと可愛いお名前を考えてみます！",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -37357,7 +37347,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3640] = {
-		param = "等这孩子们长大了，一定会很喜欢的~",
+		param = "この子たちが大きくなったら、きっと気に入ってくれると思います♪",
 		ship_group = 110201,
 		type = 1,
 		option = "",
@@ -37373,7 +37363,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3642] = {
-		param = "指挥官，今天在工作中有什么特别的感受么？",
+		param = "指揮官、今日の仕事中に、何かがいつもと変わった気がしませんか？",
 		ship_group = 110101,
 		flag = 0,
 		type = 1,
@@ -37381,12 +37371,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"指挥室里，多了一些植物……"
+				"執務室に植物が……"
 			}
 		}
 	},
 	[3643] = {
-		param = "指挥室里，多了一些植物……",
+		param = "執務室に植物が……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37394,7 +37384,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3644] = {
-		param = "没错",
+		param = "そうなんです",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37402,7 +37392,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3645] = {
-		param = "在生活环境中布置绿植对身心健康有好处，所以我放了一些在指挥室",
+		param = "生活環境に緑を取り入れると心身の健康に良いので、執務室にも少し植えました",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37410,7 +37400,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3646] = {
-		param = "今天在工作中已经多少感觉到空气的不同了吧~",
+		param = "普段の空気と違う感じがしませんでしたか？",
 		ship_group = 110101,
 		flag = 1,
 		type = 1,
@@ -37418,12 +37408,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"确实如此，但是……"
+				"確かに、でも……"
 			}
 		}
 	},
 	[3647] = {
-		param = "确实如此，但是……",
+		param = "確かに、でも……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37431,7 +37421,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3648] = {
-		param = "现在指挥室里的植物数量，是不是有点太多了？",
+		param = "数がちょっと多すぎないか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37439,7 +37429,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3649] = {
-		param = "像一片……丛林",
+		param = "もうジャングルみたいになっているが……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37447,7 +37437,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3650] = {
-		param = "这些都是我精心挑选的室内植物",
+		param = "どれも室内向けに厳選した植物です",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37455,7 +37445,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3651] = {
-		param = "你看到那个叶片形状像鹿角的植物了么？那是鹿角蕨",
+		param = "葉っぱが鹿の角に似ている植物はビカクシダといいまして",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37463,7 +37453,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3652] = {
-		param = "有净化空气，吸收有害物质的功能",
+		param = "空気を浄化し、有害物質を吸収してくれます",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37471,7 +37461,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3653] = {
-		param = "墙边那个有心型叶片的植物，则是绿萝",
+		param = "そして壁際のハート型の葉の植物はポトス",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37479,7 +37469,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3654] = {
-		param = "绿萝翠绿的叶片能够缓解办公时的焦虑",
+		param = "瑞々しい葉っぱは、お仕事のストレスや不安を和らげてくれることでしょう",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37487,7 +37477,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3655] = {
-		param = "这里的每一株绿植都是这样，有各自独特的功效",
+		param = "こういう風に、この部屋の植物はどれも異なる効果を持っていて",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37495,7 +37485,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3656] = {
-		param = "和我的实验室相比，数量并不算多",
+		param = "数も私のラボと比べたら、そこまで多いとは言えないと思いますが…",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37503,7 +37493,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3657] = {
-		param = "我完全了解每一种植物，所以，不需要担心绿植放置合理性的问题",
+		param = "植物の特性はどれもちゃんと把握していますから心配いりませんよ",
 		ship_group = 110101,
 		flag = 2,
 		type = 1,
@@ -37511,12 +37501,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"原来如此……"
+				"そうか…"
 			}
 		}
 	},
 	[3658] = {
-		param = "原来如此……辛苦你了！",
+		param = "そうか……エヴァーツェンには世話をかけたな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37524,7 +37514,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3659] = {
-		param = "不辛苦，都是我应该做的",
+		param = "いえ、すべきことをしたまでですから",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37532,7 +37522,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3660] = {
-		param = "另外，今后我需要每天造访指挥室",
+		param = "それと、これからは毎日執務室に立ち寄らせてください",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37540,7 +37530,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3661] = {
-		param = "想要让植物保持活力，日常的专业养护是必须的",
+		param = "植物の健康を保つには、日々のプロの手入れが欠かせません",
 		ship_group = 110101,
 		flag = 3,
 		type = 1,
@@ -37548,12 +37538,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"有空的时候……"
+				"じゃあ今度時間があるとき…"
 			}
 		}
 	},
 	[3662] = {
-		param = "有空的时候，也教教我怎么照顾植物吧",
+		param = "じゃあ時間があるとき、自分にも手入れの仕方を教えてもらえるか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37561,7 +37551,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3663] = {
-		param = "没有问题",
+		param = "もちろん大丈夫ですよ",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37569,7 +37559,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3664] = {
-		param = "接下来的时间就打扰了",
+		param = "少しの間お邪魔しますね",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37577,7 +37567,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3665] = {
-		param = "指挥官",
+		param = "指揮官",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37585,7 +37575,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3666] = {
-		param = "不好了",
+		param = "大変です",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37593,7 +37583,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3667] = {
-		param = "出事了",
+		param = "大変です",
 		ship_group = 110101,
 		flag = 0,
 		type = 1,
@@ -37601,12 +37591,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"发生什么了？"
+				"どうかした？"
 			}
 		}
 	},
 	[3668] = {
-		param = "发生什么了？",
+		param = "どうかした？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37614,7 +37604,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3669] = {
-		param = "指挥室的仙人掌，枯萎了",
+		param = "執務室のサボテンが、枯れてしまいました…",
 		ship_group = 110101,
 		flag = 1,
 		type = 1,
@@ -37622,7 +37612,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"[发呆]"
+				"[えー]"
 			}
 		}
 	},
@@ -37635,7 +37625,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3671] = {
-		param = "难道是因为，我昨天给仙人掌浇了水……",
+		param = "昨日水やりをしたのがいけなかったのかな……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37643,7 +37633,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3672] = {
-		param = "但我明明是按照你教学的手法操作的……",
+		param = "おかしいな。ちゃんとエヴァーツェンに教わった通りにやったはずなんだけど……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37651,7 +37641,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3673] = {
-		param = "原来如此",
+		param = "なるほど……",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37659,7 +37649,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3674] = {
-		param = "看来，仙人掌枯萎的原因是浇水过量",
+		param = "であれば原因はおそらく、水のあげすぎですね",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37667,7 +37657,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3675] = {
-		param = "指挥官你的操作的确是正确的",
+		param = "指揮官は間違ったわけではありません",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37675,7 +37665,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3676] = {
-		param = "只不过",
+		param = "ただ……",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37683,7 +37673,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3677] = {
-		param = "昨天早上我就已经浇过水了",
+		param = "実は昨日の朝、私も水やりをしてました……",
 		ship_group = 110101,
 		flag = 2,
 		type = 1,
@@ -37691,12 +37681,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"糟糕……"
+				"そういうことだったのか"
 			}
 		}
 	},
 	[3678] = {
-		param = "糟糕，我当时应该注意一下土壤的湿润情况的……",
+		param = "そういうことだったのか。土の湿り具合を確認しておくべきだったな……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37712,7 +37702,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3680] = {
-		param = "没事",
+		param = "大丈夫です",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37720,7 +37710,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3681] = {
-		param = "我已经用魔法让它恢复活力了",
+		param = "魔法で元気を取り戻させておきましたから",
 		ship_group = 110101,
 		flag = 3,
 		type = 1,
@@ -37728,16 +37718,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"？"
+				"え？"
 			},
 			{
 				4,
-				"不愧是郁金王国！"
+				"さすがチュリッパ王国……！"
 			}
 		}
 	},
 	[3682] = {
-		param = "……？不愧是郁金王国！",
+		param = "……？さすがチュリッパ王国……！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37745,7 +37735,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3683] = {
-		param = "太神奇了",
+		param = "すごい！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37753,7 +37743,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3684] = {
-		param = "我还会更神奇的魔法呢，想看么？",
+		param = "もっとすごい魔法もありますけど、見てみますか？",
 		ship_group = 110101,
 		flag = 4,
 		type = 1,
@@ -37761,16 +37751,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"想看！"
+				"見たい！"
 			},
 			{
 				6,
-				"[点头]"
+				"[頷く]"
 			}
 		}
 	},
 	[3685] = {
-		param = "想看！",
+		param = "見たい！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37786,7 +37776,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3687] = {
-		param = "温室等你",
+		param = "温室で指揮官を待っています",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37794,7 +37784,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3688] = {
-		param = "不见不散哦",
+		param = "約束ですよ",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37802,7 +37792,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3689] = {
-		param = "指挥官，不在指挥室吗？",
+		param = "指揮官、もしかして外出中ですか…？",
 		ship_group = 110101,
 		flag = 0,
 		type = 1,
@@ -37810,12 +37800,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"对，我刚出来透气"
+				"ああ。ちょっと気分転換にね"
 			}
 		}
 	},
 	[3690] = {
-		param = "对，我刚出来透气",
+		param = "ああ。ちょっと気分転換にね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37823,7 +37813,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3691] = {
-		param = "午后的阳光很不错呢",
+		param = "午後の日差しが気持ちよくて",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37831,7 +37821,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3692] = {
-		param = "你已经开始本日维护了？",
+		param = "もう手入れを始めてるの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37839,7 +37829,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3693] = {
-		param = "嗯，我在检查指挥室绿植的状况",
+		param = "はい、植物の様子をチェックしているところです",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37847,7 +37837,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3694] = {
-		param = "绿萝的叶子最近精神了不少",
+		param = "ポトスの葉が最近ぐんと元気になってきています",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37855,7 +37845,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3695] = {
-		param = "指挥官有在用心照顾呢",
+		param = "指揮官もちゃんと手入れしてくださっていますね",
 		ship_group = 110101,
 		flag = 1,
 		type = 1,
@@ -37876,7 +37866,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3697] = {
-		param = "其实我今天来找你还有件事",
+		param = "実は今日、指揮官に用があって……",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37884,7 +37874,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3698] = {
-		param = "一会等我养护结束后，有没有兴趣和我去一趟植物园？",
+		param = "お手入れが終わりましたら、一緒に植物園に行きませんか？",
 		ship_group = 110101,
 		flag = 2,
 		type = 1,
@@ -37892,12 +37882,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"今天要观察什么？"
+				"今日は何を観察するの？"
 			}
 		}
 	},
 	[3699] = {
-		param = "没问题，今天要观察什么？",
+		param = "いいよ、今日は何を観察するの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37905,7 +37895,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3700] = {
-		param = "昆虫",
+		param = "昆虫です",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37913,7 +37903,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3701] = {
-		param = "植物园在办昆虫展，想和你一起观察银线蜉蝣的产卵过程",
+		param = "植物園で昆虫展をやっていて、メイフライの産卵行動を一緒に観察できたらと",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37921,7 +37911,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3702] = {
-		param = "感觉会很浪漫",
+		param = "きっとロマンチックなので",
 		ship_group = 110101,
 		flag = 3,
 		type = 1,
@@ -37929,16 +37919,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"浪漫……么？"
+				"ロマンチック……？"
 			},
 			{
 				5,
-				"确实很浪漫！"
+				"確かにロマンチックだな…"
 			}
 		}
 	},
 	[3703] = {
-		param = "浪漫……么？",
+		param = "ロマンチック……？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37946,7 +37936,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3704] = {
-		param = "很浪漫",
+		param = "ロマンチックですよ。とても",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37954,7 +37944,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3705] = {
-		param = "确实很浪漫！",
+		param = "確かにロマンチックだな…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37962,7 +37952,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3706] = {
-		param = "就知道你会懂的！",
+		param = "指揮官ならそう言ってくれると思ってました",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37970,7 +37960,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3707] = {
-		param = "没问题，我陪你",
+		param = "何でも付き合うさ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -37978,7 +37968,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3708] = {
-		param = "好高兴",
+		param = "嬉しいです",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37986,7 +37976,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3709] = {
-		param = "我想，指挥官也能在那里得到放松的",
+		param = "指揮官も、きっとリラックスできるはずです",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -37994,7 +37984,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3710] = {
-		param = "等等……",
+		param = "……あっ",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -38010,7 +38000,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3712] = {
-		param = "指挥官，发生了不可思议的事呢",
+		param = "指揮官、ちょっと不思議なことが…",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -38018,7 +38008,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3713] = {
-		param = "指挥室的那盆仙人掌开花了",
+		param = "執務室のあのサボテンが花をつけています",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -38026,7 +38016,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3714] = {
-		param = "这是相当少见的奇景……特别是在室内养护的情况下",
+		param = "しかも室内栽植になると……かなり珍しい現象です",
 		ship_group = 110101,
 		flag = 0,
 		type = 1,
@@ -38034,12 +38024,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"仙人掌原来是会开花的吗？"
+				"サボテンって花をつけるのか…？"
 			}
 		}
 	},
 	[3715] = {
-		param = "仙人掌原来是会开花的吗？",
+		param = "サボテンって花をつけるのか…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38047,7 +38037,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3716] = {
-		param = "没错，但仙人掌开花有严格的环境要求，包括光照、温度、水分和养分的配合",
+		param = "はい、でもかなり厳しい条件があって、日照、温度、水分、栄養……",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -38055,7 +38045,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3717] = {
-		param = "任何一个条件不满足，仙人掌都可能不会开花",
+		param = "どれかひとつでも条件を満たしていないと、花をつけないんです",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -38063,7 +38053,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3718] = {
-		param = "看来，仙人掌也在期待着本日的浪漫",
+		param = "きっとサボテンも、今日という「ロマンチックな日」を楽しみにしていたんですね",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -38071,7 +38061,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3719] = {
-		param = "指挥官，植物养护结束了，我去哪里找你？",
+		param = "指揮官、お手入れが終わりました。どこで待ち合わせましょうか？",
 		ship_group = 110101,
 		flag = 6,
 		type = 1,
@@ -38079,12 +38069,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"公园里之前你观察苔藓的地方"
+				"エヴァーツェンが苔を観察していた場所で"
 			}
 		}
 	},
 	[3720] = {
-		param = "公园里之前你观察苔藓的地方",
+		param = "エヴァーツェンが苔を観察していた場所で",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38092,7 +38082,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3721] = {
-		param = "明白~",
+		param = "分かりました",
 		ship_group = 110101,
 		type = 1,
 		option = "",
@@ -38100,7 +38090,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3722] = {
-		param = "指挥官，午饭准备好了~",
+		param = "指揮官、お昼の準備ができたわ〜",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38108,7 +38098,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3723] = {
-		param = "是热气腾腾的炖肉~我还加了莴苣哦",
+		param = "あつあつのシチューよ。レタスも入れてみたの",
 		ship_group = 70509,
 		flag = 0,
 		type = 1,
@@ -38116,12 +38106,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"令人期待！"
+				"楽しみ！"
 			}
 		}
 	},
 	[3724] = {
-		param = "味道一定很不错，令人期待！",
+		param = "きっとすごく美味しいんだろうな。楽しみだ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38129,7 +38119,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3725] = {
-		param = "呵呵~不过先不要心急哦，还需要再等等",
+		param = "ふふふ、まだ焦らないで。あと少しよ",
 		ship_group = 70509,
 		flag = 1,
 		type = 1,
@@ -38137,12 +38127,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"难道还有什么未完成的步骤？"
+				"まだ何かあるの？"
 			}
 		}
 	},
 	[3726] = {
-		param = "难道还有什么未完成的步骤？",
+		param = "まだ何かあるの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38150,7 +38140,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3727] = {
-		param = "嗯~在把饭菜送到指挥室之前，需要先冷却一下呢",
+		param = "ええ、執務室に届く前に食べやすいように冷まさないと……",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38158,7 +38148,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3728] = {
-		param = "我来试试温度",
+		param = "ちょっと温度を確かめてみるね……",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38166,7 +38156,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3729] = {
-		param = "不行，还有些烫……",
+		param = "ダメね、まだちょっと熱いわ……",
 		ship_group = 70509,
 		flag = 2,
 		type = 1,
@@ -38174,12 +38164,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"其实热一些也没关系…"
+				"少しくらい熱くても大丈夫"
 			}
 		}
 	},
 	[3730] = {
-		param = "其实热一些也没关系的，吃饭前多等一会就好",
+		param = "少しくらい熱くても大丈夫だよ。食べる前に少し冷ますから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38187,7 +38177,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3731] = {
-		param = "那怎么能行呢，指挥官工作已经很辛苦了",
+		param = "そんなのダメよ。仕事で疲れてるんでしょう？",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38195,7 +38185,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3732] = {
-		param = "好不容易到了午休时间，还要花时间等饭菜降温实在是太浪费了",
+		param = "せっかくのランチタイムに、料理が冷めるのを待つなんてもったいないわ",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38203,7 +38193,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3733] = {
-		param = "好了，现在饭菜的温度正合适，暖暖的又不会烫到舌头",
+		param = "よし。これで食べやすくなった〜。舌を火傷させないくらいの温度に…",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38211,7 +38201,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3734] = {
-		param = "我装到保温饭盒里了~",
+		param = "保温できるお弁当箱に詰めておいたわ",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38219,7 +38209,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3735] = {
-		param = "然后是餐具围裙和毛巾……",
+		param = "それと……スプーンとエプロンにタオルも……",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38227,7 +38217,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3736] = {
-		param = "也准备好了~",
+		param = "準備よし、と〜",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38235,7 +38225,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3737] = {
-		param = "好了，指挥官，我准备出发了~",
+		param = "それじゃあ指揮官、そっちに行くわね",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38243,7 +38233,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3738] = {
-		param = "乖乖在指挥室里等着午餐哦~",
+		param = "いい子にして執務室で待っててちょうだい♪",
 		ship_group = 70509,
 		flag = 3,
 		type = 1,
@@ -38251,16 +38241,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"好的！"
+				"はーい！"
 			},
 			{
 				5,
-				"好的，妈妈！"
+				"はーい、お母さん！"
 			}
 		}
 	},
 	[3739] = {
-		param = "好的！",
+		param = "はーい！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38268,7 +38258,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3740] = {
-		param = "好的，妈妈！",
+		param = "はーい、お母さん！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38276,7 +38266,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3741] = {
-		param = "不好了，指挥官你看天气预报了么？",
+		param = "大変よ、指揮官。今日の天気予報は見た？",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38284,7 +38274,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3742] = {
-		param = "今天大降温了！",
+		param = "急に冷え込むそうよ！",
 		ship_group = 70509,
 		flag = 0,
 		type = 1,
@@ -38292,12 +38282,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"毛毯在……"
+				"毛布がある……"
 			}
 		}
 	},
 	[3743] = {
-		param = "毛毯在沙发左侧抽屉，暖手宝已经充好电，热咖啡也煮好了，温度不烫不凉",
+		param = "毛布がソファの左の引き出しにあるし、ハンドウォーマーも充電済み。ホットコーヒーも淹れてある。熱すぎずぬるすぎず、ちょうどいい温度だ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38305,7 +38295,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3744] = {
-		param = "欸欸？！室内防寒的注意事项指挥官你已经清楚了啊……",
+		param = "ええ！？室内の寒さ対策がバッチリじゃない……",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38313,7 +38303,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3745] = {
-		param = "不过我记得你下午还要出门参加会议……",
+		param = "でも午後は会議に出かけるって聞いたけど……",
 		ship_group = 70509,
 		flag = 1,
 		type = 1,
@@ -38321,12 +38311,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"我已经准备了……"
+				"もう準備してあるよ……"
 			}
 		}
 	},
 	[3746] = {
-		param = "我已经准备保暖内衣，暖手宝就在制服口袋里，衣帽架上还有加厚外套",
+		param = "ヒートインナーは用意済みだし、ハンドウォーマーは制服のポケットにあって、厚手の上着もコート掛けにかけてあるから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38334,7 +38324,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3747] = {
-		param = "呼……太好了，这样就万无一失了呢",
+		param = "ふぅ……よかった、それならバッチリね",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38342,7 +38332,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3748] = {
-		param = "不过总感觉还缺点什么……",
+		param = "でも、なんだかまだ……何か足りない気がして……",
 		ship_group = 70509,
 		flag = 2,
 		type = 1,
@@ -38350,12 +38340,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"……还缺点什么？"
+				"……まだ何か足りない？"
 			}
 		}
 	},
 	[3749] = {
-		param = "……还缺点什么？",
+		param = "……まだ何か足りない？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38363,7 +38353,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3750] = {
-		param = "唔……还没想到",
+		param = "うーん……思いつかないんだけど……",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38371,7 +38361,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3751] = {
-		param = "但是这么冷的天，你出门肯定会冷的",
+		param = "でもこんなに寒い日に外に出るなんて、絶対肌寒く感じるわ",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38379,7 +38369,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3752] = {
-		param = "到底还缺点什么呢……",
+		param = "一体、何が足りないんだろう……",
 		ship_group = 70509,
 		flag = 3,
 		type = 1,
@@ -38387,12 +38377,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"不，已经不缺了！"
+				"いや、もう十分準備したよ！"
 			}
 		}
 	},
 	[3753] = {
-		param = "不，我感觉已经不缺了！",
+		param = "いや、もう十分準備したと思うよ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38400,7 +38390,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3754] = {
-		param = "可是今天大降温，如果不做好准备的话……真的会冷的",
+		param = "でもすごい冷え込みよ？ちゃんと準備していかなきゃ……本当に寒く感じるわ…",
 		ship_group = 70509,
 		flag = 4,
 		type = 1,
@@ -38408,12 +38398,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"有一种冷叫……"
+				"もしかして……"
 			}
 		}
 	},
 	[3755] = {
-		param = "有一种冷叫……喀山觉得你冷？",
+		param = "もしかして…カザンだけが感じる寒さとかなのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38421,7 +38411,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3756] = {
-		param = "对，没错，就是这个！",
+		param = "そうだ。あれよ！",
 		ship_group = 70509,
 		flag = 5,
 		type = 1,
@@ -38429,7 +38419,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"……?"
+				"……？"
 			}
 		}
 	},
@@ -38442,7 +38432,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3758] = {
-		param = "指挥官，你缺少了喀山呀！",
+		param = "指揮官、カザンが足りないわ！",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38450,7 +38440,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3759] = {
-		param = "下午开会的时候我和你一起去，这样不管路上天气怎么变，你都不会冷了！",
+		param = "午後の会議、私も一緒に行くわ。そうすれば道中どんなに寒くても、指揮官に冷えを感じさせたりはしないから！",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38458,7 +38448,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3760] = {
-		param = "我去做些准备，一会指挥室见哦~",
+		param = "ちょっと準備してくるわね。また執務室で〜♪",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38466,7 +38456,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3761] = {
-		param = "指挥官，今天外面好冷呢",
+		param = "指揮官、今日は外がすごく寒いわ",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38474,7 +38464,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3762] = {
-		param = "我给你送了毛毯来暖和暖和~",
+		param = "だから暖かい毛布を届けてきたの",
 		ship_group = 70509,
 		flag = 0,
 		type = 1,
@@ -38482,12 +38472,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"指挥室里的毛毯已经……"
+				"執務室にはもう毛布が……"
 			}
 		}
 	},
 	[3763] = {
-		param = "不用担心我，指挥室里的毛毯已经堆成小山了……",
+		param = "自分は大丈夫だ。というか毛布がもう小山のように積み上げられてるけど…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38495,7 +38485,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3764] = {
-		param = "倒是你，也要注意保暖哦",
+		param = "カザンこそ、ちゃんと寒さ対策には気をつけてね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38503,7 +38493,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3765] = {
-		param = "居然被指挥官反过来提醒了……",
+		param = "指揮官に逆に心配されちゃった……",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38511,7 +38501,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3766] = {
-		param = "哼哼，不用担心，我不但穿了大衣，还裹了一层厚厚的毛毯呢",
+		param = "ふふん、大丈夫よ。コートを着込んでるし、分厚い毛布にもくるまってるから",
 		ship_group = 70509,
 		flag = 1,
 		type = 1,
@@ -38519,12 +38509,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"用自己来搬运毛毯？"
+				"カザンが届けてくれた毛布か…？"
 			}
 		}
 	},
 	[3767] = {
-		param = "用自己来搬运毛毯？",
+		param = "カザンが届けてくれた毛布か…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38532,7 +38522,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3768] = {
-		param = "一举两得对吧~",
+		param = "一石二鳥でしょ〜？",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38540,7 +38530,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3769] = {
-		param = "唔，雪越下越大了，等到了指挥室就不想回去了",
+		param = "うぅ、雪がどんどん激しくなってきたわ……これは執務室に着いたらもう出たくなくなるわね",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38548,7 +38538,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3770] = {
-		param = "指挥官，我今晚可以留下过夜么？",
+		param = "ねえ、指揮官、今夜は泊まってもいいかしら？",
 		ship_group = 70509,
 		flag = 2,
 		type = 1,
@@ -38556,12 +38546,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"可以……"
+				"問題ないよ"
 			}
 		}
 	},
 	[3771] = {
-		param = "指挥室里屋有床，可以睡得开",
+		param = "問題ないよ。執務室の奥のベッドを使って",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38569,7 +38559,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3772] = {
-		param = "不过我晚上走之后，你要锁好门哦",
+		param = "自分が出てった後はちゃんと鍵をかけてね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38577,7 +38567,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3773] = {
-		param = "指挥官晚上居然要冒雪回宿舍么？！",
+		param = "指揮官、こんな雪の中で寮に帰るつもり！？",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38585,7 +38575,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3774] = {
-		param = "很冷很危险的！",
+		param = "寒いし危ないわ！",
 		ship_group = 70509,
 		flag = 3,
 		type = 1,
@@ -38593,12 +38583,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"好像是哦……"
+				"それはそうかも……"
 			}
 		}
 	},
 	[3775] = {
-		param = "好像是哦……",
+		param = "それはそうかも……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38606,7 +38596,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3776] = {
-		param = "那我晚上也留下来？",
+		param = "じゃあ、自分も泊まろうかな？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38614,7 +38604,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3777] = {
-		param = "当然啦~",
+		param = "そうしましょ～",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38622,7 +38612,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3778] = {
-		param = "今晚，就暂时把指挥室当成我们的小家吧~",
+		param = "今夜だけ執務室をふたりだけの小さなおうちにしちゃいましょう？",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38630,7 +38620,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3779] = {
-		param = "反正指挥室里生活用品齐全，已经和宿舍几乎没有区别了呢",
+		param = "生活用品も全部揃ってるし、もう寮と変わらないわね",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38638,7 +38628,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3780] = {
-		param = "不过食材还是用新鲜的比较好……",
+		param = "でも……食材はやっぱり新鮮なのがいいわ……",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38646,7 +38636,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3781] = {
-		param = "顺路再买些食材好了~",
+		param = "ついでに買い出しもしちゃおうかしら",
 		ship_group = 70509,
 		flag = 4,
 		type = 1,
@@ -38654,12 +38644,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"……裹着毛毯去买么？"
+				"……毛布に包まったまま買い物に？"
 			}
 		}
 	},
 	[3782] = {
-		param = "……裹着毛毯去买么？",
+		param = "……毛布に包まったまま買い物に？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38667,7 +38657,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3783] = {
-		param = "没错~等买了东西之后还能变成购物兜呢~",
+		param = "ええ〜、食べ物もちゃんと運べるから♪",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38675,7 +38665,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3784] = {
-		param = "等今晚吃过饭之后再洗个热水澡~",
+		param = "夜ごはんを食べて、あったか〜いシャワーを浴びて……",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38683,7 +38673,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3785] = {
-		param = "然后，在暖和的被窝里听我来讲睡前故事吧？",
+		param = "ぬくぬくのお布団で私とお話はいかが？",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38691,7 +38681,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3786] = {
-		param = "我准备了好多北方联合的小故事呢，你一定会喜欢的~",
+		param = "北方連合のいろんな話を知ってるわ。きっと気に入ってもらえると思うの♪",
 		ship_group = 70509,
 		flag = 5,
 		type = 1,
@@ -38699,12 +38689,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"已经开始期待了……"
+				"楽しみになってきた"
 			}
 		}
 	},
 	[3787] = {
-		param = "已经开始期待了……",
+		param = "楽しみになってきた",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38712,7 +38702,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3788] = {
-		param = "呵呵~",
+		param = "うふふ",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38720,7 +38710,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3789] = {
-		param = "今晚，会是个很长很长的雪夜呢~",
+		param = "今夜はきっと、長い長い夜になるわ♪",
 		ship_group = 70509,
 		type = 1,
 		option = "",
@@ -38728,7 +38718,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3790] = {
-		param = "指挥官在吗！",
+		param = "指揮官、いますかあ！？",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -38736,7 +38726,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3791] = {
-		param = "我刚刚完成了新的机械发明哦！要不要来体验看看？",
+		param = "さっき新しいメカが完成しましたぜー！いっちょ試してみますか？",
 		ship_group = 70208,
 		flag = 0,
 		type = 1,
@@ -38744,12 +38734,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"好奇"
+				"気になる"
 			}
 		}
 	},
 	[3792] = {
-		param = "好奇，是什么样的机械发明？",
+		param = "気になるなー。どんなメカなんだ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38757,7 +38747,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3793] = {
-		param = "锵锵！其名为全自动防止打瞌睡重型机器人！",
+		param = "じゃじゃーん！名付けて、全自動居眠り防止ヘビーロボ！",
 		ship_group = 70208,
 		flag = 1,
 		type = 1,
@@ -38765,7 +38755,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"[惊]"
+				"[えっ]"
 			}
 		}
 	},
@@ -38778,7 +38768,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3795] = {
-		param = "每一个字我都懂，连起来就不懂了",
+		param = "一つ一つの単語の意味はわかるけど、繋がるとわけがわかんないな……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38786,7 +38776,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3796] = {
-		param = "所谓全自动，指的是它可以通过多种内置传感器自动监控使用者的状态自动变换对应的模式，无需额外操作",
+		param = "「全自動」とは、内蔵された複数のセンサーで使用者の状態を自動監視し、それに応じて自動でモードを切り替える、つまり操作不要！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -38794,7 +38784,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3797] = {
-		param = "所谓防打瞌睡，我在里面内置了从烧水加热到咖啡豆研磨再到搅拌混合成品输出的全套流程",
+		param = "「居眠り防止」とは、給水・加熱・コーヒー豆の粉砕・撹拌・抽出というコーヒーの全工程を内蔵している、という意味です！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -38802,7 +38792,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3798] = {
-		param = "有了咖啡，自然就可以实现防打瞌睡的设计意图了",
+		param = "コーヒーさえあれば、使用者の眠気を吹き飛ばす設計意図はバッチリです！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -38810,7 +38800,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3799] = {
-		param = "所谓重型，自然指的是功率和体积！",
+		param = "「ヘビー」とは、ずばり出力とサイズがヘビー級という意味です！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -38818,7 +38808,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3800] = {
-		param = "我不但设置了500L的清水箱、200L的咖啡液储存箱，还有四轮驱动的底盘和六个机械臂哦！",
+		param = "500リットルの水タンク、200リットルのコーヒー液タンク、それに四輪駆動のシャーシと6本のロボットアーム付き！",
 		ship_group = 70208,
 		flag = 2,
 		type = 1,
@@ -38826,16 +38816,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"……"
+				"………"
 			},
 			{
 				4,
-				"[惊]"
+				"[えっ]"
 			}
 		}
 	},
 	[3801] = {
-		param = "…………",
+		param = "おーい…………",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38851,7 +38841,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3803] = {
-		param = "听起来像是一个可以追着人跑的巨型全自动咖啡机？",
+		param = "それってつまり、人を追いかける巨大な全自動コーヒーマシン……みたいな？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38859,7 +38849,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3804] = {
-		param = "嗯……不管怎么说，泡咖啡给人喝的核心功能确实是没问题",
+		param = "うーん……とにかく、コーヒーを淹れてくれる基本機能は大丈夫か…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38867,7 +38857,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3805] = {
-		param = "哼哼哼~指挥官以为泡出来的咖啡就只是用来喝的吗？",
+		param = "くっくっく！まさかコーヒーを「飲む」だけだと思ってますかぁー？",
 		ship_group = 70208,
 		flag = 0,
 		type = 1,
@@ -38875,12 +38865,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"……难道不是么？"
+				"……そうじゃないのか？"
 			}
 		}
 	},
 	[3806] = {
-		param = "……难道不是么？",
+		param = "……そうじゃないのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38888,7 +38878,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3807] = {
-		param = "如果使用者困到连自己拿咖啡的力气都没有了呢？",
+		param = "使用者が眠すぎて、自分でコーヒーカップを手に取ることも叶わない場合は？",
 		ship_group = 70208,
 		flag = 5,
 		type = 1,
@@ -38896,12 +38886,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"是个问题……"
+				"それは……"
 			}
 		}
 	},
 	[3808] = {
-		param = "是个问题……所以这台机器还有自动递送咖啡的功能？",
+		param = "それは……ってことは、コーヒーを自動で運んでくれる機能もあるのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38909,7 +38899,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3809] = {
-		param = "原来如此，所以才要有机械臂啊",
+		param = "なるほど、だからマシンアームがあるんだな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38917,7 +38907,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3810] = {
-		param = "不，当遇到这种情况的时候，机械就会自动泡好咖啡，然后泼到使用者脸上！",
+		param = "違います！そういうときは、淹れたコーヒーを自動で使用者の顔にぶっかけまぁす！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -38925,7 +38915,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3811] = {
-		param = "而六个机械臂，最高支持同时服务六位使用者哦！",
+		param = "しかも6本のアームで、最大6人同時に対応可能！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -38933,7 +38923,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3812] = {
-		param = "当然了，如果使用者实在太困，六个机械臂一起服务一位使用者也是可以的！",
+		param = "もちろん、1人だけ超眠そうだったら、6本全部をその人に向けてもOK！",
 		ship_group = 70208,
 		flag = 6,
 		type = 1,
@@ -38941,16 +38931,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"简直太提神了……！"
+				"目が冴えるぜ…！"
 			},
 			{
 				8,
-				"[惊]"
+				"[えっ]"
 			}
 		}
 	},
 	[3813] = {
-		param = "简直太提神了……！",
+		param = "目が冴えるぜ…！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -38958,7 +38948,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3814] = {
-		param = "哼哼~我也是这么认为的！",
+		param = "くっくっく！オレグもそう思いまぁす！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -38974,7 +38964,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3816] = {
-		param = "指挥官已经惊讶到目瞪口呆了么？很好！",
+		param = "指揮官、あまりの衝撃に言葉を失ってますね！？いいリアクションですぜ！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -38982,7 +38972,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3817] = {
-		param = "既然指挥官喜欢，那就赶紧亲自体验一下效果吧！",
+		param = "そんなに気になるなら、さっそく体験してもらいまぁーす！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -38990,7 +38980,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3818] = {
-		param = "我马上把机器人送去指挥室！",
+		param = "今ロボを執務室に届けますから！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -38998,7 +38988,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3819] = {
-		param = "等不及想要看到你的体验报告了~",
+		param = "使用レポート、楽しみにしてますよ〜！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39006,7 +38996,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3820] = {
-		param = "指挥官，今天天气不错，我们一起去捡垃圾吧！",
+		param = "指揮官、今日は天気がいいですね。一緒にゴミ拾いに行きましょう！",
 		ship_group = 70208,
 		flag = 0,
 		type = 1,
@@ -39014,7 +39004,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"[疑惑]"
+				"[ん？]"
 			}
 		}
 	},
@@ -39027,7 +39017,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3822] = {
-		param = "因为零件都用完了嘛！",
+		param = "パーツが切れましたので！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39035,7 +39025,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3823] = {
-		param = "从{namecode:98}那里订购性价比又有点低……所以干脆去回收站找找有没有合适的！",
+		param = "明石に注文するとコスパがちょっと悪くて……だからいっそリサイクルセンターで使えそうなものを探しましょう！",
 		ship_group = 70208,
 		flag = 1,
 		type = 1,
@@ -39043,12 +39033,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"我记得……"
+				"先週末も結構拾ってなかった？"
 			}
 		}
 	},
 	[3824] = {
-		param = "我记得你上周末是不是才去捡了不少……？",
+		param = "先週末も結構拾ってなかった？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -39056,7 +39046,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3825] = {
-		param = "是啊，但是做两栖代步大龙虾都用完了嘛",
+		param = "うん！でも両生型乗用デカザリガニの制作に使い切っちゃいました！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39064,7 +39054,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3826] = {
-		param = "接下来我想做一个全地形代步大蜈蚣，零件缺口巨大！",
+		param = "次は全地形対応乗用デカムカデを作りたいので、パーツが全然足りないです！",
 		ship_group = 70208,
 		flag = 2,
 		type = 1,
@@ -39072,12 +39062,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"要不考虑做一条代步机械龙？"
+				"いっそ乗用ドラゴンでも作ったら？"
 			}
 		}
 	},
 	[3827] = {
-		param = "要不考虑做一条代步机械龙？",
+		param = "いっそ乗用ドラゴンでも作ったら？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -39085,7 +39075,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3828] = {
-		param = "这样就只用做四条腿了",
+		param = "それなら脚は4本だけで済むでしょ……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -39093,7 +39083,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3829] = {
-		param = "机械龙做的人太多了！",
+		param = "メカドラゴンは被りますよ！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39101,7 +39091,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3830] = {
-		param = "而且我不太懂空气动力学，专业不对口！",
+		param = "それに私、空力学はちょっと専門外です！",
 		ship_group = 70208,
 		flag = 3,
 		type = 1,
@@ -39109,12 +39099,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"这么说来……"
+				"そういえば……"
 			}
 		}
 	},
 	[3831] = {
-		param = "这么说来，你一直以来做的都是陆上机械呢",
+		param = "……そういえば地上走行型のメカばっかり作ってるよね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -39122,7 +39112,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3832] = {
-		param = "没错，被你发现了！",
+		param = "そうです！バレちゃいました！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39130,7 +39120,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3833] = {
-		param = "我就喜欢这种大型机械运转时的轰鸣声~",
+		param = "私、こういう大型機械が動くときの轟音が大好きですので！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39138,7 +39128,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3834] = {
-		param = "当然，水陆两栖也勉强在我的发明喜好范围内哦",
+		param = "もちろん、水陸両用ならギリギリ守備範囲内に入っていますね",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39146,7 +39136,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3835] = {
-		param = "比如前几天的那个两栖代步大龙虾",
+		param = "たとえば、こないだの両生型乗用デカザリガニとか！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39154,7 +39144,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3836] = {
-		param = "主体材料我用了一些废弃的涡轮引擎和回收钢材，结构强度没的说！",
+		param = "主構造は廃棄されたターボエンジンと回収した鋼材でできていて、強度はバッチリ！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39162,7 +39152,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3837] = {
-		param = "水陆两用，自动驾驶，氮气加速——乘坐体验堪比超级跑车！",
+		param = "水陸両用、自動運転、ニトロブースト付きで乗り心地はスーパーカー並み！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39170,7 +39160,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3838] = {
-		param = "自动避障系统还可以自动识别地形并调整行驶模式！",
+		param = "自動障害物回避システムもあるから、地形を認識して走行モードも自動で切り替えます！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39178,7 +39168,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3839] = {
-		param = "内部甚至还有智能伏特加供应机，保证驾驶员可以随时随地来一口！",
+		param = "スマートヴォッカディスペンサーも完備してて、好きなときにごくっといけますぜ！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39186,7 +39176,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3840] = {
-		param = "你说，这么好的发明！基洛夫为什么坚决不让我开它上路呢！",
+		param = "こんなにすごい発明なのに、どうしてキーロフは公道で使わせてくれないんですか？！",
 		ship_group = 70208,
 		flag = 4,
 		type = 1,
@@ -39194,16 +39184,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"……"
+				"………"
 			},
 			{
 				6,
-				"[惊]"
+				"[えっ]"
 			}
 		}
 	},
 	[3841] = {
-		param = "…………",
+		param = "おーい…………",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -39219,7 +39209,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3843] = {
-		param = "算啦~到时候开全地形代步大蜈蚣上街就是了",
+		param = "もういいです！今度は全地形対応乗用デカムカデで街を走ってやりますから！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39227,7 +39217,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3844] = {
-		param = "指挥官，我们快出发去垃圾场吧！",
+		param = "指揮官、さっそくゴミ捨て場に出発しましょう！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39235,7 +39225,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3845] = {
-		param = "万一被人抢先了可就没的捡了！",
+		param = "誰かに先を越されたら、拾うものがなくなっちゃいますから！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39243,7 +39233,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3846] = {
-		param = "指挥官！上次给你的发明，你都体验过了吗？",
+		param = "指揮官！この前渡した発明品、ちゃんと使ってくれました？",
 		ship_group = 70208,
 		flag = 0,
 		type = 1,
@@ -39251,12 +39241,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"关于上次的发明……"
+				"この前の発明だが……"
 			}
 		}
 	},
 	[3847] = {
-		param = "关于上次的发明，那个叫靠枕壁虎的还不错",
+		param = "この前の発明、「まくらヤモリ」はなかなか良かったよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -39264,7 +39254,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3848] = {
-		param = "一到午睡的时候就会自动爬到椅背上，很方便",
+		param = "昼寝の時間になると自動で椅子の背もたれに登ってきてくれるから便利だ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -39272,7 +39262,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3849] = {
-		param = "嘿嘿~就知道你会喜欢！",
+		param = "えへへ～！気に入ってくれるって思ってました！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39280,7 +39270,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3850] = {
-		param = "不过靠枕壁虎的用途可没有这么简单哦……它还内置了自动御敌系统呢！",
+		param = "でもね、「まくらヤモリ」の機能はそれだけじゃありませんよ！実は自動防御システムも内蔵されてるんです！",
 		ship_group = 70208,
 		flag = 1,
 		type = 1,
@@ -39288,16 +39278,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"……"
+				"………"
 			},
 			{
 				3,
-				"[惊]"
+				"[えっ]"
 			}
 		}
 	},
 	[3851] = {
-		param = "…………",
+		param = "おーい…………",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -39313,7 +39303,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3853] = {
-		param = "我不想要这个，很危险，快拆掉",
+		param = "そんな危ないものいらないよ！今すぐ取り外してくれ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -39321,7 +39311,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3854] = {
-		param = "哎~可是人在睡着的时候防范性会大幅降低欸！",
+		param = "え～？でも人は寝込んでしまうと警戒がすごく緩むでしょう？",
 		ship_group = 70208,
 		flag = 0,
 		type = 1,
@@ -39329,12 +39319,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"所以……"
+				"いや、だから…"
 			}
 		}
 	},
 	[3855] = {
-		param = "所以，你这个会爆炸的靠枕壁虎就会显得格外危险",
+		param = "いや、だから爆発する可能性があるのは危険すぎるって",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -39342,7 +39332,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3856] = {
-		param = "哎呀，这个壁虎绝对不会爆炸啦！",
+		param = "そのヤモリは絶対に爆発しませんよ！",
 		ship_group = 70208,
 		flag = 4,
 		type = 1,
@@ -39350,12 +39340,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"理由？"
+				"その根拠は？"
 			}
 		}
 	},
 	[3857] = {
-		param = "理由？",
+		param = "その根拠は？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -39363,7 +39353,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3858] = {
-		param = "会爆炸的在给你之前都炸干净了！",
+		param = "爆発するやつは……渡す前に全部爆発済みだから大丈夫です！",
 		ship_group = 70208,
 		flag = 5,
 		type = 1,
@@ -39371,16 +39361,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"……"
+				"………"
 			},
 			{
 				7,
-				"[惊]"
+				"[えっ]"
 			}
 		}
 	},
 	[3859] = {
-		param = "…………",
+		param = "おーい…………",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -39396,7 +39386,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[3861] = {
-		param = "事实胜于雄辩，它到现在不也没爆炸么~",
+		param = "事実が何よりの証拠でしょ？現に今のところ爆発してないじゃないですか～",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39404,7 +39394,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3862] = {
-		param = "所以放心吧！",
+		param = "だから安心して使ってください！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39412,7 +39402,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3863] = {
-		param = "另外那个电饭煲乌龟呢，好用吗好用吗？",
+		param = "それと、「炊飯ガメ」のほうはどうでした？使いやすかった？",
 		ship_group = 70208,
 		flag = 0,
 		type = 1,
@@ -39420,12 +39410,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"好用是好用但是……"
+				"便利は便利だけど……"
 			}
 		}
 	},
 	[3864] = {
-		param = "好用是好用但是……",
+		param = "便利は便利だけど……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -39433,7 +39423,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3865] = {
-		param = "除了全自动（物理意义）煮饭之外，你还给它加了什么我不知道的功能？",
+		param = "物理的な意味での「全自動炊飯」以外に、知らない機能が追加されてたりしないよな？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -39441,7 +39431,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3866] = {
-		param = "如果加了任何能引发爆炸的防御模块，请立刻拆掉",
+		param = "もし爆発しそうな防御モジュールがあったら、今すぐ外してくれ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -39449,7 +39439,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[3867] = {
-		param = "说的好像不加防御模块我就没法让它爆炸似的……",
+		param = "防御モジュールがないと爆発させられないような言い方ですね…",
 		ship_group = 70208,
 		flag = 8,
 		type = 1,
@@ -39457,7 +39447,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				9,
-				"？"
+				"え？"
 			}
 		}
 	},
@@ -39470,7 +39460,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[3869] = {
-		param = "我的意思是！放心吧！电饭煲乌龟我只额外增加了一个全自动浇花的功能！",
+		param = "安心してってことです！「炊飯ガメ」の追加機能は「自動水やりシステム」だけです！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39478,7 +39468,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[3870] = {
-		param = "下次有空的时候不妨试试吧！",
+		param = "今度時間があったらぜひ使ってみてください！",
 		ship_group = 70208,
 		flag = 9,
 		type = 1,
@@ -39486,7 +39476,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				10,
-				"[发呆]"
+				"[えー]"
 			}
 		}
 	},
@@ -39499,7 +39489,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[3872] = {
-		param = "哎呀~不知不觉，已经给指挥官准备了这么多发明了……！",
+		param = "気づけば指揮官のために、いろんな発明を作ってきました～！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39507,7 +39497,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[3873] = {
-		param = "不过今天，我还有一件发明想要让指挥官体验！",
+		param = "でも今日は、もうひとつ体験してもらいたい発明がありまぁす！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39515,7 +39505,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 10
 	},
 	[3874] = {
-		param = "这件发明……我可是特意定做的全新零件，和之前的都不一样哦！",
+		param = "特注の新品パーツが使われていて、今までのとはまったく違いますから！",
 		ship_group = 70208,
 		flag = 10,
 		type = 1,
@@ -39523,7 +39513,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				11,
-				"[疑惑]"
+				"[ん？]"
 			}
 		}
 	},
@@ -39536,7 +39526,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 11
 	},
 	[3876] = {
-		param = "是一个——按照我的样子做的小型机器人，名叫小奥列格！！",
+		param = "ずばり！私の姿をモチーフに作った小型ロボ、「ちびオレグ」です！！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39544,7 +39534,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 11
 	},
 	[3877] = {
-		param = "这个机器人内置了视频通话、远程遥控、生活小助手等功能",
+		param = "ビデオ通話機能・遠隔操作・生活サポートなどいろんな機能が搭載されています！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39552,7 +39542,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 11
 	},
 	[3878] = {
-		param = "有了它，我就能一直一直陪在指挥官身边啦！",
+		param = "これがあれば、いつでもどこでも指揮官のそばにいられるってわけ♪",
 		ship_group = 70208,
 		flag = 11,
 		type = 1,
@@ -39560,12 +39550,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				12,
-				"这个会爆炸么？"
+				"これ、爆発したりしないよな？"
 			}
 		}
 	},
 	[3879] = {
-		param = "这个会爆炸么？",
+		param = "これ、爆発したりしないよな？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -39573,7 +39563,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 12
 	},
 	[3880] = {
-		param = "不会！！！",
+		param = "しません！！！",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39581,7 +39571,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 12
 	},
 	[3881] = {
-		param = "大概",
+		param = "もしかしなくても",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39589,7 +39579,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 12
 	},
 	[3882] = {
-		param = "也许",
+		param = "多分",
 		ship_group = 70208,
 		type = 1,
 		option = "",
@@ -39597,7 +39587,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 12
 	},
 	[3883] = {
-		param = "可能",
+		param = "おそらく",
 		ship_group = 70208,
 		flag = 12,
 		type = 1,
@@ -39605,16 +39595,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				13,
-				"……"
+				"………"
 			},
 			{
 				14,
-				"[惊]"
+				"[えっ]"
 			}
 		}
 	},
 	[3884] = {
-		param = "…………",
+		param = "おーい…………",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -39630,7 +39620,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 14
 	},
 	[3886] = {
-		param = "指挥官 分享给你一个超级有效的小技巧",
+		param = "指揮官 ひとつ使える裏技を教えて差し上げますわ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39638,7 +39628,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3887] = {
-		param = "在会议中一直保持高效是件难事吧",
+		param = "会議中ずっと集中力を保つのは難しいでしょう？",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39646,7 +39636,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3888] = {
-		param = "可以试着通过短暂休息来集中注意力哦",
+		param = "そんな時は一休みを挟んで気持ちを切り替えればいいですわ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39654,7 +39644,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3889] = {
-		param = "比如 短暂闭上眼睛 让大脑放空……",
+		param = "例えば 少し目を閉じて 頭をからっぽにしておくと……",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39662,7 +39652,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3890] = {
-		param = "再睁开眼睛时 就能变得更加专注了",
+		param = "今度目を開ける時には ぐっと集中力が高まるはずですわ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39670,7 +39660,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3891] = {
-		param = "当然 最关键的就是 要维持 思考的姿态",
+		param = "もちろん 一番大事なのは「考えているフリ」をキープすることですの",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39678,7 +39668,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3892] = {
-		param = "非 常 重 要",
+		param = "と て も 大 事 よ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39686,7 +39676,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3893] = {
-		param = "不然可能会被姐姐们敲头……",
+		param = "さもないとお姉様方にコツンとされてしまいますから……",
 		ship_group = 20712,
 		flag = 0,
 		type = 1,
@@ -39694,12 +39684,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"没想到偷懒还能这么有战略性"
+				"サボりがこんなに奥深いなんて……"
 			}
 		}
 	},
 	[3894] = {
-		param = "没想到偷懒还能这么有战略性",
+		param = "サボりがこんなに奥深いなんて……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -39715,7 +39705,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3896] = {
-		param = "偷懒……？",
+		param = "サボり……？",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39723,7 +39713,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3897] = {
-		param = "指挥官的误解太深了",
+		param = "まったく誤解が過ぎますわ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39731,7 +39721,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3898] = {
-		param = "这是 休息的艺术",
+		param = "これは 「休憩の芸術」なのですよ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39739,7 +39729,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3899] = {
-		param = "每次休息后 我的记忆力和专注力都能增强不少呢",
+		param = "休みを取れば 記憶力も集中力もかなり向上しますの",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39747,7 +39737,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3900] = {
-		param = "也许我该创建个学派 这发现非常",
+		param = "……もしかして 新しい学派でも創設すべきかしら だってこれは非常に",
 		ship_group = 20712,
 		flag = 1,
 		type = 1,
@@ -39755,12 +39745,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"非常什么？"
+				"非常に何？"
 			}
 		}
 	},
 	[3901] = {
-		param = "非常什么？",
+		param = "非常に何？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -39768,7 +39758,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3902] = {
-		param = "打字累了 我用语音给你转文字好了",
+		param = "タップ入力が面倒になりましたわ ちょっと音声入力に切り替えますね",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39776,7 +39766,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3903] = {
-		param = "非常具有突破性",
+		param = "非常に画期的な発見ですわ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39784,7 +39774,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3904] = {
-		param = "但创建学派什么的 想想就很麻烦",
+		param = "でも学派を創るなんて考えるだけで面倒ですし",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39792,7 +39782,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3905] = {
-		param = "还是算了……",
+		param = "やっぱりやめておきますわ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39800,7 +39790,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3906] = {
-		param = "或者 只有我一个人的学派……嗯 这个不错",
+		param = "あるいは 私だけの学派というのも……うん 悪くないかも",
 		ship_group = 20712,
 		flag = 2,
 		type = 1,
@@ -39808,12 +39798,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"那我能申请加入你的学派吗？"
+				"自分も入れてもらえるかな？"
 			}
 		}
 	},
 	[3907] = {
-		param = "那我能申请加入你的学派吗？",
+		param = "自分も入れてもらえるかな？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -39821,7 +39811,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3908] = {
-		param = "要看看你的诚意才行",
+		param = "それはあなたの誠意次第ですわね",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39829,7 +39819,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3909] = {
-		param = "你先想一个不会被发现的休息小技巧吧",
+		param = "まずは誰にもバレない休憩法を考えてみてくださいまし",
 		ship_group = 20712,
 		flag = 3,
 		type = 1,
@@ -39837,16 +39827,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"假装翻资料"
+				"資料をめくるふりをするとか"
 			},
 			{
 				5,
-				"多喝水"
+				"頻繁に水を飲むとか"
 			}
 		}
 	},
 	[3910] = {
-		param = "假装翻资料，实则在放空？",
+		param = "資料をめくるふりをして、実はぼーっとしてるだけとか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -39854,7 +39844,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3911] = {
-		param = "多喝水？每次站起来接水都磨蹭个十几分钟",
+		param = "水を頻繁に飲んだり？毎回給湯室で十分以上もたもたしてから戻るとか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -39870,7 +39860,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3913] = {
-		param = "天才！",
+		param = "天才ですわ！",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39878,7 +39868,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3914] = {
-		param = "我绞尽脑汁 不如指挥官灵机一动",
+		param = "これだけ頭をひねっても 指揮官の閃きには到底及びませんわ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39886,7 +39876,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3915] = {
-		param = "我宣布你毕业了",
+		param = "もう充分一人立ちできますわ",
 		ship_group = 20712,
 		flag = 0,
 		type = 1,
@@ -39894,12 +39884,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"还没加入就毕业了？"
+				"まだ学派に入ってないのに？"
 			}
 		}
 	},
 	[3916] = {
-		param = "还没加入就毕业了？",
+		param = "まだ学派に入ってないのに？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -39907,7 +39897,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3917] = {
-		param = "天才不用走常规路线",
+		param = "天才は俗世のしきたりに従う必要はありませんので",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39915,7 +39905,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3918] = {
-		param = "以后我们可以多讨论这种休息小技巧",
+		param = "これからも休憩の極意について話し合いましょう",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39923,7 +39913,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3919] = {
-		param = "你能带给我不少灵感呢",
+		param = "あなたはきっとたくさんのインスピレーションをもたらしてくれましょう",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39931,7 +39921,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3920] = {
-		param = "说实话 我平时光是思考怎么才能多休息 就费了不少脑细胞",
+		param = "正直 普段どうすればもっと休めるかを考えるのは骨が折れますわ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39939,7 +39929,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3921] = {
-		param = "要是能什么都不做……",
+		param = "もし何もする必要もなく……",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39947,7 +39937,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3922] = {
-		param = "顶多出门见一见指挥官",
+		param = "せいぜい出かけて指揮官に会うぐらいなら…",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39955,7 +39945,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3923] = {
-		param = "那才是人生的最高境界",
+		param = "それは人生の最高の境地だと思いませんこと？",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39963,7 +39953,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3924] = {
-		param = "我今天被过于热情的姐姐们拉去了茶会",
+		param = "今日はお姉様方に引っ張られてティーパーティーに参加させられましたの",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39971,7 +39961,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3925] = {
-		param = "中午没能午休……",
+		param = "それでお昼寝ができなくて……",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39979,7 +39969,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3926] = {
-		param = "好困",
+		param = "眠たいですわ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39987,7 +39977,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3927] = {
-		param = "感觉打着字",
+		param = "文字を入力するのも",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -39995,7 +39985,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3928] = {
-		param = "都要",
+		param = "もう",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40003,7 +39993,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3929] = {
-		param = "睡着了",
+		param = "ねむ",
 		ship_group = 20712,
 		flag = 0,
 		type = 1,
@@ -40011,12 +40001,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"这么严重？"
+				"そんなに？"
 			}
 		}
 	},
 	[3930] = {
-		param = "不午休的后果竟然这么严重？",
+		param = "昼寝してないだけで、そんなに響くのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -40024,7 +40014,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3931] = {
-		param = "指挥官没听过那句至理名言吗",
+		param = "指揮官、ご存じありませんの？",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40032,7 +40022,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3932] = {
-		param = "中午不睡 下午崩溃",
+		param = "昼寝しない 午後バイバイ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40040,7 +40030,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3933] = {
-		param = "强烈建议把午休列进每个人的日程里",
+		param = "ですから、昼寝を皆のスケジュールに組み込むことを強く推奨しますわ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40048,7 +40038,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3934] = {
-		param = "尤其是指挥官",
+		param = "特に指揮官…",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40056,7 +40046,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3935] = {
-		param = "你要起到带头作用",
+		param = "あなたがお手本を見せるべきですわ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40072,16 +40062,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"好吧"
+				"わかった"
 			},
 			{
 				3,
-				"不要"
+				"そうは言っても…"
 			}
 		}
 	},
 	[3937] = {
-		param = "好吧，可以考虑",
+		param = "わかった、検討しよう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -40089,7 +40079,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3938] = {
-		param = "这么好说话……",
+		param = "素直に聞いてくださったわね",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40097,7 +40087,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3939] = {
-		param = "有点不符合我对指挥官的印象呢",
+		param = "いつもの指揮官らしくありませんわ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40105,7 +40095,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3940] = {
-		param = "不会是表面答应 实则拼命加班吧",
+		param = "まさか 表向きは賛同しつつ 裏では相変わらず残業するつもりではなくて？",
 		ship_group = 20712,
 		flag = 2,
 		type = 1,
@@ -40113,12 +40103,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"尽力而为"
+				"ならできる範囲で"
 			}
 		}
 	},
 	[3941] = {
-		param = "不要，午休太浪费时间了",
+		param = "そうは言っても…昼寝は時間がもったいなすぎる",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -40126,7 +40116,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3942] = {
-		param = "但偶尔休息一下有助于保持清醒和效率呀",
+		param = "ですが時々休むことで頭が冴えますから より能率を保てるんじゃなくて？",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40134,7 +40124,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3943] = {
-		param = "谁说休息和工作不能并存呢",
+		param = "休憩をしてもちゃんと仕事と両立できますわ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40142,7 +40132,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3944] = {
-		param = "真想偷偷删掉你的所有工作日程……",
+		param = "本当は指揮官の仕事の予定を全部消してしまいたいくらいですわ……",
 		ship_group = 20712,
 		flag = 3,
 		type = 1,
@@ -40150,12 +40140,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"尽力而为"
+				"ならできる範囲で"
 			}
 		}
 	},
 	[3945] = {
-		param = "只能说尽力而为吧",
+		param = "ならできる限り頑張ってみるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -40163,7 +40153,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3946] = {
-		param = "有时候忙起来，耽误了午休也是没办法的事",
+		param = "忙しくなると、どうしても昼寝が後回しになってしまうこともあるしな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -40171,7 +40161,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3947] = {
-		param = "看来要有人监督才行",
+		param = "やはり監視役が必要ですわね",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40179,7 +40169,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3948] = {
-		param = "啊 真是个麻烦事……",
+		param = "あーあ 面倒なことになりそう……",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40187,7 +40177,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3949] = {
-		param = "但要是为了长久的悠闲生活……",
+		param = "でも長い目で考えて、この先も楽できるように……",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40195,7 +40185,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3950] = {
-		param = "决定了 我来监督指挥官午休……吧",
+		param = "決めましたわ 私がお昼寝の監視役になります",
 		ship_group = 20712,
 		flag = 4,
 		type = 1,
@@ -40203,12 +40193,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"怎么监督？"
+				"どうやって監視するの？"
 			}
 		}
 	},
 	[3951] = {
-		param = "怎么监督？",
+		param = "どうやって監視するの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -40216,7 +40206,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3952] = {
-		param = "呃 还没想",
+		param = "うーん そこはまだ考えていませんわ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40224,7 +40214,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3953] = {
-		param = "感觉是个需要认真对待的大事呢",
+		param = "なんせ、真剣に取り組むべきことですもの",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40232,7 +40222,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3954] = {
-		param = "比如 如果指挥官不肯服从 就实施膝枕方案之类的",
+		param = "例えば 指揮官が従わない場合 膝枕作戦を実行するとか",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40240,7 +40230,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3955] = {
-		param = "或者 陪指挥官一起午睡？",
+		param = "もしくは 一緒に昼寝をするのもアリかも？",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40248,7 +40238,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3956] = {
-		param = "啊 得再考虑下可行性",
+		param = "うーん 実現可能性についてじっくり考えないと",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40256,7 +40246,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3957] = {
-		param = "大脑要宕机了",
+		param = "頭がパンクしそうですわ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40264,7 +40254,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3958] = {
-		param = "嗯……明天再继续努力想计划吧……",
+		param = "うん……明日の私がなんとかしてくれますわ……",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40280,7 +40270,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3960] = {
-		param = "指挥官 重大发明",
+		param = "指揮官、大事な報告ありますわ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40288,7 +40278,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3961] = {
-		param = "要不要考虑推行睡衣办公革命？",
+		param = "「パジャマ勤務革命」を推進してみませんこと？",
 		ship_group = 20712,
 		flag = 0,
 		type = 1,
@@ -40296,12 +40286,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"听起来似乎不是什么好事"
+				"なんだか怪しい響きだな……"
 			}
 		}
 	},
 	[3962] = {
-		param = "听起来似乎不是什么好事",
+		param = "なんだか怪しい響きだな……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -40317,7 +40307,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3964] = {
-		param = "一定是因为我还没解释 但解释好麻烦……",
+		param = "説明不足のせいですわね でも説明するの面倒ですわ……",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40325,7 +40315,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3965] = {
-		param = "总而言之就是",
+		param = "要するに",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40333,7 +40323,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3966] = {
-		param = "每天起床后 要洗漱 换衣服 出门……",
+		param = "朝起きて 顔を洗って 着替えて 出勤して……",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40341,7 +40331,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3967] = {
-		param = "这些工作的前置步骤太麻烦了",
+		param = "そういった仕事の前準備があまりにも手間ですの",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40349,7 +40339,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3968] = {
-		param = "如果我们能省去所有前置步骤",
+		param = "もしそれらを省けるなら",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40357,7 +40347,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[3969] = {
-		param = "睡醒后就直接在床上工作 岂不是能极大提升效率？",
+		param = "目が覚めたらそのままベッドで仕事を始める そうすれば能率が格段に上がると思いませんこと？",
 		ship_group = 20712,
 		flag = 1,
 		type = 1,
@@ -40365,12 +40355,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"没有工作氛围"
+				"仕事の雰囲気が出ないな"
 			}
 		}
 	},
 	[3970] = {
-		param = "可是卧室也太没有工作氛围了",
+		param = "自室だとどうも仕事の雰囲気がなくてね…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -40378,7 +40368,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3971] = {
-		param = "在床上办公的话，感觉一不小心就会睡过去",
+		param = "ベッドで仕事すると、うっかり寝てしまう気がしてならないんだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -40386,7 +40376,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3972] = {
-		param = "那只能说明你还没睡够 精神不够饱满",
+		param = "十分に眠れていないから そうなるのですわ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40394,7 +40384,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3973] = {
-		param = "干脆安心睡一大觉 醒来再专注工作",
+		param = "そういう時は いっそたっぷり眠ってから仕事を再開したほうが集中できるし",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40402,7 +40392,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3974] = {
-		param = "效率会翻倍哦",
+		param = "効率は爆上がりですわよ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40410,7 +40400,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3975] = {
-		param = "这就是劳逸结合的精髓所在啊",
+		param = "ワークライフバランスの極意ですわ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40418,7 +40408,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3976] = {
-		param = "指挥官一定没试过完全睡饱的感觉吧",
+		param = "きっと満足いくまで寝たことがないんでしょう",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40426,7 +40416,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[3977] = {
-		param = "虽然我总是怎么都睡不饱……",
+		param = "そういう私もどれだけ寝ても足りない気がしますけれど……",
 		ship_group = 20712,
 		flag = 2,
 		type = 1,
@@ -40434,16 +40424,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"试过"
+				"あるさ"
 			},
 			{
 				4,
-				"没试过"
+				"ないな"
 			}
 		}
 	},
 	[3978] = {
-		param = "当然试过，睡饱后确实完全不困了",
+		param = "もちろんあるさ。確かに十分に寝れた日は頭が冴えてた",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -40451,7 +40441,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3979] = {
-		param = "对吧对吧",
+		param = "でしょう？",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40459,7 +40449,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3980] = {
-		param = "比起强撑着工作 调整状态才是更正确的选项啊",
+		param = "無理をするよりも コンディションを整えておく方が賢明な選択ですわ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40467,7 +40457,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[3981] = {
-		param = "太忙了，确实没体验过完全睡饱是什么感受……",
+		param = "言われてみれば、忙しすぎてそんな贅沢をしたことがないな……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -40475,7 +40465,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3982] = {
-		param = "啊哦 小可怜……",
+		param = "まあ かわいそうに……",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40483,7 +40473,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3983] = {
-		param = "那么就由我来带着指挥官体验一下吧",
+		param = "それならこのインドミタブルが 指揮官に体験させてあげましょう",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40491,7 +40481,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3984] = {
-		param = "睡衣办公革命第一步",
+		param = "パジャマ勤務革命の第一歩！",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40499,7 +40489,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3985] = {
-		param = "在我的卧室里试行一天吧",
+		param = "私の部屋で一日試してみましょう",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40507,7 +40497,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3986] = {
-		param = "我看明天就很好",
+		param = "明日がちょうど良いと思いますわ",
 		ship_group = 20712,
 		flag = 0,
 		type = 1,
@@ -40515,12 +40505,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"你只是明天不想起床吧？"
+				"明日起きるのが面倒なだけだろ？"
 			}
 		}
 	},
 	[3987] = {
-		param = "你只是明天不想起床吧？",
+		param = "明日起きるのが面倒なだけだろ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -40536,7 +40526,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3989] = {
-		param = "呐……不是哦 真的只是 睡 衣 办 公 而已",
+		param = "違いますわ 本当に パ ジ ャ マ 勤 務 を実施しようと…",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40544,7 +40534,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3990] = {
-		param = "不相信的话……",
+		param = "信じられないなら……",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40552,7 +40542,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3991] = {
-		param = "指挥官可以过来一起",
+		param = "今日この後いらっしゃってはいかがです？",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40560,7 +40550,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3992] = {
-		param = "我的床……嗯 应该可以分给指挥官一半",
+		param = "私のベッド……ええと 半分指揮官に譲りますわ",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40568,7 +40558,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3993] = {
-		param = "但肯定放不下太多文件",
+		param = "あまり書類を置くスペースはありませんから",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40576,7 +40566,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3994] = {
-		param = "所以指挥官不要带太多工作过来哦",
+		param = "くれぐれも仕事をたくさん持ち込まないように",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40584,7 +40574,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3995] = {
-		param = "期待明天一睁开眼 就能见到指挥官",
+		param = "明日目覚めた瞬間から 指揮官にお会いできるなんて楽しみですわね♪",
 		ship_group = 20712,
 		type = 1,
 		option = "",
@@ -40592,7 +40582,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[3996] = {
-		param = "指挥官，有件事需要提醒你一下",
+		param = "お前に一つ、伝えておきたいことがある",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40600,7 +40590,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3997] = {
-		param = "你不在指挥室的时候，我帮你整理了一下文件",
+		param = "不在の間に、執務室の書類を少し整理しておいたぞ",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40608,7 +40598,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3998] = {
-		param = "虽然这不是我找你的本意，但做些小事也不影响什么",
+		param = "本来の用件から逸れていたが、ついでに手を貸すのは別に苦でもないからな",
 		ship_group = 20516,
 		flag = 0,
 		type = 1,
@@ -40616,12 +40606,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"谢谢你，那么你的本意是？"
+				"ありがとう、で？本来の用件は？"
 			}
 		}
 	},
 	[3999] = {
-		param = "谢谢你，那么你的本意是？",
+		param = "ありがとう、で？本来の用件は？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -40629,7 +40619,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4000] = {
-		param = "在巡视港区的时候，我顺手解决了一些问题",
+		param = "母港を見回っていた時に、いくつか問題を片付けてきたんだ",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40637,7 +40627,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4001] = {
-		param = "本来是想跟你聊聊，之后你作为港区的领导者需要注意的事情",
+		param = "それでお前に、母港の指導者として今後気をつけるべき点について話そうと思っていてな",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40645,7 +40635,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4002] = {
-		param = "但看到你桌上的文件，觉得你可能并不轻松",
+		param = "とはいえ、お前の机の上の書類を見たら、お前もお前で大変なんだと知った",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40653,7 +40643,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4003] = {
-		param = "这些小麻烦，之后我都会帮你处理的",
+		param = "細かい面倒事なら、今後は我が引き受けてやろう",
 		ship_group = 20516,
 		flag = 1,
 		type = 1,
@@ -40661,16 +40651,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"感谢您的慷慨相助"
+				"ありがとう"
 			},
 			{
 				3,
-				"你不会感到麻烦吗？"
+				"面倒に思わないのか？"
 			}
 		}
 	},
 	[4004] = {
-		param = "感谢您的慷慨相助，有狮在大家就放心了",
+		param = "ありがとう。ライオンがいてくれるときっと皆も安心する",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -40678,7 +40668,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4005] = {
-		param = "嗯？",
+		param = "む？",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40686,7 +40676,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4006] = {
-		param = "虽然我很认可你的话，但总觉得这么痛快，会有什么隐情……",
+		param = "素直に認めてくれるのは嬉しいが……そんなにきっぱりと言い切られたら、裏があるのではと勘ぐってしまうな",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40694,7 +40684,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4007] = {
-		param = "算了，港区的问题再大，也都是能解决的问题",
+		param = "まあいい。母港の問題など、どれも解決できないようなものじゃない",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40702,7 +40692,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4008] = {
-		param = "这没什么",
+		param = "取るに足らんからな",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40710,7 +40700,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4009] = {
-		param = "你不会感到麻烦吗？",
+		param = "面倒に思わないのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -40718,7 +40708,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4010] = {
-		param = "考虑到能帮到你，也就没什么了",
+		param = "お前の役に立つのなら、それで十分だ",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40726,7 +40716,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4011] = {
-		param = "有些事情，我解决起来会更快",
+		param = "我が動いた方が早く片付くこともあるしな",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40734,7 +40724,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4012] = {
-		param = "接下来我打算去看看港区的安保系统",
+		param = "これからセキュリティシステムの状況を見てくる",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40742,7 +40732,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4013] = {
-		param = "有什么问题的话，我会代为处理的",
+		param = "問題があれば、代わりに解決してやろう",
 		ship_group = 20516,
 		flag = 0,
 		type = 1,
@@ -40750,12 +40740,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"太好了，不过……"
+				"それは助かる。ところで……"
 			}
 		}
 	},
 	[4014] = {
-		param = "太好了，不过……我在办公桌旁捡到一个小狮子钥匙扣……",
+		param = "それは助かる。ところで……実は机の横で小さなライオンのキーホルダーを見つけたんだが……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -40771,12 +40761,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"不如你检查完……"
+				"点検が終わったら……"
 			}
 		}
 	},
 	[4016] = {
-		param = "不如你检查完警戒系统，来指挥室拿一趟？",
+		param = "セキュリティシステムの点検が終わったら、執務室に取りに来ないか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -40784,7 +40774,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4017] = {
-		param = "好……",
+		param = "……うむ",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40792,7 +40782,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4018] = {
-		param = "如果安保系统有问题，我会回来和你商量的",
+		param = "セキュリティシステムに不備があれば、戻ってお前と相談する",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40800,7 +40790,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4019] = {
-		param = "钥匙扣就先帮我收好吧",
+		param = "そのキーホルダーはしばらく預かっておいてくれ",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40808,7 +40798,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4020] = {
-		param = "指挥官，你之前让我帮忙整理的清单已经完成了",
+		param = "前に頼まれたリストの整理が完了したぞ",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40816,7 +40806,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4021] = {
-		param = "我现在就将它传输给你",
+		param = "今から送ってやろう",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40824,7 +40814,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4022] = {
-		param = " '20516'已上传文件",
+		param = "【ファイルをアップロードしました】",
 		ship_group = 1,
 		flag = 0,
 		type = 5,
@@ -40832,12 +40822,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"【接收文件】"
+				"【ファイルをダウンロード】"
 			}
 		}
 	},
 	[4023] = {
-		param = "文件已接收",
+		param = "【ファイルをダウンロードしました】",
 		ship_group = 1,
 		type = 5,
 		option = "",
@@ -40845,7 +40835,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4024] = {
-		param = "不愧是狮，真是太可靠了",
+		param = "さすが頼りになるな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -40861,7 +40851,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4026] = {
-		param = "也不是什么难事",
+		param = "大したことじゃないさ",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40869,7 +40859,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4027] = {
-		param = "如果还有其他事需要我，你尽管开口就好",
+		param = "他にも何かあれば、遠慮なく我に相談するがいい",
 		ship_group = 20516,
 		flag = 1,
 		type = 1,
@@ -40877,12 +40867,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"等下……"
+				"ちょっと待った……"
 			}
 		}
 	},
 	[4028] = {
-		param = "呃……等下……好像多了一份《家居用品采购清单》？",
+		param = "えっと……ちょっと待った……「インテリア注文リスト」ってファイルも入ってるけど？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -40890,7 +40880,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4029] = {
-		param = "这些狮子外形的抱枕和靠垫确实都非常可爱 ……",
+		param = "ライオンモチーフのクッションに抱き枕、確かに可愛いけど……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -40898,7 +40888,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4030] = {
-		param = "等下等下……这是怎么回事？",
+		param = "待て……一体どういうことだ……",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40906,7 +40896,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4031] = {
-		param = "先不要看下去了",
+		param = "それ以上見るんじゃない",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40914,7 +40904,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4032] = {
-		param = "我不小心把两份文件一起传给你了……",
+		param = "我としたことが、2つのファイルを一緒に送ってしまったようだ……",
 		ship_group = 20516,
 		flag = 2,
 		type = 1,
@@ -40922,12 +40912,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"真是让人感到有些意外"
+				"ちょっと意外だ"
 			}
 		}
 	},
 	[4033] = {
-		param = "真是让人感到有些意外，没想到狮会收集这么多小狮子……",
+		param = "ちょっと意外だ。ライオンって、こんなにたくさん集めてたんだな……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -40935,7 +40925,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4034] = {
-		param = "要乖乖听话哦",
+		param = "いいか",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40943,7 +40933,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4035] = {
-		param = "现在，立刻、马上关闭我的采购清单，去看工作相关的清单~",
+		param = "今すぐ、その注文リストは閉じて、タスクリストに集中しろ",
 		ship_group = 20516,
 		flag = 3,
 		type = 1,
@@ -40951,7 +40941,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"[拉紧]"
+				"[スタンプ：ぎゅっ]"
 			}
 		}
 	},
@@ -40964,7 +40954,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4037] = {
-		param = "其实……",
+		param = "……実はな",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40972,7 +40962,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4038] = {
-		param = "最近我一直在关注港区巡查的事情，总是会落下要买的东西",
+		param = "最近ずっと母港の見回りに集中していて、買うべきものをつい忘れてしまう",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40980,7 +40970,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4039] = {
-		param = "所以才会列个清单提醒自己",
+		param = "だから、こうやってリストにまとめて忘れないようにしてたんだ",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40988,7 +40978,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4040] = {
-		param = "好吧，总归是我自己没有注意，传错了文件",
+		param = "まあ……我の不注意で間違えて送ったのも事実だ",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -40996,7 +40986,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4041] = {
-		param = "那就给你一次命令我的机会吧，做什么事都可以",
+		param = "だから今回は、お前に一つ、このライオンに命令できる権利をくれてやろう",
 		ship_group = 20516,
 		flag = 4,
 		type = 1,
@@ -41004,12 +40994,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"这样的话……"
+				"それなら……"
 			}
 		}
 	},
 	[4042] = {
-		param = "这样的话……那就命令你去好好睡一觉",
+		param = "それなら……一度ちゃんと睡眠を取ってほしい",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41017,7 +41007,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4043] = {
-		param = "再去好好逛一下，买全自己想要的东西吧",
+		param = "ちゃんと休んで、それからゆっくりと欲しい物を買い揃えよう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41025,7 +41015,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4044] = {
-		param = "……什么？这根本算不上是什么有效的命令吧？",
+		param = "……なに？今のは命令としてどうかと思うが？",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41033,7 +41023,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4045] = {
-		param = "如果是这样轻松的命令，你说不定会失去威信哦~",
+		param = "そんな甘い命令ではお前の威厳が損なわれるやもしれんぞ？",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41041,7 +41031,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4046] = {
-		param = "不过……这确实是你会说出来的话呢",
+		param = "だが……そういう言葉をお前が言うのは、なんだか納得だな",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41057,7 +41047,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4048] = {
-		param = "好了，命令已下，不能反悔，我可以谨遵命令好好休息一下了~",
+		param = "よし、命令は命令だ。撤回はなしだぞ。少しの間、しっかり休ませてもらおう",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41065,7 +41055,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4049] = {
-		param = "但……我希望指挥官也要多注意自己的身体状况",
+		param = "お前も自分の体は大事にしろ",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41073,7 +41063,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4050] = {
-		param = "若是轮到你出纰漏了……呵呵，那可就是我的回合了",
+		param = "今度お前がミスをしたら……ふふ、その時は我のターンだ",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41081,7 +41071,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4051] = {
-		param = "我可不会放过任何能够命令你的机会哦~",
+		param = "指揮官に命令できるチャンス…このライオン、絶対に逃さないぞ？",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41089,7 +41079,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4052] = {
-		param = "指挥官，我定制了两枚徽章",
+		param = "指揮官、バッジを2枚注文した",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41097,7 +41087,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4053] = {
-		param = "可以当做我们之间的信物",
+		param = "我々の「しるし」として受け取ってほしい",
 		ship_group = 20516,
 		flag = 0,
 		type = 1,
@@ -41105,12 +41095,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"……信物？"
+				"……「しるし」？"
 			}
 		}
 	},
 	[4054] = {
-		param = "……信物？",
+		param = "……「しるし」？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41118,7 +41108,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4055] = {
-		param = "没错",
+		param = "そうだとも",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41126,7 +41116,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4056] = {
-		param = "指挥官是港区的管理者，而我则是港区的守护者",
+		param = "お前は母港の指導者、そして我はその守護者",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41134,7 +41124,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4057] = {
-		param = "如此完美的组合，怎么能够没有用以彰显的信物呢？",
+		param = "これほど完璧な組み合わせを表せる「しるし」がこれまでなかったのはおかしいだろう？",
 		ship_group = 20516,
 		flag = 1,
 		type = 1,
@@ -41142,12 +41132,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"谢谢！"
+				"ありがとう！"
 			}
 		}
 	},
 	[4058] = {
-		param = "谢谢！",
+		param = "ありがとう！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41155,7 +41145,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4059] = {
-		param = "很期待，什么时候能见到徽章呢？",
+		param = "それは楽しみだ。いつ届くんだ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41163,7 +41153,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4060] = {
-		param = "指挥官，隐藏自己的欲望才可能获得最好的结果哦~",
+		param = "ふふっ、最善の結果を手に入れたくば時には己の欲を隠せ",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41171,7 +41161,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4061] = {
-		param = "但是我可以提前透露一些徽章的功能",
+		param = "とはいえ……バッジの機能を少しだけ教えてやろう",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41179,7 +41169,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4062] = {
-		param = "首先可以当做电筒，然后有各种工具，最重要的是造型很别致",
+		param = "まずは懐中電灯。それから中にいくつかのツールを収納してある。そして何よりデザインがいい",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41187,7 +41177,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4063] = {
-		param = "当然还有一些不是很重要的功能……",
+		param = "他にも、まあ大したことない仕掛けもあるが……",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41195,7 +41185,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4064] = {
-		param = "总而言之，只要指挥官佩戴着这枚徽章",
+		param = "とにかく、このバッジを身につけてくれれば…",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41203,7 +41193,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4065] = {
-		param = "不论何时何地，即便是在炮火横飞的战场上",
+		param = "どこにいようが、たとえ砲火の中だとしても",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41211,7 +41201,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4066] = {
-		param = "我都能随时联系到你",
+		param = "我はお前に、いつでも連絡が取れる",
 		ship_group = 20516,
 		flag = 2,
 		type = 1,
@@ -41219,12 +41209,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"总感觉这才是最重要的功能……"
+				"それは一番大事な機能な気がする……"
 			}
 		}
 	},
 	[4067] = {
-		param = "总感觉这才是最重要的功能……",
+		param = "それは一番大事な機能な気がする……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41240,7 +41230,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4069] = {
-		param = "当然……如果你接受了这枚信物，之后就一定要随身携带",
+		param = "もちろん……この「しるし」を受け取る以上、常に身につけておくこと",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41248,7 +41238,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4070] = {
-		param = "我就能全天候不间断地知道你的位置",
+		param = "そうすれば我は、お前の位置をいつでも正確に把握できる",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41256,7 +41246,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4071] = {
-		param = "在你需要的时候，我可以立刻到你身边……",
+		param = "そしてお前が必要とするその瞬間に、我はそばに現れ……",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41264,7 +41254,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4072] = {
-		param = "保护你",
+		param = "お前を、守る",
 		ship_group = 20516,
 		flag = 3,
 		type = 1,
@@ -41272,12 +41262,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"好危险但好有安全感的发言……"
+				"危なっかしいけど……安心できる言葉だ……"
 			}
 		}
 	},
 	[4073] = {
-		param = "好危险但好有安全感的发言……",
+		param = "危なっかしいけど……安心できる言葉だ……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41285,7 +41275,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4074] = {
-		param = "前面你说到徽章的造型很别致，所以上面的纹样是狮子吗？",
+		param = "さっき「デザインがいい」と言ってたけど、やっぱりライオンの紋章がついてるの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41293,7 +41283,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4075] = {
-		param = "当然，毕竟是我定制的徽章",
+		param = "当然だ。我が特注したバッジだぞ",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41301,7 +41291,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4076] = {
-		param = "现在你还有时间，好好考虑要把这个徽章别在哪里",
+		param = "今のうちに、どこに着けるか考えておけ",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41309,7 +41299,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4077] = {
-		param = "不要等我到了之后你还在犹豫",
+		param = "我が届けに来た時、迷っているようでは困るからな",
 		ship_group = 20516,
 		flag = 4,
 		type = 1,
@@ -41317,12 +41307,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"怎么会犹豫呢？"
+				"迷うはずないよ？"
 			}
 		}
 	},
 	[4078] = {
-		param = "怎么会犹豫呢？",
+		param = "迷うはずないよ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41330,7 +41320,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4079] = {
-		param = "直接选择一个狮认为合适的地方就可以",
+		param = "ライオンが似合うって思った場所につけてくれれば",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41354,7 +41344,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4082] = {
-		param = "你明知道我不会要求你放在什么……可以彰显你是我“自己人”的位置……",
+		param = "このライオンの「相方」だと見せつけるような場所に付けろなんて言わないさ……お前なら分かってくれるだろう？",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41362,7 +41352,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4083] = {
-		param = "所以只要贴身带着就好了……或许这才是信物的意义",
+		param = "だからその……身につけて持っていればそれでいい。それが「しるし」の意味だ",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41370,7 +41360,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4084] = {
-		param = "让我能时刻在你身边",
+		param = "お前のそばに我がいる",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41378,7 +41368,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4085] = {
-		param = "你也能时刻在我身边",
+		param = "我のそばに、常にお前がいるということだ",
 		ship_group = 20516,
 		type = 1,
 		option = "",
@@ -41386,7 +41376,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4086] = {
-		param = "指挥官，既然来到了指挥官的麾下",
+		param = "指揮官、あなたの部下になったので",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41394,7 +41384,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4087] = {
-		param = "我认为至少要跟您稍微聊聊，互相加深一下了解",
+		param = "少しはお話をして、お互いの理解を深めるべきかと思います",
 		ship_group = 20138,
 		flag = 0,
 		type = 1,
@@ -41402,12 +41392,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"好啊"
+				"そうしよう"
 			}
 		}
 	},
 	[4088] = {
-		param = "好啊",
+		param = "そうしよう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41415,7 +41405,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4089] = {
-		param = "特拉法尔加有什么想要问我的事吗？",
+		param = "何か聞きたいことでも？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41423,7 +41413,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4090] = {
-		param = "目前暂时没有，感谢您的关心",
+		param = "今のところ特には……お気遣いありがとうございます",
 		ship_group = 20138,
 		flag = 1,
 		type = 1,
@@ -41431,12 +41421,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"……在工作的时候有没有困难？"
+				"……仕事で困ってることはない？"
 			}
 		}
 	},
 	[4091] = {
-		param = "……那工作的时候有没有遇到什么困难？",
+		param = "……仕事で困ってることはない？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41444,7 +41434,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4092] = {
-		param = "没有，因为您太出色了，所以我的工作非常轻松",
+		param = "いいえ、むしろ優秀すぎる指揮官のおかげで、仕事はとても楽です",
 		ship_group = 20138,
 		flag = 2,
 		type = 1,
@@ -41452,12 +41442,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"和港区的大家相处得怎么样？"
+				"母港の皆とはうまくやれてる？"
 			}
 		}
 	},
 	[4093] = {
-		param = "和港区的大家相处得怎么样？",
+		param = "母港の皆とはうまくやれてる？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41465,7 +41455,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4094] = {
-		param = "大家都很关心我，能与她们共事是我的荣幸",
+		param = "はい、皆さんとても親切で、共に働けて光栄に思っています",
 		ship_group = 20138,
 		flag = 3,
 		type = 1,
@@ -41473,7 +41463,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"[唔嗯？]"
+				"[スタンプ：うーん？]"
 			}
 		}
 	},
@@ -41486,7 +41476,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4096] = {
-		param = "回复得又快又官方，是提前就准备好了吗？",
+		param = "秒で模範的な返答が返ってくるとは…もしかして事前に答えでも用意してた？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41494,7 +41484,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4097] = {
-		param = "……您居然看出来了",
+		param = "……気づかれてしまいましたか",
 		ship_group = 20138,
 		flag = 4,
 		type = 1,
@@ -41502,12 +41492,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"可以随性一点"
+				"もっと気楽にしていいよ"
 			}
 		}
 	},
 	[4098] = {
-		param = "想要聊聊的话，还是稍微随性一点吧",
+		param = "大した話でもないんだし、もっと気楽にいこう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41515,7 +41505,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4099] = {
-		param = "我其实不太擅长和别人交流战斗和工作以外的事情",
+		param = "……すみません。本当は他人と戦闘や仕事以外について会話するのが少し苦手でして",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41523,7 +41513,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4100] = {
-		param = "当然，我的意思是指挥官不是别人",
+		param = "あっ、指揮官は「他人」だと言いたいのではありませんっ",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41531,7 +41521,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4101] = {
-		param = "如果您想交流的话我一定配合",
+		param = "指揮官が望まれるなら、できる限り努力します",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41539,7 +41529,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4102] = {
-		param = "虽然不一定交流到位……",
+		param = "……うまくいくとは限りませんが",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41555,7 +41545,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4104] = {
-		param = "果然和指挥官聊天的时候，会有种不可思议的放松感",
+		param = "……やはり指揮官と話していると、不思議と肩の力が抜けます",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41563,7 +41553,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4105] = {
-		param = "一不小心就说多了",
+		param = "つい、話しすぎてしまいました",
 		ship_group = 20138,
 		flag = 5,
 		type = 1,
@@ -41571,12 +41561,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"能放松下来就好"
+				"リラックスできたならよかった"
 			}
 		}
 	},
 	[4106] = {
-		param = "能放松下来就好",
+		param = "リラックスできたならよかった",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41584,7 +41574,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4107] = {
-		param = "您现在才明白自己的罪孽有多么深重？",
+		param = "「指揮官、今さらご自身の罪の深さを思い知りましたか？」",
 		ship_group = 20138,
 		flag = 6,
 		type = 1,
@@ -41613,7 +41603,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[4110] = {
-		param = "抱歉，下意识引用了下电影里的台词……",
+		param = "すみません、つい映画のセリフを引用してしまいまして…",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41621,7 +41611,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[4111] = {
-		param = "只是想着能不能稍微缓和一下气氛",
+		param = "少しでも空気を和らげられればと思って……",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41629,7 +41619,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[4112] = {
-		param = "我还有一些其他的事务需要去处理！",
+		param = "まだ別の業務がありますから！",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41637,7 +41627,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[4113] = {
-		param = "下次再加深了解吧",
+		param = "また今度、理解を深めていきましょう",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41645,7 +41635,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[4114] = {
-		param = "指挥官您今天似乎很疲惫",
+		param = "指揮官、今日は少しお疲れのように見えます",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41653,7 +41643,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4115] = {
-		param = "万事开头难，还希望指挥官您能再接再厉",
+		param = "物事は最初が肝心ですから、どうかめげずにご自身のペースで続けてください",
 		ship_group = 20138,
 		flag = 0,
 		type = 1,
@@ -41661,12 +41651,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"谢谢你的鼓励"
+				"励ましてくれてありがとう"
 			}
 		}
 	},
 	[4116] = {
-		param = "谢谢你的鼓励",
+		param = "励ましてくれてありがとう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41674,7 +41664,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4117] = {
-		param = "这些话，下次可以亲口告诉我",
+		param = "できれば、その言葉を直接言ってもらえると嬉しいな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41682,7 +41672,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4118] = {
-		param = "……欸？",
+		param = "……えっ？",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41690,7 +41680,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4119] = {
-		param = "指挥官这是，想见我的意思吗？",
+		param = "それって……直接会いたい、という意味でしょうか？",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41698,7 +41688,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4120] = {
-		param = "难道说……今天的战术，成功了？",
+		param = "まさか……今日の戦術は、成功……？",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41714,12 +41704,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"战术？成功？"
+				"戦術？成功？"
 			}
 		}
 	},
 	[4122] = {
-		param = "战术？成功？今天没有演习吧……？",
+		param = "戦術？成功？今日は演習はなかったはずだけど……？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41727,7 +41717,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4123] = {
-		param = "嗯……那个，虽然有点难以启齿……",
+		param = "あ、あの……少し言いづらいのですが……",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41735,7 +41725,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4124] = {
-		param = "我之前看的电影里提过……恋爱，总是萌芽于「恰到好处的距离感」",
+		param = "以前映画で見たことがあるんです……恋というのは「ちょうどいい距離感」から芽生えるものだと",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41743,7 +41733,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4125] = {
-		param = "越是点到为止，越是吸引人",
+		param = "引きすぎず、近づきすぎず……それが一番心を惹きつけると",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41751,7 +41741,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4126] = {
-		param = "我就试着实践了一下……",
+		param = "それで……試してみたのですが…",
 		ship_group = 20138,
 		flag = 2,
 		type = 1,
@@ -41759,12 +41749,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"……这就是你今天一遇到我就走开的原因？"
+				"すぐ避けられていたのはそれのせい…？"
 			}
 		}
 	},
 	[4127] = {
-		param = "……这就是你今天一遇到我就走开的原因？",
+		param = "すぐ避けられていたのはそれのせい…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41772,7 +41762,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4128] = {
-		param = "也、也没有走得那么快吧？",
+		param = "そこまですぐ離れたわけでは……ないと思います……！",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41780,7 +41770,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4129] = {
-		param = "只是因为再待下去就要忍不住和指挥官搭话了，所以不得不选择离开",
+		param = "ただ……このままだと、きっと我慢できずに指揮官に話しかけてしまいそうで……",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41788,7 +41778,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4130] = {
-		param = "我也是迫不得已，请您见谅……",
+		param = "だから、仕方なく離れたんです。どうかお許しください……",
 		ship_group = 20138,
 		flag = 3,
 		type = 1,
@@ -41796,12 +41786,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"其实，我只感觉自己被嫌弃了"
+				"正直、嫌われたのかと思った"
 			}
 		}
 	},
 	[4131] = {
-		param = "其实，我只感觉自己被嫌弃了",
+		param = "正直、嫌われたのかと思った",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41809,7 +41799,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4132] = {
-		param = "我绝对不是那个意思！",
+		param = "そんなことありません！",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41825,7 +41815,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4134] = {
-		param = "怎、怎么会这样……这是战术误判……！",
+		param = "どうしてこんなことに……これは完全に戦術ミス……",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41833,7 +41823,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4135] = {
-		param = "明明也经常有人在实战中采用这种“欲擒故纵”的战术……",
+		param = "実戦ではよくある「あえて距離を取る」戦術なのに……",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41841,7 +41831,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4136] = {
-		param = "结果，这一切……竟然从起点开始就错了吗",
+		param = "まさか全て……最初から間違っていたなんて……",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41849,7 +41839,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4137] = {
-		param = "……指挥官，您稍等",
+		param = "指揮官、少しお待ちください",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41857,7 +41847,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4138] = {
-		param = "出现如此重大的失误，我必须亲自向您道歉才行",
+		param = "ここまでの失敗、やはり直接お詫びしなければなりません",
 		ship_group = 20138,
 		flag = 4,
 		type = 1,
@@ -41865,7 +41855,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"[沉思ing]"
+				"[スタンプ：考え中]"
 			}
 		}
 	},
@@ -41878,7 +41868,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4140] = {
-		param = "……欸？指挥官，您为什么看到我就走了？",
+		param = "……え？指揮官、なぜ私を見るなり立ち去るのですか？",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41886,7 +41876,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4141] = {
-		param = "等、等等！",
+		param = "ま、待ってください！",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41894,7 +41884,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4142] = {
-		param = "您跑得太快了，我追不上……！",
+		param = "そんなに速く逃げられたら追いつけません……！",
 		ship_group = 20138,
 		flag = 5,
 		type = 1,
@@ -41902,12 +41892,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"欲擒故纵是吧，我学会了"
+				"こういう戦術なのか"
 			}
 		}
 	},
 	[4143] = {
-		param = "欲擒故纵是吧，我学会了",
+		param = "こういう戦術なのか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41915,7 +41905,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4144] = {
-		param = "怎么会——指挥官，等等我——！",
+		param = "そんな……指揮官、待ってください――！",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41923,7 +41913,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4145] = {
-		param = "指挥官，您觉得今天的观影体验如何？",
+		param = "指揮官、今日の映画はいかがでしたか？",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41931,7 +41921,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4146] = {
-		param = "我想知道您的意见，之后也会根据您的反馈来调整后续片单……",
+		param = "ご意見をお伺いしたくて……今後の上映リストの参考にもしたいと思っています",
 		ship_group = 20138,
 		flag = 0,
 		type = 1,
@@ -41939,12 +41929,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"很好的爱情片……"
+				"とても良い恋愛映画だった……"
 			}
 		}
 	},
 	[4147] = {
-		param = "很好的爱情片，但感觉你看得时候有点紧张？",
+		param = "とても良い恋愛映画だったよ。でもトラファルガーはちょっと緊張してたような…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -41960,7 +41950,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4149] = {
-		param = "啊……这是我第一次邀请指挥官外出",
+		param = "あっ……実は、指揮官をお誘いするのは、これが初めてで……",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41968,7 +41958,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4150] = {
-		param = "虽然已经提前定好了观影计划，但还是……",
+		param = "前もって予定を立てていましたけど、それでも……",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41976,7 +41966,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4151] = {
-		param = "明明是号称“永不沉没的巨轮”，最终却变成了“永恒的沉没传奇”啊",
+		param = "「不沈の巨船」と謳われた船が、「沈没船のレジェンド」に変わるなんて――",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -41984,7 +41974,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4152] = {
-		param = "感觉，有些遗憾……",
+		param = "少し……切ない気持ちになってしまいました",
 		ship_group = 20138,
 		flag = 1,
 		type = 1,
@@ -41992,12 +41982,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"我们可以换个角度去看这个故事"
+				"違う視点から捉えてみよう"
 			}
 		}
 	},
 	[4153] = {
-		param = "我们可以换个角度去看这个故事",
+		param = "違う視点から捉えてみよう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -42005,7 +41995,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4154] = {
-		param = "换个……角度……？",
+		param = "違う視点……ですか？",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -42013,7 +42003,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4155] = {
-		param = "嗯，您说的对……片中的爱情也很动人",
+		param = "そうですね……例えば劇中のラブストーリーですが……",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -42021,7 +42011,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4156] = {
-		param = "这段爱情在生死离别中升华，又和沉船一同成为永恒的传奇",
+		param = "二人の恋は死別の中で昇華され、その物語ごと、沈んだ船とともに伝説になる……",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -42029,7 +42019,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4157] = {
-		param = "这是多么炽热、多么令人钦佩的勇气……",
+		param = "燃えるような想いと、そして賞賛に値する勇気……",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -42037,7 +42027,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4158] = {
-		param = "啊！不好意思，又让指挥官看我自顾自的说了这么多",
+		param = "あ。すみません、また一人で盛り上がってしまいました……",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -42045,7 +42035,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4159] = {
-		param = "请和我说说您的想法吧",
+		param = "指揮官のご感想も聞かせてください",
 		ship_group = 20138,
 		flag = 2,
 		type = 1,
@@ -42053,12 +42043,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"我只是觉得，可以从灾难的反面去解读……"
+				"「災難の裏に希望」も感じた"
 			}
 		}
 	},
 	[4160] = {
-		param = "我只是觉得，可以从灾难的反面去解读……",
+		param = "「災難の裏に希望」も感じた",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -42066,7 +42056,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4161] = {
-		param = "对餐厅厨房里的龙虾来说，这分明是一次生命的奇迹啊",
+		param = "たとえば、厨房にいたロブスターにとっては、奇跡の生還を果たしたと思わない？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -42082,7 +42072,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4163] = {
-		param = "……竟然还存在这样的角度？",
+		param = "そんな見方もあるなんて……",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -42090,7 +42080,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4164] = {
-		param = "但顺着这个思路去想，确实感觉心情轻松了不少",
+		param = "でも、確かに……そう考えると、少し気持ちが軽くなった気がします……",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -42106,7 +42096,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4166] = {
-		param = "决定了",
+		param = "決めました",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -42114,7 +42104,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4167] = {
-		param = "指挥官，今晚也可以陪我一起看电影吗？",
+		param = "指揮官、今夜も一緒に映画を観ませんか？",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -42122,7 +42112,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4168] = {
-		param = "我对指挥官的解读……很感兴趣",
+		param = "指揮官の解釈……とても興味があります",
 		ship_group = 20138,
 		flag = 3,
 		type = 1,
@@ -42130,12 +42120,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"恐怕要让你失望了，我也是会正经解读电影的"
+				"真面目に鑑賞してるときもあるよ？"
 			}
 		}
 	},
 	[4169] = {
-		param = "恐怕要让你失望了，我也是会正经解读电影的",
+		param = "ちゃんと真面目に観てるときもあるから、あまり変に期待しないほうがいいよ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -42143,7 +42133,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4170] = {
-		param = "指挥官要认真起来了吗……？那我也……",
+		param = "指揮官が真面目になるのでしたら……私も",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -42151,7 +42141,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4171] = {
-		param = "我也会，全力了解您的想法！",
+		param = "私も、全力で指揮官を理解してみせます！",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -42159,7 +42149,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4172] = {
-		param = "这样，应该就可以补全对您的研究笔记了……下一次计划，一定会完成得更顺利！",
+		param = "これで……きっと、研究ノートも完成に近づくはず……",
 		ship_group = 20138,
 		flag = 4,
 		type = 1,
@@ -42167,12 +42157,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"研究笔记？"
+				"研究ノート？"
 			}
 		}
 	},
 	[4173] = {
-		param = "研究笔记？",
+		param = "研究ノート？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -42180,7 +42170,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4174] = {
-		param = "【已撤回】",
+		param = "【メッセージが撤回されました】",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -42188,7 +42178,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4175] = {
-		param = "【已撤回】",
+		param = "【メッセージが撤回されました】",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -42204,7 +42194,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4177] = {
-		param = "总、总之，我在放映室等您！",
+		param = "とにかく、シアタールームでお待ちしています！",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -42212,7 +42202,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4178] = {
-		param = "指挥官，今晚不见不散……！",
+		param = "今夜は、絶対に、来てくださいね……！",
 		ship_group = 20138,
 		type = 1,
 		option = "",
@@ -42220,7 +42210,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4179] = {
-		param = "主人，您现在有空吗？",
+		param = "ご主人様、今お時間ありますか？",
 		ship_group = 20235,
 		flag = 0,
 		type = 1,
@@ -42228,12 +42218,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"暂时还挺闲的。"
+				"大丈夫だよ"
 			}
 		}
 	},
 	[4180] = {
-		param = "暂时还挺闲的，工作都已经告一段落了。",
+		param = "大丈夫だよ。ちょうど仕事も一段落したし",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -42241,7 +42231,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4181] = {
-		param = "是发生什么事了吗？",
+		param = "どうかした？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -42249,7 +42239,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4182] = {
-		param = "因为我看今天太阳不错，所以想邀请主人您一起晒日光浴。",
+		param = "日差しがちょうどいいので、ご主人様を日光浴に誘おうと存じまして",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42257,7 +42247,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4183] = {
-		param = "您知道吗？在尼罗河文化里，多晒太阳就能获得神明的庇护！",
+		param = "ご存じですか？ナイル文明では、太陽の光をたくさん浴びると神様のご加護が得られると言われていたんですよ",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42265,7 +42255,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4184] = {
-		param = "我身上的这些晒痕，可都象征着太阳神的祝福哦。",
+		param = "私の日焼け跡も、ラーの祝福の証なんですから",
 		ship_group = 20235,
 		flag = 1,
 		type = 1,
@@ -42273,12 +42263,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"既然是太阳神，不应该庇护信徒不被太阳晒到么？"
+				"日差しから守ってもほしい"
 			}
 		}
 	},
 	[4185] = {
-		param = "既然是太阳神，不应该庇护信徒不被太阳晒到么？",
+		param = "日差しから守ってもほしい",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -42286,7 +42276,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4186] = {
-		param = "……欸？您说得好像也有道理……",
+		param = "……ほえ？い、言われてみれば……",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42294,7 +42284,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4187] = {
-		param = "啊……那、那说起来，主人您知道吗？",
+		param = "っと……じゃあこれはご存じです？",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42302,7 +42292,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4188] = {
-		param = "葡萄在尼罗河文化里，其实是人类献给太阳神的礼物哦~",
+		param = "ぶどうはナイル文明では、人間がラーに捧げた贈り物だったんです♪",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42310,7 +42300,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4189] = {
-		param = "所以……主人您喜欢葡萄吗？",
+		param = "……ご主人様、ぶどうはお好きですか？",
 		ship_group = 20235,
 		flag = 2,
 		type = 1,
@@ -42318,12 +42308,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"葡萄吗？我还挺喜欢的"
+				"ぶどう？まぁまぁ好きだよ"
 			}
 		}
 	},
 	[4190] = {
-		param = "葡萄吗？我还挺喜欢的",
+		param = "ぶどう？まぁまぁ好きだよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -42331,7 +42321,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4191] = {
-		param = "喜、喜欢吗？不好意思，我全部拿去供给神明换取庇护了……！",
+		param = "そ、そうですか？ごめんなさい、全部神様への供物にしてしまいました……！",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42339,7 +42329,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4192] = {
-		param = "不过我现在记住指挥官的喜好了哦！下次一定会给您留着的！",
+		param = "これでちゃんとご主人様の好みは覚えましたから！今度は絶対取っておきますね！",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42347,7 +42337,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4193] = {
-		param = "唔唔，其实我真正想问的是……",
+		param = "うぅ……でも本当に聞きたかったのは……",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42355,7 +42345,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4194] = {
-		param = "主人，喜欢葡萄叶吗？",
+		param = "ご主人様、ぶどうの葉っぱはお好きですか？",
 		ship_group = 20235,
 		flag = 3,
 		type = 1,
@@ -42363,12 +42353,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"取决于它的用途？"
+				"使い道によるかな？"
 			}
 		}
 	},
 	[4195] = {
-		param = "取决于它的用途？",
+		param = "使い道によるかな？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -42376,7 +42366,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4196] = {
-		param = "主人应该知道的吧，在尼罗河文化中，葡萄叶可以用来包裹和烹饪食物哦！",
+		param = "ご主人様もご存じですよね？ナイル文明では、ぶどうの葉っぱで料理を包んで調理したりするんです！",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42384,7 +42374,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4197] = {
-		param = "就让我来为主人准备一份特别的美食吧~",
+		param = "ということで、特別な一皿をご主人様にご用意しますね",
 		ship_group = 20235,
 		flag = 4,
 		type = 1,
@@ -42392,7 +42382,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"[发呆]"
+				"[スタンプ：えー]"
 			}
 		}
 	},
@@ -42405,7 +42395,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4199] = {
-		param = "怎么样？主人这下是不是深刻感受到尼罗河文化的博大精深了呢？",
+		param = "いかがでしたか？ナイル文明の奥深さに感動しました？",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42413,7 +42403,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4200] = {
-		param = "我注意到您最近都在忙于工作，没能好好吃饭。",
+		param = "ご主人様は最近お仕事に追われて、ちゃんとお食事を取っていないようでしたので……",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42421,7 +42411,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4201] = {
-		param = "所以，我就想到可以给主人准备一些尼罗河文化特有的美食！",
+		param = "ですから、ナイル文明の特別なお料理を提供しようと思いまして！",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42429,7 +42419,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4202] = {
-		param = "这样一来，您既能填饱肚子，又能感受到尼罗河文化的魅力~",
+		param = "お腹も満たされるだけでなく、ナイル文明の魅力も堪能できるかと♪",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42445,7 +42435,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4204] = {
-		param = "啊，主人还请稍等片刻",
+		param = "あっ、ご主人様少々お待ちを",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42453,7 +42443,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4205] = {
-		param = "我马上就去为您摘采新鲜的葡萄叶！",
+		param = "すぐに新鮮なぶどうの葉っぱを採ってきますね！",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42461,7 +42451,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4206] = {
-		param = "主人，您知道吗？",
+		param = "ご主人様、ご存じですか？",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42469,7 +42459,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4207] = {
-		param = "在尼罗河文化里，狮身人面像还有招财的寓意哦！",
+		param = "ナイル文明では、スフィンクスには金運アップのご利益があるとされてたんです",
 		ship_group = 20235,
 		flag = 0,
 		type = 1,
@@ -42477,7 +42467,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"[惊]"
+				"[えっ]"
 			}
 		}
 	},
@@ -42490,7 +42480,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4209] = {
-		param = "招……招财？",
+		param = "き、金運アップ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -42498,7 +42488,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4210] = {
-		param = "对呀！",
+		param = "そうです！",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42506,7 +42496,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4211] = {
-		param = "因为狮身人面像的右手是举起来的，就像招财猫一样",
+		param = "招き猫と同じで、スフィンクスの右手も上げていますよね？",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42514,7 +42504,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4212] = {
-		param = "而招财猫举着的右手，不正是象征招财以及幸福的到来吗？",
+		param = "つまりその上がった右手は、金運招来の意味ではないかと♪",
 		ship_group = 20235,
 		flag = 1,
 		type = 1,
@@ -42522,12 +42512,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"……你是在哪里看到举着右手的狮身人面像的？"
+				"……右手を上げているスフィンクス？"
 			}
 		}
 	},
 	[4213] = {
-		param = "……你是在哪里看到举着右手的狮身人面像的？",
+		param = "……右手を上げているスフィンクス？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -42535,7 +42525,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4214] = {
-		param = "咦，是在哪里呢……",
+		param = "そういえば、どこで見たんだったっけ……",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42543,7 +42533,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4215] = {
-		param = "哈哈哈说起来，指挥官应该知道吧，那时候只有一种人能拥有这种摆件哦！",
+		param = "あははは……ご主人様ならご存知でしょう？当時、そういうオブジェクトの所持が許されていたのは――",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42551,7 +42541,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4216] = {
-		param = "答案是——那些身份尊贵的大人物！",
+		param = "そう、高貴な方だけだったんです！",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42559,7 +42549,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4217] = {
-		param = "因为在尼罗河文化里，猫是十分高贵的存在",
+		param = "なぜなら、ナイル文明では猫はとても尊い存在で……",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42567,7 +42557,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4218] = {
-		param = "所以他们才会为狮身人面像赋予招财的职责",
+		param = "だからこそ、貴族たちは猫ではなく、スフィンクスに金運を呼ぶ役割が与えたんです",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42575,7 +42565,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4219] = {
-		param = "嘿嘿~怎么样，我的博学有让指挥官大吃一惊嘛？",
+		param = "えへへ、いかがです？ご主人様、私の博識ぶりに驚かれましたか？",
 		ship_group = 20235,
 		flag = 2,
 		type = 1,
@@ -42583,12 +42573,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"我确实对你刮目相看了……"
+				"見直したよ……"
 			}
 		}
 	},
 	[4220] = {
-		param = "我确实对你刮目相看了……",
+		param = "見直したよ……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -42596,7 +42586,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4221] = {
-		param = "不过，你为什么会突然在意起这种东西？",
+		param = "でも、どうして急にそんな話を？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -42604,7 +42594,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4222] = {
-		param = "唔……其实是因为，我注意到新同伴们的到来让港区开销日渐增多……",
+		param = "えっと……実は最近、母港の出費もかさむ一方で……",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42612,7 +42602,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4223] = {
-		param = "所以，就试着收集了一些能拓宽财运的方法……",
+		param = "そこで、金運を上げる方法をちょっと集めてみたんです……",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42620,7 +42610,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4224] = {
-		param = "希望能通过这种方式来为主人您分忧",
+		param = "その、少しでもご主人様の負担を減らせたらと思いまして……",
 		ship_group = 20235,
 		flag = 3,
 		type = 1,
@@ -42628,12 +42618,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"……谢谢你"
+				"……ありがとう"
 			}
 		}
 	},
 	[4225] = {
-		param = "……谢谢你，但不用担心这件事，我会解决的",
+		param = "……ありがとう。それなら心配しないで大丈夫。自分が何とかするよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -42641,7 +42631,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4226] = {
-		param = "没关系！啊，我晚点还会和您分享其他招财的方法哦！",
+		param = "いえいえとんでもない！後ほど他の金運アップの方法もご主人様に提案させていただきます！",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42649,7 +42639,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4227] = {
-		param = "请主人期待一下！",
+		param = "ご主人様、楽しみにしていてくださいませ！",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42665,7 +42655,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4229] = {
-		param = "主人主人！",
+		param = "ご主人様、ご主人様っ！",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42673,7 +42663,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4230] = {
-		param = "那个……请问您有看到我的刻刀吗？",
+		param = "あの……私の彫刻刀を見ませんでしたか？",
 		ship_group = 20235,
 		flag = 0,
 		type = 1,
@@ -42681,12 +42671,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"刻刀？"
+				"彫刻刀？"
 			}
 		}
 	},
 	[4231] = {
-		param = "刻刀？我印象里没有见到过。",
+		param = "彫刻刀？見てないな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -42694,7 +42684,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4232] = {
-		param = "啊呜……",
+		param = "ううぅ……",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42710,12 +42700,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"莫非是什么很重要的东西吗？"
+				"もしかして大事なものなの？"
 			}
 		}
 	},
 	[4234] = {
-		param = "莫非是什么很重要的东西吗？",
+		param = "もしかして大事なものなの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -42723,7 +42713,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4235] = {
-		param = "比如说……有着尼罗河文化传承的刻刀之类的？",
+		param = "ナイル文明の伝承が刻まれた、由緒ある彫刻刀……とか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -42731,7 +42721,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4236] = {
-		param = "没有没有，只是把普通的刻刀而已",
+		param = "いいえ、至って普通の彫刻刀です…",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42739,7 +42729,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4237] = {
-		param = "唔……果然还是重新买一个吧……",
+		param = "んん……やっぱり新しいのを買うしか……",
 		ship_group = 20235,
 		flag = 2,
 		type = 1,
@@ -42747,12 +42737,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"没想到你还对雕刻感兴趣"
+				"まさか彫刻にも興味があるなんて"
 			}
 		}
 	},
 	[4238] = {
-		param = "没想到你还对雕刻感兴趣",
+		param = "まさか彫刻にも興味があるなんて",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -42760,7 +42750,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4239] = {
-		param = "嗯……主人您知道吗？",
+		param = "ええと……ご主人様はご存じですか？",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42768,7 +42758,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4240] = {
-		param = "在尼罗河文化的石像中，除了神像，其实还有不少人像哦？",
+		param = "ナイル文明では、神像以外に人物像も多く彫られたのですよ？",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42776,7 +42766,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4241] = {
-		param = "有一位帝王，好像是叫……叫什么什么二世来着",
+		param = "ある王様、たしか……なんとか二世って名前だったと思うんですけど",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42784,7 +42774,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4242] = {
-		param = "他为了彰显自己对妃子的宠爱，修筑了好多好多她的石像",
+		param = "あの王様は、愛する王妃のためにたくさんの像を造らせました",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42792,7 +42782,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4243] = {
-		param = "所以，我也想为您雕刻一座小石像，摆在我的房间里",
+		param = "ですから私も、ご主人様のために小さな像を作って部屋に飾りたくて……",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42800,7 +42790,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4244] = {
-		param = "就像那位帝王将他心爱的妃子的石像放置到各大神庙里那样",
+		param = "その王様が、愛する妃の像を神殿に祀ったように",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42808,7 +42798,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4245] = {
-		param = "但是……我现在却不小心将刻刀给弄丢了……",
+		param = "でも……まさかそのための彫刻刀をなくすなんて……",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42824,12 +42814,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"没关系的，我陪你去买吧"
+				"一緒に買いに行こう"
 			}
 		}
 	},
 	[4247] = {
-		param = "没关系的，我陪你去买吧",
+		param = "一緒に買いに行こう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -42837,7 +42827,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4248] = {
-		param = "克利奥佩特拉为我做了这么多，我总不能袖手旁观吧？",
+		param = "いつもいろいろしてくれるから、放っておけないよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -42845,7 +42835,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4249] = {
-		param = "……欸？",
+		param = "……えっ？",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42853,7 +42843,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4250] = {
-		param = "谢、谢谢主人！我这就赶往您的身边！",
+		param = "あ、ありがとうございますご主人様！すぐそちらに向かいますね！",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42869,7 +42859,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4252] = {
-		param = "啊……那个……",
+		param = "あっ…ええと……",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42877,7 +42867,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4253] = {
-		param = "主人，我刚刚找到我的刻刀了",
+		param = "ご主人様、申し上げにくいですが、今彫刻刀が見つかりました……",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42885,7 +42875,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4254] = {
-		param = "原来是不小心被我压在衣服底下了……",
+		param = "服の下に紛れ込んでしまったみたいで……",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42901,7 +42891,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4256] = {
-		param = "那、那这样的话……",
+		param = "み、見つかりはしましたが……",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42909,7 +42899,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4257] = {
-		param = "我还可以来找主人吗……？",
+		param = "それでも、ご主人様のところに行っても……いいですか？",
 		ship_group = 20235,
 		flag = 4,
 		type = 1,
@@ -42917,12 +42907,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"正好我有一份文件找不到了，你来帮我一下吧"
+				"見つからない書類があるから助かる"
 			}
 		}
 	},
 	[4258] = {
-		param = "正好我有一份文件找不到了，你来帮我一下吧",
+		param = "見つからない書類があるから助かる",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -42946,7 +42936,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4261] = {
-		param = "主人还请稍等片刻，克利奥佩特拉现在即刻就飞奔至您的身边！",
+		param = "ご主人様、少々お待ちください。クレオパトラ、今おそばに参ります！",
 		ship_group = 20235,
 		type = 1,
 		option = "",
@@ -42954,7 +42944,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4262] = {
-		param = "指挥官指挥官！",
+		param = "指揮官指揮官！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -42962,7 +42952,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4263] = {
-		param = "你到办公室了吗？",
+		param = "もう執務室に着いた？",
 		ship_group = 20139,
 		flag = 0,
 		type = 1,
@@ -42970,12 +42960,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"在门口"
+				"ドアの前だよ"
 			}
 		}
 	},
 	[4264] = {
-		param = "在门口，正准备进去",
+		param = "ドアの前だよ、今ちょうど入るところだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -42983,7 +42973,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4265] = {
-		param = "哼哼，我给指挥官准备了惊喜哦！",
+		param = "ふっふー。指揮官のためにサプライズを用意したよ！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -42991,7 +42981,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4266] = {
-		param = "快开门看看吧~",
+		param = "さあ！指揮官、ドアを開けられたし！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43007,12 +42997,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"……哇哦"
+				"……おお"
 			}
 		}
 	},
 	[4268] = {
-		param = "……哇哦",
+		param = "……おお",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43020,7 +43010,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4269] = {
-		param = "怎么样怎么样！",
+		param = "どう？すごいでしょ！？",
 		ship_group = 20139,
 		flag = 2,
 		type = 1,
@@ -43028,12 +43018,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"……窗户被风吹开了"
+				"……窓が風で開いたみたいだな"
 			}
 		}
 	},
 	[4270] = {
-		param = "……窗户被风吹开了",
+		param = "……窓が風で開いたみたいだな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43041,7 +43031,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4271] = {
-		param = "啸——啸——不对不对！",
+		param = "ピッピーー！違う違う！そっちじゃないの！",
 		ship_group = 20139,
 		flag = 3,
 		type = 1,
@@ -43049,12 +43039,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"你的啾信有声音了"
+				"（文字でホイッスルを鳴らされてもな…）"
 			}
 		}
 	},
 	[4272] = {
-		param = "你的啾信有声音了",
+		param = "（文字でホイッスルを鳴らされてもな…）",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43062,7 +43052,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4273] = {
-		param = "不过……我看出来了，惊喜应该是：好整洁的办公室啊！",
+		param = "あ！何がサプライズかわかった！執務室がキレイに片付けられている！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43070,7 +43060,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4274] = {
-		param = "哼哼！！怎么样！！",
+		param = "でしょでしょ！！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43078,7 +43068,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4275] = {
-		param = "我想到指挥官总是处理文件忙到很晚，肯定没空收拾嘛",
+		param = "指揮官はいつも書類に追われてて、片付ける暇もなさそうだったから",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43086,7 +43076,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4276] = {
-		param = "所以~我一大早就来帮指挥官整理啦！",
+		param = "朝早く来て、こっそり片付けた！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43094,7 +43084,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4277] = {
-		param = "先是开窗通风，然后桌子也都一尘不染了哦！",
+		param = "窓を開けて空気を入れ替えたし、机もピッカピカにしたよ！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43110,12 +43100,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"空气清新了许多"
+				"空気が澄んでる"
 			}
 		}
 	},
 	[4279] = {
-		param = "空气清新了许多，确实感觉舒畅了不少，不过——",
+		param = "空気が澄んでて、なんだかサッパリしたな。しかし……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43123,7 +43113,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4280] = {
-		param = "文件也一起随风飘散了，桌子的确一尘不染了",
+		param = "書類が風で全部飛んじゃった。んーこれはこれでサッパリなんだけど……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43131,7 +43121,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4281] = {
-		param = "欸？！",
+		param = "えっ！？",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43139,7 +43129,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4282] = {
-		param = "那指挥官岂不是正在凌乱的文件中挣扎？",
+		param = "ってことは、指揮官は今、散らかった書類と格闘中！？",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43147,7 +43137,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4283] = {
-		param = "这种凌乱的时刻……是不是更需要我来维护秩序呢！",
+		param = "執務室の秩序が失われている……つまりわたしの出番！秩序を守るのはわたしの仕事だから！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43155,7 +43145,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4284] = {
-		param = "啸——啸——（发出维护秩序的声音> <）",
+		param = "ピッピーーッ！！",
 		ship_group = 20139,
 		flag = 5,
 		type = 1,
@@ -43163,12 +43153,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"好的，但来的时候不要吹哨"
+				"来るのはいいが…"
 			}
 		}
 	},
 	[4285] = {
-		param = "好的，但来的时候不要吹哨",
+		param = "来るのはいいが、来るときはホイッスル吹かないでね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43176,7 +43166,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4286] = {
-		param = "凌乱的文件听不到",
+		param = "散らばった書類に音は必要ないし",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43184,7 +43174,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4287] = {
-		param = "哼哼，我维护秩序的办法可不止吹哨一种哦~",
+		param = "ふふ～、ホイッスルだけだと思ったら大間違いだよ？",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43192,7 +43182,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4288] = {
-		param = "指挥官可不要小看我！",
+		param = "指揮官、わたしを甘く見ないこと！",
 		ship_group = 20139,
 		flag = 6,
 		type = 1,
@@ -43200,12 +43190,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"好的，我先稳定一下文件情况"
+				"こっちは現場を確保しておく"
 			}
 		}
 	},
 	[4289] = {
-		param = "好的，我先稳定一下文件情况，请勇气尽快赶来",
+		param = "じゃあ先に現場を確保しておく。ギャラントは急行されたし！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43213,7 +43203,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[4290] = {
-		param = "警备队队长正在赶来！",
+		param = "警備隊隊長、現在現場に急行中！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43221,7 +43211,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[4291] = {
-		param = "小小文件，等我安排！",
+		param = "その程度の紙の乱れ、すぐに整えてみせる！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43229,7 +43219,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[4292] = {
-		param = "指挥官指挥官！",
+		param = "指揮官指揮官！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43237,7 +43227,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4293] = {
-		param = "有一个给你的礼物放在办公室门口了！",
+		param = "執務室の前にプレゼントを置いておいたよ！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43245,7 +43235,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4294] = {
-		param = "注意查收哦！",
+		param = "ちゃんと受け取ってね！",
 		ship_group = 20139,
 		flag = 0,
 		type = 1,
@@ -43253,12 +43243,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"太好了，是礼物"
+				"やった！プレゼントだ"
 			}
 		}
 	},
 	[4295] = {
-		param = "太好了，是礼物",
+		param = "やった！プレゼントだ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43266,7 +43256,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4296] = {
-		param = "原来是你放在门口的……那种低沉的轰隆隆的声音是怎么回事？",
+		param = "って、これ…ギャラントが置いたのか？さっき「ゴゴゴゴ…」と音がしたけど…",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43274,7 +43264,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4297] = {
-		param = "欸？！难道是我刚刚不小心压到开关了？",
+		param = "えっ？！もしかしてわたし…うっかり起動ボタンを踏んじゃった！？",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43282,7 +43272,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4298] = {
-		param = "是我精挑细选的按摩仪啦！",
+		param = "指揮官のために選んだマッサージ機だよ！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43290,7 +43280,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4299] = {
-		param = "指挥官你快打开看看",
+		param = "早く開けてみて！",
 		ship_group = 20139,
 		flag = 1,
 		type = 1,
@@ -43298,12 +43288,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"这个形状……这个包装……"
+				"この形…このパッケージ…"
 			}
 		}
 	},
 	[4300] = {
-		param = "这个形状……这个包装……总感觉有点危险……",
+		param = "この形…このパッケージ…なんか、すごく怪しい感じがするけど……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43311,7 +43301,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4301] = {
-		param = "这真的是按摩仪吗？",
+		param = "本当にマッサージ機なのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43319,7 +43309,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4302] = {
-		param = "对呀对呀~",
+		param = "そうだよ！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43327,7 +43317,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4303] = {
-		param = "说明书上写的是肩膀，腰部，腿部都能用的！",
+		param = "説明書にはね、肩にも腰にも足にも使えるって書いてある！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43335,7 +43325,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4304] = {
-		param = "而且商家也说这个功能齐全，童叟无欺呢！",
+		param = "「多機能で誰にでもオススメ」って説明されたし！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43343,7 +43333,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4305] = {
-		param = "指挥官快试试怎么样吧！",
+		param = "指揮官、早く使ってみて！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43359,12 +43349,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"这个氛围灯……"
+				"このムードライト…"
 			}
 		}
 	},
 	[4307] = {
-		param = "这个氛围灯……七彩、跑马、闪烁……",
+		param = "このムードライト…七色に光って、しかも点滅してる……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43372,7 +43362,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4308] = {
-		param = "买的时候说开启的时候会有七彩霞光迸发，使用者可以飘飘欲仙……",
+		param = "買うときに「起動すると七色のオーロラが放たれ、使用者は極楽の彼方へ……」って説明されたの！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43380,7 +43370,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4309] = {
-		param = "虽然我不理解这句话是什么样的场景，但指挥官一定已经感受到了！",
+		param = "よくわからないけど、指揮官はもう体験した！？",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43388,7 +43378,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4310] = {
-		param = "怎么样怎么样，这样按摩是不是心情很愉悦？",
+		param = "どう？気持ちいいでしょ？",
 		ship_group = 20139,
 		flag = 3,
 		type = 1,
@@ -43396,12 +43386,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"是很愉悦……只是……"
+				"確かにいい感じだけど……"
 			}
 		}
 	},
 	[4311] = {
-		param = "是很愉悦……只是灯有点太亮了，还有这个力度……坏了，关不掉了……",
+		param = "確かにいい感じだけど……ライトがまぶしすぎるし、あと力加減が……まずい、止まらなくなった！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43409,7 +43399,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4312] = {
-		param = "嗯，我看到七彩霞光迸发了，也飘飘欲仙了",
+		param = "ああ、確かに七色の光は見える……というか飛びそうだ……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43425,7 +43415,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4314] = {
-		param = "欸！是有问题吗！",
+		param = "えっ！もしかしてトラブル！？",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43433,7 +43423,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4315] = {
-		param = "我现在刚好在那个商家不远处，这就去问问……",
+		param = "ちょうどそのお店の近くにいるから、今すぐ聞いてくる！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43441,7 +43431,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4316] = {
-		param = "哇啊！那个商家竟然关门了！",
+		param = "……うわああ！店が閉まってる！！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43449,7 +43439,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4317] = {
-		param = "我明白了！那个坏家伙，肯定骗了我！",
+		param = "わかった！あいつ、わたしを騙したな…！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43457,7 +43447,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4318] = {
-		param = "竟然利用我关心指挥官的心情，不可原谅！",
+		param = "指揮官を大事に思うこの気持ちを利用するなんて…許すまじ！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43465,7 +43455,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4319] = {
-		param = "我这就去把那家伙抓回来！",
+		param = "今からとっ捕まえてくる！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43481,7 +43471,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4321] = {
-		param = "指挥官指挥官！",
+		param = "指揮官指揮官！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43489,7 +43479,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4322] = {
-		param = "今天外面可能会下雨，记得带上伞哦！",
+		param = "今日は雨が降るかもしれないから、傘を忘れずに持っていってね！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43497,7 +43487,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4323] = {
-		param = "被雨淋到可就大事不妙了！",
+		param = "雨に濡れたら大変だから！",
 		ship_group = 20139,
 		flag = 0,
 		type = 1,
@@ -43505,12 +43495,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"放心吧"
+				"安心して"
 			}
 		}
 	},
 	[4324] = {
-		param = "放心吧，伞都备好了",
+		param = "安心して、ちゃんと傘は用意してあるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43518,7 +43508,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4325] = {
-		param = "嗯！",
+		param = "うん！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43534,7 +43524,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4327] = {
-		param = "指挥官指挥官！",
+		param = "指揮官指揮官！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43542,7 +43532,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4328] = {
-		param = "最近，指挥室的门锁有点不利索了呢！",
+		param = "最近、執務室のドアの鍵がちょっと調子悪いんだよね！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43550,7 +43540,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4329] = {
-		param = "关门的时候，要多多留神哦！",
+		param = "閉めるときはしっかり確認して！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43566,12 +43556,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"还好有你提醒我……"
+				"教えてくれて助かった……"
 			}
 		}
 	},
 	[4331] = {
-		param = "还好有你提醒我，差点忘记锁了",
+		param = "教えてくれて助かったよ、危うく鍵をかけ忘れるところだった",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43579,7 +43569,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4332] = {
-		param = "嘿嘿，这是勇气的分内之事啦！",
+		param = "えへへ、これもギャラントの仕事のうち！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43587,7 +43577,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4333] = {
-		param = "守护指挥室的治安也很重要！",
+		param = "執務室の治安を守るのは大事な仕事だもん！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43603,7 +43593,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4335] = {
-		param = "啊！",
+		param = "あっ！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43611,7 +43601,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4336] = {
-		param = "指挥官指挥官！",
+		param = "指揮官指揮官！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43619,7 +43609,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4337] = {
-		param = "前面那段路在临时施工，指挥官绕道走比较安全！",
+		param = "前の道、今工事中だから、別のルートで行った方が安全だよ！",
 		ship_group = 20139,
 		flag = 2,
 		type = 1,
@@ -43640,7 +43630,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4339] = {
-		param = "话说今天风好大啊……",
+		param = "それにしても、今日は風がすごく強いよね……",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43648,7 +43638,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4340] = {
-		param = "指挥官路上不要东张西望哦，要留神脚下——",
+		param = "指揮官、歩くときはよそ見しちゃダメだよ！足元に気をつけてね",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43656,7 +43646,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4341] = {
-		param = "如果弄丢了什么，就呼叫勇气吧！",
+		param = "もし何か落としたら、わたしに連絡して！",
 		ship_group = 20139,
 		flag = 3,
 		type = 1,
@@ -43664,12 +43654,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"没有弄丢什么"
+				"何も落としてない"
 			}
 		}
 	},
 	[4342] = {
-		param = "重要的东西，就在手心里握着呢",
+		param = "大事なものは、ちゃんとこの手の中にある",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43677,7 +43667,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4343] = {
-		param = "嗯？指挥官怎么突然说起了奇怪的话……",
+		param = "ん？指揮官どうしたの？いきなり変なこと言い出して……",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43685,7 +43675,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4344] = {
-		param = "……欸？等一下！你手里拿着的……怎么是我的哨子！",
+		param = "えっ？待って！指揮官が今持っているのって……わたしのホイッスルじゃない！？",
 		ship_group = 20139,
 		flag = 4,
 		type = 1,
@@ -43693,12 +43683,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"果然"
+				"やっぱり"
 			}
 		}
 	},
 	[4345] = {
-		param = "果然，你能看得到我对吧",
+		param = "やっぱり、こっちの様子を見てたんだろ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43706,7 +43696,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4346] = {
-		param = "……咳咳！这都被指挥官猜到啦？！",
+		param = "…バレちゃってたの！？",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43722,7 +43712,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4348] = {
-		param = "那个……对了，因为保护指挥官是我的工作嘛！",
+		param = "えっと、その……指揮官を守るのはわたしの仕事だから！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43730,7 +43720,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4349] = {
-		param = "定期观察指挥官周围是否存在危险是必要的！",
+		param = "定期的に指揮官の周りに危険がないか確認するのは当然の任務で！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43738,7 +43728,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4350] = {
-		param = "像前几天那样，偶尔在指挥官工作的时候路过指挥室也是很正常的！",
+		param = "こないだだって、執務中にたまたま通りかかっただけだし！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43746,7 +43736,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4351] = {
-		param = "还有指挥官出外勤的时候……",
+		param = "あと、外勤の時とか……",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43754,7 +43744,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4352] = {
-		param = "当然，休息的时候也……",
+		param = "もちろん、休憩中も……",
 		ship_group = 20139,
 		flag = 5,
 		type = 1,
@@ -43762,12 +43752,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"26次、12次、17次……"
+				"26回、12回、17回……"
 			}
 		}
 	},
 	[4353] = {
-		param = "26次、12次、17次……",
+		param = "26回、12回、17回……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43775,7 +43765,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4354] = {
-		param = "我说的，是你最近在那些场合和我偶遇的次数",
+		param = "今のはここ数日ギャラントと「偶然」会った回数だ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43783,7 +43773,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4355] = {
-		param = "停停停！！",
+		param = "ストップ！！",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43799,7 +43789,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4357] = {
-		param = "指挥官是怎么知道这么详细的?!",
+		param = "なんでそんなに詳しく覚えているの！？",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43807,7 +43797,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4358] = {
-		param = "每天！而且精准到次数？！",
+		param = "毎日！？しかも回数まで！？",
 		ship_group = 20139,
 		type = 1,
 		option = "",
@@ -43815,7 +43805,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4359] = {
-		param = "呜哇哇！！都暴露光了哇！！",
+		param = "うわああっ！！全部バレてたあああ！！！",
 		ship_group = 20139,
 		flag = 6,
 		type = 1,
@@ -43823,7 +43813,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"[有问题吗？]"
+				"[スタンプ：問題でも？？]"
 			}
 		}
 	},
@@ -43836,7 +43826,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[4361] = {
-		param = "这也是指挥官的工作啊",
+		param = "これも指揮官の仕事のうちだから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43844,7 +43834,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[4362] = {
-		param = "指挥官，告诉你一个属于女孩子的秘密吧~",
+		param = "指揮官、女の子の秘密をひとつ教えてあげるわ",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -43852,7 +43842,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4363] = {
-		param = "当一个女生愿意对同一个人连续发出多条短信的时候——",
+		param = "同じ人に連続して何通もメッセージを送ることは……",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -43860,7 +43850,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4364] = {
-		param = "这一定说明，她很想尽快收到对方的回复哦~",
+		param = "それはもう、「早く返信が欲しい」って気持ちの表れなのよ",
 		ship_group = 20236,
 		flag = 0,
 		type = 1,
@@ -43868,12 +43858,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"就像现在这样？"
+				"今みたいに？"
 			}
 		}
 	},
 	[4365] = {
-		param = "就像现在这样？",
+		param = "今みたいに？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43889,7 +43879,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4367] = {
-		param = "正是如此~",
+		param = "せいかーい",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -43897,7 +43887,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4368] = {
-		param = "好开心，指挥官对我的了解又多了一点点呢~",
+		param = "嬉しいわ。指揮官は私のことがわかってきたのね",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -43905,7 +43895,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4369] = {
-		param = "继续继续~",
+		param = "次は…",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -43913,7 +43903,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4370] = {
-		param = "那指挥官知道……我裙子的红，丝袜的红，还有胸口的红……",
+		param = "ねえ指揮官…私のスカートの赤、ストッキングの赤、それから胸元の赤……",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -43921,7 +43911,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4371] = {
-		param = "都有什么区别吗？",
+		param = "どんな違いがあるか分かる？",
 		ship_group = 20236,
 		flag = 1,
 		type = 1,
@@ -43929,16 +43919,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"……还不如让我猜猜你的口红色号"
+				"……リップの色を当てる方が簡単だ"
 			},
 			{
 				3,
-				"都是你喜欢的红色"
+				"どれも、トリニダードの好きな赤だね"
 			}
 		}
 	},
 	[4372] = {
-		param = "……还不如让我猜猜你的口红色号",
+		param = "……リップの色を当てる方が簡単だ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43946,7 +43936,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4373] = {
-		param = "呵呵，指挥官大人愿意的话，我随时奉陪哦~",
+		param = "ふふ、指揮官様がそう言うなら、いつでも付き合うわよ？",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -43954,7 +43944,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4374] = {
-		param = "都是你喜欢的红色",
+		param = "どれも、トリニダードの好きな赤だね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -43962,7 +43952,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4375] = {
-		param = "满分回答~指挥官也很厉害呢♪",
+		param = "正解～！さすが指揮官、よくわかってるじゃない～",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -43970,7 +43960,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4376] = {
-		param = "无论什么样的红色，我都很喜欢呢~",
+		param = "私、どんな赤でも大好きよ",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -43978,7 +43968,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4377] = {
-		param = "深的、浅的、浓的、艳丽的……都让人心情愉悦",
+		param = "深紅も、朱色も、ワインレッドも、見るだけで心が躍っちゃうのよね",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -43986,7 +43976,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4378] = {
-		param = "真想让指挥官也领略一下红色的魅力啊~",
+		param = "指揮官にも、この赤の魔力を味わってほしいわ……",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44002,7 +43992,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4380] = {
-		param = "……哎呀，有办法了",
+		param = "……あら、いいこと思いついちゃった",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44010,7 +44000,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4381] = {
-		param = "正好我还没有试过新买的红色指甲油",
+		param = "ちょうど、新しく買った赤いマニキュアをまだ試してなかったの",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44018,7 +44008,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4382] = {
-		param = "指挥官大人~请帮帮我~♪",
+		param = "ねえ、指揮官さま～、手伝ってほしいんだけどぉ♪",
 		ship_group = 20236,
 		flag = 0,
 		type = 1,
@@ -44026,12 +44016,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"你绝对不是想涂在我的指甲上吧？"
+				"こっちの爪に塗るつもりじゃないよね？"
 			}
 		}
 	},
 	[4383] = {
-		param = "你绝对不是想涂在我的指甲上吧？",
+		param = "こっちの爪に塗るつもりじゃないよね？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -44047,7 +44037,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4385] = {
-		param = "指挥官只需要把手交给我就好了哦~",
+		param = "ふふっ、手を出して私に任せればいいわ",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44055,7 +44045,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4386] = {
-		param = "但这样一来，指挥官大人可就逃不出我的手掌心了~",
+		param = "でもそんなことしたら……もう、私の掌の中から逃げられないわね",
 		ship_group = 20236,
 		flag = 4,
 		type = 1,
@@ -44063,12 +44053,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"这才是你的真实目的？"
+				"それが本当の目的でしょ？"
 			}
 		}
 	},
 	[4387] = {
-		param = "这才是你的真实目的？",
+		param = "それが本当の目的でしょ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -44076,7 +44066,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4388] = {
-		param = "哎呀，人家真的只是想请指挥官帮个小忙而已，哪会有什么坏心眼呢~",
+		param = "あらやだ、ただ指揮官にちょっと助けてほしいだけなのに？悪いこと考えてるわけないじゃない",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44092,7 +44082,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4390] = {
-		param = "不回复就是同意~我要来找你啦~",
+		param = "お返事がないってことは、つまりOKってことよね？",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44100,7 +44090,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4391] = {
-		param = "要乖乖地等我过来哦~",
+		param = "今からそっちに行くから、お利口さんにして待ってて～",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44108,7 +44098,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4392] = {
-		param = "指挥官大人~指挥官大人~",
+		param = "指揮官さま～",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44124,7 +44114,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4394] = {
-		param = "拜托了~迷路的特立尼达需要你哦~",
+		param = "お願い～迷子のトリニダードには、あなたの助けが必要なの～",
 		ship_group = 20236,
 		flag = 0,
 		type = 1,
@@ -44132,12 +44122,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"你站在原地不要走动，我签完这份文件就来找你"
+				"今の書類にサインしたらすぐ行くよ"
 			}
 		}
 	},
 	[4395] = {
-		param = "你站在原地不要走动，我签完这份文件就来找你",
+		param = "そのまま待ってて。この書類にサインしたらすぐ行くから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -44145,7 +44135,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4396] = {
-		param = "好~指挥官大人果然最靠谱了",
+		param = "やっぱり指揮官は頼りになる～♪",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44153,7 +44143,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4397] = {
-		param = "不过，我一个人站在这里还是有点无聊呢",
+		param = "でも一人でここにいると……ちょっぴり退屈なのよね",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44161,7 +44151,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4398] = {
-		param = "期待能快点见到指挥官~",
+		param = "早く指揮官に会いたいな～",
 		ship_group = 20236,
 		flag = 1,
 		type = 1,
@@ -44169,12 +44159,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"那你先把周围的环境告诉我，我看看范围"
+				"周りの様子を教えて。場所を特定してみる"
 			}
 		}
 	},
 	[4399] = {
-		param = "那你先把周围的环境告诉我，我看看范围",
+		param = "周りの様子を教えて。場所を特定してみる",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -44182,7 +44172,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4400] = {
-		param = "周围的环境嘛……",
+		param = "周りの様子ね……",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44190,7 +44180,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4401] = {
-		param = "正前方……有一个很大的垃圾桶！",
+		param = "目の前に……大きなゴミ箱があるわ",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44206,7 +44196,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4403] = {
-		param = "指挥官想猜猜垃圾桶的颜色吗~",
+		param = "さて、指揮官～ゴミ箱の色でも当ててみる～？",
 		ship_group = 20236,
 		flag = 2,
 		type = 1,
@@ -44214,12 +44204,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"……是红色的吧"
+				"……どうせ赤でしょ"
 			}
 		}
 	},
 	[4404] = {
-		param = "……是红色的吧",
+		param = "……どうせ赤でしょ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -44227,7 +44217,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4405] = {
-		param = "没有其他地标吗？",
+		param = "他に目印になるようなものは？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -44235,7 +44225,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4406] = {
-		param = "没有哦",
+		param = "ないわよ",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44243,7 +44233,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4407] = {
-		param = "要是知道那种东西的话，就不算迷路了吧~",
+		param = "そもそも、そんなの分かってたら、迷子にならないでしょ？",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44251,7 +44241,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4408] = {
-		param = "不过，我可以直接把我的定位发给你~",
+		param = "まあ、現在位置を直接送っちゃうのもありね",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44259,7 +44249,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4409] = {
-		param = "这样指挥官大人就可以顺利找到我了♪",
+		param = "そうすれば指揮官は簡単に私のことを見つけられるわ",
 		ship_group = 20236,
 		flag = 3,
 		type = 1,
@@ -44272,7 +44262,7 @@ pg.base.activity_ins_chat_language = {
 		}
 	},
 	[4410] = {
-		param = "……？你对迷路的定位好别致",
+		param = "トリニダードにとって「迷子」ってなんだ…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -44280,7 +44270,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4411] = {
-		param = "哎呀，别管那些了，快来找我吧指挥官~",
+		param = "ふふ、細かいことはいいから。早く来てね、指揮官",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44288,7 +44278,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4412] = {
-		param = "我已经在原地乖乖等了很久哦~",
+		param = "私、ず～っとおとなしく待ってたんだから",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44296,7 +44286,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4413] = {
-		param = "或者，至少把你身边的人派来找我吧~",
+		param = "自分が無理なら、隣にいるほかの誰かに探させてもいいわよ",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44304,7 +44294,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4414] = {
-		param = "如果有这么个人的话……♪",
+		param = "……そんな人がいるのなら、ね",
 		ship_group = 20236,
 		flag = 4,
 		type = 1,
@@ -44312,12 +44302,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"行吧，我派人去找你了"
+				"わかった、誰か向かわせるよ"
 			}
 		}
 	},
 	[4415] = {
-		param = "行吧，我派人去找你了",
+		param = "わかった、誰か向かわせるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -44333,7 +44323,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4417] = {
-		param = "呵呵，也就是说，指挥官现在是独自一人待在指挥室里，对吧？",
+		param = "ふふ……つまり、今指揮官はひとりで執務室にいるってことよね？",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44341,7 +44331,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4418] = {
-		param = "太好了~",
+		param = "それはよかった",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44349,7 +44339,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4419] = {
-		param = "哎呀，我好像突然知道自己的位置了",
+		param = "あらら、なんだか急に自分の位置が思い出せちゃった",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44357,7 +44347,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4420] = {
-		param = "就连去指挥室的路线，也完全记起来了呢",
+		param = "執務室までのルートもバッチリ思い出したわ",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44365,7 +44355,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4421] = {
-		param = "那现在，要换我来找指挥官了哦♪~",
+		param = "それじゃあ、今度は……私が指揮官を迎えに行く番よ",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44373,7 +44363,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4422] = {
-		param = "指挥官，有看到我给你留的纸条吗？",
+		param = "指揮官、私が残したメモを読んだ？",
 		ship_group = 20236,
 		flag = 0,
 		type = 1,
@@ -44381,12 +44371,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"纸条？"
+				"メモ？"
 			}
 		}
 	},
 	[4423] = {
-		param = "纸条？",
+		param = "メモ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -44394,7 +44384,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4424] = {
-		param = "哎呀？真是奇怪……",
+		param = "あら？おかしいわね～",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44402,7 +44392,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4425] = {
-		param = "那么明显的香水味，指挥官应该会注意到的才对",
+		param = "あんなに分かりやすい香水の香り、指揮官なら気づくはず……",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44410,7 +44400,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4426] = {
-		param = "难道是已经习惯了嘛？",
+		param = "もしかしてもう慣れちゃったのかしら？",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44418,7 +44408,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4427] = {
-		param = "不过，我可是确认过了，有好好地将它放在你的上衣口袋里的哦？",
+		param = "指揮官の上着のポケットに、そっと入れておいたのに？",
 		ship_group = 20236,
 		flag = 1,
 		type = 1,
@@ -44426,12 +44416,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"……你什么时候放进去的？"
+				"……いつの間に入れたの？"
 			}
 		}
 	},
 	[4428] = {
-		param = "……你什么时候放进去的？",
+		param = "……いつの間に入れたの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -44439,7 +44429,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4429] = {
-		param = "呵呵，这可是少女的秘密哦～",
+		param = "ふふっ、女の子のヒミツよ",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44455,7 +44445,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4431] = {
-		param = "比起这个，还是赶快确认一下内容吧？",
+		param = "……それより、早くメモを読んでみて？",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44463,7 +44453,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4432] = {
-		param = "那可是非常、非常重要的东西哦？",
+		param = "すごくすごく大事なことが書いてあるんだから",
 		ship_group = 20236,
 		flag = 2,
 		type = 1,
@@ -44471,12 +44461,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"我看看……"
+				"どれどれ……"
 			}
 		}
 	},
 	[4433] = {
-		param = "我看看……【指挥官大人，今晚见~】",
+		param = "どれどれ……「指揮官さま、今夜会いましょう～」",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -44484,7 +44474,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4434] = {
-		param = "哎呀，指挥官终于收到我的邀请了~",
+		param = "あらぁ、やっと私からのお誘いを受けてくれたわね",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44492,7 +44482,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4435] = {
-		param = "这漫漫长夜，就让我们一同度过吧~",
+		param = "長い夜を、ふたりきりで……一緒に過ごしましょう？",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44500,7 +44490,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4436] = {
-		param = "指挥官觉得如何~？",
+		param = "どうかしら～？",
 		ship_group = 20236,
 		flag = 3,
 		type = 1,
@@ -44508,12 +44498,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"可以啊，今晚指挥室见"
+				"いいよ、今夜は執務室で"
 			}
 		}
 	},
 	[4437] = {
-		param = "可以啊，今晚指挥室见",
+		param = "いいよ、今夜は執務室で",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -44521,7 +44511,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4438] = {
-		param = "咦——咦！",
+		param = "えっ……えぇっ！？",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44529,7 +44519,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4439] = {
-		param = "真是的，这可不是加班邀请啊~",
+		param = "もう、残業のお誘いじゃないわ！",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44537,7 +44527,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4440] = {
-		param = "不过，这显然不是指挥官的心声吧？",
+		param = "でも……これはこれで……さすが指揮官ね",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44545,7 +44535,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4441] = {
-		param = "竟然用不解风情的回复，巧妙地将化被动为主动——",
+		param = "そっけないようで、ちゃんと空気を読んでかわす……",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44553,7 +44543,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4442] = {
-		param = "果然……指挥官大人也是位隐藏的猎手啊~",
+		param = "うふふ、やっぱり……指揮官も「隠れ狩人」なのね～",
 		ship_group = 20236,
 		flag = 4,
 		type = 1,
@@ -44561,7 +44551,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"[收拾你]"
+				"[スタンプ：覚えていなさい]"
 			}
 		}
 	},
@@ -44574,7 +44564,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4444] = {
-		param = "小小地回敬你一下",
+		param = "ちょっとだけ、仕返ししたくなっただけさ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -44582,7 +44572,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4445] = {
-		param = "这次是我输了~成为指挥官的猎物，好像也不错呢♪",
+		param = "今回は私の負けよ。指揮官の獲物になるのも……悪くないかも",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44590,7 +44580,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4446] = {
-		param = "但别忘了，这场追逐游戏，一旦开启，就再也不会停下了哦~",
+		param = "ただ――忘れないで？この追いかけっこは一度始まったら止められないわ",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44606,7 +44596,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4448] = {
-		param = "总有一天，要让指挥官大人成为我的猎物呢~♪",
+		param = "いつか、絶対に指揮官を私の獲物にしてやるんだから～",
 		ship_group = 20236,
 		type = 1,
 		option = "",
@@ -44614,7 +44604,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4449] = {
-		param = "指挥官，您好。我是曾克海军上将，今日由我担任秘书舰",
+		param = "指揮官、アドミラル・ツェンカー、本日より秘書艦を務めさせていただきます",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44622,7 +44612,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4450] = {
-		param = "接下来就请多多指教了",
+		param = "どうぞよろしくお願いいたします",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44630,7 +44620,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4451] = {
-		param = "那么事不宜迟，我先为您检查一下明日日程规划吧",
+		param = "早速ですが、明日のスケジュールのチェックをさせてください",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44638,7 +44628,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4452] = {
-		param = "不过，日程这么近，上一位秘书舰应该已经把相关事宜都安排妥当了吧",
+		param = "とはいえ、もう明日のことですし、前任の秘書艦がすでに段取りを済ませていると思いますが",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44646,7 +44636,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4453] = {
-		param = "明天是……会议，嗯……",
+		param = "明日は……会議……",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44654,7 +44644,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4454] = {
-		param = "后天……也是会议啊……",
+		param = "明後日も……打ち合わせですね……",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44662,7 +44652,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4455] = {
-		param = "今天是……会议，然后处理文件……",
+		param = "今日は……協議、それから書類対応……",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44670,7 +44660,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4456] = {
-		param = "然后昨天是……会议，吃饭和散步……？！",
+		param = "そして昨日は……会議、食事に散歩……？！",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44678,7 +44668,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4457] = {
-		param = "为什么更早的记录里还有摸鱼……这是可以写在日程本里的东西吗……？",
+		param = "記録を遡れば「サボり」も……そんなことまでスケジュールに書いちゃっていいのですか……？",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44694,12 +44684,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"毕竟不同同伴的行事风格不同…"
+				"人によってやり方は様々だからな"
 			}
 		}
 	},
 	[4459] = {
-		param = "毕竟不同同伴的风格差异很大……所以规划的方式差异也很大",
+		param = "人によってやり方は様々だからな。スケジュールの立て方も一概には言えないのさ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -44707,7 +44697,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4460] = {
-		param = "可日程规划还是做得更清晰一些会比较好……对吧？",
+		param = "ですがやはり、きちんと整理されていた方がいい…ですよね？",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44715,7 +44705,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4461] = {
-		param = "毕竟，这样也能帮助您更高效地完成工作",
+		param = "そのほうが、指揮官も効率的に仕事こなせますから",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44723,7 +44713,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4462] = {
-		param = "事已至此，我还是先帮您重新整理一下日程规划吧",
+		param = "ということで、日程を調整し直しておきます",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44731,7 +44721,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4463] = {
-		param = "首先是处理好工作安排，然后是整理申请表……",
+		param = "まずは業務の予定、それから申請の書類の整理を……",
 		ship_group = 40407,
 		flag = 1,
 		type = 1,
@@ -44739,12 +44729,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"时间不早了，早点休息吧"
+				"もう遅いし、今日は休んで"
 			}
 		}
 	},
 	[4464] = {
-		param = "这些事不急于一时",
+		param = "もう遅いから、今日は切り上げて早めに休もう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -44752,7 +44742,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4465] = {
-		param = "今天时间不早了，早点休息吧",
+		param = "急ぎのものでもないし",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -44760,7 +44750,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4466] = {
-		param = "今日事今日毕，整理完了就休息",
+		param = "今日やるべきことを済ませてから休みます",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44768,7 +44758,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4467] = {
-		param = "反倒是指挥官你，一定要注意自己的身体健康",
+		param = "むしろ指揮官こそ、お体に気をつけて",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44776,7 +44766,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4468] = {
-		param = "早点休息吧",
+		param = "早めにお休みください",
 		ship_group = 40407,
 		flag = 2,
 		type = 1,
@@ -44784,12 +44774,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"今日事今日毕，整理完了就休息"
+				"今日やるべきことを済ませてからね"
 			}
 		}
 	},
 	[4469] = {
-		param = "今日事今日毕，整理完了就休息",
+		param = "今日やるべきことを済ませてから休みます",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -44797,7 +44787,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4470] = {
-		param = "啊哈哈……那，加油！",
+		param = "あ、あはは……では、頑張ってください！",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44813,12 +44803,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"加油！"
+				"頑張る！"
 			}
 		}
 	},
 	[4472] = {
-		param = "加油！",
+		param = "頑張る！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -44834,7 +44824,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4474] = {
-		param = "指挥官，我是曾克海军上将，因为突发高烧，需要申请一天病假",
+		param = "指揮官、ツェンカーです。熱を出してしまい、恐れ入りますが本日休暇を申請させていただきます",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44842,7 +44832,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4475] = {
-		param = "量了几次体温，都在40℃以上，目前已经吃了退烧药",
+		param = "何度体温を測っても40℃超えでして…解熱剤を服用して静養しています",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44850,7 +44840,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4476] = {
-		param = "如果之后病情没有改善，我会随时联系医疗部门",
+		param = "症状が改善しなければ、すぐに医療部門に連絡します",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44858,7 +44848,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4477] = {
-		param = "明天应该就能退烧了，但今天无法协助您完成工作了……",
+		param = "明日には熱も下がるかと思いますが、今日はお手伝いできそうにありません……",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44866,7 +44856,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4478] = {
-		param = "关于今天的工作，我已经提前做好了规划",
+		param = "なので、本日の業務について下記の準備をしておきました",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44874,7 +44864,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4479] = {
-		param = "1.今天的会议资料已经归纳好了，就放在书架的第二排",
+		param = "1：会議用の資料をまとめて、本棚の2段目に置きました",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44882,7 +44872,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4480] = {
-		param = "2.我写的提案修改意见，在您右手边的抽屉里",
+		param = "2：提案書への修正意見を作成し、右手側の引き出しに置きました",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44890,7 +44880,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4481] = {
-		param = "3.经费报表也已经整理完毕，需要您签字确认一下",
+		param = "3：予算報告書を整理し、ご確認いただけるようにしました",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44898,7 +44888,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4482] = {
-		param = "抱歉，今日不能为指挥官分忧，明天我一定会按时到达的",
+		param = "ご迷惑をおかけし申し訳ありません。明日は必ず時間通りに着きます",
 		ship_group = 40407,
 		flag = 0,
 		type = 1,
@@ -44906,12 +44896,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"明天就不用来了"
+				"明日は来なくていい"
 			}
 		}
 	},
 	[4483] = {
-		param = "明天就不用来了",
+		param = "明日は来なくていい",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -44919,7 +44909,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4484] = {
-		param = "什么？",
+		param = "……え？",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44927,7 +44917,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4485] = {
-		param = "……我是被开除了吗？！",
+		param = "……もしかして、クビ……ですか！？",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44943,7 +44933,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4487] = {
-		param = "我还有很多已经规划好的工作没有完成！",
+		param = "まだ済んでいない予定がたくさんあるのに！",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44951,7 +44941,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4488] = {
-		param = "还有很多规划中的计划！",
+		param = "計画中の予定も…！",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44959,7 +44949,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4489] = {
-		param = "以及待规划的事情！",
+		param = "これから検討する予定だって…！",
 		ship_group = 40407,
 		flag = 1,
 		type = 1,
@@ -44967,7 +44957,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"[晕头转向]"
+				"[スタンプ：[迷子]]"
 			}
 		}
 	},
@@ -44980,7 +44970,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4491] = {
-		param = "我的意思是……明天先好好休息，不用着急工作",
+		param = "いや、明日は仕事なんて気にしないでしっかり休んでって意味だよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -44988,7 +44978,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4492] = {
-		param = "……我明白了",
+		param = "……分かりました",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -44996,7 +44986,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4493] = {
-		param = "我会好好休息的！绝对不会想休息之外的事情！",
+		param = "ちゃんと休みます！絶対、仕事のことは考えたりしません！",
 		ship_group = 40407,
 		flag = 2,
 		type = 1,
@@ -45004,12 +44994,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"那现在……"
+				"じゃあ今は？"
 			}
 		}
 	},
 	[4494] = {
-		param = "那现在……",
+		param = "じゃあ今は？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45017,7 +45007,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4495] = {
-		param = "我现在就闭眼——今天的工作就拜托了！",
+		param = "すぐ休みます。今日のお仕事はよろしくお願いいたします！",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -45025,7 +45015,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4496] = {
-		param = "指挥官，不好了",
+		param = "指揮官、大変です",
 		ship_group = 40407,
 		flag = 0,
 		type = 1,
@@ -45033,12 +45023,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"出什么事了？"
+				"どうかした？"
 			}
 		}
 	},
 	[4497] = {
-		param = "出什么事了？",
+		param = "どうかした？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45046,7 +45036,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4498] = {
-		param = "指挥大楼配电箱故障，现在停电了，夕张正带着后勤部门的人紧急维修",
+		param = "建物の配電盤が故障し、今電気が止まっていて……夕張が兵站部署と一緒に修理にあたっています",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -45054,7 +45044,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4499] = {
-		param = "今天……可能用不了指挥室了",
+		param = "ですが、今日中の復旧は難しそうで……執務室が使えなくなるかもしれません",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -45070,12 +45060,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"确实是有点严重的意外……"
+				"確かに深刻なトラブルだな"
 			}
 		}
 	},
 	[4501] = {
-		param = "确实是有点严重的意外……",
+		param = "確かに深刻なトラブルだな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45083,7 +45073,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4502] = {
-		param = "是啊……计划都被打乱了，还有很多文件需要处理呢",
+		param = "ええ……予定がぐちゃぐちゃになりますね…まだ処理していない書類が山ほどあるのに……",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -45091,7 +45081,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4503] = {
-		param = "只能先找个安静的、明亮的，保密级别也够高的地方，充当临时指挥室了",
+		param = "とにかく、静かで照明も明るく、それでいて機密レベルの高い場所でも探して当面のつなぎの執務室としましょう",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -45099,7 +45089,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4504] = {
-		param = "我这就去确认港区有没有满足条件的地方",
+		param = "条件を満たしている場所がないか確認してきます！",
 		ship_group = 40407,
 		flag = 2,
 		type = 1,
@@ -45107,12 +45097,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"倒也不用……"
+				"いや、大丈夫だ"
 			}
 		}
 	},
 	[4505] = {
-		param = "倒也不用……既然已经偏离了原定计划，那顺其自然就好",
+		param = "いや、大丈夫だ。どうせ予定が狂ったし、もう流れに任せるとしよう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45120,7 +45110,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4506] = {
-		param = "那些文件也没那么着急",
+		param = "書類もそこまで急ぎじゃないね",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45128,7 +45118,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4507] = {
-		param = "嗯，正好，我现在有了个新的计划",
+		param = "うん、今いいアイデアを思いついた",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45136,7 +45126,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4508] = {
-		param = "……新的计划？",
+		param = "……アイデア？",
 		ship_group = 40407,
 		flag = 3,
 		type = 1,
@@ -45144,12 +45134,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"今天天气不错吧？"
+				"今日はいい天気だろ？"
 			}
 		}
 	},
 	[4509] = {
-		param = "今天天气不错吧？",
+		param = "今日はいい天気だろ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45157,7 +45147,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4510] = {
-		param = "倒确实不错……？",
+		param = "確かに、いい天気ですが……？",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -45165,7 +45155,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4511] = {
-		param = "风和日丽，春暖花开，正是露营的好季节",
+		param = "風も気持ちいいし暖かい、まさにキャンプ日和だ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45173,7 +45163,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4512] = {
-		param = "正好皇家今天有一场野餐茶会",
+		param = "ロイヤルの皆がピクニックでティーパーティーを開くそうだな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45181,7 +45171,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4513] = {
-		param = "一会一起去吧",
+		param = "一緒に出てみないか",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45189,7 +45179,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4514] = {
-		param = "欸？！我们这么去突然打扰不太好吧？",
+		param = "え？！でもいきなりお邪魔するのは、ちょっと……",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -45197,7 +45187,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4515] = {
-		param = "毕竟我们之前没有去参加的计划……",
+		param = "そもそも参加の予定なんてなかったですし……",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -45205,7 +45195,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4516] = {
-		param = "她们应该也没有招待我们的计划……",
+		param = "向こうだって途中参加者を受け入れる準備は……",
 		ship_group = 40407,
 		flag = 4,
 		type = 1,
@@ -45213,12 +45203,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"没关系，我去打个招呼就好"
+				"大丈夫、声はかけておく"
 			}
 		}
 	},
 	[4517] = {
-		param = "没关系，我去打个招呼就好",
+		param = "大丈夫、声はかけておく",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45226,7 +45216,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4518] = {
-		param = "不如说我已经打过招呼了，光辉说十分欢迎",
+		param = "というかもう連絡してある。イラストリアスは大歓迎だって言ってた",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45234,7 +45224,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4519] = {
-		param = "诶？！！已、已经跟她们说了么……",
+		param = "えっ？！も、もう連絡してあるのですか……",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -45242,7 +45232,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4520] = {
-		param = "可、可是，我还什么准备都没做……",
+		param = "で、でも、私はまだ何の準備もできてませんし……",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -45258,12 +45248,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"计划性虽然不错……"
+				"計画性も大事だけど……"
 			}
 		}
 	},
 	[4522] = {
-		param = "计划性虽然不错，生活中那些不期而遇的小意外也是些不错的调剂",
+		param = "計画性も大事だけど、何気ない日常の中に小さな驚きもあったほうがいい気分転換になるさ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45271,7 +45261,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4523] = {
-		param = "二者都是重要且不可或缺的",
+		param = "どちらも大切で、どちらも欠かせない",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45279,7 +45269,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4524] = {
-		param = "既然指挥官这么说……那就……去吧……",
+		param = "指揮官がそう言うのなら……行きましょう……",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -45287,7 +45277,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4525] = {
-		param = "但是！参加茶会需要准备一套得体的服装……",
+		param = "ですが！お茶会に参加するなら、それ相応の格好が必要です……",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -45295,7 +45285,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4526] = {
-		param = "我完全没预料到要参加茶会，所以现在毫无准备……",
+		param = "ティーパーティーの参加は想定していませんでしたから、やっぱり準備しませんと……",
 		ship_group = 40407,
 		flag = 6,
 		type = 1,
@@ -45303,12 +45293,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"我可以去帮你选"
+				"選んであげるよ"
 			}
 		}
 	},
 	[4527] = {
-		param = "没关系，我可以去帮你选",
+		param = "大丈夫、選んであげるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45316,7 +45306,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[4528] = {
-		param = "那就拜托了，指挥官！等你！",
+		param = "ではよろしくお願いします、指揮官！お待ちしております…！",
 		ship_group = 40407,
 		type = 1,
 		option = "",
@@ -45324,7 +45314,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[4529] = {
-		param = "指挥官，我发现……",
+		param = "指揮官、気づいたんだけど……",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45332,7 +45322,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4530] = {
-		param = "你的工作还是不够高效哦~",
+		param = "その仕事ぶり、まだまだ効率的とは言えないよね",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45340,7 +45330,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4531] = {
-		param = "我有一个不降低效率的节能方案，想听吗？",
+		param = "効率を落とさずに省エネできる方法があるんだけど、聞きたい？",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45356,12 +45346,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"愿闻其详"
+				"ぜひ詳しく"
 			}
 		}
 	},
 	[4533] = {
-		param = "愿闻其详",
+		param = "ぜひ詳しく",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45369,7 +45359,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4534] = {
-		param = "首先，关于营养获取",
+		param = "まずは、栄養補給をしっかりと！",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45377,7 +45367,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4535] = {
-		param = "指挥官要做那么多脑力工作，肯定很容易饿吧？",
+		param = "指揮官は頭を使う仕事が多いから、すぐお腹空くでしょ？",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45385,7 +45375,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4536] = {
-		param = "这种时候就应该常备一些甜食",
+		param = "そんな時に備えて、甘いものを常備するべきよ",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45393,7 +45383,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4537] = {
-		param = "比如樱桃黑森林蛋糕——",
+		param = "たとえば、ブラックフォレストケーキとか",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45401,7 +45391,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4538] = {
-		param = "还有裹满肉桂粉的苹果卷——",
+		param = "シナモンたっぷりのアップルロールとか",
 		ship_group = 40814,
 		flag = 1,
 		type = 1,
@@ -45409,12 +45399,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"听起来不错。不过……"
+				"おいしそうだけど……"
 			}
 		}
 	},
 	[4539] = {
-		param = "听起来不错。不过，好像都是你爱吃的？",
+		param = "おいしそうだけど、どれもU-552の好物のような…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45422,7 +45412,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4540] = {
-		param = "当然",
+		param = "正解！",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45430,7 +45420,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4541] = {
-		param = "而且我现在正在吃哦~",
+		param = "まさに今食べてるとこだよ",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45446,7 +45436,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4543] = {
-		param = "指挥官如果不想孤军奋战的话，就准备好零食吧",
+		param = "指揮官、孤軍奮闘でやりたくなきゃ、くれぐれもお菓子の準備を忘れずにね",
 		ship_group = 40814,
 		flag = 2,
 		type = 1,
@@ -45454,12 +45444,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"U-552这是准备来帮忙么？"
+				"手伝ってくれるの？"
 			}
 		}
 	},
 	[4544] = {
-		param = "U-552这是准备来帮忙么？",
+		param = "手伝ってくれるの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45467,7 +45457,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4545] = {
-		param = "哼哼……虽然不想承认",
+		param = "まあ……あんまり認めたくないけど",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45475,7 +45465,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4546] = {
-		param = "但把工作都丢给指挥官的话，实在太低效了",
+		param = "仕事を全部指揮官に押し付けるのは、非効率すぎるし",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45483,7 +45473,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4547] = {
-		param = "两个人一起加油的话，应该就能挤出不少偷懒的时间吧？",
+		param = "ふたりで頑張れば、ゆっくりできる時間も捻出できるって算段よ",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45491,7 +45481,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4548] = {
-		param = "简单来说，我想表达的是——",
+		param = "つまり、私が言いたいのは……",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45499,7 +45489,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4549] = {
-		param = "工作的意义是偷懒哦~是偷懒哦~是偷懒哦~",
+		param = "仕事はサボるためにある！仕事はサボるためにある！仕事はサボるためにある！",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45507,7 +45497,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4550] = {
-		param = "重要的事情要强调三遍！",
+		param = "大事なことだから三回ね",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45523,7 +45513,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4552] = {
-		param = "指挥官",
+		param = "指揮官",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45531,7 +45521,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4553] = {
-		param = "外面突然下雨了，而且有越下越大的趋势",
+		param = "急に雨が降ってきたし、しかもどんどん強くなってるから",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45539,7 +45529,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4554] = {
-		param = "建议取消今日的外出计划",
+		param = "今日の外出予定はキャンセルした方がいいかも",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45555,12 +45545,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"知道了……"
+				"分かった"
 			}
 		}
 	},
 	[4556] = {
-		param = "知道了，我在指挥室加班，短时间也走不开",
+		param = "分かった。こっちもまだ執務室で残業してるから、外に出れないところだった",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45568,7 +45558,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4557] = {
-		param = "你现在在外面？",
+		param = "U-552は今、外にいるのか？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45576,7 +45566,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4558] = {
-		param = "指挥官，你又在找借口工作了吧？",
+		param = "指揮官、また仕事したさに言い訳してない？",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45584,7 +45574,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4559] = {
-		param = "我啊，找到了一处既可以躲雨，也可以躺下的地方",
+		param = "こっちはね、ちゃんと雨宿りできて、横にもなれる場所を見つけたよ",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45592,7 +45582,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4560] = {
-		param = "准备睡了~晚安~",
+		param = "もう寝るね〜おやすみ〜",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45608,12 +45598,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"等一下，你先别睡"
+				"ちょっと待って"
 			}
 		}
 	},
 	[4562] = {
-		param = "等一下，你先别睡",
+		param = "ちょっと待って",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45621,7 +45611,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4563] = {
-		param = "怎么啦？",
+		param = "なに？",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45629,7 +45619,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4564] = {
-		param = "事先声明，睡觉前不讨论工作——",
+		param = "言っておくけど、寝る前に仕事の話はナシよ",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45637,7 +45627,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4565] = {
-		param = "但如果指挥官是想找我一起偷懒闲聊的话，我绝对奉陪哦",
+		param = "サボりたくて一緒におしゃべりしたいなら、いつでも相手するけど",
 		ship_group = 40814,
 		flag = 2,
 		type = 1,
@@ -45645,12 +45635,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"雨天在外面睡觉很容易着凉……"
+				"雨の日に外で寝たら風邪引くよ"
 			}
 		}
 	},
 	[4566] = {
-		param = "雨天在外面睡觉很容易着凉，还是来办公室睡吧",
+		param = "雨の日に外で寝たら風邪引くから、執務室で寝たら？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45658,7 +45648,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4567] = {
-		param = "唔……也有道理……",
+		param = "うーん……それもそうね……",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45666,7 +45656,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4568] = {
-		param = "但我现在的位置离办公楼还有段距离……",
+		param = "でも執務室まではちょっと距離あるし……",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45674,7 +45664,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4569] = {
-		param = "大雨天打伞赶路的话，完全没有动力欸……",
+		param = "この雨の中傘さして移動なんてだるい……",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45682,7 +45672,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4570] = {
-		param = "所以果然还是……",
+		param = "だからやっぱり……",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45698,7 +45688,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4572] = {
-		param = "晚安吧~~",
+		param = "おやすみ〜",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45706,7 +45696,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4573] = {
-		param = "我现在就要一边打喷嚏，一边蜷缩起来睡觉了哦~",
+		param = "今からくしゃみしながら丸まって寝るね〜",
 		ship_group = 40814,
 		flag = 3,
 		type = 1,
@@ -45714,12 +45704,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"要不要喝点热的？"
+				"温かいものを飲みに来ない？"
 			}
 		}
 	},
 	[4574] = {
-		param = "要不要喝点热的？",
+		param = "温かいものを飲みに来ない？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45727,7 +45717,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4575] = {
-		param = "可以给你准备你喜欢的布丁和热可可",
+		param = "U-552の好きなプリンとホットココアも用意できるよ",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45735,7 +45725,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4576] = {
-		param = "这样既补充了能量，又能暖暖身子，怎么样？",
+		param = "体もあったまるしエネルギー補給もできる。どうだ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45743,7 +45733,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4577] = {
-		param = "嗯哼，这个提议不错呢~",
+		param = "うん。名案〜",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45751,7 +45741,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4578] = {
-		param = "热可可要多加点糖哦",
+		param = "ホットココアは砂糖多めでお願い",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45759,7 +45749,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4579] = {
-		param = "好——现在开始计算一下，怎么过去最有效率吧",
+		param = "よし。じゃあ一番効率のいい移動手段を考えないと",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45775,7 +45765,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4581] = {
-		param = "啊，对了，还得麻烦指挥官准备一下拖鞋和毛巾",
+		param = "そうだ。指揮官、スリッパとタオルも用意しておいてね",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45783,7 +45773,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4582] = {
-		param = "到达后我的小腿肯定会全部湿透，需要指挥官帮忙擦干哦",
+		param = "着いた頃にはきっと足がびしょ濡れだから、指揮官に拭いてほしいなあって",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45791,7 +45781,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4583] = {
-		param = "指挥官会同意的，对吧？",
+		param = "助けてくれるよね？ね？指揮官？",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45799,7 +45789,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4584] = {
-		param = "指挥官，睡着了吗？",
+		param = "指揮官、もう寝た？",
 		ship_group = 40814,
 		flag = 0,
 		type = 1,
@@ -45807,12 +45797,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"没有，还在加班"
+				"ううん。まだ仕事中"
 			}
 		}
 	},
 	[4585] = {
-		param = "没有，还在加班",
+		param = "ううん。まだ仕事中",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45828,7 +45818,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4587] = {
-		param = "回答错误！",
+		param = "ふせいかーい",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45836,7 +45826,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4588] = {
-		param = "我重新问一遍",
+		param = "もう一回聞くね？",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45844,7 +45834,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4589] = {
-		param = "指挥官，还不睡吗——",
+		param = "指揮官、まだ寝ないの？",
 		ship_group = 40814,
 		flag = 1,
 		type = 1,
@@ -45852,12 +45842,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"马上！"
+				"もうすぐで！"
 			}
 		}
 	},
 	[4590] = {
-		param = "马上！很快就能解决工作了",
+		param = "もうすぐで！仕事ももう片付くから",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45865,7 +45855,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4591] = {
-		param = "还好你已经撤离了，但你怎么还没睡？",
+		param = "U-552はもう帰ってるのに、どうしてまだ寝てないの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45873,7 +45863,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4592] = {
-		param = "因为我找到了一处超级适合休息的地方~",
+		param = "休むのにぴったりな場所を見つけちゃったから〜",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45889,7 +45879,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4594] = {
-		param = "等指挥官工作完成了，就可以来这里找我",
+		param = "仕事が終わったら、こっちにおいで",
 		ship_group = 40814,
 		flag = 2,
 		type = 1,
@@ -45897,12 +45887,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"明明已经半夜了…"
+				"もう真夜中だけど…？"
 			}
 		}
 	},
 	[4595] = {
-		param = "明明已经半夜了……",
+		param = "もう真夜中だけど…？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45910,7 +45900,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4596] = {
-		param = "真少见，你竟然会大半夜还在外面活动",
+		param = "こんな時間までU-552が外にいるなんて珍しいな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45918,7 +45908,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4597] = {
-		param = "今天的耗能指数已经完全超标了吧？",
+		param = "今日のエネルギー消費はいつもの基準を超過してるんじゃない？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -45926,7 +45916,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4598] = {
-		param = "哼哼~那你猜猜原因会是什么呢？",
+		param = "ふふ〜ん、なんでだろうね～",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45934,7 +45924,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4599] = {
-		param = "好了，省略猜谜环节，直接揭晓答案吧——",
+		param = "まあ、なぞなぞなんてしないで、答えを教えてあげる",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45942,7 +45932,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4600] = {
-		param = "当然是为了和你一起偷懒，我才特地找了这么个地方啊~",
+		param = "正解はあんたと一緒にサボるために、頑張って場所を探してたから～",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45950,7 +45940,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4601] = {
-		param = "再说了，一想到可以和你一起躺下",
+		param = "それに、あんたと一緒に寝転がるって想像したら",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45958,7 +45948,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4602] = {
-		param = "我就觉得一点都不累……",
+		param = "疲れなんて全然感じなかったけど……",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45966,7 +45956,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4603] = {
-		param = "但在等你的时候……我不小心睡了一觉！",
+		param = "待ってる間に……うっかりうたた寝しちゃって…",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45974,7 +45964,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4604] = {
-		param = "都怪这个地方太适合睡觉了",
+		param = "ここ、寝るのに適しすぎるのが良くないの",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45982,7 +45972,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4605] = {
-		param = "位置隐秘，没有人打扰",
+		param = "人目につかないから誰にも邪魔されないし",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45990,7 +45980,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4606] = {
-		param = "抬眼就能看到今晚的星空",
+		param = "夜空には星々が見えるし",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -45998,7 +45988,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4607] = {
-		param = "完全对得起我为它花的时间啊~",
+		param = "はぁ…頑張った甲斐があったね～",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -46014,12 +46004,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"这么舒服，到底在哪里？"
+				"そんな居心地のいい場所って、どこなの？"
 			}
 		}
 	},
 	[4609] = {
-		param = "这么舒服，到底在哪里？",
+		param = "どこなの？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -46027,7 +46017,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4610] = {
-		param = "当然是最节能的——",
+		param = "もちろん一番省エネで～",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -46035,7 +46025,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4611] = {
-		param = "也最方便陪伴你的地方啦~",
+		param = "あんたのそばにいてあげるのに一番いい場所",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -46043,7 +46033,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4612] = {
-		param = "回头看，我一直没有离开你身边哦",
+		param = "振り返ってみて？私はずっとここにいたよ",
 		ship_group = 40814,
 		type = 1,
 		option = "",
@@ -46051,7 +46041,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4613] = {
-		param = "指挥官！",
+		param = "指揮官！",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46059,7 +46049,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4614] = {
-		param = "之前让我做的港区开发计划已经做好啦！",
+		param = "前に頼まれてた母港開発プラン、ついに完成したよ！",
 		ship_group = 40113,
 		flag = 0,
 		type = 1,
@@ -46067,12 +46057,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"那是什么？"
+				"なにそれ？"
 			}
 		}
 	},
 	[4615] = {
-		param = "那是什么？",
+		param = "なにそれ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -46080,7 +46070,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4616] = {
-		param = "港区开发顾问该做的计划啊，你忘了？",
+		param = "母港開発アドバイザーによるソリューションプランよ～。もしかして忘れちゃった？",
 		ship_group = 40113,
 		flag = 1,
 		type = 1,
@@ -46088,12 +46078,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"…港区开发顾问？"
+				"…母港開発アドバイザー？"
 			}
 		}
 	},
 	[4617] = {
-		param = "……港区开发顾问？",
+		param = "……母港開発アドバイザー？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -46101,7 +46091,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4618] = {
-		param = "我申请过的！",
+		param = "ちゃんと申請したよ～",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46109,7 +46099,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4619] = {
-		param = "但是，我好像没有同意吧……",
+		param = "でも承認はしてないけど……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -46117,7 +46107,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4620] = {
-		param = "等你看完我的计划书就会同意了！",
+		param = "まあそんなの、あたしの計画書を読んだら承認するって！",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46133,7 +46123,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4622] = {
-		param = "那么，先从计划的第一部分说起~",
+		param = "じゃあ、まず最初の部分から説明するね",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46141,7 +46131,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4623] = {
-		param = "首先要做的是……给指挥官造几个漂亮的大雕像！",
+		param = "最初にやるべきなのは……指揮官のカッコいい像を何体か作ること",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46149,7 +46139,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4624] = {
-		param = "就放在各处主干道和建筑旁边",
+		param = "母港の主要道路や建物のそばに置いて…",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46157,7 +46147,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4625] = {
-		param = "让大家每天都能感受到指挥官亲切的注视——",
+		param = "みんなが毎日、指揮官の温かいまなざしを感じられるようにする",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46165,7 +46155,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4626] = {
-		param = "当然还要给雕像加装动作功能~",
+		param = "もちろん、像を動けるようにして～",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46173,7 +46163,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4627] = {
-		param = "这样在一些节日或者举办活动的时候，就可以……",
+		param = "祝日の時や、イベントの時になるとぉ……",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46181,7 +46171,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4628] = {
-		param = "一边做拍手或鼓掌的动作，一边说恭喜你、节日快乐这样的话！",
+		param = "パチパチ拍手しながら「おめでとう」「いい祝日を」って祝ってくれるの！",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46189,7 +46179,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4629] = {
-		param = "怎么样！想想都很激动对不对！",
+		param = "どう？想像するだけでワクワクするでしょ～",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46197,7 +46187,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4630] = {
-		param = "这样一想换成全息投影也可以，更逼真辉煌还充满科技感",
+		param = "考えてみればそれってホログラムでもできるよね。むしろそっちのほうがもっと豪華でハイテクっぽさも出てて…",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46205,7 +46195,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4631] = {
-		param = "稍等我改一下",
+		param = "今書き直すねー",
 		ship_group = 40113,
 		flag = 2,
 		type = 1,
@@ -46226,7 +46216,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4633] = {
-		param = "继续——",
+		param = "続いて――",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46234,7 +46224,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4634] = {
-		param = "计划的第二部分，是为港区广播电台装上指挥官的语音包！",
+		param = "次は、母港のラジオ局に指揮官の声による定時放送を導入すること",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46242,7 +46232,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4635] = {
-		param = "这样每到饭点，就可以循环播放指挥官的心灵鸡汤~",
+		param = "食事の時間になったら、指揮官の癒しボイスを繰り返して流す！",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46250,7 +46240,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4636] = {
-		param = "还要给指挥室安装直连广播的麦克风",
+		param = "さらに執務室に、ライブ放送用のマイクを設置して",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46258,7 +46248,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4637] = {
-		param = "让指挥官的声音可以随时通过广播传遍整个港区！",
+		param = "指揮官の声がいつでもスピーカーを通して母港全体に届けられるように！",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46266,7 +46256,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4638] = {
-		param = "这样既有效缓解了有些人“无指挥官就能量不足”的问题",
+		param = "これなら「指揮官がいないとやる気が出ない」って人も元気になれるし",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46274,7 +46264,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4639] = {
-		param = "又能方便指挥官快速传达指示命令",
+		param = "指示や命令もスムーズに伝わって",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46282,7 +46272,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4640] = {
-		param = "完全是一举两得嘛~",
+		param = "ほんと、一石二鳥よね～",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46298,7 +46288,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4642] = {
-		param = "关于第三部分，是指挥官主题公园的开发……",
+		param = "そして次の部分は、指揮官テーマパークの開発……",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46306,7 +46296,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4643] = {
-		param = "啊，快没电了，指挥官稍等，我来找你当面谈！",
+		param = "あっ、バッテリー切れそう！待ってて指揮官、今そっちに行って直接アピールするから！",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46314,7 +46304,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4644] = {
-		param = "指挥官指挥官！",
+		param = "指揮官指揮官",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46322,7 +46312,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4645] = {
-		param = "我买到了一个有趣的神奇道具！",
+		param = "面白いアイテムを買ったよ～",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46330,7 +46320,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4646] = {
-		param = "指挥官建议评分系统！",
+		param = "指揮官アドバイス採点アイテム！",
 		ship_group = 40113,
 		flag = 0,
 		type = 1,
@@ -46338,16 +46328,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"好像有点意思"
+				"面白そう"
 			},
 			{
 				2,
-				"听起来怪怪的"
+				"なんか胡散臭いな"
 			}
 		}
 	},
 	[4647] = {
-		param = "好像有点意思",
+		param = "面白そう",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -46355,7 +46345,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4648] = {
-		param = "听起来怪怪的",
+		param = "なんか胡散臭いな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -46363,7 +46353,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4649] = {
-		param = "居然能针对我的建议进行评分……",
+		param = "自分のアドバイスを採点してもらうのか……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -46371,7 +46361,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4650] = {
-		param = "不是不是，不是对你提出的建议进行评分啦",
+		param = "違う違う！指揮官のじゃなくて",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46379,7 +46369,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4651] = {
-		param = "是对别人向你提出的建议进行评分！",
+		param = "指揮官に出されたアドバイスを採点するアイテムだよ～",
 		ship_group = 40113,
 		flag = 0,
 		type = 1,
@@ -46387,7 +46377,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"[？？？]"
+				"［？？？］"
 			}
 		}
 	},
@@ -46400,7 +46390,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4653] = {
-		param = "总之，我先试试准不准",
+		param = "とにかく、精度を試してみようっと",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46408,7 +46398,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4654] = {
-		param = "第一个建议是……每天喝一杯我做的特调饮品……",
+		param = "まず1つ目は……毎日あたしの特製ドリンクを一杯飲むこと……",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46416,7 +46406,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4655] = {
-		param = "啊！评分！？",
+		param = "え！まさかの…",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46424,7 +46414,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4656] = {
-		param = "3.0？！",
+		param = "3.0！？",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46440,7 +46430,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4658] = {
-		param = "不应该啊……",
+		param = "そんなはずが……",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46448,7 +46438,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4659] = {
-		param = "我再输入几个建议看看！",
+		param = "他のも試してみる！",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46456,7 +46446,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4660] = {
-		param = "第二个建议……每天和我一起做呼吸减压训练……",
+		param = "2つ目……毎日一緒にストレス解消呼吸トレーニングをすること……",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46464,7 +46454,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4661] = {
-		param = "啊？！2.7？！",
+		param = "えぇ！？今度は2.7！？",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46472,7 +46462,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4662] = {
-		param = "第三个……每天进行一次拥抱放松……",
+		param = "3つ目……毎日一回、ヒアリングリラックスハグを……",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46480,7 +46470,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4663] = {
-		param = "2.4？！",
+		param = "2.4！？",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46488,7 +46478,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4664] = {
-		param = "最、最后一个……大力推行上2休5的工作制……",
+		param = "さ、最後の提案……週休5日にすること！",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46496,7 +46486,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4665] = {
-		param = "评分0分？！",
+		param = "0点！？",
 		ship_group = 40113,
 		flag = 3,
 		type = 1,
@@ -46504,16 +46494,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"太对了，就应该是0分！"
+				"そりゃ0点だろうな"
 			},
 			{
 				5,
-				"其实我觉得这个建议还不错？"
+				"悪くない提案だと思ったのに"
 			}
 		}
 	},
 	[4666] = {
-		param = "太对了，就应该是0分！",
+		param = "そりゃ0点だろうな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -46521,7 +46511,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4667] = {
-		param = "工作，大家一起来工作吧！",
+		param = "労働だ！みんなで働くんだ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -46529,7 +46519,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4668] = {
-		param = "啊……？好恐怖哦！",
+		param = "ひぃ……なんか怖いよぉ……",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46537,7 +46527,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4669] = {
-		param = "如果失去了摸鱼",
+		param = "もしサボり…いや",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46545,7 +46535,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4670] = {
-		param = "——我是说战略性休息，生活还有什么乐趣！",
+		param = "「戦略的休憩」がなくなったら、人生に何の楽しみが残るの！",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46553,7 +46543,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4671] = {
-		param = "不行，这个评分系统有大问题！",
+		param = "ダメダメ、この採点アイテムは全っ然使えない！",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46561,7 +46551,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4672] = {
-		param = "我要立刻去退货了！",
+		param = "すぐに返品してくる！",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46569,7 +46559,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4673] = {
-		param = "其实我觉得这个建议还不错？",
+		param = "悪くない提案だと思ったのに",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -46577,7 +46567,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4674] = {
-		param = "但这个评分系统……竟然把我觉得可以的建议打成0分",
+		param = "しかしこの採点アイテム……いいアドバイスに0点をつけるとは……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -46585,7 +46575,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4675] = {
-		param = "肯定有问题——必然是绿头猫咪研发的！",
+		param = "絶対におかしい。きっとどこぞの緑の猫が作ったに違いない！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -46593,7 +46583,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4676] = {
-		param = "支持你无条件退货",
+		param = "クーリングオフだ！",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -46601,7 +46591,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4677] = {
-		param = "我去了，指挥官！",
+		param = "行ってくる！指揮官！",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46617,7 +46607,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4679] = {
-		param = "指挥官！",
+		param = "指揮官！",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46625,7 +46615,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4680] = {
-		param = "我已经完全理解了恋爱心理学的所有理论！",
+		param = "恋愛心理学のノウハウを完全にマスターしたよ～",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46633,7 +46623,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4681] = {
-		param = "要来试试效果吗！",
+		param = "試してみる？",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46649,12 +46639,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"怎么试？"
+				"どうやって試すんだ？"
 			}
 		}
 	},
 	[4683] = {
-		param = "怎么试？",
+		param = "どうやって試すんだ？",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -46662,7 +46652,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4684] = {
-		param = "哼哼，那当然是要用心理学最经典的——沙盘游戏啦！",
+		param = "ふふん、それはもちろん王道の……箱庭療法！",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46670,7 +46660,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4685] = {
-		param = "现在，假设指挥官在一个密闭的、空无一物的房子里",
+		param = "今、指揮官は何もない、閉ざされた部屋にいると仮定して…",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46678,7 +46668,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[4686] = {
-		param = "指挥官想放个什么物品进去呢？",
+		param = "指揮官は何を部屋に置きたい？",
 		ship_group = 40113,
 		flag = 1,
 		type = 1,
@@ -46686,7 +46676,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"照明物"
+				"照明"
 			},
 			{
 				3,
@@ -46694,12 +46684,12 @@ pg.base.activity_ins_chat_language = {
 			},
 			{
 				4,
-				"岸防炮"
+				"沿岸砲"
 			}
 		}
 	},
 	[4687] = {
-		param = "灯具之类的照明物吧",
+		param = "ランプとかの照明かな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -46707,7 +46697,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4688] = {
-		param = "照明物是期盼与希望的象征~",
+		param = "照明とは、希望や期待の象徴～",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46715,7 +46705,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4689] = {
-		param = "说明指挥官希望有人能拉你一把呢！",
+		param = "指揮官は誰かに手を差し伸べてほしいって願ってるみたいね～",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46723,7 +46713,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4690] = {
-		param = "床和桌椅之类的家具吧",
+		param = "ベッドとか机とかの家具かな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -46731,7 +46721,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4691] = {
-		param = "家具是疲惫与陪伴的象征~",
+		param = "家具は疲れや寄り添いの象徴～",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46739,7 +46729,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4692] = {
-		param = "说明指挥官想要有人陪着一起休息呢！",
+		param = "指揮官は誰かと一緒に休みたいと思ってるんだね～",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46747,7 +46737,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[4693] = {
-		param = "先来个能开火的岸防炮",
+		param = "ちゃんと撃てる沿岸砲を頼む",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -46755,7 +46745,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4694] = {
-		param = "欸？！竟然会先放武器进去吗！",
+		param = "えぇ！？最初に武器なの！",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46763,7 +46753,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4695] = {
-		param = "这……这说明指挥官可能有“火力不足恐惧症”！",
+		param = "むむむ…それって「火力不足恐怖症」の症状かも……！",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46771,7 +46761,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4696] = {
-		param = "在心理学上是需要发泄压力的表现呢！",
+		param = "心理学的には、ストレスを発散したいという欲求の表れだよ～",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46779,7 +46769,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[4697] = {
-		param = "然后，在放置了第一件物品的基础上",
+		param = "じゃあ、最初のオブジェクトを置いたとして…",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46787,7 +46777,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4698] = {
-		param = "指挥官接下来还想放什么呢？",
+		param = "次は何を用意したい？",
 		ship_group = 40113,
 		flag = 0,
 		type = 1,
@@ -46795,20 +46785,20 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"食物"
+				"食べ物"
 			},
 			{
 				6,
-				"通讯设备"
+				"通信機器"
 			},
 			{
 				7,
-				"你"
+				"Z13"
 			}
 		}
 	},
 	[4699] = {
-		param = "虽然不知道要在房子里待多久，但有食品物资储备总比没有好",
+		param = "どのくらい滞在するかわからないから、食料は必要だよな",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -46816,7 +46806,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4700] = {
-		param = "食物是成就与需求的象征~",
+		param = "食べ物とは、達成や欲求の象徴～",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46824,7 +46814,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4701] = {
-		param = "说明指挥官希望有人能辅佐你完成某件事呢！",
+		param = "指揮官は誰かと一緒に何かを成し遂げたいと思ってるんだね～",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46832,7 +46822,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[4702] = {
-		param = "能与外界交流信息的通讯设备吧，工作是必须的",
+		param = "外と情報をやり取りできる通信設備かな。仕事しないといけないし",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -46840,7 +46830,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4703] = {
-		param = "虽然很想吐槽一下优先想到的是工作",
+		param = "いや、そこで仕事なのって突っ込みたいけど……",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46848,7 +46838,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4704] = {
-		param = "……但信息交流设备是知识与渴望的象征~",
+		param = "でも、通信機器とは知識や探求心の象徴～",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46856,7 +46846,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4705] = {
-		param = "说明指挥官渴望有人能与你交流或分享呢！",
+		param = "指揮官は誰かと想いを共有したいと思ってるんだね～",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46864,7 +46854,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[4706] = {
-		param = "你不许跑，也得跟我进来",
+		param = "自分だけがここに閉じ込められるわけじゃない…Z13も連れ込む……",
 		ship_group = 0,
 		type = 1,
 		option = "",
@@ -46872,7 +46862,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[4707] = {
-		param = "欸？！这……这是犯规啦！哪有把沙盘创造者也放进去的！",
+		param = "えぇ？！そ、そんなのルール違反だよ？箱庭を用意した子を巻き込んでどうするの？",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46880,7 +46870,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[4708] = {
-		param = "指挥官有这个心思的话，就暴露了你的内心不安呢！",
+		param = "指揮官がそう思うのは……つまり心の中で不安を感じてるんだね！",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46888,7 +46878,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[4709] = {
-		param = "也就是指挥官需要他人陪伴的表现！",
+		param = "つまり、指揮官は誰かにそばにいてほしいと願ってるんだよ～",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46896,7 +46886,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[4710] = {
-		param = "好啦！两件物品都放完了",
+		param = "さて、二つのアイテムも置き終わったし",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46904,7 +46894,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4711] = {
-		param = "指挥官的心境也已经昭然若揭了！",
+		param = "指揮官の心の内は火を見るより明らか",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46912,7 +46902,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4712] = {
-		param = "综上所述，指挥官很需要一个能经常帮助你的人来陪你呢！",
+		param = "まとめると、いつでも支えてくれる誰かにそばにいてほしいってことだよ～",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46920,7 +46910,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4713] = {
-		param = "而刚好，我现在有空~",
+		param = "そして、ちょうどあたしは今暇だから～",
 		ship_group = 40113,
 		type = 1,
 		option = "",
@@ -46928,7 +46918,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[4714] = {
-		param = "嘿嘿，指挥官你等着，我这就过去陪你！",
+		param = "ふふふ、今そっちに行くから待っててね～。指揮官！",
 		ship_group = 40113,
 		type = 1,
 		option = "",

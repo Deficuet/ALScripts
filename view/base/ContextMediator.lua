@@ -50,25 +50,12 @@ function var_0_0.onRegister(arg_5_0)
 	end)
 	arg_5_0:bind(BaseUI.ON_HOME, function(arg_11_0)
 		local var_11_0 = getProxy(ContextProxy):getCurrentContext()
+		local var_11_1 = var_11_0:retriveLastChild()
 
-		if var_11_0.mediator == NewMainMediator then
-			for iter_11_0 = #var_11_0.children, 1, -1 do
-				local var_11_1 = var_11_0.children[iter_11_0]
-
-				arg_5_0:sendNotification(GAME.REMOVE_LAYERS, {
-					context = var_11_1
-				})
-			end
-
-			return
-		end
-
-		local var_11_2 = var_11_0:retriveLastChild()
-
-		if var_11_2 and var_11_2 ~= var_11_0 then
+		if var_11_1 and var_11_1 ~= var_11_0 then
 			arg_5_0:sendNotification(GAME.REMOVE_LAYERS, {
 				onHome = true,
-				context = var_11_2
+				context = var_11_1
 			})
 		end
 

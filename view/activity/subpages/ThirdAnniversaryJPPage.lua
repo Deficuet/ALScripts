@@ -21,7 +21,7 @@ function var_0_0.findUI(arg_2_0)
 
 	arg_2_0.btnList2 = {}
 
-	for iter_2_1 = 5, 2 * var_2_0 - 1 do
+	for iter_2_1 = 7, 2 * var_2_0 - 1 do
 		arg_2_0.btnList2[#arg_2_0.btnList2 + 1] = arg_2_0.btnContainer:GetChild(iter_2_1)
 	end
 
@@ -95,58 +95,66 @@ function var_0_0.initBtnList(arg_9_0, arg_9_1)
 		arg_9_0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SKINSHOP)
 	end, SFX_PANEL)
 	onButton(arg_9_0, arg_9_1[3], function()
-		local var_12_0 = ActivityConst.ACTIVITY_TYPE_RETURN_AWARD
-
-		arg_9_0:emit(ActivityMediator.SELECT_ACTIVITY, getProxy(ActivityProxy):getActivityByType(var_12_0).id)
+		arg_9_0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SUMMARY)
 	end, SFX_PANEL)
 	onButton(arg_9_0, arg_9_1[4], function()
-		arg_9_0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.THIRD_ANNIVERSARY_AKIBA)
+		local var_13_0 = ActivityConst.ACTIVITY_TYPE_RETURN_AWARD
+
+		arg_9_0:emit(ActivityMediator.SELECT_ACTIVITY, getProxy(ActivityProxy):getActivityByType(var_13_0).id)
 	end, SFX_PANEL)
 	onButton(arg_9_0, arg_9_1[5], function()
+		arg_9_0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.CHARGE, {
+			wrap = ChargeScene.TYPE_DIAMOND
+		})
+	end, SFX_PANEL)
+	onButton(arg_9_0, arg_9_1[6], function()
+		arg_9_0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.THIRD_ANNIVERSARY_AKIBA)
+	end, SFX_PANEL)
+	onButton(arg_9_0, arg_9_1[7], function()
 		arg_9_0:emit(ActivityMediator.SELECT_ACTIVITY, pg.activity_const.JIUJIU_ADVENTURE_ID.act_id)
 	end, SFX_PANEL)
 end
 
-function var_0_0.initTimer(arg_15_0)
-	local var_15_0 = 0.016666666666666666
+function var_0_0.initTimer(arg_17_0)
+	local var_17_0 = 0.016666666666666666
 
-	arg_15_0.paintStaticCountValue = 0
-	arg_15_0.frameTimer = Timer.New(function()
-		arg_15_0.paintStaticCountValue = arg_15_0.paintStaticCountValue + var_15_0
+	arg_17_0.paintStaticCountValue = 0
+	arg_17_0.frameTimer = Timer.New(function()
+		arg_17_0.paintStaticCountValue = arg_17_0.paintStaticCountValue + var_17_0
 
-		if arg_15_0.paintStaticCountValue >= arg_15_0.paintStaticTime then
-			arg_15_0.paintStaticCountValue = 0
+		if arg_17_0.paintStaticCountValue >= arg_17_0.paintStaticTime then
+			arg_17_0.paintStaticCountValue = 0
 
-			arg_15_0:switchNextPaint()
+			arg_17_0:switchNextPaint()
 		end
-	end, var_15_0, -1, false)
+	end, var_17_0, -1, false)
 
-	arg_15_0.frameTimer:Start()
+	arg_17_0.frameTimer:Start()
 
-	arg_15_0.frameTimer2 = Timer.New(function()
-		local var_17_0 = arg_15_0.btnContainer.anchoredPosition.x - arg_15_0.btnSpeed * var_15_0
+	arg_17_0.frameTimer2 = Timer.New(function()
+		local var_19_0 = arg_17_0.btnContainer.anchoredPosition.x - arg_17_0.btnSpeed * var_17_0
 
-		if arg_15_0.startAnchoredPosX - var_17_0 >= arg_15_0.moveLength then
-			var_17_0 = arg_15_0.btnContainer.anchoredPosition.x + arg_15_0.moveLength
+		if arg_17_0.startAnchoredPosX - var_19_0 >= arg_17_0.moveLength then
+			var_19_0 = arg_17_0.btnContainer.anchoredPosition.x + arg_17_0.moveLength
 		end
 
-		arg_15_0.btnContainer.anchoredPosition = Vector3(var_17_0, 0, 0)
-	end, var_15_0, -1, false)
+		arg_17_0.btnContainer.anchoredPosition = Vector3(var_19_0, 0, 0)
+	end, var_17_0, -1, false)
 
-	arg_15_0.frameTimer2:Start()
+	arg_17_0.frameTimer2:Start()
 end
 
-function var_0_0.OnDestroy(arg_18_0)
-	if arg_18_0.frameTimer then
-		arg_18_0.frameTimer:Stop()
+function var_0_0.OnDestroy(arg_20_0)
+	if arg_20_0.frameTimer then
+		arg_20_0.frameTimer:Stop()
 
-		arg_18_0.frameTimer = nil
+		arg_20_0.frameTimer = nil
 	end
 
-	if arg_18_0.frameTimer2 then
-		arg_18_0.frameTimer2:Stop()
+	if arg_20_0.frameTimer2 then
+		arg_20_0.frameTimer2:Stop()
 
-		arg_18_0.frameTimer2 = nil
+		arg_20_0.frameTimer2 = nil
 	end
 end
 

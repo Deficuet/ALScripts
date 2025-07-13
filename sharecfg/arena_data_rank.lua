@@ -2,7 +2,7 @@ pg = pg or {}
 pg.arena_data_rank = {
 	{
 		battle_award = 50,
-		name = "列兵",
+		name = "軍曹",
 		point = 0,
 		refresh_limit = 5,
 		k_value = 50,
@@ -15,7 +15,7 @@ pg.arena_data_rank = {
 	},
 	{
 		battle_award = 60,
-		name = "士官",
+		name = "曹長",
 		point = 100,
 		refresh_limit = 5,
 		k_value = 45,
@@ -72,7 +72,7 @@ pg.arena_data_rank = {
 	},
 	{
 		battle_award = 70,
-		name = "上尉",
+		name = "大尉",
 		point = 400,
 		refresh_limit = 5,
 		k_value = 30,
@@ -91,7 +91,7 @@ pg.arena_data_rank = {
 	},
 	{
 		battle_award = 80,
-		name = "少校",
+		name = "少佐",
 		point = 550,
 		refresh_limit = 5,
 		k_value = 30,
@@ -110,7 +110,7 @@ pg.arena_data_rank = {
 	},
 	{
 		battle_award = 80,
-		name = "中校",
+		name = "中佐",
 		point = 700,
 		refresh_limit = 5,
 		k_value = 30,
@@ -129,7 +129,7 @@ pg.arena_data_rank = {
 	},
 	{
 		battle_award = 80,
-		name = "上校",
+		name = "大佐",
 		point = 850,
 		refresh_limit = 5,
 		k_value = 25,
@@ -205,7 +205,7 @@ pg.arena_data_rank = {
 	},
 	{
 		battle_award = 90,
-		name = "上将",
+		name = "大将",
 		point = 1650,
 		refresh_limit = 5,
 		k_value = 20,
@@ -224,7 +224,7 @@ pg.arena_data_rank = {
 	},
 	{
 		battle_award = 90,
-		name = "五星上将",
+		name = "上級大将",
 		point = 1900,
 		refresh_limit = 5,
 		k_value = 20,
@@ -243,7 +243,7 @@ pg.arena_data_rank = {
 	},
 	{
 		battle_award = 100,
-		name = "海军元帅",
+		name = "元帥",
 		point = 2200,
 		refresh_limit = 5,
 		k_value = 20,

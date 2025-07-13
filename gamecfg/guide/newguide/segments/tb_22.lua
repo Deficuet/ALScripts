@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "点击空白处关闭窗口",
+				text = "画面をタップして戻りましょう窗口",
 				mode = 2,
 				posY = -350,
 				char = 1,
@@ -24,7 +24,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "系统升级后，行动力上限也提升了哦。",
+				text = "育成段階が進んだことで、行動力上限も上昇しました。",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -42,7 +42,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "接下来，点击<color=#39bfff>行程计划</color>按钮",
+				text = "「今週の予定」をタップしてください",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -63,7 +63,7 @@ return {
 			delay = 0.5,
 			alpha = 0,
 			style = {
-				text = "此时，行程计划中开放了<color=#39bfff>第三行行程格</color>，在规划行程时还请注意哦",
+				text = "新たに3行目の予定枠が開放されました。忘れずに予定を追加しましょう",
 				mode = 2,
 				posY = -13.52,
 				char = 1,

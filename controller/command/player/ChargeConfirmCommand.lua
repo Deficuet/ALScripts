@@ -10,6 +10,12 @@ function var_0_0.execute(arg_1_0, arg_1_1)
 		pay_id = var_1_1,
 		pay_id_bili = var_1_2
 	}, 11505, function(arg_2_0)
+		if arg_2_0 then
+			print("消息11505返回错误码为：" .. arg_2_0.result)
+		else
+			print("消息11505返回数据为空")
+		end
+
 		if arg_2_0.result == 0 then
 			var_1_3:removeChargeTimer(var_1_1)
 			arg_1_0:sendNotification(GAME.CHARGE_SUCCESS, {

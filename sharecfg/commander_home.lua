@@ -6,7 +6,7 @@ pg.commander_home = {
 		level = 1,
 		clean_exp = 30,
 		home_exp = 120,
-		desc = "可用喵窝数量+1",
+		desc = "オフニャハウス+1",
 		feed_level = {
 			1,
 			250,
@@ -37,7 +37,7 @@ pg.commander_home = {
 		level = 2,
 		clean_exp = 30,
 		home_exp = 300,
-		desc = "解锁新的喵窝样式",
+		desc = "オフニャハウス外観+1",
 		feed_level = {
 			1,
 			250,
@@ -69,7 +69,7 @@ pg.commander_home = {
 		level = 3,
 		clean_exp = 30,
 		home_exp = 540,
-		desc = "可用喵窝数量+1",
+		desc = "オフニャハウス+1",
 		feed_level = {
 			1,
 			250,
@@ -101,7 +101,7 @@ pg.commander_home = {
 		level = 4,
 		clean_exp = 30,
 		home_exp = 900,
-		desc = "喂食获得的经验提升",
+		desc = "食糧補充で得られる経験値UP",
 		feed_level = {
 			2,
 			500,
@@ -133,7 +133,7 @@ pg.commander_home = {
 		level = 5,
 		clean_exp = 30,
 		home_exp = 1260,
-		desc = "可用喵窝数量+1",
+		desc = "オフニャハウス+1",
 		feed_level = {
 			2,
 			500,
@@ -165,7 +165,7 @@ pg.commander_home = {
 		level = 6,
 		clean_exp = 30,
 		home_exp = 1800,
-		desc = "逗喵获得的奖励提升",
+		desc = "遊ぶことで得られる報酬UP",
 		feed_level = {
 			2,
 			500,
@@ -197,7 +197,7 @@ pg.commander_home = {
 		level = 7,
 		clean_exp = 30,
 		home_exp = 2280,
-		desc = "可用喵窝数量+1",
+		desc = "オフニャハウス+1",
 		feed_level = {
 			2,
 			500,
@@ -229,7 +229,7 @@ pg.commander_home = {
 		level = 8,
 		clean_exp = 30,
 		home_exp = 3000,
-		desc = "喂食获得的经验提升",
+		desc = "食糧補充で得られる経験値UP",
 		feed_level = {
 			3,
 			750,
@@ -261,7 +261,7 @@ pg.commander_home = {
 		level = 9,
 		clean_exp = 30,
 		home_exp = 3600,
-		desc = "可用喵窝数量+1",
+		desc = "オフニャハウス+1",
 		feed_level = {
 			3,
 			750,
@@ -293,7 +293,7 @@ pg.commander_home = {
 		level = 10,
 		clean_exp = 30,
 		home_exp = 4500,
-		desc = "解锁新的喵窝样式",
+		desc = "オフニャハウス外観+1",
 		feed_level = {
 			3,
 			750,
@@ -326,7 +326,7 @@ pg.commander_home = {
 		level = 11,
 		clean_exp = 30,
 		home_exp = 5220,
-		desc = "可用喵窝数量+1",
+		desc = "オフニャハウス+1",
 		feed_level = {
 			3,
 			750,
@@ -359,7 +359,7 @@ pg.commander_home = {
 		level = 12,
 		clean_exp = 30,
 		home_exp = 6300,
-		desc = "喂食获得的经验提升",
+		desc = "食糧補充で得られる経験値UP",
 		feed_level = {
 			4,
 			1000,
@@ -392,7 +392,7 @@ pg.commander_home = {
 		level = 13,
 		clean_exp = 30,
 		home_exp = 7140,
-		desc = "可用喵窝数量+1",
+		desc = "オフニャハウス+1",
 		feed_level = {
 			4,
 			1000,
@@ -425,7 +425,7 @@ pg.commander_home = {
 		level = 14,
 		clean_exp = 30,
 		home_exp = 8400,
-		desc = "逗喵获得的奖励提升",
+		desc = "遊ぶことで得られる報酬UP",
 		feed_level = {
 			4,
 			1000,
@@ -458,7 +458,7 @@ pg.commander_home = {
 		level = 15,
 		clean_exp = 30,
 		home_exp = 0,
-		desc = "可用喵窝数量+1",
+		desc = "オフニャハウス+1",
 		feed_level = {
 			4,
 			1000,

@@ -2,7 +2,7 @@ pg = pg or {}
 pg.music_collect_config = {
 	{
 		id = 1,
-		name = "灾厄之始",
+		name = "始まりの災厄",
 		unlock_other = 0,
 		music_time = 108266,
 		album_id = 1,
@@ -16,7 +16,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 2,
-		name = "过去的观测者",
+		name = "過去の観測者",
 		unlock_other = 0,
 		music_time = 126166,
 		album_id = 1,
@@ -30,7 +30,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 3,
-		name = "背水一战",
+		name = "背水の陣",
 		unlock_other = 0,
 		music_time = 122000,
 		album_id = 1,
@@ -44,7 +44,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 4,
-		name = "危机",
+		name = "危機",
 		unlock_other = 0,
 		music_time = 65666,
 		album_id = 1,
@@ -58,7 +58,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 5,
-		name = "神圣的悲喜剧",
+		name = "聖なる悲喜劇",
 		unlock_other = 0,
 		music_time = 118000,
 		album_id = 2,
@@ -72,7 +72,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 6,
-		name = "虚妄与荣光",
+		name = "栄光と虚妄",
 		unlock_other = 0,
 		music_time = 91633,
 		album_id = 2,
@@ -86,7 +86,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 7,
-		name = "黄昏的祈祷",
+		name = "黄昏の祈祷",
 		unlock_other = 0,
 		music_time = 98000,
 		album_id = 2,
@@ -100,7 +100,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 8,
-		name = "浴火而行",
+		name = "火を浴びて",
 		unlock_other = 0,
 		music_time = 128002,
 		album_id = 3,
@@ -114,7 +114,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 9,
-		name = "自律式作战系统",
+		name = "自立式攻略システム",
 		unlock_other = 0,
 		music_time = 90000,
 		album_id = 3,
@@ -128,7 +128,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 10,
-		name = "恶魔的裁决",
+		name = "裁きの悪魔",
 		unlock_other = 0,
 		music_time = 91428,
 		album_id = 3,
@@ -142,7 +142,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 11,
-		name = "仲裁者赫米忒",
+		name = "人型セイレーン戦",
 		unlock_other = 0,
 		music_time = 100645,
 		album_id = 3,
@@ -156,7 +156,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 12,
-		name = "仲裁者托瓦",
+		name = "マルコ・ポーロ戦",
 		unlock_other = 0,
 		music_time = 93333,
 		album_id = 3,
@@ -170,7 +170,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 13,
-		name = "智者与蜘蛛",
+		name = "哲学者と蜘蛛",
 		unlock_other = 0,
 		music_time = 139701,
 		album_id = 3,
@@ -184,7 +184,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 14,
-		name = "铁与血之路",
+		name = "鉄と血の道",
 		unlock_other = 0,
 		music_time = 62502,
 		album_id = 3,
@@ -198,7 +198,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 15,
-		name = "起航的冒险者",
+		name = "冒険への出航",
 		unlock_other = 0,
 		music_time = 90000,
 		album_id = 4,
@@ -212,7 +212,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 16,
-		name = "平静的海",
+		name = "平和の海",
 		unlock_other = 0,
 		music_time = 89638,
 		album_id = 4,
@@ -226,7 +226,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 17,
-		name = "黄金鹿与白银蛸",
+		name = "黄金鹿と白銀蛸",
 		unlock_other = 0,
 		music_time = 151500,
 		album_id = 4,
@@ -240,7 +240,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 18,
-		name = "海风与夏日的无人岛",
+		name = "潮風と夏の無人島",
 		unlock_other = 0,
 		music_time = 90955,
 		album_id = 4,
@@ -254,7 +254,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 19,
-		name = "起航~Weigh Anchor~",
+		name = "出航",
 		unlock_other = 0,
 		music_time = 66071,
 		album_id = 5,
@@ -268,7 +268,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 20,
-		name = "港区",
+		name = "母港",
 		unlock_other = 0,
 		music_time = 56711,
 		album_id = 5,
@@ -282,7 +282,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 21,
-		name = "悠哉一刻",
+		name = "のんびり一時",
 		unlock_other = 0,
 		music_time = 45000,
 		album_id = 5,
@@ -310,7 +310,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 23,
-		name = "思绪",
+		name = "想い",
 		unlock_other = 0,
 		music_time = 35217,
 		album_id = 5,
@@ -324,7 +324,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 24,
-		name = "征程",
+		name = "出撃",
 		unlock_other = 0,
 		music_time = 108800,
 		album_id = 5,
@@ -338,7 +338,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 25,
-		name = "蔚蓝之风",
+		name = "青の風",
 		unlock_other = 0,
 		music_time = 120678,
 		album_id = 5,
@@ -352,7 +352,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 26,
-		name = "所罗门之夜",
+		name = "ソロモンの夜",
 		unlock_other = 0,
 		music_time = 149647,
 		album_id = 5,
@@ -366,7 +366,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 27,
-		name = "激战",
+		name = "激戦",
 		unlock_other = 0,
 		music_time = 98823,
 		album_id = 5,
@@ -380,7 +380,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 28,
-		name = "决意",
+		name = "決意",
 		unlock_other = 0,
 		music_time = 137964,
 		album_id = 5,
@@ -394,7 +394,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 29,
-		name = "危机迫近",
+		name = "危機接近",
 		unlock_other = 0,
 		music_time = 204739,
 		album_id = 5,
@@ -436,7 +436,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 32,
-		name = "誓约之时",
+		name = "誓いの時",
 		unlock_other = 0,
 		music_time = 83905,
 		album_id = 5,
@@ -450,7 +450,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 33,
-		name = "扬帆~Set Sail~",
+		name = "帆を上げよう~Set Sail~",
 		unlock_other = 0,
 		music_time = 91428,
 		album_id = 5,
@@ -464,7 +464,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 34,
-		name = "清茶氤氲",
+		name = "清茶馥郁",
 		unlock_other = 0,
 		music_time = 124998,
 		album_id = 6,
@@ -478,7 +478,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 35,
-		name = "鲜逸如初",
+		name = "鮮逸如初",
 		unlock_other = 0,
 		music_time = 117750,
 		album_id = 6,
@@ -492,7 +492,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 36,
-		name = "丝路弥音",
+		name = "糸路弥音",
 		unlock_other = 0,
 		music_time = 154666,
 		album_id = 7,
@@ -506,7 +506,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 37,
-		name = "凯尔盖朗的风",
+		name = "ケルゲレンの風",
 		unlock_other = 0,
 		music_time = 45333,
 		album_id = 8,
@@ -520,7 +520,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 38,
-		name = "圣堂",
+		name = "聖堂",
 		unlock_other = 0,
 		music_time = 101649,
 		album_id = 8,
@@ -534,7 +534,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 39,
-		name = "审判的象征",
+		name = "審判の象徴",
 		unlock_other = 0,
 		music_time = 130669,
 		album_id = 8,
@@ -548,7 +548,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 40,
-		name = "审判型机甲武装",
+		name = "審判武装機構",
 		unlock_other = 0,
 		music_time = 119999,
 		album_id = 8,
@@ -562,7 +562,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 41,
-		name = "陛下的荣光",
+		name = "黙示の遺構",
 		unlock_other = 0,
 		music_time = 88615,
 		album_id = 8,
@@ -576,7 +576,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 42,
-		name = "不准确狩猎",
+		name = "電脳のアビータ",
 		unlock_other = 0,
 		music_time = 151048,
 		album_id = 8,
@@ -660,7 +660,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 48,
-		name = "破碎之光",
+		name = "砕かれる光",
 		unlock_other = 0,
 		music_time = 138459,
 		album_id = 10,
@@ -674,7 +674,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 49,
-		name = "像神圣的白百合那般",
+		name = "神聖なる白百合のように",
 		unlock_other = 0,
 		music_time = 125373,
 		album_id = 10,
@@ -688,7 +688,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 50,
-		name = "自由的意志",
+		name = "自由の意思",
 		unlock_other = 0,
 		music_time = 105566,
 		album_id = 10,
@@ -702,7 +702,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 51,
-		name = "于鸢尾的旗帜下",
+		name = "アイリスの旗の元で",
 		unlock_other = 0,
 		music_time = 112133,
 		album_id = 10,
@@ -716,7 +716,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 52,
-		name = "神圣夺还",
+		name = "神聖奪還",
 		unlock_other = 0,
 		music_time = 89006,
 		album_id = 10,
@@ -730,7 +730,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 53,
-		name = "鸢尾佳人",
+		name = "アイリス麗人",
 		unlock_other = 0,
 		music_time = 147814,
 		album_id = 10,
@@ -744,7 +744,7 @@ pg.music_collect_config = {
 	},
 	{
 		id = 54,
-		name = "庆典与金色乐章",
+		name = "式典と金色の楽章",
 		unlock_other = 0,
 		music_time = 96363,
 		album_id = 10,

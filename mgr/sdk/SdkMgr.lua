@@ -471,20 +471,20 @@ function var_0_0.QueryWithProduct(arg_86_0)
 	arg_86_0:Call("QueryWithProduct")
 end
 
-function var_0_0.ShareImg(arg_87_0, arg_87_1, arg_87_2)
-	arg_87_0:Call("ShareImg", arg_87_1, arg_87_2)
+function var_0_0.QueryPendingTransaction(arg_87_0)
+	arg_87_0:Call("QueryPendingTransaction")
 end
 
-function var_0_0.SwitchAccount(arg_88_0)
-	arg_88_0:Call("SwitchAccount")
+function var_0_0.ShareImg(arg_88_0, arg_88_1, arg_88_2)
+	arg_88_0:Call("ShareImg", arg_88_1, arg_88_2)
 end
 
-function var_0_0.CompletedTutorial(arg_89_0)
-	arg_89_0:Call("CompletedTutorial")
+function var_0_0.SwitchAccount(arg_89_0)
+	arg_89_0:Call("SwitchAccount")
 end
 
-function var_0_0.UnlockAchievement(arg_90_0)
-	arg_90_0:Call("UnlockAchievement")
+function var_0_0.EventTrack(arg_90_0, arg_90_1)
+	arg_90_0:Call("EventTrack", arg_90_1)
 end
 
 function var_0_0.EventTrack(arg_91_0, arg_91_1)

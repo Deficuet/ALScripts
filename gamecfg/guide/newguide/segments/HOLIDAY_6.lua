@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.5,
 			style = {
-				text = "已完成所有区域的重建工作，可以从码头运力中获取更多重建币",
+				text = "全てのエリアの再建が完了したわ！埠頭で輸送力を消費したら、「再建コイン」を入手できるわ",
 				mode = 2,
 				dir = 1,
 				char = "char",

@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "与娜比娅的日常交流也是重要的养成环节",
+				text = "ナビィとの日常会話も重要な育成要素です",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "当出现对话气泡时，就代表娜比娅想要与指挥官聊天哦",
+				text = "会話バブルが表示されていれば、ナビィが指揮官と会話したがっているサインになります",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -31,7 +31,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击看看娜比娅想说些什么吧！",
+				text = "タップして、ナビィが何を言いたいのか見てみましょう",
 				mode = 2,
 				dir = -1,
 				char = 1,

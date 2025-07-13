@@ -2,7 +2,7 @@ pg = pg or {}
 pg.fleet_tech_ship_class = {
 	[10101] = {
 		shiptype = 1,
-		name = "法拉格特级",
+		name = "ファラガット級",
 		nation = 1,
 		id = 10101,
 		t_level_1 = 1,
@@ -14,7 +14,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10102] = {
 		shiptype = 1,
-		name = "马汉级",
+		name = "マハン級",
 		nation = 1,
 		id = 10102,
 		t_level_1 = 2,
@@ -26,7 +26,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10103] = {
 		shiptype = 1,
-		name = "格里德利级",
+		name = "グリッドレイ級",
 		nation = 1,
 		id = 10103,
 		t_level_1 = 3,
@@ -40,7 +40,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10104] = {
 		shiptype = 1,
-		name = "弗莱彻级",
+		name = "フレッチャー級",
 		nation = 1,
 		id = 10104,
 		t_level_1 = 4,
@@ -72,7 +72,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10105] = {
 		shiptype = 1,
-		name = "本森级",
+		name = "ベンソン級",
 		nation = 1,
 		id = 10105,
 		t_level_1 = 5,
@@ -87,7 +87,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10106] = {
 		shiptype = 1,
-		name = "西姆斯级",
+		name = "シムス級",
 		nation = 1,
 		id = 10106,
 		t_level_1 = 6,
@@ -99,7 +99,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10107] = {
 		shiptype = 1,
-		name = "坎农级",
+		name = "キャノン級",
 		nation = 1,
 		id = 10107,
 		t_level_1 = 7,
@@ -110,7 +110,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10108] = {
 		shiptype = 1,
-		name = "艾伦·萨姆纳级",
+		name = "アレン・M・サムナー級 ",
 		nation = 1,
 		id = 10108,
 		t_level_1 = 4,
@@ -125,7 +125,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10109] = {
 		shiptype = 1,
-		name = "埃德索尔级",
+		name = "エドサル級",
 		nation = 1,
 		id = 10109,
 		t_level_1 = 7,
@@ -136,7 +136,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10201] = {
 		shiptype = 2,
-		name = "亚特兰大级",
+		name = "アトランタ級",
 		nation = 1,
 		id = 10201,
 		t_level_1 = 8,
@@ -151,7 +151,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10202] = {
 		shiptype = 2,
-		name = "克利夫兰级",
+		name = "クリーブランド級",
 		nation = 1,
 		id = 10202,
 		t_level_1 = 9,
@@ -169,7 +169,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10203] = {
 		shiptype = 2,
-		name = "奥马哈级",
+		name = "オマハ級",
 		nation = 1,
 		id = 10203,
 		t_level_1 = 10,
@@ -185,7 +185,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10204] = {
 		shiptype = 2,
-		name = "布鲁克林级",
+		name = "ブルックリン級",
 		nation = 1,
 		id = 10204,
 		t_level_1 = 11,
@@ -201,7 +201,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10205] = {
 		shiptype = 2,
-		name = "西雅图",
+		name = "シアトル",
 		nation = 1,
 		id = 10205,
 		t_level_1 = 0,
@@ -212,7 +212,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10206] = {
 		shiptype = 2,
-		name = "法戈级",
+		name = "ファーゴ級",
 		nation = 1,
 		id = 10206,
 		t_level_1 = 1,
@@ -223,7 +223,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10301] = {
 		shiptype = 3,
-		name = "彭萨科拉级",
+		name = "ペンサコーラ級",
 		nation = 1,
 		id = 10301,
 		t_level_1 = 12,
@@ -235,7 +235,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10302] = {
 		shiptype = 3,
-		name = "北安普顿级",
+		name = "ノーザンプトン級",
 		nation = 1,
 		id = 10302,
 		t_level_1 = 13,
@@ -249,7 +249,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10303] = {
 		shiptype = 3,
-		name = "波特兰级",
+		name = "ポートランド級",
 		nation = 1,
 		id = 10303,
 		t_level_1 = 14,
@@ -261,7 +261,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10304] = {
 		shiptype = 3,
-		name = "威奇塔",
+		name = "ウィチタ",
 		nation = 1,
 		id = 10304,
 		t_level_1 = 15,
@@ -272,7 +272,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10305] = {
 		shiptype = 3,
-		name = "新奥尔良级",
+		name = "ニューオリンズ級",
 		nation = 1,
 		id = 10305,
 		t_level_1 = 16,
@@ -288,7 +288,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10306] = {
 		shiptype = 3,
-		name = "巴尔的摩级",
+		name = "ボルチモア級",
 		nation = 1,
 		id = 10306,
 		t_level_1 = 20,
@@ -301,7 +301,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10307] = {
 		shiptype = 3,
-		name = "安克雷奇",
+		name = "アンカレッジ",
 		nation = 1,
 		id = 10307,
 		t_level_1 = 21,
@@ -312,7 +312,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10308] = {
 		shiptype = 3,
-		name = "俄勒冈城级",
+		name = "オレゴン級",
 		nation = 1,
 		id = 10308,
 		t_level_1 = 3,
@@ -323,7 +323,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10401] = {
 		shiptype = 4,
-		name = "列克星敦级",
+		name = "レキシントン級",
 		nation = 1,
 		id = 10401,
 		t_level_1 = 16,
@@ -334,7 +334,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10501] = {
 		shiptype = 5,
-		name = "内华达级",
+		name = "ネバダ級",
 		nation = 1,
 		id = 10501,
 		t_level_1 = 17,
@@ -346,7 +346,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10502] = {
 		shiptype = 5,
-		name = "宾夕法尼亚级",
+		name = "ペンシルベニア級",
 		nation = 1,
 		id = 10502,
 		t_level_1 = 18,
@@ -358,7 +358,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10503] = {
 		shiptype = 5,
-		name = "田纳西级",
+		name = "テネシー級",
 		nation = 1,
 		id = 10503,
 		t_level_1 = 19,
@@ -370,7 +370,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10504] = {
 		shiptype = 5,
-		name = "科罗拉多级",
+		name = "コロラド級",
 		nation = 1,
 		id = 10504,
 		t_level_1 = 20,
@@ -383,7 +383,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10505] = {
 		shiptype = 5,
-		name = "北卡罗来纳级",
+		name = "ノースカロライナ級",
 		nation = 1,
 		id = 10505,
 		t_level_1 = 21,
@@ -395,7 +395,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10506] = {
 		shiptype = 5,
-		name = "南达科他级",
+		name = "サウスダコタ級",
 		nation = 1,
 		id = 10506,
 		t_level_1 = 22,
@@ -409,7 +409,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10507] = {
 		shiptype = 5,
-		name = "佐治亚",
+		name = "ジョージア",
 		nation = 1,
 		id = 10507,
 		t_level_1 = 1,
@@ -420,7 +420,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10508] = {
 		shiptype = 5,
-		name = "衣阿华级",
+		name = "アイオワ級",
 		nation = 1,
 		id = 10508,
 		t_level_1 = 2,
@@ -431,7 +431,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10509] = {
 		shiptype = 5,
-		name = "堪萨斯",
+		name = "カンザス",
 		nation = 1,
 		id = 10509,
 		t_level_1 = 1,
@@ -442,7 +442,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10601] = {
 		shiptype = 6,
-		name = "长岛级",
+		name = "ロング・アイランド級",
 		nation = 1,
 		id = 10601,
 		t_level_1 = 23,
@@ -453,7 +453,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10602] = {
 		shiptype = 6,
-		name = "博格级",
+		name = "ボーグ級",
 		nation = 1,
 		id = 10602,
 		t_level_1 = 24,
@@ -464,7 +464,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10604] = {
 		shiptype = 6,
-		name = "兰利",
+		name = "ラングレー",
 		nation = 1,
 		id = 10604,
 		t_level_1 = 25,
@@ -475,7 +475,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10605] = {
 		shiptype = 6,
-		name = "突击者",
+		name = "レンジャー",
 		nation = 1,
 		id = 10605,
 		t_level_1 = 26,
@@ -486,7 +486,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10606] = {
 		shiptype = 6,
-		name = "独立级",
+		name = "インディペンデンス級",
 		nation = 1,
 		id = 10606,
 		t_level_1 = 30,
@@ -501,7 +501,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10607] = {
 		shiptype = 6,
-		name = "卡萨布兰卡级",
+		name = "カサブランカ級",
 		nation = 1,
 		id = 10607,
 		t_level_1 = 31,
@@ -512,7 +512,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10701] = {
 		shiptype = 7,
-		name = "列克星敦级",
+		name = "レキシントン級",
 		nation = 1,
 		id = 10701,
 		t_level_1 = 27,
@@ -524,7 +524,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10702] = {
 		shiptype = 7,
-		name = "约克城级",
+		name = "ヨークタウン級",
 		nation = 1,
 		id = 10702,
 		t_level_1 = 28,
@@ -537,7 +537,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10703] = {
 		shiptype = 7,
-		name = "胡蜂级",
+		name = "ワスプ級",
 		nation = 1,
 		id = 10703,
 		t_level_1 = 29,
@@ -548,7 +548,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10705] = {
 		shiptype = 7,
-		name = "埃塞克斯级",
+		name = "エセックス級",
 		nation = 1,
 		id = 10705,
 		t_level_1 = 31,
@@ -566,7 +566,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10801] = {
 		shiptype = 8,
-		name = "猫鲨级",
+		name = "ガトー級",
 		nation = 1,
 		id = 10801,
 		t_level_1 = 32,
@@ -582,7 +582,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10802] = {
 		shiptype = 8,
-		name = "巴劳鱵级",
+		name = "バラオ級潜水艦",
 		nation = 1,
 		id = 10802,
 		t_level_1 = 31,
@@ -593,7 +593,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[10803] = {
 		shiptype = 8,
-		name = "独角鲸级",
+		name = "ナーワル級",
 		nation = 1,
 		id = 10803,
 		t_level_1 = 32,
@@ -604,7 +604,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[11001] = {
 		shiptype = 10,
-		name = "奇尔沙治",
+		name = "キアサージ",
 		nation = 1,
 		id = 11001,
 		t_level_1 = 1,
@@ -615,7 +615,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[11201] = {
 		shiptype = 12,
-		name = "女灶神",
+		name = "ヴェスタル",
 		nation = 1,
 		id = 11201,
 		t_level_1 = 33,
@@ -626,7 +626,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[11801] = {
 		shiptype = 18,
-		name = "阿拉斯加级",
+		name = "アラスカ級",
 		nation = 1,
 		id = 11801,
 		t_level_1 = 38,
@@ -637,7 +637,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20101] = {
 		shiptype = 1,
-		name = "A级",
+		name = "A級",
 		nation = 2,
 		id = 20101,
 		t_level_1 = 34,
@@ -649,7 +649,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20102] = {
 		shiptype = 1,
-		name = "B级",
+		name = "B級",
 		nation = 2,
 		id = 20102,
 		t_level_1 = 35,
@@ -661,7 +661,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20103] = {
 		shiptype = 1,
-		name = "C级",
+		name = "C級",
 		nation = 2,
 		id = 20103,
 		t_level_1 = 36,
@@ -674,7 +674,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20104] = {
 		shiptype = 1,
-		name = "F级",
+		name = "F級",
 		nation = 2,
 		id = 20104,
 		t_level_1 = 37,
@@ -686,7 +686,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20105] = {
 		shiptype = 1,
-		name = "G级",
+		name = "G級",
 		nation = 2,
 		id = 20105,
 		t_level_1 = 38,
@@ -699,7 +699,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20106] = {
 		shiptype = 1,
-		name = "H级",
+		name = "H級",
 		nation = 2,
 		id = 20106,
 		t_level_1 = 39,
@@ -712,7 +712,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20107] = {
 		shiptype = 1,
-		name = "旧V级",
+		name = "アドミラルティV級",
 		nation = 2,
 		id = 20107,
 		t_level_1 = 40,
@@ -723,7 +723,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20108] = {
 		shiptype = 1,
-		name = "J级",
+		name = "J級",
 		nation = 2,
 		id = 20108,
 		t_level_1 = 41,
@@ -739,7 +739,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20109] = {
 		shiptype = 1,
-		name = "M级",
+		name = "M級",
 		nation = 2,
 		id = 20109,
 		t_level_1 = 42,
@@ -751,7 +751,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20110] = {
 		shiptype = 1,
-		name = "A级实验型",
+		name = "アマゾン",
 		nation = 2,
 		id = 20110,
 		t_level_1 = 43,
@@ -762,7 +762,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20111] = {
 		shiptype = 1,
-		name = "E级",
+		name = "E級",
 		nation = 2,
 		id = 20111,
 		t_level_1 = 1,
@@ -773,7 +773,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20112] = {
 		shiptype = 1,
-		name = "部族级",
+		name = "トライバル級",
 		nation = 2,
 		id = 20112,
 		t_level_1 = 39,
@@ -785,7 +785,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20113] = {
 		shiptype = 1,
-		name = "I级",
+		name = "I級",
 		nation = 2,
 		id = 20113,
 		t_level_1 = 40,
@@ -796,7 +796,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20114] = {
 		shiptype = 1,
-		name = "战斗级",
+		name = "バトル級",
 		nation = 2,
 		id = 20114,
 		t_level_1 = 44,
@@ -807,7 +807,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20201] = {
 		shiptype = 2,
-		name = "利安得级",
+		name = "リアンダー級",
 		nation = 2,
 		id = 20201,
 		t_level_1 = 44,
@@ -820,7 +820,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20202] = {
 		shiptype = 2,
-		name = "南安普顿级",
+		name = "サウサンプトン級",
 		nation = 2,
 		id = 20202,
 		t_level_1 = 46,
@@ -834,7 +834,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20203] = {
 		shiptype = 2,
-		name = "阿瑞托莎级",
+		name = "アリシューザ級",
 		nation = 2,
 		id = 20203,
 		t_level_1 = 47,
@@ -848,7 +848,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20204] = {
 		shiptype = 2,
-		name = "斐济级",
+		name = "フィジー級",
 		nation = 2,
 		id = 20204,
 		t_level_1 = 48,
@@ -861,7 +861,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20205] = {
 		shiptype = 2,
-		name = "爱丁堡级",
+		name = "エディンバラ級",
 		nation = 2,
 		id = 20205,
 		t_level_1 = 49,
@@ -873,7 +873,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20206] = {
 		shiptype = 2,
-		name = "黛朵级",
+		name = "ダイドー級",
 		nation = 2,
 		id = 20206,
 		t_level_1 = 50,
@@ -891,7 +891,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20207] = {
 		shiptype = 2,
-		name = "谷物女神级",
+		name = "シアリーズ級",
 		nation = 2,
 		id = 20207,
 		t_level_1 = 51,
@@ -903,7 +903,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20208] = {
 		shiptype = 2,
-		name = "海王星级",
+		name = "ネプチューン級",
 		nation = 2,
 		id = 20208,
 		t_level_1 = 45,
@@ -914,7 +914,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20209] = {
 		shiptype = 2,
-		name = "确捷级",
+		name = "スウィフトシュア級",
 		nation = 2,
 		id = 20209,
 		t_level_1 = 1,
@@ -925,7 +925,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20210] = {
 		shiptype = 2,
-		name = "格罗斯特级",
+		name = "グロスター級",
 		nation = 2,
 		id = 20210,
 		t_level_1 = 47,
@@ -938,7 +938,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20211] = {
 		shiptype = 2,
-		name = "翡翠级",
+		name = "エメラルド級",
 		nation = 2,
 		id = 20211,
 		t_level_1 = 52,
@@ -949,7 +949,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20212] = {
 		shiptype = 2,
-		name = "普利茅斯",
+		name = "プリマス",
 		nation = 2,
 		id = 20212,
 		t_level_1 = 47,
@@ -960,7 +960,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20301] = {
 		shiptype = 3,
-		name = "伦敦级",
+		name = "ロンドン級",
 		nation = 2,
 		id = 20301,
 		t_level_1 = 52,
@@ -974,7 +974,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20302] = {
 		shiptype = 3,
-		name = "肯特级",
+		name = "ケント級",
 		nation = 2,
 		id = 20302,
 		t_level_1 = 53,
@@ -986,7 +986,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20303] = {
 		shiptype = 3,
-		name = "诺福克级",
+		name = "ノーフォーク級",
 		nation = 2,
 		id = 20303,
 		t_level_1 = 54,
@@ -998,7 +998,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20304] = {
 		shiptype = 3,
-		name = "约克级",
+		name = "ヨーク級",
 		nation = 2,
 		id = 20304,
 		t_level_1 = 55,
@@ -1010,7 +1010,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20305] = {
 		shiptype = 3,
-		name = "柴郡",
+		name = "チェシャー",
 		nation = 2,
 		id = 20305,
 		t_level_1 = 57,
@@ -1021,7 +1021,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20306] = {
 		shiptype = 3,
-		name = "德雷克",
+		name = "ドレイク",
 		nation = 2,
 		id = 20306,
 		t_level_1 = 58,
@@ -1032,7 +1032,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20401] = {
 		shiptype = 4,
-		name = "声望级",
+		name = "レナウン級",
 		nation = 2,
 		id = 20401,
 		t_level_1 = 56,
@@ -1044,7 +1044,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20402] = {
 		shiptype = 4,
-		name = "海军上将级",
+		name = "アドミラル級",
 		nation = 2,
 		id = 20402,
 		t_level_1 = 57,
@@ -1055,7 +1055,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20501] = {
 		shiptype = 5,
-		name = "伊丽莎白女王级",
+		name = "クイーン・エリザベス級",
 		nation = 2,
 		id = 20501,
 		t_level_1 = 58,
@@ -1068,7 +1068,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20502] = {
 		shiptype = 5,
-		name = "纳尔逊级",
+		name = "ネルソン級",
 		nation = 2,
 		id = 20502,
 		t_level_1 = 60,
@@ -1080,7 +1080,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20503] = {
 		shiptype = 5,
-		name = "乔治五世级",
+		name = "キング・ジョージ5世級",
 		nation = 2,
 		id = 20503,
 		t_level_1 = 61,
@@ -1094,7 +1094,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20504] = {
 		shiptype = 5,
-		name = "君主",
+		name = "モナーク",
 		nation = 2,
 		id = 20504,
 		t_level_1 = 59,
@@ -1105,7 +1105,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20505] = {
 		shiptype = 5,
-		name = "复仇级",
+		name = "リヴェンジ級",
 		nation = 2,
 		id = 20505,
 		t_level_1 = 62,
@@ -1117,7 +1117,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20506] = {
 		shiptype = 5,
-		name = "前卫",
+		name = "ヴァンガード",
 		nation = 2,
 		id = 20506,
 		t_level_1 = 63,
@@ -1128,7 +1128,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20507] = {
 		shiptype = 5,
-		name = "狮级",
+		name = "ライオン級",
 		nation = 2,
 		id = 20507,
 		t_level_1 = 64,
@@ -1139,7 +1139,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20601] = {
 		shiptype = 6,
-		name = "竞技神",
+		name = "ハーミーズ",
 		nation = 2,
 		id = 20601,
 		t_level_1 = 62,
@@ -1150,7 +1150,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20602] = {
 		shiptype = 6,
-		name = "独角兽",
+		name = "ユニコーン",
 		nation = 2,
 		id = 20602,
 		t_level_1 = 63,
@@ -1161,7 +1161,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20603] = {
 		shiptype = 6,
-		name = "攻击者级",
+		name = "アタッカー級",
 		nation = 2,
 		id = 20603,
 		t_level_1 = 64,
@@ -1172,7 +1172,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20604] = {
 		shiptype = 6,
-		name = "半人马级",
+		name = "セントー級",
 		nation = 2,
 		id = 20604,
 		t_level_1 = 65,
@@ -1184,7 +1184,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20605] = {
 		shiptype = 6,
-		name = "巨像级",
+		name = "コロッサス級",
 		nation = 2,
 		id = 20605,
 		t_level_1 = 64,
@@ -1196,7 +1196,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20607] = {
 		shiptype = 6,
-		name = "百眼巨人",
+		name = "アーガス",
 		nation = 2,
 		id = 20607,
 		t_level_1 = 61,
@@ -1207,7 +1207,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20701] = {
 		shiptype = 7,
-		name = "光辉级",
+		name = "イラストリアス級",
 		nation = 2,
 		id = 20701,
 		t_level_1 = 66,
@@ -1221,7 +1221,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20702] = {
 		shiptype = 7,
-		name = "勇敢级",
+		name = "グローリアス級",
 		nation = 2,
 		id = 20702,
 		t_level_1 = 67,
@@ -1232,7 +1232,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20703] = {
 		shiptype = 7,
-		name = "皇家方舟",
+		name = "アーク・ロイヤル",
 		nation = 2,
 		id = 20703,
 		t_level_1 = 70,
@@ -1243,7 +1243,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20704] = {
 		shiptype = 7,
-		name = "鹰",
+		name = "イーグル",
 		nation = 2,
 		id = 20704,
 		t_level_1 = 65,
@@ -1254,7 +1254,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[20705] = {
 		shiptype = 7,
-		name = "怨仇级",
+		name = "インプラカブル級",
 		nation = 2,
 		id = 20705,
 		t_level_1 = 67,
@@ -1265,7 +1265,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[21301] = {
 		shiptype = 13,
-		name = "黑暗界级",
+		name = "エレバス級",
 		nation = 2,
 		id = 21301,
 		t_level_1 = 68,
@@ -1277,7 +1277,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[21302] = {
 		shiptype = 13,
-		name = "罗伯茨级",
+		name = "ロバーツ級",
 		nation = 2,
 		id = 21302,
 		t_level_1 = 69,
@@ -1288,7 +1288,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30101] = {
 		shiptype = 1,
-		name = "特I型吹雪级",
+		name = "特Ⅰ型",
 		nation = 3,
 		id = 30101,
 		t_level_1 = 70,
@@ -1302,7 +1302,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30102] = {
 		shiptype = 1,
-		name = "特II型绫波级",
+		name = "特Ⅱ型",
 		nation = 3,
 		id = 30102,
 		t_level_1 = 71,
@@ -1313,7 +1313,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30103] = {
 		shiptype = 1,
-		name = "特III型晓级",
+		name = "特Ⅲ型",
 		nation = 3,
 		id = 30103,
 		t_level_1 = 72,
@@ -1327,7 +1327,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30104] = {
 		shiptype = 1,
-		name = "白露级",
+		name = "白露型",
 		nation = 3,
 		id = 30104,
 		t_level_1 = 73,
@@ -1343,7 +1343,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30105] = {
 		shiptype = 1,
-		name = "阳炎级",
+		name = "陽炎型",
 		nation = 3,
 		id = 30105,
 		t_level_1 = 74,
@@ -1363,7 +1363,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30106] = {
 		shiptype = 1,
-		name = "初春级",
+		name = "初春型",
 		nation = 3,
 		id = 30106,
 		t_level_1 = 75,
@@ -1378,7 +1378,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30107] = {
 		shiptype = 1,
-		name = "神风级",
+		name = "神風型",
 		nation = 3,
 		id = 30107,
 		t_level_1 = 76,
@@ -1393,7 +1393,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30108] = {
 		shiptype = 1,
-		name = "睦月级",
+		name = "睦月型",
 		nation = 3,
 		id = 30108,
 		t_level_1 = 77,
@@ -1410,7 +1410,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30109] = {
 		shiptype = 1,
-		name = "秋月级",
+		name = "秋月型",
 		nation = 3,
 		id = 30109,
 		t_level_1 = 78,
@@ -1427,7 +1427,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30110] = {
 		shiptype = 1,
-		name = "朝潮级",
+		name = "朝潮型",
 		nation = 3,
 		id = 30110,
 		t_level_1 = 79,
@@ -1442,7 +1442,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30111] = {
 		shiptype = 1,
-		name = "夕云级",
+		name = "夕雲型",
 		nation = 3,
 		id = 30111,
 		t_level_1 = 80,
@@ -1457,7 +1457,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30112] = {
 		shiptype = 1,
-		name = "北风级",
+		name = "北風型 ",
 		nation = 3,
 		id = 30112,
 		t_level_1 = 0,
@@ -1468,7 +1468,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30113] = {
 		shiptype = 1,
-		name = "岛风级",
+		name = "島風型",
 		nation = 3,
 		id = 30113,
 		t_level_1 = 0,
@@ -1479,7 +1479,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30201] = {
 		shiptype = 2,
-		name = "夕张",
+		name = "夕張",
 		nation = 3,
 		id = 30201,
 		t_level_1 = 81,
@@ -1490,7 +1490,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30202] = {
 		shiptype = 2,
-		name = "长良级",
+		name = "長良型",
 		nation = 3,
 		id = 30202,
 		t_level_1 = 82,
@@ -1506,7 +1506,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30203] = {
 		shiptype = 2,
-		name = "最上级",
+		name = "最上型",
 		nation = 3,
 		id = 30203,
 		t_level_1 = 83,
@@ -1520,7 +1520,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30204] = {
 		shiptype = 2,
-		name = "川内级",
+		name = "川内型",
 		nation = 3,
 		id = 30204,
 		t_level_1 = 84,
@@ -1534,7 +1534,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30205] = {
 		shiptype = 2,
-		name = "阿贺野级",
+		name = "阿賀野型",
 		nation = 3,
 		id = 30205,
 		t_level_1 = 85,
@@ -1558,7 +1558,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30207] = {
 		shiptype = 2,
-		name = "渡良濑",
+		name = "渡良瀬",
 		nation = 3,
 		id = 30207,
 		t_level_1 = 87,
@@ -1569,7 +1569,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30301] = {
 		shiptype = 3,
-		name = "古鹰级",
+		name = "古鷹型",
 		nation = 3,
 		id = 30301,
 		t_level_1 = 86,
@@ -1581,7 +1581,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30302] = {
 		shiptype = 3,
-		name = "青叶级",
+		name = "青葉型",
 		nation = 3,
 		id = 30302,
 		t_level_1 = 88,
@@ -1593,7 +1593,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30303] = {
 		shiptype = 3,
-		name = "妙高级",
+		name = "妙高型",
 		nation = 3,
 		id = 30303,
 		t_level_1 = 89,
@@ -1607,7 +1607,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30304] = {
 		shiptype = 3,
-		name = "高雄级",
+		name = "高雄型",
 		nation = 3,
 		id = 30304,
 		t_level_1 = 90,
@@ -1621,7 +1621,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30305] = {
 		shiptype = 3,
-		name = "伊吹级",
+		name = "伊吹型",
 		nation = 3,
 		id = 30305,
 		t_level_1 = 87,
@@ -1632,7 +1632,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30306] = {
 		shiptype = 3,
-		name = "利根级",
+		name = "利根型",
 		nation = 3,
 		id = 30306,
 		t_level_1 = 91,
@@ -1643,7 +1643,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30307] = {
 		shiptype = 3,
-		name = "云仙级",
+		name = "雲仙型",
 		nation = 3,
 		id = 30307,
 		t_level_1 = 92,
@@ -1654,7 +1654,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30401] = {
 		shiptype = 4,
-		name = "金刚级",
+		name = "金剛型",
 		nation = 3,
 		id = 30401,
 		t_level_1 = 91,
@@ -1668,7 +1668,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30402] = {
 		shiptype = 4,
-		name = "天城级",
+		name = "天城型",
 		nation = 3,
 		id = 30402,
 		t_level_1 = 92,
@@ -1679,7 +1679,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30501] = {
 		shiptype = 5,
-		name = "扶桑级",
+		name = "扶桑型",
 		nation = 3,
 		id = 30501,
 		t_level_1 = 93,
@@ -1691,7 +1691,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30502] = {
 		shiptype = 5,
-		name = "伊势级",
+		name = "伊勢型",
 		nation = 3,
 		id = 30502,
 		t_level_1 = 94,
@@ -1703,7 +1703,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30503] = {
 		shiptype = 5,
-		name = "长门级",
+		name = "長門型",
 		nation = 3,
 		id = 30503,
 		t_level_1 = 95,
@@ -1715,7 +1715,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30504] = {
 		shiptype = 5,
-		name = "加贺级",
+		name = "加賀型",
 		nation = 3,
 		id = 30504,
 		t_level_1 = 96,
@@ -1727,7 +1727,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30505] = {
 		shiptype = 5,
-		name = "敷岛级",
+		name = "敷島型",
 		nation = 3,
 		id = 30505,
 		t_level_1 = 97,
@@ -1738,7 +1738,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30506] = {
 		shiptype = 5,
-		name = "出云",
+		name = "出雲",
 		nation = 3,
 		id = 30506,
 		t_level_1 = 99,
@@ -1749,7 +1749,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30507] = {
 		shiptype = 5,
-		name = "纪伊级",
+		name = "紀伊型",
 		nation = 3,
 		id = 30507,
 		t_level_1 = 98,
@@ -1762,7 +1762,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30508] = {
 		shiptype = 5,
-		name = "大和级",
+		name = "大和型",
 		nation = 3,
 		id = 30508,
 		t_level_1 = 100,
@@ -1784,7 +1784,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30601] = {
 		shiptype = 6,
-		name = "飞鹰级",
+		name = "飛鷹型",
 		nation = 3,
 		id = 30601,
 		t_level_1 = 100,
@@ -1796,7 +1796,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30602] = {
 		shiptype = 6,
-		name = "祥凤级",
+		name = "祥鳳型",
 		nation = 3,
 		id = 30602,
 		t_level_1 = 101,
@@ -1807,7 +1807,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30603] = {
 		shiptype = 6,
-		name = "凤翔",
+		name = "鳳翔",
 		nation = 3,
 		id = 30603,
 		t_level_1 = 102,
@@ -1818,7 +1818,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30604] = {
 		shiptype = 6,
-		name = "龙骧",
+		name = "龍驤",
 		nation = 3,
 		id = 30604,
 		t_level_1 = 103,
@@ -1829,7 +1829,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30605] = {
 		shiptype = 6,
-		name = "瑞凤级",
+		name = "瑞鳳型",
 		nation = 3,
 		id = 30605,
 		t_level_1 = 102,
@@ -1854,7 +1854,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30702] = {
 		shiptype = 7,
-		name = "加贺",
+		name = "加賀",
 		nation = 3,
 		id = 30702,
 		t_level_1 = 105,
@@ -1865,7 +1865,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30703] = {
 		shiptype = 7,
-		name = "苍龙",
+		name = "蒼龍",
 		nation = 3,
 		id = 30703,
 		t_level_1 = 106,
@@ -1876,7 +1876,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30704] = {
 		shiptype = 7,
-		name = "飞龙",
+		name = "飛龍",
 		nation = 3,
 		id = 30704,
 		t_level_1 = 107,
@@ -1887,7 +1887,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30705] = {
 		shiptype = 7,
-		name = "翔鹤级",
+		name = "翔鶴型",
 		nation = 3,
 		id = 30705,
 		t_level_1 = 108,
@@ -1899,7 +1899,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30706] = {
 		shiptype = 7,
-		name = "大凤",
+		name = "大鳳",
 		nation = 3,
 		id = 30706,
 		t_level_1 = 109,
@@ -1910,7 +1910,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30707] = {
 		shiptype = 7,
-		name = "大和级",
+		name = "大和型",
 		nation = 3,
 		id = 30707,
 		t_level_1 = 110,
@@ -1921,7 +1921,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30708] = {
 		shiptype = 7,
-		name = "白龙",
+		name = "白龍",
 		nation = 3,
 		id = 30708,
 		t_level_1 = 109,
@@ -1932,7 +1932,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30709] = {
 		shiptype = 7,
-		name = "云龙级",
+		name = "雲龍型",
 		nation = 3,
 		id = 30709,
 		t_level_1 = 104,
@@ -1969,7 +1969,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30802] = {
 		shiptype = 8,
-		name = "海大型",
+		name = "海大型 ",
 		nation = 3,
 		id = 30802,
 		t_level_1 = 101,
@@ -1991,7 +1991,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[31701] = {
 		shiptype = 17,
-		name = "巡潜甲型改二型",
+		name = "巡潜甲型改二",
 		nation = 3,
 		id = 31701,
 		t_level_1 = 111,
@@ -2002,7 +2002,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[31801] = {
 		shiptype = 18,
-		name = "吾妻",
+		name = "吾妻 ",
 		nation = 3,
 		id = 31801,
 		t_level_1 = 115,
@@ -2115,7 +2115,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40108] = {
 		shiptype = 1,
-		name = "菲利克斯·舒尔茨",
+		name = "フィリックス・シュルツ",
 		nation = 4,
 		id = 40108,
 		t_level_1 = 119,
@@ -2137,7 +2137,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40201] = {
 		shiptype = 2,
-		name = "柯尼斯堡级",
+		name = "ケーニヒスベルク級",
 		nation = 4,
 		id = 40201,
 		t_level_1 = 118,
@@ -2150,7 +2150,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40202] = {
 		shiptype = 2,
-		name = "莱比锡级",
+		name = "ライプツィヒ級",
 		nation = 4,
 		id = 40202,
 		t_level_1 = 119,
@@ -2162,7 +2162,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40203] = {
 		shiptype = 2,
-		name = "美因茨",
+		name = "マインツ",
 		nation = 4,
 		id = 40203,
 		t_level_1 = 120,
@@ -2173,7 +2173,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40204] = {
 		shiptype = 2,
-		name = "M级",
+		name = "M級",
 		nation = 4,
 		id = 40204,
 		t_level_1 = 119,
@@ -2186,7 +2186,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40205] = {
 		shiptype = 2,
-		name = "德累斯顿级",
+		name = "ドレスデン級",
 		nation = 4,
 		id = 40205,
 		t_level_1 = 1,
@@ -2197,7 +2197,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40206] = {
 		shiptype = 2,
-		name = "皮劳级",
+		name = "ピラウ級",
 		nation = 4,
 		id = 40206,
 		t_level_1 = 2,
@@ -2208,7 +2208,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40301] = {
 		shiptype = 3,
-		name = "希佩尔海军上将级",
+		name = "アドミラル・ヒッパー級",
 		nation = 4,
 		id = 40301,
 		t_level_1 = 120,
@@ -2221,7 +2221,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40302] = {
 		shiptype = 3,
-		name = "德意志级",
+		name = "ドイッチュラント級",
 		nation = 4,
 		id = 40302,
 		t_level_1 = 121,
@@ -2233,7 +2233,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40303] = {
 		shiptype = 3,
-		name = "罗恩",
+		name = "ローン",
 		nation = 4,
 		id = 40303,
 		t_level_1 = 122,
@@ -2244,7 +2244,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40304] = {
 		shiptype = 3,
-		name = "P级",
+		name = "P級",
 		nation = 4,
 		id = 40304,
 		t_level_1 = 123,
@@ -2257,7 +2257,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40305] = {
 		shiptype = 3,
-		name = "罗恩级",
+		name = "ローン級",
 		nation = 4,
 		id = 40305,
 		t_level_1 = 1,
@@ -2268,7 +2268,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40306] = {
 		shiptype = 3,
-		name = "兴登堡",
+		name = "ヒンデンブルク",
 		nation = 4,
 		id = 40306,
 		t_level_1 = 1,
@@ -2279,7 +2279,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40401] = {
 		shiptype = 4,
-		name = "沙恩霍斯特级",
+		name = "シャルンホルスト級",
 		nation = 4,
 		id = 40401,
 		t_level_1 = 123,
@@ -2291,7 +2291,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40402] = {
 		shiptype = 4,
-		name = "奥丁",
+		name = "オーディン",
 		nation = 4,
 		id = 40402,
 		t_level_1 = 124,
@@ -2302,7 +2302,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40403] = {
 		shiptype = 4,
-		name = "塞德利茨",
+		name = "ザイドリッツ",
 		nation = 4,
 		id = 40403,
 		t_level_1 = 1,
@@ -2313,7 +2313,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40404] = {
 		shiptype = 4,
-		name = "德弗林格尔级",
+		name = "デアブリンガー級",
 		nation = 4,
 		id = 40404,
 		t_level_1 = 2,
@@ -2324,7 +2324,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40405] = {
 		shiptype = 4,
-		name = "鲁普雷希特",
+		name = "プリンツ・ループレヒト",
 		nation = 4,
 		id = 40405,
 		t_level_1 = 124,
@@ -2335,7 +2335,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40406] = {
 		shiptype = 4,
-		name = "O级",
+		name = "Oクラス",
 		nation = 4,
 		id = 40406,
 		t_level_1 = 123,
@@ -2347,7 +2347,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40407] = {
 		shiptype = 4,
-		name = "曾克海军上将",
+		name = "アドミラル・ツェンカー",
 		nation = 4,
 		id = 40407,
 		t_level_1 = 1,
@@ -2358,7 +2358,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40501] = {
 		shiptype = 5,
-		name = "俾斯麦级",
+		name = "ビスマルク級",
 		nation = 4,
 		id = 40501,
 		t_level_1 = 124,
@@ -2370,7 +2370,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40502] = {
 		shiptype = 5,
-		name = "腓特烈大帝",
+		name = "フリードリヒ・デア・グローセ ",
 		nation = 4,
 		id = 40502,
 		t_level_1 = 0,
@@ -2381,7 +2381,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40503] = {
 		shiptype = 5,
-		name = "乌尔里希·冯·胡滕",
+		name = "ウルリッヒ・フォン・フッテン",
 		nation = 4,
 		id = 40503,
 		t_level_1 = 124,
@@ -2392,7 +2392,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40504] = {
 		shiptype = 5,
-		name = "赫尔戈兰级",
+		name = "ヘルゴラント級",
 		nation = 4,
 		id = 40504,
 		t_level_1 = 1,
@@ -2403,7 +2403,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40505] = {
 		shiptype = 5,
-		name = "俾斯麦Zwei",
+		name = "ビスマルクZwei",
 		nation = 4,
 		id = 40505,
 		t_level_1 = 1,
@@ -2414,7 +2414,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40506] = {
 		shiptype = 5,
-		name = "梅克伦堡",
+		name = "メークレンブルク",
 		nation = 4,
 		id = 40506,
 		t_level_1 = 0,
@@ -2425,7 +2425,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40601] = {
 		shiptype = 6,
-		name = "威悉",
+		name = "ヴェーザー",
 		nation = 4,
 		id = 40601,
 		t_level_1 = 124,
@@ -2436,7 +2436,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40602] = {
 		shiptype = 6,
-		name = "亚德级",
+		name = "イェーデ級",
 		nation = 4,
 		id = 40602,
 		t_level_1 = 125,
@@ -2448,7 +2448,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40701] = {
 		shiptype = 7,
-		name = "齐柏林级",
+		name = "グラーフ・ツェッペリン級",
 		nation = 4,
 		id = 40701,
 		t_level_1 = 125,
@@ -2460,7 +2460,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40702] = {
 		shiptype = 7,
-		name = "奥古斯特·冯·帕塞瓦尔",
+		name = "アウグスト・フォン・パーセヴァル",
 		nation = 4,
 		id = 40702,
 		t_level_1 = 126,
@@ -2471,7 +2471,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40703] = {
 		shiptype = 7,
-		name = "弗里茨·鲁梅",
+		name = "フリッツ・ルメイ",
 		nation = 4,
 		id = 40703,
 		t_level_1 = 127,
@@ -2482,7 +2482,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40801] = {
 		shiptype = 8,
-		name = "VIIB型",
+		name = "VⅡB型",
 		nation = 4,
 		id = 40801,
 		t_level_1 = 126,
@@ -2495,7 +2495,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40802] = {
 		shiptype = 8,
-		name = "VIIC型",
+		name = "VⅡC型",
 		nation = 4,
 		id = 40802,
 		t_level_1 = 127,
@@ -2556,7 +2556,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[41801] = {
 		shiptype = 18,
-		name = "埃吉尔",
+		name = "エーギル",
 		nation = 4,
 		id = 41801,
 		t_level_1 = 123,
@@ -2567,7 +2567,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[50101] = {
 		shiptype = 1,
-		name = "鞍山级",
+		name = "鞍山級",
 		nation = 5,
 		id = 50101,
 		t_level_1 = 128,
@@ -2581,7 +2581,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[50102] = {
 		shiptype = 1,
-		name = "长风级",
+		name = "飛雲",
 		nation = 5,
 		id = 50102,
 		t_level_1 = 128,
@@ -2594,7 +2594,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[50103] = {
 		shiptype = 1,
-		name = "龙武级",
+		name = "龍武級",
 		nation = 5,
 		id = 50103,
 		t_level_1 = 128,
@@ -2606,7 +2606,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[50201] = {
 		shiptype = 2,
-		name = "宁海级",
+		name = "寧海級",
 		nation = 5,
 		id = 50201,
 		t_level_1 = 129,
@@ -2629,7 +2629,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[50203] = {
 		shiptype = 2,
-		name = "肇和级",
+		name = "肇和型",
 		nation = 5,
 		id = 50203,
 		t_level_1 = 128,
@@ -2641,7 +2641,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[50204] = {
 		shiptype = 2,
-		name = "海天级",
+		name = "海天型",
 		nation = 5,
 		id = 50204,
 		t_level_1 = 129,
@@ -2653,7 +2653,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[50205] = {
 		shiptype = 2,
-		name = "哈尔滨",
+		name = "ハルビン",
 		nation = 5,
 		id = 50205,
 		t_level_1 = 129,
@@ -2664,7 +2664,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[50206] = {
 		shiptype = 2,
-		name = "济安",
+		name = "済安",
 		nation = 5,
 		id = 50206,
 		t_level_1 = 130,
@@ -2675,7 +2675,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[50207] = {
 		shiptype = 2,
-		name = "海容级",
+		name = "海容型",
 		nation = 5,
 		id = 50207,
 		t_level_1 = 131,
@@ -2708,7 +2708,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[50601] = {
 		shiptype = 6,
-		name = "镇海",
+		name = "鎮海",
 		nation = 5,
 		id = 50601,
 		t_level_1 = 130,
@@ -2719,7 +2719,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[50602] = {
 		shiptype = 6,
-		name = "华甲",
+		name = "華甲",
 		nation = 5,
 		id = 50602,
 		t_level_1 = 130,
@@ -2741,7 +2741,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60101] = {
 		shiptype = 1,
-		name = "索尔达蒂级",
+		name = " ソルダティ級",
 		nation = 6,
 		id = 60101,
 		t_level_1 = 131,
@@ -2752,7 +2752,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60102] = {
 		shiptype = 1,
-		name = "诗人级",
+		name = "アルフレード・オリアーニ級",
 		nation = 6,
 		id = 60102,
 		t_level_1 = 130,
@@ -2765,7 +2765,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60103] = {
 		shiptype = 1,
-		name = "西北风级",
+		name = "マエストラーレ級",
 		nation = 6,
 		id = 60103,
 		t_level_1 = 129,
@@ -2777,7 +2777,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60104] = {
 		shiptype = 1,
-		name = "航海家级",
+		name = "ナヴィガトーリ級",
 		nation = 6,
 		id = 60104,
 		t_level_1 = 128,
@@ -2789,7 +2789,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60105] = {
 		shiptype = 1,
-		name = "罗马统帅级",
+		name = "カピターニ・ロマーニ級",
 		nation = 6,
 		id = 60105,
 		t_level_1 = 132,
@@ -2801,7 +2801,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60106] = {
 		shiptype = 1,
-		name = "维托里奥·库尼贝尔蒂",
+		name = "ヴィットリオ・クニベルティ",
 		nation = 6,
 		id = 60106,
 		t_level_1 = 133,
@@ -2812,7 +2812,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60201] = {
 		shiptype = 2,
-		name = "阿布鲁齐公爵级",
+		name = "ドゥーカ・デッリ・アブルッツィ級",
 		nation = 6,
 		id = 60201,
 		t_level_1 = 131,
@@ -2824,7 +2824,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60202] = {
 		shiptype = 2,
-		name = "朱萨诺级",
+		name = "ジュッサーノ級",
 		nation = 6,
 		id = 60202,
 		t_level_1 = 132,
@@ -2835,7 +2835,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60301] = {
 		shiptype = 3,
-		name = "扎拉级",
+		name = "ザラ級",
 		nation = 6,
 		id = 60301,
 		t_level_1 = 132,
@@ -2848,7 +2848,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60302] = {
 		shiptype = 3,
-		name = "特伦托级",
+		name = "トレント級",
 		nation = 6,
 		id = 60302,
 		t_level_1 = 133,
@@ -2860,7 +2860,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60303] = {
 		shiptype = 3,
-		name = "博尔扎诺",
+		name = "ボルツァーノ",
 		nation = 6,
 		id = 60303,
 		t_level_1 = 1,
@@ -2871,7 +2871,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60304] = {
 		shiptype = 3,
-		name = "那不勒斯",
+		name = "ナポリ",
 		nation = 6,
 		id = 60304,
 		t_level_1 = 134,
@@ -2882,7 +2882,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60501] = {
 		shiptype = 5,
-		name = "维内托级",
+		name = "ヴィットリオ・ヴェネト級",
 		nation = 6,
 		id = 60501,
 		t_level_1 = 134,
@@ -2895,7 +2895,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60502] = {
 		shiptype = 5,
-		name = "加富尔伯爵级",
+		name = "コンテ・ディ・カブール級",
 		nation = 6,
 		id = 60502,
 		t_level_1 = 135,
@@ -2907,7 +2907,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60503] = {
 		shiptype = 5,
-		name = "马可波罗",
+		name = "マルコ・ポーロ",
 		nation = 6,
 		id = 60503,
 		t_level_1 = 136,
@@ -2918,7 +2918,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60504] = {
 		shiptype = 5,
-		name = "安德烈亚·多利亚级",
+		name = "アンドレア・ドーリア級",
 		nation = 6,
 		id = 60504,
 		t_level_1 = 135,
@@ -2929,7 +2929,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60505] = {
 		shiptype = 5,
-		name = "拉斐尔",
+		name = "ラファエロ",
 		nation = 6,
 		id = 60505,
 		t_level_1 = 1,
@@ -2940,7 +2940,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60701] = {
 		shiptype = 7,
-		name = "天鹰",
+		name = "アクィラ",
 		nation = 6,
 		id = 60701,
 		t_level_1 = 136,
@@ -2951,7 +2951,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60702] = {
 		shiptype = 7,
-		name = "维内托级",
+		name = "ヴィットリオ・ヴェネト級",
 		nation = 6,
 		id = 60702,
 		t_level_1 = 135,
@@ -2962,7 +2962,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60801] = {
 		shiptype = 8,
-		name = "布林级",
+		name = "ブリン級",
 		nation = 6,
 		id = 60801,
 		t_level_1 = 137,
@@ -2973,7 +2973,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[60802] = {
 		shiptype = 8,
-		name = "马可尼级",
+		name = "グリエルモ・マルコーニ級",
 		nation = 6,
 		id = 60802,
 		t_level_1 = 1,
@@ -2985,7 +2985,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70101] = {
 		shiptype = 1,
-		name = "愤怒级",
+		name = "グネフヌイ級",
 		nation = 7,
 		id = 70101,
 		t_level_1 = 136,
@@ -2999,7 +2999,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70102] = {
 		shiptype = 1,
-		name = "列宁格勒级",
+		name = "レニングラード級",
 		nation = 7,
 		id = 70102,
 		t_level_1 = 134,
@@ -3010,7 +3010,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70103] = {
 		shiptype = 1,
-		name = "塔什干级",
+		name = "タシュケント級",
 		nation = 7,
 		id = 70103,
 		t_level_1 = 130,
@@ -3021,7 +3021,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70104] = {
 		shiptype = 1,
-		name = "基辅级",
+		name = "48型",
 		nation = 7,
 		id = 70104,
 		t_level_1 = 131,
@@ -3032,7 +3032,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70105] = {
 		shiptype = 1,
-		name = "前哨级",
+		name = "7U型",
 		nation = 7,
 		id = 70105,
 		t_level_1 = 136,
@@ -3044,7 +3044,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70106] = {
 		shiptype = 1,
-		name = "火力级",
+		name = "オグネヴォイ級",
 		nation = 7,
 		id = 70106,
 		t_level_1 = 131,
@@ -3055,7 +3055,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70201] = {
 		shiptype = 2,
-		name = "帕拉达级",
+		name = "パルラーダ級",
 		nation = 7,
 		id = 70201,
 		t_level_1 = 131,
@@ -3066,7 +3066,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70202] = {
 		shiptype = 2,
-		name = "博加特里级",
+		name = "ボガトィーリ級",
 		nation = 7,
 		id = 70202,
 		t_level_1 = 132,
@@ -3078,7 +3078,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70203] = {
 		shiptype = 2,
-		name = "恰巴耶夫级",
+		name = "チャパエフ級",
 		nation = 7,
 		id = 70203,
 		t_level_1 = 135,
@@ -3090,7 +3090,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70204] = {
 		shiptype = 2,
-		name = "基洛夫级",
+		name = "キーロフ級",
 		nation = 7,
 		id = 70204,
 		t_level_1 = 135,
@@ -3102,7 +3102,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70205] = {
 		shiptype = 2,
-		name = "奥马哈级",
+		name = "オマハ級",
 		nation = 7,
 		id = 70205,
 		t_level_1 = 135,
@@ -3113,7 +3113,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70206] = {
 		shiptype = 2,
-		name = "迪米特里·顿斯科伊",
+		name = "ドミートリィ・ドンスコイ",
 		nation = 7,
 		id = 70206,
 		t_level_1 = 138,
@@ -3124,7 +3124,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70301] = {
 		shiptype = 3,
-		name = "塔林",
+		name = "タリン",
 		nation = 7,
 		id = 70301,
 		t_level_1 = 136,
@@ -3135,7 +3135,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70302] = {
 		shiptype = 3,
-		name = "库尔斯克",
+		name = "クルスク",
 		nation = 7,
 		id = 70302,
 		t_level_1 = 136,
@@ -3146,7 +3146,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70501] = {
 		shiptype = 5,
-		name = "甘古特级",
+		name = "ガングート級",
 		nation = 7,
 		id = 70501,
 		t_level_1 = 135,
@@ -3159,7 +3159,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70502] = {
 		shiptype = 5,
-		name = "苏维埃同盟级",
+		name = "ソビエツキー・ソユーズ級",
 		nation = 7,
 		id = 70502,
 		t_level_1 = 131,
@@ -3172,7 +3172,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70503] = {
 		shiptype = 5,
-		name = "阿尔汉格尔斯克",
+		name = "アルハンゲリスク",
 		nation = 7,
 		id = 70503,
 		t_level_1 = 136,
@@ -3183,7 +3183,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70504] = {
 		shiptype = 5,
-		name = "喀山",
+		name = "カザン",
 		nation = 7,
 		id = 70504,
 		t_level_1 = 131,
@@ -3194,7 +3194,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70701] = {
 		shiptype = 7,
-		name = "伏尔加",
+		name = "ヴォルガ",
 		nation = 7,
 		id = 70701,
 		t_level_1 = 137,
@@ -3205,7 +3205,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70702] = {
 		shiptype = 7,
-		name = "契卡洛夫",
+		name = "チカロフ",
 		nation = 7,
 		id = 70702,
 		t_level_1 = 138,
@@ -3216,7 +3216,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[70703] = {
 		shiptype = 7,
-		name = "纳希莫夫海军上将",
+		name = "アドミラル・ナヒーモフ",
 		nation = 7,
 		id = 70703,
 		t_level_1 = 139,
@@ -3227,7 +3227,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[71801] = {
 		shiptype = 18,
-		name = "喀琅施塔得",
+		name = "クロンシュタット",
 		nation = 7,
 		id = 71801,
 		t_level_1 = 138,
@@ -3238,7 +3238,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[80101] = {
 		shiptype = 1,
-		name = "空想级",
+		name = "ル・ファンタスク級",
 		nation = 8,
 		id = 80101,
 		t_level_1 = 132,
@@ -3250,7 +3250,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[80102] = {
 		shiptype = 1,
-		name = "大胆级",
+		name = "ラントレピード級",
 		nation = 8,
 		id = 80102,
 		t_level_1 = 133,
@@ -3262,7 +3262,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[80103] = {
 		shiptype = 1,
-		name = "机敏级",
+		name = "ラドロア級",
 		nation = 8,
 		id = 80103,
 		t_level_1 = 134,
@@ -3273,7 +3273,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[80104] = {
 		shiptype = 1,
-		name = "沃克兰级",
+		name = "ヴォークラン級",
 		nation = 8,
 		id = 80104,
 		t_level_1 = 131,
@@ -3284,7 +3284,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[80201] = {
 		shiptype = 2,
-		name = "埃米尔贝尔汀",
+		name = "エミール・ベルタン",
 		nation = 8,
 		id = 80201,
 		t_level_1 = 135,
@@ -3295,7 +3295,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[80202] = {
 		shiptype = 2,
-		name = "圣女贞德",
+		name = "ジャンヌ・ダルク",
 		nation = 8,
 		id = 80202,
 		t_level_1 = 132,
@@ -3306,7 +3306,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[80203] = {
 		shiptype = 2,
-		name = "德格拉斯级",
+		name = "ド・グラース級",
 		nation = 8,
 		id = 80203,
 		t_level_1 = 133,
@@ -3317,7 +3317,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[80204] = {
 		shiptype = 2,
-		name = "贝亚德",
+		name = "バヤール",
 		nation = 8,
 		id = 80204,
 		t_level_1 = 138,
@@ -3328,7 +3328,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[80301] = {
 		shiptype = 3,
-		name = "路易九世",
+		name = "サン・ルイ",
 		nation = 8,
 		id = 80301,
 		t_level_1 = 136,
@@ -3339,7 +3339,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[80302] = {
 		shiptype = 3,
-		name = "絮弗伦级",
+		name = "シュフラン級",
 		nation = 8,
 		id = 80302,
 		t_level_1 = 137,
@@ -3350,7 +3350,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[80303] = {
 		shiptype = 3,
-		name = "布伦努斯",
+		name = "ブレンヌス",
 		nation = 8,
 		id = 80303,
 		t_level_1 = 137,
@@ -3361,7 +3361,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[80501] = {
 		shiptype = 5,
-		name = "黎塞留级",
+		name = "リシュリュー級",
 		nation = 8,
 		id = 80501,
 		t_level_1 = 139,
@@ -3372,7 +3372,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[80502] = {
 		shiptype = 5,
-		name = "香槟",
+		name = "シャンパーニュ",
 		nation = 8,
 		id = 80502,
 		t_level_1 = 140,
@@ -3383,7 +3383,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[80503] = {
 		shiptype = 5,
-		name = "里昂级",
+		name = "リヨン級",
 		nation = 8,
 		id = 80503,
 		t_level_1 = 141,
@@ -3394,7 +3394,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[80504] = {
 		shiptype = 5,
-		name = "阿尔萨斯级",
+		name = "アルザス級",
 		nation = 8,
 		id = 80504,
 		t_level_1 = 1,
@@ -3405,7 +3405,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[80701] = {
 		shiptype = 7,
-		name = "贝亚恩",
+		name = "ベアルン",
 		nation = 8,
 		id = 80701,
 		t_level_1 = 138,
@@ -3416,7 +3416,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[80702] = {
 		shiptype = 7,
-		name = "霞飞级",
+		name = "ジョッフル級",
 		nation = 8,
 		id = 80702,
 		t_level_1 = 2,
@@ -3427,7 +3427,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[80801] = {
 		shiptype = 8,
-		name = "絮库夫",
+		name = "シュルクーフ",
 		nation = 8,
 		id = 80801,
 		t_level_1 = 137,
@@ -3438,7 +3438,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[81801] = {
 		shiptype = 18,
-		name = "布雷斯特",
+		name = "ブレスト",
 		nation = 8,
 		id = 81801,
 		t_level_1 = 138,
@@ -3449,7 +3449,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[90101] = {
 		shiptype = 1,
-		name = "空想级",
+		name = "ル・ファンタスク級",
 		nation = 9,
 		id = 90101,
 		t_level_1 = 132,
@@ -3462,7 +3462,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[90103] = {
 		shiptype = 1,
-		name = "机敏级",
+		name = "ラドロア級",
 		nation = 9,
 		id = 90103,
 		t_level_1 = 138,
@@ -3473,7 +3473,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[90104] = {
 		shiptype = 1,
-		name = "沃克兰级",
+		name = "ヴォークラン級",
 		nation = 9,
 		id = 90104,
 		t_level_1 = 131,
@@ -3486,7 +3486,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[90105] = {
 		shiptype = 1,
-		name = "莫加多尔级",
+		name = "モガドール級",
 		nation = 9,
 		id = 90105,
 		t_level_1 = 1,
@@ -3497,7 +3497,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[90106] = {
 		shiptype = 1,
-		name = "大胆级",
+		name = "ル・アルディ級",
 		nation = 9,
 		id = 90106,
 		t_level_1 = 133,
@@ -3509,7 +3509,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[90201] = {
 		shiptype = 2,
-		name = "拉·加利索尼埃",
+		name = "ラ・ガリソニエー",
 		nation = 9,
 		id = 90201,
 		t_level_1 = 135,
@@ -3521,7 +3521,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[90301] = {
 		shiptype = 3,
-		name = "阿尔及利亚",
+		name = "アルジェリー",
 		nation = 9,
 		id = 90301,
 		t_level_1 = 136,
@@ -3532,7 +3532,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[90302] = {
 		shiptype = 3,
-		name = "絮弗伦级",
+		name = "シュフラン級",
 		nation = 9,
 		id = 90302,
 		t_level_1 = 137,
@@ -3544,7 +3544,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[90401] = {
 		shiptype = 4,
-		name = "敦刻尔克级",
+		name = "ダンケルク級",
 		nation = 9,
 		id = 90401,
 		t_level_1 = 139,
@@ -3556,7 +3556,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[90501] = {
 		shiptype = 5,
-		name = "黎塞留级",
+		name = "リシュリュー級",
 		nation = 9,
 		id = 90501,
 		t_level_1 = 140,
@@ -3569,7 +3569,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[90502] = {
 		shiptype = 5,
-		name = "阿尔萨斯级",
+		name = "アルザス級",
 		nation = 9,
 		id = 90502,
 		t_level_1 = 1,
@@ -3580,7 +3580,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[90701] = {
 		shiptype = 7,
-		name = "霞飞级",
+		name = "ジョッフル級",
 		nation = 9,
 		id = 90701,
 		t_level_1 = 1,
@@ -3591,7 +3591,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[110101] = {
 		shiptype = 1,
-		name = "海军上将级",
+		name = "アドミラーレン級",
 		nation = 11,
 		id = 110101,
 		t_level_1 = 1,
@@ -3602,7 +3602,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[110201] = {
 		shiptype = 2,
-		name = "七省级",
+		name = "デ・ゼーヴェン・プロヴィンシェン級",
 		nation = 11,
 		id = 110201,
 		t_level_1 = 1,
@@ -3613,7 +3613,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[110301] = {
 		shiptype = 3,
-		name = "金狮",
+		name = "ハウデン・リーウ",
 		nation = 11,
 		id = 110301,
 		t_level_1 = 1,
@@ -3624,7 +3624,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[960001] = {
 		shiptype = 22,
-		name = "皇家财富号",
+		name = "ロイヤル・フォーチュン",
 		nation = 96,
 		id = 960001,
 		t_level_1 = 1,
@@ -3635,7 +3635,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[960002] = {
 		shiptype = 24,
-		name = "圣马丁号",
+		name = "サン・マルチーニョ",
 		nation = 96,
 		id = 960002,
 		t_level_1 = 1,
@@ -3646,7 +3646,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[960003] = {
 		shiptype = 23,
-		name = "金鹿号",
+		name = "ゴールデン・ハインド",
 		nation = 96,
 		id = 960003,
 		t_level_1 = 2,
@@ -3657,7 +3657,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[960004] = {
 		shiptype = 22,
-		name = "玛丽·西莱斯特号",
+		name = "メアリー・セレスト",
 		nation = 96,
 		id = 960004,
 		t_level_1 = 3,
@@ -3668,7 +3668,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[960005] = {
 		shiptype = 22,
-		name = "维达号",
+		name = "ウィダー",
 		nation = 96,
 		id = 960005,
 		t_level_1 = 4,
@@ -3679,7 +3679,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[960006] = {
 		shiptype = 23,
-		name = "加里冒险号",
+		name = "アドヴェンチャー・ギャレー",
 		nation = 96,
 		id = 960006,
 		t_level_1 = 5,
@@ -3690,7 +3690,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[960007] = {
 		shiptype = 24,
-		name = "冈依沙瓦号",
+		name = "ガンズウェイ",
 		nation = 96,
 		id = 960007,
 		t_level_1 = 1,
@@ -3701,7 +3701,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[960008] = {
 		shiptype = 23,
-		name = "幻想号",
+		name = "ファンシー",
 		nation = 96,
 		id = 960008,
 		t_level_1 = 1,
@@ -3712,7 +3712,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[960009] = {
 		shiptype = 22,
-		name = "和睦号",
+		name = "アミティ",
 		nation = 96,
 		id = 960009,
 		t_level_1 = 9,
@@ -3723,7 +3723,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[960010] = {
 		shiptype = 23,
-		name = "朴茨茅斯冒险号",
+		name = "ポーツマウス・アドベンチャー",
 		nation = 96,
 		id = 960010,
 		t_level_1 = 6,
@@ -3734,7 +3734,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[960011] = {
 		shiptype = 22,
-		name = "海豚号",
+		name = "ドルフィン",
 		nation = 96,
 		id = 960011,
 		t_level_1 = 10,
@@ -3745,7 +3745,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970101] = {
 		shiptype = 1,
-		name = "猎人·META",
+		name = "ハンター(META)",
 		nation = 97,
 		id = 970101,
 		t_level_1 = 1,
@@ -3756,7 +3756,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970102] = {
 		shiptype = 1,
-		name = "命运女神·META",
+		name = "フォーチュン(META)",
 		nation = 97,
 		id = 970102,
 		t_level_1 = 2,
@@ -3767,7 +3767,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970103] = {
 		shiptype = 1,
-		name = "旗风·META",
+		name = "旗風(META)",
 		nation = 97,
 		id = 970103,
 		t_level_1 = 1,
@@ -3778,7 +3778,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970104] = {
 		shiptype = 1,
-		name = "金伯利·META",
+		name = "キンバリー(META)",
 		nation = 97,
 		id = 970104,
 		t_level_1 = 1,
@@ -3789,7 +3789,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970105] = {
 		shiptype = 1,
-		name = "吸血鬼·META",
+		name = "ヴァンパイア(META)",
 		nation = 97,
 		id = 970105,
 		t_level_1 = 9,
@@ -3800,7 +3800,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970106] = {
 		shiptype = 1,
-		name = "霞·META",
+		name = "霞(META)",
 		nation = 97,
 		id = 970106,
 		t_level_1 = 6,
@@ -3811,7 +3811,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970107] = {
 		shiptype = 1,
-		name = "格伦维尔·META",
+		name = "グレンヴィル(META)",
 		nation = 97,
 		id = 970107,
 		t_level_1 = 16,
@@ -3822,7 +3822,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970108] = {
 		shiptype = 1,
-		name = "江风·META",
+		name = "江風(META)",
 		nation = 97,
 		id = 970108,
 		t_level_1 = 4,
@@ -3833,7 +3833,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970201] = {
 		shiptype = 2,
-		name = "海伦娜·META",
+		name = "ヘレナ(META)",
 		nation = 97,
 		id = 970201,
 		t_level_1 = 2,
@@ -3844,7 +3844,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970202] = {
 		shiptype = 2,
-		name = "孟菲斯·META",
+		name = "メンフィス(META)",
 		nation = 97,
 		id = 970202,
 		t_level_1 = 1,
@@ -3855,7 +3855,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970203] = {
 		shiptype = 2,
-		name = "谢菲尔德·META",
+		name = "シェフィールド(META)",
 		nation = 97,
 		id = 970203,
 		t_level_1 = 1,
@@ -3866,7 +3866,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970204] = {
 		shiptype = 2,
-		name = "拉·加利索尼埃·META",
+		name = "ラ·ガリソニエール(META)",
 		nation = 97,
 		id = 970204,
 		t_level_1 = 3,
@@ -3877,7 +3877,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970205] = {
 		shiptype = 2,
-		name = "神通·META",
+		name = "神通(META)",
 		nation = 97,
 		id = 970205,
 		t_level_1 = 4,
@@ -3888,7 +3888,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970206] = {
 		shiptype = 2,
-		name = "基洛夫·META",
+		name = "キーロフ(META)",
 		nation = 97,
 		id = 970206,
 		t_level_1 = 8,
@@ -3899,7 +3899,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970207] = {
 		shiptype = 2,
-		name = "水星纪念·META",
+		name = "パーミャチ・メルクーリヤ(META)",
 		nation = 97,
 		id = 970207,
 		t_level_1 = 3,
@@ -3910,7 +3910,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970301] = {
 		shiptype = 3,
-		name = "特伦托·META",
+		name = "トレント(META)",
 		nation = 97,
 		id = 970301,
 		t_level_1 = 1,
@@ -3921,7 +3921,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970302] = {
 		shiptype = 3,
-		name = "阿尔及利亚·META",
+		name = "アルジェリー(META)",
 		nation = 97,
 		id = 970302,
 		t_level_1 = 6,
@@ -3932,7 +3932,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970303] = {
 		shiptype = 3,
-		name = "福煦·META",
+		name = "フォッシュ(META)",
 		nation = 97,
 		id = 970303,
 		t_level_1 = 10,
@@ -3943,7 +3943,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970304] = {
 		shiptype = 3,
-		name = "威奇塔·META",
+		name = "ウィチタ(META)",
 		nation = 97,
 		id = 970304,
 		t_level_1 = 12,
@@ -3954,7 +3954,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970305] = {
 		shiptype = 3,
-		name = "希佩尔海军上将·META",
+		name = "アドミラル・ヒッパー(META)",
 		nation = 97,
 		id = 970305,
 		t_level_1 = 13,
@@ -3965,7 +3965,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970306] = {
 		shiptype = 3,
-		name = "博尔扎诺·META",
+		name = "ボルツァーノ(META)",
 		nation = 97,
 		id = 970306,
 		t_level_1 = 14,
@@ -3976,7 +3976,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970401] = {
 		shiptype = 4,
-		name = "格奈森瑙·META",
+		name = "グナイゼナウ(META)",
 		nation = 97,
 		id = 970401,
 		t_level_1 = 4,
@@ -3987,7 +3987,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970402] = {
 		shiptype = 4,
-		name = "沙恩霍斯特·META",
+		name = "シャルンホルスト(META)",
 		nation = 97,
 		id = 970402,
 		t_level_1 = 3,
@@ -3998,7 +3998,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970403] = {
 		shiptype = 4,
-		name = "反击·META",
+		name = "レパルス(META)",
 		nation = 97,
 		id = 970403,
 		t_level_1 = 4,
@@ -4009,7 +4009,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970404] = {
 		shiptype = 4,
-		name = "声望·META",
+		name = "レナウン(META)",
 		nation = 97,
 		id = 970404,
 		t_level_1 = 5,
@@ -4020,7 +4020,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970405] = {
 		shiptype = 4,
-		name = "比叡·META",
+		name = "比叡(META)",
 		nation = 97,
 		id = 970405,
 		t_level_1 = 11,
@@ -4031,7 +4031,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970501] = {
 		shiptype = 5,
-		name = "扶桑·META",
+		name = "扶桑(META)",
 		nation = 97,
 		id = 970501,
 		t_level_1 = 6,
@@ -4042,7 +4042,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970502] = {
 		shiptype = 5,
-		name = "山城·META",
+		name = "山城(META)",
 		nation = 97,
 		id = 970502,
 		t_level_1 = 2,
@@ -4053,7 +4053,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970503] = {
 		shiptype = 5,
-		name = "亚利桑那·META",
+		name = "アリゾナ(META)",
 		nation = 97,
 		id = 970503,
 		t_level_1 = 2,
@@ -4064,7 +4064,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970504] = {
 		shiptype = 5,
-		name = "伊丽莎白女王·META",
+		name = "クイーン·エリザベス(META)",
 		nation = 97,
 		id = 970504,
 		t_level_1 = 5,
@@ -4075,7 +4075,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970505] = {
 		shiptype = 5,
-		name = "罗德尼·META",
+		name = "ロドニー(META)",
 		nation = 97,
 		id = 970505,
 		t_level_1 = 5,
@@ -4086,7 +4086,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970506] = {
 		shiptype = 5,
-		name = "长门·META",
+		name = "長門(META)",
 		nation = 97,
 		id = 970506,
 		t_level_1 = 2,
@@ -4097,7 +4097,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970507] = {
 		shiptype = 5,
-		name = "朱利奥·凯撒·META",
+		name = "ジュリオ·チェザーレ(META)",
 		nation = 97,
 		id = 970507,
 		t_level_1 = 6,
@@ -4108,7 +4108,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970508] = {
 		shiptype = 5,
-		name = "安德烈亚·多利亚·META",
+		name = "アンドレア・ドーリア(META)",
 		nation = 97,
 		id = 970508,
 		t_level_1 = 15,
@@ -4119,7 +4119,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970509] = {
 		shiptype = 5,
-		name = "内华达·META",
+		name = "ネバダ(META)",
 		nation = 97,
 		id = 970509,
 		t_level_1 = 14,
@@ -4130,7 +4130,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970601] = {
 		shiptype = 6,
-		name = "飞鹰·META",
+		name = "飛鷹(META)",
 		nation = 97,
 		id = 970601,
 		t_level_1 = 7,
@@ -4141,7 +4141,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970602] = {
 		shiptype = 6,
-		name = "隼鹰·META",
+		name = "隼鷹(META)",
 		nation = 97,
 		id = 970602,
 		t_level_1 = 8,
@@ -4152,7 +4152,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970603] = {
 		shiptype = 6,
-		name = "普林斯顿·META",
+		name = "プリンストン(META)",
 		nation = 97,
 		id = 970603,
 		t_level_1 = 11,
@@ -4163,7 +4163,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970604] = {
 		shiptype = 6,
-		name = "凤翔·META",
+		name = "鳳翔(META)",
 		nation = 97,
 		id = 970604,
 		t_level_1 = 3,
@@ -4174,7 +4174,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970701] = {
 		shiptype = 7,
-		name = "飞龙·META",
+		name = "飛龍(META)",
 		nation = 97,
 		id = 970701,
 		t_level_1 = 9,
@@ -4185,7 +4185,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970702] = {
 		shiptype = 7,
-		name = "皇家方舟·META",
+		name = "アーク·ロイヤル(META)",
 		nation = 97,
 		id = 970702,
 		t_level_1 = 10,
@@ -4196,7 +4196,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970703] = {
 		shiptype = 7,
-		name = "苍龙·META",
+		name = "蒼龍(META)",
 		nation = 97,
 		id = 970703,
 		t_level_1 = 3,
@@ -4207,7 +4207,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970704] = {
 		shiptype = 7,
-		name = "贝亚恩·META",
+		name = "ベアルン(META)",
 		nation = 97,
 		id = 970704,
 		t_level_1 = 5,
@@ -4218,7 +4218,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970705] = {
 		shiptype = 7,
-		name = "大凤·META",
+		name = "大鳳(META)",
 		nation = 97,
 		id = 970705,
 		t_level_1 = 3,
@@ -4229,7 +4229,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970706] = {
 		shiptype = 7,
-		name = "大黄蜂·META",
+		name = "ホーネット(META)",
 		nation = 97,
 		id = 970706,
 		t_level_1 = 13,
@@ -4240,7 +4240,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970707] = {
 		shiptype = 7,
-		name = "光荣·META",
+		name = "グロリアス(META)",
 		nation = 97,
 		id = 970707,
 		t_level_1 = 17,
@@ -4251,7 +4251,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970801] = {
 		shiptype = 8,
-		name = "U-556·META",
+		name = "U-556(META)",
 		nation = 97,
 		id = 970801,
 		t_level_1 = 4,
@@ -4262,7 +4262,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[971201] = {
 		shiptype = 12,
-		name = "女灶神·META",
+		name = "ヴェスタル(META)",
 		nation = 97,
 		id = 971201,
 		t_level_1 = 3,
@@ -4273,7 +4273,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[971301] = {
 		shiptype = 13,
-		name = "黑暗界·META",
+		name = "ハンター(META)",
 		nation = 97,
 		id = 971301,
 		t_level_1 = 7,

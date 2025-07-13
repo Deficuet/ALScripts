@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_12 = {
 	[90326] = {
 		cannon = 0,
-		name = "诺福克",
+		name = "ノーフォーク",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -169,7 +169,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90327] = {
 		cannon = 0,
-		name = "约克公爵",
+		name = "デューク·オブ·ヨーク",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -323,7 +323,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90328] = {
 		cannon = 0,
-		name = "神风",
+		name = "カミカゼ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -479,7 +479,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90329] = {
 		cannon = 0,
-		name = "松风",
+		name = "マツカゼ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -635,7 +635,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90330] = {
 		cannon = 0,
-		name = "扶桑",
+		name = "フソウ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -792,7 +792,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90331] = {
 		cannon = 0,
-		name = "山城",
+		name = "ヤマシロ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -962,7 +962,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90332] = {
 		cannon = 0,
-		name = "大凤",
+		name = "タイホウ",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1116,7 +1116,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90333] = {
 		cannon = 0,
-		name = "旗风",
+		name = "ハタカゼ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1270,7 +1270,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90334] = {
 		cannon = 0,
-		name = "那珂",
+		name = "ナカ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1424,7 +1424,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90335] = {
 		cannon = 0,
-		name = "加贺",
+		name = "カガ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1571,7 +1571,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90336] = {
 		cannon = 0,
-		name = "卷波",
+		name = "マキナミ",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1725,7 +1725,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90337] = {
 		cannon = 0,
-		name = "足柄",
+		name = "アシガラ",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1892,7 +1892,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90338] = {
 		cannon = 0,
-		name = "天城",
+		name = "アマギ",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2046,7 +2046,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90339] = {
 		cannon = 0,
-		name = "埃塞克斯",
+		name = "エセックス",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2494,7 +2494,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90342] = {
 		cannon = 0,
-		name = "岸防舰",
+		name = "海防戦艦",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2656,7 +2656,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90343] = {
 		cannon = 0,
-		name = "铃谷",
+		name = "スズヤ",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2833,7 +2833,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90344] = {
 		cannon = 0,
-		name = "矶风",
+		name = "イソカゼ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2987,7 +2987,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90345] = {
 		cannon = 0,
-		name = "浦风",
+		name = "ウラカゼ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3141,7 +3141,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90346] = {
 		cannon = 0,
-		name = "最上改",
+		name = "モガミ改",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3295,7 +3295,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90347] = {
 		cannon = 0,
-		name = "绊爱（伪）",
+		name = "ニセキズナアイ ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3442,7 +3442,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90348] = {
 		cannon = 0,
-		name = "运运",
+		name = "チュンチュン",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3607,7 +3607,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90349] = {
 		cannon = 0,
-		name = "獒酱",
+		name = "高雄ちゃん",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3774,7 +3774,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90350] = {
 		cannon = 0,
-		name = "欧根酱",
+		name = "プリンチャン",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3941,7 +3941,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90351] = {
 		cannon = 0,
-		name = "鹬酱",
+		name = "しょうちゃん",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4081,7 +4081,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90352] = {
 		cannon = 0,
-		name = "绊爱（伪）",
+		name = "ニセキズナアイ",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4228,7 +4228,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90353] = {
 		cannon = 0,
-		name = "绊爱（伪）",
+		name = "ニセキズナアイ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4375,7 +4375,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90354] = {
 		cannon = 0,
-		name = "绊爱（伪）",
+		name = "ニセキズナアイ",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4522,7 +4522,7 @@ pg.enemy_data_statistics_12 = {
 	},
 	[90355] = {
 		cannon = 0,
-		name = "绊爱（巨大化）",
+		name = "巨大化キズナアイ",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,

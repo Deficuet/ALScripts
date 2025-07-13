@@ -2,9 +2,9 @@ local var_0_0 = class("PrayPoolSelectShipView", import("..base.BaseSubView"))
 
 var_0_0.WIDTH_MIN = 328
 var_0_0.WIDTH_MAX = 438
-var_0_0.FONT_SIZE_MIN = 55
-var_0_0.FONT_SIZE_MID = 44
-var_0_0.FONT_SIZE_MAX = 34
+var_0_0.FONT_SIZE_MIN = 51
+var_0_0.FONT_SIZE_MID = 40
+var_0_0.FONT_SIZE_MAX = 32
 
 function var_0_0.getUIName(arg_1_0)
 	return "PrayPoolSelectShipView"
@@ -279,7 +279,7 @@ function var_0_0.updateMax(arg_15_0)
 
 			local var_15_11 = pg.ship_data_statistics[var_15_2].name
 
-			setText(var_15_8, var_15_11)
+			setText(var_15_8, shortenString(var_15_11, 8))
 
 			local var_15_12 = var_15_8.localPosition
 			local var_15_13 = #var_15_11

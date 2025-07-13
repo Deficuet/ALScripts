@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "跟着目标一步步进行养成计划吧",
+				text = "まずは「育成目標」をタップしましょう",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -30,7 +30,7 @@ return {
 			alpha = 0.4,
 			waitScene = "EducateTargetLayer",
 			style = {
-				text = "点击领取任务奖励",
+				text = "タップで報酬を獲得してください",
 				mode = 2,
 				posY = 0,
 				char = 1,
@@ -52,7 +52,7 @@ return {
 			alpha = 0,
 			waitScene = "EducateAwardInfoLayer",
 			style = {
-				text = "点击空白处关闭",
+				text = "画面をタップして戻りましょう",
 				mode = 2,
 				posY = -350,
 				char = 1,
@@ -72,7 +72,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "在设定成长目标前，需要先了解一下养成计划中的基础信息。",
+				text = "ここでは育成の目標を設定できます。まずは各種ステータスを確認しましょう",
 				mode = 2,
 				posY = -350,
 				char = 1,

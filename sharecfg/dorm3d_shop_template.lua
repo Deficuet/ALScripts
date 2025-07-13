@@ -28,7 +28,7 @@ pg.dorm3d_shop_template = setmetatable({
 pg.base = pg.base or {}
 pg.base.dorm3d_shop_template = {
 	{
-		name = "甜蜜心事",
+		name = "スイートシークレット",
 		rarity = 4,
 		item_id = 121,
 		type = 1,
@@ -49,7 +49,7 @@ pg.base.dorm3d_shop_template = {
 		}
 	},
 	{
-		name = "午后遐乡",
+		name = "午後の夢郷",
 		rarity = 4,
 		item_id = 122,
 		type = 1,
@@ -70,7 +70,7 @@ pg.base.dorm3d_shop_template = {
 		}
 	},
 	{
-		name = "柔软怀抱",
+		name = "タヌクッション",
 		rarity = 4,
 		item_id = 221,
 		type = 1,
@@ -92,7 +92,7 @@ pg.base.dorm3d_shop_template = {
 		}
 	},
 	{
-		name = "对坐之谈",
+		name = "逢瀬の机",
 		rarity = 4,
 		item_id = 222,
 		type = 1,
@@ -114,7 +114,7 @@ pg.base.dorm3d_shop_template = {
 		}
 	},
 	{
-		name = "圣诞雪橇沙发套组",
+		name = "聖夜のソリソファ",
 		rarity = 5,
 		item_id = 151,
 		type = 1,
@@ -133,7 +133,7 @@ pg.base.dorm3d_shop_template = {
 		}
 	},
 	{
-		name = "暖意入梦",
+		name = "ぬくぬくこたつ",
 		rarity = 5,
 		item_id = 251,
 		type = 1,
@@ -152,7 +152,7 @@ pg.base.dorm3d_shop_template = {
 		}
 	},
 	{
-		name = "童心下午茶",
+		name = "ピュアティータイム",
 		rarity = 4,
 		item_id = 321,
 		type = 1,
@@ -174,7 +174,7 @@ pg.base.dorm3d_shop_template = {
 		}
 	},
 	{
-		name = "星河满船",
+		name = "星々の遊船",
 		rarity = 4,
 		item_id = 322,
 		type = 1,
@@ -196,7 +196,7 @@ pg.base.dorm3d_shop_template = {
 		}
 	},
 	{
-		name = "清扫工具箱",
+		name = "清掃ツールボックス",
 		rarity = 4,
 		item_id = 2022001,
 		type = 2,
@@ -217,7 +217,7 @@ pg.base.dorm3d_shop_template = {
 		}
 	},
 	{
-		name = "茶享套装",
+		name = "ロイヤルティーセット",
 		rarity = 4,
 		item_id = 2022002,
 		type = 2,
@@ -238,7 +238,7 @@ pg.base.dorm3d_shop_template = {
 		}
 	},
 	{
-		name = "素色物语 ",
+		name = "素直ローファー",
 		rarity = 4,
 		item_id = 3022101,
 		type = 2,
@@ -259,7 +259,7 @@ pg.base.dorm3d_shop_template = {
 		}
 	},
 	{
-		name = "彩虹心语",
+		name = "なないろ気持ち",
 		rarity = 4,
 		item_id = 1990301,
 		type = 2,
@@ -280,7 +280,7 @@ pg.base.dorm3d_shop_template = {
 		}
 	},
 	{
-		name = "浪漫满分",
+		name = "満点のロマンチック",
 		rarity = 3,
 		item_id = 1021002,
 		type = 2,
@@ -303,7 +303,7 @@ pg.base.dorm3d_shop_template = {
 		}
 	},
 	{
-		name = "蛋糕礼盒",
+		name = "ケーキギフトボックス",
 		rarity = 3,
 		item_id = 1021003,
 		type = 2,
@@ -323,7 +323,7 @@ pg.base.dorm3d_shop_template = {
 		}
 	},
 	{
-		name = "天狼星沙滩邀请函",
+		name = "シリアス・砂浜開放",
 		rarity = 4,
 		item_id = 4,
 		type = 3,
@@ -343,7 +343,7 @@ pg.base.dorm3d_shop_template = {
 		}
 	},
 	{
-		name = "{namecode:50}沙滩邀请函",
+		name = "能代・砂浜開放",
 		rarity = 4,
 		item_id = 4,
 		type = 3,
@@ -362,7 +362,7 @@ pg.base.dorm3d_shop_template = {
 		}
 	},
 	{
-		name = "安克雷奇沙滩邀请函",
+		name = "アンカレッジ・砂浜開放",
 		rarity = 4,
 		item_id = 4,
 		type = 3,
@@ -381,7 +381,7 @@ pg.base.dorm3d_shop_template = {
 		}
 	},
 	{
-		name = "能量修复仪",
+		name = "フットマッサージャー",
 		rarity = 4,
 		item_id = 3022102,
 		type = 2,
@@ -402,7 +402,7 @@ pg.base.dorm3d_shop_template = {
 		}
 	},
 	{
-		name = "星球一隅",
+		name = "星空のコーナー",
 		rarity = 4,
 		item_id = 1151,
 		type = 1,
@@ -424,7 +424,7 @@ pg.base.dorm3d_shop_template = {
 		}
 	},
 	{
-		name = "水晶糖",
+		name = "水晶キャンディ",
 		rarity = 4,
 		item_id = 1051701,
 		type = 2,
@@ -445,7 +445,7 @@ pg.base.dorm3d_shop_template = {
 		}
 	},
 	{
-		name = "{namecode:199}咖啡馆邀请函",
+		name = "カフェ招待状NJ",
 		rarity = 4,
 		item_id = 16,
 		type = 3,

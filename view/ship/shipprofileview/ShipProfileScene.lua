@@ -63,6 +63,9 @@ function var_0_0.init(arg_6_0)
 	arg_6_0.top = arg_6_0:findTF("blur_panel/adapt/top")
 	arg_6_0.btnBack = arg_6_0:findTF("back", arg_6_0.top)
 	arg_6_0.bottomTF = arg_6_0:findTF("bottom")
+
+	setActive(arg_6_0.bottomTF, false)
+
 	arg_6_0.labelHeart = arg_6_0:findTF("adapt/detail_left_panel/heart/label", arg_6_0.blurPanel)
 	arg_6_0.btnLike = arg_6_0:findTF("adapt/detail_left_panel/heart/btnLike", arg_6_0.blurPanel)
 	arg_6_0.btnChangeSkin = arg_6_0:findTF("adapt/detail_left_panel/change_skin", arg_6_0.blurPanel)
@@ -263,8 +266,7 @@ end
 function var_0_0.InitCommon(arg_24_0)
 	arg_24_0:LoadSkinBg(arg_24_0.shipGroup:rarity2bgPrintForGet(arg_24_0.showTrans))
 	setImageSprite(arg_24_0.shipType, GetSpriteFromAtlas("shiptype", arg_24_0.shipGroup:getShipType(arg_24_0.showTrans)))
-
-	arg_24_0.labelName.text = arg_24_0.shipGroup:getName(arg_24_0.showTrans)
+	setScrollText(tf(arg_24_0.labelName), arg_24_0.shipGroup:getName(arg_24_0.showTrans))
 
 	local var_24_0 = arg_24_0.shipGroup.shipConfig
 

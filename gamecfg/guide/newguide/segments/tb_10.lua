@@ -6,7 +6,7 @@ return {
 			alpha = 0,
 			waitScene = "EducateAwardInfoLayer",
 			style = {
-				text = "点击空白处关闭",
+				text = "画面をタップして戻りましょう",
 				mode = 2,
 				posY = -350,
 				char = 1,
@@ -26,7 +26,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "点击空白处关闭窗口",
+				text = "画面をタップして戻りましょう窗口",
 				mode = 2,
 				posY = -350,
 				char = 1,
@@ -45,7 +45,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "在养成过程中进行各种操作，都有可能获得<color=#39bfff>特殊状态</color>。",
+				text = "育成中、TBは様々な特殊状態になることがあります",
 				mode = 2,
 				dir = -1,
 				char = 1,

@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_21 = {
 	[90628] = {
 		cannon = 0,
-		name = "潜伏者III型",
+		name = "ダイバーⅢ型",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -148,7 +148,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90629] = {
 		cannon = 0,
-		name = "奥丁",
+		name = "オーディン",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -304,7 +304,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90630] = {
 		cannon = 0,
-		name = "罗恩",
+		name = "ローン",
 		type = 3,
 		speed_growth = 0,
 		air_growth = 0,
@@ -460,7 +460,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90631] = {
 		cannon = 0,
-		name = "美因茨",
+		name = "マインツ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -616,7 +616,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90632] = {
 		cannon = 0,
-		name = "奥古斯特·冯·帕塞瓦尔",
+		name = "アウグスト・フォン・パーセヴァル",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -758,7 +758,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90633] = {
 		cannon = 0,
-		name = "埃吉尔",
+		name = "エーギル",
 		type = 18,
 		speed_growth = 0,
 		air_growth = 0,
@@ -907,7 +907,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90634] = {
 		cannon = 0,
-		name = "构建体H-A-1",
+		name = "構造体H-A-1",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1063,7 +1063,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90635] = {
 		cannon = 0,
-		name = "航母「Queen」-初始型",
+		name = "空母「Queen」初期型",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1232,7 +1232,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90636] = {
 		cannon = 0,
-		name = "潜艇「Assassin」-初始型",
+		name = "潜水艦「Assassin」初期型",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1383,7 +1383,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90637] = {
 		cannon = 0,
-		name = "自爆船「Buster」-初始型",
+		name = "自爆ボート「Buster」初期型",
 		type = 16,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1529,7 +1529,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90638] = {
 		cannon = 0,
-		name = "贾维斯",
+		name = "ジャーヴィス",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1683,7 +1683,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90639] = {
 		cannon = 0,
-		name = "司战女神",
+		name = "ベローナ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1839,7 +1839,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90640] = {
 		cannon = 0,
-		name = "复仇",
+		name = "リヴェンジ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -1995,7 +1995,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90641] = {
 		cannon = 0,
-		name = "不挠",
+		name = "インドミタブル",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2142,7 +2142,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90642] = {
 		cannon = 0,
-		name = "前卫",
+		name = "ヴァンガード",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2299,7 +2299,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90643] = {
 		cannon = 0,
-		name = "豪",
+		name = "ハウ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2456,7 +2456,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90644] = {
 		cannon = 0,
-		name = "君主",
+		name = "モナーク",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2606,7 +2606,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90645] = {
 		cannon = 0,
-		name = "反击·META",
+		name = "レパルス(META)",
 		type = 4,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2775,7 +2775,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90646] = {
 		cannon = 0,
-		name = "进取",
+		name = "エンタープライズ",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -2931,7 +2931,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90647] = {
 		cannon = 0,
-		name = "不屈",
+		name = "ランドンターブル",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3087,7 +3087,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90648] = {
 		cannon = 0,
-		name = "霞飞",
+		name = "ジョッフル",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3236,7 +3236,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90649] = {
 		cannon = 0,
-		name = "天鹰级量产型",
+		name = "量産型アクィラ級",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3405,7 +3405,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90650] = {
 		cannon = 0,
-		name = "马可尼级量产型",
+		name = "量産型グリエルモ・マルコーニ級",
 		type = 8,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3556,7 +3556,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90651] = {
 		cannon = 0,
-		name = "海王星",
+		name = "ネプチューン",
 		type = 2,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3712,7 +3712,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90652] = {
 		cannon = 0,
-		name = "女灶神",
+		name = "ヴェスタル",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -3881,7 +3881,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90653] = {
 		cannon = 0,
-		name = "竞技神",
+		name = "ハーミーズ",
 		type = 7,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4030,7 +4030,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90654] = {
 		cannon = 0,
-		name = "丘比特",
+		name = "ジュピター",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4199,7 +4199,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90655] = {
 		cannon = 0,
-		name = "天后",
+		name = "ジュノー",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4368,7 +4368,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90656] = {
 		cannon = 0,
-		name = "罗马",
+		name = "ローマ",
 		type = 5,
 		speed_growth = 0,
 		air_growth = 0,
@@ -4518,7 +4518,7 @@ pg.enemy_data_statistics_21 = {
 	},
 	[90657] = {
 		cannon = 0,
-		name = "狮级量产型-灵魂态？",
+		name = "量産型ライオン級の幻？",
 		type = 1,
 		speed_growth = 0,
 		air_growth = 0,

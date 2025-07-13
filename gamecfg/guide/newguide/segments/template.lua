@@ -7,7 +7,7 @@ return {
 			alpha = 0.4,
 			waitScene = "NewMainScene",
 			style = {
-				text = "指挥官，军部为港区派遣了能够在水下作战的舰娘协助我们，快去迎接一下新的伙伴吧",
+				text = "水面下で戦闘できる艦船が新たに転属してきました。新しい仲間を迎えに行きましょう",
 				mode = 1,
 				scene = "BIANDUI",
 				posY = -110,

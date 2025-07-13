@@ -10,7 +10,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击生活区",
+				text = "「母港」をタップしよう！",
 				mode = 4,
 				dir = 1,
 				char = "char",
@@ -32,12 +32,12 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击宿舍计划",
+				text = "「交流」をタップしよう！",
 				mode = 4,
 				dir = 1,
 				char = "char",
 				posY = -326,
-				posX = 338,
+				posX = 260,
 				uiset = {}
 			},
 			ui = {
@@ -49,12 +49,12 @@ return {
 			delay = 1.5,
 			alpha = 0.4,
 			style = {
-				text = "点击宿舍",
+				text = "「宿舎」をタップしよう！",
 				mode = 4,
 				dir = 1,
 				char = "char",
 				posY = -136,
-				posX = 238,
+				posX = 116,
 				uiset = {}
 			},
 			ui = {
@@ -66,12 +66,12 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "下载所需资源后即可进入对应角色宿舍",
+				text = "アセットをダウンロードしたら艦船の部屋に入れるわ！",
 				mode = 4,
 				dir = 1,
 				char = "char",
 				posY = -135,
-				posX = 0,
+				posX = -340,
 				uiset = {
 					{
 						lineMode = 1,

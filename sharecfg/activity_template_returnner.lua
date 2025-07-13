@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_template_returnner = {
-	[300] = {
-		id = 300,
+	[10251] = {
+		id = 10251,
 		level = 15,
 		unlogin_time = {
 			{
@@ -1037,7 +1037,7 @@ pg.activity_template_returnner = {
 		}
 	},
 	all = {
-		300,
+		10251,
 		369,
 		590,
 		687,

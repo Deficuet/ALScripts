@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.6,
 			style = {
-				text = "室外娱乐区重建完成，解锁功能「假日大浴场」  ",
+				text = "室外娯楽エリアの再建が完了したわ！機能「リゾート大浴場」が開放されたわよ  ",
 				mode = 2,
 				dir = -1,
 				char = "char",
